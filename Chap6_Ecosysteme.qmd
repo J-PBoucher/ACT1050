@@ -4,11 +4,7 @@ date: 01/05/2026
 date-modified: last-modified
 ---
 
-
-
 # Ecosystème de l'assurance
-
----
 
 ### Objectifs du chapitre {-}
 
