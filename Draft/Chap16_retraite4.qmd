@@ -1,0 +1,324 @@
+---
+toc: false
+date: 03/15/2026
+date-modified: last-modified
+---
+
+#  Régimes de retraite collectifs privés
+
+### Objectifs du chapitre {-}
+
+## Introduction
+
+
+
+
+## Régime à prestations déterminées
+
+En matière de régimes de retraite, on observe deux approches fondamentales:
+
+- Une première approche consiste à promettre à l’employé une rente de retraite prédéterminée, dont les paramètres (montant du versement, moment du début des paiements, forme de la rente, etc.) sont établis en fonction de certains éléments comme le salaire gagné au cours de la carrière, le nombre d’années de service, l’âge de la retraite ou encore la présence de régimes publics. Il s’agit des régimes à prestations déterminées. L’objectif principal de ce type de régime est généralement de remplacer une proportion du revenu de travail à la retraite.
+
+- Une seconde approche consiste plutôt à faire accumuler une épargne pendant la carrière active. L’employeur et l’employé versent des cotisations dans un compte au nom de l’employé, et les sommes accumulées, incluant les revenus de placement, servent à financer le revenu de retraite. Au moment de la retraite, cette épargne peut notamment être utilisée pour acheter une rente ou être retirée progressivement. Il s’agit des régimes à cotisations déterminées. Dans ce cas, l’objectif est d’accumuler un capital en vue de la retraite, sans que l’employeur ne garantisse un niveau précis de revenu de retraite ni un rendement sur les sommes investies.
+
+- La plupart des autres types de régimes de retraite peuvent être vus comme des variantes ou des combinaisons de ces deux approches.
+
+Dans la présente section, nous nous intéresserons d’abord aux régimes à prestations déterminées, qui ont longtemps constitué la forme dominante de régime de retraite dans les grandes organisations. Nous couvrirons les régimes à cotisations déterminées dans la section suivante.
+
+### Objectif et cible
+
+L’objectif fondamental d’un régime à prestations déterminées est de fournir, conjointement avec les régimes publics de retraite, un revenu de retraite correspondant à une certaine proportion du revenu gagné avant la retraite. Cette proportion est appelée le taux de remplacement du revenu.  Dans la conception d’un régime de retraite d’employeur, on fixe généralement un taux de remplacement cible pour l’ensemble des sources de revenu de retraite. Les prestations provenant des régimes publics, comme le Régime de rentes du Québec, sont alors prises en compte dans la détermination de la prestation fournie par le régime d’employeur.
+
+Le régime d’employeur est donc souvent conçu de manière à compléter les prestations des régimes publics afin d’atteindre la cible globale de remplacement du revenu. Dans ce contexte, les formules de rente tiennent fréquemment compte du fait que les régimes publics ne couvrent qu’une portion du salaire, généralement limitée par un plafond de gains admissibles. Pour cette raison, plusieurs régimes à prestations déterminées utilisent des formules de rente comportant deux taux d’accumulation distincts : un taux applicable à la portion du salaire jusqu’au maximum des gains admissibles du Régime de rentes du Québec, et un taux plus élevé applicable à la portion du salaire qui dépasse ce maximum.
+
+::: {#exm-5 .custom}
+On suppose qu’un régime de retraite vise un taux de remplacement du revenu de 70 % à la retraite. Le Régime de rentes du Québec (RRQ) verse une rente correspondant approximativement à 25 % du salaire de carrière indexé, mais seulement jusqu’au maximum des gains admissibles (MGA).  On peut donc voir que l'employeur doit considérer le salaire sous le MGA, et le salaire au-dessus du MGA:
+
+- Sur la portion du salaire jusqu’au MGA, le régime d’employeur doit donc compléter 70\% − 25\% = 45\% du salaire. Si l’on suppose une carrière de 35 ans, cette rente doit être accumulée progressivement pendant la carrière. Le crédit de rente annuel doit donc être d’environ 45\%/35 ≈ 1,3\% du salaire par année de participation.
+
+- Sur la portion du salaire qui dépasse le MGA, aucune rente n’est versée par le RRQ. Le régime d’employeur doit donc fournir la totalité du taux de remplacement visé, soit 70 %. Sur une carrière de 35 ans, cela correspond à 70\%/35 = 2\% du salaire par année.
+
+On obtient ainsi une formule de rente typique des régimes coordonnés avec le RRQ, soit:
+
+- 1,3\% du salaire jusqu’au MGA pour chaque année de participation ;
+- 2\% du salaire excédant le MGA pour chaque année de participation.
+
+:::
+
+
+
+
+#### Types de régimes à prestations déterminées
+
+Dans le cas d’un régime à prestations déterminées, l’employeur s’engage à ce que le régime verse à l’employé, au moment de sa retraite, une rente déterminée selon une formule qui tient compte habituellement des éléments suivants :
+
+- Un salaire de référence; typiquement :
+
+  1. Le salaire moyen gagné au cours de l’ensemble de la carrière → on aura alors un régime dit « à salaire de carrière » ;
+
+  2. Le salaire moyen au cours de l’ensemble de la carrière, avec indexation des salaires entre l’année où le salaire est gagné et la dernière année de travail, l’indexation se faisant en fonction d’un indice qui reflète l’inflation mais non les vraies augmentations de salaire gagnées par l’employé → on aura alors un régime dit « à salaire de carrière indexé » ;
+
+  3. Le salaire moyen au cours de l’ensemble de la carrière, avec remplacement du salaire gagné au cours d’une certaine année par le salaire d’une année ultérieure, à la discrétion de l’employeur → on aura alors un régime dit « à salaire de carrière avec revalorisation « ad hoc » ;
+
+  4. Le salaire moyen gagné au cours des 3 ou 5 dernières années de la carrière → on aura alors un régime dit « à salaire final » ;
+
+  5. Le salaire moyen gagné au cours des 3 ou 5 meilleures années consécutives de la carrière → on aura alors un régime dit « à salaire final », car on suppose que les meilleures années seront les dernières.
+
+- Le nombre d’années de participation au régime (autrefois, il pouvait y avoir une différence importante entre les années de participation et les années de service ; ce n’est plus vraiment le cas car les lois ne permettent plus de faire attendre plus de deux ans à un employé à temps plein avant de participer au régime)
+
+Certains régimes dits « à prestations forfaitaires » prévoient une rente égale à un montant fixe multiplié par le nombre d’années de service. Ces régimes sont assez rares.
+
+Voici maintenant quelques exemples simples des différentes formules de rente définies précédemment :
+
+1. Rente = 1,6 % du salaire gagné au cours de chacune des années de participation au régime (régime à salaire de carrière) ;
+
+2. Rente = 1,6 % du salaire gagné au cours de chacune des années de participation au régime (régime à salaire de carrière), avec indexation selon la variation de l’indice des prix à la consommation entre l’année où le salaire a été gagné et l’année de cessation d’emploi (régime à salaire de carrière indexé) ;
+
+3. Rente = 1,6 % du salaire gagné au cours de chacune des années de participation au régime (régime à salaire de carrière), les salaires antérieurs à 2010 étant ramenés au niveau de 2005 (régime à salaire de carrière avec revalorisation ad hoc, la dernière revalorisation portant sur le salaire de 2005) ;
+
+4. Rente = 1,6 % du salaire moyen gagné au cours des cinq années précédant la cessation d’emploi, pour chaque année de participation au régime (régime à salaire final) ;
+
+5. Rente = 1,6 % du salaire moyen gagné au cours des cinq meilleures années consécutives, pour chaque année de participation au régime (régime à meilleur salaire ou à salaire final) ;
+
+Les données présentées au tableau de la page suivante permettent de comparer les résultats de ces différentes formules. Ce tableau illustre la carrière d’un actuaire qui passe toute sa carrière auprès d’un même employeur et dont le salaire augmente assez rapidement dans une période de forte inflation, puis se met à varier dans les années 2000, au gré des vicissitudes du marché dans lequel il évolue. Les régimes 1, 2, 3, 4 et 5 sont les régimes décrits ci-dessus.
+
+
+
+
+
+### Changement d'employeurs
+
+Lorsqu’un employé quitte son emploi, le régime de retraite doit généralement lui offrir un choix entre :
+
+- conserver une **rente différée**, qui sera versée à la retraite selon les conditions du régime;
+- recevoir une **valeur de transfert**, c’est-à-dire la valeur actualisée de la rente accumulée.
+
+Cette valeur peut être transférée :
+
+- vers le régime de retraite du nouvel employeur (si celui-ci accepte les transferts);
+- vers un véhicule d’épargne individuel immobilisé, comme un CRI (compte de retraite immobilisé) au Canada;
+- plus rarement, vers un REER, selon les règles fiscales applicables.
+
+#### **Que font les employés en pratique?** {-}
+
+En pratique, plusieurs employés choisissent de transférer la valeur dans un compte immobilisé, afin de regrouper leurs droits de retraite et de conserver un certain contrôle sur les placements. Toutefois, ce choix dépend de plusieurs facteurs :
+
+- la stabilité anticipée de la carrière;
+- la qualité du régime du nouvel employeur;
+- la tolérance au risque de l’employé;
+- les conditions de transfert (taux d’intérêt, hypothèses actuarielles).
+
+Conserver la rente différée est souvent avantageux lorsque le régime d’origine est généreux ou offre une indexation.
+
+#### **Cadre légal** {-}
+
+Au Canada, la législation encadre fortement ces choix :
+
+- le droit à la rente est généralement acquis rapidement (souvent immédiatement);
+- les montants transférés sont habituellement **immobilisés**, c’est-à-dire qu’ils doivent servir à fournir un revenu de retraite;
+- il existe des limites sur les montants transférables (notamment les règles fiscales de transfert maximal).
+
+Les règles précises varient selon la juridiction (provinciale ou fédérale).
+
+#### **Transfert vers un nouvel employeur** {-}
+
+Le transfert vers le régime du nouvel employeur n’est pas automatique :
+
+- il dépend de la politique du régime receveur;
+- les droits transférés peuvent être convertis en années de service reconnues ou en capital équivalent;
+- les hypothèses actuarielles peuvent différer, ce qui peut entraîner un gain ou une perte implicite.
+
+#### **Rachat de service** {-}
+
+Certains régimes permettent également de **racheter des années de service**, par exemple :
+
+- service antérieur chez un autre employeur;
+- périodes sans cotisation.
+
+Ce rachat est généralement coûteux, car il doit refléter la valeur actuarielle complète des droits acquis.
+
+#### **Perspective actuarielle** {-}
+
+Du point de vue actuariel, le choix entre rente différée et valeur de transfert n’est pas neutre. La valeur de transfert repose sur des hypothèses (notamment les taux d’intérêt et la mortalité) qui peuvent différer de l’expérience réelle. Par conséquent, un transfert peut être favorable ou défavorable selon l’évolution future des conditions économiques et démographiques.
+
+De plus, le fractionnement de la carrière entre plusieurs employeurs transforme souvent un régime à salaire final en une série de droits indépendants, ce qui réduit la capacité des salaires de fin de carrière à revaloriser les années antérieures. La rente totale devient alors la somme de plusieurs rentes partielles, chacune basée sur un segment de carrière.
+
+#### **Acquisition** {-}
+
+Dans certains environnements juridiques autres que le Canada, il est nécessaire de préciser à partir de quel moment l’employé qui quitte son emploi conserve le droit de recevoir une rente à la retraite.  
+
+Au Canada, dans les provinces de Colombie-Britannique, d’Alberta, du Manitoba, de l’Ontario et du Québec, ce droit est acquis dès la participation au régime. Dans les autres provinces, le droit à la rente doit être acquis au plus tard après deux ans de participation (trois ans à l’Île-du-Prince-Édouard). Ce concept est appelé **acquisition** de la rente.
+
+#### **À retenir**{-}
+
+- Le choix entre rente différée et valeur de transfert implique un arbitrage entre sécurité et flexibilité.  
+- Les hypothèses actuarielles influencent directement la valeur transférée.  
+- Le changement d’employeur fragmente les droits de retraite et peut réduire la rente totale.  
+- La structure du régime est aussi importante que son niveau de générosité.
+
+
+#### Illustration numérique (suite)
+
+On reprend le meme exemple que plus tot...
+
+Examinons maintenant ce qui se produit pour les régimes 4 et 5 lorsque la carrière n’est plus continue chez un seul employeur. Supposons qu’un employé change d’employeur après 5 ans, puis tous les 10 ans par la suite. Supposons aussi que tous les employeurs offrent des régimes identiques et qu’aucun transfert de droits acquis n’est possible entre les régimes. Dans ce contexte, chaque période d’emploi donne lieu à un droit de rente distinct, déterminé au moment du départ de l’employeur. L’employé accumule donc, au fil de sa carrière, une série de rentes différées indépendantes, une par employeur.
+
+Le tableau des salaires est donc celui-ci: 
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+df_final <- tibble(
+  Ans = 1:n,
+  Annee = seq(an_fin - n + 1, an_fin),
+  Age = 31:65,
+  Salaire = 500 * round((salaires_orig * facteur) / 500)
+) %>%
+  left_join(df_jan, by = c("Annee" = "annee")) %>%
+  mutate(
+    Employeur = c(
+      rep("ABC", 5),
+      rep("DEF", 10),
+      rep("GHI", 10),
+      rep("JKL", 10)
+    )
+  )
+
+# -------------------------------------------------------------------
+# Paramètres de calcul
+# -------------------------------------------------------------------
+taux <- 0.016
+
+# -------------------------------------------------------------------
+# Calcul des crédits annuels
+# Régime 4 : salaire final recalculé à la fin de chaque emploi
+# Régime 5 : meilleure moyenne de 5 années consécutives recalculée
+#            à la fin de chaque emploi
+# -------------------------------------------------------------------
+df_tab <- df_final %>%
+  group_by(Employeur) %>%
+  mutate(
+    salaire_final_emp = last(Salaire),
+    best_5_avg_emp = if (n() >= 5) {
+      max(sapply(seq_len(n() - 4), function(i) mean(Salaire[i:(i + 4)])))
+    } else {
+      mean(Salaire)
+    },
+    rente4 = taux * salaire_final_emp,
+    rente5 = taux * best_5_avg_emp,
+    Annee_aff = as.character(Annee),
+    Age_aff   = as.character(Age)
+  ) %>%
+  ungroup() %>%
+  select(
+    Annee_aff, Employeur, Age_aff, Salaire, ipc, rente4, rente5
+  )
+
+# -------------------------------------------------------------------
+# Ligne Total
+# -------------------------------------------------------------------
+ligne_total <- tibble(
+  Annee_aff = "Total",
+  Employeur = "",
+  Age_aff   = "",
+  Salaire   = NA_real_,
+  ipc       = NA_real_,
+  rente4    = sum(df_tab$rente4, na.rm = TRUE),
+  rente5    = sum(df_tab$rente5, na.rm = TRUE)
+)
+
+df_aff <- bind_rows(df_tab, ligne_total)
+
+# -------------------------------------------------------------------
+# Fonctions de formatage
+# -------------------------------------------------------------------
+fmt_dollar0 <- function(x) {
+  ifelse(
+    is.na(x),
+    "",
+    paste0(
+      format(
+        round(x, 0),
+        big.mark = " ",
+        decimal.mark = ",",
+        scientific = FALSE,
+        trim = TRUE
+      ),
+      " $"
+    )
+  )
+}
+
+fmt_num2 <- function(x) {
+  ifelse(
+    is.na(x),
+    "",
+    format(
+      round(x, 2),
+      nsmall = 2,
+      big.mark = " ",
+      decimal.mark = ",",
+      scientific = FALSE,
+      trim = TRUE
+    )
+  )
+}
+
+# -------------------------------------------------------------------
+# Préparation du tableau final
+# -------------------------------------------------------------------
+df_kable <- df_aff %>%
+  mutate(
+    Salaire = fmt_dollar0(Salaire),
+    ipc     = fmt_num2(ipc),
+    rente4  = fmt_dollar0(rente4),
+    rente5  = fmt_dollar0(rente5)
+  )
+
+# -------------------------------------------------------------------
+# Tableau KableExtra
+# -------------------------------------------------------------------
+kbl(
+  df_kable,
+  align = c("c", "c", "c", "c", "c", "c", "c"),
+  col.names = c(
+    "Année", "Employeur", "Âge", "Salaire", "IPC",
+    "Régime 4", "Régime 5"
+  ),
+  escape = FALSE,
+  booktabs = TRUE
+) %>%
+  add_header_above(c(" " = 5, "Crédit de rente acquis à chaque année" = 2)) %>%
+  kable_styling(
+    full_width = FALSE,
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 13
+  ) %>%
+  row_spec(nrow(df_kable), bold = TRUE)
+```
+
+:::
+
+
+On observe que les contributions annuelles aux régimes 4 et 5 diminuent fortement. Dans le premier exemple, ces régimes semblaient avantagés par l’utilisation du salaire final ou des meilleures années. Cet avantage s’atténue toutefois lorsque l’employé ne passe pas toute sa carrière chez le même employeur. Comme le salaire final et la moyenne des meilleures années sont alors recalculés à la fin de chaque emploi, les années de début de carrière ne bénéficient plus des salaires plus élevés observés en fin de parcours. Par exemple, lors du passage chez l’employeur ABC, la moyenne des 5 meilleurs salaires est de 45\,600 \$. Le crédit de rente associé est donc :
+
+$$
+0.016 \times 45\,600 = 730
+$$
+
+Ce montant s’applique à l’ensemble des années travaillées chez cet employeur et demeure fixé après le départ. Les augmentations salariales obtenues chez les employeurs subséquents n’ont donc aucun effet sur ces années. 
+
+Concrètement, cela signifie que l’employé ne recevra pas une seule rente basée sur l’ensemble de sa carrière, mais plutôt plusieurs rentes distinctes. Chaque employeur verse une rente calculée au moment du départ, selon ses propres salaires. À la retraite, l’employé reçoit donc une somme de rentes différées, par exemple une rente provenant de ABC, une autre de DEF, une autre de GHI et une dernière de JKL. Dans une telle situation, le simple fait de changer régulièrement d’emploi transforme le régime à salaire final en une forme de régime à salaire de carrière. Un employé qui anticipait une rente de retraite de 100\,000 \$, en supposant implicitement une carrière continue chez un seul employeur, risque ainsi d’obtenir un montant sensiblement inférieur.
+
+
+
+
+

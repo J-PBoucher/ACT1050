@@ -1,0 +1,333 @@
+.dataframe {
+    display: inline-block;
+}
+.dataframe td {
+    vertical-align: middle;
+    text-align: right;
+}
+tbody tr:hover {background: rgba(66, 165, 245, 0.2);}
+
+
+p {
+  text-align: justify
+}
+
+.grid-actuariat{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:12px;
+}
+
+.grid-actuariat .cell{
+  border:1.5px solid #222;
+  padding:10px;
+  min-height:120px;
+  background:#fff;
+}
+
+.grid-actuariat .title{
+  font-size:0.95em;
+  font-weight:300;
+  line-height:1.15;
+}
+
+.code{
+  margin-top:10px;
+  font-weight:700;
+}
+
+.prereq{
+  margin-top:10px;
+  font-size:0.75em;
+  color:#b00000;
+  line-height:1.2;
+}
+
+
+/* Couleurs par catégorie (modifiables facilement) */
+.cell.core{
+  background:#dbe6f5;   /* bleu plus marqué */
+}
+
+.cell.econ{
+  background:#ffe2c6;   /* orange/beige plus chaud */
+}
+
+.cell.option{
+  background:#e2e2e2;   /* gris neutre plus foncé */
+}
+
+.cell.skills{
+  background:#d7edd7;   /* vert plus présent */
+}
+
+.cell.honor{
+  background:#f0caca;
+}
+
+.float-left {
+  float: left;
+  margin: 0 1.2rem 1rem 0;
+  max-width: 30%;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 1rem 1.2rem;
+  max-width: 30%;
+}
+
+@media (max-width: 900px) {
+  .float-right {
+    float: none;
+    display: block;
+    margin: 0.75rem auto 1rem auto;
+    max-width: 70%;
+  }
+}
+
+
+
+/* Grille principale */
+.committee-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 2em 0;
+}
+
+/* Carte individuelle */
+.member {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+/* Photo */
+.member-photo {
+  width: 98px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+  border: 1px solid #ccc;
+}
+
+/* Contenu texte */
+.member-info {
+  line-height: 1.3;
+}
+
+/* Nom */
+.member-name {
+  margin: 0 0 4px 0;
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.member-name a {
+  color: #111;
+  text-decoration: none;
+}
+
+.member-name a:hover {
+  text-decoration: underline;
+}
+
+.member-role {
+  margin: 0 0 3px 0;
+  font-size: 0.95em;
+  color: #444;
+}
+
+.member-affiliation {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.no-photo .member {
+  align-items: stretch;
+}
+
+.no-photo .member-info {
+  padding-left: 0;
+}
+
+.member-courses {
+  margin: 6px 0 0 0;
+  padding-left: 16px;
+  font-size: 0.9em;
+}
+
+.member-courses li {
+  margin-bottom: 2px;
+}
+
+.member-courses a {
+  color: #333;
+  text-decoration: none;
+}
+
+.member-courses a:hover {
+  text-decoration: underline;
+}
+
+
+/* Grille de facultés (cartes) */
+.faculty-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+  gap:16px;
+  margin: 1rem 0 1.5rem 0;
+}
+
+/* Carte */
+.faculty{
+  border:1.5px solid #222;
+  border-radius:14px;
+  background:#fff;
+  padding:14px 14px 10px 14px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.06);
+}
+
+/* Titre de carte */
+.faculty-title{
+  margin:0 0 8px 0;
+  font-weight:700;
+  font-size:1.02em;
+  line-height:1.2;
+}
+
+/* Petit sous-texte optionnel */
+.faculty-note{
+  margin:0 0 10px 0;
+  font-size:.88em;
+  opacity:.85;
+}
+
+/* Liste des unités */
+.faculty ul{
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.faculty li{
+  margin: 0.22rem 0;
+}
+
+/* Liens un peu plus “propres” */
+.faculty a{
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+.faculty a:hover{
+  border-bottom: 1px solid rgba(0,0,0,.8);
+}
+
+/* Pour marquer visuellement "Institut :" */
+.faculty .tag{
+  font-size: .85em;
+  font-weight: 700;
+  opacity: .8;
+  margin-right: .35rem;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+.sidebar-title {
+  display: none;
+}
+
+.custom {
+  border: 1.5px solid #2a6fdb;
+  background-color: #f4f8ff;
+  padding: 0.9em 1.1em;
+  border-radius: 6px;
+  margin: 1.2em 0;
+}
+
+.encadre {
+  border: 1.5px solid #6b5c4a;
+  padding: 0.9em 1.1em;
+  border-radius: 6px;
+  margin: 1.2em 0;
+}
+
+.encadre2 {
+  border: 1.5px solid #6b5c4a;
+  background-color: #f3f0f7;
+  padding: 0.6em 1em;
+  border-radius: 6px;
+  margin: 1.2em 0;
+}
+
+.encadre2 > :first-child {
+  margin-top: 0;
+}
+
+.encadre2 > :last-child {
+  margin-bottom: 0;
+}
+
+.encadre3 {
+  border: 1.5px solid #6b5c4a;
+  padding: 0.6em 1em;
+  border-radius: 6px;
+  margin: 1.2em 0;
+}
+
+.encadre3 > :first-child {
+  margin-top: 0;
+}
+
+.encadre3 > :last-child {
+  margin-bottom: 0;
+}
+
+.custom-solution {
+  border: 2px solid #3a8f5a;
+  background-color: #f3faf5;
+  padding: 1.2em;
+  border-radius: 8px;
+  margin: 1.5em 0;
+}
+
+.custom-solution strong {
+  color: #3a8f5a;
+}
+
+
+.custom-question {
+  border: 1.5px solid #6c757d;
+  background-color: #f7f7f7;
+  padding: 0.9em 1.1em;
+  border-radius: 6px;
+  margin: 1.2em 0;
+}
+
+
+.question22 {
+  border-left: 4px solid #2c7be5;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  background-color: #f8f9fa;
+}
+
+
+
+
+
+
+
+
+
+

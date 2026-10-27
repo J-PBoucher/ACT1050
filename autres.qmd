@@ -1,0 +1,280 @@
+---
+
+
+
+### Définitions connexes
+
+Les définitions suivantes visent à permettre une compréhension aussi concrète que possible des éléments présentés ci-dessus.
+
+::: {.callout-note icon=false}
+#### Risque
+
+En actuariat, un risque est essentiellement un événement dont la survenance est aléatoire (due au hasard) et cause une perte qu’on peut chiffrer monétairement. On verra plusieurs définitions de « risque » dans un module subséquent, mais la présente définition résume assez bien ce dont il s’agit.
+:::
+
+::: {.callout-note icon=false}
+#### Aversion pour le risque
+
+L’aversion pour le risque est une attitude qui s’exprime par le fait qu’on est prêt à payer plus que le coût « normal » d’un risque pour s’en débarrasser. Par exemple, je peux me débarrasser du risque d’incendie et de perte de ma maison qui vaut 500 000 $ en achetant une assurance contre l’incendie.
+
+Si l’espérance mathématique du risque d’incendie est de 250 $ (soit une chance sur 2 000 de subir une perte de 500 000 $), j’ai de l’aversion pour le risque si je suis prêt à payer plus que ce montant pour acheter l’assurance. L’aversion pour le risque est d’autant plus marquée que la prime est faible comparativement à la perte maximale potentielle.
+:::
+
+::: {.callout-note icon=false}
+#### Assurance
+
+L’assurance est un mécanisme par lequel une personne transfère un risque à une société d’assurance en contrepartie du paiement d’une prime à cette même société.
+
+L’assurance se divise en deux grands sous-domaines :
+
+- Les assurances de personnes  
+  Il s’agit d’assurances qui versent une somme d’argent (appelée « prestation ») en cas de décès, de maladie, de blessure ou d’incapacité de travailler de la personne assurée.
+
+- Les assurances IARD (Incendie, Accidents, Risques Divers)  
+  Il s’agit d’assurances qui versent une somme d’argent (appelée « prestation ») en cas de dommages matériels subis par les biens de la personne assurée ou en cas d’obligation d’indemniser une autre personne en raison de la responsabilité civile.
+:::
+
+::: {.callout-note icon=false}
+#### Réassurance
+
+La réassurance est un mécanisme par lequel une société d’assurance transfère une partie de ses risques à une autre société d’assurance, appelée le réassureur, en contrepartie du paiement d’une prime.
+:::
+
+::: {.callout-note icon=false}
+#### Régimes de retraite
+
+Un régime de retraite est un mécanisme d’accumulation d’argent au nom d’une personne dans le but de lui produire un revenu lorsqu’elle aura cessé de travailler.
+
+Certains régimes prévoient que les fonds accumulés seront transférés à la retraite vers un mécanisme de décaissement choisi par la personne, tandis que d’autres régimes intègrent leur propre mécanisme de décaissement et vont jusqu’à promettre un revenu déterminé en fonction du salaire gagné et du nombre d’années de participation.
+:::
+
+
+
+
+
+
+
+
+
+
+## L’univers des services financiers
+
+Par sa formation, l’actuaire est souvent appelé à travailler dans l’univers des services financiers. Cet univers regroupe notamment :
+
+- l’assurance (de personnes ou de dommages, individuelle ou collective) ;
+- les produits de placement ;
+- les régimes de retraite.
+
+Il s’agit d’un domaine central dans nos sociétés, puisque la majorité des individus doivent épargner ou se protéger financièrement afin d’assurer leur sécurité économique à court ou à long terme.
+
+### Perception du secteur financier par le public
+
+Le secteur des services financiers souffre toutefois d’une perception parfois négative auprès du public. Cette perception découle en partie d’une comparaison fréquente avec le secteur bancaire, mais aussi du fait que plusieurs professionnels œuvrant directement auprès de la clientèle sont rémunérés à commission.
+
+Un client peut ainsi être surpris d’apprendre qu’il paie une commission de 2 % à l’achat de parts de fonds de placement, en plus de frais de gestion annuels pouvant atteindre un autre 2 %, ou encore que le représentant qui lui vend une police d’assurance vie permanente reçoit une commission équivalente, voire supérieure, à la prime de la première année. Cette situation peut sembler excessive, surtout lorsqu’on la compare à une banque qui ne facture aucune commission explicite sur les dépôts.
+
+Cette comparaison est toutefois incomplète. La banque génère ses profits autrement, notamment en prêtant les fonds déposés à un taux supérieur à celui versé sur les dépôts, et en facturant divers frais de gestion et de transaction. La rémunération à commission doit également être replacée dans son contexte. Les représentants en assurance ou en placement doivent assurer leur revenu dans un environnement où les ventes sont irrégulières et où les dépenses professionnelles sont importantes.
+
+Par exemple, un représentant peut recevoir une commission relativement élevée pour une police d’assurance aujourd’hui, puis ne conclure que quelques ventes beaucoup moins rémunératrices les jours suivants. Les taux de commission ne sont pas nécessairement excessifs lorsqu’on les compare aux marges pratiquées dans d’autres secteurs commerciaux, comme le commerce de détail.
+
+### Fraudes financières
+
+La perception négative du public envers le secteur financier est néanmoins en partie justifiée, puisque des fraudes financières peuvent effectivement survenir. Ces fraudes prennent souvent la forme de schémas de Ponzi.
+
+Un [schéma de Ponzi](<https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_Ponzi>) est un stratagème frauduleux dans lequel les rendements promis aux investisseurs ne proviennent pas de véritables activités économiques, mais sont plutôt financés par les sommes versées par de nouveaux investisseurs. Ce type de système ne peut fonctionner que tant que de nouveaux fonds continuent d’affluer et s’effondre inévitablement lorsque les retraits excèdent les nouvelles entrées.  Deux cas connus illustrent ce type de schéma.
+
+
+
+::: {.callout-important collapse=true}
+## Une fraude financière au Québec
+
+[L’affaire Norbourg](https://fr.wikipedia.org/wiki/Affaire_Norbourg) est une fraude financière survenue au Québec au milieu des années 2000, impliquant une société de gestion de fonds communs de placement et son dirigeant, Vincent Lacroix.
+
+La fraude reposait sur le détournement de sommes appartenant aux investisseurs, la falsification de documents financiers et la dissimulation de la situation réelle des fonds sous gestion. Une partie des actifs confiés n’était pas investie conformément à ce qui était annoncé, et certains documents transmis aux autorités et aux investisseurs ne reflétaient pas la réalité financière de l’entreprise.
+
+Les montants en cause sont estimés à environ 130 à 155 millions de dollars, et plusieurs milliers d’investisseurs ont été touchés. L’affaire a mené à des poursuites pénales et criminelles, à des condamnations à des peines d’emprisonnement, ainsi qu’à des démarches de récupération partielle des fonds pour les victimes.
+
+Cette affaire a mis en évidence des failles importantes dans les mécanismes de surveillance des marchés financiers et a contribué à un resserrement des pratiques de réglementation au Québec.
+:::
+
+
+::: {.callout-important collapse=true}
+## La plus grande fraude financière de l'histoire
+
+[L’affaire Madoff](https://www.courrierinternational.com/article/etats-unis-l-affaire-madoff-la-plus-grande-pyramide-de-ponzi-de-l-histoire-est-soldee_226109) correspond au plus vaste schéma de Ponzi découvert à ce jour. Pendant plusieurs décennies, Bernard Madoff a géré une activité de placement qui promettait des rendements réguliers et élevés, présentés comme résultant de stratégies financières sophistiquées.
+
+En réalité, les rendements versés aux investisseurs ne provenaient pas d’activités économiques réelles, mais de l’argent apporté par de nouveaux investisseurs. Le système reposait donc entièrement sur l’afflux continu de nouveaux fonds, caractéristique centrale d’un schéma de Ponzi.
+
+La fraude a été révélée en 2008, lorsque les demandes de retrait sont devenues trop importantes pour être honorées. Les pertes associées à l’affaire sont estimées à environ 65 milliards de dollars, incluant des gains fictifs inscrits aux comptes des investisseurs. L’affaire a touché des particuliers, des institutions financières et des organismes à vocation philanthropique dans de nombreux pays.
+
+Bernard Madoff a été reconnu coupable de multiples infractions financières et condamné à une peine maximale de prison. Des mécanismes judiciaires ont permis le versement d’indemnités partielles à un grand nombre de victimes, sans toutefois compenser intégralement les pertes subies.
+:::
+
+Ces constats permettent de mieux comprendre pourquoi les professions œuvrant dans les services financiers accordent une importance particulière à l’intégrité et aux mécanismes de contrôle. Dans le cas de l’actuariat, cette exigence est d’autant plus centrale que les actuaires sont appelés à intervenir dans des contextes où des sommes importantes sont en jeu et où la confiance joue un rôle fondamental.
+
+Il est donc essentiel pour les actuaires d’éviter toute association, directe ou indirecte, avec des pratiques ou des individus susceptibles de mener à des situations de fraude. Au cours des prochaines semaines, nous aborderons plusieurs règles déontologiques propres à la profession actuarielle, qui visent à encadrer les comportements attendus et à préciser les actes à proscrire.
+
+
+## Rôle de l’actuaire et domaine de pratique
+
+### Les principaux domaines de pratique
+
+Plusieurs domaines de pratique différents s’offrent aux actuaires. Nous résumons ci-dessous les principaux :
+
+- Assurance de personnes (individuelle)
+- Assurance de personnes (collective)
+- Assurance de dommages (Assurance IARD)
+- Actuariat corporatif
+- Réassurance
+- Régimes de retraite
+- Organismes publics gérant des programmes sociaux
+- Organismes de réglementation
+- Gestion des risques d’entreprise
+- Enseignement
+- Domaines non-traditionnels
+
+Au cours de sa carrière, une(e) actuaire peut travailler dans plusieurs domaines. Toutefois, la spécialisation croissante des domaines de pratique et la nécessité de toujours avoir des connaissances à jour dans un domaine rendent beaucoup plus difficile aujourd’hui de travailler simultanément dans plusieurs domaines.
+
+### Les différents rôles et fonctions des actuaires
+
+Plusieurs rôles se ressemblent d’un domaine à l’autre, mais même dans ce cas, les actuaires sont susceptibles d’appliquer des techniques différentes ou d’utiliser des outils différents (statistiques, tables actuarielles, etc.) selon leur domaine de pratique.
+
+#### Assurance de personnes (individuelle)
+
+En assurance de personnes, les actuaires accomplissent principalement les tâches suivantes :
+
+- Tarification générale des produits d’assurance vie (temporaire, permanente, universelle, etc.) et d’assurance santé (assurance invalidité prévoyant des paiements périodiques, assurance des maladies graves, assurance des soins médicaux et dentaires, etc.).
+- Calcul des provisions que l’assureur doit détenir pour faire face aux obligations futures découlant des contrats d’assurance et de rente qu’il a émis, tant pour les assurés en bonne santé que pour ceux qui sont malades ou invalides (incapables de travailler) ou ceux qui reçoivent des rentes ou auxquels on a promis des rentes.
+- Calcul des montants (« participations ») à verser annuellement aux détenteurs de celles, parmi toutes les polices émises, qui comportent une clause de participation en vertu de laquelle une partie des profits générés par l’ensemble de ces polices ou un sous-ensemble de celles-ci est répartie entre les détenteurs de ces polices.
+- Analyses d’expérience.
+- Développement et tarification des nouveaux produits.
+
+#### Assurance de personnes (collective)
+
+En assurance collective de personnes, les actuaires accomplissent principalement les tâches suivantes :
+
+- Tarification générale des produits d’assurance vie (habituellement temporaire) et d’assurance santé (principalement l’assurance invalidité prévoyant des paiements périodiques et l’assurance des soins médicaux et dentaires, etc.).
+- Tarification particulière des produits d’assurance vie (habituellement temporaire) et d’assurance santé (principalement l’assurance invalidité prévoyant des paiements périodiques et l’assurance des soins médicaux et dentaires, etc.) applicable à un groupe en particulier, en tenant compte de l’expérience de ce groupe et de la crédibilité de cette expérience.
+- Calcul des ristournes payables aux groupes dont la police comporte une clause prévoyant le paiement d’une telle ristourne en cas de bonne expérience.
+- Analyse des demandes d’assurance présentées par des courtiers et autres intermédiaires (incluant des actuaires-conseils) relativement à des groupes, en tenant compte des caractéristiques démographiques et de l’expérience de réclamations de ces groupes.
+- Calcul des provisions que l’assureur doit détenir pour faire face aux obligations futures reliées aux assurés frappés d’invalidité et pour lesquels l’assureur s’est engagé à payer des prestations périodiques ou à renoncer au paiement de certaines primes.
+- Analyse d’expérience.
+- Développement et tarification des nouveaux produits (très rarement car il y a très peu de nouveaux produits en assurance collective).
+- Si l’actuaire travaille dans une firme de courtage ou de consultation, il va préparer des appels d’offres et analyser les soumissions produites par les assureurs en vue de remporter le contrat d’assurance du client de l’actuaire.
+
+#### Assurance de dommages (IARD)
+
+En assurance IARD, les actuaires accomplissent principalement les tâches suivantes :
+
+- Tarification générale des produits d’assurance automobile, habitation, agricole, commerciale, etc.
+- Identification et analyse de nouvelles variables de tarification (véhicules électriques, variables télématiques telles que le respect des limites de vitesse, par exemple).
+- Calcul des provisions que l’assureur doit détenir pour faire face aux obligations futures découlant des contrats d’assurance.
+- Développement et tarification des nouveaux produits.
+
+#### Actuariat corporatif
+
+En actuariat corporatif, les actuaires accomplissent principalement les tâches suivantes :
+
+- Calcul de la valeur intrinsèque des portefeuilles d’assurance de la société qui l’emploie.
+- Évaluation des provisions que l’assureur doit détenir pour faire face aux obligations futures découlant des contrats d’assurance et de rente qu’il a émis.
+- Préparation et production du rapport de l’Actuaire désigné, indiquant notamment le montant des provisions détenues, des provisions minimales requises et le ratio de solvabilité de l’assureur.
+- Examen de la santé financière de l’assureur face aux risques spécifiques à sa société d’assurance et rapport aux autorités de surveillance.
+- Tests de sensibilité de la solidité financière de l’assureur face à des événements défavorables très rares (avec probabilité de survenance de l’ordre de ½ %).
+- Établissement des niveaux cible (niveau minimum, niveau réglementaire, coussin de capital et cible interne) de capitalisation de l’assureur.
+
+#### Réassurance
+
+En réassurance, les actuaires accomplissent principalement les tâches suivantes :
+
+- Tarification des produits d’assurance pour lesquels les assureurs pris individuellement n’ont pas un assez gros volume d’expérience (primes et réclamations) pour que celle-ci soit crédible (c’est-à-dire suffisamment stable et fiable).
+
+  Par exemple, en assurance de personnes, plusieurs assureurs canadiens ont des statistiques insuffisantes quant aux assurances suivantes :
+
+  - l’assurance en cas de décès accidentel ou d’infirmité résultant d’un accident ;
+  - l’assurance des soins médicaux requis d’urgence lors d’un voyage à l’extérieur du Canada ;
+  - l’assurance en cas d’invalidité donnant lieu à des paiements périodiques.
+
+  De même en assurance IARD, les assureurs canadiens ont des statistiques insuffisantes quant aux assurances suivantes :
+
+  - l’assurance des risques de tremblement de terre ;
+  - l’assurance responsabilité civile (résidentielle, automobile et assurance des entreprises) ;
+  - l’assurance maritime ;
+  - l’assurance des entreprises ;
+  - etc.
+
+- Conception de produits pour les assureurs clients (couramment appelés « cédantes »).
+- Actuariat corporatif (comme ci-dessus).
+- Conseils aux cédantes.
+
+#### Régimes de retraite
+
+En régimes de retraite, les actuaires accomplissent principalement les tâches suivantes :
+
+- Calcul du passif actuariel (valeur des obligations futures découlant des rentes garanties aux participants).
+- Détermination du « coût normal » du régime.
+- Détermination de tout surplus ou déficit actuariel (différence entre le passif actuariel et les actifs détenus par le régime).
+- Amortissement du surplus ou déficit actuariel sur la période prescrite par la Loi.
+- Préparation de rapports actuariels portant sur les éléments ci-dessus.
+- Calcul des valeurs associées au partage des droits afférents à la retraite entre les conjoints lors d’un divorce.
+- Calcul de la valeur transférable d’une rente de retraite lorsqu’un employé quitte son emploi (et son régime de retraite).
+
+#### Organismes publics gérant des programmes sociaux
+
+*(Régime de rentes du Québec, régime d’assurance maladie du Québec, etc.)*
+
+Dans ce domaine, les actuaires accomplissent principalement les tâches suivantes :
+
+- Analyses démographiques et projection des coûts futurs sur de très longues périodes.
+- Calcul du coût du régime à court et à long terme.
+- Estimation du coût des modifications proposées au régime.
+- Détermination des taux de cotisation devant être payés pour équilibrer le régime compte tenu des paramètres fixés par la Loi.
+- Communication avec le ministère responsable du régime.
+
+#### Organismes de réglementation
+
+*(Autorité des marchés financiers du Québec, Bureau du Surintendant des institutions financières, Commission des services financiers de l’Ontario, etc.)*
+
+Dans ce domaine, les actuaires accomplissent principalement les tâches suivantes :
+
+- Analyse des rapports produits par les actuaires désignés des sociétés d’assurance.
+- Vérification des méthodes et procédés utilisés par les actuaires pour calculer leurs provisions actuarielles.
+- Participation à l’élaboration de normes et de tests de solvabilité.
+- Participation à des interventions auprès des sociétés d’assurance susceptibles d’éprouver des difficultés à rencontrer les critères de réglementation.
+- Participation à l’élaboration de lignes directrices en matière de gestion des sociétés d’assurance.
+
+#### Gestion des risques d’entreprise
+
+La gestion des risques d’entreprise est un domaine qui devrait normalement relever de la profession actuarielle mais qui a été principalement développé par la profession comptable.
+
+Il s’agit d’un domaine très vaste avec beaucoup de potentiel mais les actuaires sont présentement confinés dans la gestion des risques afférents aux sociétés d’assurance. Les actuaires visent principalement à accomplir les tâches suivantes :
+
+- Identification des risques relatifs à un projet ou à une activité.
+- Tests de sensibilité des résultats de l’entreprise selon différents scénarios favorables et défavorables.
+- Participation à la détermination de la tolérance de l’entreprise face à différents risques.
+- Participation à l’établissement de programmes d’identification et de contrôle des risques.
+- Soutien à l’élaboration de programmes de gouvernance d’entreprise.
+
+#### Enseignement
+
+En enseignement, les actuaires accomplissent principalement les tâches suivantes :
+
+- Participation à des comités d’orientation mis sur pied par les sociétés d’actuaires.
+- Établissement des programmes de formation des grandes sociétés d’actuaires.
+- Développement de syllabus détaillés correspondant aux objectifs pédagogiques établis par les sociétés d’actuaires.
+- Recherche et rédaction de matériel pédagogique.
+- Préparation d’examens corporatifs, correction des examens et établissement des notes de passage.
+- Enseignement universitaire.
+  - Recherche.
+  - Rédaction de manuels pédagogiques et de notes de cours.
+  - Enseignement.
+  - Test des connaissances acquises par les étudiants.
+
+#### Domaines non traditionnels
+
+De plus en plus, on rencontre des actuaires dans des domaines connexes à l’actuariat, comme par exemple :
+
+- L’administration de régimes de retraite.
+- La gestion de la rémunération et des ressources humaines.
+- La gestion d’actifs.
+- Le courtage d’assurance.
+- Le secteur bancaire.

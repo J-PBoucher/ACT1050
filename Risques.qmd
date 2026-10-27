@@ -1,0 +1,582 @@
+# Notion de risque
+
+## Objectifs du chapitre
+
+- Comprendre les différentes notions de risque
+- Comprendre la notion d’aversion pour le risque
+- Connaître les stratégies face au risque
+- Comprendre la mise en commun des risques
+
+
+## Notion de risque
+
+### Définition générale d’un risque
+
+Le Dictionnaire Larousse https://www.larousse.fr/dictionnaires/francais/risque/69557 donne 4 définitions d’un risque :
+- Possibilité, probabilité d'un fait, d'un événement considéré comme un mal ou un dommage.
+- Danger, inconvénient plus ou moins probable auquel on est exposé.
+- Fait de s'engager dans une action qui pourrait apporter un avantage, mais qui comporte l'éventualité d'un danger.
+- Préjudice, sinistre éventuel que les compagnies d'assurance garantissent moyennant le paiement d'une prime.
+
+Ces quatre définitions comprennent des éléments communs :
+- Un aspect défavorable si le risque se réalise.
+- Un élément d’incertitude.
+
+
+### Autres définitions d’un risque
+
+On retrouve partout des définitions relativement semblables :
+- Selon Wikipédia, «Le risque est la possibilité de survenue d'un événement indésirable, la probabilité d’occurrence d'un péril probable ou d'un aléa»… Ainsi, il est défini, en statistiques descriptives comme la probabilité d'exposition à un danger, à un événement (maladie, décès, accident) pendant un intervalle de temps défini. En gestion des risques, il est l’association de quatre facteurs : un danger, une probabilité d'occurrence, sa gravité et de son acceptabilité
+- Selon le site de Assufrance, le risque correspond à une exposition à un danger, un préjudice ou autre événement dommageable, inhérent à une situation ou une activité.
+  o Il est caractérisé par :
+     Une probabilité de survenue de cet événement (différente de  0% et de 100%). Exemple : avoir un 1 lors du jet d’un dé est de 1/6
+    et
+     L’ampleur de ses conséquences (perte).
+  o Il peut être appliqué à une personne, une population, des biens, l'environnement ou le milieu naturel.
+  o Il se distingue d’une incertitude à laquelle ne peut être assignée une probabilité, tel qu’exprimé par  Frank Knight en 1921 , comme par exemple l’intensité du réchauffement de la planète ou les effets des organismes génétiquement modifiés.
+
+- Selon le dictionnaire Oxford, il s’agit de la possibilité que quelque chose de néfaste se produise quelque part dans l’avenir, une situation qui pourrait être dangereuse ou avoir des conséquences défavorables. https://www.oxfordlearnersdictionaries.com/definition/american_english/risk_1
+- Selon l’Institut national de santé publique du Québec, un risque est la combinaison de conséquences négatives sur la santé de la population et de la probabilité d’observer ces conséquences à la suite d’une exposition à un agent dangereux.   https://www.inspq.qc.ca/evaluation-et-gestion-des-risques/la-gestion-des-risques-en-sante-publique-au-quebec-cadre-de-reference/les-concepts-cles-de-la-gestion-des-risques-la-sante/les-caracteristiques-du-risque.
+
+Les mêmes éléments précités reviennent :
+- Un aspect défavorable si le risque se réalise
+- Un élément d’incertitude.
+
+
+### Définition d’un risque en contexte d’assurance et d’actuariat
+
+En actuariat, un risque est essentiellement un événement dont la survenance est aléatoire (due au hasard), dont la probabilité est estimable et qui cause une perte qu’on peut chiffrer monétairement.
+
+Par exemple :
+- Le risque de tornade :
+  o Une tornade est un événement dévastateur et imprévisible, sauf quand on l’aperçoit.  L’apparition d’une tornade à tel ou tel endroit est essentiellement due au hasard, tout comme sa puissance et les dégâts qu’elle provoquent.  Mais on a des statistiques générales sur la fréquence annuelle des tornades au Québec ainsi que sur les dégâts qu’elles provoquent.
+- Le risque qu’une personne soit incapable de travailler en raison d’un accident ou d’une maladie :
+  o Ce risque comporte plusieurs sous-risques : le risque d’accident invalidant, le risque de maladie invalidante, le risque que l’invalidité dure 1 mois, 3 mois, 2 ans, 5 ans, etc.  Parfois, lorsque la finalité est unique (par exemple tarifer le risque d’invalidité), on va regrouper certains sous-risques ensemble.  On a des statistiques sur la fréquence et la durée des invalidités, et on peut en évaluer le coût en tenant compte des salaires perdus pendant l’invalidité.
+
+
+Les caractéristiques suivantes, incluses dans la définition d’un risque en contexte d’assurance, sont essentielles :
+- Survenance aléatoire :
+  o La survenance de l’événement défavorable est due au seul hasard.  C’est-à-dire que même si un événement est certain (comme le décès : on va tous mourir un jour), le moment où cet événement survient comporte un fort élément de hasard.  Par exemple, même si un vieillard de 90 ans a beaucoup plus de chances de décéder qu’une femme âgée de 20 ans, il n’est pas certain que le vieillard va mourir cette année ou même qu’il va mourir avant la jeune femme (un accident est vite arrivé…).
+  o Évidemment, dans le cas d’un événement incertain à la fois quant à sa survenance et au moment de cette survenance (accident mortel, par exemple), le caractère aléatoire est encore plus évident.
+  o Un événement qui n’a pas de caractère aléatoire ne constitue pas un risque assurable.  Par exemple, si on met le feu à sa propre maison, l’incendie n’est pas assurable car pas dû au hasard ou à la malchance.  Par conséquent, la réalisation du risque ne doit pas découler d’un acte volontaire de l’assuré.  Même chose dans le cas d’un suicide planifié, qui n’est pas la conséquence d’une maladie mentale.
+  o Évidemment, le risque ne doit pouvoir se matérialiser que dans l’avenir.
+- Probabilité estimable :
+  o Une probabilité de survenance du risque est essentielle à l’estimation de son coût.
+  o On peut définir le coût théorique d’un risque comme le risque d'incendie :
+    Coût = Probabilité x Perte potentielle (en $),
+    ou, pour un risque de décès
+    Coût = Probabilité X Montant d’assurance vie (en $)
+    ou, pour un risque récurrent, comme la maladie
+    Coût = Fréquence. X Sévérité (en $)
+  o La fréquence de réalisation d’un risque récurrent est directement reliée à la probabilité de réalisation de ce risque.
+  o Si on n’a aucune idée de la probabilité de réalisation d’un risque, on ne peut appliquer aucune des formules ci-dessus et le risque n’est pas tarifable objectivement.
+  o Évidemment, la probabilité de réalisation du risque doit être substantiellement moindre que 1,00 sinon on n’aurait plus de risque mais une certitude ou une quasi-certitude.
+
+- Perte pouvant être chiffrée monétairement :
+  o Le deuxième terme de chacune des formules ci-dessus est le montant d’argent associé à la perte.
+  o Si on n’a aucune idée de la perte résultant de la réalisation d’un risque, on ne peut appliquer aucune des formules ci-dessus et le risque n’est pas tarifable objectivement.
+  o De façon pratique il est rare qu’on ait la situation simple d’une assurance vie d’une durée d’un an, dont le coût actuariel
+    = Prob (décès de la personne) X montant d’assurance
+
+On voit plus souvent une situation comme en assurance automobile, où le coût ressemble plutôt à
+Coût = Σ [ Prob (Perte = z $) X z $ ]
+
+car la perte découlant d’un accident est plus ou moins élevée (pare-brise à remplacer vs ailes, pare-chocs, pare-brise et capot à remplacer vs perte totale du véhicule).
+
+Souvent, on va simplifier cette formule comme ceci :
+Coût = Prob (subir une perte) X perte moyenne ($)
+lorsque la formule de la sommation des produits des probabilités par les montants est impossible à calculer, car souvent les statistiques dont on dispose incluent seulement une fréquence globale et une distribution des montants de perte.
+- Importance réelle :
+  o La valeur monétaire de la perte qu’on voudra assurer doit être assez importante pour justifier les efforts et les coûts administratifs reliés à l’obtention de l’assurance.
+  o Le bien assuré ou la personne assurée doit exister réellement
+  o Le préjudice monétaire causé par la réalisation du risque doit avoir une certaine importance (on n’assurera pas un crayon, par exemple)
+- Non catastrophique pour l’assureur :
+  o La réalisation du risque ne doit pas mettre en péril la capacité de l’assureur à honorer tous ses engagements envers tous ses assurés.  L’assureur doit d’ailleurs toujours garder le capital minimum requis par la Loi.
+- Aspect licite :
+  o L’élément assuré ne doit pas être contraire à la Loi.  Par exemple, un producteur de cannabis agréé peut assurer sa récolte contre l’incendie ou le vol, mais un producteur artisanal ne peut pas assurer ses 100 plants de cannabis si la loi ne lui permet pas d’en posséder plus de 3.
+
+
+## Aversion pour le risque
+
+### Définition générale
+
+L’aversion pour les risques est une attitude qui s’exprime par le fait qu’on est prêt à payer plus que le coût « actuariel » d’un risque pour s’en débarrasser.
+
+Par « coût actuariel », on entend le coût (espérance) mathématique, soit la probabilité de survenance du risque multipliée par la perte moyenne, donc :
+
+Coût «actuariel» = Probabilité x Perte potentielle (en $),
+
+Le coût actuariel suppose qu’il n’y a aucun frais externe associé au risque.
+
+Par exemple, une personne peut se débarrasser du risque d’incendie et de perte de sa maison qui vaut 500 000 $ en achetant une assurance contre l’incendie.  Si l’espérance mathématique du risque d’incendie est de 250 $ (soit 1 chance sur 2 000 de subir une perte de 500 000 $) le coût actuariel est de 250$, comme on l’a vu au Module 1.
+
+Si la personne ne fait rien, deux situations peuvent se produire :
+- La maison ne brûle pas et elle ne perd rien;
+- La maison brûle et elle vient de s’appauvrir de 500 000 $
+
+Si un assureur se présente et lui offre d’assurer la maison pour 500 000 $, moyennant une contrepartie (prime) de 400 $, elle a deux choix :
+- Perdre 400 $ de façon certaine
+- Courir le risque de perdre 500 000 $
+
+Sachant que le coût actuariel de cette assurance est de 250 $, et que le seul assureur disposé à assurer la maison demande 400 $ la personne va fort probablement choisir l’assurance car la perte certaine de 400 $ est minime par rapport à la perte potentielle de 500 000$.
+
+Si on est prêt à payer plus que le coût actuariel d’un risque afin de le transmettre à quelqu’un d’autre, on a de l’aversion pour le risque.
+
+L’aversion pour le risque est renforcée par l’asymétrie entre la perte maximale et le coût pour se débarrasser d’un risque.   Ainsi, on est prêt à payer 400 $ pour se débarrasser d’un risque qui peut causer une perte de 500 000 $ avec une probabilité de 1/2000 mais on est moins disposé à payer 12 000 $ pour se défaire d’un risque qui peut causer une perte de 20 000 $ ou même une perte de 24 000 $ (équivalent actuariel) avec une probabilité de ½.
+
+La distribution Normale est une distribution symétrique :
+
+Le problème de la distribution Normale, c’est qu’elle est bornée à gauche à - ∞, ce qui est incohérent avec une perte assurable, qui ne peut logiquement pas être négative.
+
+Avec un risque distribué normalement, la moyenne (correspondant à la prime pure, donc non augmentée des frais) est au milieu de la courbe. Comme la Normale est, en réalité, bornée à - ∞, on ne peut considérer la courbe comme étant bornée à zéro à gauche que si P(x <0) → 0, ce qui implique que P (X > 2μ) → 0 aussi, et donc μ égale la moitié de la plus haute perte plausible.   Dans un tel cas, la perte maximale qu’on peut protéger en s’assurant ne vaut pas la peine de payer la prime, surtout si on considère le risque une année à la fois car au bout de 2 ans on aurait payé une prime cumulative égale à la perte maximale plausible.
+
+Si le risque est distribué de façon très asymétrique et borné à zéro à gauche, il devient intéressant de payer une petite prime pour se débarrasser d’un risque peu probable mais coûteux.  Dans l’exemple ci-dessous, la moyenne (prime pure) est de 1,0 mais la probabilité que la perte dépasse 10, et même 20 ou encore plus (en extrapolant) est non négligeable et l’assurance devient intéressante.
+
+
+### Conséquences de l’aversion pour le risque
+
+L’aversion pour le risque a pour conséquence première le fait qu’on cherchera très fortement à se débarrasser d’un risque qu’on n’est pas capable de supporter confortablement, comme le risque d’incendie d’une maison ou le risque de décès prématuré du gagne-pain de la famille.
+
+La deuxième conséquence de l’aversion pour le risque est de rendre possible l’assurance.  En effet, dans la vraie vie, un assureur ne peut pas accepter un risque à sa valeur actuarielle pour les raisons suivantes :
+- S’il prend tous ses risques à leur valeur actuarielle et qu’une fluctuation statistique défavorable survient, les risques coûteront alors plus cher que leur valeur actuarielle;
+- L’assureur doit inclure ses frais administratifs dans la prime qu’il demande pour assurer un risque;
+- L’assureur doit inclure ses coûts de distribution (commissions à l’intermédiaire qui vend l’assurance au client, etc.)
+- L’assureur doit finalement payer des taxes sur les primes qu’il perçoit.
+
+
+## Neutralité face au risque
+
+Comme on l’a vu plus haut, l’aversion pour le risque accompagne une asymétrie entre la perte potentielle et le coût pour se défaire du risque.  Quand on n’a pas cette asymétrie, on sera neutre face au risque (comme dans l’exemple d’une perte potentielle de 20 000 $ ou 24 000 $ en contrepartie d’un coût de 12 000 $ avec probabilité de 50%.
+
+
+## La tolérance face au risque
+
+Lorsque la perte potentielle est relativement petite, on peut vouloir conserver un risque plutôt que le transférer à quelqu’un d’autre. On a alors une tolérance face à ce risque.
+
+Par exemple, si la calculatrice d’une personne vaut 50$ et que la probabilité de se la faire voler est égale à 1/50, le coût actuariel du risque est de 1,00 $.  Si un assureur n’avait aucun frais ni taxe à payer, il accepterait peut-être d’assurer cette calculatrice moyennant une prime de 1$.  Est-ce que le propriétaire de la calculatrice accepterait ?  Probablement pas car, en cas de perte de la calculatrice, c’est plus simple d’en racheter une que de faire une réclamation à l’assureur (et courir un autre risque, soit celui que l’assureur demande désormais 2,00 $ pour assurer la calculatrice.
+
+Évidemment, avec ses frais administratifs, il est improbable qu’un assureur demande moins que 25$ ou 40$ pour ’assurer la calculatrice.  Dans ce cas, la question ne se pose quasiment plus : cela ne vaut pas la peine de payer 25$ pour assurer une calculatrice qui vaut 50$ et a une probabilité de 1/50 de se faire voler.
+
+Dans ces deux exemples, le propriétaire de la calculatrice aura de la tolérance pour le risque de se faire voler sa calculatrice.
+
+
+## L’appétit pour le risque
+
+Pour qu’on puisse transférer un risque à un assureur, moyennant une prime d’assurance, il faut que l’assureur y trouve son compte.  Même si la prime est le double du coût actuariel, la perte potentielle reste démesurée par rapport à la prime.  Alors comment l’assureur peut-il accepter ce risque ?
+
+Grâce à la mise en commun des risques, expliquée un peu plus loin, un assureur peut combiner des risques en nombre suffisant pour que sa perte totale ne dépasse pas son coût actuariel total de plus qu’un certain pourcentage, avec un certain niveau de probabilité.  Par exemple, avec 160 risques assurés chacun pour 100 000 $ et ayant chacun une probabilité de survenance de 5%, on s’attend à 8 sinistres.  Or, la combinaison des risques a pour effet que la probabilité d’avoir 8 sinistres ou moins est de 59% et que la probabilité d’avoir 15 sinistres ou moins est de 99,33%.
+
+Si l’assureur demande une prime égale au double du coût actuariel, plus ses frais, il est virtuellement assuré de réaliser un bon profit.  Les calculs sont expliqués en détails à la section 3.7.  C’est principalement la mise en commun des risques qui permet à l’assureur d’avoir de l’appétit pour le risque.
+
+D’autres éléments, tels la capacité financière de l’assureur et la possibilité pour l’assureur de transférer des risques à un réassureur aident aussi l’assureur à avoir de l’appétit pour le risque.
+
+
+## Les différentes attitudes face au risque
+
+### Évitement du risque
+
+On peut rendre certains risques irréalisables, comme par exemple éviter le risque d’inondation de la maison à la suite d’un débordement de rivière en construisant la maison sur une hauteur.  On peut aussi éviter le risque d’incendie en construisant une maison en béton et en n’ayant rien d’inflammable à l’intérieur.
+
+Évidemment, cette stratégie est plus théorique que pratique et elle est totalement inapplicable face à certains risques qui comportent un élément de certitude comme le décès.
+
+
+### Prévention
+
+On peut essayer d’empêcher le risque de survenir.  Par exemple, une personne qui voyage dans des pays où l’hépatite est endémique a avantage à se faire vacciner contre cette maladie, qui peut avoir des effets très graves.  De même en voyant un médecin de famille régulièrement et en faisant attention à notre santé, on réduit la probabilité de décès.
+
+
+### Mitigation
+
+On peut réduire la gravité d’un risque ou le montant de la perte.  Par exemple, en installant des gicleurs dans un immeuble, on limite considérablement les dégâts en cas d’incendie.  En assurance de personnes, il est plus difficile de trouver un moyen de réduire le coût de la réalisation d’un risque, mais toute mesure permettant de réduire la durée d’une éventuelle invalidité et la perte de salaire qui en résulte constitue une forme de mitigation.
+
+
+### Rétention
+
+On peut assumer complètement ou partiellement un risque, soit parce qu’on ne peut pas éviter le risque ni le mitiger ni le transférer à quelqu’un d’autre ou si on juge, après analyse, que le coût du transfert de risque serait disproportionné.
+
+Par exemple, un homme de 50 ans considéré difficilement assurable par un assureur ne peut obtenir qu’une assurance vie de 50 000 $ qui va se terminer à 65 ans, au coût de 500 $ / année.  Il considère qu’il n’a pas plus de 5% de chances de mourir avant 65 ans.  Il prend plutôt 50 000 $ qu’il investit au nom de sa conjointe dans des actions d’une grande banque canadienne (BMO) qui prennent 5% de valeur par année, en plus de verser un dividende de 4%.  S’il survit jusqu’à 65 ans, sa conjointe aura reçu 30 000 $ en dividendes et ses actions vaudront alors 103 946 $, soit un profit de 33 946 $ (soit 133 946 $ - 50 000 $ de prestations de décès – 50 000 $ investis initialement. Si on ajoute les 7 500 $ de primes économisées, on se retrouve avec un profit net de 41 446 $.
+
+Si cet homme décède à 60 ans, sa conjointe aura reçu 20 000 $ de dividendes + 81 445 $ de capital + 5 000 $ de primes non utilisées moins 50 000 $ de prestation de décès non reçue car pas d’assurance, moins les 50 000 $ investis initialement, soit un profit de 6 445 $.
+
+
+### Diversification des risques
+
+On peut diversifier les risques auxquels on fait face, principalement en matière de placements, (au lieu d’investir tout ce qu’une personne possède en actions d’une seule grande banque), on peut diversifier les placements en achetant des actions de compagnies très différentes les unes des autres, ce qui produit un portefeuille diversifié.  C’est moins évident avec des risques assurables, toutefois…
+
+Les assureurs, en acceptant beaucoup de risques différents, qui sont peu ou pas corrélés, donc des événements indépendants, se trouvent à effectuer une diversification des risques.
+
+
+### Transfert du risque
+
+On peut transférer partiellement ou totalement une partie du risque à une tierce partie (gouvernement ou compagnie d’assurance)
+- L’aversion pour le risque fait en sorte que la personne préfère payer une petite prime afin de ne pas avoir à subir les conséquences monétaires d’assumer un gros risque.
+- La prime est alors le coût que la personne est prête à payer pour transférer le risque à une compagnie d’assurance.
+  o La personne préfère une petite perte certaine (la prime) pour ne pas assumer la perte financière due à l’évènement.
+
+
+## La mise en commun des risques
+
+Quand on combine plusieurs risques indépendants, la probabilité que tous ces risques se réalisent la même année diminue au fur et à mesure qu’on augmente le nombre de risques.  En fait, il est extrêmement probable que seuls certains risques se réaliseront.
+
+Prenons par exemple le risque le plus simple, qui suit une distribution binomiale.  Les graphiques et tableaux ci-dessous montrent ce qui arrive lorsqu’on combine plusieurs risques ensemble.  Malheureusement, la capacité de Microsoft Excel ™ d’effectuer des calculs combinatoires est limitée à moins de 200 risques, ce qui ne permet pas de démontrer la pleine puissance de la mise en commun des risques.
+
+Si on suppose une situation où :
+- Un risque a une probabilité de réalisation de 5%
+- Si le risque se réalise, l’assureur paye 10 000 $.
+- Une personne n’acceptera pas d’acheter l’assurance si l’assureur n’a pas au moins 99% de chances d’être capable de payer en cas de sinistre
+
+Regardons ce qui se passe avec un nombre croissant d’assurés :
+
+Avec un seul assuré :
+
+```
+Nb de        Probabilité d'une     Nb de combinaisons     Probabilité     Probabilité
+sinistres    Montant              combinaison            possibles       totale       cumulative
+0            0                    0.9500000000           1              0.95000     0.95000
+1            10 000               0.0500000000           1              0.05000     1.00000
+Total                                                                     1.00000
+```
+
+Ici, on a une situation de pur « gamble ».  Le fait que l’assureur paye ou non est uniquement lié au hasard et s’il paye, il paiera beaucoup plus que le coût actuariel qui est de 500 $ (soit 5% x 10 000 $).  Si l’assureur veut être certain à 99% d’être capable de payer la prestation, il devra exiger une prime égale au montant d’assurance car avec toute prime moindre, il n’aurait que 95% de probabilité de tenir son engagement.
+
+Avec deux assurés :
+
+```
+Nb de        Probabilité d'une     Nb de combinaisons     Probabilité     Probabilité
+sinistres    Montant              combinaison            possibles       totale       cumulative
+0            0                    0.9025000000           1              0.90250     0.90250
+1            10000                0.0475000000           2              0.09500     0.99750
+2            20000                0.0025000000           1              0.00250     1.00000
+Total                                                                     1.00000
+```
+
+Ici, on constate que si l’assureur veut être certain à 99% d’être capable de payer la prestation, il devra exiger une prime égale à 5 000 $ / personne, soit 10 000 $ au total, pour avoir une probabilité supérieure à 99% de payer.  En fait, avec une prime de 10 000 $ au total, il est sûr à 99,75% d’avoir assez d’argent pour payer les réclamations.
+
+Avec maintenant 4 assurés :
+
+```
+Nb de        Probabilité d'une     Nb de combinaisons     Probabilité     Probabilité
+sinistres    Montant              combinaison            possibles       totale       cumulative
+0            0                    0.8145062500           1              0.81451     0.81451
+1            10000                0.0428687500           4              0.17148     0.98598
+2            20000                0.0022562500           6              0.01354     0.99952
+3            30000                0.0001187500           4              0.00048     0.99999
+4            40000                0.0000062500           1              0.00001     1.00000
+Total                                                                     1.00000
+```
+
+Le nombre de combinaisons possibles de N parmi Z se calcule facilement avec la formule d’analyse combinatoire         Z !
+        N !  x (Z-N) !
+
+Avec 4 assurés, on commence à constater que certaines combinaisons de sinistres ont une probabilité négligeable : ainsi, la probabilité de 4 sinistres est de 0,054, soit 0,00000625, arrondi à 0,00001, soit moins de 1 / 100 000.  Comme dans l’exemple précédent, une prime de 5 000 $ par assuré, soit 20 000 $ au total, suffit à donner une probabilité supérieure à 99% que l’assureur puisse s’acquitter de ses obligations.  En fait, à 99,95% de probabilité, c’est une quasi-certitude.
+
+Passons maintenant à 20 assurés :
+
+```
+Nb de        Probabilité d'une     Nb de combinaisons     Probabilité     Probabilité
+sinistres    Montant              combinaison            possibles       totale       cumulative
+0            0                    0.35848592             1              0.35849     0.35849
+1            10000                0.01886768             20             0.37735     0.73584
+2            20000                0.00099304             190            0.18868     0.92452
+3            30000                0.00005227             1140           0.05958     0.98410
+4            40000                0.00000275             4845           0.01333     0.99743
+5            50000                0.00000014             15504          0.00224     0.99967
+6            60000                0.00000001             38760          0.00030     0.99997
+7            70000                0.00000000             77520          0.00003     1.00000
+8            80000                0.00000000             125970         0.00000     1.00000
+9            90000                0.00000000             167960         0.00000     1.00000
+10           100000               0.00000000             184756         0.00000     1.00000
+11           110000               0.00000000             167960         0.00000     1.00000
+12           120000               0.00000000             125970         0.00000     1.00000
+13           130000               0.00000000             77520          0.00000     1.00000
+14           140000               0.00000000             38760          0.00000     1.00000
+15           150000               0.00000000             15504          0.00000     1.00000
+16           160000               0.00000000             4845           0.00000     1.00000
+17           170000               0.00000000             1140           0.00000     1.00000
+18           180000               0.00000000             190            0.00000     1.00000
+19           190000               0.00000000             20             0.00000     1.00000
+20           200000               0.00000000             1              0.00000     1.00000
+Total                                                                     1.00000
+```
+
+Pour la première fois, la probabilité d’avoir zéro sinistre devient inférieure à la probabilité d’avoir un autre nombre de sinistres, soit 1 sinistre.  De plus, la probabilité de zéro sinistre est maintenant de moins de 50% (soit 35,849%), donc il est probable que l’assureur subira au moins un sinistre et qu’il devra payer quelque chose.
+
+Par contre, la probabilité de 8 sinistres ou plus est infinitésimale et on est certain à plus de 99% (soit 99,743%) de ne pas avoir plus de 4 sinistres.  La prime suffisante devient alors 40 000 $ / 20 assurés = 2 000 $.  On commence à s’approcher du coût actuariel de 500 $.
+
+Passons maintenant à 40 assurés :
+
+```
+Nb de        Probabilité d'une     Nb de combinaisons     Probabilité     Probabilité
+sinistres    Montant              combinaison            possibles       totale       cumulative
+0            0                    0.128512               1              0.12851     0.12851
+1            10000                0.006764               40             0.27055     0.39906
+2            20000                0.000356               780            0.27767     0.67674
+3            30000                1.87E-05               9880           0.18511     0.86185
+4            40000                9.86E-07               91390          0.09012     0.95197
+5            50000                5.19E-08               658008         0.03415     0.98612
+6            60000                2.73E-09               3838380        0.01049     0.99661
+7            70000                1.44E-10               18643560       0.00268     0.99929
+8            80000                7.57E-12               76904685       0.00058     0.99987
+9            90000                3.98E-13               273438880      0.00011     0.99998
+10           100 000              2.1E-14                847660528      0.00002     1.00000
+>10          > 100 000            Infinitésimale          Environ 1 x 10 12  infinitésimale 1.00000
+Total                                                                     1.00000
+```
+
+À 40 assurés, la distribution des possibilités commence à se resserrer sérieusement.  La probabilité la plus élevé est celle de subir exactement 2 sinistres.  La probabilité de subir plus de 10 sinistres est infinitésimale, malgré le nombre ahurissant de combinaisons possibles.  En provisionnant 6 sinistres, au moyen d’une prime de 60 000 $ répartie entre 40 assurés, soit 1 500 $ par assuré, l’assureur est sûr à 99,66% d’avoir assez d’argent pour tenir son engagement.  La prime requise continue donc de baisser.
+
+Et maintenant avec 80 assurés :
+
+```
+Nb de        Probabilité d'une     Nb de combinaisons     Probabilité     Probabilité
+sinistres    Montant              combinaison            possibles       totale       cumulative
+0            0                    0.016515               1              0.016515    0.01652
+1            10000                0.000869               80             0.069538    0.08605
+2            20000                4.57E-05               3160           0.144567    0.23062
+3            30000                2.41E-06               82160          0.197828    0.42845
+4            40000                1.27E-07               1581580        0.200431    0.62888
+5            50000                6.67E-09               24040016       0.160345    0.78922
+6            60000                3.51E-10               3.01E+08       0.105490    0.89471
+7            70000                1.85E-11               3.18E+09       0.058694    0.95341
+8            80000                9.72E-13               2.9E+10        0.028188    0.98160
+9            90000                5.12E-14               2.32E+11       0.011869    0.99347
+10           100 000              2.69E-15               1.65E+12       0.004435    0.99790
+11           110 000              1.42E-16               1.05E+13       0.001485    0.99939
+12           120 000              7.46E-18               6.02E+13       0.000450    0.99984
+13           130 000              3.93E-19               3.15E+14       0.000124    0.99996
+14           140 000              2.07E-20               1.51E+15       0.000031    0.99999
+15           150 000              1.09E-21               6.64E+15       0.000007    1.00000
+≥ 16         ≥ 160 000            Infinitésimale          Environ 1 x 10 24 0.000002 1.00000
+Total                                                                     1.00000
+```
+
+À 80 assurés, la perte la plus probable est de 4 unités, soit 40 000 $.  On atteint le seuil de 99% de certitude en provisionnant 9 sinistres, soit 90 000 $ répartis sur 80 assurés, donc 1 125 $ par assuré.  On est de plus en plus près du coût actuariel qui est de 500 $.
+
+Finalement, avec 160 assurés (car Excel ne se rend pas tellement plus loin) :
+
+```
+Nb de        Probabilité d'une     Nb de combinaisons     Probabilité     Probabilité
+sinistres    Montant              combinaison            possibles       totale       cumulative
+0            0                    0.000272758            1              0.00027     0.00027
+1            10000                1.43557E-05            160            0.00230     0.00257
+2            20000                7.55561E-07            12720          0.00961     0.01218
+3            30000                3.97664E-08            669920         0.02664     0.03882
+4            40000                2.09297E-09            26294360       0.05503     0.09385
+5            50000                1.10156E-10            820384032      0.09037     0.18422
+6            60000                5.79769E-12            21193254160    0.12287     0.30710
+7            70000                3.05142E-13            4.66252E+11    0.14227     0.44937
+8            80000                1.60601E-14            8.91706E+12    0.14321     0.59258
+9            90000                8.45268E-16            1.50599E+14    0.12730     0.71987
+10           100000               4.44878E-17            2.27405E+15    0.10117     0.82104
+11           110000               2.34146E-18            3.10098E+16    0.07261     0.89365
+12           120000               1.23235E-19            3.85038E+17    0.04745     0.94110
+13           130000               6.48605E-21            4.38351E+18    0.02843     0.96953
+14           140000               3.41371E-22            4.60268E+19    0.01571     0.98524
+15           150000               1.79669E-23            4.47994E+20    0.00805     0.99329
+16           160000               9.45626E-25            4.05995E+21    0.00384     0.99713
+17           170000               4.97698E-26            3.43902E+22    0.00171     0.99884
+18           180000               2.61946E-27            2.73211E+23    0.00072     0.99956
+19           190000               1.37866E-28            2.04189E+24    0.00028     0.99984
+20           200000               7.25613E-30            1.43953E+25    0.00010     0.99995
+21           210000               3.81901E-31            9.59689E+25    0.00004     0.99998
+22           220000               2.01001E-32            6.06349E+26    0.00001     0.99999
+≥ 23         ≥ 230000             Infinitésimale          Énorme         0.00001     1.00000
+                                1.00000
+```
+
+À 160 assurés, la perte la plus probable est de 8 unités, soit 80 000 $.  On atteint le seuil de 99% de certitude en provisionnant 15 sinistres, soit 150 000 $ répartis sur 160 assurés, donc 937,50 $ par assuré.  On est de plus en plus près du coût actuariel qui est de 500 $.  De plus, si l’assureur collecte 150 000 $ en primes, il a une probabilité de 98,54% de payer 14 sinistres ou moins le laissant avec un profit au moins 10 000 $.
+
+La capacité combinatoire d’Excel™ se termine peu après 160 assurés.  Si on pouvait aller à 1 000 assurés, on se rapprocherait encore plus du coût actuariel de 500$ mais on n’atteindrait jamais ce coût car on veut une probabilité de suffisance (99%) qui est disproportionnée par rapport au coût moyen.
+
+Ceci nous amène à un aspect fondamental de l’actuariat, de plus en plus exigé par les autorités de réglementation et par les penseurs de la profession : mesurer la suffisance des ressources des assureurs en termes d’écarts et de dispersion.  Autrement dit, ne plus calculer une réserve actuarielle en se servant de probabilités moyennes (comme des taux de mortalité) mais plutôt en utilisant une série de calculs stochastiques, afin d’établir la réserve non pas comme étant le montant moyen à détenir mais plutôt le montant qui permet à l’assureur d’être certain à x% de pouvoir honorer ses engagements.
+
+Jusqu’à maintenant, nous avons supposé que l’assureur débutait son année en ne possédant rien d’autres que les primes qu’il doit recevoir.  Dans la réalité, l’assureur doit posséder un capital minimal pour avoir le droit d’être en affaires.  La présence d’un tel capital permet à l’assureur de réduire ses primes pour les situer entre le niveau « sécuritaire » et le niveau du coût actuariel.
+
+Ainsi, supposons maintenant que l’assureur débute son année avec un capital de 20 000 $.  Avec 40 assurés, il a besoin de 60 000 $ au total pour être certain à 99% de tenir ses engagements.  Comme il possède déjà 20 000 $, il lui suffit de collecter 40 000 $, soit 1 000 $ / assuré, pour satisfaire ce critère de 99%.  La présence d’un capital de départ permet ainsi de ramener la prime à un niveau plus réaliste et acceptable pour l’assuré.
+
+De la même manière, avec 160 assurés et un capital de départ de 20 000 $, l’assureur, qui a besoin de 150 000 $ au total, pourrait se contenter de collecter 130 000 $ en primes, soit 130 000 / 160 = 812,50$ au lieu de 937,50 $.  Dans cette situation, il a encore une probabilité de 94,11% de subir 12 sinistres ou moins, faisant du même coup un profit d’au moins 10 000 $.
+
+Les graphiques ci-dessous permettent de visualiser l’évolution de la distribution des probabilités de sinistre au fur et à mesure qu’on augmente le nombre d’assurés :
+
+Il est intéressant de constater qu’une ligne qui joindrait le sommet des rectangles des histogrammes évolue vers la courbe d’une distribution statistique de type log-normale.  La distribution log-normale est assez utilisée dans la modélisation des distributions de sinistres en assurance pour les raisons suivantes :
+- Elle décrit assez bien la réalité
+- Elle est bornée à zéro à gauche, contrairement à la distribution Normale, qui accepterait un nombre négatif de sinistres, ce qui est impossible
+- Elle est asymétrique, ce qui reconnaît le fait qu’avec des événements rares, un nombre plus limité d’occurrences est beaucoup plus probable qu’un nombre élevé d’occurrences.
+
+
+## Les différentes classifications d’assurance
+
+Il y a plusieurs façons de classer l’assurance :
+- Par rapport au preneur de risque, on a l’auto-assurance, l’assurance privée et l’assurance sociale.
+- Par rapport à l’objet de l’assurance (personne ou chose), on a l’assurance de personnes et l’assurance IARD.
+- Par rapport à l’approche de la couverture, on a l’assurance individuelle et l’assurance collective.
+- Par rapport à l’assuré, on a l’assurance personnelle et l’assurance commerciale.
+- Par rapport à la dette d’un assuré, on a l’assurance-crédit.
+
+Évidemment, ces classifications ne sont pas mutuellement exclusives l’une par rapport à l’autre.  Ainsi, on peut avoir une assurance de personne privée et individuelle ou une assurance de personne collective et sociale.
+
+
+### L’auto-assurance
+
+Il s’agit essentiellement de la rétention d’un risque qu’on ne veut pas ou qu’on ne peut pas éviter ni transférer.  On conserve donc le risque en totalité ou en partie.
+
+Quelques exemples :
+- La franchise en assurance médicaments
+- Le fait de ne pas s’assurer contre les dommages à son propre véhicule résultant d’une collision dont on est responsable.
+
+
+### L’assurance privée
+
+Il s’agit de l’assurance offerte par les assureurs privés.
+- Elle est basée sur l’équité actuarielle stricte, c’est-à-dire que chacun doit payer une prime proportionnelle à son risque.
+- Elle est parfois obligatoire
+  o Au Québec, l’assurance médicaments est obligatoire quand on a accès à un régime collectif (Loi sur l’Assurance médicaments du Québec).
+  o Au Québec, l’assurance automobile couvrant la responsabilité civile du propriétaire du véhicule est obligatoire.
+
+
+### L’assurance socialee
+
+Il s’agit de l’assurance offerte par le gouvernement d’un pays ou d’une région (État ou province).
+- Elle est normalement obligatoire
+- Elle est fondée sur des principes d’assurance, mais élargis de façon à inclure des personnes dont le risque est trop élevé pour qu’elles aient accès à une couverture abordable auprès d’un assureur
+  o Par exemple, au Canada, tous les résidents permanents ont droit à l’assurance maladie même si leur état de santé ne leur permettrait pas d’avoir accès à l’assurance dans un libre marché comme celui des États-Unis
+  o Elle est basée sur l’équité actuarielle élargie, c’est-à-dire que chacun doit payer une prime proportionnelle au risque moyen de l’ensemble des assurés
+- Elle est habituellement financée par des primes ou des cotisations établies par la Loi
+- Elle vise à protéger la population
+- Voici quelques exemples :
+  o Rentes de retraite, de survivant et d’invalide du régime de rentes du Québec
+  o Assurance maladie du Québec
+  o Assurance emploi
+  o Assurance parentale du Québec
+  o Assurance en cas d’accident du travail ou maladie professionnelle gérée par la CNESST.
+
+
+### L’assurance de personnes
+
+Il s’agit de l’assurance qui couvre les risques de décès et de maladie ou invalidité d’une personne.
+- L’assurance vie couvre le risque de décès et ses conséquences financières néfastes.
+- L’assurance invalidité verse une rente si la personne n’est plus capable de travailler (risque de morbidité).
+- L’assurance maladie rembourse les frais médicaux ou paramédicaux causés par l’état de santé d’une personne (risque de morbidité).
+- L’assurance contre les maladies graves verse un montant d’argent si la personne est atteinte d’une maladie énumérée au contrat (risque de morbidité).
+- Les rentes protègent une personne contre le risque de survivre à ses épargnes (risque de longévité).
+
+
+### L’assurance IARD
+
+Il s’agit de l’assurance qui couvre les pertes reliées à la propriété et à la responsabilité civile.
+- Assurance des biens (incendie, vol, destruction, vandalisme, etc.).
+- Assurance de la responsabilité civile (conséquences de notre négligence).
+- Assurance automobile (blessures corporelles, responsabilité civile, dommages résultant d’une collision, feu, vol, vandalisme, bris de vitre).
+- Assurances diverses (assurance maritime, récoltes, etc.).
+
+
+### L’assurance individuelle
+
+Il s’agit de l’assurance qui couvre les pertes subies par un individu.
+
+
+### L’assurance collective
+
+Il s’agit de l’assurance qui couvre les pertes subies par un membre d’un groupe légitime ou une de ses personnes à charge
+- Par « groupe légitime », on entend un groupe formé pour une raison autre que l’obtention d’assurance
+- Au Québec, il s’agit habituellement d’employées d’un même employeur ou de personnes ayant une occupation rémunératrice commune.  C’est la condition pour que le régime puisse offrir une assurance médicaments collective.  On rencontre aussi des membres de clubs sociaux ou de sociétés d’entraide, mais il est illégal de leur fournir une assurance médicaments
+
+- Les protections les plus courantes sont les suivantes :
+  o Assurance vie
+  o Assurance en cas de décès ou infirmité à la suite d’un accident
+  o Assurance invalidité (courte et longue durée)
+  o Assurance médicaments et soins de santé
+  o Assurance soins dentaires
+
+
+### L’assurance personnelle
+
+Il s’agit de l’assurance qui couvre les pertes subies par un individu dans le cadre de sa vie privée (décès, vol, etc.).
+
+
+### L’assurance commerciale
+
+Il s’agit de l’assurance qui couvre les pertes subies par une entreprise (incendie, responsabilité, etc.)
+- C’est principalement de l’assurance IARD.
+- Cette notion inclut aussi l’assurance sur la vie des actionnaires pour financer le rachat des parts au décès d’un actionnaire important, dans les petites entreprises.
+
+
+### L’assurance crédit
+
+Il s’agit d’une assurance vendue par les institutions financières et reliées aux emprunts et dettes de crédit des particuliers
+- Elle paye habituellement le solde de la dette en cas de décès et le versement mensuel minimum exigé par le prêteur si l’assuré devient invalide.
+
+---
+
+### Assurance responsabilité professionnelle
+
+En listant tous ces ordres professionnels, on peut profiter de l'occasion pour introduire un domaine de l'actuariat un peu plus méconnu du grand domaine de l'assurance de dommages, soit celui lié à la responsabilité professionnelle.
+
+L’assurance responsabilité professionnelle (souvent appelée assurance erreurs et omissions, ou E&O) vise à couvrir les conséquences financières d’une faute, erreur, omission, négligence ou manquement commis dans l’exercice d’activités professionnelles, lorsqu’un client (ou un tiers) subit un préjudice et réclame une indemnisation. En pratique, cette protection couvre typiquement (selon le contrat ou le régime) :
+
+- les dommages que le professionnel pourrait devoir payer (indemnités, règlements) ;
+- les frais de défense (honoraires d’avocats, expertise, etc.), souvent déterminants en responsabilité professionnelle.
+
+Cette assurance est généralement considérée comme complexe par rapport à plusieurs produits d’assurance « classiques », notamment en raison des éléments suivants :
+
+- **Délais avant réclamation (longue traîne)**  
+  Une faute peut être commise aujourd’hui, mais une réclamation peut survenir des années plus tard, quand le dommage est découvert ou quand un litige se cristallise. Cette temporalité complique la tarification, la provision et la gestion du risque (on assure un passé qui peut se révéler plus tard).
+
+- **Question de déclenchement de la couverture**  
+  Selon le produit ou le régime, la couverture peut dépendre de la date de l’acte, de la date de la réclamation, ou d’autres modalités contractuelles (par exemple : exigences de déclaration, périodes de garantie, garanties subséquentes, etc.). Cette mécanique influence fortement les protections réelles et les situations « grises ».
+
+- **Forte dépendance au contexte juridique et à la preuve**  
+  La responsabilité professionnelle se joue souvent sur des détails : normes de pratique, obligations d’information, documents, délais, causalité, etc. Deux dossiers apparemment semblables peuvent avoir des issues très différentes.
+
+- **Hétérogénéité des risques selon les actes**  
+  Un même titre professionnel peut recouvrir des actes très différents (donc des expositions très différentes), et les limites, exclusions et franchises deviennent centrales pour comprendre « ce qui est réellement couvert ».
+
+---
+
+Typiquement, les professionnels doivent assumer un coût annuel afin de bénéficier d’une protection contre les risques liés à l’exercice de leur profession. Toutefois, les protections de type E&O peuvent prendre plusieurs formes institutionnelles et contractuelles. Chacune de ces formes repose sur des mécanismes distincts de mutualisation, de tarification, de provisionnement et de suffisance des ressources, qui relèvent directement des notions de gestion du risque abordées en actuariat.
+
+###### **1) Directement par des compagnies d’assurance** {-}
+
+Contrats individuels ou programmes affinitaires, comme dans plusieurs marchés de responsabilité professionnelle.  
+Dans ce cas, la relation est strictement contractuelle : l’assureur s’engage, moyennant une prime, à couvrir certains sinistres définis dans la police, jusqu’à des limites prédéterminées.
+
+::: {.callout-tip icon=false}
+### Exemple: Urbaniste 
+
+Un avis professionnel ou une recommandation d’aménagement qui contribue à une décision ayant des conséquences financières importantes (par exemple une décision de zonage, une interprétation d’un règlement, une analyse de conformité, ou une recommandation ayant un impact sur la valeur d’un terrain ou sur la possibilité de construire). Le dommage allégué peut n’apparaître que plus tard, quand un projet échoue, qu’un permis est refusé, qu’un voisin conteste, ou qu’un promoteur réclame des pertes. Ici, la difficulté d’assurance est souvent liée à la causalité (qu’est-ce qui relève réellement de l’avis de l’urbaniste versus des décisions politiques, des contraintes techniques, ou des choix du promoteur?) et à l’évaluation du préjudice (pertes d’opportunité, retards, frais juridiques).
+
+Les urbanistes doivent être couverts par une [assurance de responsabilité professionnelle](https://www.legisquebec.gouv.qc.ca/fr/document/rc/c-26,%20r.%20299). Le règlement prévoit notamment un régime collectif auquel des urbanistes peuvent adhérer, avec délivrance d’une attestation par l’Ordre.  
+:::
+
+---
+
+###### 2) **Par un fonds d’assurance rattaché à un ordre professionnel** {-}
+
+Lorsque l’organisation et le volume le justifient, il peut s’agir d’un régime collectif conçu pour assurer la responsabilité professionnelle des membres et administré de façon distincte de l’ordre lui-même, en cohérence avec la mission de protection du public. Ce type de structure fonctionne selon une logique assurantielle classique (cotisations, provisions, paiement des sinistres), mais adaptée à un groupe professionnel homogène.
+
+::: {.callout-tip icon=false}
+### Exemple: Notaire
+
+Une erreur dans un acte notarié (par exemple une description imprécise d’un immeuble, un problème de servitude, une hypothèque mal radiée, un délai ou une formalité manquante). Le client peut ne découvrir le problème que plusieurs années plus tard, souvent au moment d’une revente, d’un refinancement ou d’un conflit familial lié à une succession.
+
+Les notaires sont couverts via le [Fonds d’assurance-responsabilité professionnelle lié à la Chambre des notaires du Québec](https://www.farpcnq.qc.ca/), dont la mission explicite est d’assurer la responsabilité professionnelle des membres (et ex-membres) et dont les opérations sont distinctes de celles de la Chambre. Le règlement applicable prévoit l’obligation de souscrire à ce fonds.  
+:::
+
+---
+
+###### 3) **Par un régime de protection mutuelle ou de défense professionnelle** {-}
+
+Dans ce cas, la protection ne constitue pas juridiquement un contrat d’assurance. Les professionnels versent des cotisations à une organisation collective dont la mission est de défendre les membres et, le cas échéant, d’indemniser les victimes. Les décisions de défense et de règlement sont prises au cas par cas, et les coûts sont mutualisés entre les membres.
+
+Ce modèle est surtout utilisé lorsque les sinistres sont rares, très coûteux et difficiles à borner contractuellement, rendant l’assurance traditionnelle plus délicate à mettre en place.
+
+::: {.callout-tip icon=false}
+### Exemple: Médecin 
+
+Un diagnostic posé trop tard, un résultat critique non suivi, ou une complication postopératoire dont l’explication et la documentation deviennent centrales. Dans ces dossiers, l’enjeu n’est pas seulement l’indemnité éventuelle : le coût de défense (experts, avocats, analyses) peut être énorme, et la responsabilité dépend souvent d’éléments difficiles à standardiser (information donnée au patient, pratiques cliniques, causalité médicale, incertitude scientifique). Les réclamations peuvent aussi survenir longtemps après l’acte, par exemple lorsque l’état du patient se dégrade ou qu’un lien causal est allégué.
+
+Un cas particulier, souvent cité, est celui de [l’Association canadienne de protection médicale (CMPA/ACPM)](https://www.cmpa-acpm.ca/fr/home). Il s’agit d’une organisation de défense médicale mutuelle, et non d’une compagnie d’assurance, où les médecins membres partagent collectivement les coûts, risques et bénéfices du modèle.  
+
+:::
+
+

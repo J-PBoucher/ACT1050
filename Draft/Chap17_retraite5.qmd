@@ -1,0 +1,185 @@
+---
+toc: false
+date: 03/15/2026
+date-modified: last-modified
+---
+
+# Régimes de retraite publics 
+
+### Objectifs du chapitre {-}
+
+## Introduction
+
+## Survol
+
+Les régimes de retraite publics au Canada reposent sur trois composantes principales, qui remplissent des rôles distincts mais complémentaires.
+
+- Premièrement, la **Pension de sécurité de la vieillesse** constitue une allocation versée par le gouvernement fédéral aux personnes âgées admissibles. Il s’agit d’un programme à caractère largement universel, financé à même les revenus généraux de l’État, et non par des cotisations individuelles.
+
+- Deuxièmement, le **Supplément de revenu garanti** ainsi que l’**allocation au conjoint** viennent compléter ce dispositif pour les individus à faible revenu. Ces prestations, également financées par le gouvernement fédéral, relèvent davantage d’une logique d’assistance sociale et sont conditionnelles au niveau de revenu.
+
+- Troisièmement, le **Régime de rentes du Québec** et le **Régime de pensions du Canada** constituent des régimes d’assurance sociale contributifs. Les prestations dépendent des cotisations versées au cours de la vie active. Le Régime de pensions du Canada s’applique dans l’ensemble des provinces, à l’exception du Québec, où un régime distinct mais très similaire est en place.
+
+
+## Pension de sécurité de la vieillesse (PSV)
+
+La Pension de sécurité de la vieillesse (PSV) est un programme fédéral visant à fournir un revenu de base aux personnes âgées de 65 ans et plus. Contrairement aux régimes contributifs, elle est financée à partir des revenus généraux du gouvernement.
+
+### Objectif, admissibilité et montant
+
+Le versement de la PSV débute le mois suivant le 65e anniversaire.
+
+Pour être admissible, il faut :
+
+- être âgé de 65 ans ou plus ;  
+- avoir résidé au Canada pendant au moins 10 ans après l’âge de 18 ans ;  
+- résider au Canada, ou avoir résidé au Canada pendant au moins 20 ans après 18 ans (pour recevoir la pension à l’étranger), ou bénéficier d’une entente internationale.  
+
+Une pension complète est versée après 40 années de résidence au Canada après l’âge de 18 ans. Sinon, une pension partielle est versée proportionnellement :
+
+$$
+\text{Pension} = \frac{\text{années de résidence}}{40} \times \text{pension complète}
+$$
+
+En 2026 (ordre de grandeur actuel) :
+
+- **65 à 74 ans** : environ **713 \$ / mois**  
+- **75 ans et plus** : environ **784 \$ / mois**  
+
+Ces montants sont indexés trimestriellement selon l’indice des prix à la consommation.
+
+La pension peut être reportée après 65 ans, avec une bonification de :
+
+- **0,6 % par mois**, soit jusqu’à **36 % à 70 ans**  
+
+La PSV est imposable comme un revenu.
+
+### Récupération (clawback)
+
+Un impôt de récupération s’applique pour les revenus élevés.
+
+En 2026 (ordre de grandeur) :
+
+- seuil d’entrée : environ **90 000 \$**  
+- récupération : **15 % du revenu excédentaire**  
+- élimination complète autour de **145 000 \$ à 150 000 \$**  
+
+### Lecture actuarielle
+
+La PSV fournit un revenu de base uniforme, indépendant des cotisations. Le taux de remplacement varie donc fortement selon le revenu antérieur.
+
+Par exemple :
+
+- revenu de 30 000 \$ → taux de remplacement élevé  
+- revenu de 100 000 \$ → taux de remplacement faible ou nul (avec récupération)  
+
+### Financement
+
+Le régime est financé selon une logique de **répartition (pay-as-you-go)** :
+
+- aucune capitalisation préalable  
+- financement par les recettes fiscales courantes  
+
+Cela implique une sensibilité directe au vieillissement de la population.
+
+### Commentaires structurels
+
+La PSV est conçue comme un **socle universel**, mais plusieurs mécanismes en modifient la portée :
+
+- la récupération introduit une forme de ciblage implicite ;  
+- la pension partielle dépend des années de résidence, ce qui introduit une dimension migratoire ;  
+- le report permet un ajustement actuariel individuel.  
+
+Historiquement, plusieurs réformes ont été envisagées pour en contrôler le coût (hausse de l’âge d’admissibilité, resserrement des critères), mais peu ont été maintenues.
+
+### Exemple
+
+::: {.custom}
+Un individu a résidé 25 ans au Canada après l’âge de 18 ans.
+
+Sa pension correspond à :
+
+\[
+\frac{25}{40} = 62{,}5\%
+\]
+
+Si la pension complète est de 713 \$ / mois :
+
+\[
+0{,}625 \times 713 \approx 446 \$ / mois
+\]
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.callout-note title="Les deux principaux programmes publics de retraite au Canada"}
+
+**Régime des rentes du Québec (RRQ)**  
+Le RRQ est un régime public contributif obligatoire pour les travailleurs du Québec.  
+
+- Les cotisations sont prélevées sur les revenus de travail.  
+- Le régime est partiellement capitalisé : une partie des cotisations est investie par la Caisse de dépôt et placement du Québec afin de financer les prestations futures.  
+- Les prestations versées à la retraite dépendent des revenus de travail cotisés durant la carrière.
+
+**Pension de la sécurité de la vieillesse (PSV)**  
+La PSV est un programme fédéral versé aux personnes âgées admissibles résidant au Canada.
+
+- Elle n’est pas financée par des cotisations spécifiques.  
+- Les prestations sont payées directement à partir des revenus généraux du gouvernement fédéral (impôt).  
+- Le programme fonctionne donc essentiellement selon un principe de financement par répartition.
+
+Cette différence de financement explique pourquoi le vieillissement de la population exerce une pression particulière sur les finances publiques.
+
+:::
+
+
+
+### Coordination avec les prestations du RRQ et de la PSV
+
+Dans un régime à prestations déterminées, il est fréquent de tenir compte des prestations versées par les régimes publics, notamment le RRQ (ou RPC) et la pension de la sécurité de la vieillesse (PSV). Cette coordination vise à intégrer le régime privé dans un système global de revenu à la retraite. Deux approches principales sont utilisées.
+
+- **Intégration directe (offset)**  
+  Le régime réduit la rente payable en fonction des prestations publiques. Par exemple, il peut soustraire une fraction de la rente du RRQ pour chaque année de service.
+
+- **Intégration par la formule de rente**  
+  Le régime prévoit un taux d’accumulation plus faible pour la portion du salaire jusqu’au MGA, et un taux plus élevé pour la portion excédentaire. Cette approche reflète le fait que le RRQ couvre déjà une partie du revenu jusqu’au MGA. Par exemple, si le RRQ remplace environ 25 % du salaire sur 35 ans, cela correspond à un taux d’accumulation d’environ 0,7 % par année. Le régime privé peut alors créditer environ 1,3 % sous le MGA et 2 % au-delà.
+
+Par juridiction, nous avons ainsi:
+
+- **Québec**  
+  La coordination avec le RRQ est permise. En revanche, la réduction de la rente en fonction de la PSV est interdite pour le service accumulé depuis la réforme des pensions (fin des années 1980).
+
+- **Autres provinces**  
+  Les règles sont similaires à celles du Québec : la coordination avec le RRQ/RPC est permise, mais celle avec la PSV est généralement interdite.
+
+- **Régimes de compétence fédérale**  
+  Le cadre est plus souple et permet, en théorie, une coordination avec la PSV. En pratique, cette possibilité est peu utilisée.
+
+La coordination avec le RRQ repose sur une logique actuarielle : il s’agit d’éviter de verser deux fois une prestation couvrant la même portion du revenu. En revanche, la PSV est une prestation universelle, indépendante de l’emploi. Il est donc généralement considéré comme inapproprié de réduire une rente privée en fonction de celle-ci. Ainsi, la coordination permet d’ajuster la structure des prestations sans modifier le niveau global de protection, tout en assurant une meilleure cohérence entre les différentes sources de revenu à la retraite.
+
+
