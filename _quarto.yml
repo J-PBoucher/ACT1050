@@ -76,8 +76,8 @@ book:
     left: "© 2026 Jean-Philippe Boucher. Tous droits réservés."
     right:
       - icon: github
-        href: https://github.com/TON-COMPTE/TON-DEPOT
-        aria-label: "Dépôt GitHub des notes de cours"
+        href: https://github.com/J-PBOUCHER/ACT1050
+        aria-label: "Dépôt GitHub des notes de cours ACT1050"
   
 format:
   html:
