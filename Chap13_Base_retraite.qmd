@@ -6,13 +6,17 @@ date-modified: last-modified
 
 # Notions de base en régime de retraite
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Comprendre la notion de retraite, son rôle dans le cycle de vie économique et les principales sources de revenu à la retraite;
 - Expliquer le fonctionnement général des régimes complémentaires de retraite et distinguer les régimes à prestations déterminées et à cotisations déterminées;
 - Décrire les mécanismes d’accumulation et de décaissement dans un régime à cotisations déterminées;
 - Analyser les principaux risques associés aux régimes à cotisations déterminées et comparer leurs avantages et inconvénients pour l’employé et l’employeur;
 - Comprendre l’évolution des régimes de retraite au Canada et expliquer le rôle des régimes mixtes dans le partage du risque.
+
+:::
 
 ## Introduction
 

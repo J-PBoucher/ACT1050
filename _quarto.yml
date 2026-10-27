@@ -20,6 +20,7 @@ book:
 
   sidebar:
     # logo: images/Cover_quarto.png
+    logo: images/Cover_ACT1050_H2027.png
     collapse-level: 1
     search: true
 
@@ -27,7 +28,7 @@ book:
     name: "Jean-Philippe Boucher"
     affiliation: "Hiver 2027"
 
-  cover-image: images/Cover_ACT1050.png
+  #cover-image: images/Cover_ACT1050.png
 
   chapters:
     - index.qmd

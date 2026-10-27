@@ -6,7 +6,9 @@ date-modified: last-modified
 
 # Régimes à cotisations déterminées
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Comprendre le fonctionnement des régimes à cotisations déterminées et leur logique d’accumulation du capital;
 - Expliquer le rôle des cotisations, du rendement et des choix de placement dans la formation du capital de retraite;
@@ -14,6 +16,8 @@ date-modified: last-modified
 - Analyser les principaux risques associés aux régimes à cotisations déterminées, notamment les risques de rendement, de longévité et de décision;
 - Comparer les avantages et les inconvénients des régimes à cotisations déterminées du point de vue de l’employé et de l’employeur;
 - Comprendre le rôle des régimes mixtes et leur logique de partage du risque.
+
+:::
 
 ## Introduction
 

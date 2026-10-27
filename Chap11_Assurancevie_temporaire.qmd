@@ -6,7 +6,9 @@ date-modified: last-modified
 
 # L'assurance vie temporaire
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Distinguer les principaux produits d’assurance vie individuelle;
 - Expliquer le fonctionnement des assurances temporaires;
@@ -14,6 +16,8 @@ date-modified: last-modified
 - Décrire les mécanismes de renouvellement, de transformation et de résiliation;
 - Identifier les principales composantes de la tarification d’une assurance vie;
 - Effectuer des calculs simples liés aux primes d’assurance vie temporaire.
+
+:::
 
 ## Introduction
 

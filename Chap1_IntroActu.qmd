@@ -6,18 +6,21 @@ date-modified: last-modified
 
 # Introduction à la science actuarielle
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
 
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Définir ce qu’est un actuaire et ce qu’on entend par science actuarielle, à partir de plusieurs sources (professionnelles et grand public).
 - Situer l’actuariat comme discipline quantitative fondée sur les probabilités, la statistique, la finance et l’économie, et comprendre pourquoi ces cours forment la base du programme.
-- Identifier les grands domaines de pratique de l’actuaire et leurs questions typiques :  
-  régimes de retraite, assurance collective, assurance de dommages, assurance-vie, finance actuarielle.
+- Identifier les grands domaines de pratique de l’actuaire et leurs questions typiques : régimes de retraite, assurance collective, assurance de dommages, assurance-vie, finance actuarielle.
 - Comprendre la logique du cheminement au baccalauréat (formation de base → tronc commun actuariel → cours avancés → options) et ce que chaque bloc de cours développe comme compétences.
 - Distinguer les trajectoires possibles : pratique traditionnelle, domaines connexes ou non traditionnels (réassurance, réglementation, programmes publics, gestion des risques d’entreprise, etc.), et reconnaître la polyvalence de la formation.
 - Décrire le profil Honor et la place de la recherche (initiation, méthodes plus théoriques, continuité vers les cycles supérieurs).
 - Repérer les principaux employeurs d’actuaires (assureurs, réassureurs, consultation, secteur public et parapublic, placements, banques, universités, grands régimes) et comprendre pourquoi ces milieux recrutent.
 - Interpréter de façon critique l’information salariale : ordres de grandeur, différences régionales, sources disponibles, et limites ou biais possibles des données (participation volontaire, définitions variables, effet des postes non actuariels, etc.).
+
+:::
+
 
 ## Définition de l’actuaire et de l’actuariat
 

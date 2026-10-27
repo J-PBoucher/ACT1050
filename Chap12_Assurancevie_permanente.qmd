@@ -6,7 +6,9 @@ date-modified: last-modified
 
 # L'assurance vie permanente
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Comprendre le principe des primes nivelées en assurance vie;
 - Décrire le rôle de la provision actuarielle dans un contrat d’assurance vie;
@@ -16,6 +18,8 @@ date-modified: last-modified
 - Interpréter la notion de valeur de rachat et son lien avec la provision actuarielle;
 - Comprendre pourquoi la valeur de rachat ne correspond pas au remboursement des primes versées;
 - Effectuer des calculs simples liés aux primes et aux provisions dans des contrats d’assurance vie.
+
+:::
 
 ## Introduction
 

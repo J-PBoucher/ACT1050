@@ -6,12 +6,17 @@ date-modified: last-modified
 
 #  Aspect fiscal
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Comprendre le rôle du gouvernement dans l’établissement des paramètres fiscaux liés à l’épargne-retraite;
 - Comprendre le rôle de la Loi de l’impôt sur le revenu dans la détermination des limites de cotisation aux régimes de retraite et aux REER;
 - Connaître le calcul du facteur d’équivalence (FE);
 - Comprendre les limites applicables aux régimes à prestations déterminées.
+
+:::
+
 
 ## Introduction
 

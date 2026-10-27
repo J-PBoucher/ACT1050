@@ -7,7 +7,9 @@ date-modified: last-modified
 
 # Les milieux de pratique de l’actuaire
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 
 - Identifier les principaux milieux de pratique où l’on retrouve des actuaires (assureurs, réassureurs, consultation, institutions financières, entreprises, secteur public) et comprendre ce qui les distingue.
@@ -15,6 +17,8 @@ date-modified: last-modified
 - Décrire les grandes fonctions actuarielles qui reviennent dans la plupart des milieux (tarification, provisionnement, capital, réassurance, analyse d’expérience, modélisation, gestion des risques) et comprendre leurs interactions avec les autres départements.
 - Comprendre pourquoi les intitulés de postes et les organigrammes varient d’une organisation à l’autre, et apprendre à interpréter une structure à partir des responsabilités plutôt qu’à partir des titres.
 - Mettre en évidence les compétences transversales associées aux milieux de pratique (communication, documentation, jugement professionnel, travail en équipe, contraintes réglementaires et opérationnelles), en complément des compétences techniques.
+
+:::
 
 ## Introduction
 

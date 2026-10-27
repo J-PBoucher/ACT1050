@@ -6,8 +6,9 @@ date-modified: last-modified
 
 # Ecosystème de l'assurance
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
 
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Identifier les deux grands segments du marché de l’assurance au Québec, soit l’assurance de personnes et l’assurance de dommages, et de comprendre ce qui les distingue ;
 - Expliquer la notion de charte de constitution d’un assureur et ses principales déclinaisons (Québec, autre province ou territoire, Canada, étranger) ;
@@ -15,7 +16,7 @@ date-modified: last-modified
 - Situer le rôle respectif de l’AMF et du BSIF dans l’encadrement des activités d’assurance, en distinguant la conduite de marché et la surveillance prudentielle ;
 - Interpréter des tableaux et graphiques décrivant la taille, la structure, l’évolution et la concentration du marché québécois de l’assurance, en comparant les dynamiques propres aux assurances de personnes et de dommages.
 
----
+:::
 
 ## Rapport annuel de l'AMF
 

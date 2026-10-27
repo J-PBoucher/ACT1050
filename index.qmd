@@ -1,3 +1,297 @@
+---
+toc: false
+---
+
+<style>
+/* ========================================================
+   ACT1050 — Page d'accueil (index.qmd)
+   Sans dépendance à une bibliothèque d'icônes externe
+   ======================================================== */
+
+/* Seule la page d'accueil utilise ce style. */
+body:has(.act-accueil) #title-block-header {
+  display: none !important;
+}
+
+.act-accueil {
+  --act-bleu: #294e5b;
+  --act-beige: #e8e2d1;
+  --act-texte: #303c42;
+  --act-secondaire: #65747b;
+  --act-bordure: #dce3e5;
+  color: var(--act-texte);
+}
+
+/* 1. Bandeau photographique */
+.act-accueil .act-hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  min-height: 295px;
+  margin: 0 0 27px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: var(--act-bleu);
+}
+
+.act-accueil .act-hero-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 24%;
+  z-index: -2;
+}
+
+/* Dégradé bleu de gauche vers la photographie, à droite. */
+.act-accueil .act-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgba(28, 60, 73, .98) 0%,
+    rgba(28, 60, 73, .93) 33%,
+    rgba(28, 60, 73, .59) 62%,
+    rgba(28, 60, 73, .08) 100%
+  );
+}
+
+.act-accueil .act-hero-contenu {
+  width: 100%;
+  max-width: 780px;
+  padding: 32px 34px;
+}
+
+.act-accueil .act-hero-code {
+  color: #d8c9a5;
+  font-size: .81rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.act-accueil .act-hero-titre {
+  color: #fff;
+  font-size: clamp(1.7rem, 2.4vw, 2.3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+
+.act-accueil .act-hero-sous-titre {
+  color: #e4edf0;
+  font-size: 1.03rem;
+  line-height: 1.45;
+  margin: 0 0 21px;
+}
+
+.act-accueil .act-hero-trait {
+  width: 43px;
+  height: 2px;
+  background: #d8c9a5;
+  margin-bottom: 15px;
+}
+
+.act-accueil .act-hero-auteur {
+  color: #e8e2d1;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.act-accueil .act-hero-affiliation {
+  color: #fff;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+
+/* 2. Préface et fiche descriptive côte à côte */
+.act-accueil .act-grille {
+  display: grid;
+  grid-template-columns: minmax(0, 1.75fr) minmax(260px, .85fr);
+  gap: 27px;
+  align-items: start;
+  margin-bottom: 22px;
+}
+
+.act-accueil .act-preface {
+  min-width: 0;
+}
+
+
+.act-accueil .act-preface h1 {
+  color: var(--act-bleu);
+  font-size: 1.75rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--act-beige);
+  padding-bottom: 10px;
+  margin: 0 0 16px;
+}
+
+.act-accueil .act-preface p,
+.act-accueil .act-rencontres p {
+  font-size: .96rem;
+  line-height: 1.45;
+  margin-bottom: 1rem;
+}
+
+/* 3. Encadré « En bref » */
+.act-accueil .act-en-bref {
+  background: #f7f5f0;
+  border: 1px solid #eee9df;
+  border-radius: 5px;
+  padding: 23px 25px;
+}
+
+.act-accueil .act-en-bref-titre {
+  color: var(--act-bleu);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.act-accueil .act-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e2ddd2;
+}
+
+.act-accueil .act-info:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.act-accueil .act-info-icone {
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #ebe4d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.act-accueil .act-icone {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Icônes SVG intégrées par CSS : aucun <svg> dans le Markdown. */
+.act-accueil .act-icone-livre {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23766743%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%207v14%22%2F%3E%3Cpath%20d%3D%22M3%2018V4.5c3-1.5%206-1%209%201.5%203-2.5%206-3%209-1.5V18c-3-1.5-6-1-9%201.5C9%2017%206%2016.5%203%2018Z%22%2F%3E%3C%2Fsvg%3E");
+}
+.act-accueil .act-icone-universite {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23766743%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m3%209%209-6%209%206%22%2F%3E%3Cpath%20d%3D%22M4%2021h16M6%2010v8M10%2010v8M14%2010v8M18%2010v8M3%209h18%22%2F%3E%3C%2Fsvg%3E");
+}
+.act-accueil .act-icone-auteur {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23766743%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%228%22%20r%3D%224%22%2F%3E%3Cpath%20d%3D%22M4%2021v-2a8%208%200%200%201%2016%200v2%22%2F%3E%3C%2Fsvg%3E");
+}
+.act-accueil .act-icone-calendrier {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23766743%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%223%22%20y%3D%225%22%20width%3D%2218%22%20height%3D%2216%22%20rx%3D%222%22%2F%3E%3Cpath%20d%3D%22M7%203v4M17%203v4M3%2010h18%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.act-accueil .act-info-texte {
+  flex: 1;
+  min-width: 0;
+  color: #4b5b62;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+.act-accueil .act-info-texte strong {
+  display: block;
+  color: var(--act-bleu);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+/* 4. Section consacrée aux invités */
+.act-accueil .act-rencontres {
+  border-top: 1px solid var(--act-bordure);
+  padding-top: 19px;
+  margin-top: 6px;
+}
+
+.act-accueil .act-rencontres h2 {
+  color: var(--act-bleu);
+  font-size: 1.45rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--act-beige);
+  padding-bottom: 9px;
+  margin: 0 0 16px;
+}
+
+.act-accueil .act-rencontres p {
+  max-width: 930px;
+}
+
+/* 5. Tablettes et téléphones */
+@media (max-width: 880px) {
+  .act-accueil .act-grille {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .act-accueil .act-hero {
+    min-height: 265px;
+  }
+  .act-accueil .act-hero-contenu {
+    padding: 25px;
+  }
+  .act-accueil .act-hero::before {
+    background: linear-gradient(
+      90deg,
+      rgba(28, 60, 73, .98),
+      rgba(28, 60, 73, .77)
+    );
+  }
+}
+
+/* 6. Impression */
+@media print {
+  .act-accueil .act-hero,
+  .act-accueil .act-hero::before {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .act-accueil .act-info {
+    break-inside: avoid;
+  }
+}
+</style>
+
+::: {.act-accueil}
+
+<!-- Le bandeau utilise la photo images/UQAMp2.jpg -->
+<div class="act-hero">
+<img class="act-hero-photo" src="images/UQAMp2.jpg" alt="Bâtiment de l'UQAM et fontaines de la place Émilie-Gamelin">
+<div class="act-hero-contenu">
+<div class="act-hero-code">ACT1050 · HIVER 2027</div>
+<div class="act-hero-titre">Introduction à l'actuariat I</div>
+<div class="act-hero-sous-titre">Fondements, assurance de personnes et régime de retraite</div>
+<div class="act-hero-trait"></div>
+<div class="act-hero-auteur">Jean-Philippe Boucher</div>
+<div class="act-hero-affiliation">Professeur, Département de mathématiques, UQAM</div>
+</div>
+</div>
+
+::: {.act-grille}
+
+::: {.act-preface}
+
 # Préface {.unnumbered}
 
 Ce site contient les notes du cours [ACT1050 – Introduction à l’actuariat I](https://etudier.uqam.ca/cours?sigle=ACT1050), un cours obligatoire du baccalauréat en actuariat de l’Université du Québec à Montréal (UQAM).
@@ -6,10 +300,35 @@ Le cours ACT1050 constitue généralement le premier contact formel des étudian
 
 L’objectif n’est pas d’approfondir les aspects mathématiques de ces sujets, mais plutôt d’en comprendre les fondements et les mécanismes essentiels. Les étudiantes et étudiants seront ainsi amenés à se familiariser avec le vocabulaire actuariel, à découvrir les principaux produits d’assurance et régimes de retraite, et à comprendre les grandes questions auxquelles les actuaires sont appelés à répondre. Ces connaissances constitueront une base pour les cours ultérieurs du programme, où plusieurs de ces notions seront étudiées de manière plus approfondie, notamment sur les plans mathématique et statistique.
 
-## Rencontres avec des professionnels de l’actuariat {-}
+:::
 
-Une particularité importante du cours ACT1050 est la place accordée aux rencontres avec des professionnels du milieu actuariel. Chaque semaine, un actuaire invité, souvent diplômé de l’UQAM, viendra présenter son parcours, son expérience professionnelle et les principales caractéristiques de son travail.
+::: {.act-en-bref}
 
-Ces rencontres permettront aux étudiantes et étudiants de découvrir la diversité des carrières en actuariat, de mieux comprendre les réalités du marché du travail et de se familiariser avec les différents milieux dans lesquels les actuaires exercent leur profession. Elles offriront également l’occasion de poser des questions directement aux invités, tant sur les aspects techniques de leur travail que sur leur cheminement professionnel.
+<div class="act-en-bref-titre">En bref</div>
 
-L’objectif est de compléter les connaissances présentées dans les notes de cours par une perspective concrète sur la pratique actuarielle. Au-delà des notions théoriques, ces échanges devraient permettre aux étudiantes et étudiants de mieux comprendre à quoi ressemble le travail quotidien d’un actuaire et d'entrevoir les différentes possibilités qui s’offriront à eux au cours de leur carrière.
+<div class="act-info">
+  <div class="act-info-icone"><span class="act-icone act-icone-livre" aria-hidden="true"></span></div>
+  <div class="act-info-texte"><strong>Cours</strong>Cours obligatoire (3 crédits)</div>
+</div>
+
+<div class="act-info">
+  <div class="act-info-icone"><span class="act-icone act-icone-universite" aria-hidden="true"></span></div>
+  <div class="act-info-texte"><strong>Université</strong>Université du Québec à Montréal (UQAM)</div>
+</div>
+
+<div class="act-info">
+  <div class="act-info-icone"><span class="act-icone act-icone-auteur" aria-hidden="true"></span></div>
+  <div class="act-info-texte"><strong>Enseignant</strong>Jean-Philippe Boucher<br>Professeur<br> Département de mathématiques, UQAM</div>
+</div>
+
+<div class="act-info">
+  <div class="act-info-icone"><span class="act-icone act-icone-calendrier" aria-hidden="true"></span></div>
+  <div class="act-info-texte"><strong>Session</strong>Hiver 2027</div>
+</div>
+
+:::
+
+:::
+
+
+:::

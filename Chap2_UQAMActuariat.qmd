@@ -7,7 +7,9 @@ date-modified: last-modified
 
 # L'actuariat à l'UQAM
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Situer l’actuariat à l’UQAM dans son cadre institutionnel, en comprenant comment l’Université est structurée (gouvernance, rectorat, facultés, départements) et où se place le Département de mathématiques.
 - Comprendre l’évolution historique des programmes d’actuariat à l’UQAM, depuis la concentration initiale jusqu’au baccalauréat et aux développements plus récents.
@@ -16,6 +18,8 @@ date-modified: last-modified
 - Présenter les composantes de la vie étudiante en actuariat (association, activités de réseautage, professionnalisation) et comprendre leur utilité dans le parcours universitaire.
 - Expliquer le lien entre recherche et enseignement en actuariat à l’UQAM, en présentant les principales structures de recherche (chaires, laboratoires, regroupements).
 - Situer les études de cycles supérieurs en actuariat à l’UQAM, en comprenant les voies réelles utilisées (maîtrise et doctorat en mathématiques avec concentrations pertinentes) et leurs exigences générales.
+
+:::
 
 ## L’Université du Québec à Montréal
 

@@ -1,8 +1,12 @@
 ---
 toc: false
+date: 10/26/2026
+date-modified: last-modified
 ---
 
-# Conclusion  {-}
+# Conclusion {-}
+
+<div class="act-conclusion"></div>
 
 Au début de la session, nous avons posé une question simple : qu'est-ce qu'un actuaire et en quoi consiste son travail? Les définitions du premier chapitre donnaient un premier aperçu de la profession. Les lectures et les rencontres de la session ont permis de donner un sens plus concret à cette définition.
 

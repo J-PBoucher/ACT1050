@@ -6,13 +6,17 @@ date-modified: last-modified
 
 # Provisionnement
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Comprendre pourquoi les régimes de retraite privés doivent accumuler des actifs pour financer les prestations promises.
 - Distinguer l'actif d'un régime, son passif actuariel, le coût du service courant et son excédent ou déficit actuariel.
 - Décrire les principales étapes d'une évaluation actuarielle et reconnaître les hypothèses nécessaires à sa réalisation.
 - Comparer les évaluations sur base de liquidation (solvabilité) et sur base de permanence (continuité).
 - Expliquer le rôle de l'actuaire dans la détermination des cotisations et la surveillance de la situation financière d'un régime.
+
+:::
 
 ## Introduction
 

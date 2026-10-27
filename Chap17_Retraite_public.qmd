@@ -6,7 +6,9 @@ date-modified: last-modified
 
 # Régimes de retraite publics 
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 -	Comprendre le rôle de l’État en matière de sécurité du revenu  
 -	Distinguer entre sécurité sociale vs aide sociale vs allocations universelles  
@@ -15,6 +17,8 @@ date-modified: last-modified
 -	Comprendre l’évolution des régimes publics  
 -	Connaître le rôle des actuaires en matière de régimes publics  
 -	Connaître et comprendre les enjeux auxquels sont confrontés les régimes publics  
+
+:::
 
 ## Introduction
 

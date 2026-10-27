@@ -4,12 +4,11 @@ date: 01/05/2026
 date-modified: last-modified
 ---
 
-
-
 # L'adhésion à l’ICA
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
 
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
   - Situer la formation actuarielle canadienne dans son contexte institutionnel et historique.
   - Décrire le parcours de qualification en actuariat au Canada, depuis la formation universitaire jusqu’à l’obtention des titres professionnels.
@@ -17,6 +16,8 @@ date-modified: last-modified
   - Présenter les principales réformes récentes du système de qualification et les motivations qui les sous-tendent.
   - Décrire les exigences professionnelles associées à l’accès au titre de Fellow, incluant la formation en professionnalisme et l’expérience pratique.
   - Discuter, de manière nuancée, des enjeux liés à l’évolution possible du modèle de formation actuarielle, notamment le rôle des universités et la place des examens avancés.
+
+:::
 
 ## Retour sur le dernier chapitre
 

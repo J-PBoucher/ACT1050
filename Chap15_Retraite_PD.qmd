@@ -6,13 +6,17 @@ date-modified: last-modified
 
 # Régimes à prestations déterminées 
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Comprendre la structure et le fonctionnement des régimes à prestations déterminées;
 - Expliquer comment les prestations de retraite sont déterminées à partir du salaire, des années de service et des règles du régime;
 - Établir le lien entre les rentes étudiées précédemment et les engagements d’un régime à prestations déterminées;
 - Comprendre la notion de passif actuariel dans un régime à prestations déterminées et son évolution dans le temps;
 - Analyser les mécanismes de financement d’un régime à prestations déterminées, notamment la distinction entre service courant et service passé.
+
+:::
 
 ## Introduction
 

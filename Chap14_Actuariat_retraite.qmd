@@ -6,13 +6,17 @@ date-modified: last-modified
 
 # L'actuariat des régimes de retraite
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Comprendre les principales formes de rentes utilisées en actuariat des régimes de retraite et distinguer les rentes certaines, viagères, différées et avec période garantie;
 - Expliquer la différence entre une rente immédiate et une rente due, ainsi que l’effet de cette distinction sur la valeur actuelle des prestations;
 - Calculer et interpréter la valeur actuelle et l’évolution du passif associé à différents types de rentes;
 - Comprendre le rôle des probabilités de survie et du taux d’actualisation dans l’évaluation actuarielle des rentes;
 - Identifier les principales hypothèses actuarielles utilisées dans l’évaluation des rentes de retraite, notamment les hypothèses de mortalité et de taux d’intérêt.
+
+:::
 
 ## Introduction
 

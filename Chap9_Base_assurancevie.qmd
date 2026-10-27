@@ -6,13 +6,17 @@ date-modified: last-modified
 
 # Notions de base en assurance-vie
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Identifier les principales catégories de protections offertes en assurance individuelle de personnes;  
 - Distinguer les principaux intervenants d’un contrat d’assurance (assureur, preneur, assuré, bénéficiaire);  
 - Décrire certaines caractéristiques fondamentales d’un contrat d’assurance de personnes (prise d’effet, obligations de déclaration, non-paiement des primes, etc.);  
 - Expliquer le rôle du bénéficiaire et les différentes façons de le désigner;  
 - Comprendre les notions de révocabilité du bénéficiaire et de saisissabilité des prestations de décès.  
+
+:::
 
 ## Introduction
 

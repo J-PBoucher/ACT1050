@@ -6,12 +6,16 @@ date-modified: last-modified
 
 # Stages pendant les études 
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Comprendre le rôle des stages dans la formation actuarielle et leur encadrement académique.  
 - Distinguer les exigences et objectifs des stages ACT6901 et ACT6902.  
 - Identifier les conditions d’accès, d’évaluation et de reconnaissance des stages.  
 - Connaître les moyens d’obtenir un stage et les ressources disponibles pour les étudiants.  
+
+:::
 
 ## Introduction
 

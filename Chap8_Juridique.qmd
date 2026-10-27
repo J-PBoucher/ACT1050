@@ -7,7 +7,9 @@ date-modified: last-modified
 
 # Aspects juridiques et réglementaires
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Situer l’assurance dans son cadre juridique et réglementaire au Canada et au Québec ;
 - Comprendre le partage constitutionnel des compétences en matière d’assurance et le rôle respectif des autorités fédérales et provinciales ;
@@ -15,6 +17,8 @@ date-modified: last-modified
 - Identifier les principaux organismes de régulation en assurance et comprendre leur champ d’intervention ;
 - Reconnaître l’importance du contrat d’assurance comme fondement juridique de la mutualisation des risques ;
 - Comprendre certaines notions juridiques clés qui influencent directement la pratique actuarielle, notamment l’intérêt assurable, le principe indemnitaire, la subrogation, la prescription et la charge de la preuve.
+
+:::
 
 ## Introduction
 

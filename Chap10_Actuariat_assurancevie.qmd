@@ -6,7 +6,9 @@ date-modified: last-modified
 
 # L'actuariat de l'assurance-vie
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Expliquer les fondements actuariels de l’assurance-vie en assurance de personnes;
 - Décrire les phénomènes de sélection et d’anti-sélection et leurs effets sur la tarification;
@@ -14,6 +16,8 @@ date-modified: last-modified
 - Calculer des probabilités de décès, des probabilités de survie et une espérance de vie à partir d’une table de mortalité;
 - Appliquer le principe de la valeur actuelle espérée à de premiers calculs d’assurance-vie et de rente;
 - Comparer les mécanismes actuariels fondamentaux d’une assurance-vie et d’une rente viagère.
+
+:::
 
 ## Introduction
 

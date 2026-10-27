@@ -7,8 +7,9 @@ date-modified: last-modified
 
 # La profession d'actuaire
 
-### Objectifs du chapitre {-}
+::: {.act-objectifs}
 
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 - Décrire le cadre légal québécois des professions (Code des professions), ainsi que le rôle des ordres professionnels en matière de protection du public.
 - Distinguer clairement la réserve du titre et l’exclusivité d’exercice, et illustrer ces notions par des exemples.
@@ -18,6 +19,8 @@ date-modified: last-modified
 - Décrire le rôle de l’Institut canadien des actuaires (ICA) : mission, gouvernance, catégories de membres, et principaux mécanismes de professionnalisme et de discipline.
 - Résumer les obligations déontologiques fondamentales imposées aux membres de l’ICA et les relier à l’objectif de protection du public.
 - Nommer et situer les principales associations actuarielles auxquelles un actuaire canadien peut être rattaché (SOA, CAS, AAA, IFoA, AAI, ANEA, IABA, AAIARD, Actulab), ainsi que leur rôle général.
+
+:::
 
 ## Les ordres professionnels au Québec
 
