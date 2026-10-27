@@ -227,7 +227,7 @@ horaire <- data.frame(
     ),
 
     conferencier(
-      "Benoit Bilodeau  (à confirmer)",
+      "Benoit Bilodeau",
       "Vice-président, Beneva",
       linkedin = "https://www.linkedin.com/in/benoit-bilodeau-fsa-fica-emba-6b3a4646/"
     ),
