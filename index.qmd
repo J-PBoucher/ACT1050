@@ -204,6 +204,31 @@ body:has(.act-accueil) #title-block-header {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23766743%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%223%22%20y%3D%225%22%20width%3D%2218%22%20height%3D%2216%22%20rx%3D%222%22%2F%3E%3Cpath%20d%3D%22M7%203v4M17%203v4M3%2010h18%22%2F%3E%3C%2Fsvg%3E");
 }
 
+/* Icône et liens pour les programmes associés au cours. */
+.act-accueil .act-icone-programmes {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23766743%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m2%2010%2010-6%2010%206-10%206-10-6Z%22%2F%3E%3Cpath%20d%3D%22M6%2012.3V17c3.5%202.5%208.5%202.5%2012%200v-4.7%22%2F%3E%3Cpath%20d%3D%22M22%2010v6%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.act-accueil .act-liste-programmes {
+  margin: 5px 0 0;
+  padding-left: 1.05rem;
+}
+
+.act-accueil .act-liste-programmes li {
+  margin: 0 0 7px;
+  line-height: 1.4;
+}
+
+.act-accueil .act-liste-programmes li:last-child {
+  margin-bottom: 0;
+}
+
+.act-accueil .act-liste-programmes a {
+  color: var(--act-bleu);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .act-accueil .act-info-texte {
   flex: 1;
   min-width: 0;
@@ -310,6 +335,18 @@ L’objectif n’est pas d’approfondir les aspects mathématiques de ces sujet
 <div class="act-info">
   <div class="act-info-icone"><span class="act-icone act-icone-livre" aria-hidden="true"></span></div>
   <div class="act-info-texte"><strong>Cours</strong>Cours obligatoire (3 crédits)</div>
+</div>
+
+<div class="act-info">
+<div class="act-info-icone"><span class="act-icone act-icone-programmes" aria-hidden="true"></span></div>
+<div class="act-info-texte">
+<strong>Programmes</strong>
+<ul class="act-liste-programmes">
+<li><a href="https://etudier.uqam.ca/programme?code=7363">Baccalauréat en actuariat</a></li>
+<li><a href="https://etudier.uqam.ca/programme?code=6002">Majeure en actuariat</a></li>
+<li><a href="https://etudier.uqam.ca/programme?code=8543">Mineure en mathématiques actuarielles et financières</a></li>
+</ul>
+</div>
 </div>
 
 <div class="act-info">
