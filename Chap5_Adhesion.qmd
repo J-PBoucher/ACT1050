@@ -20,26 +20,35 @@ date-modified: last-modified
 
 ## Retour sur le dernier chapitre
 
-Il est difficile de ne pas remarquer un certain décalage historique dans la formation actuarielle en Amérique du Nord. Alors que des professions comme le droit, la médecine ou le génie ont depuis longtemps intégré la formation universitaire comme voie quasi exclusive d’accès à la profession, l’actuariat est longtemps demeuré fondé sur un système d’examens professionnels externes. Autrement dit, on ne devient pas ingénieur en réussissant une série d’examens à distance organisés par une association professionnelle, ni médecin en accumulant des crédits d’autoformation suivis d’évaluations en ligne. Pourtant, pendant des décennies, c’est essentiellement sur ce modèle que s’est structurée la formation actuarielle.
-
-Ce choix s’explique en partie par l’histoire de la profession et par le fait que l’actuariat s’est développé en marge des universités. Il n’en demeure pas moins qu’il s’agit d’un modèle relativement conservateur, qui a retardé l’intégration pleine et entière de l’actuariat au système universitaire, contrairement à ce qui s’est produit dans plusieurs autres disciplines professionnelles. On pourrait donc dire, avec un brin d’ironie, que l’actuariat nord-américain a longtemps fait preuve d’une grande rigueur... mais d’une certaine lenteur lorsqu’il s’agissait d’admettre que l’université pouvait aussi être un lieu légitime de formation professionnelle.
-
-Ce constat n’est pas qu’un simple détail historique. Il a eu des conséquences concrètes, et continue d'en avoir. Dans un prochain chapitre consacré à la recherche scientifique en actuariat, on verra à quel point les sociétés d’actuaires ont, pendant plusieurs décennies, freiné le développement de leur propre science.
-
-### Universités et examens professionnels
-
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
-<img src="images/ExamsActu.jpg" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+
+<img src="images/ExamsActu.jpg"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+Un étudiant en actuariat tentant d'expliquer le système d'examens professionnels à sa famille
 </div>
+
 </div>
+
+Il est difficile de ne pas remarquer un certain décalage historique dans la formation actuarielle en Amérique du Nord. Alors que des professions comme le droit, la médecine ou le génie ont depuis longtemps intégré la formation universitaire comme voie quasi exclusive d’accès à la profession, l’actuariat est longtemps demeuré fondé sur un système d’examens professionnels externes. Autrement dit, on ne devient pas ingénieur en réussissant une série d’examens à distance organisés par une association professionnelle, ni médecin en accumulant des crédits d’autoformation suivis d’évaluations en ligne. Pourtant, pendant des décennies, c’est essentiellement sur ce modèle que s’est structurée la formation actuarielle.
+
+Ce choix s’explique en partie par l’histoire de la profession et par le fait que l’actuariat s’est développé en marge des universités. Il n’en demeure pas moins qu’il s’agit d’un modèle relativement conservateur, qui a retardé l’intégration pleine et entière de l’actuariat au système universitaire, contrairement à ce qui s’est produit dans plusieurs autres disciplines professionnelles. On pourrait donc dire, avec un brin d’ironie, que l’actuariat nord-américain a longtemps fait preuve d’une grande rigueur... mais d’une certaine lenteur lorsqu’il s’agissait d’admettre que l’université pouvait aussi être un lieu légitime de formation professionnelle. Ce constat n’est pas qu’un simple détail historique. Il a eu des conséquences concrètes, et continue d'en avoir. 
+
+<div style="clear: both;"></div>
+
+
+### Universités et examens professionnels
 
 L’histoire récente de la formation actuarielle en Amérique du Nord est marquée par une coexistence durable — parfois tendue — entre la formation universitaire et le système d’examens professionnels administrés par les sociétés d’actuaires, principalement la Society of Actuaries (SOA) et la Casualty Actuarial Society (CAS). À certaines périodes, des divergences importantes entre ces deux associations quant au contenu et à l’orientation des examens ont eu pour effet de forcer les étudiants en actuariat à prendre position quant à la société dont ils souhaitaient suivre le parcours d’examens.
 
@@ -48,9 +57,6 @@ Il est néanmoins possible de dresser un aperçu synthétique, par décennies, d
 1) Les **examens préliminaires** portent principalement sur les fondements mathématiques et probabilistes de la discipline. Ils correspondent aux cours de formation de base, au tronc commun actuariel et aux cours avancés de premier cycle présentés dans le premier chapitre. Ces examens ont donc toujours été étroitement liés à la formation universitaire de premier cycle, tant par leur contenu que par les compétences évaluées.  Depuis 2020 environ, la réussite de tous les examens préliminaires donnent le titre d'associé.
 
 2) Les **examens avancés** en actuariat portent sur des domaines spécialisés de la pratique professionnelle (assurances collectives, régimes de retraite, gestion du risque, normes de pratique, professionnalisme). Les cours optionnels du baccalauréat vus au chapitre 1 peuvent servir de porte d’entrée à ces domaines, mais ils ne constituent ni une équivalence ni une validation formelle des examens avancés.  Comme nous le verrons, alors que les universités ont été de plus en plus intégrées à la formation des actuaires, cela ne touche que les examens préliminaires.
-
-<div style="clear: both;"></div>
-
 
 ## Examens préliminaires 
 
