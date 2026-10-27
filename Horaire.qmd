@@ -239,9 +239,9 @@ horaire <- data.frame(
     ),
 
     conferencier(
-      "Katie Trahan (à confirmer)",
-      "Associée, Normandin-Beaudry Actuaires Conseil",
-      linkedin = "https://www.linkedin.com/in/IDENTIFIANT/"
+      "<strong>Anthony Benarroch</strong>",
+      "Conseiller-adjoint, Normandin Beaudry",
+      linkedin = "https://www.linkedin.com/in/anthony-benarroch-fsa-fica-a98356143/"
     ),
 
     conferencier(
