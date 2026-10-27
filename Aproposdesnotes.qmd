@@ -354,7 +354,7 @@ Afin de donner une idée de la quantité de lecture associée au cours, le table
 | [6. Écosystème de l’assurance](Chap6_Ecosysteme.qmd) | 22 |
 | [7. Les milieux de pratique de l’actuaire](Chap7_MilieuPratique.qmd) | 16 |
 | [8. Aspects juridiques et réglementaires](Chap8_Juridique.qmd) | 22 |
-| [9. Notions de base en assurance-vie](Chap9_Base_assurancevie.qmd) | 13 |
+| [9. Notions de base en assurance-vie](Chap9_Base_assurancevie.qmd) | 20 |
 | [10. L’actuariat de l’assurance-vie](Chap10_Actuariat_assurancevie.qmd) | 34 |
 | [11. L’assurance vie temporaire](Chap11_Assurancevie_temporaire.qmd) | 25 |
 | [12. L’assurance vie permanente](Chap12_Assurancevie_permanente.qmd) | 21 |
@@ -365,12 +365,12 @@ Afin de donner une idée de la quantité de lecture associée au cours, le table
 | [17. Régimes de retraite publics](Chap17_Retraite_public.qmd) | 27 |
 | [18. Aspect fiscal](Chap18_Retraite_fiscal.qmd) | 19 |
 | [19. Provisionnement](Chap19_Provisionnement.qmd) | 15 |
-| **Total (19 chapitres)** | **390** |
+| **Total (19 chapitres)** | **397** |
 
 :::
 
 
-Au total, les notes représentent environ **390 pages**, soit une moyenne d'un peu plus de **20 pages par chapitre**. Ce volume comprend toutefois de nombreux tableaux, figures, illustrations et exemples numériques : le nombre de pages ne constitue donc pas à lui seul une mesure du temps nécessaire à la lecture ou à l'assimilation de la matière.
+Au total, les notes représentent environ **397 pages**, soit une moyenne d'un peu plus de **20 pages par chapitre**. Ce volume comprend toutefois de nombreux tableaux, figures, illustrations et exemples numériques : le nombre de pages ne constitue donc pas à lui seul une mesure du temps nécessaire à la lecture ou à l'assimilation de la matière.
 
 
 ## Contribuer aux notes de cours avec GitHub {-}

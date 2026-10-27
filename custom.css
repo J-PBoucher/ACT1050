@@ -566,3 +566,24 @@ body:has(.act-objectifs, .act-conclusion) #title-block-header
     break-inside: avoid;
   }
 }
+
+
+
+
+
+
+/* Taille et centrage du logo dans la barre latérale */
+
+#quarto-sidebar .sidebar-logo-link {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+}
+
+#quarto-sidebar img.sidebar-logo {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 15px;
+}

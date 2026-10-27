@@ -292,6 +292,7 @@ body:has(.act-accueil) #title-block-header {
 
 ::: {.act-preface}
 
+
 # Préface {.unnumbered}
 
 Ce site contient les notes du cours [ACT1050 – Introduction à l’actuariat I](https://etudier.uqam.ca/cours?sigle=ACT1050), un cours obligatoire du baccalauréat en actuariat de l’Université du Québec à Montréal (UQAM).
