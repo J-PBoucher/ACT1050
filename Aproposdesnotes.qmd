@@ -372,19 +372,20 @@ Afin de donner une idée de la quantité de lecture associée au cours, le table
 
 Au total, les notes représentent environ **390 pages**, soit une moyenne d'un peu plus de **20 pages par chapitre**. Ce volume comprend toutefois de nombreux tableaux, figures, illustrations et exemples numériques : le nombre de pages ne constitue donc pas à lui seul une mesure du temps nécessaire à la lecture ou à l'assimilation de la matière.
 
+
 ## Contribuer aux notes de cours avec GitHub {-}
 
-Les notes de cours sont hébergées sur **GitHub**, une plateforme qui permet de conserver l'historique des modifications apportées à des documents et de faciliter le travail collaboratif. Cette approche permet notamment aux étudiants de participer à l'amélioration continue du matériel pédagogique. Les contributions peuvent prendre différentes formes : signaler une coquille, corriger une erreur, identifier un hyperlien qui ne fonctionne plus, proposer une explication plus claire ou suggérer un exemple supplémentaire.
+Les fichiers sources des notes de cours sont disponibles dans le [dépôt GitHub du ACT1050](https://github.com/J-PBOUCHER/ACT1050). GitHub est une plateforme qui permet de conserver l'historique des modifications apportées à des documents et de faciliter le travail collaboratif. Cette approche permet notamment aux étudiants de participer à l'amélioration continue du matériel pédagogique.
 
-Deux méthodes de contribution sont possibles :
+Les contributions peuvent prendre différentes formes : signaler une coquille, corriger une erreur, identifier un hyperlien qui ne fonctionne plus, proposer une explication plus claire ou suggérer un exemple supplémentaire. Deux méthodes de contribution sont possibles :
 
-- **Signaler un problème (*Issue*)** : cette méthode permet de décrire une erreur ou de proposer une amélioration sans modifier directement les fichiers. Il suffit de préciser le chapitre concerné, l'endroit où se trouve le problème et, si possible, la correction suggérée.
-- **Proposer une modification (*Pull Request*)** : les personnes qui souhaitent aller plus loin peuvent modifier une copie des fichiers du projet et soumettre leurs changements. Ceux-ci pourront ensuite être examinés avant d'être intégrés aux notes officielles.
+- **[Signaler un problème (*Issue*)](https://github.com/J-PBOUCHER/ACT1050/issues/new)** : cette méthode permet de décrire une erreur ou de proposer une amélioration sans modifier directement les fichiers. Il suffit de préciser le chapitre concerné, l'endroit où se trouve le problème et, si possible, la correction suggérée.
 
-Il n'est pas nécessaire de maîtriser la programmation pour participer. GitHub dispose d'une interface Web permettant d'effectuer plusieurs de ces opérations directement dans un navigateur. Les étudiants qui ne connaissent pas la plateforme sont invités à consulter les nombreux tutoriels disponibles sur Internet pour apprendre à créer une *Issue* ou à soumettre une *Pull Request*. Les propositions seront examinées avant leur intégration afin de préserver l'exactitude, la cohérence et la qualité pédagogique des notes de cours.
+- **[Proposer une modification (*Pull Request*)](https://github.com/J-PBOUCHER/ACT1050/pulls)** : les personnes qui souhaitent aller plus loin peuvent modifier une copie des fichiers du projet et soumettre leurs changements. Ceux-ci pourront ensuite être examinés avant d'être intégrés aux notes officielles.
 
-Comme indiqué dans le [Plan de cours](Plan_de_cours.qmd), à la section *Modalités et dates d’évaluation*, les étudiants qui contribuent à l'amélioration des notes de cours pourront obtenir jusqu'à **5 points de bonus** pour leur participation.
+Il n'est pas nécessaire de maîtriser la programmation pour participer. GitHub dispose d'une interface Web permettant d'effectuer plusieurs de ces opérations directement dans un navigateur. Il suffit de posséder un compte GitHub gratuit. Les étudiants qui ne connaissent pas la plateforme sont invités à consulter les nombreux tutoriels disponibles sur Internet pour apprendre à créer une *Issue* ou à soumettre une *Pull Request*. Toutes les propositions seront examinées avant leur intégration afin de préserver l'exactitude, la cohérence et la qualité pédagogique des notes de cours. 
 
+Comme indiqué dans le [Plan de cours](Plan_de_cours.qmd), à la section *Modalités et dates d'évaluation*, les étudiants qui contribuent à l'amélioration des notes de cours pourront obtenir jusqu'à **5 points de bonus** pour leur participation.
 
 ## Utilisation de l'intelligence artificielle {-}
 
