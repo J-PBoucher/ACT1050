@@ -318,7 +318,7 @@ L’objectif n’est pas d’approfondir les aspects mathématiques de ces sujet
 
 <div class="act-info">
   <div class="act-info-icone"><span class="act-icone act-icone-auteur" aria-hidden="true"></span></div>
-  <div class="act-info-texte"><strong>Enseignant</strong>Jean-Philippe Boucher<br>Professeur<br> Département de mathématiques, UQAM</div>
+  <div class="act-info-texte"><strong>Auteur</strong>Jean-Philippe Boucher<br>Professeur<br> Département de mathématiques, UQAM</div>
 </div>
 
 <div class="act-info">
