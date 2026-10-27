@@ -1,0 +1,537 @@
+
+---
+toc: false
+---
+
+<style>
+/* Cohérence avec le thème du plan de cours ACT1050 */
+#title-block-header { display: none !important; }
+main.content h1#horaire-de-la-session { display: none !important; }
+.act-page-bandeau {
+  background: #294e5b;
+  color: #fff;
+  padding: 24px 28px;
+  border-radius: 5px;
+  margin: 0 0 1.4rem 0;
+}
+.act-page-bandeau .act-code {
+  color: #d8c9a5;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.act-page-bandeau .act-titre {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+.act-page-bandeau .act-sous-titre {
+  color: #dbe6e9;
+  font-size: .95rem;
+  margin-top: 8px;
+}
+@media print {
+  .act-page-bandeau {
+    background: #294e5b !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    break-inside: avoid;
+  }
+}
+</style>
+
+# Horaire de la session {-}
+
+<div class="act-page-bandeau">
+<div class="act-code">ACT1050 · Hiver 2027</div>
+<div class="act-titre">Horaire de la session</div>
+<div class="act-sous-titre">Rencontres, conférences et lectures · Introduction à l'actuariat I</div>
+</div>
+
+Au cours de la session d'hiver 2027, des professionnels et des professeurs viendront présenter leur domaine de pratique et leur expérience aux étudiantes et étudiants du cours ACT1050.
+
+```{r}
+#| echo: false
+#| results: asis
+
+# ==========================================
+# 1. Fonctions utilitaires
+# ==========================================
+
+# Liste de lectures avec tirets, sauf pour les mini-quiz
+liste_lectures <- function(...) {
+
+  elements <- list(...)
+
+  elements <- Filter(
+    function(x) !is.null(x) && length(x) > 0,
+    elements
+  )
+
+  if (length(elements) == 0) {
+    return("")
+  }
+
+  elements <- unlist(elements, use.names = FALSE)
+
+  # Pas de tiret devant les mini-quiz
+  prefixe <- ifelse(
+    grepl("mini-quiz", elements, fixed = TRUE),
+    "",
+    "- "
+  )
+
+  paste0(
+    '<span class="lecture-item">',
+    prefixe,
+    elements,
+    '</span>',
+    collapse = ""
+  )
+}
+# Conférencier avec organisation sous le nom
+conferencier <- function(nom, organisation = NULL, linkedin = NULL) {
+
+  # Ajout du lien LinkedIn, si fourni
+  if (!is.null(linkedin) && !is.na(linkedin) && linkedin != "" &&
+      !grepl("IDENTIFIANT", linkedin, fixed = TRUE)) {
+    nom <- paste0(
+      '<a href="', linkedin,
+      '" target="_blank" rel="noopener noreferrer">',
+      nom,
+      '</a>'
+    )
+  }
+
+  # Présentation uniforme des noms
+  if (!grepl("<strong>", nom, fixed = TRUE)) {
+    nom <- paste0("<strong>", nom, "</strong>")
+  }
+  nom <- paste0('<span class="nom-invite">', nom, "</span>")
+
+  # Organisation sous le nom
+  if (is.null(organisation) ||
+      is.na(organisation) ||
+      organisation == "") {
+    return(nom)
+  }
+
+  paste0(
+    nom,
+    '<br><span class="org-invite">',
+    organisation,
+    '</span>'
+  )
+}
+
+# Plusieurs conférenciers dans une même cellule
+liste_conferenciers <- function(...) {
+  paste(c(...), collapse = "<br>")
+}
+
+
+# ==========================================
+# 2. Données du calendrier
+# ==========================================
+
+horaire <- data.frame(
+
+  semaine = 1:16,
+
+  date = c(
+    "12 janvier",
+    "19 janvier",
+    "26 janvier",
+    "2 février",
+    "9 février",
+    "16 février",
+    "23 février",
+    "2 mars",
+    "9 mars",
+    "16 mars",
+    "23 mars",
+    "30 mars",
+    "6 avril",
+    "13 avril",
+    "20 avril",
+    "27 avril"
+  ),
+
+  conferencier = c(
+
+    conferencier(
+      "<strong>Jean-Philippe Boucher</strong>",
+      "Professeur, UQAM",
+      linkedin = "https://www.linkedin.com/in/jean-philippe-boucher-b12a313b"
+    ),
+    
+    conferencier(
+      "<strong>Mathieu Boudreault</strong>",
+      "Professeur, UQAM",
+      linkedin = "https://www.linkedin.com/in/mathieu-boudreault-72642b82/"
+    ),
+
+    conferencier(
+      "<strong>Florence Onar</strong>",
+      "Faculté des sciences, UQAM",
+      linkedin = "https://www.linkedin.com/in/florence-onar/"
+    ),
+
+    conferencier(
+      "<strong>Emmanuel Hamel</strong>",
+      "Scientifique des données, Autorité des marchés financiers (AMF)",
+      linkedin = "https://www.linkedin.com/in/emmanuel-hamel-b8989926/"
+    ),
+
+    conferencier(
+      "<strong>Felipe Koetz</strong>",
+      "Vice-président, Tokio Marine Canada",
+      linkedin = "https://www.linkedin.com/in/felippe-koetz-m-sc-acas-acia-miba-52554a19/"
+    ),
+
+    conferencier(
+      "Alexandre Léger (à confirmer)",
+      "Conseiller en actuariat, PBI Conseillers en actuariat",
+      linkedin = "https://pbiactuarial.ca/fr/equipe/"
+    ),
+
+    conferencier(
+      "<strong>Catherine Bernard</strong>",
+      "Directrice principale, Co-operators",
+      linkedin = "https://www.linkedin.com/in/catherine-bernard-490417a4/"
+    ),
+
+    "Semaine de relâche",
+
+    conferencier(
+      "François Beauchesne  (à confirmer)",
+      "Conseiller en actuariat, RAMQ",
+      linkedin = "https://www.linkedin.com/in/IDENTIFIANT/"
+    ),
+
+    conferencier(
+      "Dominic Viola  (à confirmer)",
+      "Directeur surveillance des risques, Desjardins assurances générales",
+      linkedin = "https://www.linkedin.com/in/IDENTIFIANT/"
+    ),
+
+    conferencier(
+      "Philippe Massin",
+      "Directeur, Trans Canada Capital",
+      linkedin = "https://www.linkedin.com/in/philippemasin"
+    ),
+
+    conferencier(
+      "Benoit Bilodeau  (à confirmer)",
+      "Vice-président, Beneva",
+      linkedin = "https://www.linkedin.com/in/benoit-bilodeau-fsa-fica-emba-6b3a4646/"
+    ),
+
+    conferencier(
+      "Etienne Poulin  (à confirmer)",
+      "Actuaire en chef du RQAP, Retraite Québec",
+      linkedin = "https://www.linkedin.com/in/etienne-poulin-885509132/"
+    ),
+
+    conferencier(
+      "Katie Trahan (à confirmer)",
+      "Associée, Normandin-Beaudry Actuaires Conseil",
+      linkedin = "https://www.linkedin.com/in/IDENTIFIANT/"
+    ),
+
+    conferencier(
+      "<strong>Thomas Landry</strong>",
+      "Analyste en actuariat, Retraite Québec",
+      linkedin = "https://www.linkedin.com/in/thomas-landry-b7631752/"
+    ),
+
+    conferencier(
+      "<strong>Jean-Philippe Boucher</strong>",
+      "Professeur, UQAM",
+      linkedin = "https://www.linkedin.com/in/jean-philippe-boucher-b12a313b"
+    )
+  ),
+
+  titre = c(
+    "Introduction au cours ACT1050",
+    "L'adhésion à l'Institut canadien des actuaires",
+    "Stages, CV et entrevues en actuariat",
+    "Organisme de régulation",
+    "L'assurance de dommages",
+    "La consultation en assurances collectives",
+    "L'assurance de dommages",
+    "",
+    "Un actuaire à la régie de l'assurance-maladie du Québec (RAMQ)",
+    "Gestion de patrimoine",
+    "L'actuariat et la finance",
+    "Les assurances collectives",
+    "Le régime québécois d'assurance parentale",
+    "La consultation en régimes de retraite",
+    "Les régimes de retraite publics",
+    "Retour sur le cours"
+  ),
+
+  chapitres = c(
+
+    # Semaine 1
+    liste_lectures(
+      '<a href="Plan_de_cours.html">Plan de cours</a>',
+      '<a href="Chap1_IntroActu.html">Chapitre 1 : Introduction à l’actuariat</a>',
+      '<a href="Chap2_UQAMActuariat.html">Chapitre 2 : L’actuariat à l’UQAM</a>',
+      '<a href="Chap3_Stages.html">Chapitre 3 : Stages pendant les études</a>'
+    ),
+
+    # Semaine 2
+    liste_lectures(
+      '<a href="Chap4_Profession.html">Chapitre 4 : La profession d’actuaire</a>',
+      '<a href="Chap5_Adhesion.html">Chapitre 5 : L’adhésion à l’ICA</a>'
+    ),
+
+    # Semaine 3
+    liste_lectures(
+      "<span class='mini-quiz'>Mini-quiz #1</span>",
+      '<a href="Chap6_Ecosysteme.html">Chapitre 6 : Écosystème de l’assurance</a>'
+    ),
+
+    # Semaine 4
+    liste_lectures(
+      '<a href="Chap7_MilieuPratique.html">Chapitre 7 : Les milieux de pratique de l’actuaire</a>'
+    ),
+
+    # Semaine 5
+    liste_lectures(
+      '<a href="Chap8_Juridique.html">Chapitre 8 : Aspects juridiques et réglementaires</a>'
+    ),
+
+    # Semaine 6
+    liste_lectures(
+      "<span class='mini-quiz'>Mini-quiz #2</span>",
+      '<a href="Chap9_Base_assurancevie.html">Chapitre 9 : Notions de base en assurance-vie</a>'
+    ),
+
+    # Semaine 7
+    liste_lectures(
+      '<a href="Chap10_Actuariat_assurancevie.html">Chapitre 10 : L’actuariat de l’assurance-vie</a>'
+    ),
+
+    # Semaine 8
+    liste_lectures(
+      "Lecture, étude et repos"
+    ),
+
+    # Semaine 9
+    liste_lectures(
+      '<a href="Chap11_Assurancevie_temporaire.html">Chapitre 11 : L’assurance vie temporaire</a>',
+      '<a href="Chap12_Assurancevie_permanente.html">Chapitre 12 : L’assurance vie permanente</a>'
+    ),
+
+    # Semaine 10
+    liste_lectures(
+      "<span class='mini-quiz'>Mini-quiz #3</span>",
+      '<a href="Chap13_Base_retraite.html">Chapitre 13 : Notions de base en régime de retraite</a>'
+    ),
+
+    # Semaine 11
+    liste_lectures(
+      '<a href="Chap14_Actuariat_retraite.html">Chapitre 14 : L’actuariat des régimes de retraite</a>'
+    ),
+
+    # Semaine 12
+    liste_lectures(
+      '<a href="Chap15_Retraite_PD.html">Chapitre 15 : Régimes à prestations déterminées</a>',
+      '<a href="Chap16_Retraite_CD.html">Chapitre 16 : Régimes à cotisations déterminées</a>'
+    ),
+
+    # Semaine 13
+    liste_lectures(
+      "<span class='mini-quiz'>Mini-quiz #4</span>",
+      '<a href="Chap17_Retraite_public.html">Chapitre 17 : Régimes de retraite publics</a>'
+    ),
+
+    # Semaine 14
+    liste_lectures(
+      '<a href="Chap18_Retraite_fiscal.html">Chapitre 18 : Aspect fiscal</a>'
+    ),
+
+    # Semaine 15
+    liste_lectures(
+      '<a href="Chap19_Provisionnement.html">Chapitre 19 : Provisionnement</a>'
+    ),
+
+    
+    # Semaine 16
+    liste_lectures(
+      '<a href="Conclusion.html">Conclusion</a>',
+      "<span class='mini-quiz'>Mini-quiz #5</span>"
+    )
+  ),
+
+  stringsAsFactors = FALSE
+)
+
+
+# ==========================================
+# 3. CSS du tableau
+# ==========================================
+
+css <- '
+<style>
+/* ACT1050 — calendrier éditorial */
+.act-horaire-wrap { margin: 1.4rem 0 1.8rem; }
+.act-horaire-scroll { overflow-x: auto; border: 1px solid #dbe4e6; border-top: 0; border-radius: 5px; }
+.act-horaire { width: 100% !important; min-width: 760px; table-layout: fixed !important; border-collapse: collapse; font-size: .87rem; line-height: 1.45; color: #273941; margin: 0; }
+.act-horaire col.semaine { width: 6% !important; }
+.act-horaire col.date { width: 9% !important; }
+.act-horaire col.conferencier { width: 25% !important; }
+.act-horaire col.titre { width: 25% !important; }
+.act-horaire col.chapitres { width: 35% !important; }
+/* Largeurs fixes : protection contre les règles de tableaux du thème Quarto */
+.act-horaire thead th:nth-child(1), .act-horaire tbody tr:not(.partie) > td:nth-child(1) { width: 6% !important; }
+.act-horaire thead th:nth-child(2), .act-horaire tbody tr:not(.partie) > td:nth-child(2) { width: 9% !important; }
+.act-horaire thead th:nth-child(3), .act-horaire tbody tr:not(.partie) > td:nth-child(3) { width: 25% !important; }
+.act-horaire thead th:nth-child(4), .act-horaire tbody tr:not(.partie) > td:nth-child(4) { width: 25% !important; }
+.act-horaire thead th:nth-child(5), .act-horaire tbody tr:not(.partie) > td:nth-child(5) { width: 35% !important; }
+.act-horaire th, .act-horaire td { box-sizing: border-box; }
+.act-horaire thead th {
+  text-align: left;
+  background: #294e5b;
+  color: #ffffff;
+  padding: 13px 12px;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .045em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #294e5b;
+}
+.act-horaire thead th:first-child, .act-horaire td:first-child { text-align: center; }
+.act-horaire td { padding: 14px 12px; border-bottom: 1px solid #e7edee; vertical-align: top; overflow-wrap: break-word; }
+.act-horaire tbody tr:last-child td { border-bottom: none; }
+.act-horaire tbody tr:not(.partie):not(.relache):hover { background: #f7faf9; }
+.act-horaire td:nth-child(2) { white-space: nowrap; color: #586b73; font-weight: 600; }
+.act-horaire .num-semaine { display: inline-block; min-width: 27px; padding: 4px 0; border-radius: 6px; background: #eaf1ef; color: #315b57; font-weight: 750; font-size: .78rem; }
+.act-horaire .nom-invite { font-weight: 700; color: #294e5b; }
+.act-horaire .org-invite { display: block; margin-top: 4px; color: #728187; font-style: normal; font-size: .8rem; line-height: 1.35; }
+.act-horaire td:nth-child(3) a, .act-horaire td:nth-child(3) a:visited { color: #294e5b; text-decoration: none; border-bottom: 1px solid #c3d7d6; }
+.act-horaire td:nth-child(3) a:hover { color: #087a7b; border-bottom-color: #087a7b; }
+.act-horaire .lecture-item { display: block; padding: 0; margin: 0; }
+.act-horaire .lecture-item + .lecture-item { margin-top: 5px; }
+.act-horaire td.chapitres a, .act-horaire td.chapitres a:visited { color: #326879; text-decoration: none; }
+.act-horaire td.chapitres a:hover { text-decoration: underline; }
+.act-horaire .mini-quiz { display: inline-block; padding: 3px 8px; background: #e8e2d1; border-radius: 4px; color: #68522b; font-weight: 700; font-size: .82rem; }
+.act-horaire tr.partie td { background: #edf3f4; color: #294e5b; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: .72rem; padding: 9px 15px; border-top: 1px solid #d4e1df; border-bottom: 1px solid #d4e1df; }
+.act-horaire tr.relache td { background: #f4f2eb; color: #675d48; font-weight: 600; }
+.act-horaire tr.relache .num-semaine { background: #e5dfce; color: #675d48; }
+@media print {
+  .act-horaire-scroll { overflow: visible; border: 0; }
+  .act-horaire { min-width: 0; font-size: 8.5pt; }
+  .act-horaire th, .act-horaire td { padding: 6px 6px; }
+  .act-horaire thead { display: table-header-group; }
+  .act-horaire tr { break-inside: avoid; page-break-inside: avoid; }
+  .act-horaire .num-semaine, .act-horaire .mini-quiz { background: transparent !important; color: #111 !important; padding: 0; }
+  .act-horaire tr.partie td, .act-horaire tr.relache td { background: #eee !important; color: #222 !important; }
+  .act-horaire a, .act-horaire a:visited { color: #222 !important; text-decoration: none !important; border-bottom: 0 !important; }
+}
+</style>
+'
+# ==========================================
+# 4. Construction du tableau HTML
+# ==========================================
+
+html <- paste0(
+  '<div class="act-horaire-wrap">',
+  '<div class="act-horaire-scroll">',
+  '<table class="act-horaire">',
+
+  '<colgroup>',
+  '<col class="semaine" style="width:6%">',
+  '<col class="date" style="width:9%">',
+  '<col class="conferencier" style="width:25%">',
+  '<col class="titre" style="width:25%">',
+  '<col class="chapitres" style="width:35%">',
+  '</colgroup>',
+
+  '<thead><tr>',
+  '<th>Semaine</th>',
+  '<th>Date</th>',
+  '<th>Conférencier invité</th>',
+  '<th>Sujet de la présentation</th>',
+  '<th>Chapitres à lire</th>',
+  '</tr></thead>',
+
+  '<tbody>'
+)
+
+for (i in seq_len(nrow(horaire))) {
+
+  # Bandeau discret pour annoncer chaque partie du cours
+  parties <- c(
+    `1` = "Partie 1 — Découvrir l’actuariat",
+    `3` = "Partie 2 — Environnement actuariel",
+    `6` = "Partie 3 — Assurance de personnes",
+    `10` = "Partie 4 — Régimes de retraite"
+  )
+  if (as.character(i) %in% names(parties)) {
+    html <- paste0(html, '<tr class="partie"><td colspan="5">',
+                   parties[[as.character(i)]], '</td></tr>')
+  }
+
+  classe <- if (i == 8) {
+    ' class="relache"'
+  } else {
+    ""
+  }
+
+  ligne <- paste0(
+    '<tr', classe, '>',
+
+    '<td>',
+    '<span class="num-semaine">', horaire$semaine[i], '</span>',
+    '</td>',
+
+    '<td>',
+    horaire$date[i],
+    '</td>',
+
+    '<td>',
+    horaire$conferencier[i],
+    '</td>',
+
+    '<td>',
+    horaire$titre[i],
+    '</td>',
+
+    '<td class="chapitres">',
+    horaire$chapitres[i],
+    '</td>',
+
+    '</tr>'
+  )
+
+  html <- paste0(html, ligne)
+}
+
+html <- paste0(
+  html,
+  '</tbody>',
+  '</table>',
+  '</div>',
+  '</div>'
+)
+
+
+# ==========================================
+# 5. Affichage
+# ==========================================
+
+# Émettre le CSS et le tableau comme HTML brut pour Pandoc.
+# Les balises <div> ne seront pas interprétées comme des blocs Markdown.
+cat("```{=html}\n", css, "\n", html, "\n```\n", sep = "")
+
+```
+
+*Les dates des conférences, les sujets et les lectures préparatoires sont sujets à modification.*

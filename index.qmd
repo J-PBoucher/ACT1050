@@ -1,0 +1,15 @@
+# Préface {.unnumbered}
+
+Ce site contient les notes du cours [ACT1050 – Introduction à l’actuariat I](https://etudier.uqam.ca/cours?sigle=ACT1050), un cours obligatoire du baccalauréat en actuariat de l’Université du Québec à Montréal (UQAM).
+
+Le cours ACT1050 constitue généralement le premier contact formel des étudiantes et étudiants avec l’actuariat. Alors que les cours de mathématiques et de probabilités fournissent les outils théoriques nécessaires à la formation actuarielle, ACT1050 permet de découvrir la profession dans laquelle ces outils sont utilisés. On y présente notamment la formation et le cheminement professionnel des actuaires, le rôle des associations professionnelles, les contrats d’assurance, les principes fondamentaux de l’assurance de personnes, ainsi que les bases de l’assurance-vie et des régimes de retraite.
+
+L’objectif n’est pas d’approfondir les aspects mathématiques de ces sujets, mais plutôt d’en comprendre les fondements et les mécanismes essentiels. Les étudiantes et étudiants seront ainsi amenés à se familiariser avec le vocabulaire actuariel, à découvrir les principaux produits d’assurance et régimes de retraite, et à comprendre les grandes questions auxquelles les actuaires sont appelés à répondre. Ces connaissances constitueront une base pour les cours ultérieurs du programme, où plusieurs de ces notions seront étudiées de manière plus approfondie, notamment sur les plans mathématique et statistique.
+
+## Rencontres avec des professionnels de l’actuariat {-}
+
+Une particularité importante du cours ACT1050 est la place accordée aux rencontres avec des professionnels du milieu actuariel. Chaque semaine, un actuaire invité, souvent diplômé de l’UQAM, viendra présenter son parcours, son expérience professionnelle et les principales caractéristiques de son travail.
+
+Ces rencontres permettront aux étudiantes et étudiants de découvrir la diversité des carrières en actuariat, de mieux comprendre les réalités du marché du travail et de se familiariser avec les différents milieux dans lesquels les actuaires exercent leur profession. Elles offriront également l’occasion de poser des questions directement aux invités, tant sur les aspects techniques de leur travail que sur leur cheminement professionnel.
+
+L’objectif est de compléter les connaissances présentées dans les notes de cours par une perspective concrète sur la pratique actuarielle. Au-delà des notions théoriques, ces échanges devraient permettre aux étudiantes et étudiants de mieux comprendre à quoi ressemble le travail quotidien d’un actuaire et d'entrevoir les différentes possibilités qui s’offriront à eux au cours de leur carrière.

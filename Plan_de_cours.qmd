@@ -1,0 +1,433 @@
+---
+toc: false
+---
+
+<style>
+/* ==========================================
+   THÈME ACT1050 — PLAN DE COURS
+   ========================================== */
+
+/* Masquer le titre Quarto tout en le conservant
+   dans le menu de navigation */
+
+#title-block-header {
+  display: none !important;
+}
+
+main.content > section.level1 > h1,
+main.content > h1:first-child {
+  display: none !important;
+}
+
+/* Couleurs générales */
+
+.act-plan {
+  --act-bleu: #294e5b;
+  --act-bleu-clair: #edf3f4;
+  --act-beige: #e8e2d1;
+  --act-texte: #303c42;
+  --act-secondaire: #65747b;
+  --act-bordure: #dce3e5;
+  color: var(--act-texte);
+}
+
+/* Bandeau d'introduction */
+
+.act-plan .act-bandeau {
+  background: #294e5b;
+  color: #ffffff;
+  padding: 24px 28px;
+  border-radius: 5px;
+  margin: 0 0 2rem 0;
+}
+
+.act-plan .act-bandeau .act-code {
+  color: #d8c9a5;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.act-plan .act-bandeau .act-titre {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.act-plan .act-bandeau .act-sous-titre {
+  color: #dbe6e9;
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
+
+/* Titres de sections */
+
+.act-plan h2 {
+  color: #294e5b;
+  font-size: 1.35rem;
+  font-weight: 700;
+  border-bottom: 2px solid #e8e2d1;
+  padding-bottom: 9px;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Tableaux */
+
+.act-plan table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  font-size: 0.95rem;
+  margin: 1rem 0 1.3rem 0;
+}
+
+.act-plan table th {
+  background: #294e5b;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px 13px;
+  border: none;
+}
+
+.act-plan table td {
+  padding: 11px 13px;
+  border: none;
+  border-bottom: 1px solid #dce3e5;
+  vertical-align: top;
+}
+
+.act-plan table tbody tr:nth-child(even) {
+  background: #f4f7f7;
+}
+
+.act-plan table tbody tr:hover {
+  background: #edf3f4;
+}
+
+/* Informations générales */
+
+.act-plan .act-infos table td:first-child {
+  width: 30%;
+  color: #294e5b;
+  font-weight: 600;
+}
+
+/* Évaluations */
+
+.act-plan .act-evaluations table th:last-child,
+.act-plan .act-evaluations table td:last-child {
+  text-align: right;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.act-plan .act-evaluations table tbody tr:last-child {
+  background: #edf3f4;
+  color: #294e5b;
+  font-weight: 700;
+  border-top: 2px solid #294e5b;
+}
+
+/* Barème : regroupement des cotes par famille */
+
+.act-plan .act-bareme table {
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.act-plan .act-bareme table th,
+.act-plan .act-bareme table td {
+  text-align: center;
+}
+
+.act-plan .act-bareme table th:nth-child(1),
+.act-plan .act-bareme table td:nth-child(1) { width: 22%; }
+
+.act-plan .act-bareme table th:nth-child(2),
+.act-plan .act-bareme table td:nth-child(2) { width: 20%; }
+
+.act-plan .act-bareme table th:nth-child(3),
+.act-plan .act-bareme table td:nth-child(3) { width: 58%; }
+
+.act-plan .act-bareme table td:nth-child(2) {
+  font-weight: 700;
+  color: #294e5b;
+}
+
+.act-plan .act-bareme table td:first-child {
+  color: #294e5b;
+  font-weight: 700;
+}
+
+/* Citations de la description officielle */
+
+.act-plan blockquote {
+  border-left: 4px solid #c4b58f;
+  background: #f7f6f2;
+  color: #39474d;
+  padding: 14px 20px;
+  margin: 1rem 0 1.5rem 0;
+  font-size: 0.95rem;
+  font-style: normal;
+}
+
+.act-plan blockquote p {
+  margin: 0;
+}
+
+/* Politique de présence */
+
+.act-plan .act-presence {
+  background: #f2f6f6;
+  border-left: 4px solid #294e5b;
+  padding: 17px 21px;
+  margin: 1.5rem 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.act-plan .act-presence-titre {
+  font-weight: 700;
+  color: #294e5b;
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.act-plan .act-presence p {
+  margin-bottom: 0.7rem;
+}
+
+.act-plan .act-presence p:last-child {
+  margin-bottom: 0;
+}
+
+/* Notes */
+
+.act-plan .act-note {
+  color: #65747b;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 0.6rem;
+}
+
+/* Liens */
+
+.act-plan a {
+  color: #326879;
+  text-decoration: none;
+  border-bottom: 1px solid #b7cdd3;
+}
+
+.act-plan a:hover {
+  color: #183d4a;
+  border-bottom-color: #183d4a;
+}
+
+/* Impression */
+
+@media print {
+
+  .act-plan .act-bandeau {
+    background: #294e5b !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .act-plan table th,
+  .act-plan table tbody tr,
+  .act-plan .act-presence {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .act-plan table tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .act-plan h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .act-plan .act-bandeau {
+    break-inside: avoid;
+  }
+}
+
+/* Encadré — Points de bonus */
+
+.act-plan .act-bonus {
+  background: #fcf6f4;
+  border: 1px solid #eadbd7;
+  border-left: 4px solid #B42318;
+  border-radius: 0 5px 5px 0;
+  padding: 18px 22px;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.act-plan .act-bonus h4 {
+  color: #B42318;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.act-plan .act-bonus p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+</style>
+
+# Plan de cours {-}
+
+::: {.act-plan}
+
+<div class="act-bandeau">
+<div class="act-code">ACT1050 · Hiver 2027</div>
+<div class="act-titre">Plan de cours</div>
+<div class="act-sous-titre">Introduction à l'actuariat I · Université du Québec à Montréal</div>
+</div>
+
+## Informations générales {-}
+
+::: {.act-infos}
+
+| | |
+|:---|:---|
+| **Cours** | Cours obligatoire (3 crédits) |
+| **Groupe** | Groupe 20 — Hiver 2027 |
+| **Horaire** | Mardi, 13h00 à 16h00 |
+| **Professeur** | Jean-Philippe Boucher |
+| **Courriel** | [boucher.jean-philippe@uqam.ca](mailto:boucher.jean-philippe@uqam.ca) |
+| **Cours préalable** | Aucun |
+| **Matériel obligatoire** | [Notes de cours ACT1050](https://uqam-act1050.netlify.app/) |
+| **Disponibilité** | Pendant les pauses ou sur rendez-vous par courriel |
+
+:::
+
+## Description {-}
+
+Tel qu'indiqué sur le [site du cours](https://etudier.uqam.ca/cours?sigle=ACT1050) de l'UQAM, les objectifs du cours sont :
+
+> Introduction à la tarification, l'évaluation et la gestion des risques actuariels ayant une incidence à long terme. Le cours couvrira à part égale les domaines de l'assurance vie et des régimes de retraite.
+
+Le même [site](https://etudier.uqam.ca/cours?sigle=ACT1050) indique aussi un sommaire du contenu :
+
+> Introduction aux différents mécanismes individuels et collectifs d'assurance de personnes : sélection des risques, tarification et évaluation des produits d'assurance-vie individuelle et collective. Introduction à la réassurance. Introduction aux régimes de retraite : intégration des régimes privés et publics, régimes complémentaires de retraite, calcul des prestations de retraites, régimes publics québécois et canadiens en régimes de retraite. Encadrement juridique et fiscalité. Éthique, morale et déontologie de l'actuaire en assurance-vie et en régimes de retraite.
+
+## Modalités et dates d'évaluation {-}
+
+L'évaluation du cours repose sur la participation aux séances et sur des mini-quiz répartis au cours de la session.
+
+
+
+::: {.act-evaluations}
+
+| Évaluation | Matière évaluée | Date | Pondération |
+|:---|:---:|:---|---:|
+| **Présence et participation en classe** | — | Toute la session | **30 %** |
+| **Mini-quiz #1**<br>Partie 1 : Découvrir l'actuariat | Chapitres 1 à 5 | 26 janvier (fin de séance) | 10 % |
+| **Mini-quiz #2**<br>Partie 2 : Environnement actuariel | Chapitres 6 à 8 | 16 février (fin de séance) | 15 % |
+| **Mini-quiz #3**<br>Partie 3 : Assurance de personnes | Chapitres 9 à 12 | 23 mars (fin de séance) | 15 % |
+| **Mini-quiz #4**<br>Partie 4 (I) : Régime de retraite | Chapitres 13 à 16 | 6 avril (fin de séance) | 15 % |
+| **Mini-quiz #5**<br>Partie 4 (II) : Régime de retraite | Chapitres 17 à 19 | 27 avril (fin de séance) | 15 % |
+| **Total** | | | **100 %** |
+
+:::
+
+#### **Mini-quiz** {-}
+
+Cinq mini-quiz sont prévus au cours de la session, répartis entre les quatre parties du cours. La dernière partie, consacrée aux régimes de retraite, fait l'objet de deux mini-quiz. Chaque mini-quiz sera donné dans la deuxième partie de chaque séance, sera d'une durée d'une heure et portera exclusivement sur la matière de la partie concernée, notamment **les lectures des chapitres et les présentations des conférenciers invités**. 
+
+Les mini-quiz ne sont pas cumulatifs : les notions évaluées dans les parties précédentes ne sont pas reprises dans les évaluations suivantes.
+
+Toutes les notes de cours sont permises pendant les mini-quiz. Les étudiants peuvent donc consulter le matériel pédagogique du cours durant l'évaluation. Les questions visent toutefois à vérifier leur compréhension des notions abordées plutôt que leur simple capacité à retrouver de l'information dans les notes.
+
+#### **Présence et participation** {-}
+
+La présence est vérifiée à chaque séance et compte, avec la participation, pour 30 points sur 100. Chaque étudiant bénéficie d'un mulligan permettant une absence sans pénalité. À partir de la deuxième absence, 5 points sont retranchés de cette composante de 30 points pour chaque absence supplémentaire, jusqu'à concurrence de 30 points. Le mulligan vise notamment à couvrir les absences justifiées. Ainsi, un étudiant qui s'absente volontairement et qui doit ensuite manquer un cours pour cause de maladie perdra 5 points : son mulligan sera appliqué à l'absence justifiée, et non à l'absence volontaire. Le mulligan ne dispense pas de participer aux mini-quiz prévus au calendrier.
+
+La participation en classe fera également l'objet d'une évaluation, notamment à travers les échanges avec les conférenciers invités, les questions posées et les interventions lors des discussions. L'objectif est de stimuler les débats et les échanges d'idées, tout en témoignant auprès des intervenants de la curiosité, de l'intérêt et du dynamisme des étudiants de l'UQAM.
+
+::: {.act-bonus}
+
+#### Points de bonus — contribution aux notes de cours {-}
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:250px;
+">
+
+<img src="images/Wow.jpg"
+style="width:100%; height:auto; display:block;">
+
+</div>
+
+Les étudiants sont invités à contribuer à l'amélioration des notes de cours en signalant des erreurs, des coquilles, des hyperliens défectueux ou en proposant des améliorations aux explications et aux exemples.Les contributions pertinentes pourront donner droit à un **maximum de 5 points de bonus**, ajoutés à la note finale du cours. Ces points sont supplémentaires et ne modifient pas la pondération des évaluations présentées dans le tableau. Les modalités de contribution, notamment l'utilisation de GitHub pour signaler un problème ou proposer une correction, sont présentées dans la section [Contribuer aux notes de cours avec GitHub](Aproposdesnotes.qmd).
+
+<div style="clear: both;"></div>
+
+
+
+
+:::
+
+### Barème {-}
+
+La note finale, exprimée en pourcentage, est convertie en une cote littérale selon le barème suivant. Les intervalles sont fermés à gauche et ouverts à droite, sauf pour la cote A+, dont l'intervalle inclut 100 %.
+
+::: {.act-bareme}
+
+| Cote | Note finale (%) |
+|:---:|:---:|
+| **A+** | $[90,100]$ |
+| **A** | $[85,90[$ |
+| **A−** | $[80,85[$ |
+| **B+** | $[76,80[$ |
+| **B** | $[73,76[$ |
+| **B−** | $[70,73[$ |
+| **C+** | $[66,70[$ |
+| **C** | $[63,66[$ |
+| **C−** | $[60,63[$ |
+| **D+** | $[55,60[$ |
+| **D** | $[50,55[$ |
+| **E** | $[0,50[$ |
+
+:::
+
+Aucun travail supplémentaire, examen de reprise ou autre mesure de bonification ne sera offert dans le seul but de modifier la cote finale.
+
+:::
+
+## Déroulement des séances {-}
+
+À l'exception de la première séance, les cours suivront généralement une structure commune, divisée en deux parties :
+
+1. **Rencontre avec un conférencier invité**
+
+   Chaque semaine, un professionnel du milieu actuariel, souvent diplômé de l'UQAM, viendra rencontrer les étudiants pour présenter son parcours, son expérience professionnelle et son domaine d'expertise. Ces rencontres permettront de découvrir différentes facettes de la profession actuarielle, de mieux comprendre les réalités du marché du travail et d'échanger directement avec des personnes qui exercent la profession.
+
+2. **Retour sur les lectures de la semaine**
+
+   Après une pause, une période d'environ 30 minutes sera normalement consacrée à une synthèse des chapitres prévus pour la semaine. Cette présentation visera à faire ressortir les notions essentielles, à clarifier certains concepts et à répondre aux questions des étudiants. Elle ne constituera toutefois pas une présentation exhaustive de la matière. **Les étudiants devront donc avoir lu les chapitres prévus avant chaque séance.**
+
+   **Lors des séances comportant un mini-quiz**, cette période de révision sera remplacée par une évaluation d'une durée d'une heure. Aucune synthèse des chapitres ne sera alors présentée en classe. Les étudiants devront donc avoir effectué leurs lectures et préparé leur évaluation de manière autonome.
+
+La liste des conférenciers invités, les lectures à effectuer chaque semaine ainsi que les dates des mini-quiz figurent dans la page [Horaire de la session](Horaire.qmd).  Il est à noter que cette formule s'inspire de la pédagogie inversée : les étudiants prennent d'abord connaissance de la matière de façon autonome, tandis que le temps en classe est principalement consacré aux échanges avec les professionnels, aux discussions et à la consolidation des apprentissages.

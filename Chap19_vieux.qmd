@@ -1,0 +1,131 @@
+---
+toc: false
+date: 03/15/2026
+date-modified: last-modified
+---
+
+#  Provisionnement
+
+### Objectifs du chapitre {-}
+
+
+## Survol
+
+Le provisionnement consiste à avoir suffisamment de fonds pour acquitter les obligations d’un régime de retraite.
+
+Les régimes de retraite à cotisations déterminées sont provisionnés par défaut car l’obligation du régime est définie comme étant la valeur des cotisations.
+
+Dans le cas d’un régime à prestations déterminées, la valeur des obligations est estimée au moyen d’une évaluation actuarielle et correspondra rarement de façon exacte au montant dans la caisse de retraite. Il y aura toujours un excédent ou un déficit. Afin d’éviter un déficit systématique, les lois exigent que les régimes à prestations déterminées soient provisionnés à l’avance. On n’a donc pas le droit d’adopter une approche « pay-as-you-go » comme celle utilisée par le gouvernement fédéral dans le cas de la Pension de sécurité de la vieillesse.
+
+L’évaluation actuarielle, effectuée par un Fellow de l’institut canadien des actuaires, permet :
+
+- De déterminer la cotisation requise pour maintenir le régime en équilibre, en l’absence de surplus ou de déficit actuariel
+- D’identifier et de mesurer tout surplus ou déficit actuariel
+- De déterminer si un éventuel déficit actuariel est dû au hasard ou à une modification au régime
+- De déterminer la cotisation requise pour amortir un éventuel déficit actuariel.
+
+Le provisionnement peut se mesurer selon deux points de vue différents :
+
+- En supposant que l’entreprise fermera et que l’employeur sera liquidé.
+- En supposant que l’entreprise demeurera en activité pendant une très longue période.
+
+On doit faire les deux types d’évaluation en même temps, car elles produisent des informations complémentaires.
+
+Pour fins d’évaluation actuarielle, on peut choisir la méthode utilisée parmi trois familles :
+
+- La famille des méthodes de répartition des prestations, qui répartissent une partie de la valeur actuarielle des prestations projetées à une période en particulier en fonction de la fluctuation des prestations accumulées ou projetées au cours de la période.
+- La famille des méthodes de répartition des cotisations, qui répartissent la valeur actuarielle des prestations projetées entre diverses périodes selon une approche nivelée.
+- La famille des méthodes de projection, qui affectent la valeur actuarielle des prestations projetées en fonction de la différence entre la valeur projetée au début et à la fin de la période de projection, ajustée pour tenir compte des prestations qu’on prévoit payer au cours de la période.
+
+## Raisons justifiant le provisionnement des régimes privés
+
+Le provisionnement est la façon logique de financer un régime de retraite, ne serait-ce que pour chacune des raisons suivantes :
+
+- Les lois (loi sur les régimes complémentaires de retraite du Québec, loi fédérale sur les normes de prestations de pension, lois des autres provinces sur les pensions) l’exigent.
+- La loi de l’impôt sur le revenu accorde d’importants avantages fiscaux quand on provisionne un régime (déductibilité des cotisations, non-imposition du revenu de placement tant que l’argent est dans la caisse de retraite, etc.)
+- Les normes comptables exigent qu’on reconnaisse le coût des régimes de retraite sur la carrière des employés
+- La caisse servant à provisionner le régime de retraite est à l’abri des créanciers, alors les participants ont une plus grande probabilité de recevoir ce qui leur est dû que si les rentes étaient payées sur base «pay-as-you-go».
+- Le provisionnement est l’approche la plus logique car l’entreprise tire des revenus du travail de ses employés quand ils sont au travail. C’est à ce moment que l’entreprise peut utiliser une partie de sa marge bénéficiaire pour payer des coûts de retraite qui sont justement encourus alors que les employés travaillent.
+- Contrairement aux régimes publics financés par un gouvernement dont l’existence est présumée éternelle et qui a un pouvoir de se financer au moyen des taxes et impôts (permettant une approche «pay-as-you-go» quand la structure de la population par âge a la forme d’une pyramide), les régimes privés sont mis sur pied par des employeurs dont les revenus ne sont pas assurés et dont la durée d’existence est limitée, comme l’illustrent les fermetures et faillites d’entreprises observées au cours des 50 dernières années.
+
+Les objectifs du provisionnement tiennent habituellement compte, notamment,
+
+- De la sécurité des prestations promises et de l’introduction de provisions pour écarts défavorables
+- De l’équité intergénérationnelle
+- Du principe de l’affectation ordonnée et rationnelles des cotisations entre les différents périodes.
+
+## Mécanisme général d’une évaluation actuarielle
+
+L’évaluation actuarielle comporte différentes étapes :
+
+- Évaluation du passif et du «coût normal», qui requiert :
+  - La vérification des dispositions du régime (consignée dans le Règlement du régime, qui est le document légal constituant et régissant le régime)
+  - La vérification des données sur les participants et les bénéficiaires
+  - Le développement d’hypothèses économiques
+  - Le développement d’hypothèses démographiques
+  - Le choix d’une méthode d’évaluation
+- Évaluation de l’actif :
+  - Vérification de la caisse
+  - Choix d’une méthode d’évaluation de l’actif (valeur marchande pure ou valeur marchande ajustée pour reconnaître les gains et pertes sur quelques années) pour chaque classe d’actif (actions, obligations, etc.)
+- Estimation du surplus ou déficit actuariel
+
+Le «coût normal» est le coût du service courant, c’est-à-dire la valeur des rentes gagnées dans l’année suivant la date de l’évaluation.
+
+## Provisionnement sur base de liquidation
+
+L’évaluation du provisionnement d’un régime sur base de terminaison mesure la suffisance du provisionnement par rapport aux obligations déjà constituées à la date d’évaluation, comme si on mettait fin au régime :
+
+- Le passif actuariel déterminé par l’évaluation représente la valeur de toutes les prestations déjà gagnées à la date d’évaluation. Pour que le régime soit solvable, les actifs doivent être égaux ou supérieurs à ce passif.
+- Le calcul se fait comme si le régime se terminait à la date de l’évaluation.
+
+Cette base est souvent dénommée «base de solvabilité» et sert à mesurer le niveau de provisionnement du régime ainsi qu’à déterminer les cotisations nécessaires à amortir un déficit actuariel.
+
+Pour effectuer ses calculs, l’actuaire doit établir un scénario de liquidation (par exemple, l’achat de rentes auprès d’une société d’assurance) et tenir compte des prestations conditionnelles qui pourraient être payables en cas de liquidation (par exemple, si le régime prévoit une certaine bonification ou encore une réduction du facteur d’ajustement actuariel pour retraite anticipée lors de sa fermeture).
+
+L’actuaire doit aussi utiliser comme valeur des actifs leur valeur marchande, car ces actifs sont présumés être liquidés à la date du calcul.
+
+Il doit aussi tenir compte des tous les frais, incluant ceux reliés à la fermeture du régime.
+
+Les hypothèses actuarielles sont prescrites par la loi :
+
+- Rendement de la caisse fondé sur le rendement des obligations à long terme du gouvernement du Canada dans le cas des participants actifs et sur le taux courant d’achat de rente immédiate pour les retraités
+- Aucune augmentation de salaire
+- Généralement aucune inflation (sauf si le régime est indexé) car on suppose la liquidation immédiate
+- Mortalité selon une table prescrite
+- Âge au début du service de la rente qui produit le coût le plus élevé
+- Aucune cessation d’emploi
+- Frais réalistes de liquidation, qui sont soustraits de l’actif
+- Méthode actuarielle basée sur la répartition des prestations
+
+## Provisionnement sur base de permanence
+
+L’évaluation du provisionnement d’un régime sur base de permanence mesure la suffisance du provisionnement par rapport aux obligations déjà constituées à la date d’évaluation, mais en tenant compte des cotisations futures et des prestations qui seront gagnées après la date d’évaluation :
+
+- Le passif actuariel déterminé par l’évaluation représente la valeur actualisée de toutes les prestations projetées à la date de la retraite, moins la valeur actualisée de toutes les cotisations futures prévues. Pour que le régime soit solvable, les actifs doivent être égaux ou supérieurs à ce passif.
+- Le calcul se fait en supposant que le régime continuera indéfiniment.
+
+Cette base est souvent dénommée «base de continuité» ou «base de provisionnement» et sert principalement à établir les taux de cotisation futurs.
+
+Pour effectuer ses calculs, l’actuaire doit inclure des marges pour écarts ou fluctuations défavorables afin de tenir compte du fait que ses hypothèses ne se réaliseront pas parfaitement.
+
+Il doit aussi prendre en compte toutes les prestations dont il est au courant, y compris les prestations conditionnelles, qui sont payables en vertu du régime de retraite, et devrait inclure une provision pour toutes les prestations qu’on s’attend de verser tandis que le régime est en continuité.
+
+Le taux d’actualisation sera alors basé sur le rendement prévu des actifs du régime et la politique de placement. Dans le cas des titres à revenu fixe, on peut utiliser leur taux de rendement en supposant qu’ils seront détenus jusqu’à maturité.
+
+Les principales hypothèses sont les suivantes :
+
+- Rendement de la caisse fondé sur le rendement futur à très long terme des placements déjà dans la caisse de retraite et sur la répartition des placements futurs selon la politique de placement du régime
+- Augmentation de salaire telle que prévue entre la date de l’évaluation et la date de la retraite
+- Inflation (directement dans le cas des régimes indexés et indirectement dans l’estimation du taux de rendement futur de la caisse de retraite
+- Mortalité selon une table réaliste
+- Âge au début du service de la rente, hypothèse habituellement basée sur l’expérience du régime, si elle est crédible, et tenant compte de l’impact d’une possible subvention de la retraite anticipée. Cette hypothèse prend généralement la forme de taux de départ à la retraite variant selon l’âge et relativement concentrés aux âges clés (âge où la retraite anticipée devient permise, âge normal de retraite, multiples entiers de 5 ans, etc.)
+- Taux de cessation d’emploi variant selon l’âge (généralement plus élevés chez les employés plus jeunes). Dans un régime à salaire final, cette hypothèse permet de diminuer le coût du régime car l’employé qui quitte son emploi plusieurs années avant l’âge normal de retraite voit sa rente basée sur le salaire au moment du départ et non sur le salaire projeté à la retraite
+- Proportion de participants ayant un conjoint et différence d’âge entre les conjoints
+- Incidence de l’invalidité
+- Frais administratifs
+- Marge pour écart défavorables (habituellement à l’intérieur de chaque hypothèse)
+
+Selon les normes professionnelles de l’Institut canadien des actuaires, chaque hypothèse doit être intrinsèquement raisonnable :
+
+- Chaque hypothèse doit représenter la meilleure estimation de l’actuaire
+- On doit y ajouter une marge pour écarts défavorables lorsque requis par la loi ou par le mandat de l’actuaire

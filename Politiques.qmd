@@ -1,0 +1,202 @@
+---
+toc: false
+---
+
+<style>
+/* ACT1050 — thème commun au plan de cours et à l'horaire */
+#title-block-header { display: none !important; }
+main.content > section.level1 > h1,
+main.content > h1:first-child { display: none !important; }
+
+.act-politiques {
+  --act-bleu: #294e5b;
+  --act-beige: #e8e2d1;
+  --act-texte: #303c42;
+  --act-secondaire: #65747b;
+  --act-bordure: #dce3e5;
+  color: var(--act-texte);
+}
+.act-politiques .act-bandeau {
+  background: var(--act-bleu);
+  color: #fff;
+  padding: 24px 28px;
+  border-radius: 5px;
+  margin: 0 0 1.6rem;
+}
+.act-politiques .act-code {
+  color: #d8c9a5;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.act-politiques .act-titre {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+.act-politiques .act-sous-titre {
+  color: #dbe6e9;
+  font-size: .95rem;
+  margin-top: 8px;
+}
+.act-politiques .act-intro {
+  color: #4b5b62;
+  font-size: 1rem;
+  line-height: 1.65;
+  margin: 0 0 1.6rem;
+}
+.act-politiques .act-section {
+  padding: 0 0 1.2rem;
+  margin: 0 0 1.5rem;
+  border-bottom: 1px solid var(--act-bordure);
+}
+.act-politiques .act-section:last-child { border-bottom: none; }
+.act-politiques h2 {
+  color: var(--act-bleu);
+  font-size: 1.35rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--act-beige);
+  padding-bottom: 9px;
+  margin: 0 0 1rem;
+}
+.act-politiques .act-section p {
+  line-height: 1.6;
+  margin-bottom: .85rem;
+}
+.act-politiques .act-liens {
+  list-style: none;
+  margin: .9rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px 14px;
+}
+.act-politiques .act-liens li {
+  margin: 0;
+  padding: 0;
+}
+.act-politiques .act-liens a {
+  display: block;
+  height: 100%;
+  padding: 12px 14px;
+  background: #f4f7f7;
+  border: 1px solid var(--act-bordure);
+  border-left: 3px solid #b6cbc9;
+  border-radius: 4px;
+  color: #294e5b;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .91rem;
+  line-height: 1.45;
+}
+.act-politiques .act-liens a:hover {
+  background: #eaf1f0;
+  border-left-color: #294e5b;
+  text-decoration: underline;
+}
+.act-politiques .act-section-compact .act-liens {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 700px) {
+  .act-politiques .act-liens,
+  .act-politiques .act-section-compact .act-liens {
+    grid-template-columns: 1fr;
+  }
+}
+@media print {
+  .act-politiques .act-bandeau {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .act-politiques .act-liens { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .act-politiques .act-liens li,
+  .act-politiques .act-section h2 { break-inside: avoid; }
+  .act-politiques .act-liens a {
+    background: #fff;
+    border: 1px solid #d0d9dc;
+    color: #294e5b;
+  }
+  .act-politiques .act-section { break-inside: auto; }
+}
+</style>
+
+# Politiques de l'UQAM {-}
+
+::: {.act-politiques}
+
+<div class="act-bandeau">
+<div class="act-code">ACT1050 · Hiver 2027</div>
+<div class="act-titre">Politiques de l'UQAM</div>
+<div class="act-sous-titre">Ressources, droits et responsabilités de la communauté étudiante</div>
+</div>
+
+Afin d’enrichir votre expérience étudiante, l’UQAM offre plusieurs services et ressources pour assurer un milieu de vie et d’étude sain, sécuritaire et bienveillant.
+
+::: {.act-section}
+
+## Soutien à la persévérance, à la réussite et au bien-être {-}
+
+De nombreux services de soutien sont offerts pour améliorer la qualité de votre vie universitaire et soutenir votre persévérance et votre réussite.
+
+::: {.act-liens}
+
+- [Ensemble des services offerts](https://portailetudiant.uqam.ca/services/)
+- [Gagner du temps et réaliser de meilleurs travaux](https://infosphere.uqam.ca/)
+- [Politique no 12 relative à la parentalité et à la proche aidance pour les personnes étudiantes](https://instances.uqam.ca/politiques/)
+- [Politique no 21 sur la santé mentale étudiante](https://instances.uqam.ca/politiques/)
+- [Politique no 44 d’accueil et de soutien des étudiantes, étudiants en situation de handicap](https://instances.uqam.ca/politiques/)
+- [Situations problématiques et processus administratifs officiels](https://portailetudiant.uqam.ca/plaintes/)
+- [Alertes UQAM](https://uqam.ca/alertes/)
+
+:::
+
+:::
+
+::: {.act-section .act-section-compact}
+
+## Intégrité académique {-}
+
+L’intégrité académique fait partie des valeurs fondamentales de l’UQAM qui a adopté un principe de tolérance zéro.
+
+::: {.act-liens}
+
+- [Règlement no 18 – Intégrité académique](https://r18.uqam.ca/etre-en-infraction.html)
+
+:::
+
+:::
+
+::: {.act-section .act-section-compact}
+
+## Une université exempte de harcèlement et de violences à caractère sexuel {-}
+
+L’Université reconnaît à toutes personnes membres de la communauté universitaire le droit fondamental à un milieu de travail et d’études exempt de toutes formes de sexisme, de violences à caractère sexuel et de harcèlement.
+
+::: {.act-liens}
+
+- [Sexisme et violences à caractère sexuel](https://harcelement.uqam.ca/)
+- [Harcèlement](https://harcelement.uqam.ca/)
+
+:::
+
+:::
+
+::: {.act-section .act-section-compact}
+
+## Respect de la liberté académique universitaire {-}
+
+Les membres de la communauté universitaire doivent pouvoir exercer leurs activités sans contrainte doctrinale, idéologique ou morale, autant en enseignement, en recherche et en création que dans le cadre de services aux collectivités.
+
+::: {.act-liens}
+
+- [Liberté académique universitaire](https://portailetudiant.uqam.ca/liberte-academique/)
+
+:::
+
+:::
+
+:::

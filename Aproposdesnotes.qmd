@@ -1,0 +1,417 @@
+
+---
+toc: false
+---
+
+<style>
+
+/* ==========================================
+   THÈME ACT1050 — NOTES DE COURS
+   ========================================== */
+
+/* Masquer le titre Quarto, conserver le menu */
+
+#title-block-header {
+  display: none !important;
+}
+
+main.content > section.level1 > h1,
+main.content > h1:first-child {
+  display: none !important;
+}
+
+/* Couleurs générales */
+
+.act-notes {
+  --act-bleu: #294e5b;
+  --act-bleu-clair: #edf3f4;
+  --act-beige: #e8e2d1;
+  --act-texte: #303c42;
+  --act-secondaire: #65747b;
+  --act-bordure: #dce3e5;
+  color: var(--act-texte);
+}
+
+/* Bandeau principal */
+
+.act-notes .act-bandeau {
+  background: #294e5b;
+  color: #ffffff;
+  padding: 24px 28px;
+  border-radius: 5px;
+  margin: 0 0 2rem 0;
+}
+
+.act-notes .act-code {
+  color: #d8c9a5;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.act-notes .act-titre {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.act-notes .act-sous-titre {
+  color: #dbe6e9;
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
+
+/* Titres des sections */
+
+.act-notes h2 {
+  color: #294e5b;
+  font-size: 1.35rem;
+  font-weight: 700;
+  border-bottom: 2px solid #e8e2d1;
+  padding-bottom: 9px;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Paragraphes */
+
+.act-notes p {
+  line-height: 1.7;
+  margin-bottom: 1.15rem;
+}
+
+/* Liens */
+
+.act-notes a {
+  color: #326879;
+  text-decoration: none;
+  border-bottom: 1px solid #b7cdd3;
+}
+
+.act-notes a:hover {
+  color: #183d4a;
+  border-bottom-color: #183d4a;
+}
+
+/* Encadré de reconnaissance */
+
+.act-notes .act-reconnaissance {
+  background: #f7f6f2;
+  border-left: 4px solid #c4b58f;
+  padding: 18px 22px;
+  margin: 1.3rem 0 1.6rem 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.act-notes .act-reconnaissance p:last-child {
+  margin-bottom: 0;
+}
+
+/* Encadré technique */
+
+.act-notes .act-technique {
+  background: #f2f6f6;
+  border-left: 4px solid #294e5b;
+  padding: 18px 22px;
+  margin: 1.4rem 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.act-notes .act-technique p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Tableau — Longueur des chapitres */
+
+.act-notes .act-longueur table {
+  width: 100%;
+  max-width: 760px;
+  margin: 1.2rem auto 1.5rem auto;
+  border-collapse: collapse;
+  border: none;
+  font-size: 0.95rem;
+  table-layout: fixed;
+}
+
+.act-notes .act-longueur table th {
+  background: #294e5b;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px 13px;
+  border: none;
+}
+
+.act-notes .act-longueur table td {
+  padding: 10px 13px;
+  border: none;
+  border-bottom: 1px solid #dce3e5;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.act-notes .act-longueur table th,
+.act-notes .act-longueur table td {
+  width: 25%;
+}
+
+.act-notes .act-longueur table tbody tr:nth-child(even) {
+  background: #f4f7f7;
+}
+
+.act-notes .act-longueur table tbody tr:hover {
+  background: #edf3f4;
+}
+
+@media print {
+  .act-notes .act-longueur table th,
+  .act-notes .act-longueur table tbody tr {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .act-notes .act-longueur table tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+
+/* Tableau — Longueur des chapitres */
+
+.act-notes .act-longueur table {
+  width: 100%;
+  max-width: 760px;
+  margin: 1.2rem auto 1.5rem auto;
+  border-collapse: collapse;
+  border: none;
+  font-size: 0.95rem;
+}
+
+.act-notes .act-longueur table th {
+  background: #294e5b;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 15px;
+  border: none;
+}
+
+.act-notes .act-longueur table td {
+  padding: 9px 15px;
+  border: none;
+  border-bottom: 1px solid #dce3e5;
+  vertical-align: middle;
+}
+
+
+/* Largeur des colonnes */
+
+.act-notes .act-longueur table th:first-child,
+.act-notes .act-longueur table td:first-child {
+  width: 75%;
+  text-align: left;
+}
+
+.act-notes .act-longueur table th:last-child,
+.act-notes .act-longueur table td:last-child {
+  width: 25%;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.act-notes .act-longueur table th:last-child {
+  white-space: nowrap;
+}
+
+/* Lignes alternées */
+
+.act-notes .act-longueur table tbody tr:nth-child(even) {
+  background: #f4f7f7;
+}
+
+.act-notes .act-longueur table tbody tr:hover {
+  background: #edf3f4;
+}
+
+/* Hyperliens */
+
+.act-notes .act-longueur table td a {
+  color: #294e5b;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.act-notes .act-longueur table td a:hover {
+  color: #326879;
+  text-decoration: underline;
+}
+
+/* Ligne du total */
+
+.act-notes .act-longueur table tbody tr:last-child {
+  background: #edf3f4;
+  color: #294e5b;
+  font-weight: 700;
+  border-top: 2px solid #294e5b;
+}
+
+/* Impression */
+
+@media print {
+
+  .act-notes .act-longueur table th,
+  .act-notes .act-longueur table tbody tr {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .act-notes .act-longueur table tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+
+/* Impression */
+
+@media print {
+
+  .act-notes .act-bandeau {
+    background: #294e5b !important;
+    color: #ffffff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .act-notes .act-reconnaissance,
+  .act-notes .act-technique {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    break-inside: avoid;
+  }
+
+  .act-notes h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .act-notes .act-bandeau {
+    break-inside: avoid;
+  }
+
+}
+
+</style>
+
+# Notes de cours {-}
+
+::: {.act-notes}
+
+<div class="act-bandeau">
+<div class="act-code">ACT1050 · Hiver 2027</div>
+<div class="act-titre">Notes de cours</div>
+<div class="act-sous-titre">Origines, contributions et révision du matériel pédagogique</div>
+</div>
+
+## Source originale {-}
+
+Les notes de cours du [ACT1050 – Introduction à l'actuariat I](https://etudier.uqam.ca/cours?sigle=ACT1050) sont issues de documents entièrement développés à l’UQAM, à partir d’anciennes versions des notes du cours ACT1050 ainsi que d’une version antérieure de ce cours, le [ACT1021 – Introduction à l’assurance de personnes](https://etudier.uqam.ca/cours?sigle=ACT1021).
+
+::: {.act-reconnaissance}
+
+Ces notes ont été rédigées à l’origine par **Carole Turcotte**, FSA, FICA, professeure d’actuariat à l’UQAM aujourd’hui à la retraite, ainsi que par **Bruno Gagnon**, FSA, FICA, chargé de cours ayant joué un rôle important dans l’enseignement de l’actuariat à l’UQAM et ayant été impliqué pendant plusieurs années dans notre programme de baccalauréat en actuariat. Au cours des dernières années, **Noureddine Meraihi**, un chargé de cours qui s'implique dans plusieurs cours du programme, s’est également impliqué dans l’enseignement de ce cours. L’ensemble de ces contributions a permis d’assurer la continuité, la cohérence et l’ancrage institutionnel du cours ACT1050 au sein de l’UQAM.
+
+:::
+
+La conversion des notes vers le format [Quarto](https://quarto.org/), de même que leur mise à jour et leur restructuration, ont débuté en janvier 2026. Ce travail vise à faciliter la diffusion, la lisibilité et la maintenance des notes, sans en modifier le contenu pédagogique de fond. Les lectrices et lecteurs sont invités à contribuer à l'amélioration des notes en signalant les erreurs, les coquilles ou les hyperliens défectueux, ou en proposant directement des corrections par l'intermédiaire du dépôt [GitHub](https://github.com/).
+
+
+## Consultation, impression et conservation des notes {-}
+
+Les présentes notes de cours sont diffusées sous la forme d'un site Web, chaque chapitre constituant une page HTML distincte. La mise en page a été conçue pour faciliter aussi bien la consultation à l'écran que l'impression sur papier. Il est également possible d'utiliser la fonction d'impression du navigateur pour enregistrer les chapitres au format PDF et ainsi en conserver une copie.
+
+Contrairement à un manuel traditionnel, ces notes constituent un document évolutif. Leur contenu pourra être modifié au fil des sessions : certains chapitres pourront être ajoutés, retirés ou réorganisés, tandis que des explications, des exemples, des tableaux ou des données numériques pourront être actualisés. La version disponible en ligne ne correspondra donc pas nécessairement à celle utilisée lors d'une session antérieure. Il est ainsi recommandé aux étudiants de conserver une copie des notes utilisées pendant leur session, que ce soit en les imprimant ou en les enregistrant au format PDF. Ils disposeront ainsi d'une version stable du matériel pédagogique étudié, à laquelle ils pourront se référer ultérieurement.
+
+#### **Longueur des chapitres** {-}
+
+Afin de donner une idée de la quantité de lecture associée au cours, le tableau suivant présente une estimation du nombre de pages de chacun des 19 chapitres. Ces estimations correspondent à une impression sur papier et peuvent varier selon la taille des caractères, les marges et les paramètres d'impression.
+
+
+::: {.act-longueur}
+
+| Chapitre | Nombre de pages |
+|:---|---:|
+| [1. Introduction à l’actuariat](Chap1_IntroActu.qmd) | 22 |
+| [2. L’actuariat à l’UQAM](Chap2_UQAMActuariat.qmd) | 19 |
+| [3. Stages pendant les études](Chap3_Stages.qmd) | 5 |
+| [4. La profession d’actuaire](Chap4_Profession.qmd) | 15 |
+| [5. L’adhésion à l’ICA](Chap5_Adhesion.qmd) | 18 |
+| [6. Écosystème de l’assurance](Chap6_Ecosysteme.qmd) | 22 |
+| [7. Les milieux de pratique de l’actuaire](Chap7_MilieuPratique.qmd) | 16 |
+| [8. Aspects juridiques et réglementaires](Chap8_Juridique.qmd) | 22 |
+| [9. Notions de base en assurance-vie](Chap9_Base_assurancevie.qmd) | 13 |
+| [10. L’actuariat de l’assurance-vie](Chap10_Actuariat_assurancevie.qmd) | 34 |
+| [11. L’assurance vie temporaire](Chap11_Assurancevie_temporaire.qmd) | 25 |
+| [12. L’assurance vie permanente](Chap12_Assurancevie_permanente.qmd) | 21 |
+| [13. Notions de base en régime de retraite](Chap13_Base_retraite.qmd) | 31 |
+| [14. L’actuariat des régimes de retraite](Chap14_Actuariat_retraite.qmd) | 19 |
+| [15. Régimes à prestations déterminées](Chap15_Retraite_PD.qmd) | 32 |
+| [16. Régimes à cotisations déterminées](Chap16_Retraite_CD.qmd) | 15 |
+| [17. Régimes de retraite publics](Chap17_Retraite_public.qmd) | 27 |
+| [18. Aspect fiscal](Chap18_Retraite_fiscal.qmd) | 19 |
+| [19. Provisionnement](Chap19_Provisionnement.qmd) | 15 |
+| **Total (19 chapitres)** | **390** |
+
+:::
+
+
+Au total, les notes représentent environ **390 pages**, soit une moyenne d'un peu plus de **20 pages par chapitre**. Ce volume comprend toutefois de nombreux tableaux, figures, illustrations et exemples numériques : le nombre de pages ne constitue donc pas à lui seul une mesure du temps nécessaire à la lecture ou à l'assimilation de la matière.
+
+## Contribuer aux notes de cours avec GitHub {-}
+
+Les notes de cours sont hébergées sur **GitHub**, une plateforme qui permet de conserver l'historique des modifications apportées à des documents et de faciliter le travail collaboratif. Cette approche permet notamment aux étudiants de participer à l'amélioration continue du matériel pédagogique. Les contributions peuvent prendre différentes formes : signaler une coquille, corriger une erreur, identifier un hyperlien qui ne fonctionne plus, proposer une explication plus claire ou suggérer un exemple supplémentaire.
+
+Deux méthodes de contribution sont possibles :
+
+- **Signaler un problème (*Issue*)** : cette méthode permet de décrire une erreur ou de proposer une amélioration sans modifier directement les fichiers. Il suffit de préciser le chapitre concerné, l'endroit où se trouve le problème et, si possible, la correction suggérée.
+- **Proposer une modification (*Pull Request*)** : les personnes qui souhaitent aller plus loin peuvent modifier une copie des fichiers du projet et soumettre leurs changements. Ceux-ci pourront ensuite être examinés avant d'être intégrés aux notes officielles.
+
+Il n'est pas nécessaire de maîtriser la programmation pour participer. GitHub dispose d'une interface Web permettant d'effectuer plusieurs de ces opérations directement dans un navigateur. Les étudiants qui ne connaissent pas la plateforme sont invités à consulter les nombreux tutoriels disponibles sur Internet pour apprendre à créer une *Issue* ou à soumettre une *Pull Request*. Les propositions seront examinées avant leur intégration afin de préserver l'exactitude, la cohérence et la qualité pédagogique des notes de cours.
+
+Comme indiqué dans le [Plan de cours](Plan_de_cours.qmd), à la section *Modalités et dates d’évaluation*, les étudiants qui contribuent à l'amélioration des notes de cours pourront obtenir jusqu'à **5 points de bonus** pour leur participation.
+
+
+## Utilisation de l'intelligence artificielle {-}
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
+">
+
+<img src="images/AIMeme.png"
+style="width:100%; height:auto; display:block;">
+
+</div>
+
+La structure générale de ces notes, leur organisation pédagogique et une grande partie de leur contenu proviennent du travail réalisé au fil des années par les enseignants ayant contribué aux cours ACT1050 et ACT1021, comme indiqué dans la section précédente. La révision entreprise en 2026 a permis de mettre à jour certaines notions, de préciser ou d'approfondir plusieurs concepts et d'ajouter de nouveaux exemples, notamment des illustrations numériques destinées à faciliter la compréhension des étudiants.
+
+Des outils d'intelligence artificielle ont également été utilisés pour accompagner ce travail, principalement pour la correction linguistique, l'amélioration de la clarté et de la fluidité des explications, la reformulation de certains passages ainsi que la conception d'illustrations et d'éléments visuels. Ces outils ont servi à soutenir la révision et la présentation des notes, sans se substituer aux contributions des auteurs originaux ni au travail de mise à jour pédagogique. Le contenu a fait l'objet d'une révision humaine, notamment pour en vérifier la pertinence pédagogique et l'exactitude des informations présentées. Les références pertinentes sont indiquées dans les notes afin de permettre aux lecteurs de consulter les sources utilisées.
+
+<div style="clear: both;"></div>
+
+
+
+
+:::

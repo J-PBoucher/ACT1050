@@ -1,0 +1,232 @@
+---
+toc: false
+---
+
+# Conclusion  {-}
+
+Au début de la session, nous avons posé une question simple : qu'est-ce qu'un actuaire et en quoi consiste son travail? Les définitions du premier chapitre donnaient un premier aperçu de la profession. Les lectures et les rencontres de la session ont permis de donner un sens plus concret à cette définition.
+
+Les professionnels invités ont présenté des parcours et des milieux de travail variés. Même si les problèmes étudiés et les outils employés changent d'un domaine à l'autre, une même préoccupation demeure : évaluer les conséquences financières d'événements futurs incertains pour éclairer les décisions prises aujourd'hui. Ces rencontres ont aussi montré que le travail actuariel ne se résume pas aux calculs : il suppose de comprendre les enjeux d'une situation, de formuler des hypothèses, d'exercer son jugement et de communiquer des résultats. Les chapitres consacrés à l'assurance de personnes et aux régimes de retraite ont donné un premier aperçu de cette démarche. Il ne s'agissait pas encore de maîtriser les modèles mathématiques sous-jacents, mais de comprendre les engagements financiers en jeu, les mécanismes utilisés pour les gérer et les questions auxquelles les actuaires cherchent à répondre.
+
+On peut espérer que ces premiers contacts avec des actuaires de la pratique vous auront également permis de mieux comprendre l'importance des connaissances que vous développerez au cours de vos études. Les notions mathématiques, statistiques et financières que vous apprendrez ne sont pas simplement des exigences universitaires : elles constituent les outils que vous utiliserez éventuellement pour résoudre les problèmes rencontrés dans la pratique. Ces rencontres auront peut-être aussi éveillé votre intérêt pour certains domaines de l'actuariat et vous auront permis de commencer à construire votre réseau professionnel. Les liens établis avec des actuaires peuvent en effet devenir précieux au moment de chercher un stage, un premier emploi ou simplement des conseils pour orienter votre parcours.
+
+## Revenir au cheminement universitaire {-}
+
+Au premier chapitre, nous avions présenté la grille du baccalauréat en actuariat. Il est utile d'y revenir maintenant. ACT1050, indiqué dans la grille ci-dessous, est un cours d'introduction parmi plusieurs autres : il situe les problèmes et les milieux de pratique, tandis que le reste du programme fournit progressivement les outils nécessaires pour les analyser en profondeur.
+
+::: {.content-visible when-format="html"}
+
+<style>
+/* Mise en évidence uniquement dans la grille de la conclusion. */
+.conclusion-cheminement .conclusion-act1050 {
+  position: relative;
+  outline: 3px solid #c16620;
+  outline-offset: -3px;
+  box-shadow: 0 0 0 2px rgba(193, 102, 32, 0.20);
+}
+.conclusion-cheminement .conclusion-act1050 .code::after {
+  content: "  ·  Ce cours";
+  font-size: 0.78em;
+  font-weight: 400;
+  white-space: nowrap;
+}
+@media (max-width: 850px) {
+  .conclusion-cheminement .conclusion-act1050 .code::after {
+    content: "";
+  }
+}
+</style>
+
+<div class="conclusion-cheminement">
+<div class="grid-actuariat">
+
+<!-- Ligne 1 -->
+<div class="cell core">
+<div class="code">ACT1200</div>
+<div class="title">Mathématiques financières I</div>
+</div>
+
+<div class="cell core">
+<div class="code">ACT2060</div>
+<div class="title">Applications probabilistes des risques actuariels</div>
+</div>
+
+<div class="cell skills">
+<div class="code">MAT1191</div>
+<div class="title">Compléments de mathématiques</div>
+</div>
+
+<div class="cell skills">
+<div class="code">MAT1115</div>
+<div class="title">Calcul I</div>
+</div>
+
+<div class="cell skills">
+<div class="code">MAT1700</div>
+<div class="title">Probabilités I</div>
+
+</div>
+
+<!-- Ligne 2 -->
+<div class="cell core">
+<div class="code">ACT2100</div>
+<div class="title">Compléments de probabilités</div>
+</div>
+
+<div class="cell skills">
+<div class="code">STT1000</div>
+<div class="title">Statistique I</div>
+</div>
+
+<div class="cell econ">
+<div class="code">SCO1250</div>
+<div class="title">Introduction aux sciences comptables</div>
+</div>
+
+<div class="cell core">
+<div class="code">ACT2035</div>
+<div class="title">Actuariat et informatique</div>
+</div>
+
+<div class="cell core conclusion-act1050">
+<div class="code">ACT1050</div>
+<div class="title">Introduction à l'actuariat I</div>
+</div>
+
+<!-- Ligne 3 -->
+<div class="cell core">
+<div class="code">ACT3410</div>
+<div class="title">Distribution de sinistres</div>
+</div>
+
+<div class="cell core">
+<div class="code">ACT3035</div>
+<div class="title">Laboratoire d'actuariat</div>
+</div>
+
+<div class="cell skills">
+<div class="code">MAT2720</div>
+<div class="title">Processus stochastiques</div>
+</div>
+
+<div class="cell core">
+<div class="code">ACT3300</div>
+<div class="title">Mathématiques de l'assurance de personne I</div>
+</div>
+
+<div class="cell econ">
+<div class="code">ECO1013</div>
+<div class="title">Micro-économie</div>
+</div>
+
+<!-- Ligne 4 -->
+<div class="cell core">
+<div class="code">ACT4400</div>
+<div class="title">Modèles de survie</div>
+</div>
+
+<div class="cell econ">
+<div class="code">FIN3500</div>
+<div class="title">Gestion financière</div>
+</div>
+
+<div class="cell core">
+<div class="code">ACT4310</div>
+<div class="title">Mathématiques de la finance actuarielle I</div>
+</div>
+
+<div class="cell core">
+<div class="code">ACT4300</div>
+<div class="title">Mathématiques de l'assurance de personne II</div>
+</div>
+
+<div class="cell econ">
+<div class="code">ECO1023</div>
+<div class="title">Macro-économie</div>
+</div>
+
+<!-- Ligne 5 -->
+<div class="cell skills">
+<div class="code">STT5100</div>
+<div class="title">Modèles linéaires appliqués</div>
+</div>
+
+<div class="cell core">
+<div class="code">ACT5400</div>
+<div class="title">Crédibilité</div>
+</div>
+
+<div class="cell core">
+<div class="code">ACT5310</div>
+<div class="title">Mathématiques de la finance actuarielle II</div>
+</div>
+
+<div class="cell option">
+<div class="title">Option</div>
+</div>
+
+<div class="cell econ">
+<div class="title">Communication</div>
+</div>
+
+<!-- Ligne 6 -->
+<div class="cell option">
+<div class="title">Option</div>
+</div>
+
+<div class="cell option">
+<div class="title">Option</div>
+</div>
+
+<div class="cell option">
+<div class="title">Option</div>
+</div>
+
+<div class="cell option">
+<div class="title">Option</div>
+</div>
+
+<div class="cell option">
+<div class="title">Option</div>
+</div>
+
+</div>
+</div>
+
+<div style="font-size:0.85em; color:var(--bs-secondary-color, #626970); text-align:center; margin:0.6rem 0 1.4rem;">
+  Grille du cheminement régulier présentée au chapitre 1. La case encadrée correspond à ACT1050.
+</div>
+:::
+
+Les cours de probabilités, de statistique, de mathématiques financières et d'informatique permettent de construire les fondements de la formation. Les cours d'actuariat qui suivent mobilisent ces connaissances pour étudier plus précisément la tarification, les modèles de survie, les engagements d'assurance, la finance actuarielle et les autres domaines de pratique. Les cours avancés et les options ouvrent ensuite la voie à des sujets plus spécialisés. Cette progression devrait désormais paraître plus concrète. Lorsqu'un prochain cours abordera une loi de probabilité, un modèle de survie ou la valeur actuelle de flux financiers, il sera possible de rattacher ces outils à des problèmes découverts dans ACT1050.
+
+Au terme de cette introduction, l'essentiel n'est donc pas d'avoir retenu toutes les caractéristiques des produits d'assurance ou des régimes de retraite. Il est plutôt d'avoir une meilleure idée des questions que se posent les actuaires, des milieux dans lesquels ils travaillent et du rôle que jouera la suite du baccalauréat dans votre capacité à résoudre ces problèmes.
+
+## Au revoir {-}
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:530px;
+">
+
+<img src="images/Goodbye.png"
+style="width:100%; height:auto; display:block;">
+
+</div>
+
+
+J'espère que ce premier cours vous aura permis de découvrir une profession intéressante et diversifiée, et qu'il vous donnera envie d'en apprendre davantage au cours des prochaines années. Je vous remercie de votre participation tout au long de la session et vous souhaite une excellente continuation dans vos études en actuariat. Il me fera toujours plaisir de vous recroiser, que ce soit dans les corridors de l'université, dans un autre cours ou, éventuellement, dans le milieu professionnel.
+
+Qui sait? Peut-être que dans quelques années, certains d'entre vous reviendront dans cette même classe, non plus comme étudiants, mais comme actuaires invités à présenter leur parcours et leur travail aux nouvelles cohortes. Ce serait une belle façon de poursuivre la tradition des rencontres professionnelles qui font partie de ce cours. D'ici là, bonne continuation dans vos études et au plaisir de vous revoir!
+
+<div style="clear: both;"></div>
+
+
+

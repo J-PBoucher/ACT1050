@@ -1,0 +1,6 @@
+- source: project
+  netlify:
+    - id: 54d034e2-5432-4a5c-a0d6-be3f37d3efb0
+      url: 'https://uqam-act1050.netlify.app'
+    - id: d9ec810b-3f01-4a32-8951-5b4ea50faa8a
+      url: 'https://gentle-croquembouche-3f1c40.netlify.app'

@@ -1,0 +1,201 @@
+---
+toc: false
+date: 01/20/2026
+date-modified: last-modified
+---
+
+# Stages pendant les études 
+
+### Objectifs du chapitre {-}
+
+- Comprendre le rôle des stages dans la formation actuarielle et leur encadrement académique.  
+- Distinguer les exigences et objectifs des stages ACT6901 et ACT6902.  
+- Identifier les conditions d’accès, d’évaluation et de reconnaissance des stages.  
+- Connaître les moyens d’obtenir un stage et les ressources disponibles pour les étudiants.  
+
+## Introduction
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/Stages.png" style="width:80%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+Les stages constituent une modalité particulière de formation au sein du programme d’actuariat. Ils visent à offrir une première expérience structurée en milieu professionnel ou universitaire, en complément des apprentissages théoriques réalisés dans les cours. Contrairement aux emplois étudiants ordinaires, les stages crédités font partie intégrante du cheminement académique et sont encadrés par des exigences précises quant à leur contenu, leur supervision et leur évaluation.
+
+Cette annexe a pour objectif de clarifier le rôle des stages pendant les études, leur encadrement institutionnel, ainsi que les conditions générales dans lesquelles ils peuvent être réalisés et reconnus dans le programme. Elle présente également les ressources mises à la disposition des étudiants pour accéder à des stages ou à des emplois connexes, de même que certains éléments factuels permettant de mieux comprendre ce que l’Université attend d’une expérience de stage en actuariat.
+
+<div style="clear: both;"></div>
+
+## Le cours ACT6901 – Stage en actuariat I
+
+Le cours [ACT6901 – Stage en actuariat I](https://etudier.uqam.ca/cours?sigle=ACT6901) correspond au premier stage crédité offert dans le baccalauréat en actuariat à l’UQAM. Il s’agit d’une activité professionnelle en milieu industriel ou universitaire qui doit être planifiée à l’avance et approuvée par la direction de programme.
+
+Ce stage vise à :
+
+- mettre en pratique des savoirs théoriques et pratiques en actuariat dans un contexte professionnel;
+- développer la communication claire à l’oral et à l’écrit avec différents types de collègues;
+- permettre à l’étudiant d’assister et collaborer avec un professionnel associé et son équipe;
+- cultiver une attitude professionnelle et éthique propre au domaine actuariel;
+- développer des aptitudes pour le travail en équipe.
+
+L'évaluation du stage se base sur les éléments suivants:
+
+- L’étudiant réalise un premier stage dans un domaine de l’actuariat ou un domaine connexe.
+- Un rapport écrit doit être remis, incluant un retour réflexif sur l’expérience et les liens avec la formation suivie.
+- Le stage est encadré par un professionnel qualifié (actuaire, professionnel de recherche ou professeur).
+- Les tâches réalisées doivent être clairement actuarielles et approuvées à l’avance par la direction de programme.
+- L’évaluation est effectuée par le superviseur de stage.
+- L’évaluation finale est accordée selon la modalité Succès / Échec.
+
+Pour s’inscrire à ACT6901 :
+
+- avoir complété 24 crédits dans le programme;
+- obtenir une moyenne cumulative minimale de 2,6.
+- avoir réussi les cours préalables suivants :
+  - [ACT2035 – Actuariat et informatique](https://etudier.uqam.ca/cours?sigle=ACT2035);
+  - [ACT2060 – Applications probabilistes des risques actuariels](https://etudier.uqam.ca/cours?sigle=ACT2060).
+
+## Le cours ACT6902 – Stage en actuariat II
+
+Le cours [ACT6902 – Stage en actuariat II](https://etudier.uqam.ca/cours?sigle=ACT6902) correspond au second stage crédité du programme. Il repose sur une structure comparable à celle du Stage I, mais s’inscrit à un moment plus avancé du cheminement et suppose un niveau d’autonomie et de maîtrise plus élevé.
+
+Les objectifs du Stage II sont similaires à ceux du Stage I, mais adaptés à une seconde expérience professionnelle :
+
+- utiliser des savoirs théoriques et pratiques dans un autre domaine de l’actuariat que celui du Stage I, ou utiliser les mêmes savoirs dans le cadre d’une activité actuarielle plus complexe;
+- renforcer les aptitudes de communication orale et écrite;
+- assister et collaborer avec le professionnel associé et son équipe;
+- cultiver une attitude professionnelle et éthique dans le domaine de l’actuariat;
+- développer des aptitudes pour le travail en équipe.
+
+L'évaluation du stage se base sur les éléments suivants:
+
+- L’étudiant réalise un second stage en milieu industriel ou universitaire, dans le même domaine que le Stage I ou dans un autre domaine connexe.
+- Comme pour ACT6901, un rapport écrit incluant un retour réflexif sur l’expérience et les liens avec la formation est exigé.
+- Le stage est encadré par un actuaire qualifié, un professionnel de recherche ou un professeur en actuariat.
+- Les tâches doivent être décrites, clairement actuarielles et approuvées par la direction de programme.
+- L’évaluation repose sur l’appréciation du superviseur de stage.
+- L’évaluation finale est accordée selon la modalité Succès / Échec.
+
+L’inscription à ACT6902 est soumise à des exigences académiques plus élevées :
+
+- avoir complété 45 crédits dans le programme;
+- obtenir une moyenne cumulative minimale de 2,8;
+- avoir réussi les cours préalables suivants :
+  - [ACT2060 – Applications probabilistes des risques actuariels](https://etudier.uqam.ca/cours?sigle=ACT2060);
+  - [ACT3035 – Laboratoire d’actuariat](https://etudier.uqam.ca/cours?sigle=ACT3035);
+  - [ACT3300 – Mathématiques de l’assurance de personne I](https://etudier.uqam.ca/cours?sigle=ACT3300);
+  - [ACT3400 – Distribution de sinistres ou ACT3410 – Distribution de sinistres](https://etudier.uqam.ca/cours?sigle=ACT3400).
+
+## Comparaison entre ACT6901 et ACT6902
+
+| Élément | ACT6901 | ACT6902 |
+|-------|--------|--------|
+| Place dans le parcours | Premier stage | Second stage |
+| Moment dans le programme | Milieu du baccalauréat | Avancement plus élevé |
+| Objectif principal | Première application professionnelle | Approfondissement ou diversification |
+| Crédits requis pour s’inscrire | 24 crédits et moyenne 2,6 | 45 crédits et moyenne 2,8 |
+| Préalables académiques | ACT2035, ACT2060 | ACT2060, ACT3035, ACT3300, ACT3400 ou ACT3410 |
+| Niveau de complexité attendu | Introduction au milieu professionnel | Activités plus complexes ou spécialisées |
+
+## Babillard Moodle
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/MoodleStages.png" style="width:80%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+Les offres de stage et d’emploi destinées aux étudiants en actuariat sont diffusées principalement par l’entremise du [babillard Moodle](https://ena01.uqam.ca/course/view.php?id=11223) réservé au programme. Ce canal constitue la source centrale d’information pour les occasions de stage reconnues par le programme, tant en milieu industriel qu’universitaire.
+
+Afin de mettre en place des conditions favorables à l’obtention d’un stage ou d’un emploi, plusieurs éléments peuvent être pris en compte :
+
+- La préparation de la lettre de présentation et de l’entrevue joue un rôle important. À cet effet, il est recommandé d’assister aux séances d’information offertes et, au besoin, de prendre rendez-vous avec l’agent de stage, Florence Onar, du [service des stages](https://stagesciences.uqam.ca/coordonnees/).
+- La présence d’un profil LinkedIn complet et régulièrement mis à jour permet de présenter de manière structurée le parcours académique et les expériences pertinentes.
+- La réussite des cours du programme, combinée à la mise en valeur de compétences complémentaires à l’actuariat telles que l’informatique, la programmation ou les langues, contribue à situer le profil académique dans un contexte professionnel.
+- Les expériences antérieures, qu’il s’agisse d’emplois, de stages à l’étranger ou d’implications bénévoles, peuvent être présentées afin de donner une vue d’ensemble du parcours et des compétences développées.
+
+
+<div style="clear: both;"></div>
+
+## Stage d’initiation à la recherche de premier cycle
+
+Chaque année, les professeurs offrent des opportunités de stages d’initiation à la recherche destinées aux étudiants du baccalauréat en actuariat de l’UQAM. Ces stages s’adressent principalement aux étudiants de première ou de deuxième année qui souhaitent découvrir le milieu de la recherche universitaire et approfondir leur compréhension théorique et appliquée de l’actuariat.
+
+Le stage de recherche, qui peut être crédité dans le cadre des cours ACT6901 ou ACT6902, a pour objectif d’initier l’étudiant aux méthodes de recherche et aux modélisations mathématiques avancées utilisées en actuariat de l’assurance de dommages. Sous la supervision d’un professeur ou d’un étudiant de cycle supérieur en actuariat, le ou la stagiaire sera amené à se familiariser avec les différentes étapes du travail de recherche académique. Le stage peut notamment inclure :
+
+- l’analyse et la manipulation de bases de données issues de l’assurance ;
+- la lecture et la compréhension d’articles scientifiques récents ;
+- la reproduction, la validation ou l’extension de résultats présentés dans la littérature actuarielle ;
+- l’utilisation d’outils informatiques et statistiques couramment employés en recherche.
+
+Ce stage permet de mieux comprendre ce qu’est un environnement de recherche universitaire, le rôle de la modélisation mathématique en actuariat et la nature du travail scientifique. Il constitue également une occasion privilégiée d’explorer l’option des études aux cycles supérieurs et d’en saisir les exigences et les attentes.
+
+### Bourses de recherche de premier cycle en milieu universitaire
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/CRSNG.png" style="width:80%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+Pour les étudiants présentant d’excellents résultats académiques, notamment une moyenne cumulative supérieure à 4,0 sur 4,3, il est possible de soumettre une demande de [bourse d’initiation à la recherche](https://nserc-crsng.canada.ca/fr/possibilite-de-financement/bourses-de-recherche-de-1er-cycle) auprès du Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG).
+
+Ces bourses visent à soutenir financièrement les étudiants de premier cycle souhaitant acquérir une première expérience de recherche en milieu universitaire. L’obtention d’une bourse du CRSNG constitue un atout important pour la suite du parcours académique et peut augmenter les chances d’obtenir ultérieurement des bourses d’études aux cycles supérieurs, à la maîtrise ou au doctorat.
+
+
+<div style="clear: both;"></div>
+
+
+## Stages trouvés de manière autonome
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/Success-Kid.jpg" style="width:80%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+Il est également possible pour un étudiant de trouver lui-même un stage en actuariat en prenant contact directement avec un employeur susceptible d’être intéressé. Certaines organisations n’affichent pas nécessairement leurs offres de stage sur les canaux institutionnels, soit parce qu’elles recrutent principalement par l’entremise d’autres universités, soit parce que la possibilité d’accueillir un stagiaire n’a pas été formalisée.
+
+Lorsqu’un stage est trouvé de manière autonome, celui-ci peut néanmoins être reconnu comme stage crédité, à condition que son contenu et ses modalités soient approuvés par la direction de programme. Pour être créditée dans le cadre des cours ACT6901 ou ACT6902, l’expérience doit comporter des tâches clairement actuarielles, être encadrée par un professionnel qualifié et respecter les exigences générales du programme.
+
+Il est toutefois possible pour un étudiant de travailler pendant ses études dans un emploi ou un stage qui n’est pas reconnu comme cours crédité. Ce type d’expérience professionnelle demeure pertinent et peut être mis en valeur dans un curriculum vitae, indépendamment de sa reconnaissance académique.
+
+Il convient cependant de noter que, dans la pratique, un stage non crédité peut être plus difficile à obtenir. Les stages crédités sont parfois associés à des avantages administratifs ou fiscaux pour les employeurs, ce qui peut réduire le coût ou les contraintes liées à l’embauche d’un stagiaire. En l’absence de cette reconnaissance institutionnelle, l’accueil d’un étudiant peut représenter un engagement plus important pour l’employeur, ce qui peut influencer sa décision, même lorsque le profil de l’étudiant est pertinent.
+
+<div style="clear: both;"></div>
+
+
+
+## Conclusion
+
+Ce chapitre a présenté les différentes possibilités de stages offertes aux étudiants du baccalauréat en actuariat de l'UQAM. Les stages crédités ACT6901 et ACT6902 permettent d'acquérir une expérience professionnelle tout en poursuivant sa formation universitaire, selon des conditions d'admissibilité et d'encadrement précises. Les étudiants peuvent également s'initier à la recherche universitaire ou trouver un stage de manière autonome. Les ressources du programme, notamment le babillard Moodle et le service des stages, constituent des outils importants pour faciliter la recherche de ces premières expériences professionnelles.
+

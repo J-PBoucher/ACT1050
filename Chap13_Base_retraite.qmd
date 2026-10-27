@@ -1,0 +1,1988 @@
+---
+toc: false
+date: 03/15/2026
+date-modified: last-modified
+---
+
+# Notions de base en régime de retraite
+
+### Objectifs du chapitre {-}
+
+- Comprendre la notion de retraite, son rôle dans le cycle de vie économique et les principales sources de revenu à la retraite;
+- Expliquer le fonctionnement général des régimes complémentaires de retraite et distinguer les régimes à prestations déterminées et à cotisations déterminées;
+- Décrire les mécanismes d’accumulation et de décaissement dans un régime à cotisations déterminées;
+- Analyser les principaux risques associés aux régimes à cotisations déterminées et comparer leurs avantages et inconvénients pour l’employé et l’employeur;
+- Comprendre l’évolution des régimes de retraite au Canada et expliquer le rôle des régimes mixtes dans le partage du risque.
+
+## Introduction
+
+La retraite constitue une étape importante du cycle de vie économique d’un individu. Elle correspond au moment où le revenu d’emploi cesse d’être la principale source de subsistance et doit être remplacé par des revenus provenant de différentes sources. Dans la plupart des pays, dont le Canada, le revenu de retraite repose sur une combinaison de régimes publics, d’épargne individuelle et de régimes offerts par les employeurs. Ces différentes composantes forment un système complexe dont l’objectif est d’assurer un niveau de vie adéquat après la vie active. Parmi ces sources, les régimes complémentaires de retraite jouent un rôle particulier, puisqu’ils traduisent un arrangement entre l’employeur et l’employé quant au financement de la retraite. Leur conception peut varier de façon importante, notamment selon que le régime promet un revenu déterminé ou qu’il repose sur l’accumulation d’une épargne. 
+
+Dans ce chapitre, nous présentons les principales formes de régimes complémentaires de retraite, en mettant l’accent sur les régimes à cotisations déterminées, leurs mécanismes, leurs risques et leur évolution. Nous introduisons également les régimes mixtes, qui cherchent à combiner certaines caractéristiques des deux approches.
+
+## La notion de retraite
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:220px;
+">
+
+<img src="images/Price.jpg"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+Carey Price, un ancien joueur du Canadien de Montréal, a pris sa *retraite* dans les dernières années
+</div>
+
+</div>
+
+La retraite correspond au fait de quitter un emploi afin de se retirer, partiellement ou totalement, de la population active. Une personne retraitée cesse donc de tirer l’essentiel de ses revenus du travail et vit plutôt au moyen des ressources financières qu’elle a accumulées au cours de sa vie active.  
+
+Afin de présenter les principales sources de revenu à la retraite, il est utile de replacer d’abord la retraite dans son contexte économique. Lorsqu’une personne cesse de travailler, elle a besoin de revenus afin de subvenir à ces dépenses pendant toute la période où elle ne participe plus à la population active. Dans les pays développés, ces revenus proviennent généralement de plusieurs sources complémentaires. Dans la littérature actuarielle et économique, on distingue souvent trois grandes composantes du système de retraite, parfois appelées les trois piliers du financement de la retraite :
+
+- les régimes publics mis en place par l’État, qui fournissent un revenu de base aux personnes âgées au moyen de régimes universels, d’allocations ou de programmes d’aide;
+- les régimes de retraite offerts par les employeurs ou par des associations de travailleurs, qui permettent d’accumuler des droits à une rente pendant la vie active;
+- l’épargne individuelle, qui regroupe les sommes accumulées par les individus eux-mêmes au moyen de différents instruments d’épargne ou d’investissement.
+
+Dans la plupart des pays, les systèmes de retraite reposent sur une combinaison de ces différentes sources de revenus. Chaque composante joue un rôle distinct : les régimes publics visent généralement à assurer un revenu minimal, les régimes d’employeur permettent de maintenir une partie du niveau de vie acquis pendant la carrière, et l’épargne personnelle complète ces revenus selon la capacité d’épargne de chacun.
+
+<div style="clear: both;"></div>
+
+### Le moment de la retraite
+
+Le moment où une personne prend sa retraite dépend de plusieurs facteurs, dont ses ressources financières, son état de santé, ses préférences personnelles et les règles des régimes de retraite auxquels elle participe. Bien que l’étude commence à dater — et qu’il ne semble pas exister d’enquête plus récente de même nature — Statistique Canada a identifié plusieurs raisons expliquant la prise de la retraite dans son *Enquête sur les travailleurs âgés de 2008* (voir la [source](https://www150.statcan.gc.ca/n1/fr/pub/89-646-x/89-646-x2010001-fra.pdf)).
+
+![](images/RetraiteStatCan.png){width=50% fig-align="center"}
+
+Plus concrètement, la retraite survient généralement lorsqu’une personne :
+
+- atteint un âge prédéterminé (par exemple 65 ans) ;
+- satisfait un critère combinant l’âge et les années de service auprès de son employeur ;
+- se considère trop âgée pour continuer à travailler ;
+- ou a accumulé suffisamment d’épargne pour ne plus avoir besoin de travailler.
+
+Dans la pratique, la décision de prendre sa retraite résulte souvent d’une combinaison de facteurs.  Certaines personnes prennent toutefois même parfois leur retraite plus tôt. Dans ce cas, l’absence temporaire de prestations publiques doit souvent être compensée par d’autres sources de revenus, comme :
+
+- l’épargne personnelle ;
+- une prestation de raccordement versée par un régime de retraite privé jusqu’à l’âge de 65 ans.
+
+La retraite peut également être **totale ou progressive**. Dans le cas d’une retraite progressive, la personne réduit graduellement son volume de travail et son salaire. La baisse de revenu est alors compensée en partie par l’épargne personnelle ou par des prestations de retraite progressive offertes par certains régimes privés.
+
+### Âge moyen à la retraite
+
+Les deux tableaux suivants proviennent de données de Statistique Canada et présentent l’âge de la retraite au Canada selon la catégorie de travailleur.
+
+Source : [Statistique Canada](https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=1410006001), *Âge de la retraite selon la catégorie de travailleur, données annuelles*, tableau 14-10-0060-01.  
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(kableExtra)
+library(tibble)
+
+tab_moyen <- tibble(
+  `Catégorie de travailleur` = c(
+    "Total des retraités",
+    "Employés du secteur public",
+    "Employés du secteur privé",
+    "Travailleurs autonomes"
+  ),
+  `2021` = c(64.3, 62.5, 64.4, 67.1),
+  `2022` = c(64.7, 62.9, 64.9, 68.0),
+  `2023` = c(65.1, 63.2, 65.3, 68.0),
+  `2024` = c(65.3, 63.8, 65.1, 67.9),
+  `2025` = c(65.4, 62.6, 66.0, 68.4)
+)
+
+tab_moyen %>%
+  mutate(across(`2021`:`2025`, ~ format(round(.x,1), decimal.mark=","))) %>%
+  kbl(
+    align = c("l","c","c","c","c","c"),
+    caption = "Âge moyen de la retraite selon la catégorie de travailleur, Canada"
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped","hover","condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+
+
+tab_median <- tibble(
+  `Catégorie de travailleur` = c(
+    "Total des retraités",
+    "Employés du secteur public",
+    "Employés du secteur privé",
+    "Travailleurs autonomes"
+  ),
+  `2021` = c(64.4, 61.8, 64.7, 65.7),
+  `2022` = c(64.8, 61.8, 64.9, 67.8),
+  `2023` = c(64.9, 63.0, 65.1, 67.8),
+  `2024` = c(65.1, 64.1, 65.1, 66.7),
+  `2025` = c(65.3, 61.8, 65.4, 67.4)
+)
+
+tab_median %>%
+  mutate(across(`2021`:`2025`, ~ format(round(.x,1), decimal.mark=","))) %>%
+  kbl(
+    align = c("l","c","c","c","c","c"),
+    caption = "Âge médian de la retraite selon la catégorie de travailleur, Canada"
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped","hover","condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+
+
+```
+:::
+
+Les tableaux montrent que l’âge de la retraite au Canada se situe généralement autour de 65 ans. On observe également que les travailleurs autonomes prennent leur retraite plus tard que les employés, leur âge moyen de retraite se situant autour de 68 ans. À l’inverse, les employés du secteur public partent en moyenne plus tôt que ceux du secteur privé, ce qui peut s’expliquer en partie par l’existence de régimes de retraite plus structurés dans ce secteur.  Enfin, les données suggèrent une légère tendance à la hausse de l’âge de la retraite au cours des dernières années, particulièrement chez les employés du secteur privé et chez les travailleurs autonomes.
+
+### La retraite et l’espérance de vie
+
+La question de la retraite est étroitement liée à celle de l’espérance de vie. Lorsque les principaux programmes publics destinés aux retraités — la Pension de la Sécurité de la vieillesse, le Régime de rentes du Québec et le Régime de pensions du Canada — ont été mis sur pied, l’espérance de vie était plus courte et l’on s’attendait à verser des prestations pendant environ 14 ans après la retraite. Aujourd’hui, compte tenu de l’allongement de la durée de vie, une personne qui prend sa retraite à 65 ans pourrait recevoir des prestations pendant plus de 20 ans en moyenne. Cette évolution soulève un enjeu important pour les systèmes de retraite. Si les retraités vivent plus longtemps, plusieurs ajustements deviennent possibles :
+
+- repousser l’âge de la retraite ;
+- réduire le montant des prestations ;
+- augmenter le financement des régimes de retraite ;
+- ou adopter une combinaison de ces différentes mesures.
+
+Il n’existe pas de réponse unique à ces questions. Les choix dépendent à la fois de considérations économiques, démographiques et politiques. Comprendre ces enjeux et analyser leurs conséquences financières fait précisément partie du rôle des actuaires. Ce sont donc en grande partie les actuaires de demain — peut-être certains d’entre vous — qui devront contribuer à évaluer ces options et à proposer des solutions viables pour les systèmes de retraite.
+
+### Objectif de remplacement du revenu à la retraite
+
+Un enjeu central en matière de retraite consiste à déterminer de quel revenu une personne aura besoin pour maintenir raisonnablement son niveau de vie après la fin de sa vie active. Lorsqu’une personne prend sa retraite, certaines dépenses reliées à l’emploi disparaissent. En contrepartie, plusieurs dépenses courantes demeurent : logement, nourriture, soins de santé, transport personnel et loisirs. Le revenu nécessaire à la retraite est donc généralement inférieur au revenu d’emploi, mais il doit tout de même permettre de couvrir ces dépenses pendant une période parfois très longue.
+
+Parmi les dépenses qui disparaissent généralement à la retraite, on peut notamment mentionner :
+
+- le transport entre la résidence et le lieu de travail (transport en commun, automobile, essence, stationnement, etc.);
+- certains repas pris à l’extérieur de la résidence;
+- certains vêtements requis pour respecter le code vestimentaire de l’employeur;
+- les contributions aux programmes sociaux liés au revenu d’emploi (Régime de rentes du Québec ou Régime de pensions du Canada, assurance emploi, assurance parentale);
+- les cotisations aux régimes de retraite et aux régimes d’avantages sociaux de l’employeur.
+
+Comme ces dépenses ne donnent habituellement pas droit à une aide fiscale (déduction ou crédit d’impôt), elles sont généralement payées à partir d’un revenu déjà imposé. La structure progressive de l’impôt sur le revenu — où les taux d’imposition augmentent avec le niveau de revenu — a alors un effet important. Une personne qui dispose d’un revenu plus faible à la retraite peut se retrouver dans une tranche d’imposition inférieure à celle qui s’appliquait pendant sa vie active.  Ainsi, même si le revenu brut diminue à la retraite, le revenu net disponible peut diminuer dans une proportion moindre. 
+
+#### **Calcul approximatif de l’impôt** {-}
+
+Au Canada et au Québec, l’impôt sur le revenu est progressif. Cela signifie que le taux d’imposition augmente graduellement à mesure que le revenu augmente. Le revenu n’est donc pas imposé entièrement au même taux. Les premières tranches de revenu sont imposées à des taux plus faibles, tandis que les tranches de revenu plus élevées sont imposées à des taux plus élevés. Ainsi, lorsqu’une personne gagne moins de revenu — par exemple à la retraite — une plus grande partie de ce revenu peut être imposée à des taux plus faibles. Le revenu net disponible peut alors diminuer moins rapidement que le revenu brut.
+
+On peut estimer l'impôt à payer en fonction de son revenu à l’aide d’une calculatrice fiscale, par exemple celle de [Ernst & Young](https://www.eytaxcalculators.com/fr/2026-personal-tax-calculator.html).  Toutefois, afin d’automatiser les exemples numériques présentés dans ce chapitre, nous utilisons une fonction R qui estime l’impôt payable pour un résident du Québec à partir de son revenu imposable. Cette fonction applique séparément les barèmes progressifs de l’impôt fédéral et de l’impôt du Québec, puis additionne les deux montants afin d’obtenir l’impôt total.
+
+Le calcul repose sur les tranches d’imposition publiées pour l’année 2026. Pour chaque palier de revenu, un taux marginal différent est appliqué uniquement à la portion de revenu comprise dans la tranche correspondante. L’impôt total est donc obtenu en additionnant les contributions de chaque tranche. Cette approche reproduit fidèlement la structure progressive de l’impôt sur le revenu. Dans le cas des résidents du Québec, l’impôt fédéral tient également compte de l’abattement fédéral pour le Québec, qui reflète le fait que la province administre son propre impôt provincial. Les paramètres utilisés dans la fonction correspondent ainsi aux formules publiées dans les tables fiscales utilisées par la calculatrice d’Ernst & Young pour l’année 2026.
+
+::: {.callout-warning}
+Il faut toutefois interpréter ce calcul avec certaines précautions. La fonction suppose que le revenu fourni correspond directement au revenu imposable et qu’il est identique aux fins de l’impôt fédéral et de l’impôt du Québec. Elle ne tient pas compte d’un grand nombre d’éléments qui peuvent modifier l’impôt réellement payable, comme certaines déductions, divers crédits d’impôt non remboursables, les revenus de dividendes ou de gains en capital, ou encore certaines contributions particulières. En conséquence, la fonction ne doit pas être utilisée pour effectuer une planification fiscale réelle. Elle sert plutôt d’outil pédagogique permettant d’illustrer l’ordre de grandeur de l’impôt et la manière dont celui-ci évolue avec le revenu.
+:::
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+#| fig-cap: "Impôt total en fonction du revenu imposable"
+#| label: fig-impot_par_revenu
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(kableExtra)
+
+impot_ey_qc_2026 <- function(revenu_imposable) {
+  
+  if (length(revenu_imposable) != 1 || !is.numeric(revenu_imposable) ||
+      is.na(revenu_imposable) || revenu_imposable < 0) {
+    stop("revenu_imposable doit être un nombre unique >= 0.")
+  }
+  
+  y <- revenu_imposable
+  
+  # Impôt fédéral EY 2026 pour le Québec
+  # Déjà après abattement du Québec de 16.5 %
+  # et après crédit personnel de base intégré au tableau EY
+  impot_federal <- if (y <= 16452) {
+    0
+  } else if (y <= 58523) {
+    0.1169 * (y - 16452)
+  } else if (y <= 117045) {
+    4918 + 0.1712 * (y - 58523)
+  } else if (y <= 181440) {
+    14936 + 0.2171 * (y - 117045)
+  } else if (y <= 258482) {
+    28916 + 0.2446 * (y - 181440)
+  } else {
+    47761 + 0.2756 * (y - 258482)
+  }
+  
+  # Impôt Québec EY 2026
+  # Crédit personnel de base déjà intégré au tableau EY
+  impot_quebec <- if (y <= 18952) {
+    0
+  } else if (y <= 54345) {
+    0.14 * (y - 18952)
+  } else if (y <= 108680) {
+    4955 + 0.19 * (y - 54345)
+  } else if (y <= 132245) {
+    15279 + 0.24 * (y - 108680)
+  } else {
+    20934 + 0.2575 * (y - 132245)
+  }
+  
+  data.frame(
+    revenu_imposable = y,
+    impot_federal = round(impot_federal, 2),
+    impot_quebec = round(impot_quebec, 2),
+    impot_total = round(impot_federal + impot_quebec, 2)
+  )
+}
+
+revenu_depuis_impot <- function(impot_total) {
+  
+  f <- function(y) {
+    impots <- impot_ey_qc_2026(y)
+    impots$impot_total - impot_total
+  }
+  
+  sol <- uniroot(
+    f,
+    lower = 0,
+    upper = 500000
+  )
+  
+  sol$root
+}
+
+revenu_depuis_revenu_net <- function(revenu_net) {
+  
+  f <- function(y) {
+    impots <- impot_ey_qc_2026(y)
+    y - impots$impot_total - revenu_net
+  }
+  
+  sol <- uniroot(
+    f,
+    lower = 0,
+    upper = 500000
+  )
+  
+  sol$root
+}
+
+
+# grille de revenus
+df_impot <- lapply(seq(20000, 200000, by = 1000), impot_ey_qc_2026) %>%
+  bind_rows()
+
+# format long pour ggplot
+df_long <- df_impot %>%
+  pivot_longer(
+    cols = c(impot_quebec, impot_federal, impot_total),
+    names_to = "type",
+    values_to = "impot"
+  ) %>%
+  mutate(
+    type = recode(
+      type,
+      impot_quebec = "Québec",
+      impot_federal = "Canada",
+      impot_total = "Total"
+    )
+  )
+
+ggplot(df_long, aes(x = revenu_imposable, y = impot, color = type)) +
+  geom_line(linewidth = 1.1) +
+  scale_color_manual(
+    values = c(
+      "Québec" = "blue",
+      "Canada" = "red",
+      "Total" = "black"
+    )
+  ) +
+  labs(
+    x = "Revenu imposable",
+    y = "Impôt",
+    color = NULL
+  ) +
+  theme_bw()
+
+```
+
+
+### Exemples numériques concrets
+
+Pour mieux comprendre l’enjeu, il est utile d’examiner quelques exemples numériques. L’objectif est non seulement de comparer les revenus disponibles avant et après la retraite, mais aussi de tenir compte des différences dans les dépenses. Comme nous le verrons, cela implique que certaines charges sociales ne soient plus payées à la retraite, mais aussi que certaines dépenses liées au travail ne soient plus nécessaires.
+
+#### **Premier exemple** {-}
+
+Supposons un travailleur gagnant 120000\$ avant la retraite. Afin d’évaluer son niveau de vie réel, il faut tenir compte des impôts, des charges sociales et de certaines dépenses directement liées au travail. Le tableau suivant décompose ainsi ce revenu afin d’estimer le revenu réellement disponible.
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(kableExtra)
+
+faire_tableau_revenu <- function(salaire, impot) {
+  
+  # Hypothèses
+  taux_reer <- 0.09
+  
+  exemption_rrq <- 3500
+  MGA <- 71300
+  MSG <- 81200
+  taux_rrq <- 0.064
+  taux_rrq_sup <- 0.04
+  
+  taux_ae <- 0.0127
+  max_ae <- 63000
+  
+  taux_rqap <- 0.0049
+  max_rqap <- 91000
+  
+  assurance_fixe <- 800
+  assurance_taux <- 0.02
+  
+  ratio_dep_travail <- 0.07
+  
+  # Calculs
+  cotisation_reer <- taux_reer * salaire
+  revenu_imposable <- salaire - cotisation_reer
+  
+  rrq_base <- max(0, min(salaire, MGA) - exemption_rrq) * taux_rrq
+  rrq_sup <- max(0, min(salaire, MSG) - MGA) * taux_rrq_sup
+  rrq <- rrq_base + rrq_sup
+  
+  ae <- min(salaire, max_ae) * taux_ae
+  rqap <- min(salaire, max_rqap) * taux_rqap
+  
+  assurance_collective <- assurance_fixe + assurance_taux * salaire
+  dep_travail <- ratio_dep_travail * salaire
+  
+  revenu_residuel <- salaire -
+    cotisation_reer -
+    impot -
+    rrq -
+    ae -
+    rqap -
+    assurance_collective -
+    dep_travail
+  
+  # Base de données
+  tab_rev <- data.frame(
+    element = c(
+      "Salaire annuel",
+      "Cotisation REER et régime de retraite (9 % du salaire)",
+      "Revenu imposable",
+      "Impôt (fédéral et provincial)*",
+      "Cotisations au Régime de rentes du Québec (RRQ)",
+      "Cotisations à l’assurance-emploi (AE)",
+      "Cotisations au Régime québécois d’assurance parentale (RQAP)",
+      "Cotisations au régime d’assurance collective",
+      "Dépenses supplémentaires reliées au travail",
+      "Revenu résiduel disponible"
+    ),
+    montant = c(
+      salaire,
+      -cotisation_reer,
+      revenu_imposable,
+      -impot,
+      -rrq,
+      -ae,
+      -rqap,
+      -assurance_collective,
+      -dep_travail,
+      revenu_residuel
+    )
+  )
+  
+  # Fonction de format comptable
+  fmt_money <- function(x) {
+    txt <- format(round(abs(x), 0), big.mark = " ", scientific = FALSE, trim = TRUE)
+    ifelse(
+      x < 0,
+      cell_spec(paste0("(", txt, " $)"), color = "red"),
+      paste0(txt, " $")
+    )
+  }
+  
+  # Tableau
+  tab_rev %>%
+    mutate(Montant = fmt_money(montant)) %>%
+    select(
+      `Élément` = element,
+      Montant
+    ) %>%
+    kbl(
+      caption = "Décomposition du revenu et des dépenses - Avant la retraite",
+      escape = FALSE,
+      align = c("l", "r"),
+      booktabs = TRUE
+    ) %>%
+    kable_styling(
+      bootstrap_options = c("striped", "hover", "condensed"),
+      full_width = FALSE,
+      position = "center"
+    ) %>%
+    row_spec(c(3, 10), bold = TRUE)
+}
+
+faire_tableau_revenu(
+  salaire = 120000,
+  impot = 33574
+
+)
+
+```
+
+:::
+
+
+::: {.callout-tip collapse="true"}
+## Détails des calculs en 2026
+
+Les montants du tableau reposent sur des hypothèses simplifiées visant à illustrer la notion de taux de remplacement du revenu. Les valeurs exactes peuvent varier selon l’année fiscale et la situation personnelle, mais elles représentent des ordres de grandeur plausibles pour un travailleur québécois.
+
+- **Salaire annuel**: On suppose un travailleur dont le salaire brut est $S$ par année.
+
+- **Cotisation REER et régime de retraite (9 % du salaire)**: On suppose que le travailleur consacre 9 % de son salaire à l’épargne-retraite, soit $0.09S$. Les cotisations versées dans un REER (que nous couvrirons en détail dans un autre chapitre) ou dans un régime de retraite d’employeur sont déductibles du revenu imposable, ce qui réduit l’impôt à payer.
+
+- **Revenu imposable**: Le revenu imposable devient $S - 0.09S = 0.91S$.
+
+- **Impôt (fédéral et provincial)**: Le montant d’impôt dépend du système fiscal en vigueur et de la situation personnelle du contribuable. Dans les exemples numériques présentés, il peut être estimé à l’aide de la fonction que nous avons faite, ou è l'aide d’une calculatrice fiscale, par exemple celle de [Ernst & Young](https://www.eytaxcalculators.com/fr/2026-personal-tax-calculator.html).
+
+- **Cotisations au Régime de rentes du Québec (RRQ)**: Les cotisations au RRQ sont calculées sur les gains compris entre l'exemption générale et le maximum des gains admissibles (MGA). Depuis la bonification récente du régime, une cotisation supplémentaire s'applique aussi sur une tranche de revenu au-dessus du MGA. On supposera les paramètres approximatifs suivants :
+
+  - exemption générale : 3500\$
+  - maximum des gains admissibles (MGA) : 71300\$
+  - maximum supplémentaire des gains admissibles (MSG) : 81200\$
+  - taux de cotisation principal : 6.4 %
+  - taux de cotisation supplémentaire : 4 %
+
+  La cotisation totale au RRQ correspond à la somme de deux composantes :
+
+  - cotisation principale : $\max(0,\min(S,71300)-3500)\times0.064$
+  - cotisation supplémentaire : $\max(0,\min(S,81200)-71300)\times0.04$
+
+- **Cotisations à l’assurance-emploi (AE)**: Les cotisations à l’assurance-emploi sont calculées comme un pourcentage du salaire, mais seulement jusqu’au maximum des gains assurables. En supposant un taux de 1.27 % et un maximum des gains assurables de 63000\$, la cotisation correspond à $\min(S,63000)\times0.0127$.
+
+- **Cotisations au Régime québécois d’assurance parentale (RQAP)**: Les cotisations au RQAP sont calculées comme un pourcentage du salaire jusqu’au maximum des gains assurables. En supposant un taux de 0.49 % et un maximum des gains assurables de 91000\$, la cotisation correspond à $\min(S,91000)\times0.0049$.
+
+- **Cotisations au régime d’assurance collective**: Plusieurs employeurs offrent un régime d’assurance collective couvrant notamment les médicaments, certains soins de santé, l’assurance invalidité ou l’assurance vie. Les cotisations payées par l’employé comportent souvent deux composantes : une prime fixe couvrant certaines protections de base et une prime proportionnelle au salaire pour les protections liées au revenu. À titre d’illustration, on suppose ici une cotisation fixe de 800\$ et une cotisation correspondant à 2 % du salaire, soit $800+0.02S$.
+
+- **Dépenses supplémentaires reliées au travail**: Le fait de devoir se rendre au travail entraîne souvent certaines dépenses qui disparaissent ou diminuent à la retraite. On peut penser notamment aux coûts de transport, aux repas pris à l’extérieur pendant les journées de travail et à certains vêtements achetés spécifiquement pour le travail. Dans les études sur la planification de la retraite, ces dépenses sont souvent estimées comme une proportion du revenu. Plusieurs analyses utilisent un ratio compris entre 5 % et 10 % du salaire brut. En supposant un ratio d’environ 7 %, on obtient $0.07S$.
+
+- **Revenu résiduel disponible**: Le revenu résiduel disponible correspond au montant restant après avoir tenu compte des cotisations, des impôts et des dépenses liées au travail. Ce montant sert de référence pour déterminer le revenu nécessaire à la retraite.
+
+:::
+
+À la retraite, le travailleur ne reçoit plus de salaire, mais plutôt un revenu de rente. De plus, le retraité n’a plus à verser de cotisations au RRQ, à l’AE ni au RQAP. Souvent, il ne bénéficie plus non plus de l’assurance collective offerte par son employeur, mais il doit en contrepartie payer, s’il est admissible au régime public, une prime d'environ 750\$ au [régime public d’assurance médicaments du Québec](https://www.revenuquebec.ca/fr/citoyens/declaration-de-revenus/payer-ou-etre-rembourse/paiement-des-cotisations/cotisation-au-regime-dassurance-medicaments-du-quebec/). En conséquence, la décomposition de ses revenus et de ses dépenses se présente comme suit :
+
+::: {.encadre}
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(kableExtra)
+
+faire_tableau_revenu <- function(salaire, impot) {
+  
+  # Hypothèses
+  taux_reer <- 0.09
+  
+  exemption_rrq <- 3500
+  MGA <- 71300
+  MSG <- 81200
+  taux_rrq <- 0.064
+  taux_rrq_sup <- 0.04
+  
+  taux_ae <- 0.0127
+  max_ae <- 63000
+  
+  taux_rqap <- 0.0049
+  max_rqap <- 91000
+  
+  assurance_fixe <- 800
+  assurance_taux <- 0.02
+  
+  ratio_dep_travail <- 0.07
+  
+  # Calculs
+  cotisation_reer <- 0
+  revenu_imposable <- salaire - cotisation_reer
+  
+  rrq_base <- max(0, min(salaire, MGA) - exemption_rrq) * taux_rrq
+  rrq_sup <- max(0, min(salaire, MSG) - MGA) * taux_rrq_sup
+  rrq <- 0
+  
+  ae <- 0
+  rqap <- 0
+  
+  assurance_collective <- 750
+  dep_travail <- 0
+  
+  revenu_residuel <- salaire -
+    cotisation_reer -
+    impot -
+    rrq -
+    ae -
+    rqap -
+    assurance_collective -
+    dep_travail
+  
+  # Base de données
+  tab_rev <- data.frame(
+    element = c(
+      "Revenu de rente",
+      "Cotisation REER et régime de retraite (9 % du salaire)",
+      "Revenu imposable",
+      "Impôt (fédéral et provincial)*",
+      "Cotisations au Régime de rentes du Québec (RRQ)",
+      "Cotisations à l’assurance-emploi (AE)",
+      "Cotisations au Régime québécois d’assurance parentale (RQAP)",
+      "Prime au régime d'assurance-médicaments",
+      "Dépenses supplémentaires reliées au travail",
+      "Revenu résiduel disponible"
+    ),
+    montant = c(
+      salaire,
+      -cotisation_reer,
+      revenu_imposable,
+      -impot,
+      -rrq,
+      -ae,
+      -rqap,
+      -assurance_collective,
+      -dep_travail,
+      revenu_residuel
+    )
+  )
+  
+  # Mise en évidence de certains libellés
+  tab_rev$element[tab_rev$element == "Revenu de rente"] <- cell_spec(
+    "Revenu de rente",
+    color = "blue"
+  )
+  
+  tab_rev$element[tab_rev$element == "Prime au régime d'assurance-médicaments"] <- cell_spec(
+    "Prime au régime d'assurance-médicaments",
+    color = "blue"
+  )
+  
+  # Fonction de format comptable
+  fmt_money <- function(x) {
+    txt <- format(round(abs(x), 0), big.mark = " ", scientific = FALSE, trim = TRUE)
+    ifelse(
+      x < 0,
+      cell_spec(paste0("(", txt, " $)"), color = "red"),
+      paste0(txt, " $")
+    )
+  }
+  
+  # Tableau
+  tab_rev %>%
+    mutate(Montant = fmt_money(montant)) %>%
+    select(
+      `Élément` = element,
+      Montant
+    ) %>%
+    kbl(
+      caption = "Décomposition du revenu et des dépenses - Après la retraite",
+      escape = FALSE,
+      align = c("l", "r"),
+      booktabs = TRUE
+    ) %>%
+    kable_styling(
+      bootstrap_options = c("striped", "hover", "condensed"),
+      full_width = FALSE,
+      position = "center"
+    ) %>%
+    row_spec(c(3, 10), bold = TRUE)
+}
+
+#revenu_depuis_revenu_net(58045 + 750) #75647
+#impots2026 <- impot_ey_qc_2026(75647)
+#impots2026$impot_total #16852
+
+faire_tableau_revenu(
+  salaire = 75647,
+  impot = 16852
+)
+
+
+```
+
+:::
+
+Cette personne peut donc maintenir sensiblement le même niveau de vie avec un revenu de retraite de 75666\$ qu’avec un salaire de 120000\$. Le taux de remplacement requis est ainsi d’environ 63.1\%.
+
+
+#### **Deuxième exemple** {-}
+
+Supposons un travailleur gagnant 60000\$ avant la retraite. Afin d’évaluer son niveau de vie réel, il faut tenir compte des impôts, des charges sociales et de certaines dépenses directement liées au travail. Le tableau suivant décompose ainsi ce revenu afin d’estimer le revenu réellement disponible.
+
+::: {.encadre}
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(kableExtra)
+
+faire_tableau_revenu <- function(salaire, impot) {
+  
+  # Hypothèses
+  taux_reer <- 0.09
+  
+  exemption_rrq <- 3500
+  MGA <- 71300
+  MSG <- 81200
+  taux_rrq <- 0.064
+  taux_rrq_sup <- 0.04
+  
+  taux_ae <- 0.0127
+  max_ae <- 63000
+  
+  taux_rqap <- 0.0049
+  max_rqap <- 91000
+  
+  assurance_fixe <- 800
+  assurance_taux <- 0.02
+  
+  ratio_dep_travail <- 0.07
+  
+  # Calculs
+  cotisation_reer <- taux_reer * salaire
+  revenu_imposable <- salaire - cotisation_reer
+  
+  rrq_base <- max(0, min(salaire, MGA) - exemption_rrq) * taux_rrq
+  rrq_sup <- max(0, min(salaire, MSG) - MGA) * taux_rrq_sup
+  rrq <- rrq_base + rrq_sup
+  
+  ae <- min(salaire, max_ae) * taux_ae
+  rqap <- min(salaire, max_rqap) * taux_rqap
+  
+  assurance_collective <- assurance_fixe + assurance_taux * salaire
+  dep_travail <- ratio_dep_travail * salaire
+  
+  revenu_residuel <- salaire -
+    cotisation_reer -
+    impot -
+    rrq -
+    ae -
+    rqap -
+    assurance_collective -
+    dep_travail
+  
+  # Base de données
+  tab_rev <- data.frame(
+    element = c(
+      "Salaire annuel",
+      "Cotisation REER et régime de retraite (9 % du salaire)",
+      "Revenu imposable",
+      "Impôt (fédéral et provincial)*",
+      "Cotisations au Régime de rentes du Québec (RRQ)",
+      "Cotisations à l’assurance-emploi (AE)",
+      "Cotisations au Régime québécois d’assurance parentale (RQAP)",
+      "Cotisations au régime d’assurance collective",
+      "Dépenses supplémentaires reliées au travail",
+      "Revenu résiduel disponible"
+    ),
+    montant = c(
+      salaire,
+      -cotisation_reer,
+      revenu_imposable,
+      -impot,
+      -rrq,
+      -ae,
+      -rqap,
+      -assurance_collective,
+      -dep_travail,
+      revenu_residuel
+    )
+  )
+  
+  # Fonction de format comptable
+  fmt_money <- function(x) {
+    txt <- format(round(abs(x), 0), big.mark = " ", scientific = FALSE, trim = TRUE)
+    ifelse(
+      x < 0,
+      cell_spec(paste0("(", txt, " $)"), color = "red"),
+      paste0(txt, " $")
+    )
+  }
+  
+  # Tableau
+tab_rev %>%
+  mutate(Montant = fmt_money(montant)) %>%
+  select(
+    `Élément` = element,
+    Montant
+  ) %>%
+  kbl(
+    caption = "Décomposition du revenu et des dépenses - Avant la retraite",
+    escape = FALSE,
+    align = c("l", "r"),
+    booktabs = TRUE
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "center"
+  ) %>%
+  row_spec(c(3, 10), bold = TRUE)
+}
+
+faire_tableau_revenu(
+  salaire = 60000,
+  impot = 11200
+
+)
+
+```
+
+:::
+
+Comme nous l’avons vu dans le premier exemple, la situation financière change sensiblement au moment de la retraite. Le travailleur ne reçoit plus un salaire, mais plutôt un revenu provenant de rentes. De plus, certaines cotisations disparaissent : le retraité n’a plus à verser de contributions au RRQ, à l’AE ni au RQAP. L’assurance collective offerte par l’employeur n’est généralement plus en vigueur, et s’il est couvert par le régime public, il doit aussi payer une prime d’environ 750\$ au régime public d’assurance médicaments du Québec. La décomposition de ses revenus et de ses dépenses peut donc être présentée comme suit :
+
+::: {.encadre}
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(kableExtra)
+
+faire_tableau_revenu <- function(salaire, impot) {
+  
+  # Hypothèses
+  taux_reer <- 0.09
+  
+  exemption_rrq <- 3500
+  MGA <- 71300
+  MSG <- 81200
+  taux_rrq <- 0.064
+  taux_rrq_sup <- 0.04
+  
+  taux_ae <- 0.0127
+  max_ae <- 63000
+  
+  taux_rqap <- 0.0049
+  max_rqap <- 91000
+  
+  assurance_fixe <- 800
+  assurance_taux <- 0.02
+  
+  ratio_dep_travail <- 0.07
+  
+  # Calculs
+  cotisation_reer <- 0
+  revenu_imposable <- salaire - cotisation_reer
+  
+  rrq_base <- max(0, min(salaire, MGA) - exemption_rrq) * taux_rrq
+  rrq_sup <- max(0, min(salaire, MSG) - MGA) * taux_rrq_sup
+  rrq <- 0
+  
+  ae <- 0
+  rqap <- 0
+  
+  assurance_collective <- 750
+  dep_travail <- 0
+  
+  revenu_residuel <- salaire -
+    cotisation_reer -
+    impot -
+    rrq -
+    ae -
+    rqap -
+    assurance_collective -
+    dep_travail
+  
+  # Base de données
+  tab_rev <- data.frame(
+    element = c(
+      "Revenu de rente",
+      "Cotisation REER et régime de retraite (9 % du salaire)",
+      "Revenu imposable",
+      "Impôt (fédéral et provincial)*",
+      "Cotisations au Régime de rentes du Québec (RRQ)",
+      "Cotisations à l’assurance-emploi (AE)",
+      "Cotisations au Régime québécois d’assurance parentale (RQAP)",
+      "Prime au régime d'assurance-médicaments",
+      "Dépenses supplémentaires reliées au travail",
+      "Revenu résiduel disponible"
+    ),
+    montant = c(
+      salaire,
+      -cotisation_reer,
+      revenu_imposable,
+      -impot,
+      -rrq,
+      -ae,
+      -rqap,
+      -assurance_collective,
+      -dep_travail,
+      revenu_residuel
+    )
+  )
+  
+  # Mise en évidence de certains libellés
+  tab_rev$element[tab_rev$element == "Revenu de rente"] <- cell_spec(
+    "Revenu de rente",
+    color = "blue"
+  )
+  
+  tab_rev$element[tab_rev$element == "Prime au régime d'assurance-médicaments"] <- cell_spec(
+    "Prime au régime d'assurance-médicaments",
+    color = "blue"
+  )
+  
+  # Fonction de format comptable
+  fmt_money <- function(x) {
+    txt <- format(round(abs(x), 0), big.mark = " ", scientific = FALSE, trim = TRUE)
+    ifelse(
+      x < 0,
+      cell_spec(paste0("(", txt, " $)"), color = "red"),
+      paste0(txt, " $")
+    )
+  }
+  
+  # Tableau
+  tab_rev %>%
+    mutate(Montant = fmt_money(montant)) %>%
+    select(
+      `Élément` = element,
+      Montant
+    ) %>%
+    kbl(
+      caption = "Décomposition du revenu et des dépenses - Après la retraite",
+      escape = FALSE,
+      align = c("l", "r"),
+      booktabs = TRUE
+    ) %>%
+    kable_styling(
+      bootstrap_options = c("striped", "hover", "condensed"),
+      full_width = FALSE,
+      position = "center"
+    ) %>%
+    row_spec(c(3, 10), bold = TRUE)
+}
+
+#revenu_depuis_revenu_net(32528 + 750) #38624
+#impots2026 <- impot_ey_qc_2026(38624)
+#impots2026$impot_total #5346
+
+faire_tableau_revenu(
+  salaire = 38630,
+  impot = 5352
+)
+
+```
+
+:::
+
+Pour un salaire de 60000\$, un revenu de retraite de 38630\$ permet de maintenir sensiblement le même niveau de vie. Le taux de remplacement correspondant est d’environ 64,4\%.
+
+#### **Interprétation des exemples** {-}
+
+Ces deux exemples suggèrent qu’un taux de remplacement d’environ 65 % du salaire peut constituer une cible raisonnable pour maintenir le niveau de vie à la retraite. Ce chiffre doit toutefois être interprété avec prudence. Afin d’illustrer comment cette proportion peut varier selon le niveau de revenu, la figure ci-dessous présente la proportion du revenu brut qui doit être remplacée afin de reproduire le même revenu disponible à la retraite.
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+#| fig-cap: "Taux de remplacement du revenu brut nécessaire pour reproduire le revenu disponible à la retraite"
+#| label: fig-tauxderemp_par_revenu
+
+revenu_residuel_disponible <- function(salaire, impot) {
+  
+  # Hypothèses
+  taux_reer <- 0.09
+  
+  exemption_rrq <- 3500
+  MGA <- 71300
+  MSG <- 81200
+  taux_rrq <- 0.064
+  taux_rrq_sup <- 0.04
+  
+  taux_ae <- 0.0127
+  max_ae <- 63000
+  
+  taux_rqap <- 0.0049
+  max_rqap <- 91000
+  
+  assurance_fixe <- 800
+  assurance_taux <- 0.02
+  
+  ratio_dep_travail <- 0.07
+  
+  # Calculs
+  cotisation_reer <- taux_reer * salaire
+  
+  rrq_base <- max(0, min(salaire, MGA) - exemption_rrq) * taux_rrq
+  rrq_sup  <- max(0, min(salaire, MSG) - MGA) * taux_rrq_sup
+  rrq <- rrq_base + rrq_sup
+  
+  ae <- min(salaire, max_ae) * taux_ae
+  rqap <- min(salaire, max_rqap) * taux_rqap
+  
+  assurance_collective <- assurance_fixe + assurance_taux * salaire
+  dep_travail <- ratio_dep_travail * salaire
+  
+  revenu_residuel <- salaire -
+    cotisation_reer -
+    impot -
+    rrq -
+    ae -
+    rqap -
+    assurance_collective -
+    dep_travail
+  
+  return(revenu_residuel)
+}
+
+library(dplyr)
+library(ggplot2)
+library(purrr)
+library(scales)
+
+revenus <- seq(40000, 200000, by = 1000)
+
+bd <- tibble(revenu = revenus) %>%
+  mutate(
+    impot = map_dbl(revenu, ~ impot_ey_qc_2026(.x)$impot_total),
+    dispo = map2_dbl(revenu, impot, ~ revenu_residuel_disponible(salaire = .x, impot = .y)),
+    rente = map_dbl(dispo + 750, revenu_depuis_revenu_net),
+    pct   = rente / revenu
+  ) %>%
+  select(revenu, rente, pct)
+
+pts <- bd %>%
+  filter(revenu %in% c(60000, 120000))
+
+library(scales)
+
+ggplot(bd, aes(x = revenu, y = pct)) +
+  geom_line(linewidth = 1.2, color = "blue") +
+  geom_point(data = pts, color = "red", size = 3) +
+  scale_x_continuous(
+    labels = dollar_format(prefix = "", suffix = " $", big.mark = " ")
+  ) +
+  scale_y_continuous(
+    limits = c(0.59, 0.66),
+    breaks = seq(0.59, 0.66, by = 0.01),
+    labels = percent_format(accuracy = 1)
+  ) +
+  labs(
+    x = "Revenu brut",
+    y = "Proportion"
+  ) +
+  theme_bw()
+
+```
+
+
+On observe que cette proportion se situe généralement entre 60 % et 65 % du revenu brut. La courbe n’est pas monotone en raison de plusieurs effets, tels que la progressivité de l’impôt, les plafonds des cotisations sociales (RRQ, AE, RQAP) et certaines dépenses liées au travail qui disparaissent lorsque le revenu de travail est remplacé par une rente. Par exemple, l’augmentation du télétravail peut déjà réduire certaines dépenses associées au travail, comme les frais de transport ou de repas à l’extérieur, ce qui peut modifier légèrement le taux de remplacement nécessaire.
+
+Globalement, la proportion tend à diminuer légèrement lorsque le revenu augmente, ce qui reflète l’effet combiné de ces mécanismes sur le revenu disponible. Notons que Retraite Québec [recommande](https://www.retraitequebec.gouv.qc.ca/fr/argent-retraite/fin-carriere/planifier-financierement-sa-retraite/Pages/quels-revenus-jaurai-besoin-retraite.aspx) pour sa part un objectif de remplacement du revenu situé entre 60\% et 80\%. Plusieurs analystes estiment toutefois que ce repère doit être nuancé selon la situation individuelle.
+
+## Les composantes du revenu à la retraite
+
+Une personne qui cesse de travailler continue d’encourir des dépenses pour son logement, sa nourriture, ses soins, ses vêtements, ses déplacements et ses loisirs. Elle a donc besoin de revenus afin de pouvoir subvenir à ces dépenses. Dans les pays développés, ces revenus proviennent généralement de trois sources :
+
+- Les régimes d’État
+  - régimes publics de retraite
+  - allocations universelles
+  - aide sociale
+- Les régimes de retraite collectifs privés, mis sur pied par des employeurs ou des associations de travailleurs
+- Les épargnes personnelles
+
+Dans certaines situations, nous verrons que ces sources de revenus peuvent être **capitalisées** ou **non capitalisées**. On dit qu’un régime de retraite est capitalisé lorsque les cotisations versées par les participants et les employeurs sont accumulées dans un fonds et investies afin de financer les prestations futures. Les rentes sont alors payées à partir de ce capital accumulé et des revenus de placement qu’il génère. À l’inverse, dans un régime non capitalisé (ou financé par répartition), les cotisations des travailleurs actifs servent principalement à payer les prestations des retraités actuels. Il n’existe donc pas nécessairement de fonds important accumulé pour financer les prestations futures.
+
+Dans tous les cas, il convient maintenant de présenter brièvement chacune de ces trois sources.
+
+### Programmes d’État  
+
+#### **Régimes publics de retraite** 
+
+Les programmes d’État des pays occidentaux comprennent généralement un régime public de retraite accessible à une grande partie de la population active (le type de personnes couvertes varie toutefois d’un pays à l’autre). Ces régimes font partie des programmes d’assurance sociale, car ils possèdent plusieurs caractéristiques distinctives :
+
+- transfert d’un risque — ici le risque de vivre au-delà de ses épargnes — vers un organisme public ou supervisé par l’État;
+- régime établi par une loi;
+- participation généralement obligatoire pour les travailleurs visés;
+- cotisations versées par les travailleurs, par les employeurs ou par les deux;
+- financement reposant soit sur un système de répartition (les cotisations courantes financent les prestations), soit sur un fonds partiellement capitalisé, soit sur une combinaison des deux.
+
+Les régimes varient considérablement d’un pays à l’autre. Dans tous les cas, ils constituent toutefois un régime de base visant à remplacer une partie relativement modeste des revenus antérieurs à la retraite. À titre d’illustration, on peut examiner quelques exemples internationaux.
+
+::: {#exm-5 .custom}
+**France**
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/Franceflag.png" style="width:50%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+Le système de retraite français repose sur plusieurs régimes publics obligatoires. Le principal est le régime de base de l’assurance vieillesse, auquel s’ajoutent des régimes complémentaires obligatoires pour la plupart des travailleurs salariés.
+
+Dans le régime de base, la pension vise à remplacer environ 50\% de la moyenne des 25 meilleurs salaires annuels. L’âge légal de la retraite est de 62 ans pour les personnes nées depuis 1955. Pour recevoir la pleine rente, il faut avoir accumulé entre 163 et 172 trimestres de participation selon l’année de naissance. Si le nombre de trimestres requis n’est pas atteint, la pension est réduite. À défaut, la pension complète est versée automatiquement à partir de 67 ans.  Les salariés participent également à des régimes complémentaires obligatoires, notamment le régime AGIRC-ARRCO, dans lesquels les cotisations donnent droit à des points de retraite qui seront convertis en rente au moment de la retraite.
+
+Une réforme récente prévoit de repousser graduellement l’âge légal de départ à la retraite jusqu’à 64 ans pour certaines générations.
+
+[Source](https://www.service-public.gouv.fr/particuliers/vosdroits/F36464)
+
+<div style="clear: both;"></div>
+:::
+
+
+
+::: {#exm-uk .custom}
+**Royaume-Uni**
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/UKflag.png" style="width:50%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+La pension publique britannique (New State Pension) est une prestation forfaitaire financée par les cotisations au système de National Insurance. Pour recevoir la pension complète, il faut généralement avoir accumulé environ 35 années de cotisation admissibles. La pension maximale est d’environ 185 £ par semaine (soit environ 9 600 £ par année). Une pension partielle est versée lorsque le nombre d’années de cotisation est inférieur. L’âge normal de la retraite (State Pension age) augmente graduellement :
+
+- 65 ans pour les personnes nées avant janvier 1954;
+- 66 ans pour celles nées entre 1954 et 1960;
+- 67 ans pour celles nées entre 1960 et 1977;
+- 68 ans pour celles nées après 1978 (augmentation progressive prévue).
+
+[Source](https://www.gov.uk/new-state-pension)
+<div style="clear: both;"></div>
+:::
+
+::: {#exm-us .custom}
+**États-Unis**
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/USAflag.png" style="width:50%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+Le programme *Social Security* verse une pension calculée à partir des gains de carrière indexés du travailleur. Le montant de la prestation est déterminé selon une formule progressive appliquée au revenu mensuel moyen indexé. De façon simplifiée, la pension correspond à la somme de :
+
+- 90 % des premiers niveaux de revenu;
+- 32 % des niveaux intermédiaires;
+- 15 % des niveaux supérieurs.
+
+Ces pourcentages s’appliquent à des seuils appelés bend points, qui sont ajustés périodiquement. Pour recevoir la pension complète, les prestations sont calculées sur la base des 35 années de gains les plus élevées. L’âge normal de la retraite (Full Retirement Age) varie entre 66 ans pour les personnes nées entre 1943 et 1954, et 67 ans pour celles nées à partir de 1960.
+
+[Source](https://www.ssa.gov/OACT/COLA/piaformula.html) 
+<div style="clear: both;"></div>
+:::
+
+
+
+::: {#exm-5 .custom}
+**Canada**
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/Canadaflag.png" style="width:50%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+Au Canada, les Régimes de rentes du Québec (RRQ) et de pensions du Canada (RPC) constituent les principaux régimes publics contributifs de retraite. Ils couvrent la majorité des travailleurs et sont financés par des cotisations versées par les employés et les employeurs. Les prestations sont calculées en fonction des gains admissibles au cours de la carrière, jusqu’à un plafond annuel appelé maximum des gains admissibles (MGA). Traditionnellement, ces régimes visaient à remplacer environ 25 % du revenu moyen gagné au cours de la carrière, jusqu’à ce plafond.
+
+Depuis une réforme entrée en vigueur en 2019, le taux de remplacement est graduellement augmenté pour atteindre environ 33 % des gains admissibles, et le plafond des gains couverts par le régime est également relevé. La pleine rente est normalement payable à 65 ans, mais elle peut être prise de façon réduite dès 60 ans ou majorée si elle est reportée jusqu’à 70 ans.
+
+**Les détails du calcul exact de ces prestations seront étudiés dans un prochain chapitre.**
+
+<div style="clear: both;"></div>
+:::
+
+
+#### **Allocations universelles** 
+
+Une allocation universelle est une prestation versée par l’État à une large partie de la population âgée, indépendamment de ses revenus de carrière. L’admissibilité repose principalement sur des critères démographiques, comme l’âge et la durée de résidence dans le pays. Ces programmes possèdent généralement les caractéristiques suivantes :
+
+- prestation monétaire versée périodiquement;
+- admissibilité basée principalement sur des critères démographiques (âge, résidence, etc.);
+- régime établi par une loi;
+- financement provenant des fonds généraux du gouvernement plutôt que de cotisations spécifiques.
+
+Au Canada, la Pension de sécurité de la vieillesse (PSV) constitue une allocation universelle. Elle vise à fournir un revenu de base aux personnes âgées, indépendamment de leur participation au marché du travail. Son montant correspond approximativement à 15 % du revenu d’un travailleur canadien moyen.  
+
+#### **Aide sociale** 
+
+Lorsque les régimes de sécurité sociale et les allocations universelles ne suffisent pas à assurer un revenu minimal aux personnes âgées, les gouvernements peuvent offrir des programmes d’aide sociale.  Contrairement aux allocations universelles, ces programmes sont destinés uniquement aux personnes dont les revenus ou le patrimoine sont jugés insuffisants. L’accès aux prestations est donc généralement conditionnel à une évaluation des ressources du demandeur.  Ces programmes présentent généralement les caractéristiques suivantes :
+
+- prestation monétaire (ou parfois prestation en nature);
+- destinée aux personnes à faible revenu;
+- accès conditionnel à une évaluation des revenus ou du patrimoine;
+- régime établi par une loi;
+- financement provenant des fonds généraux du gouvernement.
+
+Au Canada, le Supplément de revenu garanti (SRG) et l’Allocation au conjoint constituent des programmes de ce type. Ils sont administrés par le gouvernement fédéral conjointement avec la Pension de sécurité de la vieillesse.
+
+### Régimes de retraite collectifs privés
+
+Dans les pays dotés d’une économie dite « mixte », l’État n’a généralement pas pour objectif de remplacer l’ensemble du revenu des citoyens à la retraite. Son rôle consiste plutôt à assurer un revenu de base afin d’éviter que les personnes âgées se retrouvent à la charge de la société. C’est pourquoi les programmes publics remplacent généralement environ 40 % du revenu de travail moyen.  Il reste donc deux écarts à combler :
+
+- la différence entre ce taux de remplacement d’environ 40 % et un taux jugé plus acceptable;
+- le remplacement d’une partie du revenu qui excède le niveau couvert par les régimes publics.
+
+Les régimes de retraite collectifs privés servent à combler ces écarts, soit en permettant d’accumuler un capital qui servira à financer la retraite (régimes à cotisations déterminées), soit en promettant le versement, à la retraite, d’une rente viagère dont le montant dépend du salaire et du nombre d’années de participation de l’employé (régimes à prestations déterminées).  Nous verrons plus tard dans ce chapitre les différences entre ces deux régimes.
+
+- **Point de vue de l’État**
+
+  Dans plusieurs pays, dont le Canada, l’État permet aux employeurs de mettre sur pied des régimes de retraite bénéficiant d’un traitement fiscal avantageux. Une partie du salaire des employés peut ainsi être versée dans un régime de retraite, et l’impôt sur ces sommes est différé jusqu’au moment où elles sont retirées, généralement à la retraite. Du point de vue de l’État, un régime de retraite constitue donc un mécanisme fiscal permettant à l’employé :
+
+  - de payer l’impôt plus tard, soit au moment de la retraite;
+  - de payer éventuellement cet impôt à un taux plus faible si son revenu est moindre à la retraite;
+  - d’accumuler des revenus de placement à l’abri de l’impôt pendant la période d’épargne.
+
+  L’État y trouve également plusieurs avantages :
+
+  - les sommes retirées du régime seront imposées dans le futur;
+  - les retraités disposant d’une rente privée sont moins susceptibles d’avoir recours à l’aide sociale;
+  - les retraités disposant d’un revenu plus élevé consomment davantage, ce qui augmente les recettes fiscales (notamment les taxes de vente).
+
+- **Point de vue des employeurs**
+
+  Avant les réformes des pensions mises en œuvre entre le milieu des années 1980 et le début des années 1990, les régimes de retraite servaient souvent à retenir les employés. Les travailleurs qui quittaient leur emploi avant d’avoir atteint un certain âge ou un certain nombre d’années de participation pouvaient perdre une partie importante des avantages accumulés. Le régime de retraite était alors perçu comme un moyen de récompenser de longues années de service et de favoriser la fidélité des employés.
+
+  Depuis ces réformes, la plupart des provinces canadiennes exigent que les droits accumulés dans un régime de retraite soient acquis immédiatement ou après une courte période de participation (généralement deux ans). De plus, la législation oblige généralement les employeurs à assumer au moins 50 % du coût du régime. Les régimes de retraite sont donc aujourd’hui souvent considérés comme une forme de salaire différé. Pour les employeurs, ces régimes présentent plusieurs avantages :
+
+  - ils permettent d’offrir une rémunération globale plus compétitive;
+  - ils facilitent le recrutement et la rétention de travailleurs qualifiés;
+  - ils contribuent à projeter une image positive de l’employeur.
+
+- **Point de vue des employés**
+
+  Pour de nombreux employés, l’un des principaux défis consiste à arbitrer entre l’épargne et les dépenses courantes. Le revenu de travail doit notamment servir à payer le logement, le transport, la nourriture, les vêtements, les loisirs, etc. Après ces dépenses, il reste parfois peu de place pour l’épargne, surtout lorsque la personne doit rembourser des dettes ou assumer des dépenses fixes importantes.
+
+  Un régime de retraite constitue alors une forme d’épargne forcée. Les cotisations de l’employeur ne peuvent pas être retirées par l’employé et, lorsque l’employé cotise lui-même au régime, ces sommes ne peuvent généralement pas être retirées avant la retraite. Les cotisations étant souvent prélevées directement sur le salaire, l’employé s’habitue progressivement à vivre avec un revenu disponible plus faible. Les principaux avantages d’un régime de retraite pour un employé sont les suivants :
+
+  - il constitue une forme d’épargne automatique;
+  - il permet de reporter l’impôt sur les sommes cotisées;
+  - il est financé en partie par l’employeur;
+  - il garantit la disponibilité d’un revenu à la retraite, sous forme de rente ou de capital;
+  - les fonds sont généralement détenus en fiducie et protégés contre les créanciers de l’employeur;
+  - dans le cas des régimes à prestations déterminées, il permet d’obtenir une rente relativement prévisible;
+  - dans le cas des régimes à cotisations déterminées, il donne accès à des instruments de placement souvent moins accessibles aux épargnants individuels.
+  
+  
+### Épargnes personnelles
+
+Les épargnes personnelles constituent la troisième composante du revenu à la retraite. 
+
+Au Canada, en fonction des régles fiscales, elles prennent essentiellement trois formes :
+
+- Des mécanismes formels d’accumulation assortis d’un report d’impôt. Dans ce cas, la somme cotisée est déduite du revenu imposable pour l’année de cotisation, mais les sommes retirées sont imposables dans l’année du retrait. On parle alors de placements enregistrés, comme les [Régimes enregistrés d’épargne-retraite](http://www.cra-arc.gc.ca/tx/ndvdls/tpcs/rrsp-reer/rrsps-fra.html) (REER) au Canada. Les montants retirés sont imposés comme un revenu au moment du retrait. Les sommes accumulées dans un REER doivent être transformées, au plus tard à l’âge de 71 ans, en un mécanisme de décaissement dont les versements seront imposés, comme un fonds enregistré de revenu de retraite (FERR) ou une rente.
+
+- Des mécanismes formels d’accumulation assortis d’avantages fiscaux, comme le [compte d’épargne libre d’impôt](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot.html) (CELI). Dans ce cas, les sommes investies ne donnent pas droit à une déduction fiscale, mais les revenus de placement et les retraits ne sont pas imposables.
+
+- Des placements divers non enregistrés ne bénéficiant pas d’avantages fiscaux particuliers liés à l’épargne-retraite, tels que les immeubles, les comptes bancaires, les actions, les obligations ou les parts de fonds communs de placement. Les revenus de placement sont généralement imposés au fur et à mesure qu’ils sont gagnés, et les gains en capital sont imposés lorsqu’ils sont réalisés (la résidence principale étant généralement exonérée d’impôt sur les gains en capital).
+
+Les épargnes personnelles jouent plusieurs rôles importants dans le financement de la retraite. 
+
+- Elles peuvent servir à compléter les revenus provenant des régimes publics et des régimes de retraite d’employeur, mais aussi à financer certaines périodes particulières de la retraite. 
+
+- L’épargne personnelle peut également jouer un rôle important dans le financement d’une retraite anticipée. Lorsqu’une personne prend sa retraite avant le moment où les prestations des régimes publics deviennent disponibles, il peut exister une période pendant laquelle ces revenus ne sont pas encore versés. Certains régimes de retraite d’employeur prévoient alors une rente dite de raccordement destinée à combler cet écart jusqu’au début des prestations publiques. En l’absence d’un tel mécanisme, l’épargne personnelle peut être utilisée pour financer la période comprise entre le début de la retraite et le moment où les prestations des régimes publics commencent à être versées.
+
+### Combinaison des sources
+
+Au final, le revenu de retraite provient généralement de la combinaison de plusieurs sources : les régimes publics, les régimes de retraite d’employeur et les épargnes personnelles. Lorsqu’une personne participe à un régime de retraite collectif et accumule également des épargnes personnelles, il devient souvent possible d’atteindre un taux de remplacement du revenu situé autour de 60 % à 70 % du revenu gagné avant la retraite. Cet objectif suppose toutefois que la retraite soit prise à un âge où les principales prestations publiques sont disponibles, notamment la pension de sécurité de la vieillesse (65 ans) ainsi que les rentes du Régime de rentes du Québec ou du Régime de pensions du Canada sans réduction pour retraite anticipée.
+
+## Les risques reliés à la retraite
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
+">
+
+<img src="images/Risk.png"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+</div>
+
+</div>
+
+Le travail de l’actuaire consiste essentiellement à analyser des situations où les résultats futurs sont incertains et où cette incertitude peut avoir des conséquences financières mesurables. Dans ce contexte, on parle de *risque* lorsqu’un événement futur incertain peut entraîner un gain ou une perte pour un individu, une entreprise ou une institution.  Deux caractéristiques sont généralement associées à un risque :
+
+- l’événement concerné est **aléatoire**, c’est-à-dire que sa réalisation et son moment de survenance ne sont pas connus à l’avance ;
+- cet événement peut être **quantifié financièrement**, ce qui permet d’en évaluer le coût attendu ou les conséquences économiques.
+
+Par exemple, dans le domaine de l’assurance vie et des régimes de retraite, la durée de vie d’une personne est incertaine. On sait qu’un individu finira par décéder, mais on ne sait pas quand cet événement surviendra. Cette incertitude a une importance financière directe, car la durée de vie détermine notamment la période pendant laquelle une rente devra être versée. De la même manière, plusieurs variables économiques importantes pour les régimes de retraite sont incertaines. Les rendements des placements, l’inflation ou encore l’évolution des salaires futurs peuvent varier au fil du temps et influencer la capacité d’un régime de retraite à financer les prestations promises.
+
+L’analyse actuarielle consiste précisément à modéliser ces incertitudes, à en mesurer l’impact financier et à concevoir des mécanismes permettant de gérer ou de transférer les risques associés. Plusieurs risques affectent ainsi directement les régimes de retraite, qu’ils soient individuels ou collectifs.
+
+
+<div style="clear: both;"></div>
+
+### Le risque de longévité
+
+Le principal risque relié à la retraite est le *risque de longévité*. Il correspond au fait que la durée de vie d’un individu est incertaine et peut dépasser la période pendant laquelle ses ressources financières sont suffisantes pour soutenir son niveau de consommation. Ce risque découle directement de l’incertitude entourant la durée de vie humaine. Même si l’on peut estimer une espérance de vie à partir des tables de mortalité, la durée de vie réelle d’un individu peut être sensiblement plus courte ou plus longue que cette moyenne. Une personne a donc toujours une probabilité non négligeable de vivre plusieurs années au-delà de son espérance de vie.
+
+Dans le contexte de la retraite, cette incertitude crée un problème financier important. Une personne qui finance sa retraite au moyen de son épargne doit déterminer combien retirer chaque année. Si les retraits sont trop élevés, l’épargne risque d’être épuisée avant la fin de la vie. À l’inverse, des retraits trop prudents peuvent réduire inutilement le niveau de vie pendant la retraite. Le risque de longévité correspond donc au risque d’épuiser ses ressources financières avant son décès. Ce risque est particulièrement difficile à gérer pour un individu seul, car il dépend d’un événement fondamentalement aléatoire : la durée de sa propre vie.
+
+L’exemple suivant illustre concrètement ce problème.
+
+::: {#exm-5 .custom}
+Voici un exemple. Avec un taux d’intérêt de 2 \% et un capital de 1 000 000 \$ à 65 ans, une personne peut acheter les rentes certaines dues suivantes :
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+library(tibble)
+library(dplyr)
+library(kableExtra)
+
+tab_rentes <- tibble(
+  `Durée de la rente certaine due` = c(10, 15, 20, 25, 30, 35),
+  `Montant annuel` = c(109144, 76299, 59957, 50216, 43774, 39218)
+) %>%
+  mutate(
+    `Durée de la rente certaine due` = paste0(`Durée de la rente certaine due`, " ans"),
+    `Montant annuel` = paste0(
+      format(
+        `Montant annuel`,
+        big.mark = " ",
+        decimal.mark = ",",
+        scientific = FALSE
+      ),
+      " $"
+    )
+  )
+
+tab_rentes %>%
+  kbl(
+    align = c("c", "c"),
+    col.names = c("Durée", "Montant annuel de la rente")
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+```
+:::
+
+
+Si la personne choisit une rente certaine due d’une durée de 10 ans, les versements cessent à l’âge de 75 ans. Si elle est encore en vie à ce moment, elle ne dispose plus de revenu provenant de cette rente. À l’inverse, une rente certaine due d’une durée de 35 ans procure un revenu annuel plus faible, soit 39\,218 \$, mais pendant une période beaucoup plus longue. Ce choix illustre la difficulté fondamentale du financement individuel de la retraite : la durée de vie est incertaine et une personne peut survivre à la période pendant laquelle ses ressources sont disponibles.
+
+Une solution consiste à transférer ce risque à un assureur en achetant une rente viagère due. Par exemple, à 65 ans, un capital de 1\,000\,000 \$ peut permettre d’obtenir une rente viagère d’environ 55\,000 \$ à $60\,000 \$ par année, selon les hypothèses de taux d’intérêt et de mortalité. Dans la pratique actuarielle canadienne, ces calculs reposent généralement sur les tables de mortalité de la série CPM publiées par l’Institut canadien des actuaires.
+
+Le montant de la rente est déterminé de manière à ce que la valeur actuarielle des paiements corresponde au capital initial. Si la personne décède plus tôt que prévu, l’assureur réalise un gain actuariel. Si elle vit plus longtemps, elle bénéficie des versements supplémentaires. La rente viagère permet ainsi de garantir un revenu stable pendant toute la durée de la vie.
+
+:::
+
+En général, les individus ont une certaine aversion pour les risques qu’ils ne contrôlent pas. Ils sont donc souvent disposés à céder une partie de leur richesse afin de transférer ce risque à une entreprise ou à une institution spécialisée. Par exemple, si un assureur offre une rente viagère de 55\,000 \$ par année — soit un montant inférieur à la valeur actuariellement équitable — certaines personnes accepteront néanmoins d’échanger leur capital de 1\,000\,000 \$ contre cette rente, car elles obtiennent en contrepartie une plus grande sécurité financière.
+
+Le risque de longévité est particulièrement difficile à supporter pour un individu isolé, puisqu’il existe environ une chance sur deux de vivre au-delà de son espérance de vie. Il devient donc avantageux de transférer ce risque à une organisation capable de le mutualiser entre un grand nombre de personnes. C’est précisément le rôle des régimes de retraite, des compagnies d’assurance et, dans certains cas, de l’État. L’actuaire est le professionnel le mieux outillé pour analyser et gérer ce risque de longévité.
+
+
+Le tableau suivant présente un extrait de la table complète de mortalité pour les hommes et les femmes au Canada, pour la période 2017 à 2019. Afin d’en faciliter la lecture, seules les observations par saut de 5 ans ont été conservées, ainsi que le nombre de survivants $l_x$ et l’espérance de vie résiduelle $e_x$.
+
+Source : [Statistique Canada](https://www150.statcan.gc.ca/n1/pub/84-537-x/2020001/xls/2017-2019_Tbl-fra.xlsx)
+
+::: {.encadre}
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+library(tibble)
+library(dplyr)
+library(kableExtra)
+
+tab_mortalite_comp <- tibble(
+  age = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75,
+          80, 85, 90, 95, 100, 105, 110),
+  lx_h = c(100000, 99447, 99407, 99348, 99137, 98753, 98285, 97744,
+           97136, 96354, 95252, 93614, 91135, 87364, 81640, 73087,
+           60780, 44391, 25601, 9594, 1864, 159, 6),
+  ex_h = c(80.0, 75.4, 70.5, 65.5, 60.6, 55.9, 51.1, 46.4,
+           41.7, 37.0, 32.4, 27.9, 23.6, 19.5, 15.7, 12.2,
+           9.1, 6.5, 4.5, 3.0, 2.2, 1.6, 1.4),
+  lx_f = c(100000, 99530, 99493, 99445, 99331, 99158, 98949, 98691,
+           98379, 97920, 97213, 96149, 94532, 92030, 88107, 81931,
+           72329, 58025, 38773, 18226, 4799, 570, 27),
+  ex_f = c(84.2, 79.6, 74.6, 69.6, 64.7, 59.8, 54.9, 50.1,
+           45.2, 40.4, 35.7, 31.1, 26.6, 22.2, 18.1, 14.2,
+           10.8, 7.8, 5.3, 3.6, 2.5, 1.8, 1.5)
+) %>%
+  mutate(
+    `Âge` = ifelse(age == 110, "110 ans et plus", paste0(age, " ans")),
+    `Survivants` = format(lx_h, big.mark = " ", decimal.mark = ","),
+    `Espérance de vie` = format(ex_h, nsmall = 1, decimal.mark = ","),
+    `Survivantes` = format(lx_f, big.mark = " ", decimal.mark = ","),
+    `Espérance de vie ` = format(ex_f, nsmall = 1, decimal.mark = ",")
+  ) %>%
+  select(`Âge`, `Survivants`, `Espérance de vie`, `Survivantes`, `Espérance de vie `)
+
+tab_mortalite_comp %>%
+  kbl(
+    align = c("c", "c", "c", "c", "c"),
+    col.names = c("Âge", "l<sub>x</sub>", "e<sub>x</sub>", "l<sub>x</sub>", "e<sub>x</sub>"),
+    escape = FALSE,
+    caption = "Extrait des tables complètes de mortalité, Canada, 2017 à 2019"
+  ) %>%
+  add_header_above(c(" " = 1, "Hommes" = 2, "Femmes" = 2), escape = FALSE) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+
+```
+:::
+
+Les graphiques suivants illustrent les données du tableau.  Le premier présente l’espérance de vie restante selon l’âge pour les hommes et les femmes. Le second graphique montre l’âge actuel plus l’espérance de vie restante. Cette valeur correspond à l’âge moyen au décès conditionnel à avoir atteint l’âge $x$.
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 14
+#| fig-align: center
+
+library(tibble)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(patchwork)
+
+tab_mortalite_comp <- tibble(
+  age = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75,
+          80, 85, 90, 95, 100, 105, 110),
+  lx_h = c(100000, 99447, 99407, 99348, 99137, 98753, 98285, 97744,
+           97136, 96354, 95252, 93614, 91135, 87364, 81640, 73087,
+           60780, 44391, 25601, 9594, 1864, 159, 6),
+  ex_h = c(80.0, 75.4, 70.5, 65.5, 60.6, 55.9, 51.1, 46.4,
+           41.7, 37.0, 32.4, 27.9, 23.6, 19.5, 15.7, 12.2,
+           9.1, 6.5, 4.5, 3.0, 2.2, 1.6, 1.4),
+  lx_f = c(100000, 99530, 99493, 99445, 99331, 99158, 98949, 98691,
+           98379, 97920, 97213, 96149, 94532, 92030, 88107, 81931,
+           72329, 58025, 38773, 18226, 4799, 570, 27),
+  ex_f = c(84.2, 79.6, 74.6, 69.6, 64.7, 59.8, 54.9, 50.1,
+           45.2, 40.4, 35.7, 31.1, 26.6, 22.2, 18.1, 14.2,
+           10.8, 7.8, 5.3, 3.6, 2.5, 1.8, 1.5)
+)
+
+df_plot <- tab_mortalite_comp %>%
+  transmute(
+    age,
+    Hommes = ex_h,
+    Femmes = ex_f,
+    `Hommes (âge + e[x])` = age + ex_h,
+    `Femmes (âge + e[x])` = age + ex_f
+  )
+
+df_ex <- df_plot %>%
+  select(age, Hommes, Femmes) %>%
+  pivot_longer(cols = -age, names_to = "sexe", values_to = "esperance_vie")
+
+df_total <- df_plot %>%
+  select(age, `Hommes (âge + e[x])`, `Femmes (âge + e[x])`) %>%
+  pivot_longer(cols = -age, names_to = "sexe", values_to = "age_total") %>%
+  mutate(
+    sexe = recode(
+      sexe,
+      `Hommes (âge + e[x])` = "Hommes",
+      `Femmes (âge + e[x])` = "Femmes"
+    )
+  )
+
+p1 <- ggplot(df_ex, aes(x = age, y = esperance_vie, color = sexe)) +
+  geom_line(linewidth = 1.1) +
+  geom_point(size = 2) +
+  labs(
+    title = "Espérance de vie selon l'âge",
+    x = "Âge",
+    y = "Espérance de vie restante"
+  ) +
+  theme_bw() +
+  theme(
+    legend.title = element_blank(),
+    plot.title = element_text(face = "bold")
+  )
+
+p2 <- ggplot(df_total, aes(x = age, y = age_total, color = sexe)) +
+  geom_line(linewidth = 1.1) +
+  geom_point(size = 2) +
+  labs(
+    title = "Âge actuel + espérance de vie",
+    x = "Âge",
+    y = "Âge atteint en moyenne"
+  ) +
+  theme_bw() +
+  theme(
+    legend.title = element_blank(),
+    plot.title = element_text(face = "bold")
+  )
+
+library(patchwork)
+
+p1 | p2
+
+```
+
+### Le risque d'inflation
+
+Le **risque d’inflation** correspond au risque d’érosion du pouvoir d’achat de la monnaie : lorsque les prix augmentent, une même somme d’argent permet d’acheter moins de biens et de services. Ce risque est important en assurance et en finance, puisque plusieurs engagements financiers s’étendent sur de longues périodes. Au Canada, l’inflation est demeurée relativement faible pendant plusieurs années, ce qui pouvait donner l’impression que ce risque était limité. Pourtant, l’histoire montre que l’inflation peut varier fortement. Par exemple, dans les années 1970 et au début des années 1980, les taux d’inflation ont parfois dépassé 10 %. Plus récemment, après la pandémie de COVID-19, l’inflation a de nouveau augmenté rapidement entre 2021 et 2023, atteignant des niveaux qu’on n’avait plus observés depuis plusieurs décennies.
+
+Le tableau suivant présente l’**indice des prix à la consommation (IPC)** pour le Canada. L’IPC est une mesure statistique qui suit l’évolution du prix moyen d’un ensemble de biens et de services consommés par les ménages (par exemple la nourriture, le logement, les vêtements et le transport). Il est couramment utilisé pour mesurer l’inflation. Les données proviennent du [site suivant](http://www.statsnwt.ca/TSR/series.php?seriesid=V41690973).
+
+::: {.encadre}
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 14
+#| fig-align: center
+
+library(dplyr)
+library(tidyr)
+library(kableExtra)
+library(stringr)
+
+txt <- "
+Year January February March April May June July August September October November December
+1970 20.2 20.2 20.2 20.3 20.3 20.3 20.5 20.5 20.4 20.4 20.4 20.3
+1971 20.4 20.5 20.5 20.7 20.7 20.8 21.0 21.2 21.1 21.2 21.2 21.3
+1972 21.4 21.5 21.6 21.7 21.7 21.7 22.0 22.2 22.3 22.3 22.3 22.4
+1973 22.6 22.8 22.8 23.1 23.2 23.4 23.7 24.0 24.1 24.2 24.4 24.5
+1974 24.7 24.9 25.2 25.4 25.9 26.1 26.3 26.6 26.8 27.1 27.3 27.6
+1975 27.6 27.9 28.0 28.2 28.5 28.8 29.2 29.5 29.6 29.8 30.1 30.2
+1976 30.3 30.5 30.6 30.7 30.9 31.1 31.3 31.3 31.5 31.7 31.8 31.9
+1977 32.2 32.4 32.8 33.0 33.4 33.5 33.9 33.9 34.2 34.5 34.7 34.9
+1978 35.1 35.4 35.7 35.8 36.3 36.6 37.1 37.2 37.1 37.6 37.8 37.9
+1979 38.1 38.6 39.0 39.3 39.7 39.9 40.2 40.3 40.7 41.0 41.4 41.6
+1980 41.8 42.3 42.6 42.9 43.4 43.9 44.2 44.7 45.0 45.4 46.0 46.2
+1981 46.9 47.4 48.0 48.3 48.7 49.5 49.9 50.3 50.7 51.2 51.6 51.8
+1982 52.2 52.8 53.5 53.8 54.5 55.1 55.4 55.6 55.9 56.3 56.6 56.6
+1983 56.5 56.8 57.4 57.4 57.5 58.1 58.4 58.7 58.7 59.1 59.1 59.2
+1984 59.6 59.9 60.0 60.2 60.2 60.6 60.8 60.8 60.9 61.1 61.4 61.4
+1985 61.7 62.1 62.2 62.5 62.7 63.0 63.3 63.3 63.4 63.6 63.8 64.1
+1986 64.4 64.7 64.9 64.9 65.3 65.4 65.9 66.0 66.0 66.4 66.7 66.8
+1987 67.0 67.3 67.5 67.9 68.3 68.5 68.9 69.0 69.0 69.2 69.5 69.6
+1988 69.7 70.0 70.4 70.6 71.0 71.2 71.6 71.7 71.8 72.2 72.3 72.3
+1989 72.7 73.2 73.6 73.8 74.6 74.9 75.4 75.5 75.6 75.9 76.1 76.1
+1990 76.7 77.2 77.5 77.5 77.9 78.2 78.5 78.6 78.8 79.5 80.0 79.9
+1991 82.0 82.0 82.3 82.3 82.7 83.1 83.2 83.3 83.1 83.0 83.3 82.9
+1992 83.3 83.3 83.6 83.7 83.8 84.0 84.2 84.2 84.2 84.3 84.7 84.7
+1993 85.0 85.3 85.2 85.2 85.4 85.4 85.6 85.7 85.7 85.9 86.3 86.1
+1994 86.1 85.4 85.4 85.4 85.2 85.4 85.7 85.8 85.9 85.7 86.2 86.3
+1995 86.6 87.0 87.2 87.5 87.7 87.7 87.9 87.7 87.8 87.7 88.0 87.8
+1996 88.0 88.1 88.5 88.7 89.0 89.0 89.0 89.0 89.1 89.3 89.7 89.7
+1997 89.9 90.1 90.2 90.2 90.3 90.5 90.5 90.6 90.6 90.6 90.5 90.4
+1998 90.9 91.0 91.1 91.0 91.3 91.4 91.4 91.4 91.2 91.6 91.6 91.3
+1999 91.5 91.6 92.0 92.5 92.7 92.9 93.1 93.3 93.6 93.7 93.6 93.7
+2000 93.5 94.1 94.8 94.5 94.9 95.5 95.8 95.7 96.1 96.3 96.6 96.7
+2001 96.3 96.8 97.1 97.8 98.6 98.7 98.4 98.4 98.6 98.1 97.2 97.4
+2002 97.6 98.2 98.9 99.5 99.7 99.9 100.5 100.9 100.9 101.2 101.5 101.1
+2003 102.0 102.8 103.1 102.4 102.5 102.5 102.6 102.9 103.1 102.8 103.1 103.2
+2004 103.3 103.5 103.9 104.1 105.0 105.1 105.0 104.8 105.0 105.2 105.6 105.4
+2005 105.3 105.7 106.3 106.6 106.7 106.9 107.1 107.5 108.4 107.9 107.7 107.6
+2006 108.2 108.0 108.6 109.2 109.7 109.5 109.6 109.8 109.2 109.0 109.2 109.4
+2007 109.4 110.2 111.1 111.6 112.1 111.9 112.0 111.7 111.9 111.6 111.9 112.0
+2008 111.8 112.2 112.6 113.5 114.6 115.4 115.8 115.6 115.7 114.5 114.1 113.3
+2009 113.0 113.8 114.0 113.9 114.7 115.1 114.7 114.7 114.7 114.6 115.2 114.8
+2010 115.1 115.6 115.6 116.0 116.3 116.2 116.8 116.7 116.9 117.4 117.5 117.5
+2011 117.8 118.1 119.4 119.8 120.6 119.8 120.0 120.3 120.6 120.8 120.9 120.2
+2012 120.7 121.2 121.7 122.2 122.1 121.6 121.5 121.8 122.0 122.2 121.9 121.2
+2013 121.3 122.7 122.9 122.7 123.0 123.0 123.1 123.1 123.3 123.0 123.0 122.7
+2014 123.1 124.1 124.8 125.2 125.8 125.9 125.7 125.7 125.8 125.9 125.4 124.5
+2015 124.3 125.4 126.3 126.2 126.9 127.2 127.3 127.3 127.1 127.2 127.1 126.5
+2016 126.8 127.1 127.9 128.3 128.8 129.1 128.9 128.7 128.8 129.1 128.6 128.4
+2017 129.5 129.7 129.9 130.4 130.5 130.4 130.4 130.5 130.8 130.9 131.3 130.8
+2018 131.7 132.5 132.9 133.3 133.4 133.6 134.3 134.2 133.7 134.1 133.5 133.4
+2019 133.6 134.5 135.4 136.0 136.6 136.3 137.0 136.8 136.2 136.6 136.4 136.4
+2020 136.8 137.4 136.6 135.7 136.1 137.2 137.2 137.0 136.9 137.5 137.7 137.4
+2021 138.2 138.9 139.6 140.3 141.0 141.4 142.3 142.6 142.9 143.9 144.2 144.0
+2022 145.3 146.8 148.9 149.8 151.9 152.9 153.1 152.6 152.7 153.8 154.0 153.1
+2023 153.9 154.5 155.3 156.4 157.0 157.2 158.1 158.7 158.5 158.6 158.8 158.3
+2024 158.3 158.8 159.8 160.6 161.5 161.4 162.1 161.8 161.1 161.8 161.8 161.2
+2025 161.3 163.0 163.5 163.4 164.3 164.4 164.9 164.8 164.9 165.3 165.4 165.0
+2026 165.0 XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX
+"
+
+df <- read.table(text = txt, header = TRUE, check.names = FALSE)
+
+df_jan <- df %>%
+  transmute(
+    annee = Year,
+    ipc = January,
+    decennie = paste0(floor(annee / 10) * 10, "s")
+  ) %>%
+  filter(annee >= 1970)
+
+ordre_decennies <- unique(df_jan$decennie)
+
+n_max <- df_jan %>%
+  count(decennie) %>%
+  summarise(max_n = max(n)) %>%
+  pull(max_n)
+
+liste_blocs <- lapply(ordre_decennies, function(d) {
+  x <- df_jan %>%
+    filter(decennie == d) %>%
+    mutate(
+      rang = row_number(),
+      ipc = format(ipc, nsmall = 1, decimal.mark = ",")
+    ) %>%
+    select(rang, annee, ipc)
+
+  tibble(rang = 1:n_max) %>%
+    left_join(x, by = "rang") %>%
+    transmute(
+      !!paste0(d, "_annee") := ifelse(is.na(annee), "", annee),
+      !!paste0(d, "_ipc")   := ifelse(is.na(ipc), "", ipc)
+    )
+})
+
+tab_decennies <- bind_cols(liste_blocs)
+
+header_top <- setNames(rep(2, length(ordre_decennies)), ordre_decennies)
+
+tab_decennies %>%
+  kbl(
+    align = rep("c", ncol(tab_decennies)),
+    col.names = rep(c("Année", "IPC"), length(ordre_decennies))
+  ) %>%
+  add_header_above(header_top) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+```
+:::
+
+Le graphique suivant présente l’évolution des taux d’inflation annuels au Canada à partir de l’indice des prix à la consommation (IPC),
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 14
+#| fig-align: center
+
+library(dplyr)
+library(ggplot2)
+
+df_inflation <- df_jan %>%
+  arrange(annee) %>%
+  mutate(
+    inflation_pct = 100 * (ipc / lag(ipc) - 1)
+  ) %>%
+  filter(annee >= 1970)
+
+ggplot(df_inflation, aes(x = annee, y = inflation_pct)) +
+  geom_hline(yintercept = 0, linewidth = 0.5, linetype = "dashed", colour = "grey50") +
+  geom_hline(yintercept = 2, linewidth = 0.5, linetype = "dashed", colour = "red") +
+  geom_line(linewidth = 1, color = "blue") +
+  geom_point(size = 2, color = "blue") +
+  scale_x_continuous(breaks = seq(1970, max(df_inflation$annee), by = 5)) +
+  scale_y_continuous(
+    breaks = seq(0,12,by = 2)
+  ) +
+  labs(
+    x = "Année",
+    y = "Inflation annuelle (%)"
+  ) +
+  theme_bw()
+
+```
+
+Selon ce tableau, un retraité qui dispose d’un revenu fixe de 3000\$ par mois en 1999 voit progressivement son pouvoir d’achat diminuer avec l’inflation. En dollars constants de 1999, ce revenu ne vaut plus que 2229,89\$ après 15 ans, soit à 80 ans (en 2014), s’il a pris sa retraite à 65 ans. À 90 ans, en 2024, son pouvoir d’achat tombe à 1733,92\$. On peut aussi voir ce phénomène du point de vue des prix. Par exemple, un loyer de 600\$ par mois en 1999 correspondrait à 807,21\$ en 2014 et à 1038,03\$ en 2024, alors que le revenu mensuel du retraité demeure de 3000\$. L’inflation réduit donc progressivement ce que ce revenu permet réellement d’acheter.
+
+L’inflation est un phénomène difficile à contrôler, notamment parce qu’elle peut s’auto-alimenter. Lorsque les prix augmentent, les travailleurs demandent souvent des hausses de salaire pour maintenir leur pouvoir d’achat. Ces augmentations de salaire accroissent les coûts des entreprises, qui répercutent ensuite ces coûts en augmentant leurs prix, ce qui entretient la hausse générale des prix.
+
+Au Canada, la politique monétaire vise à maintenir l’inflation à un niveau modéré. La Banque du Canada cherche généralement à maintenir le taux d’inflation dans une fourchette cible de 1\% à 3\% par année. Il est possible de se protéger partiellement contre l’inflation grâce à des rentes indexées, dont les paiements augmentent avec le temps. Toutefois, cette protection a un coût. Dans un contexte de taux d’intérêt faibles, l’indexation peut être coûteuse, car elle réduit une grande partie de l’effet de l’intérêt composé utilisé pour financer les paiements futurs.
+
+### Le risque de retraite
+
+Bien que la retraite soit un phénomène souvent contrôlé par le (futur) rentier, la date de la prise de la retraite comporte son lot d’incertitudes.  Sur le site de [Statistique Québec](https://statistique.quebec.ca/vitrine/vieillissement/themes/travail-retraite/age-prise-retraite), on peut aussi trouver un graphique montrant l'évolution de l'âge de retraite au Québec. 
+
+![](images/Agemoyen.png){width=50% fig-align="center"}
+
+
+On observe d’abord une baisse marquée entre la fin des années 1970 et la fin des années 1990. Durant cette période, l’âge moyen de la retraite passe d’environ $65$ ans à près de $60$ ans, et même à environ $57$ ans chez les femmes au point le plus bas. À partir du début des années 2000, la tendance s’inverse. L’âge moyen de la retraite augmente progressivement pour atteindre environ $65$ ans chez les hommes et environ $64$ ans chez les femmes en 2024. On remarque également que l’écart entre les hommes et les femmes diminue avec le temps. Alors que les femmes prenaient nettement leur retraite plus tôt dans les années 1990, les âges de retraite des deux groupes sont aujourd’hui beaucoup plus rapprochés.
+
+Ce graphique illustre le fait que les individus ne prennent pas tous leur retraite au même âge. Tout comme « l’individu moyen » n’existe pas réellement, il n’existe pas non plus d’âge unique auquel tout le monde cesse de travailler. Certaines personnes prennent leur retraite vers 55 ans (ce qui devient de plus en plus rare), d’autres continuent de travailler au-delà de 65 ans, mais la majorité se situe entre ces deux âges. Pour l’actuaire, cette dispersion est importante. Lorsqu’on veut évaluer le coût d’une rente de retraite, il ne suffit pas de supposer que tout le monde prend sa retraite au même âge. Il faut plutôt tenir compte d’une probabilité de départ à la retraite pour chaque âge, par exemple entre 55 et 70 ans. Cette distribution influence directement la durée pendant laquelle la rente devra être versée.Ces probabilités varient également selon plusieurs facteurs, notamment le sexe et la province de résidence. Par exemple, le Québec se distingue du reste du Canada par un âge moyen de retraite plus faible. 
+
+Dans cette enquête, Statistique Canada a également recueilli des données sur l’âge auquel les Canadiens prévoient prendre leur retraite, ce qui permet d’obtenir une distribution des âges de départ à la retraite telle qu’illustrée dans le graphique ci-dessus.
+
+![](images/Prevu.png){width=50% fig-align="center"}
+
+Le graphique montre la distribution des âges auxquels les travailleurs prévoient prendre leur retraite. La première observation importante est que les départs à la retraite sont très concentrés autour de quelques âges précis plutôt que répartis uniformément. En particulier, on observe un pic très marqué à 65 ans, qui correspond à l’âge traditionnel de la retraite dans de nombreux régimes publics et privés. Un second groupe important apparaît autour de 60 ans. Cela reflète l’existence de mécanismes de retraite anticipée dans plusieurs régimes d’employeurs ou dans certains programmes publics, qui permettent de quitter le marché du travail avant 65 ans, souvent avec une réduction des prestations.
+
+On remarque également que les travailleurs interrogés dans l’enquête prévoient généralement prendre leur retraite un peu plus tôt que ce que suggère la distribution observée dans l’ensemble de la population active. Autrement dit, les intentions de retraite tendent à être plus optimistes que les comportements réels : plusieurs travailleurs prévoient quitter le marché du travail relativement tôt, mais finissent par prolonger leur carrière. Enfin, la distribution n’est pas symétrique. Les départs très précoces (avant 55 ans) sont rares, alors que certains travailleurs demeurent actifs bien après 65 ans. Cette asymétrie reflète notamment les contraintes financières, l’état de santé, les conditions du marché du travail et les règles des régimes de retraite.
+
+Le tableau suivant présente un exemple d’hypothèse de probabilité de départ à la retraite selon l’âge. Ce type d’hypothèse est utilisé dans les modèles actuariels pour estimer à quel moment les individus quittent le marché du travail.
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 14
+#| fig-align: center
+
+library(tibble)
+library(kableExtra)
+
+tab_retraite <- tibble(
+  age = 55:65,
+  homme = c(7, 2.5, 2.5, 2.5, 2.5, 40, 5, 5, 5, 20, 100),
+  femme = c(10, 4, 4, 4, 4, 50, 8, 8, 8, 25, 100)
+)
+
+tab_retraite %>%
+  mutate(
+    Age = age,
+    Homme = paste0(format(homme, nsmall = 2, decimal.mark = ","), " %"),
+    Femme = paste0(format(femme, nsmall = 2, decimal.mark = ","), " %")
+  ) %>%
+  select(Age, Homme, Femme) %>%
+  kbl(
+    align = c("c","c","c"),
+    col.names = c("Âge", "Homme", "Femme")
+  ) %>%
+  add_header_above(c(" " = 1, "Probabilité de retraite" = 2)) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+
+```
+
+:::
+
+Quelques remarques permettent de mieux interpréter ce tableau :
+
+- La somme des probabilités dépasse 100\% parce qu’il s’agit, pour chaque âge, de la probabilité qu’une personne qui n’a pas encore pris sa retraite la prenne à cet âge. Ces probabilités sont donc conditionnelles au fait d’être encore en emploi à cet âge.
+
+- Pour certains âges intermédiaires (par exemple de 56 à 59 ans et de 61 à 63 ans), les taux sont souvent nivelés afin d’éviter des fluctuations trop importantes d’un âge à l’autre.
+
+Les valeurs présentées ci-dessus sont basées sur des statistiques de population et ne constituent qu’un exemple d’hypothèse. Dans un régime de retraite réel, plusieurs facteurs influencent l’âge de départ à la retraite, notamment les paramètres du régime (âge normal de retraite, pénalités ou bonifications pour une retraite anticipée ou retardée, etc.) ainsi que le comportement des participants.
+
+
+
+## L’aspect sociétal
+
+### Le vieillissement de la population
+
+L’arrivée de la contraception vers 1965 a profondément transformé, et de façon durable, la structure de la population canadienne et québécoise. Ce changement a provoqué ce qu’on appelle le *baby-bust*, soit une chute marquée de la natalité. Le taux de natalité est passé d’environ 30 naissances par 1000 habitants entre 1925 et 1960 à environ 15 naissances par 1000 entre 1968 et 1982, puis à environ 12,5 naissances par 1000 entre 1983 et 1999, et à environ 10,5 naissances par 1000 depuis 2000.
+
+Contrairement à une croyance répandue, le *baby-boom* — période durant laquelle la natalité est passée d’environ 27 naissances par 1000 habitants entre 1940 et 1945 à un peu plus de 30 naissances par 1000 entre 1946 et 1957 — constitue en réalité une variation relativement modeste. Cependant, en raison de la croissance soutenue de la population avant 1950 et surtout de la forte baisse de la natalité par la suite, la génération des *baby-boomers* (généralement les personnes nées entre 1946 et 1960) forme aujourd’hui la cohorte la plus nombreuse dans la population du Québec.
+
+Le tableau suivant présente l’évolution de la natalité au Québec. [Source](https://statistique.quebec.ca/fr/produit/tableau/naissances-et-taux-de-natalite-quebec)
+
+![](images/Naissances.png){width=75% fig-align="center"}
+
+Le graphique ci-dessous reprend les valeurs du tableau précédent, pour montrer la forte tendance à la baisse dans le taux de natalité au Québec depuis la fin de la période de baby-boom.
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 14
+#| fig-align: center
+
+library(tidyverse)
+
+df_naissance <- tribble(
+~annee, ~taux,
+1900,39.5,1901,37.8,1902,38.2,1903,37.1,1904,38.2,
+1905,39.1,1906,39.4,1907,37.3,1908,37.7,1909,40.6,
+1910,39.3,1911,38.6,1912,38.7,1913,39.5,1914,39.5,
+1915,39.7,1916,38.4,1917,38.2,1918,38.7,1919,36.1,
+1920,36.7,1921,37.6,1922,36.7,1923,34.2,1924,34.8,
+1925,34.3,1926,31.6,1927,31.3,1928,30.8,1929,29.4,
+1930,29.6,1931,29.1,1932,28.1,1933,25.9,1934,25.3,
+1935,24.6,1936,24.3,1937,24.1,1938,24.6,1939,24.7,
+1940,25.6,1941,26.8,1942,28.0,1943,28.6,1944,29.2,
+1945,29.3,1946,30.7,1947,31.1,1948,30.3,1949,30.1,
+1950,30.7,1951,30.4,1952,30.7,1953,30.6,1954,31.0,
+1955,30.2,1956,30.0,1957,30.3,1958,29.3,1959,28.8,
+1960,27.5,1961,26.6,1962,25.7,1963,24.9,1964,24.0,
+1965,21.7,1966,19.5,1967,17.9,1968,17.0,1969,16.6,
+1970,16.1,1971,15.3,1972,14.3,1973,14.4,1974,14.6,
+1975,15.2,1976,15.3,1977,15.1,1978,14.9,1979,15.4,
+1980,15.0,1981,14.5,1982,13.8,1983,13.3,1984,13.2,
+1985,12.9,1986,12.6,1987,12.3,1988,12.6,1989,13.2,
+1990,14.0,1991,13.8,1992,13.5,1993,12.9,1994,12.6,
+1995,12.1,1996,11.7,1997,11.0,1998,10.4,1999,10.1,
+2000,9.8,2001,10.0,2002,9.7,2003,9.9,2004,9.8,
+2005,10.1,2006,10.7,2007,11.0,2008,11.3,2009,11.3,
+2010,11.2,2011,11.1,2012,11.0,2013,11.0,2014,10.8,
+2015,10.6,2016,10.5,2017,10.1,2018,10.0,2019,9.9,
+2020,9.6,2021,9.9,2022,9.3,2023,8.8,2024,8.5
+)
+
+ggplot(df_naissance, aes(x = annee, y = taux)) +
+  geom_line(linewidth = 1, colour = "blue") +
+  #geom_point(size = 1.5, colour = "blue") +
+  geom_vline(xintercept = 1946, linetype = "dotted", linewidth = 0.7) +
+  geom_vline(xintercept = 1960, linetype = "dotted", linewidth = 0.7) +
+  annotate("text", x = 1953, y = 36, label = "baby boom", size = 4) +
+  scale_x_continuous(breaks = seq(1900, 2030, by = 10)) +
+  scale_y_continuous(breaks = seq(8, 42, by = 2)) +
+  labs(
+    x = "Année",
+    y = "Naissances pour 1000 habitants"
+  ) +
+  theme_bw()
+
+```
+
+Bien que le taux de natalité soit un bon indicateur de la composition de la population dans le futur, il est peut-être encore plus intéressant d'analyser la pyramide des âges de la population au Québec et au Canada.  Dans un premier temps, on peut s'attarder à analyser le Québec, avec le site de statistique Québec qui propose un source interactive [ici](https://statistique.quebec.ca/vitrine/vieillissement/themes/population/pyramide-ages-animee)
+
+![](images/Pyramide.png){width=50% fig-align="center"}
+
+Similairement, le site de Statistique Canada propose aussi un outil similaire, avec une source interactive [ici](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/pyramid/index-fra.cfm)
+
+![](images/Pyramide2.png){width=50% fig-align="center"}
+
+#### **Lecture de la pyramide démographique actuelle** {-}
+
+Les pyramides démographiques du Canada et du Québec révèlent plusieurs caractéristiques importantes de l’évolution récente de la population.
+
+- La pyramide traditionnelle — caractérisée par une base très large et un sommet étroit — s’est progressivement transformée en une structure qui ressemble davantage à un *champignon démographique*. La base de la pyramide est relativement étroite, tandis que les groupes d’âge intermédiaires et plus âgés occupent une part plus importante de la population.
+
+- La partie la plus large du « chapeau » correspond à la génération du *baby-boom*, c’est-à-dire les cohortes nées approximativement entre 1946 et 1965 (en vert dans la pyramide du Québec). Ces cohortes demeurent particulièrement visibles dans la structure d’âge de la population, même plusieurs décennies après leur naissance.
+
+- L’ampleur du *baby-bust*, c’est-à-dire la chute de la fécondité qui a suivi le baby-boom, apparaît clairement lorsque l’on compare la largeur des cohortes jeunes avec celle des cohortes nées durant les années 1950 et 1960. Si la natalité était demeurée au niveau observé avant la baisse de la fécondité, la base de la pyramide serait aujourd’hui beaucoup plus large. Cette transformation signifie que, dans la structure démographique actuelle, les générations plus jeunes sont relativement moins nombreuses que celles qui les précèdent. La pyramide reflète donc un processus graduel de vieillissement de la population.
+
+- Historiquement, de nombreux systèmes économiques et sociaux reposaient implicitement sur une structure démographique différente : une population active nombreuse soutenant une population retraitée relativement plus petite - une forme de pyramide en d'autres mots. Lorsque la pyramide se transforme et que la proportion de personnes âgées augmente, cet équilibre devient plus difficile à maintenir.  Dans ce contexte, les mécanismes de financement de la retraite évoluent progressivement. Les systèmes reposent de plus en plus sur une combinaison de capitalisation individuelle, d’épargne accumulée au cours de la vie active et de mécanismes publics de redistribution.
+
+- Les gouvernements doivent également adapter leurs politiques publiques afin de financer les services destinés à une population plus âgée, notamment les pensions publiques, les soins de santé et les services d’hébergement.
+
+- Pour les actuaires, ces transformations démographiques sont fondamentales. L’analyse de la structure d’âge de la population permet d’anticiper les pressions financières futures et de concevoir des régimes d’assurance et de retraite capables de demeurer viables à long terme.
+
+### Lecture démographique de l’année 2036
+
+Maintenant, que se passe-t-il si l’on prolonge cette évolution démographique jusqu’en 2036 ?
+
+![](images/Pyramide4.png){width=50% fig-align="center"}
+
+Les projections démographiques permettent souvent d’illustrer un principe important en actuariat :  les grandes structures de population évoluent lentement et peuvent donc être anticipées plusieurs décennies à l’avance. Il est intéressant de relire certaines prévisions formulées il y a une quinzaine d’années à propos de l’année 2036 (dans les anciennes notes de cours). Plusieurs de ces observations demeurent étonnamment justes aujourd’hui.
+
+- **Une cohorte au cœur de sa carrière**
+
+  Les étudiants universitaires de ce cours en 2025 auront environ 35 ans en 2036. Autrement dit, ils entreront alors dans la phase généralement la plus productive de leur carrière. Cette observation peut sembler banale, mais elle rappelle un aspect central de la démographie économique : *les grandes cohortes progressent dans la pyramide des âges comme une onde démographique*. Lorsqu’une cohorte nombreuse atteint les âges de forte activité professionnelle, elle influence fortement :
+
+  - la taille de la population active;
+  - la production économique;
+  - la demande de logement et d’actifs financiers.
+
+- **Le vieillissement des baby-boomers**
+
+  Les personnes nées durant le baby-boom (environ 1946–1965) auront entre 71 et 90 ans en 2036. Dans les pyramides d’âge projetées, cette cohorte apparaît clairement comme un renflement important dans les âges avancés. Les classes d’âge autour de 75 à 80 ans demeurent ainsi parmi les plus nombreuses de la population. Ce phénomène avait été largement anticipé. La démographie du baby-boom est suffisamment marquée pour que ses effets restent visibles pendant plusieurs décennies. Les conséquences sont bien connues :
+
+  - forte croissance de la population âgée;
+  - pression accrue sur les systèmes de santé;
+  - augmentation du nombre de bénéficiaires des régimes publics de retraite.
+
+- **Les effets persistants de la baisse de natalité**
+
+  La forte baisse de la natalité observée autour de la fin des années 1990 et du début des années 2000 crée également une trace visible dans la structure démographique. Ces cohortes relativement peu nombreuses se déplacent graduellement vers le haut de la pyramide. Lorsqu’elles atteindront l’âge de la retraite, elles créeront à leur tour une forme particulière dans la structure d’âge. Autrement dit, même si l’histoire ne se répète pas exactement, elle bégaie : *les irrégularités dans la natalité laissent des empreintes durables dans la population*.
+
+- **Pression sur les régimes publics**
+
+  Le vieillissement rapide de la population a des implications directes pour les régimes publics. Au Canada et au Québec, on observe déjà :
+
+  - une hausse graduelle des cotisations dans les régimes contributifs comme le Régime des Rentes du Québec (RRQ);
+  - une pression budgétaire croissante pour les programmes non provisionnés comme la Pension de la sécurité de la vieillesse (PSV).
+
+  La question fondamentale demeure la suivante : *comment répartir la richesse entre les travailleurs actifs et les retraités dans une société vieillissante?* Cette tension démographique est l’un des enjeux structurants de l’actuariat public.
+
+- **L’âge de la retraite**
+
+  Face au vieillissement, plusieurs pays ont envisagé ou adopté des mesures visant à repousser l’âge normal de la retraite. L’idée de relever l’âge d’admissibilité à certaines prestations publiques – par exemple de 65 à 67 ans ou davantage – revient régulièrement dans les débats politiques. Même lorsque ces réformes sont retardées ou abandonnées, la logique démographique qui les motive ne disparaît pas : plus l’espérance de vie augmente, plus la durée moyenne de la retraite s’allonge.
+
+- **Une nuance importante : le rôle de l’immigration**
+
+  Les prévisions démographiques anciennes supposaient souvent une croissance relativement modérée de la population. Or, depuis les années 2020, le Canada a connu une immigration particulièrement élevée, concentrée chez les adultes jeunes. Cela a deux effets :
+
+  1. la population active augmente plus rapidement que prévu;
+  2. la pyramide des âges est partiellement élargie dans les groupes d’âge de 20 à 40 ans.
+
+  L’immigration agit donc comme un mécanisme qui ralentit temporairement le vieillissement démographique, sans toutefois l’éliminer.
+
+- **Un regard vers 2045 : un nouveau renflement démographique**
+
+  Si l’on prolonge la lecture de la pyramide, un autre phénomène apparaît. Les cohortes relativement peu nombreuses nées autour de l’an 2000 se déplaceront progressivement vers le haut de la structure d’âge. Entre 2045 et 2060, elles atteindront à leur tour les âges de la retraite.
+
+  ![](images/Pyramide3.png){width=50% fig-align="center"}
+
+  On observera alors un nouveau renflement démographique autour de 65 ans, différent de celui créé par les baby-boomers, mais issu de la même logique : les fluctuations de natalité produisent des ondes successives dans la pyramide des âges. Pour les actuaires, ces mouvements sont particulièrement importants, car ils influencent directement :
+
+  - la taille des populations assurées;
+  - les dépenses de retraite;
+  - la dynamique des régimes publics et privés.
+
+  La pyramide des âges rappelle ainsi une idée simple mais fondamentale : *la démographie agit lentement, mais ses effets sont profonds et durables.*
+
+### Les preneurs du risque de longévité
+
+Rares sont les individus qui ont accumulé suffisamment d’épargne pour assumer eux-mêmes le risque de longévité à la retraite. Par ailleurs, la structure actuelle de la population limite la capacité des générations plus jeunes à assumer le risque de longévité des générations plus âgées. Plusieurs acteurs peuvent toutefois prendre en charge, en tout ou en partie, ce risque de longévité.
+
+- **L’État**
+
+  Un des rôles essentiels de l’État consiste à répartir la richesse collective à travers la société, notamment en la redistribuant des personnes les plus favorisées économiquement vers celles qui le sont moins. Parmi ces dernières, on compte un grand nombre de personnes âgées. Une personne âgée n’est généralement plus en mesure de travailler, ou ne peut pas le faire de façon durable, et peut, pour diverses raisons, ne pas avoir accumulé suffisamment d’épargne pour vivre décemment le reste de sa vie.
+
+  Aux citoyens canadiens âgés de 65 ans et plus ayant des revenus modestes, l’État (gouvernement du Canada) fournit un revenu de base, notamment par la pension de sécurité de la vieillesse et le supplément de revenu garanti (régimes vus en détail dans un prochain chapitre). Dans ces programmes, l’État assume le risque de longévité, puisque les versements sont effectués tant que la personne est vivante. Ces régimes sont financés par les revenus généraux du gouvernement fédéral (taxes et impôts). La pension de sécurité de la vieillesse vise à remplacer environ 15 % du revenu moyen des Canadiens.
+
+  Les gouvernements des provinces, quant à eux, offrent un régime de retraite collectif à cotisation obligatoire aux travailleurs. Il s’agit du Régime de rentes du Québec (RRQ) pour les travailleurs résidant au Québec et du Régime de pensions du Canada (RPC) pour les autres travailleurs canadiens. Ces régimes seront étudiés en détail dans un prochain chapitre. Le montant des rentes offertes par le RRQ et le RPC varie selon le revenu gagné par le travailleur et vise à remplacer environ 25 % du revenu gagné au cours de sa carrière (sans excéder 25\% du revenu moyen gagné par les travailleurs canadiens). Le RRQ et le RPC assument également le risque de longévité, puisque toute insuffisance éventuelle dans la caisse de ces régimes est répartie entre les cotisants actuels, sans qu’il n’en coûte quoi que ce soit aux retraités.
+
+- **Les employeurs**
+
+  Les employeurs peuvent assumer une partie plus ou moins importante du risque de longévité de leurs travailleurs en mettant sur pied des régimes de retraite. Dans certains cas, ces régimes permettent uniquement l’accumulation d’une épargne pendant la carrière active. Le risque de longévité n’est alors pris en charge que dans la mesure où la somme accumulée permet d’acheter une rente suffisante auprès d’un assureur, lequel assumera lui aussi une partie de ce risque.  Les employeurs peuvent également offrir des régimes garantissant le versement d’une rente habituellement basée sur le salaire gagné et sur les années de service. Dans ce cas, le régime de retraite assume directement le risque de longévité, dans la mesure où l’inflation ne vient pas éroder de façon importante la valeur réelle de la rente promise.
+
+- **Les assureurs**
+
+  Les assureurs sont les seules institutions financières (si l’on fait abstraction des régimes de retraite qui garantissent eux-mêmes des rentes) capables d’offrir des rentes viagères et, par conséquent, d’assumer pleinement le risque de longévité, dans la mesure où l’inflation ne vient pas réduire considérablement la valeur réelle de la rente.  Plus généralement, ce qui distingue les assureurs des autres institutions financières est le fait qu’ils offrent des produits permettant de transférer certains risques, notamment le risque de mortalité et, par conséquent, le risque de longévité. Le transfert de risque constitue d’ailleurs la caractéristique fondamentale de l’assurance.
+
+- **Les individus**
+
+  Les personnes qui ne transforment pas leurs épargnes en rente au moment de la retraite se trouvent à assumer elles-mêmes leur risque de longévité. Si elles vivent plus longtemps que prévu, elles risquent d’épuiser leurs économies avant leur décès et de se retrouver dans une situation de dépendance financière, notamment à l’égard des programmes publics. Dans la pratique, plusieurs personnes ne convertissent qu’une partie de leur épargne en rente et conservent le reste sous forme d’actifs financiers qu’elles peuvent utiliser au besoin. En présence d’un risque d’inflation, le fait de conserver une partie de l’épargne au lieu de tout immobiliser dans une rente non indexée peut permettre de mieux gérer le risque de longévité. Cette portion de l’épargne peut continuer de croître à un taux espéré légèrement supérieur à l’inflation et être utilisée plus tard dans la retraite, lorsque l’inflation aura réduit le pouvoir d’achat de la rente.
+  
+
+## Rôles remplis par les actuaires dans le domaine des régimes de retraite
+
+Les actuaires interviennent à différentes étapes de la vie d’un régime de retraite, depuis sa conception jusqu’à son suivi à long terme. Leur travail ne se limite pas aux calculs financiers : ils participent également à l’évaluation des risques, à la communication de l’information aux participants et au développement des hypothèses utilisées dans les projections. Leurs principales responsabilités peuvent être regroupées en quatre grandes catégories :
+
+- **Conception de régime**
+
+  La conception des régimes de retraite est souvent confiée à un actuaire, car l’employeur ou le responsable du régime ne connaît généralement que le coût qu’il est prêt à assumer sur une période plus ou moins longue (de quelques années à plusieurs années). Dans le cas d’un régime à cotisations déterminées, le responsable du régime n’a pas nécessairement besoin d’un actuaire, puisqu’il lui suffit de fixer un niveau de cotisation jugé acceptable (par exemple 4 % du salaire annuel). Un actuaire peut toutefois être utile pour mettre en place des outils de projection permettant d’estimer la rente que l’employé pourra recevoir à la retraite, compte tenu notamment de l’âge de la retraite, du rendement obtenu sur la caisse de retraite et des probabilités de décès après la retraite selon l’âge et le sexe. Pour ce faire, l’actuaire doit modéliser les différents risques et paramètres du régime.
+
+  Si l’on souhaite mettre sur pied un régime à prestations déterminées, il est généralement nécessaire de faire appel à un actuaire. Celui-ci établira notamment le coût « normal » du régime pour le service courant des employés. Si l’on prévoit reconnaître le service antérieur à l’entrée en vigueur du régime, l’actuaire devra également estimer le déficit actuariel initial, c’est-à-dire le coût des prestations déjà constituées au moment de l’entrée en vigueur du régime. L’actuaire choisit également les hypothèses actuarielles pertinentes (mortalité avant et après la retraite, invalidité, rendement des placements, âge de la retraite, etc.). Souvent, l’employeur lui demandera d’évaluer différentes structures de régime afin de choisir la formule la plus appropriée : quel pourcentage de remplacement du salaire viser, faut-il utiliser le salaire moyen de carrière ou la moyenne des dernières ou des meilleures années de gains, et quel âge de retraite normale adopter (65 ans, un autre âge, ou une combinaison d’âge et d’années de service).
+
+- **Évaluation de régime**
+
+  Lorsqu’un régime de retraite à prestations déterminées est en place, son coût doit être réévalué périodiquement par un actuaire. Seul un actuaire titulaire du titre de « Fellow » de l’Institut canadien des actuaires et possédant les qualifications requises en régimes de retraite peut effectuer cette évaluation et en certifier le résultat. L’évaluation actuarielle est encadrée par les [normes de pratique](https://www.cia-ica.ca/docs/default-source/standards/sp060915f.pdf?sfvrsn=2) et les [règles de déontologie](https://www.cia-ica.ca/docs/default-source/2016/216083f.pdf?sfvrsn=0) de l’Institut canadien des actuaires. L’Institut publie également du [matériel d’orientation](https://www.cia-ica.ca/fr/publications/materiel), dont des notes éducatives portant sur l’évaluation des régimes de retraite.  La Loi de l’impôt sur le revenu et les lois provinciales sur les régimes complémentaires de retraite définissent également certains aspects du rôle de l’actuaire dans le cadre de l’évaluation d’un régime.
+
+- **Communication**
+
+  Les lois régissant les régimes de retraite exigent qu’un relevé annuel de participation soit transmis à chaque participant d’un régime à prestations déterminées. Ce relevé doit généralement indiquer les droits acquis par le participant (montant de la rente accumulée, date normale de retraite, etc.) ainsi que le niveau de provisionnement du régime, qui peut parfois être inférieur à 100 %. Les actuaires sont souvent impliqués dans la préparation de ces relevés. Ils doivent notamment communiquer le taux de provisionnement du régime et s’assurer de l’exactitude des informations transmises aux participants. Dans la pratique, les relevés sont souvent produits par le département d’administration des régimes de retraite d’une firme d’actuaires.
+
+- **Recherche**
+
+  De façon générale, les tables de mortalité utilisées dans le domaine des assurances et des rentes sont élaborées par des actuaires. Ceux-ci participent activement à la collecte et à l’analyse des données sous-jacentes, construisent les tables elles-mêmes et développent des échelles ou des méthodes de projection permettant d’anticiper les améliorations futures de la mortalité. Dans le cas des régimes de retraite, il est souvent nécessaire d’adapter les tables de mortalité au groupe particulier faisant l’objet d’une évaluation. L’actuaire doit notamment déterminer dans quelle mesure une table de mortalité publiée est applicable à un groupe donné. Par exemple, il n’est pas évident que la mortalité de camionneurs retraités soit la même que celle d’employés de bureau ou de professionnels retraités. Ce travail d’analyse et d’adaptation relève de la responsabilité de l’actuaire.  De la même manière, les taux de retraite selon l’âge et le sexe peuvent varier considérablement d’un régime ou d’un groupe à l’autre. L’actuaire doit donc développer et justifier des hypothèses appropriées concernant ces taux de retraite.
+
+
+## Conclusion
+
+La préparation financière à la retraite repose sur une question fondamentale : comment disposer d'un revenu suffisant pendant une période dont on ne connaît pas la durée? Les programmes publics, les régimes collectifs et l'épargne personnelle apportent chacun une partie de la réponse, mais leur combinaison ne fait pas disparaître les risques liés à la longévité, à l'inflation et au moment du départ à la retraite.
+
+Ces enjeux dépassent les décisions individuelles. Le vieillissement de la population soulève également des questions importantes pour le financement et la pérennité des régimes de retraite. C'est dans ce contexte que les actuaires interviennent, notamment pour concevoir les régimes, évaluer leurs engagements financiers et contribuer à leur gestion à long terme.
+

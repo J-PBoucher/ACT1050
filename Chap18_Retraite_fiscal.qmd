@@ -1,0 +1,777 @@
+---
+toc: false
+date: 03/15/2026
+date-modified: last-modified
+---
+
+#  Aspect fiscal
+
+### Objectifs du chapitre {-}
+
+- Comprendre le rôle du gouvernement dans l’établissement des paramètres fiscaux liés à l’épargne-retraite;
+- Comprendre le rôle de la Loi de l’impôt sur le revenu dans la détermination des limites de cotisation aux régimes de retraite et aux REER;
+- Connaître le calcul du facteur d’équivalence (FE);
+- Comprendre les limites applicables aux régimes à prestations déterminées.
+
+## Introduction
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
+">
+
+<img src="images/Impots.png"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+Lucien Cheval, un contrôleur fiscal dans [Le dîner de cons](https://www.imdb.com/fr-ca/title/tt0119038/)
+</div>
+
+</div>
+
+L’aspect fiscal des régimes de retraite joue un rôle central dans l’encouragement à l’épargne à long terme. Par la fiscalité, les gouvernements influencent les décisions individuelles en matière de consommation et d’épargne au cours de la vie.  Les gouvernements ont plusieurs raisons d’encourager l’épargne en vue de la retraite :  
+
+- Réduire la dépendance aux programmes publics destinés aux personnes âgées à faible revenu, comme le Supplément de revenu garanti;
+- Favoriser un meilleur lissage du revenu entre la période active et la retraite;
+- Reporter dans le temps une partie de l’imposition, ce qui génère des recettes fiscales futures lorsque les sommes sont retirées.
+
+Pour atteindre ces objectifs, les gouvernements mettent en place une fiscalité favorable à l’épargne-retraite, reposant principalement sur les mécanismes suivants :
+
+- Déduction fiscale (selon certaines limites) des cotisations aux régimes enregistrés;
+- Non-imposition des revenus de placement accumulés dans ces régimes;
+- Imposition des sommes lors de leur retrait, généralement à la retraite.
+
+Dans ce chapitre, on présente en détail le fonctionnement de ces mécanismes fiscaux, en mettant l’accent sur les principaux véhicules d’épargne-retraite, leurs règles fiscales, ainsi que les effets de ces règles sur les décisions d’épargne et de décaissement. à la retraite.
+
+<div style="clear: both;"></div>
+
+## Loi de l’impôt sur le revenu
+
+La [Loi de l’impôt sur le revenu](https://laws-lois.justice.gc.ca/fra/lois/i-3.3/TexteComplet.html) est une loi fédérale qui établit les règles générales de taxation au Canada. Dans la plupart des provinces, l’impôt provincial est administré conjointement avec l’impôt fédéral et repose sur une base harmonisée, bien que chaque province conserve une certaine autonomie pour fixer ses taux et crédits. Le Québec constitue un cas particulier, puisqu’il administre son [propre régime d’imposition du revenu](https://www.revenuquebec.ca/fr/citoyens/votre-situation/nouvel-arrivant/regime-fiscal-du-quebec/), distinct de celui du fédéral, tout en s’inspirant largement des règles établies au niveau fédéral.
+
+En matière de régimes de retraite, le gouvernement fédéral joue un rôle central en définissant les principes et les limites fiscales applicables à l’épargne-retraite. Ces règles s’imposent à l’ensemble des provinces, y compris le Québec. Par l’entremise de l’Agence du revenu du Canada (ARC), le gouvernement fédéral encadre ainsi l’accès aux avantages fiscaux liés aux régimes enregistrés, en en fixant les conditions, les plafonds et les mécanismes de contrôle. Au cours des années 1980, le gouvernement fédéral s’est penché sur la question de l’équité fiscale entre les différents véhicules d’épargne-retraite, notamment entre les régimes individuels, comme les Régimes enregistrés d’épargne-retraite (REER), et les régimes collectifs offerts par les employeurs. Ces travaux ont mené à une réforme importante de la Loi de l’impôt sur le revenu, adoptée en 1990 (projet de loi C-52).
+
+Cette réforme poursuivait notamment les objectifs suivants :
+
+- Encourager l’épargne-retraite en augmentant les plafonds de cotisation admissibles aux REER;
+- Réduire les inéquités entre les différents types de régimes en harmonisant les limites fiscales, notamment entre les régimes à prestations déterminées et les régimes d’accumulation (régimes à cotisations déterminées et REER);
+- Accroître la flexibilité des mécanismes d’épargne en permettant un meilleur étalement des cotisations dans le temps;
+- Assurer la pérennité du système en prévoyant l’indexation des plafonds afin de maintenir leur valeur réelle au fil du temps.
+
+### Agrément des régimes
+
+Pour bénéficier d’un traitement fiscal préférentiel, un régime de retraite collectif doit être enregistré auprès de l’ARC. De même, les régimes individuels doivent également être enregistrés. Dans la pratique, les termes « agréé » et « enregistré » sont souvent utilisés de manière interchangeable, bien que le terme « enregistré » corresponde au statut fiscal officiel. L’enregistrement des régimes permet d’obtenir le traitement fiscal préférentiel suivant :
+
+- Les cotisations de l’employeur sont déductibles de son revenu d’affaires, jusqu’à concurrence des plafonds fixés par la Loi de l’impôt;
+- Les cotisations de l’employé sont déductibles de son revenu personnel, jusqu’à concurrence des plafonds fixés par la Loi de l’impôt — il s’agit d’une déduction et non d’un crédit d’impôt;
+- Les revenus de placement et les gains en capital réalisés dans le régime ne sont pas imposables (les actifs s’accumulent donc à l’abri de l’impôt);
+- Les prestations versées par le régime sont imposables pour le bénéficiaire.
+
+::: {#exm-5 .custom}
+Une déduction réduit le revenu imposable et procure une économie d’impôt au taux marginal, alors qu’un crédit d’impôt correspond à une réduction d’impôt calculée à un taux fixe.
+
+À titre illustratif, pour un contribuable dont le taux marginal est de 50 % et pour lequel le taux applicable aux crédits est de 32,5 %, une déduction de 10 000 \$ entraîne une économie d’impôt de 5 000 \$, contre 3 250 \$ pour un crédit du même montant.
+
+Cet exemple suppose que la totalité de la déduction s’applique au taux marginal et vise uniquement à illustrer la différence de mécanisme entre déduction et crédit.
+:::
+
+#### **Obtention de l’agrément** {-} 
+
+Pour obtenir l’agrément, un régime de retraite doit satisfaire un ensemble d’exigences de nature administrative, fiscale et actuarielle.
+
+1) Sur le plan administratif :
+
+   - Une demande d’agrément doit être déposée sur le formulaire prescrit, accompagnée des documents requis, notamment le texte du régime, le mécanisme de financement, les règlements et les résolutions applicables.
+
+2) Sur le plan des objectifs du régime :
+
+   - Le régime doit avoir pour principal objet le versement périodique de prestations après la retraite, jusqu’au décès, en contrepartie des services rendus à titre d’employé;
+   - Les droits des participants ne peuvent être cédés.
+
+3) Sur le plan fiscal :
+
+   - Les cotisations doivent respecter les limites prévues par la Loi de l’impôt;
+   - Les prestations, dans le cas d’un régime à prestations déterminées, doivent respecter les plafonds applicables;
+   - Le versement des prestations doit débuter au plus tard à la fin de l’année civile au cours de laquelle le participant atteint 71 ans;
+   - Dans un régime à cotisations déterminées, les sommes accumulées doivent servir à procurer un revenu de retraite, notamment sous forme de rente ou par l’entremise d’un mécanisme de décaissement comme un fonds de revenu viager.
+
+4) Sur le plan actuariel et financier :
+
+   - Le mécanisme de financement doit être acceptable;
+   - Les placements ne doivent pas être interdits;
+   - Dans le cas d’un régime à prestations déterminées, les montants doivent être établis selon des hypothèses et des principes actuariels généralement reconnus;
+   - Les facteurs d’équivalence doivent être adéquats.
+
+### Outils d’épargne personnels
+
+L’épargne en vue de la retraite peut s’effectuer par l’intermédiaire de plusieurs types de véhicules, qu’ils soient individuels ou collectifs, enregistrés ou non. Ces différents outils ne sont pas soumis aux mêmes règles fiscales, ce qui crée un enjeu d’équité dans l’accès à l’aide fiscale. Afin d’éviter qu’un contribuable puisse bénéficier d’un avantage fiscal plus élevé simplement en raison du type de régime auquel il participe, la Loi de l’impôt sur le revenu impose des limites globales à l’épargne-retraite. Cela nécessite de pouvoir comparer des mécanismes d’épargne de nature différente, notamment les régimes à prestations déterminées, les régimes à cotisations déterminées et les REER. Les principaux outils d’épargne utilisés sont les suivants :
+
+- **Régime enregistré d’épargne-retraite (REER)**  
+  Le REER est un régime individuel enregistré d’épargne-retraite. On peut y cotiser jusqu’aux limites prévues par la Loi de l’impôt sur le revenu. Les fonds s’y accumulent à l’abri de l’impôt, mais tout retrait est pleinement imposable. À la retraite, les sommes doivent être converties en revenu, notamment par l’achat d’une rente ou le transfert dans un fonds enregistré de revenu de retraite (FERR).
+
+- **Régimes non agréés (non enregistrés) collectifs**  
+  À l’opposé des régimes enregistrés, il existe des régimes non enregistrés qui ne bénéficient d’aucun traitement fiscal préférentiel. Ces régimes permettent notamment de verser des prestations en excédent des limites fiscales applicables.  Dans ce cas :
+
+  - La cotisation de l’employeur est déductible de son revenu d’affaires;
+  - Cette cotisation constitue un revenu imposable pour le participant;
+  - Les cotisations des participants ne sont pas déductibles;
+  - Les retraits sont libres;
+  - Le revenu de placement est imposé.
+
+  Ces régimes sont rares et visent principalement des salariés à revenu élevé. Certains ne sont pas capitalisés et reposent sur une promesse de l’employeur de verser des prestations à même ses revenus futurs.
+
+- **Compte d’épargne libre d’impôt (CELI)**  
+  Le CELI n’est pas un régime de retraite, mais un compte d’épargne bénéficiant d’un traitement fiscal particulier. Les cotisations ne sont pas déductibles, mais les revenus de placement et les retraits ne sont pas imposables. Bien qu’il ne soit pas spécifiquement conçu pour la retraite, le CELI peut jouer un rôle dans la planification du revenu de retraite, notamment en raison de la croissance non imposable des placements et de la flexibilité des retraits. Dans certains cas, il peut être utilisé pour gérer le profil de revenu à la retraite, par exemple en permettant de différer certaines sources de revenu imposable.
+  
+## Limites d’épargne retraite
+
+La Loi de l’impôt sur le revenu repose sur un principe d’équité fiscale : à revenu égal, les contribuables devraient bénéficier d’un niveau comparable d’aide fiscale à l’épargne-retraite, peu importe le véhicule utilisé (régime à prestations déterminées, à cotisations déterminées, REER, etc.). Pour assurer cette équité, une limite globale d’épargne admissible est appliquée à l’ensemble des modes d’épargne-retraite. Plus précisément :
+
+- Dans un régime de pension agréé (RPA) à cotisations déterminées, la limite correspond à 18 % du revenu gagné de l’année courante, sans excéder un maximum fixé annuellement;
+- Dans un REER, la limite correspond à 18 % du revenu gagné de l’année précédente, sous réserve d’un maximum annuel, généralement aligné mais décalé d’un an par rapport à celui des RPA;
+- Dans un régime à prestations déterminées, les droits accumulés sont convertis en une valeur équivalente de cotisation au moyen d’un **facteur d’équivalence**;
+- Aucune aide fiscale supplémentaire n’est accordée aux cotisations excédant cette limite globale.
+
+::: {.encadre}
+
+Aux fins du calcul de cette limite, on peut rappeler que le revenu gagné pour une année courante est défini comme suit :
+
+
+| Éléments ajoutés (+) | Éléments soustraits (−) |
+|---------------------|------------------------|
+| Salaire | Pertes d’entreprise |
+| Revenus d’entreprise | Pertes de location d’immeubles |
+| Revenus de location d’immeubles | Pensions alimentaires déductibles versées |
+| Prestations d’invalidité imposables (incluant RRQ/RPC) | |
+| Pensions alimentaires imposables reçues | |
+:::
+
+#### **Plafonds** {-}
+
+Le tableau ci-dessous présente l’évolution des plafonds applicables à la limite globale d’aide fiscale à l’épargne-retraite depuis 1991 et compare la limite au Maximum des gains admissibles du RRQ / RPC.  
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+df <- tibble::tribble(
+  ~Année, ~`Plafond RPA CD`, ~`Plafond REER`, ~`Revenu correspondant décalé d’un an`, ~MGA, ~`Revenu maximum / MGA`,
+  1991, "12 500 $", "11 500 $", "63 889 $", "30 500 $", "209.47%",
+  1992, "12 500 $", "12 500 $", "69 444 $", "32 200 $", "215.67%",
+  1993, "13 500 $", "12 500 $", "69 444 $", "33 400 $", "207.92%",
+  1994, "14 500 $", "13 500 $", "75 000 $", "34 400 $", "218.02%",
+  1995, "13 500 $", "14 500 $", "75 000 $", "34 900 $", "214.90%",
+  1996, "13 500 $", "13 500 $", "75 000 $", "35 400 $", "211.86%",
+  1997, "13 500 $", "13 500 $", "75 000 $", "35 800 $", "209.50%",
+  1998, "13 500 $", "13 500 $", "75 000 $", "36 900 $", "203.25%",
+  1999, "13 500 $", "13 500 $", "75 000 $", "37 400 $", "200.53%",
+  2000, "13 500 $", "13 500 $", "75 000 $", "37 600 $", "199.47%",
+  2001, "13 500 $", "13 500 $", "75 000 $", "38 300 $", "195.82%",
+  2002, "13 500 $", "13 500 $", "75 000 $", "39 100 $", "191.82%",
+  2003, "15 500 $", "14 500 $", "80 556 $", "39 900 $", "201.89%",
+  2004, "16 500 $", "15 500 $", "86 111 $", "40 500 $", "212.62%",
+  2005, "18 000 $", "16 500 $", "91 667 $", "41 100 $", "223.03%",
+  2006, "19 000 $", "18 000 $", "100 000 $", "42 100 $", "237.53%",
+  2007, "20 000 $", "19 000 $", "105 556 $", "43 700 $", "241.55%",
+  2008, "21 000 $", "20 000 $", "111 111 $", "44 900 $", "247.46%",
+  2009, "22 000 $", "21 000 $", "116 667 $", "46 300 $", "251.98%",
+  2010, "22 450 $", "22 000 $", "122 222 $", "47 200 $", "258.95%",
+  2011, "22 970 $", "22 450 $", "124 722 $", "48 300 $", "258.22%",
+  2012, "23 820 $", "22 970 $", "127 611 $", "50 100 $", "254.71%",
+  2013, "24 270 $", "23 820 $", "132 333 $", "51 100 $", "258.97%",
+  2014, "24 930 $", "24 270 $", "134 833 $", "52 500 $", "256.83%",
+  2015, "25 370 $", "24 930 $", "138 500 $", "53 600 $", "258.40%",
+  2016, "26 010 $", "25 370 $", "140 944 $", "54 900 $", "256.73%",
+  2017, "26 230 $", "26 010 $", "144 500 $", "55 300 $", "261.30%",
+  2018, "26 500 $", "26 230 $", "145 722 $", "55 900 $", "260.68%",
+  2019, "27 230 $", "26 500 $", "147 222 $", "57 400 $", "256.48%",
+  2020, "27 380 $", "27 230 $", "151 277 $", "58 700 $", "257.71%",
+  2021, "29 210 $", "27 380 $", "152 111 $", "61 600 $", "246.93%",
+  2022, "30 780 $", "29 210 $", "162 278 $", "64 900 $", "250.00%"
+)
+
+df <- df %>%
+  add_row(
+    Année = 2023, 
+    `Plafond RPA CD` = "31 560 $",
+    `Plafond REER` = "30 780 $",
+    `Revenu correspondant décalé d’un an` = "171 000 $",
+    MGA = "66 600 $",
+    `Revenu maximum / MGA` = "256.76%"
+  ) %>%
+  add_row(
+    Année = 2024, 
+    `Plafond RPA CD` = "32 490 $",
+    `Plafond REER` = "31 560 $",
+    `Revenu correspondant décalé d’un an` = "180 500 $",
+    MGA = "68 500 $",
+    `Revenu maximum / MGA` = "263.50%"
+  ) %>%
+  add_row(
+    Année = 2025, 
+    `Plafond RPA CD` = "33 810 $",
+    `Plafond REER` = "32 490 $",
+    `Revenu correspondant décalé d’un an` = "187 833 $",
+    MGA = "71 300 $",
+    `Revenu maximum / MGA` = "263.40%"
+  )
+
+kbl(df, align = "c", booktabs = TRUE, escape = FALSE) %>%
+  kable_styling(
+    full_width = FALSE,
+    position = "center",
+    bootstrap_options = c("striped", "hover", "condensed")
+  )
+
+```
+
+:::
+
+Il n’existe pas de source unique regroupant l’ensemble de ces informations; le tableau résulte d’une compilation à partir de ces différentes sources. Ainsi, les données présentées dans ce tableau proviennent de sources officielles distinctes :
+
+- Les plafonds de cotisation aux REER et aux régimes de pension agréés (RPA) sont publiés annuellement par [l’Agence du revenu du Canada](https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html)  
+- Le  [Maximum des gains admissibles (RRQ)](https://www.revenuquebec.ca/en/businesses/source-deductions-and-employer-contributions/calculating-source-deductions-and-employer-contributions/quebec-pension-plan-contributions/maximum-pensionable-salary-or-wages-and-contribution-rate) du RRQ est publié annuellement par Retraite Québec; 
+- La règle de [Calcul du plafond REER (ARC)](https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html) (18 \% du revenu gagné, sous réserve d’un plafond) est décrite par l’ARC :  
+- La colonne « Revenu correspondant décalé d’un an » est obtenue en inversant la relation $\text{Plafond REER} = 0{,}18 \times \text{Revenu}$;
+- La colonne « Revenu maximum / MGA » est calculée à partir des données précédentes.
+
+
+#### **Relation avec le MGA** {-}
+
+Par ailleurs, bien qu’il n’existe aucun lien formel entre les plafonds d’épargne-retraite et le Maximum des gains admissibles (MGA) du RRQ / RPC, leur comparaison est informative. Le MGA constitue en effet une mesure du niveau de revenu moyen dans l’économie, puisqu’il évolue en fonction des salaires. 
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(ggplot2)
+
+df_plot <- df %>%
+  mutate(
+    ratio = as.numeric(gsub("%", "", `Revenu maximum / MGA`))
+  )
+
+ggplot(df_plot, aes(x = Année, y = ratio)) +
+  geom_line(color="blue") +
+  geom_point(color="blue") +
+  labs(
+    x = "Année",
+    y = "Revenu maximum / MGA (%)"
+  ) +
+  scale_x_continuous(breaks = seq(1991, 2026, by = 2)) +
+  theme_bw()
+
+```
+
+
+L’analyse du tableau met en évidence les éléments suivants :  
+
+- En 1991, le revenu maximal donnant droit à l’aide fiscale correspondait à environ 2,1 fois le MGA;
+- Entre 1994 et 2002, le gel des plafonds REER et RPA, combiné à la croissance continue du MGA (lié à l’évolution des salaires), a entraîné une diminution mécanique de ce ratio;
+- Les hausses importantes des plafonds au début des années 2000 ont ensuite permis un rattrapage, portant progressivement le ratio à environ 2,5 fois le MGA;
+- Depuis les années 2010, l’indexation parallèle des plafonds et du MGA a stabilisé ce ratio autour de 2,5, sans qu’il résulte d’une règle explicite, mais plutôt de la combinaison de mécanismes d’indexation distincts.
+
+Ainsi, bien que le multiple d’environ 2,5 fois le MGA soit observé actuellement, rien ne garantit sa stabilité à long terme, celui-ci demeurant tributaire des décisions gouvernementales en matière de fiscalité. Ce niveau peut toutefois être interprété comme une indication du revenu au-delà duquel l’aide fiscale à l’épargne-retraite est plafonnée.
+
+## Facteur d’équivalence (FE)
+
+La loi C-52 de 1990 a introduit la notion de facteur d’équivalence afin de rendre comparables, sur le plan fiscal, les différents véhicules d’épargne-retraite, notamment les régimes à prestations déterminées, les régimes à cotisations déterminées et les REER. Dans un régime à cotisations déterminées ou dans un REER, l’épargne est exprimée directement en dollars. En revanche, dans un régime à prestations déterminées, l’épargne prend la forme d’une rente future. Il est donc nécessaire de convertir cette rente en une valeur équivalente aujourd’hui afin de pouvoir la comparer aux cotisations. 
+
+Le facteur d’équivalence effectue cette conversion de manière simplifiée en supposant qu’un dollar de rente annuelle à la retraite correspond approximativement à 9 dollars aujourd’hui. Les employeurs qui offrent un régime de retraite doivent déclarer, dans les 60 jours suivant la fin de chaque année civile, le facteur d’équivalence des participants au moyen du feuillet d’impôt T4. Dans un régime à prestations déterminées, le facteur d’équivalence correspond à une estimation du crédit de rente accumulé au cours de l’année. Il est calculé comme suit :
+
+$$
+FE = 9 \times CR - 600
+$$
+
+où $CR$ représente le **crédit de rente**. Le montant forfaitaire de 600 constitue un ajustement visant à rapprocher cette mesure de celle utilisée pour les autres formes d’épargne-retraite.  Dans un régime à cotisations déterminées, le facteur d’équivalence correspond simplement à la somme des cotisations versées au cours de l’année :
+
+$$
+FE = \text{Cotisation de l’employeur} + \text{Cotisation de l’employé}
+$$
+
+::: {#exm-5 .custom}
+Un employé gagne 60 000 \$. Son régime de retraite à prestations déterminées (formule à salaire de carrière) lui crédite cette année une rente égale à 1,5\% de son salaire. Calculez son facteur d’équivalence.
+:::
+
+::: {.custom-solution}
+Solution.
+
+Le crédit de rente est :
+
+$$
+CR = 1,5\% \times 60\,000 = 900
+$$
+
+Le facteur d’équivalence est donc :
+
+$$
+FE = 9 \times CR - 600 = 9 \times 900 - 600 = 7\,500 \$
+$$
+:::
+
+::: {#exm-5 .custom}
+Un employé gagne 60 000 \$. Son régime de retraite à prestations déterminées (formule à salaire final) lui crédite cette année une rente égale à 1,5\% de son salaire. Calculez son facteur d’équivalence.
+:::
+
+::: {.custom-solution}
+Solution.
+
+Le crédit de rente est :
+
+$$
+1,5\% \times 60\,000 = 900
+$$
+
+Le facteur d’équivalence est donc :
+
+$$
+FE = 9 \times 900 - 600 = 7\,500
+$$
+
+On obtient ici le même résultat que dans l’exemple précédent, car le salaire utilisé dans la formule est identique. Toutefois, en général, le facteur d’équivalence dépend du crédit de rente, lequel peut varier selon la formule du régime (salaire final, salaire de carrière, etc.).
+:::
+
+::: {#exm-5 .custom}
+Un employé gagne 60 000 \$. Son régime de retraite est à cotisations déterminées. Il y cotise 4\% de son salaire et l’employeur cotise lui aussi 4\% du salaire. Calculez son facteur d’équivalence.
+:::
+
+::: {.custom-solution}
+Solution.
+
+Le facteur d’équivalence est :
+
+$$
+(4\% + 4\%) \times 60\,000 = 4\,800
+$$
+
+Ce résultat est inférieur à celui obtenu dans les exemples précédents pour un régime à prestations déterminées. Cela reflète le fait que les règles fiscales attribuent, en moyenne, une valeur plus élevée aux droits accumulés dans un régime à prestations déterminées. Toutefois, le facteur d’équivalence demeure une approximation et ne mesure pas directement la valeur économique réelle du régime.
+:::
+
+### Interprétation du facteur d’équivalence
+
+Le facteur d’équivalence n’a pas pour objectif de mesurer la valeur réelle d’un régime de retraite. Il sert plutôt à déterminer la part des droits d’épargne-retraite déjà utilisée par un participant au cours de l’année.  Concrètement, le facteur d’équivalence vient réduire le droit de cotisation au REER de l’année suivante :
+
+$$
+\text{Droit REER} = 18\% \times \text{revenu gagné} - FE
+$$
+
+Si on reprend nos exemples précédents,, pour un employé gagnant 60 000 \$ :
+
+- Sans régime de retraite, son droit de cotisation au REER serait de 10 800 \$;
+- Avec un facteur d’équivalence de 7 500 \$, ce droit est réduit à 3 300 \$;
+- Avec un facteur d’équivalence de 4 800 \$, il est réduit à 6 000 \$.
+
+Ainsi, le facteur d’équivalence permet d’assurer une certaine équité fiscale entre les individus, en limitant l’accès à l’aide fiscale globale, peu importe le type de régime auquel ils participent.
+
+### Caractéristiques du facteur d’équivalence
+
+Le FE effectue une conversion de manière simplifiée en supposant qu’un dollar de rente annuelle à la retraite correspond approximativement à **9 dollars aujourd’hui**. Ainsi, le crédit de rente est multiplié par 9 afin d’obtenir une valeur comparable aux cotisations. Il s’agit toutefois d’une approximation uniforme utilisée à des fins fiscales, qui ne tient pas compte de l’âge du participant, de son sexe ou des conditions économiques.  Or, en réalité, la valeur actuarielle d’une rente dépend fortement de ces facteurs. Le tableau suivant illustre par exemple la valeur actuelle d’une rente de 1,00 \$ par année, payable à compter de 65 ans et réversible à 60\%, selon différents âges, sexes et taux d’actualisation $i$, en utilisant la table CPM2014 de l’Institut Canadien des Actuaires.
+
+::: {.encadre}
+| Âge | Hommes (2%) | Femmes (2%) | Hommes (4%) | Femmes (4%) | Hommes (6%) | Femmes (6%) |
+|:---:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
+| 25 | 8,37 | 8,81 | 3,11 | 3,26 | 1,20 | 1,26 |
+| 30 | 9,26 | 9,74 | 3,79 | 3,97 | 1,62 | 1,68 |
+| 35 | 10,26 | 10,77 | 4,63 | 4,83 | 2,17 | 2,25 |
+| 40 | 11,36 | 11,91 | 5,64 | 5,89 | 2,91 | 3,02 |
+| 45 | 12,59 | 13,19 | 6,89 | 7,18 | 3,91 | 4,05 |
+| 50 | 13,98 | 14,61 | 8,43 | 8,77 | 5,26 | 5,44 |
+| 55 | 15,56 | 16,22 | 10,34 | 10,72 | 7,09 | 7,32 |
+| 60 | 17,39 | 18,06 | 12,73 | 13,15 | 9,60 | 9,87 |
+:::
+
+
+On peut tirer plusieurs conclusions du tableau précédent :
+
+- La valeur actuarielle d’un crédit de rente dépend fortement du taux d’intérêt. À titre d’illustration, pour un homme de 25 ans, la valeur d’une rente est environ 7 fois plus élevée à 2\% qu’à 6\%. À 50 ans, elle est environ 2,5 fois plus élevée. Ainsi, une baisse des taux d’intérêt augmente fortement le coût des régimes à prestations déterminées, ce qui contribue à expliquer leur déclin au profit des régimes à cotisations déterminées.
+
+- Le facteur 9 utilisé dans le calcul du FE ne correspond pas à une valeur actuarielle précise. Dans un contexte de taux d’intérêt élevés, il tend à surestimer la valeur du crédit de rente; à l’inverse, en contexte de faibles taux, il devient plus réaliste, voire peut sous-estimer cette valeur.
+
+- La pertinence du facteur 9 dépend également des hypothèses implicites, notamment en ce qui concerne les frais de gestion, l’accès aux marchés financiers et l’indexation des rentes. Pour un individu ayant un accès limité aux placements ou supportant des frais élevés, ce facteur peut apparaître plus représentatif.
+
+- En présence d’une indexation des rentes et de faibles taux réels (par exemple entre 2\% et 3\%), le facteur 9 correspond approximativement à la valeur actuarielle d’une rente différée vers l’âge moyen d’un participant.
+
+En somme, le facteur d’équivalence constitue un compromis fiscal visant à uniformiser le traitement des différents régimes, plutôt qu’une mesure actuarielle exacte. Sa validité dépend du contexte économique et des hypothèses retenues.
+
+
+::: {#exm-5 .custom}
+
+Considérons un homme de 50 ans employé gagnant 85 000 \$ et participant à un régime à prestations déterminées typique, créditant :
+
+- 1,3\% du salaire jusqu’au MGA (64 900 \$ en 2022);
+- 2\% du salaire en excédent.
+
+Calculez son facteur d'équivalence et comparez avec une rente viagère si les taux sont de 2\%, 4\% ou 6\%.
+:::
+
+::: {.custom-solution}
+Solution.
+
+Le crédit de rente est :
+
+$$
+CR = 1,3\% \times 64\,900 + 2\% \times (85\,000 - 64\,900) = 1\,245,70
+$$
+
+Le facteur d’équivalence est donc $FE = 9 \times 1\,245,70 - 600 = 10\,611$, soit 12,48\% du salaire. Pour comparer, on calcule la valeur actuarielle réelle de cette rente :
+
+- À 2\%, nous avons $13,98 \times 1\,245,70 = 17\,414,89$, soit 20,5\% du salaire
+- À 4\%, nous avons $8,43 \times 1\,245,70 = 10\,501,25$, soit 12,4\% du salaire
+- À 6\%, nous avons $5,23 \times 1\,245,70 = 6\,514,01$, soit 7,7\% du salaire.
+
+Ainsi:  
+
+- À 6\%, le FE (10 611) est **largement supérieur** à la valeur actuarielle (6 514). Le régime est donc fiscalement surévalué, et le travailleur perd trop d’espace REER.
+- À 4\%, le FE (10 611) est **très proche** de la valeur actuarielle (10 501). L’approximation est raisonnable.
+- À 2\%, le FE (10 611) est **nettement inférieur** à la valeur actuarielle (17 414). Le régime est alors sous-évalué fiscalement, ce qui laisse au travailleur plus d’espace REER que ne le suggérerait la valeur réelle du régime.
+
+On voit que le facteur d’équivalence n’est pas neutre: il pénalise les participants lorsque les taux d’intérêt sont élevés, et il les avantage lorsque les taux sont faibles. Il doit donc être interprété comme un compromis fiscal, et non comme une mesure du coût réel du régime.
+
+:::
+
+
+## Limite maximale sur le crédit de rente
+
+En plus de limiter l’aide fiscale à l’épargne-retraite sous forme de cotisations (REER ou régimes à cotisations déterminées), la Loi de l’impôt impose également une limite sur le crédit de rente annuel pouvant être accumulé dans un régime à prestations déterminées. Autrement dit, il ne suffit pas de limiter les cotisations : il faut aussi limiter la rente promise. Cette limite s’exprime en dollars de rente annuelle par année de service. Par exemple, en 2022, le crédit de rente maximal est de 3 420 \$ par année de service.
+
+Pour 2022, la limite de 3 420 \$ s’applique au crédit de rente annuel, c’est-à-dire au montant de rente acquis pour une année de service. Or, la rente totale à la retraite est obtenue en additionnant ces crédits de rente sur l’ensemble des années de service. Ainsi, une limite sur le crédit de rente annuel entraîne automatiquement une limite sur la rente totale. Par exemple, avec 20 années de service, la rente maximale permise est $20 \times 3\,420 = 68\,400$, ou encore 119\,700\$ pour 35 ans de service. Autrement dit, la loi ne limite pas directement la rente totale, mais elle limite chacun de ses « blocs de construction ».
+
+::: {#exm-5 .custom}
+
+La limite sur le crédit de rente peut être interprétée comme une limite implicite sur le salaire reconnu par le régime. Dans un régime typique à prestations déterminées offrant une rente de  $2\% \times \text{salaire} \times \text{années de service}$, le crédit de rente annuel est égal à :
+
+$$
+CR = 2\% \times \text{salaire}.
+$$
+
+La contrainte fiscale impose :
+
+$$
+2\% \times \text{salaire} \le 3\,420.
+$$
+
+On en déduit un salaire maximal admissible :
+
+$$
+\text{salaire} \le \frac{3\,420}{2\%} = 171\,000.
+$$
+
+Ainsi, au-delà de ce niveau de salaire, toute portion supplémentaire du salaire ne peut plus générer de crédit de rente dans le régime, à moins d’utiliser un mécanisme non enregistré.
+:::
+
+### Évolution historique
+
+Le tableau ci-dessous présente les données historiques des plafonds de régimes PD et des limites des REER. Il n’existe pas de source unique regroupant l’ensemble de ces informations. Le tableau résulte donc d’une compilation et de calculs effectués à partir des règles fiscales en vigueur. Les données présentées dans ce tableau proviennent de différentes sources officielles et ont été combinées afin de mettre en évidence les liens entre les limites applicables aux régimes à prestations déterminées, le facteur d’équivalence et les plafonds REER:   
+
+- Les plafonds annuels de crédit de rente pour les régimes à prestations déterminées sont établis par la Loi de l’impôt sur le revenu et publiés par l’[Agence du revenu du Canada (ARC)](https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators.html)  
+- Les limites de cotisation aux REER sont également publiées par l’ARC dans les [tables annuelles des plafonds applicables](https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans.html)  
+- Le revenu correspondant est obtenu en supposant une formule de régime à prestations déterminées de 2\% du salaire par année de service, soit $\text{Revenu} = \frac{\text{Plafond}}{2\%}$
+- Le facteur d’équivalence (FE) est calculé à partir de la formule fiscale $FE = 9 \times \text{Plafond} - 600$
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+df <- tibble::tribble(
+  ~Année, ~Plafond, ~Revenu, ~FE, ~REER,
+  "1976*", "1 715 $", "85 750 $", "14 835 $", "5 500 $",
+  "1990–2003", "1 722 $", "86 111 $", "14 900 $", "14 000 $",
+  "2004", "1 833 $", "91 667 $", "15 900 $", "15 500 $",
+  "2005", "2 000 $", "100 000 $", "17 400 $", "16 500 $",
+  "2006", "2 111 $", "105 556 $", "18 400 $", "18 000 $",
+  "2007", "2 222 $", "111 111 $", "19 400 $", "19 000 $",
+  "2008", "2 333 $", "116 667 $", "20 400 $", "20 000 $",
+  "2009", "2 444 $", "122 222 $", "21 400 $", "21 000 $",
+  "2010", "2 494 $", "124 722 $", "21 850 $", "22 000 $",
+  "2011", "2 552 $", "127 611 $", "22 370 $", "22 450 $",
+  "2012", "2 647 $", "132 333 $", "23 220 $", "22 970 $",
+  "2013", "2 697 $", "134 833 $", "23 670 $", "23 820 $",
+  "2014", "2 770 $", "138 500 $", "24 330 $", "24 270 $",
+  "2015", "2 819 $", "140 945 $", "24 770 $", "24 930 $",
+  "2016", "2 890 $", "144 500 $", "25 410 $", "25 370 $",
+  "2017", "2 914 $", "145 722 $", "25 630 $", "26 010 $",
+  "2018", "2 944 $", "147 222 $", "25 900 $", "26 230 $",
+  "2019", "3 026 $", "151 278 $", "26 630 $", "26 500 $",
+  "2020", "3 092 $", "154 611 $", "27 230 $", "27 230 $",
+  "2021", "3 246 $", "162 278 $", "28 610 $", "27 380 $",
+  "2022", "3 420 $", "171 000 $", "30 180 $", "29 210 $",
+  "2023", "3 506 $", "175 300 $", "30 954 $", "30 780 $",
+  "2024", "3 611 $", "180 550 $", "31 899 $", "31 560 $",
+  "2025", "3 731 $", "186 550 $", "32 979 $", "32 490 $"
+)
+
+kbl(df,
+    align = "c",
+    booktabs = TRUE,
+    escape = FALSE,
+    col.names = c(
+      "Année",
+      "Plafond",
+      "Revenu correspondant<br>(si crédit = 2%)",
+      "FE<br>(9 × plafond − 600)",
+      "Limite REER"
+    )) %>%
+  kable_styling(
+    full_width = FALSE,
+    position = "center",
+    bootstrap_options = c("striped", "hover", "condensed")
+  )
+  
+```
+
+:::
+
+On peut voir qu'avant la réforme des années 1990, les régimes à prestations déterminées étaient nettement avantagés. Par exemple, dans les années 1970, un régime à prestations déterminées pouvait générer une valeur annuelle d’environ 15 000 \$, alors que les REER étaient limités à environ 5 500 \$. Depuis les années 2000, les limites ont été harmonisées, de sorte que le facteur d’équivalence maximal d’un régime à prestations déterminées, la cotisation maximale à un REER, la cotisation maximale à un régime à cotisations déterminées sont aujourd’hui de même ordre de grandeur.
+
+Le graphique suivant compare l’évolution du facteur d’équivalence maximal et de la limite de cotisation aux REER au fil du temps. On peut la correspondance entre ces deux valeurs au cours des dernières années.
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+df_plot <- df %>%
+  filter(Année != "1976*", Année != "1990–2003") %>%
+  mutate(
+    Année = as.numeric(Année),
+    FE_num = as.numeric(gsub("[^0-9]", "", FE)),
+    REER_num = as.numeric(gsub("[^0-9]", "", REER))
+  ) %>%
+  select(Année, FE_num, REER_num) %>%
+  pivot_longer(
+    cols = c(FE_num, REER_num),
+    names_to = "Série",
+    values_to = "Montant"
+  ) %>%
+  mutate(
+    Série = recode(
+      Série,
+      FE_num = "FE",
+      REER_num = "Limite REER"
+    )
+  )
+
+ggplot(df_plot, aes(x = Année, y = Montant, color = Série)) +
+  geom_line(linewidth = 0.8) +
+  geom_point(size = 2) +
+  scale_x_continuous(breaks = seq(2004, 2025, by = 2)) +
+  scale_color_manual(values = c("#243c96", "#00BA38")) +
+  labs(
+    x = "Année",
+    y = "Montant ($)",
+    color = NULL
+  ) +
+  theme_bw()
+
+```
+
+
+### Particularités du plafond applicable aux régimes à prestations déterminées
+
+Le plafond sur le crédit de rente s’applique à une rente débutant à la première des dates suivantes :
+
+- A) l’âge de 60 ans;
+- B) l’atteinte de 30 années de service;
+- C) le moment où âge + service = 80.
+
+Autrement dit, le plafond est établi en supposant que la rente débute à un âge « normal » de retraite. Si la rente commence plus tôt, elle est plus coûteuse à financer et le plafond doit donc être ajusté.  Ainsi, si la retraite survient avant la première de ces dates, le plafond est réduit de manière permamente de $0,25\%$ par mois d’anticipation.
+
+::: {#exm-5 .custom}
+Le régime d'une compagnie prévoit une rente de retraite de 2% du salaire final (moyenne des 3 dernières années) par année de service, payable à 65 ans.  Le régime prévoit une réduction de 4% par année d’anticipation de la rente avant l’âge normal de retraite de 65 ans.  
+
+Un employé dont le salaire final moyen (3 dernières années) est de 160 000\$  prend sa retraite en 2022 après 20 ans de service.  Quelle sera la rente viagère maximale qu’il pourra recevoir s’il prend sa retraite à :  
+	a) 65 ans 
+	b) 57 ans
+:::
+
+::: {.custom-solution}
+Solution.
+
+**Retraite à 65 ans**
+
+À 65 ans, il n’y a pas de réduction du plafond fiscal, car la rente débute après 60 ans. On peut donc utiliser le plafond complet de 3 420 \$ par année de service. Le régime prévoit une rente de $2\% \times \text{salaire final} \times \text{années de service}$, donc ici :
+
+$$
+2\% \times 160\,000 \times 20 = 64\,000
+$$
+
+La rente promise par le régime est donc de 64 000 \$ par année.
+
+La loi permet au plus un crédit de rente de 3 420 \$ par année de service en 2022. Avec 20 années de service, la rente maximale permise est donc $3\,420 \times 20 = 68\,400$. On compare alors la rente prévue par le régime : 64 000 \$ et la rente maximale permise de 68 400 \$. Comme $64\,000 < 68\,400$, la rente promise par le régime respecte la limite fiscale, et la rente versée sera donc de $64\,000 \text{ \$ par année.}$
+
+---
+
+**Retraite à 57 ans**
+
+Comme la retraite survient avant 60 ans, le plafond fiscal doit être ajusté. Pour déterminer de combien, on doit d’abord identifier l’âge minimal à partir duquel le plafond ne serait pas réduit. Cet âge correspond à la première des trois conditions suivantes :
+
+- $A = 60$ ans  
+- $B = (30 - 20) + 57 = 67$ ans, soit l'âge auquel l’employé atteindrait 30 années de service
+- $C = 57 + \frac{80 - (57 + 20)}{2} = 58{,}5$ ans, soit l'âge auquel la condition $\text{âge} + \text{service} = 80$ serait satisfaite
+
+On retient donc :
+
+$$
+\min(A, B, C) = 58{,}5
+$$
+
+On comprend ainsi que le plafond est établi comme si la retraite avait lieu à 58,5 ans.  Or, la retraite réelle a lieu à 57 ans, donc elle est anticipée.  
+
+- On doit donc calculer l’anticipation de $58{,}5 - 57 = 1{,}5 \text{ ans}$, soit $1{,}5 \times 12 = 18 \text{ mois}$.
+- La loi impose une réduction de $0{,}25\% \text{ par mois}$, donc $18 \times 0{,}25\% = 4{,}5\%$.
+- Le plafond ajusté devient $68\,400 \times (1 - 4{,}5\%) = 65\,322$
+
+Comme la rente commence plus tôt, le plafond est réduit pour tenir compte de son coût plus élevé.  Le régime prévoit lui-même une réduction actuarielle de 4% par année d’anticipation avant 65 ans, donc $65 - 57 = 8 \text{ ans}$. On a ainsi $64\,000 \times \left[1 - 8 \times 4\%\right] = 64\,000 \times 68\% = 43\,520$
+
+La rente versée est la plus petite des deux valeurs suivantes: le plafond fiscal de $65\,322$ ou la rente prévue par le régime de $43\,520$.  La rente est donc de $43\,520$.
+
+---
+
+On voit ainsi que le plafond fiscal limite la rente maximale permise.  Toutefois, dans ce cas, c’est la réduction actuarielle du régime qui est plus contraignante, et le plafond n’a donc pas d’impact concret sur la rente versée.  Le plafond devient contraignant seulement dans les régimes très généreux ou pour des salaires élevés.
+
+:::
+
+
+### Droits de cotisation inutilisés
+
+Depuis la réforme des pensions, les plafonds de cotisation aux REER sont suffisamment élevés pour que de nombreux contribuables ne les utilisent pas entièrement. La portion non utilisée des droits de cotisation peut être reportée indéfiniment et utilisée au cours des années suivantes. Le montant des droits de cotisation inutilisés est indiqué sur l’avis de cotisation transmis par l’Agence du revenu du Canada à la suite du traitement de la déclaration de revenus.
+
+### Facteur d’équivalence rectifié (FER)
+
+Lorsqu’un participant quitte un régime à prestations déterminées, il peut généralement choisir entre conserver une rente différée dans le régime ou recevoir une valeur de transfert, qu’il peut transférer dans un REER ou dans le régime de son nouvel employeur.
+
+En pratique, la valeur de transfert est souvent inférieure à la somme cumulative des facteurs d’équivalence (FE) déclarés au fil des années. Cela s’explique par le fait que le FE repose sur une approximation uniforme (facteur 9), qui peut surestimer la valeur réelle des droits accumulés. Le facteur d’équivalence rectifié (FER) vise à corriger cette situation en redonnant au participant l’espace REER qui lui a été retiré en trop. Il est calculé comme suit :
+
+$$
+FER = \text{Somme des FE cumulés} - \text{Valeur de transfert}
+$$
+
+Si le FE a surestimé la valeur des droits accumulés, le FER est positif et le participant récupère de l’espace REER.  A l'inverse, si le FE est représentatif (ou sous-estime), le FER est faible ou nul.  Si le participant choisit de conserver une rente différée dans le régime, aucun FER n’est calculé, puisqu’il n’y a pas de valeur de transfert permettant de comparer avec les FE accumulés.
+
+
+### Facteur d’équivalence pour services passés (FESP)
+
+Il arrive qu’un régime à prestations déterminées soit bonifié, notamment par une augmentation rétroactive des prestations ou l’ajout d’années de service reconnues. Ces bonifications ont un effet fiscal important : elles augmentent les droits à pension pour des années passées, ce qui revient à dire que les facteurs d’équivalence (FE) de ces années auraient dû être plus élevés.  Le facteur d’équivalence pour services passés (FESP) vise à corriger cette situation en réduisant rétroactivement l’espace REER du participant.
+
+Un fait lié aux services passés survient généralement dans les situations suivantes :  
+
+  - ajout d’années de service ouvrant droit à pension après 1989;
+  - modification rétroactive de la formule de calcul des prestations;
+  - augmentation rétroactive du niveau des prestations pour des années de service passées.
+
+Le FESP mesure l’écart entre les droits accumulés avant et après la bonification, et représente ainsi l’augmentation des droits à pension qui aurait été prise en compte dans les FE des années passées si la bonification avait existé à ce moment.  Le FESP est donné par :
+
+$$
+FESP = \text{Somme des FE après amélioration} - \text{Somme des FE avant amélioration}
+$$
+
+Le FESP réduit directement l’espace de cotisation REER du participant.  On distingue deux cas :
+
+- **Déclaration simple**  
+  Lorsque la bonification est générale (touche la majorité des employés) et respecte certains seuils, le FESP est simplement déclaré à l’Agence du revenu du Canada.
+
+- **Certification préalable**  
+  Lorsque la bonification est ciblée ou importante, le participant doit parfois libérer de l’espace REER, généralement en retirant des fonds de son REER, et ce retrait est alors imposable.une approbation préalable de l’ARC est requise. Cette situation survient si :
+
+  $$
+  FESP > 8\,000 + \text{droits REER inutilisés},
+  $$
+
+
+Au final, le FESP permet de maintenir l’équité fiscale entre les différents véhicules d’épargne-retraite, et on peut comprendre que le FESP joue un rôle symétrique à celui du FER :
+
+- le **FER** redonne de l’espace REER lorsque le FE a surestimé les droits;
+- le **FESP** enlève de l’espace REER lorsque les droits sont augmentés rétroactivement.
+
+### Traitement des prestations de raccordement
+
+Lorsqu’un participant prend sa retraite avant 65 ans dans un régime à prestations déterminées, il peut recevoir une prestation de raccordement.  Cette prestation vise à compenser temporairement l’absence de certaines sources de revenu public, notamment la Pension de sécurité de la vieillesse (PSV) et la rente du Régime de rentes du Québec (RRQ) ou du Régime de pensions du Canada (RPC). La Loi de l’impôt sur le revenu impose une limite maximale :
+
+$$
+\text{Prestation de raccordement} \le \text{PSV} + \text{RRQ à 65 ans}
+$$
+
+Si la retraite débute avant 60 ans, cette limite est réduite de $3\% \text{ par année d’anticipation}$.  Lorsque la retraite survient avant 65 ans, une contrainte supplémentaire s’applique, et la somme de la rente de retraite et de la prestation de raccordement ne peut excéder :
+
+$$
+\text{Limite rente} + \left(\frac{\text{années de service}}{35}\right) \times \text{MGA (moyenne finale)}
+$$
+
+Cette règle empêche qu’un régime compense excessivement l’absence des prestations publiques.
+
+### Valeurs de transfert
+
+Lorsqu’un participant quitte un régime à prestations déterminées avant la retraite, il peut choisir de transférer la valeur actuarielle de la rente accumulée vers un compte de retraite immobilisé (CRI). Cette valeur de transfert correspond à la valeur actuelle des prestations futures promises, calculée à partir d’hypothèses actuarielles, notamment les taux d’intérêt et la mortalité. Autrement dit, on remplace une rente viagère future par un capital immédiat jugé équivalent sur une base actuarielle.
+
+Sur le plan fiscal, la Loi de l’impôt sur le revenu impose une limite au montant pouvant être transféré à l’abri de l’impôt. Cette limite est exprimée comme un multiple de la rente annuelle accumulée. Ce multiple varie avec l’âge du participant :
+
+- environ 9,0 avant 50 ans;
+- jusqu’à environ 11,3 à 71 ans.
+
+Cette variation reflète principalement la durée attendue des versements : plus l’âge est élevé, plus la période de versement anticipée est courte, ce qui augmente la valeur annuelle équivalente transférable par dollar de rente. Si la valeur de transfert calculée excède cette limite fiscale, l’excédent ne peut pas être immobilisé dans un CRI. Il doit être versé en espèces au participant et devient alors immédiatement imposable. Cette règle crée un écart potentiel entre la valeur actuarielle et la valeur effectivement transférable à l’abri de l’impôt, ce qui peut avoir un impact significatif pour les participants ayant accumulé des droits importants.
+
+Le calcul des valeurs de transfert constitue **une activité centrale en pratique actuarielle**. Il repose sur des normes précises (notamment celles de l’Institut canadien des actuaires) et intervient fréquemment dans des contextes de cessation d’emploi, de restructuration ou de liquidation de régime.
+
+### FERR et FRV
+
+L’épargne accumulée dans un REER n’a pas vocation à y demeurer indéfiniment. Au plus tard le 31 décembre de l’année où la personne atteint 71 ans, le REER doit cesser d’être un véhicule d’accumulation et être transformé en véhicule de décaissement. À ce moment, trois avenues générales existent : retirer les sommes, acheter une rente viagère, ou transférer l’épargne dans un FERR. La logique fiscale est donc claire : après la phase d’épargne vient nécessairement la phase de revenu de retraite. Lorsque les sommes proviennent plutôt d’un régime de retraite et sont immobilisées (par exemple dans un CRI), cette flexibilité n’existe plus : le transfert se fait généralement vers un FRV, et les retraits sont alors encadrés.
+
+Le FERR (**Fonds enregistré de revenu de retraite**) est le prolongement naturel du REER lorsque l’on veut conserver la gestion du capital tout en retirant progressivement un revenu. Contrairement au REER, il ne sert plus à accumuler, mais à verser des retraits. Un montant minimal doit être retiré chaque année, et ces retraits sont imposables. En revanche, il n’existe généralement pas de plafond annuel de retrait : le titulaire conserve donc une grande souplesse quant au rythme de décaissement.
+
+Le FRV (**Fonds de revenu viager**) ressemble au FERR dans sa fonction de décaissement, mais il s’applique aux sommes qui proviennent de l’épargne immobilisée, par exemple d’un régime complémentaire de retraite transféré dans un CRI. Cette différence de provenance est essentielle : comme les fonds ont initialement pour objet de financer la retraite, les retraits y sont plus encadrés. Un minimum annuel doit être retiré, comme dans un FERR, mais des règles particulières peuvent aussi limiter ou structurer les retraits selon l’âge et la situation. Au Québec, depuis 2025, il n’y a plus de plafond relatif aux retraits du FRV pour les personnes âgées de 55 ans ou plus.
+
+Ainsi, même si le FERR et le FRV sont souvent présentés côte à côte, ils ne répondent pas exactement à la même logique. Le FERR est un instrument de décaissement souple pour l’épargne enregistrée non immobilisée, tandis que le FRV est un instrument de décaissement encadré pour des sommes immobilisées provenant d’un régime de retraite. Cette distinction est importante, car elle explique pourquoi deux véhicules apparemment semblables obéissent en pratique à des règles différentes.
+
+
+
+## Conclusion
+
+La fiscalité de l'épargne-retraite ne consiste pas simplement à accorder des déductions d'impôt. Elle constitue un mécanisme par lequel le gouvernement encourage l'épargne à long terme, tout en cherchant à répartir équitablement les avantages fiscaux entre les contribuables.
+
+Le facteur d'équivalence illustre particulièrement bien cette logique. En permettant de comparer des cotisations à un régime d'épargne avec des droits à une rente future, il établit un lien entre des régimes de nature très différente. Cette comparaison demeure toutefois approximative : la valeur actuarielle réelle d'une rente dépend notamment de l'âge, de la mortalité et des taux d'intérêt, alors que le facteur d'équivalence repose sur une formule uniforme. Les plafonds de cotisation, les limites applicables aux prestations déterminées et les règles entourant les transferts et le décaissement complètent cet encadrement fiscal. Ils montrent qu'un régime de retraite ne peut pas être conçu uniquement en fonction des prestations souhaitées ou des sommes disponibles pour le financer.
+
+Pour les actuaires, la fiscalité représente donc une contrainte incontournable dans la conception et l'évaluation des régimes de retraite. Une solution financièrement avantageuse ou actuariellement justifiée doit également respecter les limites imposées par la législation fiscale.
+
