@@ -95,7 +95,7 @@ A droite, on peut voir un extrait d'un [syllabus d'examen de la CAS de 1990](htt
 ::: {.callout-important icon=false}
 ## Création du baccalauréat en actuariat de l’UQAM
 
-C’est dans ce contexte que mon collègue [Claude Pichet](https://professeurs.uqam.ca/professeur/pichet.claude/) a créé le baccalauréat en actuariat de l’UQAM en 1997, avec l’idée structurante de mettre en place une formation universitaire explicitement centrée sur la réussite des examens professionnels en actuariat. Le programme comportait ainsi des cours conçus pour préparer au format même des examens, c’est-à-dire la résolution d’une série de problèmes dans un temps limité. On retrouvait notamment un cours préparant à l’[examen P (probabilités)](https://etudier.uqam.ca/cours?sigle=ACT2120), un cours préparant à l’[examen FM (mathématiques financières)](https://etudier.uqam.ca/cours?sigle=ACT3122), ainsi que d’autres cours alignés sur les exigences des examens préliminaires.
+C’est dans ce contexte que le professeur Claude Pichet a créé le baccalauréat en actuariat de l’UQAM en 1997, avec l’idée structurante de mettre en place une formation universitaire explicitement centrée sur la réussite des examens professionnels en actuariat. Le programme comportait ainsi des cours conçus pour préparer au format même des examens, c’est-à-dire la résolution d’une série de problèmes dans un temps limité. On retrouvait notamment un cours préparant à l’[examen P (probabilités)](https://etudier.uqam.ca/cours?sigle=ACT2120), un cours préparant à l’[examen FM (mathématiques financières)](https://etudier.uqam.ca/cours?sigle=ACT3122), ainsi que d’autres cours alignés sur les exigences des examens préliminaires.
 :::
 
 <div style="clear: both;"></div>
