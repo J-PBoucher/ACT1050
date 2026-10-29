@@ -1,0 +1,1385 @@
+---
+toc: false
+date: 03/15/2026
+date-modified: last-modified
+---
+
+# Régimes à prestations déterminées 
+
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
+
+- Comprendre la structure et le fonctionnement des régimes à prestations déterminées;
+- Expliquer comment les prestations de retraite sont déterminées à partir du salaire, des années de service et des règles du régime;
+- Établir le lien entre les rentes étudiées précédemment et les engagements d’un régime à prestations déterminées;
+- Comprendre la notion de passif actuariel dans un régime à prestations déterminées et son évolution dans le temps;
+- Analyser les mécanismes de financement d’un régime à prestations déterminées, notamment la distinction entre service courant et service passé.
+
+:::
+
+## Introduction
+
+Un régime complémentaire de retraite (RCR) est un régime de retraite offert par un employeur (ou un groupe d’employeurs) qui vient s’ajouter aux régimes publics. On distingue deux grandes logiques de conception, qui diffèrent par la nature de l’engagement pris envers l’individu :
+
+- La première repose sur une promesse de revenu. Dans un régime à prestations déterminées, l’employeur s’engage à verser une rente de retraite dont les paramètres sont définis à l’avance, généralement en fonction du salaire, des années de service et de l’âge de retraite. L’objectif est de fournir un certain niveau de remplacement du revenu. Le risque financier — notamment le risque de rendement et de longévité — est principalement assumé par le promoteur du régime.
+
+- La seconde repose sur une logique d’épargne accumulée. Dans un régime à cotisations déterminées, l’employeur et l’employé cotisent à un compte individuel au cours de la vie active. Le montant disponible à la retraite dépend de l’épargne accumulée et du rendement obtenu. Le régime ne garantit pas à lui seul un montant déterminé de rente : le revenu de retraite dépend des sommes accumulées et des modalités de décaissement choisies, notamment de l’achat éventuel d’une rente auprès d’un assureur. Le risque est donc largement assumé par le participant.
+
+Des formes hybrides et des mécanismes de partage des risques existent également. Les deux grandes familles précédentes permettent néanmoins de comprendre la distinction fondamentale entre prestations promises et cotisations fixées. Dans ce chapitre, nous étudions les régimes à prestations déterminées. Les autres formes de régimes seront présentées au chapitre suivant.
+
+## Rente de retraite visée
+
+L’objectif d’un régime à prestations déterminées est de fournir, en complément des régimes publics, un taux de remplacement du revenu à la retraite, fixé à un certain pourcentage du salaire. Supposons qu’on vise un taux global de remplacement du salaire égal à $\rho$, par exemple $\rho \approx 70\%$.  Pour cette illustration volontairement simplifiée, retenons la composante de base du RRQ, qui correspond historiquement à un taux de remplacement d’environ $\rho_0=25\%$ des gains admissibles pour une carrière complète. En réalité, la bonification du RRQ mise en œuvre depuis 2019 fait progressivement passer ce taux à 33,33 % pour les personnes qui accumuleront suffisamment d’années de cotisation au régime supplémentaire; elle ajoute également une couverture partielle de gains au-delà du MGA. Les paramètres ci-dessous ne décrivent donc pas une formule universelle applicable à tous les régimes en 2026. Voir [Retraite Québec — Bonification du RRQ](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regime-rentes-quebec/bonification-regime-rentes-quebec).
+
+Le régime complémentaire doit alors fournir :  
+
+  - sur la portion du salaire inférieure ou égale au MGA, un remplacement additionnel de $\rho - \rho_0 = 70\% - 25\% = 45\%$;
+  - sur la portion du salaire au-dessus du MGA, un remplacement de $\rho = 70\%$, puisque cette portion n’est pas couverte par le RRQ.
+
+Supposons maintenant qu’un employé participe au régime pendant $n$ années, on peut définir les taux annuels d’accumulation suivants :
+
+$$
+\alpha = \frac{\rho - \rho_0}{n},
+\qquad
+\beta = \frac{\rho}{n}
+$$
+
+Ainsi, avec $\rho = 70\%$, $\rho_0 = 25\%$ et $n = 35$, en supposant pour cet exemple une carrière de 35 ans, on obtient :
+
+$$
+\alpha = \frac{45\%}{35} \approx 1{,}3\%
+\qquad \text{et} \qquad
+\beta = \frac{70\%}{35} = 2\%
+$$
+
+Les paramètres $\alpha$ et $\beta$ représentent donc des taux d’accumulation annuels choisis de manière à approcher une cible globale de remplacement du revenu. Soit $S_t$ le salaire reçu durant l’année $t$, et soit $\text{MGA}_t$ le MGA applicable durant cette année. La rente annuelle de base accumulée après $n$ années peut alors s’écrire comme :
+
+$$
+R_{base}
+=
+\alpha \sum_{t=1}^{n} \min(S_t, \text{MGA}_t)
++
+\beta \sum_{t=1}^{n} \max(S_t - \text{MGA}_t, 0)
+$$
+
+Cette écriture, qui ignore notamment le détail de la bonification du RRQ, permet de comprendre pourquoi deux taux différents peuvent apparaître dans les formules de rente : la portion du salaire couverte par le RRQ reçoit un crédit plus faible que la portion non couverte. Ainsi, la rente totale à la retraite provient de la combinaison des régimes publics et du régime complémentaire, où les paramètres $\alpha$ et $\beta$ sont choisis de manière à ce que cette somme corresponde approximativement à la cible de remplacement du revenu :
+
+$$
+R_{\text{total}} = R_{\text{RRQ}} + R_{\text{base}} \approx 70\% \text{ du salaire de référence}
+$$
+
+Intuitivement, le régime à prestations déterminées ne vise pas à déterminer une rente de façon isolée, mais plutôt à compléter les régimes publics afin d’atteindre un objectif global de remplacement du revenu. La présence de deux taux d’accumulation reflète donc directement la structure du système de retraite : une partie du revenu est déjà couverte par le RRQ (jusqu’au MGA), alors que le reste doit être entièrement pris en charge par le régime complémentaire.
+
+### Structure générale
+
+Bien que l'équation précédente illustre la coordination avec le RRQ, elle ne correspond pas nécessairement à la formule retenue par un régime particulier. Dans plusieurs régimes, la rente est calculée à partir d'un salaire de référence $\tilde{S}$, par exemple une moyenne de certaines années de carrière. La coordination avec le RRQ peut aussi utiliser un MGA moyen ou une autre définition prévue par le régime.
+
+À titre d'exemple, si $\widetilde{\text{MGA}}$ désigne le plafond de référence fixé par le régime, une formule coordonnée simplifiée peut s'écrire :
+
+$$
+R = n\left[\alpha\min(\tilde{S},\widetilde{\text{MGA}})
++\beta\max(\tilde{S}-\widetilde{\text{MGA}},0)\right].
+$$
+
+Cette formule ne constitue pas une règle générale : les taux, les plafonds, les années reconnues et les réductions éventuelles liées aux régimes publics sont définis par chaque régime. Le salaire de référence $\tilde{S}$ peut notamment correspondre à :
+
+1. un salaire moyen sur l'ensemble de la carrière (salaire de carrière);
+2. un salaire de carrière indexé pour tenir compte de l'inflation;
+3. un salaire de carrière avec revalorisations ponctuelles (*ad hoc*);
+4. la moyenne des $k$ dernières années (régime à salaire final);
+5. la moyenne des meilleures années consécutives.
+
+Il existe aussi des régimes à prestations forfaitaires, qui promettent un montant fixe de rente par année de service, plutôt qu'un pourcentage du salaire.
+
+### Illustration numérique
+
+Pour comprendre de quelle manière la définition de $\tilde{S}$ influence la rente à la retraite, considérons cinq formules représentatives :
+
+  1) **Régime à salaire de carrière** :  
+  La rente (Rente 1) représente 1,6\% du salaire gagné au cours de chacune des années de participation;  
+
+  2) **Régime à salaire de carrière indexé** :  
+  La rente (Rente 2) représente 1,6\% du salaire gagné au cours de chacune des années de participation, avec indexation selon l’indice des prix à la consommation (IPC) entre l’année où le salaire a été gagné et l’année de cessation d’emploi ;  
+
+  3) **Régime à salaire de carrière avec revalorisation ad hoc** :  
+  La rente (Rente 3) représente 1,6\% du salaire gagné au cours de chacune des années de participation, avec revalorisation discrétionnaire des salaires passés (par exemple, certains salaires antérieurs sont ajustés à un niveau donné);  
+
+  4) **Régime à salaire final** :  
+  La rente (Rente 4) représente 1,6\% du salaire moyen des cinq années précédant la cessation d’emploi, pour chaque année de participation;  
+
+  5) **Régime à meilleur salaire** :  
+  La rente (Rente 5) représente 1,6\% du salaire moyen des cinq meilleures années consécutives, pour chaque année de participation.  
+  
+Les données présentées au tableau suivant illustrent la carrière d’un individu dont le salaire croît rapidement dans un contexte d’inflation élevée, puis devient plus volatil. Les cinq rentes obtenues correspondent aux formules définies ci-dessus. L’objectif n’est pas de comparer les taux d’accumulation — identiques dans tous les cas (1,6\%) — mais de mettre en évidence l’impact du choix de $\tilde{S}$ sur le niveau de la rente. À trajectoire salariale donnée, la définition du salaire de référence peut entraîner des écarts importants.
+
+*Note: Le tableau utilise les indices des prix à la consommation (IPC). Nous avons couvert l’IPC au chapitre 13. Les données d’IPC utilisées pour l’illustration sont intégrées au script R et proviennent de la [série historique consultée](http://www.statsnwt.ca/TSR/series.php?seriesid=V41690973). Le scénario salarial, les formules de prestations et les hypothèses de revalorisation sont fictifs. Le tableau utilise les indices de janvier de chaque année.*
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+
+library(dplyr)
+library(tibble)
+library(kableExtra)
+library(scales)
+library(knitr)
+
+# -------------------------------------------------------------------
+# Données IPC
+# -------------------------------------------------------------------
+txt <- "
+Year January February March April May June July August September October November December
+1970 20.2 20.2 20.2 20.3 20.3 20.3 20.5 20.5 20.4 20.4 20.4 20.3
+1971 20.4 20.5 20.5 20.7 20.7 20.8 21.0 21.2 21.1 21.2 21.2 21.3
+1972 21.4 21.5 21.6 21.7 21.7 21.7 22.0 22.2 22.3 22.3 22.3 22.4
+1973 22.6 22.8 22.8 23.1 23.2 23.4 23.7 24.0 24.1 24.2 24.4 24.5
+1974 24.7 24.9 25.2 25.4 25.9 26.1 26.3 26.6 26.8 27.1 27.3 27.6
+1975 27.6 27.9 28.0 28.2 28.5 28.8 29.2 29.5 29.6 29.8 30.1 30.2
+1976 30.3 30.5 30.6 30.7 30.9 31.1 31.3 31.3 31.5 31.7 31.8 31.9
+1977 32.2 32.4 32.8 33.0 33.4 33.5 33.9 33.9 34.2 34.5 34.7 34.9
+1978 35.1 35.4 35.7 35.8 36.3 36.6 37.1 37.2 37.1 37.6 37.8 37.9
+1979 38.1 38.6 39.0 39.3 39.7 39.9 40.2 40.3 40.7 41.0 41.4 41.6
+1980 41.8 42.3 42.6 42.9 43.4 43.9 44.2 44.7 45.0 45.4 46.0 46.2
+1981 46.9 47.4 48.0 48.3 48.7 49.5 49.9 50.3 50.7 51.2 51.6 51.8
+1982 52.2 52.8 53.5 53.8 54.5 55.1 55.4 55.6 55.9 56.3 56.6 56.6
+1983 56.5 56.8 57.4 57.4 57.5 58.1 58.4 58.7 58.7 59.1 59.1 59.2
+1984 59.6 59.9 60.0 60.2 60.2 60.6 60.8 60.8 60.9 61.1 61.4 61.4
+1985 61.7 62.1 62.2 62.5 62.7 63.0 63.3 63.3 63.4 63.6 63.8 64.1
+1986 64.4 64.7 64.9 64.9 65.3 65.4 65.9 66.0 66.0 66.4 66.7 66.8
+1987 67.0 67.3 67.5 67.9 68.3 68.5 68.9 69.0 69.0 69.2 69.5 69.6
+1988 69.7 70.0 70.4 70.6 71.0 71.2 71.6 71.7 71.8 72.2 72.3 72.3
+1989 72.7 73.2 73.6 73.8 74.6 74.9 75.4 75.5 75.6 75.9 76.1 76.1
+1990 76.7 77.2 77.5 77.5 77.9 78.2 78.5 78.6 78.8 79.5 80.0 79.9
+1991 82.0 82.0 82.3 82.3 82.7 83.1 83.2 83.3 83.1 83.0 83.3 82.9
+1992 83.3 83.3 83.6 83.7 83.8 84.0 84.2 84.2 84.2 84.3 84.7 84.7
+1993 85.0 85.3 85.2 85.2 85.4 85.4 85.6 85.7 85.7 85.9 86.3 86.1
+1994 86.1 85.4 85.4 85.4 85.2 85.4 85.7 85.8 85.9 85.7 86.2 86.3
+1995 86.6 87.0 87.2 87.5 87.7 87.7 87.9 87.7 87.8 87.7 88.0 87.8
+1996 88.0 88.1 88.5 88.7 89.0 89.0 89.0 89.0 89.1 89.3 89.7 89.7
+1997 89.9 90.1 90.2 90.2 90.3 90.5 90.5 90.6 90.6 90.6 90.5 90.4
+1998 90.9 91.0 91.1 91.0 91.3 91.4 91.4 91.4 91.2 91.6 91.6 91.3
+1999 91.5 91.6 92.0 92.5 92.7 92.9 93.1 93.3 93.6 93.7 93.6 93.7
+2000 93.5 94.1 94.8 94.5 94.9 95.5 95.8 95.7 96.1 96.3 96.6 96.7
+2001 96.3 96.8 97.1 97.8 98.6 98.7 98.4 98.4 98.6 98.1 97.2 97.4
+2002 97.6 98.2 98.9 99.5 99.7 99.9 100.5 100.9 100.9 101.2 101.5 101.1
+2003 102.0 102.8 103.1 102.4 102.5 102.5 102.6 102.9 103.1 102.8 103.1 103.2
+2004 103.3 103.5 103.9 104.1 105.0 105.1 105.0 104.8 105.0 105.2 105.6 105.4
+2005 105.3 105.7 106.3 106.6 106.7 106.9 107.1 107.5 108.4 107.9 107.7 107.6
+2006 108.2 108.0 108.6 109.2 109.7 109.5 109.6 109.8 109.2 109.0 109.2 109.4
+2007 109.4 110.2 111.1 111.6 112.1 111.9 112.0 111.7 111.9 111.6 111.9 112.0
+2008 111.8 112.2 112.6 113.5 114.6 115.4 115.8 115.6 115.7 114.5 114.1 113.3
+2009 113.0 113.8 114.0 113.9 114.7 115.1 114.7 114.7 114.7 114.6 115.2 114.8
+2010 115.1 115.6 115.6 116.0 116.3 116.2 116.8 116.7 116.9 117.4 117.5 117.5
+2011 117.8 118.1 119.4 119.8 120.6 119.8 120.0 120.3 120.6 120.8 120.9 120.2
+2012 120.7 121.2 121.7 122.2 122.1 121.6 121.5 121.8 122.0 122.2 121.9 121.2
+2013 121.3 122.7 122.9 122.7 123.0 123.0 123.1 123.1 123.3 123.0 123.0 122.7
+2014 123.1 124.1 124.8 125.2 125.8 125.9 125.7 125.7 125.8 125.9 125.4 124.5
+2015 124.3 125.4 126.3 126.2 126.9 127.2 127.3 127.3 127.1 127.2 127.1 126.5
+2016 126.8 127.1 127.9 128.3 128.8 129.1 128.9 128.7 128.8 129.1 128.6 128.4
+2017 129.5 129.7 129.9 130.4 130.5 130.4 130.4 130.5 130.8 130.9 131.3 130.8
+2018 131.7 132.5 132.9 133.3 133.4 133.6 134.3 134.2 133.7 134.1 133.5 133.4
+2019 133.6 134.5 135.4 136.0 136.6 136.3 137.0 136.8 136.2 136.6 136.4 136.4
+2020 136.8 137.4 136.6 135.7 136.1 137.2 137.2 137.0 136.9 137.5 137.7 137.4
+2021 138.2 138.9 139.6 140.3 141.0 141.4 142.3 142.6 142.9 143.9 144.2 144.0
+2022 145.3 146.8 148.9 149.8 151.9 152.9 153.1 152.6 152.7 153.8 154.0 153.1
+2023 153.9 154.5 155.3 156.4 157.0 157.2 158.1 158.7 158.5 158.6 158.8 158.3
+2024 158.3 158.8 159.8 160.6 161.5 161.4 162.1 161.8 161.1 161.8 161.8 161.2
+2025 161.3 163.0 163.5 163.4 164.3 164.4 164.9 164.8 164.9 165.3 165.4 165.0
+2026 165.0 XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX
+"
+
+df_ipc <- read.table(
+  text = txt,
+  header = TRUE,
+  check.names = FALSE,
+  na.strings = "XXX"
+)
+
+df_jan <- df_ipc %>%
+  transmute(
+    annee = Year,
+    ipc = January
+  ) %>%
+  filter(annee >= 1970)
+
+# -------------------------------------------------------------------
+# Données salariales
+# -------------------------------------------------------------------
+an_fin <- 2026
+n <- 35
+salaire_final <- 180000
+
+salaires_orig <- c(
+  22000, 29000, 35000, 40000, 45000,
+  51000, 58000, 62000, 67000, 72000,
+  78000, 84000, 88000, 92000, 95000,
+  97000, 99000, 101000, 104000, 109000,
+  114000, 120000, 125000, 120000, 121000,
+  124000, 126000, 130000, 134000, 139000,
+  141000, 142000, 144000, 140000, 135000
+)
+
+facteur <- salaire_final / tail(salaires_orig, 1)
+
+df_final <- tibble(
+  Ans = 1:n,
+  Annee = seq(an_fin - n + 1, an_fin),
+  Age = 31:65,
+  Salaire = 500 * round((salaires_orig * facteur) / 500)
+) %>%
+  left_join(df_jan, by = c("Annee" = "annee"))
+
+# -------------------------------------------------------------------
+# Paramètres de calcul
+# -------------------------------------------------------------------
+taux <- 0.016
+
+annee_retraite <- max(df_final$Annee)
+annee_revalo   <- 2016
+
+ipc_retraite <- df_final %>%
+  filter(Annee == annee_retraite) %>%
+  pull(ipc)
+
+salaire_revalo <- df_final %>%
+  filter(Annee == annee_revalo) %>%
+  pull(Salaire)
+
+moy_5_dernieres <- df_final %>%
+  filter(Annee %in% (annee_retraite - 4):annee_retraite) %>%
+  summarise(m = mean(Salaire)) %>%
+  pull(m)
+
+best_5_avg <- sapply(seq_len(nrow(df_final) - 4), function(i) {
+  mean(df_final$Salaire[i:(i + 4)])
+}) |> max()
+
+# -------------------------------------------------------------------
+# Calcul des crédits annuels
+# -------------------------------------------------------------------
+df_tab <- df_final %>%
+  mutate(
+    rente1 = taux * Salaire,
+    rente2 = if_else(!is.na(ipc), taux * Salaire * ipc_retraite / ipc, NA_real_),
+    rente3 = if_else(Annee <= annee_revalo, taux * salaire_revalo, taux * Salaire),
+    rente4 = taux * moy_5_dernieres,
+    rente5 = taux * best_5_avg,
+    Annee_aff = as.character(Annee),
+    Ans_aff   = as.character(Ans),
+    Age_aff   = as.character(Age)
+  ) %>%
+  select(
+    Annee_aff, Ans_aff, Age_aff, Salaire, ipc,
+    rente1, rente2, rente3, rente4, rente5
+  )
+
+# -------------------------------------------------------------------
+# Ligne Total
+# -------------------------------------------------------------------
+ligne_total <- tibble(
+  Annee_aff = "Total",
+  Ans_aff   = "",
+  Age_aff   = "",
+  Salaire   = NA_real_,
+  ipc       = NA_real_,
+  rente1    = sum(df_tab$rente1, na.rm = TRUE),
+  rente2    = sum(df_tab$rente2, na.rm = TRUE),
+  rente3    = sum(df_tab$rente3, na.rm = TRUE),
+  rente4    = sum(df_tab$rente4, na.rm = TRUE),
+  rente5    = sum(df_tab$rente5, na.rm = TRUE)
+)
+
+df_aff <- bind_rows(df_tab, ligne_total)
+
+# -------------------------------------------------------------------
+# Fonctions de formatage
+# -------------------------------------------------------------------
+fmt_dollar0 <- function(x) {
+  ifelse(
+    is.na(x),
+    "",
+    paste0(
+      format(
+        round(x, 0),
+        big.mark = " ",
+        decimal.mark = ",",
+        scientific = FALSE,
+        trim = TRUE
+      ),
+      " $"
+    )
+  )
+}
+
+fmt_num2 <- function(x) {
+  ifelse(
+    is.na(x),
+    "",
+    format(
+      round(x, 2),
+      nsmall = 2,
+      big.mark = " ",
+      decimal.mark = ",",
+      scientific = FALSE,
+      trim = TRUE
+    )
+  )
+}
+
+# -------------------------------------------------------------------
+# Préparation du tableau final
+# -------------------------------------------------------------------
+df_kable <- df_aff %>%
+  mutate(
+    Salaire = fmt_dollar0(Salaire),
+    ipc     = fmt_num2(ipc),
+    rente1  = fmt_dollar0(rente1),
+    rente2  = fmt_dollar0(rente2),
+    rente3  = fmt_dollar0(rente3),
+    rente4  = fmt_dollar0(rente4),
+    rente5  = fmt_dollar0(rente5)
+  )
+
+# -------------------------------------------------------------------
+# Tableau KableExtra
+# -------------------------------------------------------------------
+kbl(
+  df_kable,
+  align = c("c", "c", "c", "c", "c", "c", "c", "c", "c", "c"),
+  col.names = c(
+    "Année", "Année de<br>participation", "Âge", "Salaire", "IPC",
+    "Rente 1", "Rente 2", "Rente 3", "Rente 4", "Rente 5"
+  ),
+  escape = FALSE,
+  booktabs = TRUE
+) %>%
+  add_header_above(c(" " = 5, "Crédit de rente acquis à chaque année" = 5)) %>%
+  kable_styling(
+    full_width = FALSE,
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 13
+  ) %>%
+  row_spec(nrow(df_kable), bold = TRUE)
+
+```
+
+:::
+
+
+Comme l'indique le tableau, cet individu prend sa retraite en 2026 avec un salaire annuel de 180 000 \$. En appliquant naïvement la formule de retraite $ 1,6\% \times 180000 \times 35,$, il pourrait s’attendre à une rente d’environ 100 800 \$. Cette approximation n’est toutefois exacte que si le salaire de référence du régime correspond au salaire de la dernière année, ce qui n’est pas le cas de notre régime à salaire final fondé sur une moyenne de cinq ans. Dans les autres cas, la rente dépend de l’ensemble de la trajectoire salariale, et non du seul salaire à la retraite. L’écart entre l’intuition et la réalité peut donc être important, comme on peut voir avec le tableau.	
+
+#### **Construction des colonnes de rente** {-}
+
+Les cinq colonnes du tableau correspondent à cinq manières différentes de définir le salaire utilisé dans la formule de rente. Dans tous les cas, le taux d’accumulation est le même, soit 1,6 % par année de service. Ce qui varie est uniquement la définition du salaire de référence. Le calcul des rentes est le suivant:
+
+- **Régime 1 : salaire de carrière**
+
+  Dans ce cas, chaque année contribue directement à la rente en fonction du salaire réellement gagné cette année-là. Avec $S_t$ le salaire de l’année $t$, la contribution annuelle de l'année équivaut à:
+
+  $$
+  R_{1,t} = 0{,}016 \times S_t
+  $$
+
+- **Régime 2 : salaire de carrière indexé**
+
+  Ici, afin de comparer les salaires sur une base homogène, les salaires passés sont ajustés pour tenir compte de l’inflation avant de calculer le crédit de rente. On exprime ainsi chaque salaire en dollars de l’année de retraite :
+
+  $$
+  R_{2,t} = 0{,}016 \times S_t \times \frac{\text{IPC}_{\text{retraite}}}{\text{IPC}_t}
+  $$
+
+- **Régime 3 : salaire de carrière avec revalorisation ad hoc**
+
+  Dans ce régime, les salaires passés ne sont pas indexés systématiquement à l’inflation, mais ajustés de manière discrétionnaire. Dans notre exemple du tableau, on supposera que tous les salaires antérieurs à 2016 sont ramenés au niveau du salaire de 2016, soit 161 500 $. Le crédit de rente devient alors :
+
+  $$
+  R_{3,t} =
+  \begin{cases}
+  0{,}016 \times 161\,500 & \text{si l’année civile } t \le 2016 \\
+  0{,}016 \times S_t & \text{si } t > 2016
+  \end{cases}
+  $$
+
+
+- **Régime 4 : salaire final**
+
+  Dans un régime à salaire final, le salaire utilisé pour le calcul de la rente est une moyenne des dernières années de la carrière (ici, les 5 dernières années).  Avec $n$ représentant la dernière année de participation au régime, nous avons :
+  
+  $$
+  R_{4,t} = 0{,}016 \times \tilde{S} \ \ \ , \ \ \ \text{ avec } \ \ \ \tilde{S} = \frac{1}{5} \sum_{t=n-4}^{n} S_t
+  $$
+
+- **Régime 5 : meilleures années consécutives**
+
+  Ce régime utilise la moyenne des 5 meilleures années consécutives de salaire.  Nous avons ainsi:
+  
+  $$
+  R_{5,t} = 0{,}016 \times \tilde{S} \ \ \ , \ \ \ \text{ avec } \ \ \ \tilde{S} = \max_{1 \le i \le n-4} \left( \frac{1}{5} \sum_{t=i}^{i+4} S_t \right)
+  $$
+
+
+
+
+::: {#exm-pd-credit-annee2000 .custom}
+
+Calculez la contribution de l'année 2000 pour les 5 types de régime. Pour vos calculs, utilisez les valeurs suivantes qu'on peut tirer du tableau :
+
+  - Salaire en 2000 : 89 500 \$  
+  - IPC en 2000 : 93,5  
+  - IPC à la retraite (2026) : 165,0  
+
+:::
+
+::: {.custom-solution}
+**Solution.**
+
+- **Régime 1 : salaire de carrière**
+
+  Pour l’année 2000, le salaire est de 89 500 $. Le crédit de rente correspondant est donc :
+
+  $$
+  R_{1,2000} = 0{,}016 \times 89\,500 = 1\,432
+  $$
+
+- **Régime 2 : salaire de carrière indexé**
+
+  Pour l’année 2000, le salaire est de 89 500 $, l’IPC de 2000 est 93,5 et l’IPC de 2026 est 165,0. On obtient donc :
+
+  $$
+  R_{2,2000} = 0{,}016 \times 89\,500 \times \frac{165{,}0}{93{,}5}
+  \approx 2\,527
+  $$
+
+- **Régime 3 : salaire de carrière avec revalorisation ad hoc**
+
+  Pour l’année 2000, comme cette année est antérieure à 2016, on utilise le salaire revalorisé de 161 500 $ :
+
+  $$
+  R_{3,2000} = 0{,}016 \times 161\,500 = 2\,584
+  $$
+
+- **Régime 4 : salaire final**
+
+  Dans le tableau, la moyenne des salaires de 2022 à 2026 est :
+
+  $$
+  \tilde{S} = \frac{188\,000 + 189\,500 + 192\,000 + 186\,500 + 180\,000}{5}
+  = 187\,200
+  $$
+
+  Le crédit de rente associé à l’année 2000 est donc :
+
+  $$
+  R_{4,2000} = 0{,}016 \times 187\,200 = 2\,995{,}2
+  $$
+
+- **Régime 5 : meilleures années consécutives**
+
+  Dans le tableau, les 5 meilleures années consécutives sont 2021 à 2025, avec une moyenne de :
+
+  $$
+  \tilde{S} = \frac{185\,500 + 188\,000 + 189\,500 + 192\,000 + 186\,500}{5}
+  = 188\,300
+  $$
+
+  Le crédit de rente associé à l’année 2000 est donc :
+
+  $$
+  R_{5,2000} = 0{,}016 \times 188\,300 = 3\,012{,}8
+  $$  
+:::
+
+Dans tous les cas, le taux de 1,6 % est identique. Les différences observées dans le tableau proviennent uniquement de la manière dont le salaire de référence est défini. Cela illustre un point fondamental : dans un régime à prestations déterminées, la formule de rente peut sembler simple, mais la définition du salaire utilisé dans cette formule a un impact majeur sur la rente finale. Habituellement, le régime à salaire carrière non indexé (régime 1) est le moins généreux et les régimes à salaire final (régime 4) ou meilleur salaire (régime 5) sont les plus généreux.  Les régimes à salaire carrière indexé ou revalorisé se situent quelque part entre ces deux extrêmes.
+
+#### **Impact de la définition de $\tilde{S}$** {-}
+
+Dans les exemples précédents, nous avons calculé le crédit de rente associé à une année donnée (par exemple 2000) en utilisant directement la formule du régime. Cela peut donner l’impression que la contribution de chaque année de service est connue au moment où elle est travaillée.  Cette intuition est correcte dans notre exemple de salaire de carrière non indexé (régime 1), mais doit être nuancée lorsque la définition du salaire de référence $\tilde{S}$ dépend d’éléments futurs.
+
+Pour le régime à salaire de carrière (non indexé), le crédit de rente est connu immédiatement. Chaque année de service génère un droit bien défini au moment où elle est travaillée. Toutefois, pour les autres régimes illustrés ici, le crédit de rente dépend d’informations futures : évolution de l’inflation (régime 2), revalorisations futures (régime 3), salaires futurs (régimes 4 et 5). Par conséquent, la contribution réelle d’une année donnée n’est connue qu’à la fin de la carrière. 
+
+On passe donc d’un crédit calculable immédiatement (régime 1) à une évaluation qui nécessite des hypothèses prospectives. Cette difficulté est atténuée par le fait que le régime est financé collectivement :
+
+- on ne cherche pas à prévoir parfaitement la trajectoire salariale d’un individu;
+- on utilise plutôt des hypothèses globales (croissance salariale, inflation, promotions moyennes) appliquées à l’ensemble des participants.
+
+Cela permet de stabiliser les estimations, mais ne supprime pas l’incertitude fondamentale. On peut interpréter cette situation de la façon suivante :
+
+- dans un régime à salaire de carrière, chaque année de service génère un droit autonome et observable;
+- dans un régime à salaire final ou à meilleures années, chaque année de service génère un droit conditionnel au futur.
+
+Ainsi, une même année de travail peut finalement produire une rente très différente selon la trajectoire de carrière de l’individu. Cela explique en partie pourquoi les régimes à salaire final sont généralement plus généreux : ils incorporent implicitement la croissance salariale future dans le calcul de la rente, plutôt que de la figer au moment où le travail est effectué.  
+
+### Attention au changement d'employeur
+
+Examinons maintenant ce qui se produit pour les régimes 4 et 5 lorsque la carrière n’est plus continue chez un seul employeur. Supposons qu’un employé change d’employeur après 5 ans, puis tous les 10 ans par la suite. Supposons aussi que tous les employeurs offrent des régimes identiques et qu’aucun transfert de droits acquis n’est possible entre les régimes. Dans ce contexte, chaque période d’emploi donne lieu à un droit de rente distinct, déterminé au moment du départ de l’employeur. L’employé accumule donc, au fil de sa carrière, une série de rentes différées indépendantes, une par employeur.
+
+Le tableau des salaires est donc celui-ci: 
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+df_final <- tibble(
+  Ans = 1:n,
+  Annee = seq(an_fin - n + 1, an_fin),
+  Age = 31:65,
+  Salaire = 500 * round((salaires_orig * facteur) / 500)
+) %>%
+  left_join(df_jan, by = c("Annee" = "annee")) %>%
+  mutate(
+    Employeur = c(
+      rep("ABC", 5),
+      rep("DEF", 10),
+      rep("GHI", 10),
+      rep("JKL", 10)
+    )
+  )
+
+# -------------------------------------------------------------------
+# Paramètres de calcul
+# -------------------------------------------------------------------
+taux <- 0.016
+
+# -------------------------------------------------------------------
+# Calcul des crédits annuels
+# Régime 4 : salaire final recalculé à la fin de chaque emploi
+# Régime 5 : meilleure moyenne de 5 années consécutives recalculée
+#            à la fin de chaque emploi
+# -------------------------------------------------------------------
+df_tab <- df_final %>%
+  group_by(Employeur) %>%
+  mutate(
+    # Régime 4 : moyenne des cinq dernières années chez cet employeur
+    salaire_final_emp = mean(tail(Salaire, 5)),
+    best_5_avg_emp = if (n() >= 5) {
+      max(sapply(seq_len(n() - 4), function(i) mean(Salaire[i:(i + 4)])))
+    } else {
+      mean(Salaire)
+    },
+    rente4 = taux * salaire_final_emp,
+    rente5 = taux * best_5_avg_emp,
+    Annee_aff = as.character(Annee),
+    Age_aff   = as.character(Age)
+  ) %>%
+  ungroup() %>%
+  select(
+    Annee_aff, Employeur, Age_aff, Salaire, ipc, rente4, rente5
+  )
+
+# -------------------------------------------------------------------
+# Ligne Total
+# -------------------------------------------------------------------
+ligne_total <- tibble(
+  Annee_aff = "Total",
+  Employeur = "",
+  Age_aff   = "",
+  Salaire   = NA_real_,
+  ipc       = NA_real_,
+  rente4    = sum(df_tab$rente4, na.rm = TRUE),
+  rente5    = sum(df_tab$rente5, na.rm = TRUE)
+)
+
+df_aff <- bind_rows(df_tab, ligne_total)
+
+# -------------------------------------------------------------------
+# Fonctions de formatage
+# -------------------------------------------------------------------
+fmt_dollar0 <- function(x) {
+  ifelse(
+    is.na(x),
+    "",
+    paste0(
+      format(
+        round(x, 0),
+        big.mark = " ",
+        decimal.mark = ",",
+        scientific = FALSE,
+        trim = TRUE
+      ),
+      " $"
+    )
+  )
+}
+
+fmt_num2 <- function(x) {
+  ifelse(
+    is.na(x),
+    "",
+    format(
+      round(x, 2),
+      nsmall = 2,
+      big.mark = " ",
+      decimal.mark = ",",
+      scientific = FALSE,
+      trim = TRUE
+    )
+  )
+}
+
+# -------------------------------------------------------------------
+# Préparation du tableau final
+# -------------------------------------------------------------------
+df_kable <- df_aff %>%
+  mutate(
+    Salaire = fmt_dollar0(Salaire),
+    ipc     = fmt_num2(ipc),
+    rente4  = fmt_dollar0(rente4),
+    rente5  = fmt_dollar0(rente5)
+  )
+
+# -------------------------------------------------------------------
+# Tableau KableExtra
+# -------------------------------------------------------------------
+kbl(
+  df_kable,
+  align = c("c", "c", "c", "c", "c", "c", "c"),
+  col.names = c(
+    "Année", "Employeur", "Âge", "Salaire", "IPC",
+    "Régime 4", "Régime 5"
+  ),
+  escape = FALSE,
+  booktabs = TRUE
+) %>%
+  add_header_above(c(" " = 5, "Crédit de rente acquis à chaque année" = 2)) %>%
+  kable_styling(
+    full_width = FALSE,
+    bootstrap_options = c("striped", "hover", "condensed"),
+    font_size = 13
+  ) %>%
+  row_spec(nrow(df_kable), bold = TRUE)
+```
+
+:::
+
+On observe que les crédits annuels de rente des régimes 4 et 5 diminuent pour les premières périodes d’emploi. Dans le premier exemple, ces régimes semblaient avantagés par l’utilisation du salaire final ou de la moyenne des meilleures années. Cet avantage s’atténue toutefois lorsque l’employé ne passe pas toute sa carrière chez le même employeur. En effet, le salaire final et la moyenne des meilleures années sont alors recalculés à la fin de chaque emploi, de sorte que les années de début de carrière ne bénéficient plus des salaires plus élevés observés en fin de parcours. Par exemple, pour les cinq années chez l’employeur ABC, la moyenne des cinq salaires est de 45\,600 $. Le crédit de rente associé est donc :
+
+$$
+0{,}016 \times 45\,600 = 729{,}60 \approx 730
+$$
+
+Ce montant s’applique à l’ensemble des années travaillées chez cet employeur et demeure fixé après le départ. Les augmentations salariales obtenues chez les employeurs subséquents n’ont donc aucun effet sur ces années. Concrètement, cela signifie que l’employé ne recevra pas une seule rente basée sur l’ensemble de sa carrière, mais plutôt plusieurs rentes distinctes. Chaque régime promet une rente différée calculée au moment du départ, selon les salaires observés pendant la période d’emploi. À la retraite, si les droits sont conservés dans chacun des régimes et si les rentes débutent à la même date, l’employé reçoit donc une somme de rentes différées : une rente provenant de ABC, une autre de DEF, une autre de GHI et une dernière de JKL.
+
+Dans notre exemple simplifié, l’employé recevrait ainsi quatre rentes distinctes, correspondant aux quatre employeurs, chacune dépendant du salaire de référence et du nombre d’années de service accumulées. Pour le régime 5, on obtient :
+
+- Rente (ABC) = $5 \times 729{,}60 = 3\,648$
+- Rente (DEF) = $10 \times 1\,864 = 18\,640$
+- Rente (GHI) = $10 \times 2\,560 = 25\,600$
+- Rente (JKL) = $10 \times 3\,012{,}80 = 30\,128$
+
+- Total : $78\,016$
+
+Dans une telle situation, le simple fait de changer régulièrement d’emploi transforme un régime à salaire final en une structure qui se rapproche d’un régime à salaire de carrière. Un employé qui anticipait une rente de retraite supérieure à 100\,000 $ en supposant une carrière continue chez un seul employeur peut ainsi obtenir un montant sensiblement inférieur. Ici, le régime 5 procure une rente annuelle de 105\,448 $ en carrière continue, contre 78\,016 $ si les quatre périodes d’emploi sont évaluées séparément.
+
+#### **Mobilité des droits** {-}
+
+Ainsi, un changement d’employeur peut théoriquement avoir un impact important. En pratique, la situation n’est pas aussi extrême que dans l’exemple précédent, mais celui-ci illustre bien l’enjeu : la rente de retraite offerte par un employeur ne dépend pas d’un salaire projeté, mais du salaire réellement observé durant la période d’emploi.  Lorsqu’un employé quitte son emploi, il conserve généralement des droits à une rente différée. Un droit de transfert peut également être exercé, mais les conditions, les délais et les restrictions dépendent du régime et de la loi applicable. Les principales possibilités sont :
+
+- conserver une **rente différée**, payable à la retraite;
+- ou recevoir une **valeur de transfert**, correspondant à la valeur actuarielle des droits accumulés.
+
+Cette valeur peut, lorsque le transfert est permis, être transférée à un autre régime admissible ou à un véhicule immobilisé approprié, sous réserve des règles fiscales et des conditions du régime. Le participant doit également tenir compte de la sécurité de la rente différée, des garanties du régime, du risque de placement transféré et du traitement fiscal de la somme. 
+
+La comparaison entre rente différée et valeur de transfert repose notamment sur des hypothèses actuarielles. La valeur de transfert dépend notamment des taux d’intérêt et des hypothèses de mortalité. Un transfert n’est donc pas neutre : il peut s’avérer avantageux ou défavorable selon l’évolution future des conditions économiques. De plus, la mobilité de carrière fragmente les droits de retraite. Un régime à salaire final peut ainsi se transformer en une série de rentes indépendantes, ce qui réduit l’effet de revalorisation des salaires de fin de carrière. 
+
+::: {.encadre2}
+#### **Rachat et ententes de transfert** {-}
+
+Certains régimes permettent de **racheter** des années de service, par exemple pour du service antérieur ou des périodes sans cotisation. L’idée est de recréer des droits comme si l’employé avait participé au régime pendant ces années. En pratique, le coût de ce rachat correspond généralement à la valeur actuarielle des prestations additionnelles obtenues, ce qui le rend souvent élevé.
+
+Il existe également des **ententes de transfert** entre certains régimes. Ces ententes permettent de transférer directement les droits accumulés d’un régime à un autre, dans le cadre des modalités de transfert convenues entre les régimes, sans nécessairement passer par un compte individuel. Lorsque de telles ententes existent, elles peuvent permettre de préserver, en tout ou en partie, les caractéristiques du régime initial, notamment lorsque les deux régimes sont de nature similaire (par exemple, deux régimes à prestations déterminées du secteur public). Cependant, ces mécanismes restent encadrés par des règles complexes et ne sont pas toujours disponibles. Leur fonctionnement dépend des dispositions propres aux régimes, des ententes entre employeurs et des contraintes légales et fiscales. 
+
+D’un point de vue conceptuel, ces outils visent à atténuer l’effet de la mobilité sur les droits à la retraite, mais sans l’éliminer complètement. Leur analyse détaillée dépasse le cadre de ce cours et sera abordée dans des contextes plus avancés.
+
+:::
+
+## Financement du régime
+
+Dans les sections précédentes, nous avons vu comment évaluer la valeur d’une rente pour un individu. Par exemple, dans un régime basé sur un salaire de carrière, chaque année travaillée génère une partie de rente à la retraite. Cette rente peut être modélisée comme une rente viagère différée. Sa valeur actuarielle à l’âge $x$ s’écrit alors sous la forme :
+
+$$
+{}_{n|}a_x = v^n \, {}_n p_x \, a_{x+n}
+$$
+
+où $n$ représente le nombre d’années avant la retraite. On pourrait donc être tenté de penser que le financement d’un régime de retraite consiste simplement à accumuler, pour chaque individu, la valeur actuarielle de sa propre rente. Cette intuition est partiellement correcte, mais elle est incomplète. En pratique, un régime de retraite n’est pas constitué d’un seul individu, mais d’un ensemble de participants à différents stades de leur vie :
+
+- les retraités, notés $\mathcal{R}$, qui reçoivent déjà une rente ;
+- les employés actifs, notés $\mathcal{A}$, qui accumulent des droits ;
+- les anciens employés avec droits différés, notés $\mathcal{D}$.
+
+### Passé et futur
+
+Le régime doit donc financer simultanément l’ensemble de ces engagements. Dans un régime à prestations déterminées, la cotisation annuelle n’est toutefois pas fixée individuellement, mais à partir d’une évaluation actuarielle globale qui repose sur deux éléments complémentaires :
+
+1. la détermination du coût des droits qui seront acquis au cours de la prochaine année (**service courant**);
+2. la comparaison entre la valeur totale des engagements du régime (le passif actuariel) et la valeur des actifs accumulés dans la caisse de retraite (**service passé**).
+
+#### **Service courant** 
+
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:220px;
+">
+
+<img src="images/ServiceC.png"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+Le service courant vise à estimer le coût de la prochaine année.
+</div>
+
+</div>
+
+Pour tous les employés qui travailleront pendant l'année et qui accumuleront donc un droit additionnel à une rente de retraite, le régime doit financer les nouvelles prestations acquises au cours de l’année à venir. Chaque employé actif qui travaille une année supplémentaire génère un incrément de rente future.
+
+Dans les régimes où la rente peut être interprétée comme la somme de crédits annuels, chaque année de service génère un incrément de rente qui peut être analysé séparément. Pour un individu actif $i \in \mathcal{A}$, notons $\Delta_i$ la portion annuelle de rente générée par une année de service supplémentaire. La valeur actuarielle de cet incrément s’écrit :
+
+$$
+\Delta_i \times {}_{n_i|}a_{x_i}
+$$
+
+où $x_i$ représente l’âge de l’individu $i$ et $n_i$ le nombre d’années avant le début des prestations. La cotisation de service courant correspond alors à la somme de ces valeurs pour l’ensemble des participants actifs :
+
+$$
+\sum_{i \in \mathcal{A}} \Delta_i \times {}_{n_i|}a_{x_i}
+$$
+
+Comme nous l'avons vu, dans plusieurs régimes (salaire final, meilleures années, indexation), la valeur de $\Delta_i$ dépend de variables futures encore inconnues, notamment la croissance des salaires, l’inflation ou la progression de carrière. Autrement dit, la cotisation versée aujourd’hui finance une prestation future dont la valeur exacte n’est pas encore connue au moment de l’évaluation.
+
+<div style="clear: both;"></div>
+
+
+#### **Service passé** 
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:220px;
+">
+
+<img src="images/ServiceP.png"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+Le service passé vise à s'assurer que l'actif actuel couvre les promesses de rentes passées
+</div>
+
+</div>
+
+Le passif actuariel correspond à la somme des valeurs actualisées des prestations promises à tous les participants du régime :
+
+- prestations déjà en paiement (retraités);
+- droits accumulés par les participants actifs;
+- droits différés des anciens participants.
+
+Dans les régimes où la rente peut être interprétée comme la somme de crédits annuels, les droits accumulés résultent de l’addition des incréments de rente générés par chaque année de service passée. Pour un individu $i$, notons $\Delta_{i,t}$ l’incrément annuel de rente acquis à l’année $t$. En supposant une évaluation actuarielle à l'année $Y$, le montant total de rente déjà accumulé s’écrit alors :
+
+$$
+B_i = \sum_{t \leq Y} \Delta_{i,t}
+$$
+
+En reprenant la notation avec $\mathcal{R}$ l’ensemble des retraités, $\mathcal{A}$ les employés actifs et $\mathcal{D}$ les anciens employés avec droits différés, le passif actuariel total peut alors s’écrire :
+
+$$
+\sum_{i \in \mathcal{R}} B_i \times a_{x_i}
+\;+\;
+\sum_{i \in \mathcal{A}} B_i \times {}_{n_i|}a_{x_i}
+\;+\;
+\sum_{i \in \mathcal{D}} B_i \times {}_{n_i|}a_{x_i}
+$$
+
+où $x_i$ représente l’âge de l’individu $i$ et $n_i$ le nombre d’années avant le début des prestations. Pour les participants actifs, seule la portion de rente déjà accumulée est incluse dans le passif actuariel.
+
+::: {.callout-note}
+Cette manière de présenter le passif correspond à une logique où l’on évalue, à une date donnée, la valeur des engagements déjà accumulés comme s’ils devaient être financés à partir de l’actif disponible aujourd’hui. Il s’agit d’une présentation pédagogique de la valeur des prestations accumulées. Elle ne correspond pas automatiquement à une évaluation de **solvabilité** : en pratique, le passif et les cotisations varient selon la base d’évaluation (notamment la capitalisation ou la solvabilité), les hypothèses et la méthode actuarielle retenue.
+:::
+
+De façon simplifiée, il s’agit d’une agrégation des promesses de rentes individuelles. Ce passif ne se forme pas instantanément : il résulte de l’accumulation des droits générés par les années de service passées. En contrepartie de ces engagements, les participants et l’employeur ont versé des cotisations au fil du temps. Ces cotisations, correspondant à ce qui avait été estimé comme étant une cotisation de service courant à l’époque, ont été déterminées de manière à financer les prestations promises, selon les hypothèses actuarielles retenues à ce moment.
+
+Les actifs du régime représentent l’accumulation de ces cotisations passées, augmentées des rendements de placement. Ces actifs ne sont pas détenus individuellement, mais constituent un fonds collectif servant à financer l’ensemble des prestations promises. Même si les cotisations passées ont été établies de façon actuariellement adéquate, il est rare que l’actif corresponde exactement au passif à une date donnée. Cet écart s’explique par plusieurs facteurs :
+
+- les rendements réalisés peuvent différer des rendements anticipés;
+- la mortalité observée peut différer des hypothèses (les participants vivent plus ou moins longtemps que prévu);
+- l’évolution des salaires peut être différente de celle anticipée;
+- l’inflation et les autres hypothèses économiques peuvent varier.
+
+La comparaison entre l’actif et le passif permet donc d’évaluer la situation financière du régime :
+
+- si les actifs sont inférieurs au passif, le régime est en déficit;
+- s’ils sont supérieurs, le régime est en surplus.
+
+Le **passif au titre du service passé** correspond aux engagements déjà accumulés. L’écart entre ce passif et les actifs disponibles détermine, pour la base d’évaluation considérée, un déficit ou un surplus : ce n’est pas le service passé lui-même.
+
+<div style="clear: both;"></div>
+
+### Cotisation totale
+
+Les deux composantes présentées ci-dessus sont fortement simplifiées. Comme nous le verrons plus loin, un participant peut avoir d’autres droits, et des prestations peuvent également être versées au conjoint survivant ou à la famille. L’objectif ici est de simplifier afin de faire ressortir les mécanismes essentiels d’un régime de retraite. Dans tous les cas, en combinant les deux composantes précédentes, la cotisation totale du régime pour une année donnée vise à financer les nouveaux droits acquis (service courant) et à corriger tout écart entre les actifs et les engagements déjà accumulés (service passé).
+
+Le financement dépend des modalités du régime. Dans un régime contributif, l’employeur et les participants actifs versent des cotisations; dans un régime non contributif, l’employeur assume seul les cotisations requises.
+
+- **Cotisations des employés**  
+  Dans les régimes à prestations déterminées contributifs, ce sont généralement les participants actifs $\mathcal{A}$ qui versent une cotisation salariale, souvent exprimée en pourcentage de leur salaire. Les retraités $\mathcal{R}$ et les anciens employés avec droits différés $\mathcal{D}$ ne cotisent plus, bien qu’ils conservent des droits envers le régime. Cette cotisation peut être uniforme pour l’ensemble d’une catégorie d’employés actifs, indépendamment de leur âge. Or, le coût actuariel d’une rente dépend fortement de l’âge : à cotisation égale, un employé jeune finance une rente beaucoup moins coûteuse qu’un employé plus âgé. Cette structure collective peut entraîner une redistribution implicite entre les participants actifs. La comparaison entre cotisations versées et valeur des droits acquis dépend néanmoins de la formule du régime et de la méthode actuarielle retenue.
+
+- **Cotisations de l'employeur**  
+  L’employeur finance la différence entre le coût total du régime et les cotisations des employés. La règle québécoise dite de la **cotisation patronale minimale** vise la valeur des droits acquis par chaque participant, et non une obligation générale pour l’employeur de payer annuellement la moitié des cotisations du régime. Les cotisations salariales accumulées avec intérêts ne peuvent, sous réserve des exceptions légales, financer plus de 50 % de la valeur des prestations visées; un excédent doit être reconnu au bénéfice du participant. En pratique, la contribution de l’employeur varie dans le temps, car elle dépend :
+  - des hypothèses actuarielles (taux d’intérêt, mortalité, etc.);
+  - de la performance des placements;
+  - et de la situation financière du régime (surplus ou déficit).
+  L’employeur assume ainsi une part importante du risque financier du régime, en particulier lorsque les cotisations doivent être ajustées pour compenser un déficit actuariel.
+
+Le résultat de l’évaluation actuarielle peut être exprimé sous la forme de cotisations en dollars ou de taux de cotisation en pourcentage du salaire. Le taux applicable aux salariés peut être uniforme à l’intérieur d’une catégorie de participants, mais il ne l’est pas nécessairement pour tous les participants du régime. Lorsqu’un taux salarial uniforme est prévu pour une catégorie, la cotisation de chaque membre est proportionnelle à son salaire, même si le coût actuariel de ses prestations dépend notamment de l’âge et de l’ancienneté.
+
+Cette approche simplifie l’administration du régime et reflète sa nature collective : on ne calcule pas une cotisation distincte pour chaque individu, mais plutôt un taux global applicable à l’ensemble du groupe. Il peut toutefois exister certaines distinctions entre catégories d’employés (par exemple cadres vs syndiqués), mais, à l’intérieur d’un groupe donné, le taux de cotisation est généralement uniforme.
+
+
+## Évaluations actuarielles
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/ICA.png" style="width:75%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+On vient de voir que les évaluations actuarielles sont au cœur du fonctionnement d’un régime à prestations déterminées. Elles visent à mesurer la situation financière du régime à une date donnée et à déterminer les cotisations nécessaires pour assurer son équilibre. Au Québec, une évaluation actuarielle complète est généralement exigée au plus tard tous les trois ans, mais des évaluations additionnelles peuvent être requises, notamment selon la situation financière du régime ou à la suite de certains événements. Lorsqu’aucune évaluation complète n’est exigée à une fin d’exercice, un avis annuel sur la situation financière peut être requis. Voir les [articles 118 et 119.1 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1).  Plus précisément, ces évaluations permettent de déterminer :
+
+- le coût des prestations accumulées par les participants (passif actuariel);
+- le niveau de financement du régime (surplus ou déficit);
+- les cotisations requises pour financer les nouvelles années de service et corriger les écarts passés.
+
+Une évaluation actuarielle repose sur la comparaison entre la valeur des engagements du régime (passif actuariel) et la valeur des actifs disponibles dans la caisse de retraite. Cette comparaison permet d’obtenir un portrait financier du régime à une date donnée, appelée date d’évaluation. Le calcul du passif actuariel ne peut pas être effectué de façon certaine, car il dépend de variables futures inconnues. L’actuaire doit donc formuler des hypothèses, notamment :
+
+- le taux d’intérêt (ou rendement attendu des placements);
+- la mortalité (espérance de vie des participants);
+- la croissance des salaires;
+- l’inflation.
+
+Ces hypothèses jouent un rôle central : de légères variations peuvent entraîner des différences importantes dans l’évaluation du passif et, par conséquent, dans les cotisations requises.
+
+<div style="clear: both;"></div>
+
+
+### Décisions issues de l’évaluation
+
+L’évaluation actuarielle produit généralement les éléments suivants :
+
+- la valeur du passif actuariel;
+- la valeur des actifs du régime;
+- le déficit ou le surplus actuariel;
+- le coût du service courant;
+- les cotisations d’équilibre requises (le cas échéant).
+
+Ces résultats servent à déterminer les cotisations requises pour la période à venir. Au-delà du diagnostic financier, l’évaluation actuarielle sert à établir les besoins de financement du régime et, le cas échéant, les cotisations patronales et salariales conformément à ses dispositions. Cette cotisation repose sur deux composantes : le service courant et le service passé.
+
+- **En présence d’un surplus (service passé)**  
+  Lorsque les actifs excèdent les engagements, le régime dispose d’une marge de manœuvre. Ce surplus peut être utilisé pour :
+  - réduire temporairement les cotisations;
+  - accorder un congé de cotisation à l’employeur;
+  - ou, dans certains cas, améliorer les prestations.
+
+  Toutefois, l’utilisation d’un surplus est encadrée et doit être faite avec prudence, car les conditions financières peuvent évoluer rapidement.
+
+- **En présence d’un déficit (service passé)**  
+  Lorsque les actifs sont insuffisants pour couvrir les engagements, des cotisations additionnelles doivent être versées afin de rétablir l’équilibre du régime. En pratique, ces cotisations proviennent principalement de l’employeur selon le partage des responsabilités de financement prévu par le régime et la loi; les participants actifs peuvent aussi être appelés à contribuer dans certains régimes, tandis que d’autres mécanismes de partage des risques existent.
+
+  Cela met en évidence une dimension importante du financement des régimes à prestations déterminées : une partie du coût des prestations passées peut être assumée par les générations actuelles de travailleurs.
+
+Cette situation soulève des enjeux d’équité intergénérationnelle. Si les hypothèses actuarielles sont systématiquement trop optimistes (par exemple en matière de rendement ou de mortalité), les cotisations passées peuvent s’avérer insuffisantes, ce qui transfère une partie du financement vers les générations futures.  Le rôle de l’actuaire est donc central : il doit établir des hypothèses raisonnables et prudentes afin de répartir équitablement le coût du régime dans le temps, et éviter qu’un déséquilibre persistant ne fasse porter un fardeau disproportionné sur les participants futurs. Un régime à prestations déterminées bien financé ne repose donc pas sur un transfert continu entre générations, mais sur une accumulation adéquate d’actifs permettant de financer les prestations promises au moment où elles sont versées.
+
+## Analyse des régimes à prestations déterminées
+
+Les régimes à prestations déterminées reposent sur une structure particulière : les prestations sont définies à l’avance, tandis que le coût du régime demeure incertain. Cette caractéristique entraîne une répartition spécifique des risques et des avantages entre les participants et l’employeur.
+
+### Répartition des risques
+
+Dans un régime à prestations déterminées, l’employé se voit promettre une rente déterminée selon une formule. Il n’assume donc pas directement les principaux risques financiers du régime, contrairement à un régime à cotisations déterminées. Cependant, cette absence de risque direct est partielle. L’employé demeure exposé à certains risques indirects. Par exemple, dans un régime à salaire de carrière non indexé, l’inflation peut réduire significativement la valeur réelle des rentes associées aux premières années de service. De plus, en cas de changement d’emploi, la structure du régime peut entraîner une perte de valeur relative des droits accumulés.
+
+Dans un régime traditionnel à prestations déterminées, l’employeur assume une part importante des risques du régime; cette répartition peut être différente dans un régime à coûts partagés ou un régime particulier du secteur public. Ces risques découlent principalement de l’incertitude entourant les hypothèses actuarielles :
+
+- le rendement des placements peut être insuffisant;
+- la croissance des salaires peut être plus élevée que prévu;
+- les participants peuvent vivre plus longtemps que prévu.
+
+Ces écarts se traduisent directement par une augmentation du coût du régime.
+
+### Avantages et limites pour l’employé
+
+Du point de vue de l’employé, le principal avantage du régime à prestations déterminées est la prévisibilité du revenu à la retraite. La rente étant déterminée par une formule, l’employé n’a pas à gérer lui-même ses décisions d’épargne ou ses placements. Ce type de régime est particulièrement avantageux pour les individus ayant une carrière stable au sein d’un même employeur, car il permet de maximiser les effets de formules basées sur les salaires de fin de carrière. Cependant, cette structure comporte aussi des limites importantes. L’employé :
+
+- demeure exposé à l’inflation si les prestations ne sont pas indexées;
+- peut perdre une partie de la valeur du régime en cas de mobilité professionnelle;
+- dépend du financement du régime, notamment en cas de déficit;
+- voit ses droits REER réduits en raison de la participation au régime.
+
+De plus, la simplicité apparente du régime peut entraîner une certaine déresponsabilisation face à l’épargne individuelle, ce qui peut devenir problématique si le régime ne couvre pas entièrement les besoins à la retraite.
+
+### Avantages et limites pour l’employeur
+
+Pour l’employeur, les régimes à prestations déterminées constituent un outil important de gestion des ressources humaines. Ils permettent notamment :
+
+- d’attirer et de retenir les employés;
+- de structurer les départs à la retraite;
+- de partager une partie du coût avec les employés.
+
+Dans certains contextes, notamment en régime à salaire de carrière, l’inflation peut également réduire le coût réel des prestations promises. Cependant, ces avantages s’accompagnent de contraintes importantes. Le principal enjeu est l’incertitude du coût du régime. L’employeur est exposé :
+
+- à des hausses de cotisations en cas de déficit actuariel;
+- à la volatilité des marchés financiers;
+- à l’évolution démographique des participants.
+
+À cela s’ajoutent la complexité administrative du régime et les enjeux juridiques, notamment en ce qui concerne l’utilisation des surplus actuariels.
+
+
+## Aspects légaux et réglementaires des régimes
+
+<div style="
+float:right;
+width:28vw;
+max-width:420px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/Legal.jpg" style="width:75%;">
+<div style="font-size:0.85em; margin-top:0.3em;">
+</div>
+</div>
+
+Au Canada, les régimes de retraite sont principalement encadrés par les provinces, puisque les relations de travail relèvent de leur juridiction. Il existe toutefois une exception importante : les entreprises de compétence fédérale (banques, télécommunications, transport interprovincial, etc.) sont soumises à une loi fédérale, la *Loi sur les normes de prestations de pension*. Le cadre fédéral peut ainsi être vu comme une juridiction parallèle à celles des provinces.
+
+Ce cadre légal ne se limite pas à un rôle administratif. Il influence directement le fonctionnement des régimes, notamment en matière de financement, de prestations et de droits des participants. Ainsi, deux régimes similaires en apparence peuvent être encadrés différemment selon la loi applicable. Au Québec, le Code civil joue un rôle complémentaire en définissant certains concepts fondamentaux, comme la notion de contrat et la rente viagère. Les régimes de retraite sont donc régis à la fois par des lois spécifiques (comme la Loi sur les régimes complémentaires de retraite) et par des principes juridiques plus généraux. Pour l’actuaire, cela signifie que les modèles et les évaluations doivent toujours être compatibles avec ce cadre. Le droit ne fait donc pas qu’encadrer les régimes : il en constitue une contrainte fondamentale.
+
+L’étude des dispositions légales permettra de mieux comprendre certaines caractéristiques des régimes et plusieurs situations pratiques rencontrées en actuariat.  Plusieurs éléments mentionnés ci-dessous proviennent de: 
+
+  - la [Loi sur les régimes complémentaires de retraite (LRCR) du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)  
+  - la [Loi de 1985 sur les normes de prestation de pension (LNPP)](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)
+
+<div style="clear: both;"></div>
+
+
+### Admissibilité aux régimes complémentaires de retraite
+
+Les lois encadrant les régimes de retraite définissent des critères minimaux d’admissibilité, c’est-à-dire les conditions à partir desquelles un employé doit pouvoir adhérer au régime offert par son employeur.
+
+- **Québec** -- [Article 34 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Pour un employé appartenant à une catégorie visée par le régime, la loi ouvre notamment l’admissibilité à l’adhésion si, au cours de l’année précédente, sa rémunération a atteint au moins 35 % du MGA ou s’il a travaillé au moins 700 heures. Le régime peut permettre l’adhésion plus tôt et prévoir que celle-ci est obligatoire ou facultative selon les catégories. Voir [Retraite Québec — Conditions d’adhésion](https://www.retraitequebec.gouv.qc.ca/fr/conditions-adhesion).  
+
+
+- **Autres provinces (règle générale)**  
+  Dans plusieurs provinces canadiennes, l’admissibilité repose plutôt sur une combinaison de service continu et d’activité de travail. Typiquement un employé devient admissible après une période de service (souvent deux ans), ou des critères similaires de revenu (35 % du MGA) ou d’heures travaillées peuvent également s’appliquer pour les employés à temps partiel.
+
+- **Régimes de compétence fédérale** -- [Article 17 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)  
+  Les règles sont généralement similaires à celles des autres provinces, mais peuvent différer sur certains détails techniques, notamment en ce qui concerne les critères d’heures travaillées. 
+
+::: {.encadre2}
+Il n’est pas possible de classer les juridictions sur la seule base de ces seuils : il faut également tenir compte des catégories de personnel couvertes et des dispositions du régime. En pratique, certains employeurs vont au-delà des exigences minimales et permettent l’adhésion dès l’embauche ou dès qu’un employé devient permanent. Cela simplifie l’administration du régime et améliore son attrait pour les employés.
+:::
+
+### Acquisition des droits
+
+Le principe d’acquisition des droits dans les régimes de retraite désigne le moment à partir duquel les droits accumulés dans le régime deviennent la propriété définitive du participant. Un droit est dit acquis lorsqu’il ne peut plus être perdu, même si l’employé quitte son emploi.  Dans un régime à prestations déterminées, il ne s’agit pas d’un montant détenu dans un compte individuel, mais d’un droit à une prestation future.
+
+- **Québec** -- [LRCR, dispositions relatives à l’acquisition des droits](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Les droits constitués au titre du service reconnu deviennent acquis au participant, même s’il cesse sa participation active. Il faut distinguer le moment où une personne devient admissible au régime de celui où elle acquiert les droits liés à sa participation.  
+
+- **Autres provinces (règle générale)**  
+  Les règles sont aujourd’hui largement harmonisées avec celles du Québec. L’acquisition est généralement immédiate. Historiquement, certaines juridictions permettaient toutefois une période d’attente — souvent jusqu’à deux ans de participation — avant que les droits ne deviennent acquis.
+
+- **Régimes de compétence fédérale** -- [Article 17 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)  
+  Les droits sont acquis dès l’adhésion au régime. 
+
+::: {.encadre2}
+Avant ces réformes, les règles étaient souvent plus restrictives. Dans plusieurs juridictions canadiennes, un employé devait compléter une période minimale de participation — fréquemment de l’ordre de deux ans — avant que certains droits, notamment ceux financés par l’employeur, ne deviennent acquis. En cas de départ avant ce seuil, ces droits pouvaient être perdus, bien que les cotisations de l’employé lui soient généralement conservées. Cette situation pouvait créer un décalage avec le système fiscal. La participation à un régime de retraite réduit les droits de cotisation au REER par l’intermédiaire du facteur d’équivalence (nous y reviendrons dans un prochain chapitre). Ainsi, un employé pouvait voir son espace REER diminué sans bénéficier pleinement des droits associés au régime. L’introduction de règles d’acquisition immédiate (ou quasi immédiate) a contribué à réduire ce désalignement, en assurant une meilleure correspondance entre cotisations, droits accumulés et traitement fiscal.
+:::
+
+
+### Immobilisation des droits
+
+Le principe d’immobilisation des droits dans les régimes de retraite désigne les restrictions qui s’appliquent à l’utilisation des droits constitués dans le régime. Un droit est dit immobilisé lorsque la valeur qui lui est associée ne peut pas être retirée librement sous forme de capital et doit être utilisée afin de procurer un revenu de retraite.  Ainsi, même lorsque les droits appartiennent au participant (droits acquis), leur utilisation demeure encadrée par la loi.
+
+- **Québec** -- [Article 102 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Les droits accumulés sont généralement immobilisés. Lorsqu’un participant quitte son emploi, la valeur de ses droits ne peut pas être versée directement en argent (sauf exceptions). Elle doit plutôt être transférée dans un véhicule immobilisé (comme un compte de retraite immobilisé — CRI —) ou utilisée pour l’achat d’une rente. La loi prévoit toutefois certaines exceptions, notamment pour les petits montants ou dans des situations particulières comme une espérance de vie réduite.  
+
+- **Autres provinces (règle générale)**  
+  Le principe d’immobilisation est présent dans la plupart des juridictions canadiennes. Les droits acquis doivent généralement être maintenus dans un cadre destiné à la retraite, par exemple par transfert dans un véhicule immobilisé ou conversion en rente. Les modalités précises, notamment en matière de déverrouillage (petits montants, difficultés financières, non-résidence, etc.), varient toutefois d’une province à l’autre et sont souvent définies de façon détaillée par règlement.
+
+- **Régimes de compétence fédérale** -- [Article 18 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  Les règles d’immobilisation suivent les mêmes principes généraux. Les droits accumulés doivent être utilisés pour fournir un revenu de retraite et ne peuvent être encaissés librement. Des exceptions encadrées existent également, notamment en cas de petits montants ou dans certaines situations prévues par règlement. 
+
+::: {.encadre2}
+En bref, l’immobilisation vise à assurer que les droits accumulés dans un régime de retraite soient effectivement utilisés pour procurer un revenu à long terme, en limitant leur utilisation immédiate. Elle s’inscrit dans un ensemble de règles destinées à encadrer l’utilisation des sommes accumulées dans les régimes de retraite, notamment en lien avec leur traitement fiscal et leur rôle de protection financière à la retraite. Au fil du temps, les différentes juridictions canadiennes ont adopté des règles similaires en matière d’immobilisation, bien que des différences importantes subsistent quant aux conditions de déverrouillage et aux modalités applicables.
+:::
+
+### Cotisation patronale minimale
+
+Les lois encadrant les régimes de retraite imposent des règles visant à encadrer la répartition du financement des prestations entre l’employé et l’employeur. Ces règles s’appliquent à la conception même du régime et visent à éviter qu’un participant finance une part excessive de ses propres droits.
+
+- **Québec** -- [Article 60 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  La loi encadre la part des cotisations salariales de manière à en limiter l’importance relative. En pratique, ces règles font en sorte que les cotisations de l’employé ne représentent généralement pas plus de 50 % de la valeur actuarielle des droits constitués. Des dispositions particulières peuvent s’appliquer, notamment en cas de financement d’un déficit actuariel. 
+
+- **Autres provinces et régimes fédéraux** -- [Article 21 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  Des règles similaires existent dans plusieurs juridictions canadiennes. Par exemple, la loi fédérale prévoit que si les cotisations du participant excèdent 50 % de la valeur de ses droits, les prestations doivent être ajustées en conséquence (art. 21). Bien que les mécanismes diffèrent, ces règles visent à limiter la part du coût assumée par l’employé. 
+
+::: {.encadre2}
+Ces règles s’apprécient pour les droits du participant, notamment à la fin de sa participation active, et non comme une règle imposant chaque année une répartition exactement égale des cotisations salariales et patronales. Elles contribuent ainsi à maintenir un certain équilibre entre les contributions de l’employeur et celles des employés.
+:::
+
+### Cessation d’emploi et cotisations excédentaires
+
+Dans un régime à prestations déterminées, les cotisations des employés sont souvent exprimées comme un pourcentage uniforme du salaire. Or, le coût actuariel d’une rente varie avec l’âge, de sorte qu’un employé en début de carrière peut verser des cotisations supérieures au coût actuariel des droits qu’il accumule. Cette situation peut conduire, pour un participant donné, à ce que les cotisations versées dépassent les limites prévues par la loi. Ce phénomène devient particulièrement visible lors de la cessation d’emploi, moment où les droits doivent être évalués individuellement. Les cotisations excédentaires correspondent, dans le cadre des règles applicables, à la portion des cotisations salariales accumulées avec intérêts qui dépasse 50 % de la valeur des droits visés par le test légal. Elles sont déterminées selon les modalités et au moment prescrits. Elles doivent alors être utilisées au bénéfice du participant.
+
+Par juridiction, nous avons :
+
+- **Québec** -- [Articles 60 et 61 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  La loi prévoit que toute cotisation excédentaire doit être utilisée au bénéfice du participant, notamment en augmentant la rente ou en étant transférée dans un véhicule immobilisé. 
+
+- **Autres provinces**  
+  Des règles similaires existent dans la plupart des juridictions. Dans certains cas, les cotisations excédentaires peuvent être remboursées en tout ou en partie, ce qui n’est généralement pas permis au Québec.
+
+- **Régimes de compétence fédérale** -- [Article 21 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  La loi prévoit que si les cotisations du participant excèdent 50 % de la valeur de ses droits, les prestations doivent être ajustées en conséquence. Ce mécanisme corrige l’excédent en augmentant les droits plutôt qu’en modifiant les cotisations. 
+
+::: {.encadre2}
+Les cotisations excédentaires ne résultent pas d’une règle de conception du régime, mais d’une situation individuelle liée au mode de financement collectif. Elles constituent un mécanisme correctif ex post, qui vise à s’assurer qu’un participant — notamment en cas de départ en cours de carrière — ne finance pas une proportion excessive de ses propres prestations.
+:::
+
+### Exceptions à l’immobilisation : remboursement dans certaines situations
+
+Dans un régime à prestations déterminées, les droits accumulés sont normalement immobilisés et doivent servir à fournir un revenu de retraite. Toutefois, la loi prévoit certaines exceptions permettant le versement d’un montant forfaitaire. Ces situations ne sont pas liées à la cessation d’emploi en tant que telle, mais à des conditions particulières, comme la faible valeur des droits ou certaines situations personnelles. Par juridiction, nous avons:
+
+- **Québec** -- [Article 66 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Le régime doit permettre le remboursement de la valeur des prestations lorsque celles-ci sont de faible importance, soit lorsqu’elles sont inférieures à 20 % du maximum des gains admissibles (MGA). D’autres mécanismes de remboursement existent, notamment pour certains cas de non-résidence au Canada; le régime peut aussi prévoir le remboursement en cas d’invalidité réduisant l’espérance de vie. Les conditions ne sont pas identiques selon les situations. 
+
+- **Autres provinces**  
+  Des règles similaires existent dans la plupart des juridictions canadiennes. Les seuils utilisés pour définir une « petite prestation » varient toutefois, certaines provinces utilisant une limite de 20 % du MGA, d’autres un critère basé sur le montant de la rente (par exemple 4 % du MGA). De plus, selon les provinces, le remboursement peut être obligatoire ou simplement permis.
+
+- **Régimes de compétence fédérale** -- [Article 18 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  Les règles sont généralement comparables à celles du Québec, bien que les modalités précises et les seuils puissent varier selon les règlements applicables. 
+
+::: {.encadre2}
+Ces dispositions visent notamment à éviter la création et la gestion de droits de très faible valeur, qui pourraient être coûteux à administrer. Elles reflètent également une volonté d’introduire une certaine flexibilité dans un système par ailleurs fortement contraint par l’immobilisation. La limite de 20 % du MGA concerne la **valeur des droits**, et non le montant annuel de la rente. En 2026, cela représente une valeur de droits inférieure à 14 920 $, selon les conditions prévues. Voir [Retraite Québec — Paiements au comptant](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-determinees/paiements-comptant). On ne peut pas déduire directement une rente annuelle de cette limite à l’aide du facteur d’équivalence fiscal; la conversion dépend des hypothèses actuarielles et de l’âge. Le remboursement dans ces cas constitue donc un mécanisme pratique visant à adapter le régime à la réalité économique et administrative.
+:::
+
+
+### Droit de transfert à la cessation d’emploi
+
+Lorsqu’un participant quitte un régime de retraite avant la retraite, il peut généralement transférer la valeur actuarielle de ses droits vers un autre véhicule de retraite. Ce droit de transfert est toutefois encadré par des règles qui varient selon le type de régime et la juridiction.
+
+Par juridiction, nous avons:
+
+- **Québec** -- [Article 99 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Le participant peut transférer la valeur de ses droits, sous réserve de certaines conditions, notamment une restriction liée à la proximité de la retraite dans les régimes à prestations déterminées. Cette restriction ne s’applique pas aux régimes à cotisation déterminée. 
+
+- **Autres provinces**  
+  Des règles similaires existent dans la plupart des juridictions canadiennes, notamment en ce qui concerne le droit de transférer la valeur des droits vers des véhicules admissibles. Les conditions d’exercice de ce droit varient toutefois d’une province à l’autre. Dans certaines juridictions, des restrictions peuvent s’appliquer à l’approche de la retraite, sans qu’il existe une règle uniforme comparable à celle observée au Québec. La distinction entre régimes à prestations déterminées et à cotisations déterminées est également présente dans certaines provinces.
+
+- **Régimes de compétence fédérale** -- [Article 26 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  Le participant qui quitte son emploi peut transférer la valeur de ses droits vers un véhicule admissible. L’exercice de ce droit peut toutefois être encadré dans certaines situations, notamment à l’approche de la retraite, selon les dispositions de la loi et des règlements. 
+
+::: {.encadre2}
+Ces règles visent à encadrer les conditions dans lesquelles un participant peut convertir ses droits en une valeur actuarielle transférable. Dans un régime à prestations déterminées, cette valeur dépend fortement des hypothèses actuarielles, notamment du taux d’intérêt. À l’approche de la retraite, elle devient plus sensible aux conditions financières, ce qui peut entraîner des variations importantes des montants de transfert. Les restrictions applicables au transfert contribuent ainsi à encadrer ces variations et à préserver la cohérence actuarielle et financière du régime. À l’inverse, dans un régime à cotisations déterminées, la valeur des droits correspond directement aux sommes accumulées, ce qui explique la plus grande flexibilité en matière de transfert.
+:::
+
+
+### Date normale de retraite
+
+Les lois encadrant les régimes de retraite prévoient l’existence d’une **date normale de retraite**, qui correspond à l’âge ou au moment fixé par le régime à partir duquel les prestations de retraite peuvent être versées selon les conditions prévues au régime.
+
+- **Québec** -- [Article 73 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  L’âge normal de retraite est fixé par le régime et ne peut dépasser le premier jour du mois suivant celui où le participant atteint 65 ans. 
+
+- **Autres provinces**  
+  Les règles varient selon les juridictions. Dans plusieurs provinces, la date normale de retraite est déterminée par le régime lui-même, sous réserve de certaines contraintes légales. Contrairement au Québec, il n’existe généralement pas de limite uniforme explicite dans la loi, et cette date est le plus souvent fixée autour des pratiques usuelles du marché, souvent près de 65 ans.
+
+- **Régimes de compétence fédérale**  
+  La date normale de retraite correspond à l’âge prévu par le régime pour le début des prestations. Contrairement au Québec, la loi ne fixe pas de limite explicite et cette date est déterminée par les dispositions du régime. En pratique, elle correspond souvent à l’âge auquel la rente peut être versée sans réduction actuarielle.
+
+::: {.encadre2}
+La date normale de retraite joue un rôle central dans la structure du régime. Elle sert de référence pour déterminer les conditions de versement des prestations, notamment pour distinguer la retraite normale de la retraite anticipée, qui peut être assortie d’ajustements actuariels. Elle est également utilisée comme point de repère dans plusieurs mécanismes du régime, notamment pour l’évaluation des droits et certaines règles de financement. La limite fixée à 65 ans dans certaines juridictions ne reflète pas nécessairement l’âge réel de départ à la retraite, mais plutôt un cadre juridique standard autour duquel les régimes sont construits. Dans la pratique, les participants peuvent souvent prendre leur retraite avant ou après cette date, avec des ajustements actuariels appropriés. La date normale de retraite constitue ainsi une référence technique utilisée pour structurer les droits et les calculs du régime, plutôt qu’une contrainte directe sur le moment effectif de la retraite.
+:::
+
+### Retraite anticipée avec rente réduite
+
+Les lois encadrant les régimes de retraite permettent généralement aux participants de prendre leur retraite avant la date normale de retraite, moyennant une réduction actuarielle de la rente.
+
+- **Québec** -- [Articles 67 et suivants de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Un régime peut prévoir le versement d’une rente avant la date normale de retraite, généralement sous forme de rente anticipée réduite. Les modalités précises — notamment l’âge minimal et le niveau de réduction — sont déterminées par le régime, dans le respect des dispositions de la loi. La retraite progressive est également permise dans certains cas, permettant à un participant de recevoir une partie de sa rente tout en continuant à travailler à temps partiel. 
+  
+- **Autres provinces**  
+  Des règles similaires existent dans la plupart des juridictions canadiennes. Les lois encadrent les droits à pension et permettent aux régimes de prévoir des prestations avant la date normale de retraite. En pratique, plusieurs régimes offrent des options de retraite anticipée, bien que les modalités précises — notamment l’âge minimal et les ajustements applicables — varient selon la juridiction et le régime.
+
+- **Régimes de compétence fédérale**  
+  Un régime peut prévoir le versement d’une rente avant la date normale de retraite, selon les modalités établies dans le régime. En pratique, ces rentes sont généralement ajustées afin de tenir compte du versement anticipé, bien que la loi ne prescrive pas explicitement une réduction actuarielle.
+
+::: {.encadre2}
+La réduction appliquée à une rente anticipée vise à tenir compte du fait que celle-ci sera versée sur une période plus longue. En pratique, les régimes ajustent le montant de la rente afin de refléter le versement anticipé, souvent selon des considérations actuarielles, sans que la loi n’impose une méthode précise. Plusieurs régimes utilisent un âge normal de retraite autour de 65 ans et permettent un départ anticipé dans les années qui précèdent. Cela contribue à faire de 55 ans un repère fréquent pour la retraite anticipée. Ce seuil ne constitue toutefois pas une règle légale uniforme, mais plutôt une convention issue des pratiques de marché et de la conception des régimes.
+:::
+
+
+### Report de la retraite, avec rente majorée
+
+Les lois encadrant les régimes de retraite permettent généralement de reporter la retraite au-delà de la date normale de retraite. Ce report peut entraîner une augmentation de la rente, selon les modalités prévues par le régime.
+
+- **Québec** -- [Articles 67 et suivants de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Un régime peut prévoir le report du versement de la rente au-delà de la date normale de retraite. Les ajustements applicables — notamment une majoration de la rente — sont déterminés par le régime, sans qu’une méthode précise soit imposée par la loi. 
+
+- **Autres provinces**  
+  Des règles similaires existent dans la plupart des juridictions. La poursuite de la participation au régime après la date normale de retraite dépend généralement des dispositions du régime et du cadre législatif applicable. En pratique, plusieurs régimes permettent de continuer à accumuler des droits ou de différer le versement de la rente, bien que les modalités varient selon la juridiction.
+
+- **Régimes de compétence fédérale**  
+  La participation au régime peut se poursuivre après la date normale de retraite selon les modalités prévues par le régime. En pratique, cela peut permettre une augmentation des droits accumulés, bien que la loi n’impose pas explicitement une telle accumulation.
+
+::: {.encadre2}
+Le report de la retraite correspond à la situation inverse de la retraite anticipée. En pratique, les régimes ajustent les prestations afin de tenir compte du moment de leur versement. Lorsque la retraite est reportée, les paiements débutent plus tard et sont généralement versés sur une période plus courte, ce qui peut entraîner une augmentation du montant de la rente. Cette augmentation peut également résulter de l’accumulation de droits supplémentaires lorsque le participant continue à travailler après la date normale de retraite. Comme pour la retraite anticipée, ces ajustements ne sont pas uniformes et dépendent des dispositions du régime. La date normale de retraite sert ainsi de point de référence autour duquel les prestations sont déterminées, sans constituer un point d’équilibre actuariel strict imposé par la loi.
+:::
+
+
+### Définition de conjoint
+
+Les lois encadrant les régimes de retraite définissent la notion de conjoint, car celle-ci détermine plusieurs droits importants, notamment en matière de prestations au survivant et de partage des droits.
+
+- **Québec** -- [LRCR — définition de conjoint](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Aux fins de la loi, est considéré comme conjoint la personne qui, au moment pertinent, satisfait à l’une des conditions suivantes :
+  - être mariée ou unie civilement avec le participant;
+  - vivre maritalement avec le participant en union de fait depuis au moins 3 ans;
+  - vivre maritalement avec le participant depuis au moins 1 an si un enfant est né ou à naître de leur union.  
+  
+
+- **Autres provinces**  
+  Des règles similaires existent dans la plupart des juridictions canadiennes. Le conjoint peut être marié ou en union de fait, mais les critères applicables — notamment la durée minimale de vie commune — varient selon la province. En pratique, cette durée est souvent de l’ordre de 1 à 3 ans, selon la définition retenue par la loi applicable.
+
+- **Régimes de compétence fédérale** -- [Article 2 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)  
+  La définition est comparable, mais plus simple. Est notamment considéré comme conjoint de fait une personne qui cohabite avec le participant dans une relation conjugale depuis au moins un an. 
+
+::: {.encadre2}  
+La définition du conjoint varie selon la juridiction, notamment en ce qui concerne la durée de vie commune et les formes d’union reconnues. Cette notion joue un rôle central dans les régimes de retraite. Elle détermine notamment :
+
+- le droit à une rente de survivant;
+- le partage des droits en cas de séparation;
+- et certaines caractéristiques des prestations versées.
+
+Ainsi, la situation familiale du participant peut influencer la nature des prestations, notamment lorsqu’une rente est réversible au conjoint. Une telle rente a généralement une valeur actuarielle plus élevée qu’une rente individuelle, ce qui peut se refléter dans le coût des prestations associées.
+:::
+
+### Décès avant la retraite
+
+Lorsqu’un participant décède avant sa retraite, les lois encadrant les régimes de retraite prévoient le versement de la valeur actuarielle des droits accumulés. Historiquement, certaines distinctions existaient entre les droits acquis avant et après les réformes des années 1980. Aujourd’hui, ces distinctions sont devenues marginales, et les règles actuelles s’appliquent essentiellement à l’ensemble des droits accumulés.
+
+- **Québec** -- [Articles 85 et 87 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  En cas de décès avant la retraite, la valeur des droits est attribuée au conjoint survivant ou, à défaut, au bénéficiaire désigné ou à la succession. Cette valeur peut être versée sous forme de capital ou utilisée pour constituer une rente, selon les modalités prévues par la loi. 
+
+- **Autres provinces**  
+  Les règles sont globalement similaires. La valeur des prestations est versée en priorité au conjoint survivant, puis au bénéficiaire ou à la succession.  Certaines variations existent :
+  - dans certains cas, seule la valeur des cotisations peut être versée;
+  - dans certaines juridictions, la valeur doit être immobilisée lorsqu’un conjoint survit.
+
+- **Régimes de compétence fédérale** -- [Articles 23 et 25 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  En cas de décès avant la retraite, le conjoint survivant a droit à une prestation correspondant à la valeur des droits accumulés. Cette prestation peut être versée sous forme de transfert ou utilisée pour constituer une rente, selon les modalités prévues par la loi. 
+
+::: {.encadre2}
+Ces règles visent à assurer que les droits accumulés ne disparaissent pas au décès du participant. Avant la retraite, la prestation n’est pas encore sous forme de rente en paiement. La prestation de décès correspond donc généralement à la valeur actuarielle des droits accumulés. La présence d’un conjoint joue un rôle déterminant. Dans plusieurs cas, le conjoint a priorité et peut recevoir soit un montant forfaitaire, soit une rente, selon les dispositions du régime et de la loi. Ainsi, le décès avant la retraite conduit à exprimer les droits accumulés sous forme d’une valeur actuelle transférable ou d’une rente équivalente, ce qui met en évidence le rôle du calcul actuariel dans la détermination des prestations.
+:::
+
+### Décès après la retraite
+
+Lorsqu’un participant décède après sa retraite, les lois encadrant les régimes de retraite prévoient généralement une protection pour le conjoint survivant. Dans la plupart des juridictions canadiennes, la rente doit être versée sous la forme d’une rente conjointe et survivant, à moins que le conjoint n’y renonce. Cette rente prévoit qu’au décès du retraité, une portion de la rente continue d’être versée au conjoint survivant, généralement d’au moins 60 %. Cette règle vise à assurer une continuité du revenu pour le conjoint après le décès du participant.
+
+- **Québec** -- [Articles 87 à 89 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  La loi prévoit que la rente de retraite doit, sauf renonciation du conjoint, être versée sous la forme d’une rente réversible au conjoint survivant. Cette rente doit assurer au conjoint une prestation correspondant à un pourcentage minimal de la rente du participant, généralement d’au moins 60 %. 
+  
+- **Autres provinces**  
+  Des règles similaires existent dans la plupart des juridictions canadiennes. La rente de retraite doit généralement être versée sous la forme d’une rente conjointe et survivant, à moins que le conjoint n’y renonce. Le pourcentage de la rente versé au conjoint survivant est souvent fixé à un minimum, fréquemment de l’ordre de 60 %, bien que les modalités précises varient selon la province et le régime.
+  
+- **Régimes de compétence fédérale** -- [Articles 25 et 26 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  La loi prévoit que la rente de retraite doit, sauf renonciation du conjoint, être versée sous la forme d’une rente conjointe et survivant. Cette rente assure au conjoint survivant le versement d’une portion de la rente du participant après son décès. Le pourcentage minimal est généralement fixé à 60 %, bien que les modalités précises soient déterminées par la loi et les dispositions du régime. 
+  
+::: {.encadre2}
+La présence d’un conjoint influence la forme de la rente au moment de la retraite. Une rente avec prestation au survivant a généralement une valeur actuarielle plus élevée qu’une rente individuelle, puisqu’elle peut être versée sur une période plus longue. En conséquence, le montant de la rente versée au participant de son vivant est souvent ajusté afin de tenir compte de cette protection, bien que les modalités précises dépendent du régime. Le participant accepte ainsi, dans plusieurs cas, un montant initial plus faible en contrepartie d’une sécurité financière pour son conjoint. La rente de retraite peut ainsi être conçue, selon le régime, comme couvrant à la fois la vie du participant et celle du conjoint, sans que cela constitue une règle uniforme dans tous les cas.
+:::
+
+### Partage des droits à la rupture de l’union
+
+Lorsqu’une union est dissoute, les droits accumulés dans un régime de retraite peuvent faire l’objet d’un partage entre les conjoints. Ce partage découle principalement des règles du droit de la famille, qui reconnaissent ces droits comme des biens constitués pendant la vie commune. Les lois encadrant les régimes de retraite prévoient les modalités selon lesquelles ce partage est effectué.
+
+- **Québec** -- [Articles 107 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  En cas de divorce, de séparation de corps ou de dissolution d’une union civile, les droits accumulés par le participant peuvent être partagés entre les conjoints, conformément aux règles du droit de la famille. Le partage porte généralement sur la valeur des droits accumulés pendant la durée de l’union. La loi prévoit les modalités de calcul et de transfert de cette valeur, laquelle demeure immobilisée et continue de servir à fournir un revenu de retraite. Les conjoints de fait ne font pas automatiquement partie du patrimoine familial au sens du mariage, mais des ententes peuvent permettre le partage des droits d’un régime complémentaire de retraite. Depuis 2025, le patrimoine de l’union parentale ne comprend pas, par défaut, les droits de retraite, à la différence du patrimoine familial; un ajout conventionnel demeure possible. Voir [Retraite Québec — partage des droits des conjoints de fait](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/union-et-separation/regimes-retraite-et-partage/partage-droits-accumules-regime-retraite-secteur-prive-municipal-ou-universitaire-personnes-union-fait) et [Québec — patrimoine d’union parentale](https://www.quebec.ca/famille-et-soutien-aux-personnes/mariage-union/effets-union-parentale/patrimoine-union-parentale/a-propos). 
+
+- **Autres provinces**  
+  Le partage des droits de retraite est généralement encadré par les lois provinciales en matière de biens familiaux. Le conjoint peut avoir droit à une portion des droits accumulés pendant l’union, souvent déterminée selon des principes de partage égal ou équitable, sans qu’un pourcentage uniforme ne s’applique dans toutes les juridictions. Les modalités varient notamment quant au moment du partage, qui peut être effectué immédiatement (par transfert d’une valeur) ou reporté au moment du versement des prestations.
+
+- **Régimes de compétence fédérale** -- [Article 25 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  Le partage des droits est effectué conformément aux règles provinciales applicables en matière de droit de la famille ou selon une ordonnance du tribunal ou une entente entre les parties. 
+
+::: {.encadre2}
+Ces règles visent à assurer une répartition équitable des droits accumulés pendant la vie commune. Les droits à une rente de retraite constituent un actif économique, même s’ils ne sont pas encore versés. Selon les juridictions et les modalités retenues, le partage peut reposer sur l’évaluation de la valeur actuarielle des droits accumulés ou sur une répartition des prestations au moment de leur versement. Dans le premier cas, la rente future est convertie en une valeur actuelle, qui peut ensuite être attribuée en tout ou en partie au conjoint. Cette opération illustre le rôle du calcul actuariel dans l’évaluation des droits de retraite. Ainsi, une promesse de revenu futur peut, dans ce contexte, être traitée comme un actif partageable, au même titre que d’autres biens.
+:::
+
+
+### Taux d’intérêt crédité sur les cotisations
+
+Les lois encadrant les régimes de retraite définissent le cadre général applicable aux cotisations versées par les participants, sans toutefois prescrire directement le taux d’intérêt utilisé pour en accumuler la valeur. Celui-ci dépend plutôt des modalités du régime et du mode de gestion des placements. Cet élément est particulièrement important dans les régimes à cotisations déterminées, où la valeur finale dépend directement des rendements obtenus. Dans les régimes à prestations déterminées, il joue un rôle plus indirect, notamment dans le calcul de certaines valeurs, comme les valeurs de transfert ou les cotisations excédentaires.
+
+- **Québec**  
+  Les cotisations salariales d’un régime à prestations déterminées doivent être suivies avec les intérêts reconnus selon les règles légales applicables et les dispositions du régime. Il serait incorrect d’assimiler systématiquement ces intérêts au rendement annuel de la caisse; il faut consulter la méthode prévue pour le calcul des droits et des éventuelles cotisations excédentaires.
+
+- **Autres provinces**  
+  Des règles similaires existent dans la plupart des juridictions canadiennes. La loi ne prescrit généralement pas de taux d’intérêt applicable aux cotisations, et le rendement crédité dépend des modalités du régime et du mode de gestion des placements. En pratique, ce rendement correspond souvent au rendement de la caisse ou, dans certains cas, à celui de comptes individuels, sans qu’un taux minimal uniforme ne soit imposé dans l’ensemble des juridictions.
+
+- **Régimes de compétence fédérale**  
+  Le principe est comparable au Québec. La loi ne prescrit pas de taux d’intérêt applicable aux cotisations. Dans les régimes à cotisations déterminées, la valeur des cotisations évolue généralement en fonction du rendement des placements. Dans les régimes à prestations déterminées, des hypothèses de taux d’intérêt sont utilisées lorsque nécessaire, notamment pour l’évaluation des droits, selon les modalités du régime et les normes applicables.
+
+::: {.encadre2}
+Ces mécanismes visent à ce que les valeurs associées aux droits de retraite reflètent, dans une certaine mesure, les conditions financières. Dans un régime à cotisations déterminées, le rendement crédité est déterminant, puisqu’il influence directement le montant disponible à la retraite. Dans un régime à prestations déterminées, le taux d’intérêt joue surtout un rôle technique. Il intervient dans l’évaluation des droits, notamment lors du calcul des valeurs de transfert ou de certaines prestations, sans que les cotisations soient elles-mêmes accumulées selon un taux explicite au niveau individuel. Ainsi, une même situation peut donner lieu à des valeurs différentes selon les hypothèses financières retenues, ce qui met en évidence l’importance du taux d’intérêt dans l’évaluation des droits de retraite.
+:::
+
+### Fréquence minimale des évaluations actuarielles
+
+Les évaluations actuarielles concernent principalement les régimes à prestations déterminées, puisqu’elles visent à mesurer les engagements du régime et à déterminer les cotisations nécessaires à son financement.
+
+- **Québec** -- [Articles 118 et 119.1 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Une évaluation actuarielle complète est généralement exigée au plus tard tous les trois ans. Selon la situation financière et certains événements prévus par la loi, elle peut être requise plus tôt. Lorsqu’aucune évaluation complète n’est exigée, un avis sur la situation financière à la fin de l’exercice peut devoir être transmis. Voir [Retraite Québec et les articles 118 à 119.1 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1). 
+
+- **Autres provinces**  
+  Dans la plupart des juridictions canadiennes, une évaluation actuarielle est requise sur une base périodique, souvent tous les trois ans. Une fréquence plus élevée peut toutefois être exigée lorsque la situation financière du régime le justifie, notamment en présence d’un déficit de solvabilité. Les modalités précises varient selon la province et les exigences réglementaires applicables.
+  
+- **Régimes de compétence fédérale** -- [Article 12 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  Les évaluations actuarielles doivent être produites sur une base périodique, généralement au moins tous les trois ans. Une fréquence plus élevée peut être exigée dans certaines situations, notamment lorsque la situation financière du régime le justifie, conformément aux règlements applicables. 
+
+::: {.encadre2}
+La fréquence des évaluations actuarielles dépend des délais légaux et peut aussi être liée à la situation financière du régime. Une évaluation actuarielle permet de mesurer l’écart entre les engagements du régime et les actifs disponibles. Lorsque cet écart devient important, des évaluations plus fréquentes peuvent être exigées afin de suivre l’évolution de la situation. Ainsi, un régime bien financé peut faire l’objet d’évaluations moins fréquentes, tandis qu’un régime présentant un déficit peut être soumis à un suivi plus rapproché. La fréquence des évaluations constitue donc un outil de suivi du risque, permettant d’actualiser plus régulièrement l’information utilisée pour la gestion du régime et, le cas échéant, pour l’ajustement de son financement.
+:::
+
+### Insaisissabilité
+
+De façon générale au Canada, les sommes accumulées dans un régime de retraite — qu’il s’agisse des cotisations, des prestations ou des valeurs de transfert — bénéficient d’une protection contre les créanciers. Cette protection signifie que ces sommes ne peuvent généralement pas être saisies par les créanciers du participant.  Toutefois, cette protection n’est pas absolue. Certaines exceptions peuvent s’appliquer, notamment en matière d’obligations alimentaires ou dans des situations prévues par la loi, comme lors d’un partage des droits en cas de séparation. 
+
+- **Québec** -- [Articles 264 de la  LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
+  Les cotisations versées à un régime de retraite, les prestations qui en découlent ainsi que les sommes transférées à un autre véhicule de retraite sont, en règle générale, incessibles et insaisissables. Cette protection s’étend également aux sommes attribuées au conjoint à la suite d’un partage et aux prestations constituées avec ces sommes. Elle vise à préserver les droits de retraite contre les créanciers du participant. 
+  
+- **Autres provinces**  
+  Des règles similaires existent dans la plupart des juridictions canadiennes. Les prestations de retraite et les sommes accumulées dans un régime bénéficient généralement d’une protection contre les créanciers du participant, en vertu des lois applicables. Cette protection n’est toutefois pas absolue et peut comporter des exceptions, notamment en matière d’obligations alimentaires ou de partage des droits en cas de séparation. Les modalités précises de cette protection varient selon la province et le cadre législatif applicable.  
+- **Régimes de compétence fédérale** -- [Article 18 de la LNPP](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)    
+  Les droits à pension et les prestations prévues par le régime sont, en règle générale, incessibles et insaisissables. Cette protection s’applique aux sommes accumulées ainsi qu’aux prestations versées, sous réserve de certaines exceptions prévues par la loi, notamment en matière de droit de la famille. 
+
+::: {.encadre2}
+L’insaisissabilité vise à préserver la fonction première du régime de retraite, soit de fournir un revenu à long terme. Elle contribue également à maintenir une certaine séparation entre les actifs du régime et les autres patrimoines, ce qui renforce la sécurité des prestations. Ainsi, même en cas de difficultés financières du participant, les droits de retraite demeurent généralement protégés.
+:::
+
+## Jurisprudence
+
+La jurisprudence correspond aux décisions rendues par les tribunaux. Ces décisions servent à interpréter les lois et à préciser comment elles s’appliquent en pratique. En matière de régimes de retraite, elle est essentielle, car plusieurs aspects (droits des participants, utilisation des surplus, modifications des régimes, etc.) ne sont pas entièrement définis par la loi et doivent être clarifiés par les tribunaux. Voici quelques décisions utiles pour illustrer ces enjeux. Leur portée dépend de la loi et des documents contractuels examinés, ainsi que des modifications législatives survenues depuis leur adoption.
+
+::: {.encadre3}
+#### **Dayco (Canada) Ltd c. CAW Canada – 1993 (Cour suprême du Canada)** {-}
+
+La Cour suprême reconnaît que certaines protections consenties aux retraités par une convention collective peuvent survivre à son expiration, selon les termes de l’engagement. Le litige concernait notamment des **avantages collectifs de retraités** et la possibilité de soumettre le différend à l’arbitrage, plutôt que l’établissement d’une règle générale interdisant toute modification de rente de retraite.
+
+**Impact.**  
+La décision souligne l’importance des droits déjà constitués et de la rédaction des engagements, mais sa portée doit être appréciée dans le cadre précis des avantages et de la convention en cause. Voir [Dayco, 1993 CSC](https://www.canlii.org/fr/ca/csc/doc/1993/1993canlii144/1993canlii144.html).
+
+:::
+  
+::: {.encadre3}
+#### **Monsanto Canada Inc. c. Ontario (Superintendent of Financial Services) – 2004 (Cour suprême du Canada)** {-}
+
+La Cour suprême interprète la loi ontarienne alors applicable : en cas de liquidation partielle, une part proportionnelle de l’excédent actuariel doit être distribuée aux participants visés lorsque les conditions légales de ce droit sont remplies.
+
+**Impact.**  
+Le jugement illustre l’importance des droits lors d’une liquidation partielle, mais son résultat dépend des dispositions de la loi ontarienne examinées et ne peut être transposé automatiquement aux régimes québécois actuels.
+:::
+
+::: {.encadre3}
+#### **Association des retraités d’Hydro-Québec c. Hydro-Québec – 2005 (Cour d’appel du Québec)** {-}
+
+Le litige portait sur les droits revendiqués par une association de retraités à l’égard de l’utilisation d’excédents de la caisse de retraite d’Hydro-Québec. L’arrêt du 10 mars 2005 doit être lu en fonction des documents applicables au régime, des pouvoirs de l’administrateur et du contexte juridique de l’époque.
+
+**Impact.**  
+Ce dossier souligne que l’existence d’un surplus n’en détermine pas à elle seule le propriétaire ou les modalités d’utilisation. Les règles légales et les documents du régime demeurent déterminants. Voir [dossier 30926 à la Cour suprême](https://www.scc-csc.ca/fr/cases-dossiers/search-recherche/30926/), concernant le refus de permission d’appel.
+:::
+
+::: {.encadre3}
+#### **Wronko c. Western Inventory Service Ltd – 2008 (Cour d’appel de l’Ontario)** {-}
+
+La Cour établit qu’un employeur ne peut pas modifier unilatéralement une condition essentielle du contrat d’emploi sans l’accord de l’employé.
+
+**Impact.**  
+Comme les régimes de retraite font souvent partie des conditions d’emploi, leur modification peut nécessiter le consentement des employés ou un nouveau cadre contractuel, à défaut de quoi l’employeur s’expose à une réclamation pour congédiement déguisé.
+:::
+
+
+::: {.encadre3}
+#### **Nolan c. Kerry (Canada) Inc. – 2009 (Cour suprême du Canada)** {-}
+
+La Cour suprême confirme que, sauf restriction dans les documents du régime, l’employeur peut utiliser le surplus d’un régime à prestations déterminées pour prendre un congé de cotisations. Elle reconnaît également qu’un régime peut permettre l’utilisation de ce surplus pour financer des cotisations dans un volet à cotisations déterminées, si sa structure le prévoit.
+
+**Impact.**  
+Ce jugement accorde une grande importance au texte du régime et confirme la flexibilité dont disposent les employeurs dans l’utilisation des surplus, sous réserve des dispositions légales et contractuelles applicables.
+:::
+
+
+
+
+::: {.encadre3}
+#### **Québec (Procureur général) c. A. – 2013 (Cour suprême du Canada)** {-}
+
+Dans le cadre du droit québécois applicable en 2013, la Cour suprême confirme la validité constitutionnelle de l’absence de certaines obligations familiales automatiques entre conjoints de fait. Depuis, le régime d’union parentale introduit en 2025 a modifié certaines règles patrimoniales pour les couples concernés, sans inclure automatiquement leurs droits de retraite.
+
+**Impact.**  
+Le jugement doit être lu dans son contexte temporel. La notion de conjoint de fait peut également produire des effets spécifiques dans les régimes complémentaires de retraite, notamment pour les prestations de survivant et les ententes de partage.
+:::
+
+
+  
+::: {.encadre3}
+#### **Sun Indalex Finance, LLC c. United Steelworkers – 2013 (Cour suprême du Canada)** {-}
+
+La Cour suprême examine le conflit entre les obligations liées aux régimes de retraite (notamment une fiducie réputée en cas de déficit) et les règles de priorité en insolvabilité. Dans les circonstances particulières d’une restructuration sous la loi fédérale, elle reconnaît la priorité accordée par le tribunal au financement temporaire du débiteur sur la fiducie réputée invoquée pour certains déficits de régime.
+
+**Impact.**  
+Ce jugement illustre l’effet possible de la prépondérance fédérale en présence d’une ordonnance de priorité en insolvabilité; il ne signifie pas que toutes les réclamations des régimes de retraite sont toujours subordonnées à celles des créanciers garantis. Il met en évidence le risque que les déficits de régime ne soient pas entièrement recouvrés en cas de faillite.
+:::
+
+
+
+## Conclusion
+
+La principale caractéristique d’un régime à prestations déterminées est que le revenu de retraite est établi selon une formule connue, alors que son coût réel demeure incertain. Nous avons vu que la définition du salaire de référence, les années de service et la mobilité professionnelle peuvent modifier considérablement les prestations auxquelles un participant aura droit.
+
+Cette incertitude explique l’importance du financement collectif et des évaluations actuarielles. La distinction entre le service courant et le service passé permet de comprendre comment les nouvelles prestations sont financées et comment les déficits ou les surplus influencent les cotisations. Enfin, les nombreuses dispositions légales et décisions judiciaires examinées montrent que les engagements d’un régime de retraite ne sont pas uniquement financiers : ils s’inscrivent également dans un cadre juridique qui protège les droits des participants et encadre les responsabilités des employeurs.
+

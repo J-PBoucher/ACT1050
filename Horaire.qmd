@@ -195,7 +195,7 @@ horaire <- data.frame(
     ),
 
     conferencier(
-      "Alexandre Léger (à confirmer)",
+      "Alexandre Léger",
       "Conseiller en actuariat, PBI Conseillers en actuariat",
       linkedin = "https://pbiactuarial.ca/fr/equipe/"
     ),
@@ -211,13 +211,13 @@ horaire <- data.frame(
     conferencier(
       "François Beauchesne  (à confirmer)",
       "Conseiller en actuariat, RAMQ",
-      linkedin = "https://www.linkedin.com/in/IDENTIFIANT/"
+      linkedin = "https://www.linkedin.com/in/françois-beauchesne-b-sc-75089835"
     ),
 
     conferencier(
-      "Dominic Viola  (à confirmer)",
+      "Dominic Viola",
       "Directeur surveillance des risques, Desjardins assurances générales",
-      linkedin = "https://www.linkedin.com/in/IDENTIFIANT/"
+      linkedin = "https://www.linkedin.com/in/dominic-viola-40924572/"
     ),
 
     conferencier(
@@ -266,7 +266,7 @@ horaire <- data.frame(
     "La consultation en assurances collectives",
     "L'assurance de dommages",
     "",
-    "Un actuaire à la régie de l'assurance-maladie du Québec (RAMQ)",
+    "La régie de l'assurance-maladie du Québec (RAMQ)",
     "Gestion de patrimoine",
     "L'actuariat et la finance",
     "Les assurances collectives",

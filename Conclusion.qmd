@@ -12,11 +12,11 @@ Au début de la session, nous avons posé une question simple : qu'est-ce qu'un 
 
 Les professionnels invités ont présenté des parcours et des milieux de travail variés. Même si les problèmes étudiés et les outils employés changent d'un domaine à l'autre, une même préoccupation demeure : évaluer les conséquences financières d'événements futurs incertains pour éclairer les décisions prises aujourd'hui. Ces rencontres ont aussi montré que le travail actuariel ne se résume pas aux calculs : il suppose de comprendre les enjeux d'une situation, de formuler des hypothèses, d'exercer son jugement et de communiquer des résultats. Les chapitres consacrés à l'assurance de personnes et aux régimes de retraite ont donné un premier aperçu de cette démarche. Il ne s'agissait pas encore de maîtriser les modèles mathématiques sous-jacents, mais de comprendre les engagements financiers en jeu, les mécanismes utilisés pour les gérer et les questions auxquelles les actuaires cherchent à répondre.
 
-On peut espérer que ces premiers contacts avec des actuaires de la pratique vous auront également permis de mieux comprendre l'importance des connaissances que vous développerez au cours de vos études. Les notions mathématiques, statistiques et financières que vous apprendrez ne sont pas simplement des exigences universitaires : elles constituent les outils que vous utiliserez éventuellement pour résoudre les problèmes rencontrés dans la pratique. Ces rencontres auront peut-être aussi éveillé votre intérêt pour certains domaines de l'actuariat et vous auront permis de commencer à construire votre réseau professionnel. Les liens établis avec des actuaires peuvent en effet devenir précieux au moment de chercher un stage, un premier emploi ou simplement des conseils pour orienter votre parcours.
+Ces premiers contacts avec des actuaires de la pratique auront peut-être permis de mieux comprendre l'importance des connaissances que vous développerez au cours de vos études. Les notions mathématiques, statistiques et financières ne sont pas simplement des exigences universitaires : elles constituent des outils que vous utiliserez pour résoudre les problèmes rencontrés dans la pratique. Ces rencontres auront aussi pu éveiller votre intérêt pour certains domaines de l'actuariat et vous aider à commencer à construire votre réseau professionnel. Les liens établis avec des actuaires peuvent devenir précieux au moment de chercher un stage, un premier emploi ou des conseils pour orienter votre parcours.
 
 ## Revenir au cheminement universitaire {-}
 
-Au premier chapitre, nous avions présenté la grille du baccalauréat en actuariat. Il est utile d'y revenir maintenant. ACT1050, indiqué dans la grille ci-dessous, est un cours d'introduction parmi plusieurs autres : il situe les problèmes et les milieux de pratique, tandis que le reste du programme fournit progressivement les outils nécessaires pour les analyser en profondeur.
+Au premier chapitre, nous avions présenté la grille du baccalauréat en actuariat. Il est utile d'y revenir maintenant. ACT1050, mis en évidence dans la grille ci-dessous, constitue une introduction à la profession : il présente les problèmes et les milieux de pratique, tandis que les autres cours du programme fournissent progressivement les outils nécessaires pour les analyser en profondeur.
 
 ::: {.content-visible when-format="html"}
 
@@ -83,8 +83,8 @@ Au premier chapitre, nous avions présenté la grille du baccalauréat en actuar
 </div>
 
 <div class="cell econ">
-<div class="code">SCO1250</div>
-<div class="title">Introduction aux sciences comptables</div>
+<div class="code">SCO1045</div>
+<div class="title">Introduction à la comptabilité et à la prise de décisions</div>
 </div>
 
 <div class="cell core">
@@ -226,9 +226,9 @@ style="width:100%; height:auto; display:block;">
 </div>
 
 
-J'espère que ce premier cours vous aura permis de découvrir une profession intéressante et diversifiée, et qu'il vous donnera envie d'en apprendre davantage au cours des prochaines années. Je vous remercie de votre participation tout au long de la session et vous souhaite une excellente continuation dans vos études en actuariat. Il me fera toujours plaisir de vous recroiser, que ce soit dans les corridors de l'université, dans un autre cours ou, éventuellement, dans le milieu professionnel.
+J'espère que ce premier cours vous aura permis de découvrir une profession diversifiée et qu'il vous donnera envie d'en apprendre davantage au cours des prochaines années. Je vous remercie de votre participation tout au long de la session et vous souhaite du succès dans la suite de vos études en actuariat. Il me fera plaisir de vous recroiser, que ce soit dans les corridors de l'université, dans un autre cours ou, éventuellement, dans le milieu professionnel.
 
-Qui sait? Peut-être que dans quelques années, certains d'entre vous reviendront dans cette même classe, non plus comme étudiants, mais comme actuaires invités à présenter leur parcours et leur travail aux nouvelles cohortes. Ce serait une belle façon de poursuivre la tradition des rencontres professionnelles qui font partie de ce cours. D'ici là, bonne continuation dans vos études et au plaisir de vous revoir!
+Qui sait? Peut-être que dans quelques années, certains d'entre vous reviendront dans cette même classe, non plus comme étudiants, mais comme actuaires invités à présenter leur parcours et leur travail aux nouvelles cohortes. Ce serait une belle façon de poursuivre la tradition des rencontres professionnelles qui font partie de ce cours. D'ici là, au plaisir de vous revoir!
 
 <div style="clear: both;"></div>
 

@@ -587,3 +587,89 @@ body:has(.act-objectifs, .act-conclusion) #title-block-header
   height: auto;
   margin: 0 auto 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Encadrés d'exemples en assurance */
+
+.act-cas {
+  padding: 1.2rem 1.5rem;
+  margin: 1.6rem 0;
+  border-left: 5px solid var(--cas-couleur);
+  border-radius: 7px;
+  background: var(--cas-fond);
+  display: flow-root;
+}
+
+/* Assurance-vie : bleu */
+.act-cas-vie {
+  --cas-couleur: #3978a6;
+  --cas-fond: #f0f6fb;
+}
+
+/* Assurance de dommages : orangé */
+.act-cas-dommages {
+  --cas-couleur: #bf7640;
+  --cas-fond: #fdf6ef;
+}
+
+/* Titres des exemples */
+.act-cas h4 {
+  color: var(--cas-couleur);
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+/* Image à droite */
+.act-cas-image {
+  float: right;
+  width: 145px;
+  max-width: 30%;
+  height: auto;
+  margin: 0 0 1rem 1.4rem;
+}
+
+/* Ajustement pour téléphones */
+@media (max-width: 576px) {
+  .act-cas {
+    padding: 1rem;
+  }
+
+  .act-cas-image {
+    float: none;
+    display: block;
+    max-width: 60%;
+    margin: 0 auto 1rem;
+  }
+}
+
+/* Mode sombre */
+.quarto-dark .act-cas-vie {
+  --cas-couleur: #91c5ec;
+  --cas-fond: #192d3d;
+}
+
+.quarto-dark .act-cas-dommages {
+  --cas-couleur: #e6aa77;
+  --cas-fond: #36291f;
+}
+

@@ -22,9 +22,9 @@ date-modified: last-modified
 
 Un régime complémentaire de retraite (RCR) est un régime de retraite offert par un employeur (ou un groupe d’employeurs) qui vient s’ajouter aux régimes publics. On distingue deux grandes logiques de conception, qui diffèrent par la nature de l’engagement pris envers l’individu :
 
-- La première repose sur une promesse de revenu. Dans un régime à prestations déterminées, l’employeur s’engage à verser une rente de retraite dont les paramètres sont définis à l’avance, généralement en fonction du salaire, des années de service et de l’âge de retraite. L’objectif est de fournir un certain niveau de remplacement du revenu. Le risque financier — notamment le risque de rendement et de longévité — est principalement assumé par le promoteur du régime.
+- La première repose sur une promesse de revenu: un **régime à prestations déterminées**. Dans ce régime, l’employeur s’engage à verser une rente de retraite dont les paramètres sont définis à l’avance, généralement en fonction du salaire, des années de service et de l’âge de retraite. L’objectif est de fournir un certain niveau de remplacement du revenu. Le risque financier — notamment le risque de rendement et de longévité — est principalement assumé par le promoteur du régime.
 
-- La seconde repose sur une logique d’épargne accumulée. Dans un régime à cotisations déterminées, l’employeur et l’employé cotisent à un compte individuel au cours de la vie active. Le montant disponible à la retraite dépend de l’épargne accumulée et du rendement obtenu. Aucune rente n’est garantie : le revenu de retraite dépendra des conditions de marché et des choix effectués par l’individu. Le risque est donc largement assumé par le participant.
+- La seconde repose sur une logique d’épargne accumulée: un **régime à cotisations déterminées**. Dans ce régime, l’employeur et l’employé cotisent à un compte individuel au cours de la vie active. Le montant disponible à la retraite dépend de l’épargne accumulée et du rendement obtenu. Aucune rente n’est garantie : le revenu de retraite dépendra des conditions de marché et des choix effectués par l’individu. Le risque est donc largement assumé par le participant.
 
 La plupart des régimes observés en pratique correspondent à des formes hybrides ou à des variantes de ces deux structures, mais ils s’inscrivent généralement dans l’une ou l’autre de ces logiques fondamentales. Dans ce chapitre, nous étudions les régimes à prestations déterminées. Les autres formes de régimes seront présentées au chapitre suivant.
 
@@ -66,7 +66,7 @@ $$
 Cette écriture permet de comprendre pourquoi deux taux différents apparaissent dans les formules de rente : la portion du salaire couverte par le RRQ reçoit un crédit plus faible que la portion non couverte. Ainsi, la rente totale à la retraite provient de la combinaison des régimes publics et du régime complémentaire, où les paramètres $\alpha$ et $\beta$ sont choisis de manière à ce que cette somme corresponde approximativement à la cible de remplacement du revenu :
 
 $$
-R_{\text{total}} = R_{\text{RRQ}} + R_{\text{base}} \approx 70\% \text{ du salaire}
+R_{\text{total}} = R_{\text{RRQ}} + R_{\text{base}} \approx \rho = 70\% \text{ du salaire}
 $$
 
 Intuitivement, le régime à prestations déterminées ne vise pas à déterminer une rente de façon isolée, mais plutôt à compléter les régimes publics afin d’atteindre un objectif global de remplacement du revenu. La présence de deux taux d’accumulation reflète donc directement la structure du système de retraite : une partie du revenu est déjà couverte par le RRQ (jusqu’au MGA), alors que le reste doit être entièrement pris en charge par le régime complémentaire.
@@ -699,9 +699,9 @@ Le choix entre rente différée et valeur de transfert repose sur des hypothèse
 ::: {.encadre2}
 #### **Rachat et ententes de transfert** {-}
 
-Certains régimes permettent de **racheter** des années de service, par exemple pour du service antérieur ou des périodes sans cotisation. L’idée est de recréer des droits comme si l’employé avait participé au régime pendant ces années. En pratique, le coût de ce rachat correspond généralement à la valeur actuarielle des prestations additionnelles obtenues, ce qui le rend souvent élevé.
+Certains régimes permettent de racheter des années de service, par exemple pour du service antérieur ou des périodes sans cotisation. L’idée est de recréer des droits comme si l’employé avait participé au régime pendant ces années. En pratique, le coût de ce rachat correspond généralement à la valeur actuarielle des prestations additionnelles obtenues, ce qui le rend souvent élevé.
 
-Il existe également des **ententes de transfert** entre certains régimes. Ces ententes permettent de transférer directement les droits accumulés d’un régime à un autre, sans passer par une valeur de transfert individuelle. Lorsque de telles ententes existent, elles peuvent permettre de préserver, en tout ou en partie, les caractéristiques du régime initial, notamment lorsque les deux régimes sont de nature similaire (par exemple, deux régimes à prestations déterminées du secteur public). Cependant, ces mécanismes restent encadrés par des règles complexes et ne sont pas toujours disponibles. Leur fonctionnement dépend des dispositions propres aux régimes, des ententes entre employeurs et des contraintes légales et fiscales. 
+Il existe également des ententes de transfert entre certains régimes. Ces ententes permettent de transférer directement les droits accumulés d’un régime à un autre, sans passer par une valeur de transfert individuelle. Lorsque de telles ententes existent, elles peuvent permettre de préserver, en tout ou en partie, les caractéristiques du régime initial, notamment lorsque les deux régimes sont de nature similaire (par exemple, deux régimes à prestations déterminées du secteur public). Cependant, ces mécanismes restent encadrés par des règles complexes et ne sont pas toujours disponibles. Leur fonctionnement dépend des dispositions propres aux régimes, des ententes entre employeurs et des contraintes légales et fiscales. 
 
 D’un point de vue conceptuel, ces outils visent à atténuer l’effet de la mobilité sur les droits à la retraite, mais sans l’éliminer complètement. Leur analyse détaillée dépasse le cadre de ce cours et sera abordée dans des contextes plus avancés.
 
@@ -725,8 +725,8 @@ où $n$ représente le nombre d’années avant la retraite. On pourrait donc ê
 
 Le régime doit donc financer simultanément l’ensemble de ces engagements. Dans un régime à prestations déterminées, la cotisation annuelle n’est toutefois pas fixée individuellement, mais à partir d’une évaluation actuarielle globale qui repose sur deux éléments complémentaires :
 
-1. la détermination du coût des droits qui seront acquis au cours de la prochaine année (**service courant**);
-2. la comparaison entre la valeur totale des engagements du régime (le passif actuariel) et la valeur des actifs accumulés dans la caisse de retraite (**service passé**).
+1. la détermination du coût des droits qui seront acquis au cours de la prochaine année (service courant);
+2. la comparaison entre la valeur totale des engagements du régime (le passif actuariel) et la valeur des actifs accumulés dans la caisse de retraite (service passé).
 
 #### **Service courant** 
 
@@ -819,7 +819,7 @@ $$
 où $x_i$ représente l’âge de l’individu $i$ et $n_i$ le nombre d’années avant le début des prestations. Pour les participants actifs, seule la portion de rente déjà accumulée est incluse dans le passif actuariel.
 
 ::: {.callout-note}
-Cette manière de présenter le passif correspond à une logique où l’on évalue, à une date donnée, la valeur des engagements déjà accumulés comme s’ils devaient être financés à partir de l’actif disponible aujourd’hui. Cette perspective est proche d’une approche dite de **solvabilité**, sans toutefois entrer ici dans les distinctions formelles entre méthodes actuarielles.
+Cette manière de présenter le passif correspond à une logique où l’on évalue, à une date donnée, la valeur des engagements déjà accumulés comme s’ils devaient être financés à partir de l’actif disponible aujourd’hui. Cette perspective est proche d’une approche dite de solvabilité, sans toutefois entrer ici dans les distinctions formelles entre méthodes actuarielles.
 :::
 
 De façon simplifiée, il s’agit d’une agrégation des promesses de rentes individuelles. Ce passif ne se forme pas instantanément : il résulte de l’accumulation des droits générés par les années de service passées. En contrepartie de ces engagements, les participants et l’employeur ont versé des cotisations au fil du temps. Ces cotisations, correspondant à ce qui avait été estimé comme étant une cotisation de service courant à l’époque, ont été déterminées de manière à financer les prestations promises, selon les hypothèses actuarielles retenues à ce moment.
@@ -1118,7 +1118,7 @@ Ces règles visent à encadrer les conditions dans lesquelles un participant peu
 
 ### Date normale de retraite
 
-Les lois encadrant les régimes de retraite prévoient l’existence d’une **date normale de retraite**, qui correspond à l’âge ou au moment fixé par le régime à partir duquel les prestations de retraite peuvent être versées selon les conditions prévues au régime.
+Les lois encadrant les régimes de retraite prévoient l’existence d’une date normale de retraite, qui correspond à l’âge ou au moment fixé par le régime à partir duquel les prestations de retraite peuvent être versées selon les conditions prévues au régime.
 
 - **Québec** -- [Article 64 de la LRCR](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1)    
   La date normale de retraite doit être fixée par le régime et ne peut être postérieure au mois suivant celui au cours duquel le participant atteint l’âge de 65 ans. 

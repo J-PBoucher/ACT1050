@@ -4,7 +4,6 @@ date: 01/05/2026
 date-modified: last-modified
 ---
 
-
 # L'actuariat à l'UQAM
 
 ::: {.act-objectifs}
@@ -40,7 +39,7 @@ text-align:center;
 
 La Commission royale d’enquête sur l’enseignement (Commission Parent), active entre 1961 et 1964, recommande explicitement l’expansion du réseau universitaire francophone, notamment par la création d’une université publique à Montréal regroupant des ressources déjà existantes. En décembre 1968, l’Assemblée nationale adopte la Loi sur l’Université du Québec, qui établit un réseau universitaire public destiné à répondre aux besoins régionaux et sociaux du Québec. Le 9 avril 1969, le décret 1170 institue officiellement l’Université du Québec à Montréal. Ce décret nomme le premier recteur ainsi que les membres du conseil d’administration. L’UQAM accueille ses premiers étudiants dès l’automne 1969.
 
-L’Université du Québec à Montréal (UQAM) est créée le 9 avril 1969 par le gouvernement du Québec. Sa création s’inscrit dans une période de réformes majeures du système d’éducation québécois, marquée par une volonté explicite de démocratiser l’enseignement universitaire et d’en élargir l’accessibilité. L’UQAM résulte du regroupement de plusieurs établissements d’enseignement déjà présents à Montréal, dont le Collège Sainte-Marie, fondé en 1848, l’École des beaux-arts de Montréal, créée en 1922, ainsi que plusieurs écoles normales, notamment l’École normale Jacques-Cartier fondée en 1857. Ce regroupement confère à la nouvelle université, dès sa création, un héritage institutionnel et pédagogique diversifié.
+La nouvelle université résulte du regroupement de plusieurs établissements d’enseignement déjà présents à Montréal, dont le Collège Sainte-Marie, fondé en 1848, l’École des beaux-arts de Montréal, créée en 1922, ainsi que plusieurs écoles normales, notamment l’École normale Jacques-Cartier, fondée en 1857. Ce regroupement confère à l’UQAM, dès sa création, un héritage institutionnel et pédagogique diversifié.
 
 <div style="clear: both;"></div>
 
@@ -137,7 +136,7 @@ L’Université du Québec à Montréal (UQAM) est structurée en plusieurs facu
 </div>
 <div class="faculty">
 <p class="faculty-title">Faculté des sciences de la santé</p>
-<p class="faculty-note">Faculté en développement (nouvelle faculté en émergence)</p>
+<p class="faculty-note">Faculté créée en 2024, dont les programmes et les structures départementales sont en développement</p>
 </div>
 </div>
 
@@ -157,7 +156,7 @@ Organigramme de l'UQAM, 2025
 </div>
 </div>
 
-Comme on peut le voir avec l'image à droite, la [institutionnelle de l'UQAM](https://ressources-medias.uqam.ca/media/uploads/20250226150055/Organigramme_officiel.pdf)  repose sur un [Conseil d’administration](https://uqam.ca/gouvernance/), qui constitue l’instance supérieure de gouvernance de l’Université. De manière générale, le rôle d’un conseil d’administration consiste à assurer l’orientation stratégique et la supervision de l’organisation. Cette notion sera abordée plus en détail dans l'analyse des compagnies d'assurance, dans un chapitre ultérieur.
+Comme on peut le voir avec l'image à droite, la [structure institutionnelle de l'UQAM](https://ressources-medias.uqam.ca/media/uploads/20250226150055/Organigramme_officiel.pdf) repose sur un [Conseil d’administration](https://uqam.ca/gouvernance/), qui constitue l’instance supérieure de gouvernance de l’Université. De manière générale, le rôle d’un conseil d’administration consiste à assurer l’orientation stratégique et la supervision de l’organisation. Cette notion sera abordée plus en détail dans l'analyse des compagnies d'assurance, dans un chapitre ultérieur.
 
 Sous l’autorité du Conseil d’administration se trouve le [Rectorat](https://uqam.ca/rectorat/), responsable de la direction générale de l’Université. Le Rectorat est appuyé par plusieurs vice-rectorats, chacun étant associé à un champ de responsabilités précis, notamment l’administration et les finances, la recherche et la création, la vie académique, les systèmes d’information ainsi que le développement humain et organisationnel. Ces vice-rectorats s’appuient sur des services centraux et des unités de soutien qui assurent le fonctionnement quotidien de l’institution.
 
@@ -191,7 +190,7 @@ L’UQAM devenait alors la première université à offrir à Montréal, en fran
 
 La création du baccalauréat en actuariat à l’UQAM répondait à la fois à une demande croissante du secteur privé pour des actuaires et à un intérêt soutenu de la part de la population étudiante pour des études spécialisées en actuariat. En 2014, l’offre de formation a été élargie par la création d’une majeure en actuariat, ainsi que d’une mineure en mathématiques actuarielles et financières. La popularité du baccalauréat en actuariat a conduit à l’embauche de plusieurs professeures et professeurs spécialisés en actuariat depuis le début des années 2000. Le programme a été soutenu, durant ses premières années, par Claude Pichet et par la professeure Carole Turcotte, aujourd’hui à la retraite.
 
-Enfin, au cours de l’année 2018, l’unité regroupant les programmes de premier cycle en actuariat et en mathématiques a été scindée en deux unités distinctes : une unité de programmes en mathématiques et une unité de programmes en actuariat. Au 1er janvier 2026, l’équipe professorale en actuariat, rattachée au Département de mathématiques, compte 11 professeures et professeurs.
+Enfin, au cours de l’année 2018, l’unité regroupant les programmes de premier cycle en actuariat et en mathématiques a été scindée en deux unités distinctes : une unité de programmes en mathématiques et une unité de programmes en actuariat. Au 1er janvier 2026, l’équipe professorale en actuariat, rattachée au Département de mathématiques, compte 10 professeures et professeurs.
 
 <div style="clear: both;"></div>
 
@@ -205,7 +204,7 @@ Au fil de son développement, le département a structuré ses activités autour
 
 ## Corps enseignant en actuariat
 
-Le corps enseignant en actuariat à l’UQAM est constitué de professeurs rattachés à la section d’actuariat du Département de mathématiques, ainsi que de chargées et chargés de cours qui participent à l’enseignement du programme. Les professeures et professeurs de la section d’actuariat assurent la responsabilité académique du programme, tant sur le plan de l’enseignement que du développement et de l’évolution des contenus de formation.  On peut consulter un peu plus en détails la composition de la *section actuariat* en visant un [site web](https://actuariat.uqam.ca/) créé par l'ancien directeur de programme, Mathieu Boudreault.
+Le corps enseignant en actuariat à l’UQAM est constitué de professeurs rattachés à la section d’actuariat du Département de mathématiques, ainsi que de chargées et chargés de cours qui participent à l’enseignement du programme. Les professeures et professeurs de la section d’actuariat assurent la responsabilité académique du programme, tant sur le plan de l’enseignement que du développement et de l’évolution des contenus de formation.  On peut consulter un peu plus en détail la composition de la *section actuariat* en visitant le [site web](https://actuariat.uqam.ca/) créé par l'ancien directeur de programme, Mathieu Boudreault.
 
 ::: {.callout-important icon=false}
 ## Professeurs des cours MAT ou STT
@@ -217,7 +216,7 @@ Dans le cadre du programme de baccalauréat en actuariat, les cours qui ne sont 
 
 Dans le contexte universitaire, un professeur est un membre du corps professoral nommé par l’Université, dont les fonctions comprennent l’enseignement, la recherche et la participation à la vie académique et institutionnelle. Les professeurs assument notamment la responsabilité académique des programmes, contribuent à leur développement et encadrent les étudiants aux différents cycles. À l’UQAM, la tâche normale d’un professeur comprend généralement l’enseignement de quatre cours par année, en plus de ses autres responsabilités académiques.
 
-La grille présentée ci-dessous regroupe les 11 professeurs rattachés à la section d’actuariat du Département de mathématiques en janvier 2026. À côté de chaque photo, on peut y voir le ou les cours qu’ils ont habituellement en charge dans l’enseignement du programme d’actuariat.
+La grille présentée ci-dessous regroupe les 10 professeurs rattachés à la section d’actuariat du Département de mathématiques en janvier 2026. À côté de chaque photo, on peut y voir le ou les cours qu’ils ont habituellement en charge dans l’enseignement du programme d’actuariat.
 
 Il importe toutefois de préciser que les professeurs peuvent enseigner d’autres cours que ceux indiqués ci-dessous et que, inversement, les cours mentionnés peuvent être confiés à d’autres professeurs ou à des chargés de cours au fil des sessions. En effet, la tâche d’enseignement d’un professeur varie notamment en fonction de ses responsabilités administratives, de ses activités de recherche et de sa participation à l’enseignement et à l’encadrement aux cycles supérieurs. Les professeurs peuvent également bénéficier de congés sabbatiques durant lesquels ils n’assurent aucune activité d’enseignement.
 
@@ -239,7 +238,7 @@ Il importe toutefois de préciser que les professeurs peuvent enseigner d’autr
 <img src="images/MathieuBoudreault.jpg" alt="Mathieu Boudreault" class="member-photo">
 <div class="member-info">
 <p class="member-name">[Mathieu Boudreault](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/boudreault.mathieu/)</p>
-<p class="member-affiliation">[MAT8600 – Introduction à l'actuariat I](https://etudier.uqam.ca/cours?sigle=MAT8600) </p>
+<p class="member-affiliation">[MAT8600 – Analyse mathématique du risque](https://etudier.uqam.ca/cours?sigle=MAT8600) </p>
 </div>
 </div>
 
@@ -326,7 +325,7 @@ En actuariat, la situation des chargés de cours est toutefois particulière en 
 Enfin, il est également à noter que l’on retrouve, parmi les chargés de cours, des étudiants à la maîtrise ou au doctorat, qui enseignent dans le cadre de leur formation, généralement sous la supervision de professeurs du Département de mathématiques.
 
 
-#### Liste de quelques uns des chargés de cours en actuariat {-}
+#### Liste de quelques-uns des chargés de cours en actuariat {-}
 
 <div class="committee-grid no-photo">
 
@@ -455,7 +454,7 @@ Enfin, il est également à noter que l’on retrouve, parmi les chargés de cou
 
 </div>
 
-### Auxiliaires d’enseignement (démonstrateur) 
+### Auxiliaires d’enseignement (démonstrateurs) 
 
 <div style="
 float:right;
@@ -475,14 +474,12 @@ Dans les cours de mathématiques, de statistique et d’actuariat à l’UQAM, u
 
 Le rôle du démonstrateur est complémentaire à celui du professeur ou du chargé de cours. Il n’assume pas la responsabilité pédagogique du cours, n’établit pas le plan de cours et ne prend pas de décisions quant à l’évaluation globale. Ses tâches consistent plutôt à expliquer des méthodes, illustrer des raisonnements, répondre aux questions des étudiants et favoriser leur progression dans l’apprentissage des concepts mathématiques ou actuariels.
 
-En mathématiques, dans la majorité des cas, les démonstrateurs sont des étudiants de cycles supérieurs — à la maîtrise ou au doctorat.  En actuariat, il s'agira parfois aussi d'étudiants de cycle supérieurs, mais plus souvent d'étudiants de premier cycle avancé possédant une solide maîtrise de la matière. Leur contribution joue un rôle important dans le bon déroulement des cours à forte composante quantitative, en particulier lorsque ceux-ci accueillent un grand nombre d’étudiants ou comportent des exercices techniques exigeants.
+En mathématiques, dans la majorité des cas, les démonstrateurs sont des étudiants de cycles supérieurs — à la maîtrise ou au doctorat.  En actuariat, il s'agira parfois aussi d'étudiants des cycles supérieurs, mais plus souvent d'étudiants de premier cycle avancé possédant une solide maîtrise de la matière. Leur contribution joue un rôle important dans le bon déroulement des cours à forte composante quantitative, en particulier lorsque ceux-ci accueillent un grand nombre d’étudiants ou comportent des exercices techniques exigeants.
 
 ::: {.callout-note icon=false}
 ## Affichage
 
-Pour les emplois d'auxiliaire, de monitorats et de surveillances d’examens pour la session d’hiver, l’affichage a normalement lieu pendant 3 semaine au mois de novembre pour la session d'hiver, et pendant les mois de juillet et aout pour la session d'automne. 
-
-L’affichage de ces emplois est sur le [site](https://rh.uqam.ca/setue/). D’autres emplois pour étudiants sont aussi affichés sur ce même site tout au long de la session.
+Pour les emplois d'auxiliaires d'enseignement, de monitorat et de surveillance d'examens, l'affichage a généralement lieu en novembre pour la session d'hiver, et durant les mois de juillet et d'août pour la session d'automne. Les offres sont publiées sur le [site des ressources humaines de l'UQAM](https://rh.uqam.ca/setue/). D'autres emplois étudiants y sont également affichés au cours de l'année.
 
 :::
 
@@ -516,13 +513,13 @@ Parallèlement à ces considérations individuelles, la vie étudiante en actuar
 
 ### Activités de réseautage et de professionnalisation
 
-La formation en actuariat à l’UQAM est étroitement liée au milieu professionnel, ce qui se reflète dans les activités de réseautage et de professionnalisation offertes aux étudiants tout au long de leur parcours. A chaque automne, une [journée carrière](https://sciences.uqam.ca/journee-carriere-actuariat-et-mathematiques-statistiques/) est organisée par l’Association générale étudiante en mathématiques et actuariat de l’UQAM (AGEMA), en collaboration avec la Faculté des sciences et les Services à la vie étudiante de l’UQAM.
+La formation en actuariat à l’UQAM est étroitement liée au milieu professionnel, ce qui se reflète dans les activités de réseautage et de professionnalisation offertes aux étudiants tout au long de leur parcours. Chaque automne, une [journée carrière](https://sciences.uqam.ca/journee-carriere-actuariat-et-mathematiques-statistiques/) est organisée par l’Association générale étudiante en mathématiques et actuariat de l’UQAM (AGEMA), en collaboration avec la Faculté des sciences et les Services à la vie étudiante de l’UQAM.
 
 ![](images/JourneeCarriere.png){width=70% fig-align="center"}
 
 Cette activité de réseautage réunit chaque année de nombreux employeurs issus notamment des secteurs bancaire, assurantiel et du conseil, qui sont présents sur place pour rencontrer les étudiantes et étudiants de l’UQAM. Les organisations participantes disposent de kiosques leur permettant de présenter leurs activités, ainsi que les possibilités de stages et d’emplois offertes aux étudiants. L’événement a pour objectif de soutenir l’insertion professionnelle des étudiantes et étudiants, ainsi que des personnes finissantes, en actuariat et en statistique. Il constitue une occasion privilégiée d’échanger directement avec des employeurs, de mieux comprendre les parcours professionnels possibles, les compétences recherchées, les pratiques de travail en vigueur et les processus de recrutement, tout en prenant connaissance des opportunités actuellement disponibles.
 
-En plus de ces activités, l'UQAM organise plusieurs autres activités préparatoires, tel que l'atelier de rédaction d’un CV et d’une lettre de présentation dans le domaine de l’actuariat, des services conseils personnalisés pour vos CV et entrevues futures.  Je vous conseille de visiter régulièrement ce [site de la Faculté](https://sciences.uqam.ca/journee-carriere-actuariat-et-mathematiques-statistiques/).
+En plus de cette journée carrière, l'UQAM propose d'autres activités préparatoires, telles que des ateliers de rédaction de CV et de lettres de présentation, ainsi que des conseils personnalisés pour préparer les entrevues. Je vous conseille de consulter régulièrement ce [site de la Faculté](https://sciences.uqam.ca/journee-carriere-actuariat-et-mathematiques-statistiques/).
 
 ### Le règlement numéro 5 des études
 
@@ -540,17 +537,17 @@ text-align:center;
 </div>
 </div>
 
-Le [Règlement numéro 5](https://instances.uqam.ca/wp-content/uploads/sites/47/2023/07/REGLEMENT_NO_5.pdf) des études de premier cycle de l'UQAM est le document qui encadre l’ensemble des règles applicables aux études, à l’inscription, à l’évaluation, à la progression et à l’obtention d’un diplôme de premier cycle à l’UQAM. Il fixe les principes fondamentaux qui s’appliquent à toutes les personnes étudiantes de premier cycle, y compris celles inscrites au baccalauréat en actuariat. À ce titre, il constitue la référence centrale en matière de droits, d’obligations et de protection des étudiants tout au long de leur parcours universitaire. L’ensemble du document compte 44 pages, présentées en double colonne, ce qui le rend peu accessible à une lecture rapide pour un étudiant. Les éléments suivants en résument les aspects que je considère les plus concrètes pour les étudiants.
+Le [Règlement numéro 5](https://instances.uqam.ca/wp-content/uploads/sites/47/2023/07/20260618_r05.pdf) des études de premier cycle de l'UQAM est le document qui encadre l’ensemble des règles applicables aux études, à l’inscription, à l’évaluation, à la progression et à l’obtention d’un diplôme de premier cycle à l’UQAM. Il fixe les principes fondamentaux qui s’appliquent à toutes les personnes étudiantes de premier cycle, y compris celles inscrites au baccalauréat en actuariat. À ce titre, il constitue la référence centrale en matière de droits, d’obligations et de protection des étudiants tout au long de leur parcours universitaire. Ce règlement est détaillé et peut être difficile à parcourir rapidement lorsqu'on découvre le fonctionnement universitaire. Les éléments suivants en résument les aspects que je considère les plus concrets pour les étudiants.
 
-- **Abandon de cours et remboursement**  (article 5.13)
-  Les modalités d’abandon de cours sont encadrées par le Règlement no 5 et précisées chaque trimestre dans le calendrier universitaire. La personne étudiante peut abandonner un cours avant une date limite sans que celui-ci n’apparaisse à son relevé de notes sous forme de note d’échec. Au-delà de cette date, l’abandon peut être inscrit au dossier sans impact sur la moyenne cumulative, mais sans remboursement des droits de scolarité. Les dates exactes associées aux abandons avec remboursement, aux abandons sans remboursement et aux abandons avant la mention d’un échec sont déterminées officiellement dans le calendrier universitaire. Ce cadre permet aux étudiants de prendre des décisions éclairées en cas de difficultés académiques, personnelles ou professionnelles.
+- **Annulation et abandon de cours** (article 5.13)
+  Les modalités d'annulation et d'abandon de cours sont encadrées par le Règlement no 5 et précisées chaque trimestre dans le calendrier universitaire. Il faut distinguer l'annulation d'un cours **sans facturation**, normalement permise jusqu'au dixième jour ouvrable du trimestre, de l'abandon **avec facturation**, normalement possible jusqu'au 46e jour ouvrable. Un abandon effectué dans les délais prévus n'entraîne pas de note d'échec et n'affecte pas la moyenne cumulative, mais peut demeurer inscrit au dossier. Les dates officielles du trimestre doivent toujours être consultées avant de prendre une décision.
 
-- **Révision et modification de notes** (article 7.12) 
-  Le Règlement no 5 prévoit une procédure claire permettant de contester une note finale jugée erronée ou injustifiée. Dans un premier temps, l’étudiant peut demander une modification de note auprès de l’enseignant ou de la personne responsable du cours. Si cette démarche ne mène pas à une solution satisfaisante, une demande formelle de révision de note peut être déposée auprès de la direction du département. Ces démarches doivent être effectuées dans des délais précis. À titre d’exemple, la demande de modification de note doit être déposée au plus tard 40 jours ouvrables après la fin officielle du trimestre concerné. La procédure de révision vise à protéger les étudiants contre les erreurs de correction, de calcul ou de saisie, ainsi que contre des décisions d’évaluation qui ne seraient pas conformes aux normes établies. Elle peut notamment mener à la formation d’un comité de révision lorsque la situation l’exige.
+- **Révision et modification de notes** (article 7.12)
+  Le Règlement no 5 prévoit une procédure permettant de demander la modification d'une note finale jugée erronée ou injustifiée. Dans un premier temps, l'étudiant peut adresser une demande de modification de note à la personne responsable du cours, dans les délais prescrits, notamment au plus tard 40 jours ouvrables après la fin officielle du trimestre concerné. Une demande formelle de révision peut ensuite être déposée selon la procédure prévue au règlement. Lorsqu'un comité de révision est saisi du dossier, il peut **maintenir, augmenter ou diminuer** la note initiale. La procédure permet notamment d'examiner les erreurs de correction, de calcul ou de saisie, ainsi que les évaluations qui ne seraient pas conformes aux règles applicables.
   
 - **Restrictions dans la poursuite des études** (article 8.3)
 
-  Le Règlement numéro 5 prévoit des restrictions dans la poursuite des études lorsqu’un étudiant présente des difficultés académiques importantes. Ces restrictions peuvent notamment s’appliquer en cas d’échec à un cours, d’accumulation de plusieurs notes faibles (D+, D ou E), d’abandons répétés de cours, ou lorsque la moyenne cumulative devient insuffisante.À titre indicatif, un étudiant peut être soumis à des restrictions :
+  Le Règlement numéro 5 prévoit des restrictions dans la poursuite des études lorsqu’un étudiant présente des difficultés académiques importantes. Ces restrictions peuvent notamment s’appliquer en cas d’échec à un cours, d’accumulation de plusieurs notes faibles (D+, D ou E), d’abandons répétés de cours, ou lorsque la moyenne cumulative devient insuffisante. À titre indicatif, un étudiant peut être soumis à des restrictions :
   - après avoir suivi au moins trois cours (neuf crédits) avec une moyenne cumulative égale ou inférieure à 1,5 sur 4,3 ;
   - après avoir suivi au moins douze crédits avec une moyenne cumulative inférieure à 2,0 sur 4,3 ;
   - lorsque les abandons de cours représentent plus de 20 % des crédits du programme ;
@@ -638,7 +635,7 @@ Diplômés de la Chaire depuis 2018
 </div>
 </div>
 
-Sur le plan du financement, la Chaire a obtenu des subventions de recherche, notamment du Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG) en 2018 et de l’Autorité des marchés financiers en 2020, afin de développer des modèles actuariels avancés et d’analyser des problématiques liées aux primes non acquises. Ces financements ont permis de soutenir des projets de recherche à long terme et de consolider les activités de formation aux cycles supérieurs.
+Sur le plan du financement, la Chaire a notamment obtenu des subventions de recherche du Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG) et de l’Autorité des marchés financiers (AMF), afin de développer des modèles actuariels avancés et d’analyser des problématiques liées aux primes non acquises. Ces financements ont permis de soutenir des projets de recherche à long terme et de consolider les activités de formation aux cycles supérieurs.
 
 Les travaux réalisés dans le cadre de la Chaire ont également été reconnus par plusieurs [prix](https://chairecara.uqam.ca/news/Roxane.html) et [distinctions](https://chairecara.uqam.ca/news/Variance2024.html), tant pour la qualité des publications que pour les présentations scientifiques réalisées par les étudiantes et étudiants. Ces reconnaissances, décernées dans des revues et des conférences de premier plan en actuariat et en statistique, témoignent de la visibilité et de la portée des travaux associés à la Chaire, ainsi que de la rigueur scientifique et de la qualité de la formation offerte aux cycles supérieurs. Elles illustrent aussi la capacité des étudiantes et étudiants encadrés à produire des contributions originales reconnues par la communauté scientifique.
 
@@ -671,7 +668,7 @@ text-align:center;
 
 La recherche en actuariat s’est structurée de manière formelle à l’UQAM au début des années 2010 avec la création, en 2011, du groupe de recherche [Quantact](https://quantact.uqam.ca). Celui-ci a été fondé par les professeurs du Département de mathématiques de l'UQAM, Jean-Philippe Boucher, Mathieu Boudreault et Jean-François Renaud, et a rapidement obtenu une reconnaissance facultaire officielle de la Faculté des sciences de l’UQAM. Cette reconnaissance marquait une première étape importante dans la structuration collective de la recherche actuarielle à l’université.
 
-En 2014, Quantact a connu une évolution majeure en devenant un laboratoire officiel du [Centre de recherches mathématiques (CRM)](https://www.crm.umontreal.ca), tout en demeurant physiquement situé à l’UQAM. Par cette intégration au CRM, Quantact s’est inscrit dans un réseau de recherche mathématique de portée nationale et internationale, tout en conservant une identité clairement axée sur l’actuariat, la finance et les mathématiques du risque.  À travers Quantact, l’UQAM constitue aujourd’hui le regroupement scientifique officiel de l’ensemble des chercheurs en actuariat au Québec. Le laboratoire rassemble près d’une quarantaine de chercheurs et chercheuses provenant de différentes universités québécoises, dont les travaux couvrent un large éventail de thématiques, incluant la modélisation stochastique du risque, les probabilités appliquées, les mathématiques financières, la tarification, la gestion des risques et les méthodes quantitatives en assurance.
+En 2014, Quantact a connu une évolution majeure en devenant un laboratoire officiel du [Centre de recherches mathématiques (CRM)](https://www.crm.umontreal.ca), tout en demeurant physiquement situé à l’UQAM. Par cette intégration au CRM, Quantact s’est inscrit dans un réseau de recherche mathématique de portée nationale et internationale, tout en conservant une identité clairement axée sur l’actuariat, la finance et les mathématiques du risque.  Quantact constitue aujourd'hui l'un des principaux regroupements de recherche en mathématiques actuarielles et financières au Québec. Affilié au CRM et situé à l'UQAM, le laboratoire rassemble des chercheurs et des chercheuses de plusieurs universités québécoises. Leurs travaux couvrent un large éventail de thématiques, notamment la modélisation stochastique du risque, les probabilités appliquées, les mathématiques financières, la tarification, la gestion des risques et les méthodes quantitatives en assurance.
 
 Les activités de Quantact comprennent l’organisation de séminaires scientifiques, le développement de collaborations interuniversitaires et internationales, ainsi que la production et la diffusion de connaissances sous forme d’articles, de conférences et d’événements académiques. Le laboratoire joue également un rôle structurant dans la formation aux cycles supérieurs, tant à la maîtrise qu’au doctorat, en offrant un cadre de recherche collectif et reconnu pour les étudiantes et étudiants en actuariat et en finance.
 
@@ -679,15 +676,15 @@ Les activités de Quantact comprennent l’organisation de séminaires scientifi
 
 ## Études de cycle supérieur en actuariat à l'UQAM
 
-Le positionnement des études de cycle supérieur après la présentation de la recherche est volontaire. En actuariat, la formation aux cycles supérieurs est indissociable de l’activité de recherche : elle en constitue à la fois le prolongement naturel et l’un des principaux moteurs. Contrairement aux études de premier cycle, qui visent d’abord l’acquisition de bases méthodologiques et conceptuelles, les études de maîtrise et de doctorat reposent sur une participation active à la production de connaissances. Les étudiantes et étudiants y sont appelés à approfondir des problématiques ouvertes, à développer ou adapter des modèles existants, et à contribuer directement à l’avancement du savoir en actuariat.
+En actuariat, la formation aux cycles supérieurs est étroitement liée à l’activité de recherche : elle en constitue à la fois le prolongement naturel et l’un des principaux moteurs. Contrairement aux études de premier cycle, qui visent d’abord l’acquisition de bases méthodologiques et conceptuelles, les études de maîtrise et de doctorat reposent sur une participation active à la production de connaissances. Les étudiantes et étudiants y sont appelés à approfondir des problématiques ouvertes, à développer ou adapter des modèles existants, et à contribuer directement à l’avancement du savoir en actuariat.
 
 Les structures de recherche présentées précédemment — chaires et laboratoires — jouent ainsi un rôle central dans l’encadrement des études de cycle supérieur. Elles fournissent le cadre scientifique, les données, les projets et les collaborations nécessaires à la réalisation de mémoires et de thèses, tout en assurant un lien étroit avec les enjeux actuels de la pratique professionnelle. Dans ce contexte, les études de cycle supérieur en actuariat à l’UQAM s’inscrivent dans une logique de continuité entre recherche, formation avancée et application. Elles permettent de former des spécialistes capables non seulement d’utiliser des outils actuariels existants, mais aussi d’en comprendre les limites, d’en proposer des extensions et de répondre à des problématiques nouvelles ou émergentes.
 
 ### Maîtrise en actuariat
 
-Il n’existe pas, à proprement parler, de diplôme portant officiellement le nom de maîtrise en actuariat à l’UQAM. En pratique, les étudiantes et étudiants souhaitant poursuivre des études de deuxième cycle en actuariat s’inscrivent à la **concentration mathématiques actuarielles et financières de la maîtrise en mathématiques**. Les diplômés du baccalauréat en actuariat de l’UQAM ayant une moyenne cumulative supérieure à 3,2/4,3 sont même automatiquement admis à la maîtrise en mathématiques, concentration mathématiques actuarielles et financières.
+Il n’existe pas, à proprement parler, de diplôme portant officiellement le nom de maîtrise en actuariat à l’UQAM. En pratique, les étudiantes et étudiants souhaitant poursuivre des études de deuxième cycle en actuariat s’inscrivent à la **concentration mathématiques actuarielles et financières de la maîtrise en mathématiques**. Les diplômés du baccalauréat en actuariat de l'UQAM ayant obtenu une moyenne cumulative d'au moins 3,2 sur 4,3 satisfont normalement au critère de moyenne exigé pour l'admission à cette concentration. Leur admission demeure toutefois soumise à l'évaluation de leur dossier.
 
-La description officielle du programme est disponible [ici](https://etudier.uqam.ca/programme?code=1990).   Toutefois, pour les personnes provenant du baccalauréat en actuariat, certaines précisions sont nécessaires afin de bien comprendre les exigences académiques et le fonctionnement réel du programme. Bien qu’un profil avec rapport de recherche existe, la quasi-totalité des étudiantes et étudiants en actuariat choisissent le **profil avec mémoire de recherche**.  
+La description officielle du programme est disponible pour le [profil avec mémoire (1912)](https://etudier.uqam.ca/programme?code=1912) et le [profil avec rapport de recherche (1913)](https://etudier.uqam.ca/programme?code=1913).   Toutefois, pour les personnes provenant du baccalauréat en actuariat, certaines précisions sont nécessaires afin de bien comprendre les exigences académiques et le fonctionnement réel du programme. Bien qu’un profil avec rapport de recherche existe, la quasi-totalité des étudiantes et étudiants en actuariat choisissent le **profil avec mémoire de recherche**.  
 
 #### Cours (scolarité) {-}
 
@@ -713,7 +710,7 @@ Le profil Honor du [baccalauréat en actuariat](https://etudier.uqam.ca/programm
 
 #### Mémoire {-}
 
-En plus des cours, les étudiantes et étudiants doivent rédiger un **mémoire de recherche de 27 crédits** portant sur un sujet lié aux thématiques de recherche de leur choix.  Il est fortement recommandé de discuter tôt avec son directeur ou sa directrice de recherche afin d’identifier un sujet de mémoire. Lorsque le projet de recherche s’inscrit dans des problématiques concrètes, des échanges avec des partenaires externes peuvent également avoir lieu.  On peut consulter tous les mémoires fait à l'UQAM en consultant le site [archipel de l'UQAM](https://archipel.uqam.ca/).
+En plus des cours, les étudiantes et étudiants doivent rédiger un **mémoire de recherche de 27 crédits** portant sur un sujet lié aux thématiques de recherche de leur choix.  Il est fortement recommandé de discuter tôt avec son directeur ou sa directrice de recherche afin d’identifier un sujet de mémoire. Lorsque le projet de recherche s’inscrit dans des problématiques concrètes, des échanges avec des partenaires externes peuvent également avoir lieu.  On peut consulter les mémoires réalisés à l'UQAM dans le dépôt institutionnel [Archipel](https://archipel.uqam.ca/).
 
 #### Cheminement {-}
 
@@ -735,10 +732,9 @@ Chaque année, les chaires de recherche en actuariat de l’UQAM sollicitent des
 
 Il est fortement recommandé de vérifier l’admissibilité à d’autres sources de financement, notamment :
 
-- Bourses du [Fonds de recherche du Québec – Nature et technologies (FRQNT)](https://frq.gouv.qc.ca/programme/bourses-de-formation-a-la-maitrise-frqnt/)
-- Bourses du [Conseil de recherches en sciences naturelles et en génie (CRSNG)](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_fra.asp)
+- Bourses de maîtrise en recherche du [Fonds de recherche du Québec (FRQ), secteur Nature et technologies](https://frq.gouv.qc.ca/programme/bourses-de-maitrise-en-recherche-2027-2028-b1-volet-regulier-et-volet-reintegration-a-la-recherche/)
+- Bourses d’études supérieures en recherche du Canada, niveau de la [maîtrise (CRSNG)](https://nserc.canada.ca/fr/possibilite-de-financement/bourses-detudes-superieures-en-recherche-du-canada-au-niveau-de-la)
 - Bourse d’[exemption des droits de scolarité majorés pour étudiantes et étudiants étrangers au 2e cycle](https://bourses.uqam.ca/trouver-une-bourse/bourses-dexemption-des-droits-de-scolarite-majores-pour-etudiants-es-etrangers-eres-au-2e-cycle/)
-- Bourses de la [Casualty Actuarial Society (CAS)](https://www.casact.org/trustscholarship)
 - Bourses de l’Institut canadien des actuaires
 - Bourses de la Society of Actuaries (SOA)
 
@@ -797,10 +793,9 @@ Plusieurs sources de financement sont disponibles pour les études doctorales. I
 
 Parmi les principales sources de financement :
 
-- Bourses du [Fonds de recherche du Québec – Nature et technologies (FRQNT)](https://frq.gouv.qc.ca/programme/bourses-de-formation-a-la-maitrise-frqnt/)
-- Bourses du [Conseil de recherches en sciences naturelles et en génie (CRSNG)](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_fra.asp)
+- Bourses de doctorat en recherche du [Fonds de recherche du Québec (FRQ), secteur Nature et technologies](https://frq.gouv.qc.ca/programme/bourses-de-doctorat-en-recherche-2027-2028-b2-volet-regulier-et-volet-reintegration-a-la-recherche/)
+- Bourses d’études supérieures en recherche du Canada, niveau du [doctorat (CRSNG)](https://nserc.canada.ca/fr/possibilite-de-financement/bourses-detudes-superieures-en-recherche-du-canada-au-niveau-du-doctorat)
 - Bourse d’[exemption des droits de scolarité majorés pour étudiantes et étudiants étrangers](https://bourses.uqam.ca/)
-- Bourses de la [Casualty Actuarial Society (CAS)](https://www.casact.org/trustscholarship)
 - Bourses de l’Institut canadien des actuaires
 - Bourses de la Society of Actuaries (SOA)
 

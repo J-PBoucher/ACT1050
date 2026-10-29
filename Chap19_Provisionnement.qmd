@@ -1,6 +1,6 @@
 ---
 toc: false
-date: 03/15/2026
+date: 10/26/2026
 date-modified: last-modified
 ---
 
@@ -40,11 +40,11 @@ style="width:100%; height:auto; display:block;">
 
 Dans les chapitres précédents, nous avons étudié les régimes de retraite, leurs prestations et les règles fiscales qui encadrent leur fonctionnement. Ce dernier chapitre du cours nous permettra de revenir sur certaines de ces notions tout en abordant une question fondamentale : comment s'assurer que les sommes promises aux participants seront effectivement disponibles au moment de leur retraite? C'est à cette question que répond le *provisionnement*, qui constitue l'une des tâches les plus importantes de l'actuaire dans le domaine des régimes de retraite.
 
-Un régime de retraite peut promettre une rente qui ne sera versée que dans vingt, trente ou quarante ans. Entre le moment où un employé acquiert ce droit et celui où il reçoit les prestations, de nombreux événements peuvent survenir : les marchés financiers fluctuent, les salaires évoluent, les taux d'intérêt changent et les retraités peuvent vivre plus longtemps que prévu. Le régime doit donc prévoir le financement de ses engagements bien avant que les prestations deviennent exigibles.
+Un régime de retraite peut promettre une rente dont le versement ne commencera que dans vingt, trente ou quarante ans. Entre le moment où un employé acquiert ce droit et celui où il reçoit les prestations, de nombreux événements peuvent survenir : les marchés financiers fluctuent, les salaires évoluent, les taux d'intérêt changent et les retraités peuvent vivre plus longtemps que prévu. Le régime doit donc prévoir le financement de ses engagements bien avant que les prestations deviennent exigibles.
 
 Le provisionnement consiste à constituer et à maintenir une caisse suffisante pour faire face aux obligations du régime. Pour évaluer cette suffisance, l'actuaire compare la valeur des actifs disponibles à celle des engagements envers les participants. Cette comparaison paraît simple, mais elle exige d'attribuer une valeur aujourd'hui à des paiements qui s'étendront sur plusieurs décennies.
 
-Le problème se présente différemment selon le type de régime. Dans un <a href="Chap16_Retraite_PC.html">régime à cotisations déterminées</a>, les cotisations et les rendements qui s'y ajoutent forment l'avoir du participant : le montant disponible à la retraite dépend de l'accumulation réalisée. Le provisionnement découle donc, pour l'essentiel, de la structure même du régime. Dans un <a href="Chap15_Retraite_PD.html">régime à prestations déterminées</a>, en revanche, les prestations sont promises selon une formule établie à l'avance. Rien ne garantit que la valeur des placements correspondra exactement à celle de ces promesses. C'est principalement à ce second type de régime que nous nous intéresserons ici.
+Le problème se présente différemment selon le type de régime. Dans un <a href="Chap16_Retraite_CD.html">régime à cotisations déterminées</a>, les cotisations et les rendements qui s'y ajoutent forment l'avoir du participant : le montant disponible à la retraite dépend de l'accumulation réalisée. Le provisionnement découle donc, pour l'essentiel, de la structure même du régime. Dans un <a href="Chap15_Retraite_PD.html">régime à prestations déterminées</a>, en revanche, les prestations sont promises selon une formule établie à l'avance. Rien ne garantit que la valeur des placements correspondra exactement à celle de ces promesses. C'est principalement à ce second type de régime que nous nous intéresserons ici.
 
 <div style="clear: both;"></div>
 
@@ -54,9 +54,9 @@ Le problème se présente différemment selon le type de régime. Dans un <a hre
 
 Une rente de retraite constitue une forme de rémunération différée. L'employé rend ses services pendant sa vie active, mais reçoit une partie de la rémunération correspondante plusieurs années plus tard. Il est donc logique de financer cette partie du coût de la main-d'œuvre pendant la période où les services sont rendus, plutôt que de reporter toute la dépense au moment de la retraite.
 
-Cette logique permet également de mieux répartir le coût du régime entre les générations de travailleurs. Si une entreprise ne constituait aucune réserve, elle devrait financer les rentes de ses anciens employés avec les revenus provenant de ses activités courantes. Les employés actuels et les actionnaires supporteraient alors le coût des services rendus par des employés d'une génération précédente. Le provisionnement vise notamment à éviter un tel déplacement des charges dans le temps.
+Cette logique permet également de mieux répartir le coût du régime entre les générations de travailleurs. Si une entreprise ne constituait aucun actif destiné à financer ces engagements, elle devrait payer les rentes de ses anciens employés à même les revenus provenant de ses activités courantes. Les employés actuels et les actionnaires supporteraient alors le coût des services rendus par des employés d'une génération précédente. Le provisionnement vise notamment à éviter un tel déplacement des charges dans le temps.
 
-Le financement à l'avance procure aussi une protection importante aux participants. Les actifs détenus dans la caisse de retraite sont généralement séparés du patrimoine de l'employeur. Cette séparation réduit le risque que les prestations promises dépendent entièrement de la situation financière de l'entreprise au moment de leur versement. Elle ne fait toutefois pas disparaître tous les risques, comme on l'avait vu au <a href="Chap16_Retraite_PC.html">chapitre 16</a> avec l'exemple de la faillite de Nortel: une caisse peut demeurer insuffisamment provisionnée, notamment si les placements réalisent de mauvais rendements ou si les engagements augmentent plus rapidement que prévu.
+Le financement à l'avance procure aussi une protection importante aux participants. Les actifs détenus dans la caisse de retraite sont généralement séparés du patrimoine de l'employeur. Cette séparation réduit le risque que les prestations promises dépendent entièrement de la situation financière de l'entreprise au moment de leur versement. Elle ne fait toutefois pas disparaître tous les risques, comme on l'avait vu au <a href="Chap16_Retraite_CD.html">chapitre 16</a> avec l'exemple de la faillite de Nortel: une caisse peut demeurer insuffisamment provisionnée, notamment si les placements réalisent de mauvais rendements ou si les engagements augmentent plus rapidement que prévu.
 
 ### Pourquoi les régimes privés ne fonctionnent-ils pas comme certains programmes publics?
 
@@ -78,13 +78,13 @@ style="width:100%; height:auto; display:block;">
 </div>
 
 
-Certains programmes publics, comme la Pension de sécurité de la vieillesse (PSV), sont financés à partir des revenus courants de l'État. On parle alors d'un financement par répartition, ou *pay-as-you-go*. Les prestations versées au cours d'une année sont financées par les recettes publiques de cette même période, sans qu'une caisse distincte doive nécessairement accumuler à l'avance la totalité des obligations futures.
+Certains programmes publics, comme la pension de la Sécurité de la vieillesse (PSV), sont financés par les recettes générales de l'État plutôt que par une caisse constituée pour acquitter intégralement les prestations futures. Ce fonctionnement se rapproche du financement par répartition (*pay-as-you-go*) : les prestations de l'année sont financées à même les ressources publiques courantes. Il ne faut toutefois pas confondre la PSV, qui est financée par les revenus généraux du gouvernement fédéral, avec les régimes contributifs comme le RRQ et le RPC, qui possèdent aussi des réserves investies.
 
 Une entreprise privée se trouve dans une situation différente. Elle ne possède pas le pouvoir de taxation d'un gouvernement et son existence à très long terme n'est pas garantie. Elle peut être vendue, restructurée, fermée ou déclarer faillite. Si ses prestations de retraite dépendaient uniquement de ses revenus futurs, les participants seraient directement exposés à ces événements, y compris après avoir terminé leur carrière.
 
 C'est notamment pour cette raison que les régimes privés à prestations déterminées font l'objet d'exigences légales de financement. Au Québec, la *Loi sur les régimes complémentaires de retraite* encadre une partie importante de ces régimes; des régimes relevant de la compétence fédérale ou d'autres provinces sont soumis à leur propre législation. Les exigences précises ne sont donc pas identiques pour tous les régimes.
 
-Le système fiscal encourage également l'accumulation d'actifs dans des régimes enregistrés, notamment par la déductibilité admissible des cotisations et par l'absence d'imposition courante des revenus de placement à l'intérieur de la caisse. Enfin, les normes comptables visent à faire reconnaître les coûts associés aux droits à la retraite au cours des périodes où ces droits sont acquis. Ces mécanismes répondent à trois préoccupations complémentaires :
+Le système fiscal encourage également l'accumulation d'actifs dans des régimes enregistrés, notamment par la déduction fiscale des cotisations admissibles et par le report de l'imposition sur les revenus de placement accumulés dans la caisse. Enfin, les normes comptables visent à faire reconnaître les coûts associés aux droits à la retraite au cours des périodes où ces droits sont acquis. Ces mécanismes répondent à trois préoccupations complémentaires :
 
 - La sécurité des prestations promises;
 - L'équité entre les générations;
@@ -115,9 +115,9 @@ $$
 = \frac{\text{Actif actuariel}}{\text{Passif actuariel}}.
 $$
 
-Un ratio de 100 % indique que les actifs égalent le passif évalué, tandis qu'un ratio inférieur à 100 % révèle une insuffisance d'actifs selon les hypothèses et la méthode utilisées. Ces résultats ne constituent pas des mesures absolues : ils dépendent de la base sur laquelle le régime est évalué. Nous verrons qu'un même régime peut afficher des situations différentes selon qu'on suppose sa poursuite ou sa liquidation.
+Un ratio de 100 % indique que les actifs égalent le passif évalué, tandis qu'un ratio inférieur à 100 % révèle une insuffisance d'actifs selon la base, les hypothèses et la méthode utilisées. Ces résultats ne constituent pas des mesures absolues : ils dépendent de la base sur laquelle le régime est évalué. Nous verrons qu'un même régime peut afficher des situations différentes selon qu'on suppose sa poursuite ou sa liquidation.
 
-::: {#exm-2 .custom}
+::: {#exm-actif-passif .custom}
 Supposons qu'une caisse de retraite possède un actif actuariel de 92 millions de dollars et que la valeur de son passif soit estimée à 100 millions de dollars. Le régime affiche alors un déficit de :
 
 $$
@@ -135,16 +135,18 @@ Cela signifie que, **selon les hypothèses et la base d'évaluation retenues**, 
 
 ### Le coût du service courant et le financement des déficits
 
-Lorsqu'un actuaire évalue un régime de retraite à prestations déterminées, il doit distinguer deux catégories d'engagements : ceux qui découlent des années de service déjà effectuées par les employés et ceux qui découleront des nouvelles années de service. À la date de l'évaluation actuarielle, les employés ont déjà accumulé des droits à une rente en raison de leur travail passé. L'actuaire estime la valeur de ces engagements et la compare aux actifs de la caisse de retraite. Si les actifs sont insuffisants pour couvrir le passif actuariel, le régime présente un déficit. Ce déficit représente donc une insuffisance de financement des engagements déjà constitués.
+Lorsqu'un actuaire évalue un régime de retraite à prestations déterminées, il doit distinguer deux catégories d'engagements : ceux qui découlent des années de service déjà effectuées par les employés et ceux qui découleront des nouvelles années de service. À la date de l'évaluation actuarielle, les participants ont déjà accumulé des droits à une rente en raison de leurs services passés. L'actuaire estime la valeur de ces engagements et la compare aux actifs de la caisse de retraite. Si les actifs sont insuffisants pour couvrir le passif actuariel, le régime présente un déficit. Ce déficit représente une insuffisance de financement des engagements reconnus à cette date, mesurée selon les hypothèses et la méthode retenues.
 
-Cependant, les employés continuent de travailler et d'accumuler de nouveaux droits à la retraite. La valeur actuarielle des prestations qu'ils acquerront au cours de l'année suivant l'évaluation est appelée le coût du service courant, parfois aussi nommé *coût normal*. Il s'agit d'un nouveau coût qui s'ajoute à ceux associés aux années de service précédentes. Le financement d'un régime peut donc nécessiter deux types de cotisations :
+Cependant, les employés continuent de travailler et d'accumuler de nouveaux droits à la retraite. La valeur actuarielle des prestations qu'ils acquerront au cours de l'année suivant l'évaluation est appelée le coût du service courant, parfois aussi nommé *coût normal*. Il s'agit d'un nouveau coût qui s'ajoute à ceux associés aux années de service précédentes. Le financement d'un régime peut donc nécessiter différents types de cotisations. Dans une présentation simplifiée, on distingue principalement :
 
 - Les cotisations pour le service courant, qui servent à financer les nouveaux droits à la retraite acquis pendant l'année;
-- Les cotisations d'équilibre, qui peuvent être exigées pour résorber un déficit associé aux engagements déjà accumulés.
+- Les cotisations d'équilibre, qui peuvent être exigées pour amortir un déficit associé aux engagements déjà accumulés.
 
-La distinction est importante : un régime peut être parfaitement capitalisé à une date donnée, sans présenter aucun déficit, et devoir néanmoins recevoir des cotisations chaque année pour financer les nouveaux droits acquis par ses participants.
+La distinction est importante : un régime peut être pleinement capitalisé à une date donnée, sans présenter aucun déficit, et devoir néanmoins recevoir des cotisations chaque année pour financer les nouveaux droits acquis par ses participants.
 
-::: {#exm-2 .custom}
+Au Québec, pour les régimes du secteur privé soumis aux règles générales de la *Loi sur les régimes complémentaires de retraite*, la **cotisation d'exercice** comprend notamment le financement des droits liés aux services de l'année ainsi qu'une **cotisation d'exercice de stabilisation**. Des **cotisations d'équilibre** peuvent également être exigées lorsque certains déficits sont constatés. Les exigences varient selon les catégories de régimes et la législation applicable. [Retraite Québec présente ces règles de financement](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/regles-financement-regime-retraite/regime-secteur-prive/cotisations-requises).
+
+::: {#exm-service-courant .custom}
 Considérons un régime de retraite à prestations déterminées évalué au 1er janvier 2027.
 
 À cette date, l'actuaire estime que les engagements liés aux années de service déjà effectuées représentent 100 millions de dollars. Or, la caisse de retraite ne possède que 90 millions de dollars d'actifs. Le régime présente donc un déficit actuariel de 10 millions de dollars. Ce déficit concerne le passé : il existe dès le début de l'année 2027, avant même que les employés aient effectué une seule journée de travail supplémentaire.
@@ -156,7 +158,7 @@ Supposons maintenant que le coût du service courant pour l'année 2027 soit est
 
 Cela ne signifie pas que le régime doit verser immédiatement 14 millions de dollars dans la caisse. Le coût du service courant doit être financé selon les règles applicables, tandis que le déficit peut généralement faire l'objet de cotisations d'équilibre réparties sur plusieurs années.
 
-À titre purement illustratif, si le régime devait verser 2 millions de dollars en cotisations d'équilibre pendant l'année 2027, les cotisations totales destinées à ces deux éléments atteindraient 6 millions de dollars, soit 4 millions pour le service courant et 2 millions pour le déficit antérieur. L'année suivante, un nouveau coût du service courant devra être financé, même si le déficit antérieur a été entièrement éliminé.
+À titre purement illustratif, si le régime devait verser 2 millions de dollars en cotisations d'équilibre pendant l'année 2027, le financement de ces **deux éléments** atteindrait 6 millions de dollars, soit 4 millions pour le service courant et 2 millions pour le déficit antérieur. Cet exemple laisse de côté les cotisations additionnelles qui pourraient être requises, notamment pour la stabilisation. L'année suivante, un nouveau coût du service courant devra être financé, même si le déficit antérieur a été entièrement éliminé.
 :::
 
 Cette distinction explique pourquoi les cotisations à un régime de retraite à prestations déterminées ne dépendent pas uniquement de sa situation financière actuelle. Même lorsque les engagements passés sont entièrement provisionnés, le financement doit se poursuivre tant que les participants continuent d'accumuler de nouveaux droits à pension.
@@ -164,7 +166,7 @@ Cette distinction explique pourquoi les cotisations à un régime de retraite à
 
 ## Comment se déroule une évaluation actuarielle?
 
-Une évaluation actuarielle est réalisée par un actuaire compétent, dans le respect des normes professionnelles et des exigences légales applicables. Pour les régimes visés, cette responsabilité relève notamment d'un Fellow de l'Institut canadien des actuaires (FICA). Le travail ne consiste pas simplement à appliquer une formule à la valeur des placements : il exige de vérifier les données, de comprendre les dispositions du régime et d'adopter un ensemble cohérent d'hypothèses. Les principales étapes d'une évaluation actuarielle sont les suivantes :
+Une évaluation actuarielle est réalisée dans le respect des normes professionnelles et des exigences légales applicables. Au Québec, le rapport d'évaluation actuarielle d'un régime à prestations déterminées visé par ces exigences doit être préparé par un actuaire détenant le titre de Fellow de l'Institut canadien des actuaires (FICA). Le travail ne consiste pas simplement à appliquer une formule à la valeur des placements : il exige de vérifier les données, de comprendre les dispositions du régime et d'adopter un ensemble cohérent d'hypothèses. Les principales étapes d'une évaluation actuarielle sont les suivantes :
 
 1. **Comprendre les prestations promises et vérifier les données.** 
 L'actuaire commence par examiner le texte du régime, c'est-à-dire le document qui en définit les règles. Il doit notamment comprendre la formule de rente, les conditions d'admissibilité, les âges de retraite possibles, les prestations au conjoint survivant, les dispositions relatives à l'invalidité et les éventuels mécanismes d'indexation. Deux régimes qui comptent le même nombre d'employés et dont les salaires sont semblables peuvent avoir des engagements très différents si l'un offre une rente indexée et l'autre non, ou si l'un prévoit une retraite anticipée subventionnée. L'actuaire vérifie également les données relatives aux participants actifs, aux retraités et aux autres bénéficiaires. L'âge, le salaire, les années de service et la situation des participants sont parmi les renseignements qui influencent directement la valeur des prestations.
@@ -201,7 +203,7 @@ flowchart TD
 
 Un régime de retraite à prestations déterminées peut être évalué selon deux perspectives différentes, qui reposent sur des hypothèses distinctes quant à son avenir :
 
-- L'évaluation en **solvabilité** suppose que le régime prend fin à la date de l'évaluation. L'actuaire cherche alors à déterminer si les actifs disponibles seraient suffisants pour régler les engagements envers les participants.
+- Une évaluation en **solvabilité** repose sur l'hypothèse d'une terminaison du régime à la date d'évaluation. L'actuaire cherche alors à déterminer si les actifs disponibles seraient suffisants pour régler les engagements envers les participants. Il s'agit d'un scénario **hypothétique** : réaliser cette évaluation ne signifie pas que le régime doit effectivement prendre fin.
 - L'évaluation en **continuité** suppose plutôt que le régime poursuit ses activités dans l'avenir. L'actuaire évalue alors les engagements dans une perspective de long terme, en considérant notamment que les prestations seront versées progressivement au fil des années.
 
 Cette distinction est fondamentale, car elle influence les prestations considérées, les hypothèses retenues et la valeur attribuée aux engagements. Un même régime peut ainsi présenter un déficit selon une approche et un excédent selon l'autre. Les deux évaluations sont complémentaires, même si les exigences relatives à leur réalisation et leurs conséquences sur les cotisations dépendent de la législation applicable.
@@ -232,7 +234,7 @@ La logique ressemble à celle d'une entreprise qui doit régler ses engagements 
 
 Pour les retraités, un scénario possible consiste à financer les prestations par l'achat de rentes auprès d'une société d'assurance. Pour d'autres participants, la valeur des droits peut être estimée selon les modalités de règlement applicables. L'actuaire doit également tenir compte des dispositions particulières qui pourraient être déclenchées par la terminaison du régime, selon les droits reconnus et les règles en vigueur.
 
-La valeur des actifs est normalement fondée sur leur valeur marchande, puisque la perspective de liquidation exige de s'intéresser aux sommes effectivement disponibles pour régler les obligations. Les frais associés à la fermeture du régime doivent également être pris en considération. Un régime pourrait ainsi posséder suffisamment d'actifs pour couvrir la valeur estimée des prestations, mais présenter un déficit une fois les frais de liquidation ajoutés.
+La valeur des actifs est normalement fondée sur leur valeur marchande, puisque la perspective de liquidation exige de s'intéresser aux sommes effectivement disponibles pour régler les obligations. Les frais associés à la fermeture du régime doivent également être pris en considération. Au Québec, l'actif de solvabilité est établi selon sa valeur de liquidation, diminuée des frais d'administration estimés que la caisse devrait assumer en cas de terminaison. Un régime pourrait ainsi présenter un déficit de solvabilité même si, avant ces frais, ses actifs paraissaient suffisants pour couvrir les prestations. Les modalités exactes dépendent du cadre réglementaire applicable.
 
 Les hypothèses actuarielles utilisées sur une base de solvabilité sont fortement encadrées par les normes professionnelles et les règles applicables. Elles visent à refléter le règlement des obligations dans un scénario de terminaison plutôt que l'expérience attendue d'un régime qui fonctionnerait encore pendant plusieurs décennies. Parmi les principaux éléments considérés, on retrouve :
 
@@ -270,7 +272,7 @@ La base de permanence, également appelée base de continuité, repose sur une h
 
 L'actuaire cherche alors à déterminer le coût du régime dans une perspective de long terme. Il projette les prestations futures en tenant compte des règles du régime et des caractéristiques anticipées des participants. Selon la méthode actuarielle retenue, il répartit ensuite le coût de ces prestations entre les périodes de service. La définition exacte du passif actuariel et du coût du service courant dépend donc de la méthode de financement utilisée.
 
-Cette évaluation sert notamment à établir les cotisations nécessaires pour financer les droits acquis et à suivre la situation financière du régime au fil du temps. Contrairement à la solvabilité, elle ne suppose pas que tous les placements doivent être liquidés immédiatement. L'actuaire peut ainsi tenir compte du rendement attendu à long terme de la caisse, sous réserve des normes et des règles applicables. 
+Cette évaluation sert notamment à établir les cotisations nécessaires pour financer les engagements reconnus et les droits qui continueront d'être acquis, ainsi qu'à suivre la situation financière du régime au fil du temps. Contrairement à la solvabilité, elle ne suppose pas que tous les placements doivent être liquidés immédiatement. L'actuaire peut ainsi tenir compte du rendement attendu à long terme de la caisse, sous réserve des normes et des règles applicables. 
 
 Les hypothèses utilisées en continuité cherchent à représenter le fonctionnement futur du régime. On distingue principalement deux grandes catégories :
 
@@ -304,9 +306,9 @@ Le tableau suivant résume les principales différences conceptuelles. Il prése
 | Frais | Frais de terminaison et de règlement | Frais liés à l'administration continue du régime |
 | Utilité principale | Mesurer le risque lié à une éventuelle terminaison | Mesurer le financement à long terme et le coût des services futurs |
 
-Un même régime peut donc être  suffisamment provisionné en continuité et déficitaire en solvabilité , ou présenter une situation inverse. Cela ne traduit pas nécessairement une erreur de calcul. Il s'agit de deux réponses à deux questions différentes, obtenues à partir de scénarios et d'hypothèses distincts.
+Un même régime peut donc être suffisamment provisionné en continuité et déficitaire en solvabilité, ou présenter une situation inverse. Cela ne traduit pas nécessairement une erreur de calcul. Il s'agit de deux réponses à deux questions différentes, obtenues à partir de scénarios et d'hypothèses distincts.
 
-::: {#exm-2 .custom}
+::: {#exm-comparaison-bases .custom}
 Supposons qu'un régime possède des actifs dont la valeur marchande est de 100 millions de dollars. Une évaluation actuarielle, réalisée sous l'hypothèse de continuité, établit son passif à 95 millions de dollars. Le régime présente alors un excédent de 5 millions de dollars et un ratio de provisionnement d'environ 105,3 %. Si l'on suppose plutôt une terminaison immédiate et que le passif évalué sur cette base atteint 110 millions de dollars, le même actif de 100 millions de dollars ne couvre plus entièrement les engagements. Le régime présente alors un déficit de 10 millions de dollars et un ratio de solvabilité d'environ 90,9 %.
 
 | | Continuité | Liquidation |
@@ -323,14 +325,14 @@ Supposons qu'un régime possède des actifs dont la valeur marchande est de 100 
 ::: {.custom-solution}
 **Que doit-on conclure de cet exemple?** 
 
-Le régime dispose de suffisamment d'actifs pour couvrir ses engagements selon l'hypothèse de continuité, mais pas selon l'hypothèse de liquidation. Faut-il alors obligatoirement financer le déficit de 10 millions de dollars? Pas nécessairement. Au Québec, les régimes privés à prestations déterminées visés par les règles générales sont principalement financés selon une approche de continuité, à laquelle s'ajoutent des exigences de stabilisation. Le déficit de solvabilité ne doit donc pas automatiquement être éliminé tant que le régime poursuit ses activités. Les règles peuvent toutefois être différentes pour d'autres régimes, notamment ceux de compétence fédérale. La distinction est importante : un régime peut être adéquatement financé pour poursuivre ses activités sans disposer immédiatement des sommes nécessaires à sa terminaison.
+Le régime dispose de suffisamment d'actifs pour couvrir ses engagements selon l'hypothèse de continuité, mais pas selon l'hypothèse de liquidation. Faut-il alors obligatoirement financer le déficit de 10 millions de dollars? Pas nécessairement. Au Québec, les régimes privés à prestations déterminées assujettis aux règles générales sont financés principalement selon l'approche de capitalisation (continuité), avec des exigences de stabilisation. Un déficit mesuré uniquement en solvabilité n'entraîne donc pas automatiquement, dans ce cadre, des cotisations destinées à l'amortir tant que le régime poursuit ses activités. Le degré de solvabilité demeure néanmoins important, notamment lors du règlement des droits ou de la terminaison du régime. Les règles sont différentes pour certaines autres catégories de régimes et pour les régimes de compétence fédérale. Pour ces derniers, des paiements spéciaux peuvent être exigés au titre des déficits de solvabilité. [Voir les règles de Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/regles-financement-regime-retraite/regime-secteur-prive) et [celles du BSIF](https://www.osfi-bsif.gc.ca/fr/surveillance/retraites/administrer-regime-retraite/consignes-sujet/regimes-retraite-prestations-determinees-sous-capitalises). La distinction est importante : un régime peut être adéquatement financé pour poursuivre ses activités sans disposer immédiatement des sommes nécessaires à sa terminaison.
 
 :::
 
 
 ## Les méthodes de financement actuariel
 
-Jusqu'ici, nous avons expliqué pourquoi il faut mesurer les engagements et comment le choix de la base d'évaluation influence leur valeur. Il reste une question importante : comment répartir le coût des prestations entre les différentes années de service? Les méthodes actuarielles de financement répondent à cette question. Elles permettent de relier la valeur des prestations projetées au passif reconnu et au coût du service courant. On distingue traditionnellement trois grandes familles de méthodes :
+Jusqu'ici, nous avons expliqué pourquoi il faut mesurer les engagements et comment le choix de la base d'évaluation influence leur valeur. Il reste une question importante : comment répartir le coût des prestations entre les différentes années de service ou périodes de projection? Les méthodes actuarielles de financement répondent à cette question. Elles permettent de relier la valeur des prestations projetées au passif reconnu et au coût du service courant. On distingue traditionnellement trois grandes familles de méthodes :
 
 1. **Les méthodes de répartition des prestations.** 
 Ces méthodes attribuent une partie de la valeur actuarielle des prestations aux différentes périodes de service, en fonction des droits accumulés ou des prestations projetées. L'idée consiste à associer les coûts aux années pendant lesquelles les participants acquièrent des droits. Cette approche est particulièrement intuitive dans un régime où la rente augmente avec les années de service. Chaque année de travail donne alors naissance à une portion additionnelle de la prestation future, et la méthode détermine la valeur actuarielle à rattacher à cette portion.
@@ -351,9 +353,9 @@ Voyons comment les trois familles de méthodes aborderaient le financement de ce
 
 1. *Répartition des prestations.* L'actuaire attribue une partie de la rente à chaque année de service. Après 10 années, le participant a accumulé des droits correspondant à une rente annuelle de 10 000 $. L'année suivante, il accumulera des droits correspondant à 1 000 $ de rente annuelle supplémentaire. La méthode consiste à évaluer actuariellement ces différentes portions de la rente et à les attribuer aux années de service correspondantes.
 
-2. *Répartition des cotisations.* Plutôt que de calculer séparément le coût de chaque année de service, l'actuaire cherche à répartir le coût total des prestations sur l'ensemble de la carrière. Supposons, à titre illustratif, que les hypothèses actuarielles conduisent à une cotisation relativement stable de 6 000 $ par année. Le financement est alors organisé de manière à accumuler progressivement les sommes nécessaires au versement de la rente de 30 000 $.
+2. *Répartition des cotisations.* Plutôt que de calculer séparément le coût de chaque année de service, l'actuaire cherche à répartir le coût total des prestations sur l'ensemble de la carrière. Supposons, à titre illustratif, que les hypothèses actuarielles et la méthode retenue conduisent à une cotisation relativement stable de 6 000 $ par année; ce montant est posé pour l'exemple et n'est pas calculé à partir des autres données. Le financement est alors organisé de manière à accumuler progressivement les sommes nécessaires au versement de la rente de 30 000 $.
 
-3. *Méthode de projection.* L'actuaire examine plutôt comment les engagements du régime évolueront au cours d'une période future. Par exemple, pour l'ensemble du régime, supposons que la valeur actuarielle des prestations projetées soit de 20 millions de dollars aujourd'hui et que leur valeur projetée à la fin de l'année suivante, exprimée à la date d'évaluation, soit de 21 millions. Si des prestations ayant une valeur actuelle de 1 million de dollars doivent aussi être versées pendant cette année, la méthode attribuerait à cette période un coût de 21 - 20 + 1 = 2 millions de dollars.
+3. *Méthode de projection.* L'actuaire examine plutôt comment les engagements du régime évolueront au cours d'une période future. Par exemple, pour l'ensemble du régime, supposons que la valeur actuarielle des prestations projetées soit de 20 millions de dollars aujourd'hui et que la valeur des prestations projetées à la fin de l'année suivante, **ramenée à la date d'évaluation**, soit de 21 millions. Si des prestations ayant une valeur actuelle de 1 million de dollars doivent aussi être versées pendant cette année, la méthode attribuerait à cette période, dans ce modèle simplifié, un coût de $21 - 20 + 1 = 2$ millions de dollars. Les trois montants sont exprimés à la même date, condition essentielle à cette soustraction.
 
 | Méthode | Élément central du calcul |
 |:--|:--|
@@ -402,19 +404,19 @@ L'actuaire peut revoir certaines hypothèses afin de mieux représenter les cond
 3. **Les modifications du régime.** 
 Un employeur peut décider d'améliorer les prestations offertes, notamment en augmentant la rente associée aux années de service déjà effectuées. Cette décision peut accroître immédiatement le passif actuariel. Contrairement aux pertes d'expérience, cette hausse découle d'un changement dans les engagements du régime plutôt que d'un écart entre les prévisions et la réalité.
 
-L'actuaire doit donc non seulement mesurer le déficit, mais également en expliquer l'origine. Cette analyse permet de mieux comprendre l'évolution de la situation financière du régime et d'identifier les besoins de financement. Lorsqu'un déficit doit être financé, des cotisations d'amortissement peuvent être exigées en plus des cotisations destinées au service courant. Elles permettent de combler progressivement l'insuffisance selon les règles et les délais applicables. L'employeur n'est donc pas nécessairement tenu de verser immédiatement la totalité du déficit : ses obligations dépendent notamment du cadre légal, de la base d'évaluation et des modalités de financement du régime.
+L'actuaire doit donc non seulement mesurer le déficit, mais également en expliquer l'origine. Cette analyse permet de mieux comprendre l'évolution de la situation financière du régime et d'identifier les besoins de financement. Lorsqu'un déficit doit être financé, des cotisations d'amortissement peuvent être exigées en plus des cotisations destinées au service courant. Elles permettent de combler progressivement l'insuffisance selon les règles et les délais applicables. Le paiement de la totalité du déficit n'est donc pas nécessairement exigé immédiatement : les responsabilités de l'employeur et, selon le type de régime, celles des participants dépendent du cadre légal, de la base d'évaluation et des modalités de financement.
 
 <div style="clear: both;"></div>
 
 
-### Le rôle de l'actuaire
+## Le rôle de l'actuaire
 
 Le provisionnement illustre bien la nature du travail actuariel. L'actuaire ne se contente pas de calculer une valeur actuelle. Il doit interpréter les promesses du régime, déterminer les hypothèses appropriées, vérifier les données, évaluer les actifs et les engagements, puis expliquer les conséquences des résultats pour le financement. Cette responsabilité comporte une dimension technique, mais aussi une dimension de jugement professionnel. Les hypothèses doivent être justifiables, les méthodes cohérentes avec l'objectif de l'évaluation et les résultats présentés de façon à permettre aux responsables du régime de comprendre les risques. Les évaluations successives servent enfin à suivre l'évolution de la situation financière et à vérifier si les cotisations demeurent adéquates.
 
-Le rôle de l'actuaire est particulièrement important parce que les deux principales sources d'incertitude —  l'évolution des marchés financiers  et  la durée des engagements envers les participants  — se manifestent sur de longues périodes. Le suivi du provisionnement permet de repérer les déséquilibres et d'adapter le financement avant que les prestations promises ne deviennent exigibles.
+Le rôle de l'actuaire est particulièrement important parce que deux grandes sources d'incertitude — l'évolution des marchés financiers et la durée des engagements envers les participants — se manifestent sur de longues périodes. Le suivi du provisionnement permet de repérer les déséquilibres et d'adapter le financement avant que les prestations promises ne deviennent exigibles.
 
 ## Conclusion
 
 Le provisionnement constitue l'un des fondements du fonctionnement des régimes de retraite à prestations déterminées. Il permet de financer progressivement des prestations qui seront versées bien après la période de travail et de limiter la dépendance des participants à la situation financière future de leur employeur. L'évaluation actuarielle est au cœur de ce mécanisme. Elle met en relation les actifs disponibles, les prestations promises et les hypothèses nécessaires pour apprécier leur valeur. Les évaluations en solvabilité et en continuité ne sont pas interchangeables : la première examine les engagements dans une perspective de terminaison, tandis que la seconde s'intéresse au financement d'un régime qui poursuit ses activités.
 
-En pratique, la difficulté ne consiste donc pas seulement à déterminer si la caisse contient suffisamment d'argent aujourd'hui. Il faut d'abord préciser  suffisamment d'argent pour financer quelles prestations, selon quelles hypothèses et dans quel scénario . C'est ce travail de mesure, d'interprétation et de suivi qui donne au provisionnement sa dimension actuarielle.
+En pratique, la difficulté ne consiste donc pas seulement à déterminer si la caisse contient suffisamment d'argent aujourd'hui. Il faut d'abord préciser : suffisamment d'argent pour financer quelles prestations, selon quelles hypothèses et dans quel scénario? C'est ce travail de mesure, d'interprétation et de suivi qui donne au provisionnement sa dimension actuarielle.

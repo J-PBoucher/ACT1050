@@ -4,7 +4,7 @@ date: 03/11/2026
 date-modified: last-modified
 ---
 
-# L'assurance vie temporaire
+# L’assurance-vie temporaire
 
 ::: {.act-objectifs}
 
@@ -21,11 +21,11 @@ date-modified: last-modified
 
 ## Introduction
 
-Après avoir présenté les tables de mortalité et introduit certaines notions de base de mathématiques actuarielles, nous pouvons maintenant examiner leur application dans les principaux produits d’assurance-vie individuelle. Ce chapitre et le suivant portent sur les caractéristiques et le fonctionnement des contrats offerts sur le marché. Nous y étudierons les produits traditionnels, comme l’assurance temporaire et l’assurance permanente, ainsi que certains produits hybrides, comme l’assurance temporaire à 100 ans et l’assurance vie universelle. Nous verrons comment la durée de la protection, la structure des primes, la présence ou non d’une valeur de rachat, ainsi que les options contractuelles influencent la nature du produit et son coût.
+Après avoir présenté les tables de mortalité et introduit certaines notions de base de mathématiques actuarielles, nous pouvons maintenant examiner leur application dans les principaux produits d’assurance-vie individuelle. Ce chapitre et le suivant portent sur les caractéristiques et le fonctionnement des contrats offerts sur le marché. Nous y étudierons les produits traditionnels, comme l’assurance temporaire et l’assurance permanente, ainsi que certaines formes particulières de protection, comme la T-100 et l’assurance vie universelle. Nous verrons comment la durée de la protection, la structure des primes, la présence ou non d’une valeur de rachat, ainsi que les options contractuelles influencent la nature du produit et son coût.
 
 Ces deux chapitres ont également pour but de montrer que les produits d’assurance-vie ne sont pas de simples catégories commerciales : ils traduisent des mécanismes actuariels distincts, fondés notamment sur la mortalité, l’intérêt, les déchéances et l’accumulation de réserves. L’étude de ces produits permettra ainsi de faire le lien entre les notions théoriques déjà vues et leur utilisation concrète dans la conception et la tarification des contrats.
 
-### Assurance vie individuelle
+### Assurance-vie individuelle
 
 <div style="float:right; width:28vw; max-width:420px; min-width:240px; margin:0 0 1em 1em; text-align:center; border:1px solid #bbb; padding:10px; background:white; box-shadow: 0 3px 10px rgba(0,0,0,0.15);">
 <img src="images/ACCAP.jpg" style="width:50%;">
@@ -42,7 +42,7 @@ Il existe deux grandes familles d’assurance vie :
 
 <div style="clear: both;"></div>
 
-## Survol de l’assurance vie temporaire
+## Survol de l’assurance-vie temporaire
 
 Comme indiqué précédemment, l’assurance vie temporaire est une assurance selon laquelle le capital assuré est versé si le décès de l’assuré survient avant l’expiration d’une période déterminée. Au chapitre précédent, nous avons calculé le coût d’une telle protection pour des périodes de 1 et 2 ans à l’aide de la table de mortalité ICA2014. Nous avions alors constaté que le coût d’une protection de courte durée peut être relativement faible. Cela s’explique par le fait que, pour des personnes qui ne sont pas trop âgées, la probabilité de décès au cours d’une période limitée demeure faible.
 
@@ -63,27 +63,14 @@ On peut ainsi en déduire que l’assurance vie temporaire poursuit principaleme
 ::: {.callout-note icon=false}
 ### Investissement parallèle
 
-Pour continuer sur le dernier objectif de l'assurance vie temporaire, cela signifie que cette protection peut aussi servir de base à une stratégie d’assurance et d’épargne. Cette stratégie consiste à acheter une assurance moins coûteuse et à investir la différence dans d’autres véhicules de placement, typiquement des actions ou des fonds d’actions. Dans ce cas, on espère généralement obtenir un rendement annuel de l’ordre de 7 % ou plus, comparativement à environ 2 % à 3 % dans le cas des placements traditionnels de l’assureur.
+Une stratégie parfois associée à l’assurance-vie temporaire consiste à souscrire une protection moins coûteuse et à investir séparément la différence entre les primes d’une assurance temporaire et celles d’une assurance permanente. On parle parfois d’« acheter temporaire et investir la différence ».
 
-À titre comparatif, voici le rendement annuel moyen des 25 dernières années (dividendes inclus) pour quelques titres cotés à la Bourse de Toronto et faisant partie de l’indice TSX60. Bombardier est inclus à titre illustratif même si l’entreprise est trop petite pour faire partie de l’indice.
+Cette approche offre une certaine souplesse, mais elle n’est pas automatiquement plus avantageuse. Le résultat dépend notamment des besoins de protection à long terme, de la durée réelle du contrat, de la discipline d’épargne, de la fiscalité et des rendements obtenus. Un placement en actions peut offrir un rendement plus élevé à long terme, mais son rendement est incertain et ses pertes peuvent être importantes. À l’inverse, les engagements et les placements d’un assureur répondent à des contraintes de risques et de liquidité différentes.
 
-- Bell Canada : ~8 %
-- Banque de Montréal : ~11 %
-- Banque Royale : ~12 %
-- Power Corporation : ~9 %
-- Great-West (Canada Life) : ~9 %
-- Québecor : ~9 %
-- Bombardier : ~-4 %
-- Loblaw : ~11 %
-- Canadien National : ~17 %
-- Barrick Gold : ~3 %
-- Imperial Oil : ~11 %
-- Manuvie : ~9 %
-
-Évidemment, les rendements passés ne sont pas garants des rendements futurs.
+Pour comparer les stratégies, il faudrait donc utiliser des hypothèses de rendement et de risque cohérentes, ainsi que tenir compte du coût du renouvellement ou de l’expiration de la protection temporaire. Aucun rendement financier n’est garanti par cette stratégie.
 :::
 
-### Caractéristiques de l’assurance vie temporaire
+### Caractéristiques de l’assurance-vie temporaire
 
 L’assurance vie temporaire possède plusieurs caractéristiques qui la distinguent des autres produits d’assurance vie. Ces caractéristiques concernent notamment la durée de la protection, la structure des primes et certaines options contractuelles offertes aux assurés:
 
@@ -105,7 +92,7 @@ L’assurance vie temporaire possède plusieurs caractéristiques qui la disting
 - **La possibilité d’assurer plus d’une personne.**  
   Certains produits permettent d’assurer deux personnes sous une même couverture (assurance conjointe). La prestation de décès est alors versée une seule fois, soit au premier décès, soit au second décès, selon les modalités du contrat.
 
-### Renouvellement de l’assurance vie temporaire
+### Renouvellement de l’assurance-vie temporaire
 
 <div style="
 float:right;
@@ -122,8 +109,8 @@ text-align:center;
 
 Plusieurs contrats d’assurance vie temporaire prévoient un droit de renouvellement. Cette disposition permet au titulaire de prolonger la protection au terme de la période initiale, sans avoir à démontrer de nouveau son état de santé. Le renouvellement vise ainsi à protéger l’assurabilité de l’assuré : même si son état de santé s’est détérioré depuis la souscription du contrat, il peut maintenir une couverture. Toutefois, tous les produits temporaires ne comportent pas nécessairement cette option:
 
-- Les contrats de courte durée, comme les **T1, T5 et T10**, sont généralement renouvelables pour une ou plusieurs périodes identiques.
-- Les contrats de plus longue durée, comme les **T15, T20, T60 ou T65**, ne sont habituellement pas renouvelables.
+- La possibilité de renouvellement dépend des conditions du contrat : elle existe pour plusieurs produits à terme fixe, notamment les **T-10 et T-20**, mais elle n’est pas universelle.
+- Les assurances temporaires dont la couverture prend fin à un âge déterminé, comme une **T à 65 ans**, ne se renouvellent généralement pas au-delà de cet âge.
 
 Lorsque la police est renouvelée, l’assuré n’a pas à fournir de nouvelle preuve d’assurabilité. En revanche, la prime augmente, car elle est recalculée selon l’âge atteint au moment du renouvellement. La nouvelle prime est ensuite nivelée pendant toute la durée du nouveau terme.
 
@@ -133,16 +120,13 @@ Lorsque la police est renouvelée, l’assuré n’a pas à fournir de nouvelle 
 - lorsque la situation financière du titulaire a changé ;
 - ou encore lorsque l’assuré est en mesure de satisfaire les exigences médicales d’une nouvelle police mieux tarifée.
 
-Dans ce dernier cas, la réglementation exige généralement qu’un avis de remplacement de police soit rempli par le conseiller en sécurité financière et transmis à l’assureur. Cette mesure vise à protéger l’assurabilité du client et à éviter que des remplacements de contrats soient effectués uniquement pour générer des commissions.
+Lorsqu’un représentant recommande de remplacer un contrat existant par une nouvelle assurance, des règles particulières s’appliquent au Québec. Il doit notamment analyser les besoins, remplir et expliquer le préavis de remplacement et le transmettre aux assureurs concernés selon les délais prescrits. Cette procédure vise à protéger les intérêts du client : un remplacement n’est pas nécessairement avantageux, même si la nouvelle prime semble moins élevée. Voir la [procédure de remplacement de l’Autorité des marchés financiers](https://lautorite.qc.ca/professionnels/cabinets-societes-et-representants-autonomes/obligations-et-formalites-administratives/procedure-de-remplacement-dun-contrat-dassurance).
 
-Enfin, le droit de renouvellement n’est pas illimité. Les contrats prévoient généralement :
-
-- un dernier renouvellement vers **65 ou 70 ans** ;
-- et une terminaison définitive du contrat vers **75 ou 80 ans**.
+Enfin, le droit de renouvellement n’est pas illimité. **L’âge maximal de renouvellement et l’âge de terminaison varient selon les produits et les assureurs**; certains contrats prévoient le maintien de la couverture bien au-delà de 80 ans. Il faut donc consulter les modalités contractuelles plutôt que présumer d’un âge limite universel.
 
 <div style="clear: both;"></div>
 
-### Transformation de l’assurance vie temporaire
+### Transformation de l’assurance-vie temporaire
 
 <div style="
 float:right;
@@ -160,7 +144,7 @@ text-align:center;
 
 Plusieurs contrats temporaires comportent également un privilège de transformation. Cette option permet à l’assuré d’échanger sa protection temporaire contre une assurance permanente sans avoir à fournir de nouvelles preuves d’assurabilité. La transformation est particulièrement utile si l’état de santé de l’assuré s’est détérioré depuis la souscription du contrat. Elle permet alors d’obtenir une couverture permanente qui n’aurait peut-être plus été accessible autrement. La transformation se fait toutefois à l’âge atteint et non à l’âge d’émission de la police originale. Par conséquent, plus l’assuré attend avant d’exercer cette option, plus la prime exigée pour la nouvelle assurance permanente sera élevée.
 
-Le privilège de transformation prend habituellement fin vers 60 ou 65 ans. Au moment de la transformation, l’assureur peut déterminer la prime de différentes façons :
+L’âge maximal auquel la transformation est permise varie selon les assureurs et les contrats; il peut être supérieur à 65 ans. Au moment de la transformation, l’assureur peut déterminer la prime de différentes façons :
 
 - en utilisant un tarif déjà indiqué dans la police ;
 - en conservant la même catégorie de risque que celle du contrat temporaire ;
@@ -215,23 +199,20 @@ text-align:center;
 </div>
 
 
-Le titulaire peut décider à tout moment de mettre fin à son contrat d’assurance temporaire. Dans ce cas, il lui suffit de cesser de payer la prime, et la police tombe alors en déchéance. Contrairement à l’assurance permanente, l’assurance temporaire ne comporte généralement aucune valeur de rachat. Cette situation s’explique par la structure même du produit :
+Le titulaire peut demander la résiliation de son contrat d’assurance temporaire. Le non-paiement des primes peut également entraîner une déchéance après l’expiration du délai de grâce prévu au contrat. Contrairement à l’assurance permanente, l’assurance temporaire ne comporte généralement aucune valeur de rachat. Cette situation s’explique par la structure même du produit :
 
 - la durée du contrat est relativement courte ;
 - et la protection est habituellement en vigueur pendant des périodes où la mortalité est faible.
 
-Par conséquent, l’excédent des primes sur le coût de la mortalité au cours des premières années est trop faible pour permettre l’accumulation d’un montant significatif. Les petites sommes accumulées dans le contrat sont donc conservées par l’assureur. Elles peuvent servir :
+Il ne faut toutefois pas confondre **absence de valeur de rachat** et **absence de provision actuarielle** : une assurance temporaire à prime nivelée peut nécessiter une provision pendant le terme sans que l’assuré ait le droit de la retirer.
 
-- à augmenter son profit ;
-- ou à réduire le niveau des primes en anticipant les déchéances dans la tarification.
-
-Dans ce cas, si les déchéances réelles sont plus faibles que celles prévues lors de la tarification, l’assureur peut réaliser des profits moindres, voire subir des pertes.
+Les déchéances modifient les engagements futurs de l’assureur et sont prises en compte dans la tarification lorsqu’elles sont pertinentes. Leur effet sur le résultat financier dépend notamment de la provision libérée, des primes futures perdues et des frais; il ne correspond pas simplement au total des primes déjà encaissées. Si les déchéances réelles diffèrent des hypothèses, la rentabilité du contrat peut également s’en trouver affectée.
 
 <div style="clear: both;"></div>
 
-### Analyse des types d’assurance temporaire et leur fonctionnement
+### Analyse des types d’assurance temporaire et de leur fonctionnement
 
-Pour bien comprendre la mécanique actuarielle et son lien avec les produits d’assurance, il faut revenir à l’analyse de la mortalité, puis introduire l’effet de l’intérêt.  On reprend donc la table **ICA2024** et on examine la courbe de mortalité d’une population présentant un risque relativement élevé. Il s’agit d’hommes et de femmes qui ont été sélectionnés depuis suffisamment longtemps pour que l’effet de sélection médicale ait disparu; on utilise donc les **taux ultimes**. Cette population regroupe par ailleurs à la fois des **fumeurs** et des **non-fumeurs**, ce qui contribue à maintenir un niveau de mortalité globalement plus élevé que celui d’une population composée uniquement de non-fumeurs. L’objectif n’est pas ici de décrire parfaitement la mortalité réelle d’une population, mais plutôt de disposer d’une **courbe de mortalité représentative** qui permettra d’illustrer les mécanismes actuariels utilisés pour tarifer les produits d’assurance-vie.
+Pour bien comprendre la mécanique actuarielle et son lien avec les produits d’assurance, il faut revenir à l’analyse de la mortalité, puis introduire l’effet de l’intérêt.  On reprend donc la [table **ICA2014** de l’Institut canadien des actuaires](https://www.cia-ica.ca/fr/publications/rp222040t1e/) et on examine la courbe de mortalité d’une population présentant un risque relativement élevé. Il s’agit d’hommes et de femmes qui ont été sélectionnés depuis suffisamment longtemps pour que l’effet de sélection médicale ait disparu; on utilise donc les **taux ultimes**. Cette population regroupe par ailleurs à la fois des **fumeurs** et des **non-fumeurs**, ce qui contribue à maintenir un niveau de mortalité globalement plus élevé que celui d’une population composée uniquement de non-fumeurs. L’objectif n’est pas ici de décrire parfaitement la mortalité réelle d’une population, mais plutôt de disposer d’une **courbe de mortalité représentative** qui permettra d’illustrer les mécanismes actuariels utilisés pour tarifer les produits d’assurance-vie.
 
 ```{r}
 #| code-fold: true
@@ -247,7 +228,7 @@ library(dplyr)
 library(ggplot2)
 
 
-fichier <- "data/222040T1e.xlsx"
+fichier <- "data/222040T1e.xlsx"  # Tables ICA2014 (ICA, publication 2022)
 
 onglets <- excel_sheets(fichier)
 
@@ -303,6 +284,27 @@ Pour des raisons d’échelle, les taux au-delà de 60 ans ne sont pas illustré
 Dans les illustrations actuarielles, on présente souvent la mortalité masculine, car les taux de mortalité des hommes sont généralement plus élevés que ceux des femmes au même âge — parfois près du double à certains âges. Cela permet d’obtenir une courbe qui s’éloigne plus rapidement de l’axe des $x$, ce qui rend la dynamique de la mortalité plus visible sur le graphique.
 
 
+### Hypothèses communes aux exemples numériques
+
+Pour comparer les différents contrats sans multiplier les paramètres, nous utilisons principalement un **modèle de prime pure** : les calculs reposent sur la mortalité, sans frais d'administration, commissions, marge de profit ni taxes. Sauf indication contraire, nous supposons un **taux d'intérêt nul** et **aucune déchéance**. Ces hypothèses permettent d'isoler l'effet de l'âge et de la durée de la protection; elles ne correspondent pas à un tarif commercial.
+
+Les calculs des T-10, T-20 et T à 65 ans suivent les conventions suivantes :
+
+- Le capital assuré est de **1 000 $**. Les montants des graphiques sont donc exprimés *par 1 000 $ d'assurance*.
+- La prime annuelle est **payable au début de chaque année**, si l'assuré est vivant et si la couverture est en vigueur.
+- Si l'assuré décède pendant l'année, la prestation est **versée à la fin de cette année**.
+- La probabilité de décès entre les âges $x$ et $x+1$ est notée $q_x$; la probabilité de survie d'une année est $p_x=1-q_x$.
+- Le symbole ${}_k p_x$ représente la probabilité qu'une personne âgée de $x$ ans survive pendant $k$ années, avec ${}_0p_x=1$.
+
+La prime pure annuelle d'une assurance d'une durée de $n$ ans, émise à l'âge $x$, est déterminée en égalisant la valeur actuelle espérée des **prestations** et celle des **primes** :
+
+$$
+P_{x:n}=S\,\frac{\displaystyle\sum_{k=0}^{n-1}v^{k+1}\,{}_kp_x\,q_{x+k}}{\displaystyle\sum_{k=0}^{n-1}v^k\,{}_kp_x},
+\qquad v=\frac{1}{1+i},
+$$
+
+où $S$ est le capital assuré, $i$ est le taux d'intérêt et $P_{x:n}$ est une **prime annuelle nivelée**. Le numérateur additionne les prestations probables, pondérées par la survie et l'actualisation; le dénominateur représente la valeur actuelle espérée des primes futures. Lorsque $i=0$, tous les facteurs $v^k$ valent 1. Cette formule explique les paliers des graphiques : un nouveau terme correspond à un nouvel âge $x$ et donc à une nouvelle prime $P_{x:n}$.
+
 ## L’assurance temporaire de 1 an renouvelable (T-1)
 
 Ce produit est assez rare sur le marché, mais il est à la base de plusieurs autres produits d’assurance et permet de mieux comprendre la logique de la tarification en assurance.  Au chapitre précédent, nous avions indiqué que la prime pure annuelle peut s’écrire sous la forme
@@ -326,7 +328,7 @@ P_b = S \left(q_x + \frac{0.50}{1000} + 0.5\, q_x\right) v
 = S \left(1.5\, q_x + \frac{0.50}{1000}\right) v.
 $$
 
-Le graphique ci-dessous illustre la courbe de mortalité des hommes ainsi que la prime d’assurance $P$ d’une assurance T-1, pour une prestation $S = 1000\$ $ et un taux d’actualisation de 5\%, en fonction de l'âge de l'assuré.
+Le graphique ci-dessous compare la prime pure et la prime brute d’une assurance T-1 pour une prestation de $S = 1000$ \$ et un taux d’actualisation de 5\%, selon l’âge de l’assuré. Les deux montants sont actualisés avec le même facteur $v$, de sorte que l’écart reflète seulement les chargements retenus dans cet exemple.
 
 ```{r}
 #| code-fold: true
@@ -348,14 +350,14 @@ bdM <- bdd$MallL %>%
   filter(Age2 <= 60 & Age2 >=20) %>%
   mutate(
     qx = nult,
-    primepure_T1 = S * qx,
-    primenette_T1 = S * (1.5 * qx + 0.50 / 1000) * v
+    primepure_T1 = S * qx * v,
+    primebrute_T1 = S * (1.5 * qx + 0.50 / 1000) * v
   )
 
 df_plot <- bdM %>%
-  select(Age2, primepure_T1, primenette_T1) %>%
+  select(Age2, primepure_T1, primebrute_T1) %>%
   pivot_longer(
-    cols = c(primepure_T1, primenette_T1),
+    cols = c(primepure_T1, primebrute_T1),
     names_to = "courbe",
     values_to = "valeur"
   ) %>%
@@ -363,7 +365,7 @@ df_plot <- bdM %>%
     courbe = recode(
       courbe,
       primepure_T1 = "Prime pure T-1",
-      primenette_T1 = "Prime brute T-1"
+      primebrute_T1 = "Prime brute T-1"
     )
   )
 
@@ -377,7 +379,7 @@ p1 <- ggplot(df_plot, aes(x = Age2, y = valeur, color = courbe)) +
   ) +
   labs(
     x = "Âge",
-    y = "Taux/1000$",
+    y = "Prime pour 1 000 $ d’assurance ($)",
     color = ""
   ) +
   theme_bw()
@@ -404,7 +406,7 @@ Il faut toutefois garder à l’esprit que, dans la pratique, les frais influenc
 
 Nous poursuivons notre analyse des produits d’assurance temporaire en considérant maintenant une assurance temporaire de 10 ans, habituellement notée T-10. Au chapitre précédent, nous avons développé le calcul de la prime pour une T-1, une T-2 et une assurance vie entière. Par déduction et généralisation des équations déjà utilisées, il serait possible de calculer de la même manière la prime d’une T-10. Ce n’est toutefois pas l’objectif de ce cours d’introduction à l’actuariat. L’objectif, ici, est plutôt de faire un tour d’horizon des principaux produits d’assurance offerts sur le marché, de comprendre ce que chaque produit implique pour l'actuaire, afin d’obtenir une vue d’ensemble du domaine. 
 
-Un produit d’assurance comme la T-10 peut être souscrit à n’importe quel âge. Par souci d’illustration, on supposera toutefois un assuré âgé de 20 ans qui souscrit des T-10 successives à partir de cet âge, jusqu’à 60 ans, afin de mieux comprendre le fonctionnement du produit. Le tableau suivant présente les primes annuelles d’une protection T-10 selon l’âge à l’émission. Pour chaque terme de 10 ans, l’assuré paie une prime nivelée, c’est-à-dire constante pendant toute la durée du terme. La période étudiée s’étend de 20 à 70 ans, ce qui correspond à cinq termes successifs de 10 ans. On peut ainsi l’interpréter comme la souscription d’une T-10 à 20 ans (couvrant la période 20–30), puis d’une nouvelle T-10 à 30 ans (30–40), et ainsi de suite jusqu’à 70 ans.
+Un produit comme la T-10 peut être souscrit à différents âges, dans les limites d’admissibilité fixées par l’assureur. Par souci d’illustration, on supposera toutefois un assuré âgé de 20 ans qui souscrit des T-10 successives à partir de cet âge, jusqu’à 60 ans, afin de mieux comprendre le fonctionnement du produit. Le tableau suivant présente les primes annuelles d’une protection T-10 selon l’âge à l’émission. Pour chaque terme de 10 ans, l’assuré paie une prime nivelée, c’est-à-dire constante pendant toute la durée du terme. La période étudiée s’étend de 20 à 70 ans, ce qui correspond à cinq termes successifs de 10 ans. On peut ainsi l’interpréter comme la souscription d’une T-10 à 20 ans (couvrant la période 20–30), puis d’une nouvelle T-10 à 30 ans (30–40), et ainsi de suite jusqu’à 70 ans.
 
 ::: {.encadre}
 
@@ -533,28 +535,28 @@ L'écureuil gris, fortement présent à Montréal, fait lui aussi des réserves
 </div>
 </div>
  
-Le graphique de la T-10 par âge nous permet d’introduire un concept important pour le domaine de l'actuariat : la **provision actuarielle**, aussi appelée **réserve**. Il est utile de faire ici un court détour pour clarifier cette notion avant de poursuivre l’analyse des assurances temporaires.
+Le graphique de la T-10 par âge nous permet d’introduire un concept important pour le domaine de l'actuariat : la provision actuarielle, aussi appelée réserve. Il est utile de faire ici un court détour pour clarifier cette notion avant de poursuivre l’analyse des assurances temporaires.
 
 Dans le cas d’une assurance T-10, la prime est nivelée sur toute la durée du terme. Au début de la période de 10 ans, cette prime est plus élevée que le coût de mortalité correspondant, tandis qu’à la fin du terme elle devient inférieure à ce coût. Pour assurer l’équilibre financier du contrat — c’est-à-dire que, en moyenne, la valeur des primes perçues couvre la valeur des prestations promises — une partie des primes versées au début du terme doit servir à financer le coût de mortalité plus élevé observé vers la fin du terme.
 
-Autrement dit, une portion des primes payées au début du contrat sert à constituer une provision actuarielle. Cette réserve peut générer des revenus de placement et permet de couvrir l’excédent du coût de mortalité dans la seconde moitié du terme. Plus formellement, la provision actuarielle à un moment donné correspond à la valeur actuelle des prestations futures promises par l’assureur, diminuée de la valeur actuelle des primes futures que l’assuré doit encore payer. Elle représente donc le montant que l’assureur doit mettre de côté à ce moment pour respecter ses engagements futurs.
+Autrement dit, les primes des premières années contribuent à financer les prestations attendues des dernières années. Dans les calculs qui suivent, la **provision prospective** est égale à la valeur actuelle espérée des prestations futures moins la valeur actuelle espérée des primes futures, conditionnellement à la survie de l’assuré. Elle exprime la valeur nette des obligations futures de l’assureur selon nos hypothèses; elle n’est pas un compte individuel dans lequel l’assuré aurait nécessairement déposé la différence entre sa prime et le coût de mortalité. Avec un taux d’intérêt positif, les rendements financiers interviennent également dans cet équilibre.
 
 <div style="clear: both;"></div>
 
 
 #### **Illustration numérique** {-}
 
-Pour mieux comprendre ce que signifie ce concept, analysons plus en détail le contrat d’assurance T-10 souscrit par un assuré âgé de 60 ans. Tel qu’indiqué dans le tableau précédent, l’assuré paiera une prime annuelle de $7.486$ aux âges \(60, 61, \ldots, 69\). En contrepartie, le coût annuel d’assurance — que nous avons appelé la prime T-1 — n’est pas constant, puisqu’il dépend de la probabilité de décès à chaque âge.  Pour un assuré âgé de 60 ans par exemple, la prime T-1 est d'environ $4.614$ fortement inférieure à la prime annuelle de la T-10.  A l'opposé, la prime de la T-1 à 69 ans est de $11.422 \$ $, beaucoup plus élevée que la T-10 à $7.486$.  
+Pour mieux comprendre ce que signifie ce concept, analysons plus en détail le contrat d’assurance T-10 souscrit par un assuré âgé de 60 ans. Tel qu’indiqué dans le tableau précédent, l’assuré paiera une prime annuelle de $7.486$ aux âges \(60, 61, \ldots, 69\). En contrepartie, le coût annuel d’assurance — que nous avons appelé la prime T-1 — n’est pas constant, puisqu’il dépend de la probabilité de décès à chaque âge.  Pour un assuré âgé de 60 ans, par exemple, la prime T-1 est d'environ $4.614$ fortement inférieure à la prime annuelle de la T-10.  À l'opposé, la prime de la T-1 à 69 ans est de $11.422 \$ $, beaucoup plus élevée que la T-10 à $7.486$.  
 
-Ainsi, le surplus généré à l'âge de 60 ans, soit: 
+Ainsi, **l’excédent approximatif de la prime sur le coût attendu des décès** à 60 ans est : 
 
 $$7.486 - 4.614 = 2.872$$ 
 
-est mis de côté pour éventuellement payé en partie le déficit de 
+Cet excédent contribue à la constitution de la réserve, sans être exactement égal à son augmentation. À 69 ans, le coût attendu des décès dépasse la prime de : 
 
 $$11.422 - 7.486 =  3.936$$ 
 
-attendu à l'âge de 69 ans.  Le graphique ci-dessous illustre cette situation en détail. On y observe que l’assuré paie une prime supérieure au coût de mortalité entre 60 et 64 ans, ce qui permet d’accumuler une réserve. Aux âges suivants, la prime T-10 devient insuffisante pour couvrir ce coût, de sorte que la réserve est alors utilisée.
+à cet âge. Le graphique ci-dessous illustre cette situation en détail. On y observe que la prime est supérieure au coût attendu des décès pendant les premières années, puis devient insuffisante à elle seule pour financer les prestations attendues des dernières années. La réserve prospective traduit ce transfert de financement dans le temps, sous l’effet de la mortalité et de la survie conditionnelle.
 
 ```{r}
 #| code-fold: true
@@ -603,12 +605,50 @@ p1
 
 ### Évolution de la réserve pour l'assurance T-10
 
-Le graphique ci-dessous illustre l’évolution de la provision mathématique (réserve) d’une T-10 en fonction de l’âge à l’émission et du temps depuis le début du contrat.
+Le graphique ci-dessous illustre l’évolution de la provision mathématique (réserve) d’une T-10 en fonction de l’âge à l’émission et de la durée écoulée depuis le début du contrat.
+
+#### Comment la réserve est-elle calculée ?
+
+Nous utilisons une **réserve prospective conditionnelle à la survie et au maintien du contrat**, évaluée au **début de l'année $t$, avant le paiement de la prime**. Pour une police émise à l'âge $x$, de durée $n$, notons cette réserve $V_t^-$. Il reste alors $n-t$ années de protection et la prime annuelle $P_{x:n}$ est celle fixée à l'émission :
+
+$$
+V_t^-=S\sum_{k=0}^{n-t-1}v^{k+1}\,{}_kp_{x+t}\,q_{x+t+k}
+-P_{x:n}\sum_{k=0}^{n-t-1}v^k\,{}_kp_{x+t},\qquad 0\le t<n.
+$$
+
+La première somme représente les prestations futures attendues et la seconde les primes futures attendues, **y compris la prime payable immédiatement à l'année $t$**. À l'échéance, $V_n^-=0$, puisque la couverture et les primes ont pris fin. À l'émission, $V_0^-=0$ dans ce modèle de prime pure, par construction.
+
+Pour distinguer les moments d'évaluation, immédiatement **après** l'encaissement de la prime de l'année $t$, on obtient $V_t^+=V_t^-+P_{x:n}$, pour $t<n$. Ainsi, la réserve n'est pas exactement une simple addition des excédents annuels de primes.
+
+On peut aussi calculer les mêmes réserves **année par année**, avec la relation :
+
+$$
+\underbrace{(V_t^-+P_{x:n})(1+i)}_{\text{fonds en fin d'année}}
+=\underbrace{S q_{x+t}}_{\text{prestations attendues}}
++\underbrace{(1-q_{x+t})V_{t+1}^-}_{\text{réserve des survivants}}.
+$$
+
+Dans nos graphiques, $i=0$; on peut donc isoler la réserve de l'année suivante :
+
+$$
+V_{t+1}^-=\frac{V_t^-+P_{x:n}-S q_{x+t}}{1-q_{x+t}}.
+$$
+
+**Exemple, T-10 émise à 60 ans.** En reprenant les valeurs arrondies du tableau précédent et en travaillant par 1 000 $ de couverture, la prime annuelle est d'environ 7,486 $, tandis que le coût attendu des décès de la première année est $1\,000q_{60}\approx 4{,}614$ \$. Puisque $V_0^-=0$ :
+
+$$
+V_1^-\approx\frac{0+7{,}486-4{,}614}{1-0{,}004614}
+\approx 2{,}89\ \$.
+$$
+
+Il ne suffit donc pas de calculer $7{,}486-4{,}614=2{,}872$ \$ : la division par la probabilité de survie permet d'obtenir la **réserve par contrat encore en vigueur** au début de l'année suivante. À l'inverse, au début de la dernière année, $V_{10}^-=0$ et la relation donne $V_9^-=1\,000q_{69}-P_{60:10}\approx11{,}422-7{,}486=3{,}936$ \$.
+
+Les valeurs exactes des courbes sont obtenues avec les $q_x$ non arrondis de la table de mortalité. Le code R du graphique peut être déplié afin de consulter la fonction de calcul.
 
 
 ```{r}
 #| code-fold: true
-#| echo: false
+#| echo: true
 #| message: false
 #| warning: false
 #| fig-height: 4
@@ -695,8 +735,8 @@ p_res <- ggplot(
   scale_x_continuous(breaks = 0:10) +
   scale_color_discrete(labels = paste0(ages_emission, " ans")) +
   labs(
-    x = "Âge du contrat (années)",
-    y = "Provision mathématique",
+    x = "Durée écoulée depuis l’émission (années)",
+    y = "Réserve avant prime (par 1 000 $ d’assurance)",
     color = "Âge à l'émission"
   ) +
   theme_bw()
@@ -708,15 +748,51 @@ p_res
 
 ```
 
+Pour suivre numériquement une seule courbe, voici quelques années de la **T-10 émise à 60 ans**. Le coût attendu des décès de l'année vaut $1\,000q_{60+t}$; la réserve est celle du début de l'année, **avant** le versement de la prime.
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| tbl-cap: "Calculs à différentes durées pour une T-10 émise à 60 ans (par 1 000 $)"
+
+library(kableExtra)
+
+tab_t10_suivi <- df_reserve10 %>%
+  filter(age_emission == 60, duree %in% c(0, 1, 4, 5, 8, 9, 10)) %>%
+  left_join(
+    bdM %>% transmute(Age = Age2, cout_deces = 1000 * nult),
+    by = "Age"
+  ) %>%
+  transmute(
+    `Durée t` = duree,
+    `Âge` = Age,
+    `Coût décès attendu ($)` = ifelse(is.na(cout_deces), "—", sprintf("%.3f", cout_deces)),
+    `Réserve V_t avant prime ($)` = sprintf("%.3f", reserve)
+  )
+
+kbl(tab_t10_suivi, align = "c") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE, position = "center"
+  )
+```
+
+:::
+
+
 L’analyse du graphique permet de mettre en évidence les éléments suivants :
 
 - La courbe correspondant à une police émise à 20 ans se confond pratiquement avec l’axe horizontal. Dans le cas de la police émise à 30 ans, la courbe ne se distingue que très faiblement de l’axe. Cela s’explique par le fait que la pente de la courbe de mortalité est presque nulle entre 20 et 40 ans.
 
 - La police émise à 60 ans — lorsque la mortalité commence à augmenter plus rapidement — génère une réserve beaucoup plus élevée que les autres T-10, toutefois la réserve demeure très faible, atteignant un maximum d’environ 10\$ par 1000$ d'assurance.  La provision mathématique reste donc relativement petite pour une assurance temporaire de 10 ans.
 
-- On commence toutefois à observer une légère asymétrie dans la courbe correspondant à la police émise à 60 ans. Cette asymétrie provient principalement de la concavité de la courbe de mortalité : l’écart entre la prime T-10 et la prime T-1 atteint environ 4\$ à 69 ans, alors qu’il n’est que d’environ 3\$ à 60 ans. Le sommet de la réserve est ainsi atteint vers la 6e année du terme, plutôt qu’au milieu exact du terme (5 ans). 
+- On commence toutefois à observer une légère asymétrie dans la courbe correspondant à la police émise à 60 ans. Cette asymétrie provient notamment de l’accélération de la mortalité avec l’âge : l’écart entre la prime nivelée et le coût annuel de mortalité n’est pas symétrique entre le début et la fin du terme. Le sommet de la réserve peut donc survenir après le milieu du terme. 
 
-Notons qu'avec un taux de mortalité croissant avec le temps, une provision actuarielle sera toujours créée dès qu'un produit d'assurance sur plusieurs années, avec primes nivelées, est créé.
+Dans ce modèle simplifié, une mortalité croissante et des primes nivelées conduisent généralement à une provision positive au cours du terme, qui revient à zéro à son expiration.
 
 ### Rôle de l'actuaire
 
@@ -728,9 +804,9 @@ Notons qu'avec un taux de mortalité croissant avec le temps, une provision actu
 
 Il est important de comprendre que la provision mathématique n’appartient pas au titulaire de la police; elle demeure la propriété de l’assureur. Cette provision est toutefois essentielle pour l’assureur, car une réserve positive signifie que les obligations futures associées au contrat dépassent les primes futures attendues.
 
-En pratique, cette réserve est inscrite comme un passif dans les états financiers de l’assureur. Autrement dit, il s’agit d’un montant que l’assureur doit déjà considérer comme destiné à payer des prestations futures. Cet argent ne peut donc pas être considéré comme un profit ni être utilisé librement par l’entreprise.
+Dans notre modèle, la provision représente la valeur nette des engagements futurs associés à la police. Dans les états financiers réels, l’évaluation et la présentation des passifs d’assurance suivent des règles comptables et réglementaires plus élaborées que ce calcul simplifié.
 
-C’est ici que l’actuaire intervient : il doit estimer correctement ces réserves afin de s’assurer que l’assureur dispose de fonds suffisants pour honorer les engagements pris envers les assurés. Comme nous l'avons vu, au Canada, cette responsabilité est encadrée par la loi. Les réserves des compagnies d’assurance doivent être évaluées et certifiées par un actuaire qualifié, et seules les personnes ayant obtenu le titre de Fellow de l’Institut canadien des actuaires (FICA) peuvent exercer officiellement cette fonction.
+C’est ici que l’actuaire intervient : il contribue à l’évaluation des engagements de l’assureur et à l’analyse de sa solidité financière. Au Canada, certaines fonctions réglementaires, notamment celle d’actuaire désigné, sont encadrées et soumises à des exigences précises de qualification. Il ne faut cependant pas assimiler toute activité de calcul des provisions à cette fonction réglementaire.
 
 <div style="clear: both;"></div>
 
@@ -739,7 +815,7 @@ C’est ici que l’actuaire intervient : il doit estimer correctement ces rése
 
 Après ce détour pour discuter des provisions actuarielles en assurance-vie, nous poursuivons maintenant avec une assurance temporaire de 20 ans, habituellement notée T-20. Comme dans le cas de la T-10, la prime est nivelée, c’est-à-dire constante pendant toute la durée du terme de 20 ans. 
 
-Encore une fois, comme pour la T-10, notons qu’une T-20 peut être souscrite à n’importe quel âge. Pour illustrer le fonctionnement de ce produit, on supposera toutefois un assuré âgé de 20 ans qui souscrit des T-20 successives jusqu’à 80 ans. Cela correspond à trois termes consécutifs de 20 ans.  On peut l’interpréter comme la souscription d’une T-20 à 20 ans (couvrant la période 20–40), puis d’une nouvelle T-20 à 40 ans (40–60), et enfin d’une dernière T-20 à 60 ans (60–80). Le tableau suivant présente les primes annuelles d’une protection T-20, selon l’âge à l’émission.
+Encore une fois, comme pour la T-10, une T-20 peut être souscrite à différents âges, sous réserve des limites prévues par l’assureur. Pour illustrer le fonctionnement de ce produit, on supposera toutefois un assuré âgé de 20 ans qui souscrit des T-20 successives jusqu’à 80 ans. Cela correspond à trois termes consécutifs de 20 ans.  On peut l’interpréter comme la souscription d’une T-20 à 20 ans (couvrant la période 20–40), puis d’une nouvelle T-20 à 40 ans (40–60), et enfin d’une dernière T-20 à 60 ans (60–80). Le tableau suivant présente les primes annuelles d’une protection T-20, selon l’âge à l’émission.
 
 ::: {.encadre}
 
@@ -863,11 +939,17 @@ Le graphique permet de dégager des constats similaires à ce que nous avions vu
 
 ### Évolution de la réserve pour l’assurance T-20
 
-La notion de provision actuarielle est encore plus importante pour la T-20 que pour la T-10, comme l'indique le graphique suivant:
+La notion de provision actuarielle est particulièrement utile pour comprendre la T-20. Nous appliquons **exactement la même formule prospective** que pour la T-10, en remplaçant $n=10$ par $n=20$. La prime $P_{x:20}$ est calculée à partir des 20 années de mortalité couvertes; puis, pour chaque durée $t$, on réévalue seulement les $20-t$ années restantes :
+
+$$
+V_t^-=S\,A_{x+t:\overline{20-t}|}-P_{x:20}\,\ddot a_{x+t:\overline{20-t}|},\qquad 0\le t<20,\qquad V_{20}^-=0.
+$$
+
+Les deux valeurs actuarielles $A$ et $\ddot a$ représentent respectivement une assurance temporaire (prestation en fin d'année du décès) et une rente temporaire due (primes en début d'année). Cette écriture est simplement une forme condensée des deux sommes développées dans la section T-10. Les graphiques sont calculés à **intérêt nul**, par 1 000 $ de couverture, avant le paiement de la prime. À durée égale, les niveaux de réserves dépendent de la forme des taux de mortalité; une durée plus longue ne garantit pas, à elle seule, une réserve plus élevée.
 
 ```{r}
 #| code-fold: true
-#| echo: false
+#| echo: true
 #| message: false
 #| warning: false
 #| fig-height: 4
@@ -954,8 +1036,8 @@ p_res <- ggplot(
   scale_x_continuous(breaks = 0:20) +
   scale_color_discrete(labels = paste0(ages_emission, " ans")) +
   labs(
-    x = "Âge du contrat (années)",
-    y = "Provision mathématique",
+    x = "Durée écoulée depuis l’émission (années)",
+    y = "Réserve avant prime (par 1 000 $ d’assurance)",
     color = "Âge à l'émission"
   ) +
   theme_bw()
@@ -967,17 +1049,17 @@ p_res
 
 ```
 
-Nous pouvons lister les observations suivantes en analyse le graphique des provisions :
+Nous pouvons lister les observations suivantes en analysant le graphique des provisions :
 
 - La courbe correspondant à une police émise à 20 ans se confond presque avec l’axe horizontal. Dans le cas de la police émise à 40 ans, la courbe se distingue davantage, mais demeure très basse, avec un maximum inférieur à 10\$. Cela s’explique encore une fois par le fait que la pente de la courbe de mortalité reste très faible entre 20 et 40 ans, et même jusqu'à 50 ou 60 ans.
 
-- La réserve la plus élevée est celle de la police émise à 60 ans, alors que la mortalité augmente beaucoup plus rapidement. Elle est environ huit fois plus élevée que celle observée pour la T-10.
+- La réserve la plus élevée est celle de la police émise à 60 ans, alors que la mortalité augmente beaucoup plus rapidement. Sa valeur dépasse nettement celle observée pour une T-10 comparable.
 
-- L’asymétrie de la courbe correspondant à la police émise à 60 ans est plus marquée que dans le cas de la T-10. Cela s’explique par la convexité de la courbe de mortalité : l’écart entre la prime T-20 et la prime T-1 atteint environ 22\$ à 79 ans, alors qu’il n’est que d’environ 10\$ à 60 ans. Le sommet de la courbe de réserve est ainsi atteint vers la 12e année du terme, alors que le milieu du terme se situe à 10 ans.
+- L’asymétrie de la courbe correspondant à la police émise à 60 ans est plus marquée que dans le cas de la T-10. Cela s’explique par l’augmentation de plus en plus rapide de la mortalité : l’écart entre la prime T-20 et la prime T-1 atteint environ 22\$ à 79 ans, alors qu’il n’est que d’environ 10\$ à 60 ans. Le sommet de la courbe de réserve se situe ainsi après le milieu du terme dans cette illustration.
 
 ## L’assurance temporaire jusqu’à 65 ans (T à 65 ans)
 
-Une autre forme d’assurance vie temporaire est celle qui couvre l’assuré jusqu’à l’âge de 65 ans, que l’on appelle une assurance T à 65. Comme dans le cas des assurances T-10 ou T-20, la prime est nivelée, c’est-à-dire constante pendant toute la durée de la couverture, soit jusqu’à ce que l’assuré atteigne 65 ans.  Un assuré peut souscrire à ce produit à n’importe quel moment, pourvu qu’il soit âgé de moins de 65 ans. Dans l’exemple numérique présenté ici, on supposera toutefois une souscription à l’âge de 20 ans, de sorte que la période analysée s’étend de 20 à 65 ans.
+Une autre forme d’assurance-vie temporaire est celle qui couvre l’assuré jusqu’à l’âge de 65 ans, que l’on appelle une assurance T à 65. Comme dans le cas des assurances T-10 ou T-20, la prime est nivelée, c’est-à-dire constante pendant toute la durée de la couverture, soit jusqu’à ce que l’assuré atteigne 65 ans.  Un assuré peut souscrire à ce produit à n’importe quel moment, pourvu qu’il soit âgé de moins de 65 ans. Dans l’exemple numérique présenté ici, on supposera toutefois une souscription à l’âge de 20 ans, de sorte que la période analysée s’étend de 20 à 65 ans.
 
 Un calcul de la prime de ce produit, en se basant sur la table de mortalité utilisée depuis le début du chapitre, donne une prime annuelle de 1.8154$ par 1000$ d'assurance. Le graphique suivant compare cette prime annuelle nivelée à la prime d’une T-1, qui correspond — comme nous l’avons vu — au taux de mortalité de la table. 
 
@@ -1050,17 +1132,23 @@ p1
 ```
 Quelques observations à propos du graphique:
 
-- La courbe de la **T-1** (qui correspond à la mortalité) croise celle de la **T-65** à l’âge de 50 ans, alors que le milieu du terme de la police se situe à 42,5 ans.
+- La courbe de la T-1 (qui correspond à la mortalité) croise celle de la T-65 à l’âge de 50 ans, alors que le milieu du terme de la police se situe à 42,5 ans.
 
 - Comme dans le cas de la T-10 et de la T-20, on observe une phase d’accumulation d’argent, la provision actuarielle, ainsi qu’une phase où cette somme est utilisée pour compenser l’excédent du coût de mortalité sur la prime.
 
 ### Provision actuarielle
 
-La provision actuarielle de la T à 65 est encore plus importante que pour la T-10 ou la T-20, comme l’indique le graphique suivant:
+La T à 65 ans permet d’illustrer la constitution d’une provision actuarielle sur une période particulièrement longue pour un assuré qui souscrit jeune. Dans notre exemple, la police est émise à 20 ans et couvre les **45 années** allant de 20 à 64 ans inclusivement. La prime annuelle est donc calculée sur 45 années, et la réserve à la durée $t$ est celle des **45 moins $t$ années restantes** :
+
+$$
+V_t^-=S\,A_{20+t:\overline{45-t}|}-P_{20:45}\,\ddot a_{20+t:\overline{45-t}|},\qquad V_{45}^-=0.
+$$
+
+Dans le graphique, les réserves sont calculées au **début de chaque année, avant prime**. À un instant $t<45$, la valeur immédiatement après prime est supérieure de $P_{20:45}$, soit $V_t^+=V_t^-+P_{20:45}$. Par conséquent, même si les deux conventions décrivent le même contrat, elles ne produisent pas les mêmes ordonnées. Le graphique suivant utilise la convention *avant prime*, comme les courbes des T-10 et T-20.
 
 ```{r}
 #| code-fold: true
-#| echo: false
+#| echo: true
 #| message: false
 #| warning: false
 #| fig-height: 4
@@ -1129,29 +1217,13 @@ reserve_T65_avant_prime <- function(x, t, age_fin, tab, i = 0) {
 }
 
 # Réserve prospective au début de l'année t, APRÈS paiement de la prime
-# utile si tu veux une courbe plus intuitive pédagogiquement
+# Pour t < n, on retire des primes futures la prime versée au temps t.
 reserve_T65_apres_prime <- function(x, t, age_fin, tab, i = 0) {
   n <- age_fin - x
-  P <- prime_T65(x, age_fin, tab, i)
-  
   if (t == n) return(0)
-  
-  q_future <- tab %>%
-    filter(Age2 >= x + t, Age2 <= age_fin - 1) %>%
-    pull(nult)
-  
-  p_future <- 1 - q_future
-  
-  # survies futures à partir de l'année suivante
-  surv_future <- c(1, cumprod(p_future)) 
-  
-  # prestation future
-  A_future <- sum((1 / (1 + i))^(1:(n - t)) * surv_future[1:(n - t)] * q_future)
-  
-  # primes futures restantes APRES la prime de début d'année t
-  adue_future <- sum((1 / (1 + i))^(1:((n - t) - 1)) * surv_future[2:(n - t)])
-  
-  A_future - P * adue_future
+
+  P <- prime_T65(x, age_fin, tab, i)
+  reserve_T65_avant_prime(x, t, age_fin, tab, i) + P
 }
 
 # Tableau des réserves
@@ -1162,14 +1234,14 @@ df_reserve <- tibble(
   reserve_apres_prime = 1000*sapply(duree, function(t) reserve_T65_apres_prime(x, t, age_fin, bdM, i))
 )
 
-# Graphique : version après prime
-p_res <- ggplot(df_reserve, aes(x = duree, y = reserve_apres_prime)) +
+# Graphique : version avant prime, comme pour les T-10 et T-20
+p_res <- ggplot(df_reserve, aes(x = duree, y = reserve_avant_prime)) +
   geom_line(linewidth = 1, color="blue") +
   geom_point(size = 1.8, color="blue") +
   scale_x_continuous(breaks = seq(0, 45, by = 5)) +
   labs(
-    x = "Âge du contrat",
-    y = "Provision mathématique"
+    x = "Durée écoulée depuis l’émission (années)",
+    y = "Réserve avant prime (par 1 000 $ d’assurance)"
   ) +
   theme_bw()
 
@@ -1180,15 +1252,45 @@ p_res
 
 ```
 
-Le graphique de la provision actuarielle selon l'âge du contrat nous permet les observations suivantes:
+Le petit tableau suivant montre, pour quelques durées, la **différence entre les deux instants d’évaluation**. La dernière ligne ($t=45$) représente la fin de la protection : aucune prime n’y est exigible et les deux réserves valent zéro.
 
-- L’asymétrie de la courbe est très prononcée. Elle s’explique en partie par la concavité de la courbe de mortalité. Le sommet de la courbe de réserve est atteint vers un contrat de 32 ans, alors que le milieu du terme se situe plutôt vers 22–23 ans.
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| tbl-cap: "T à 65 ans émise à 20 ans : réserves avant et après prime, par 1 000 $"
+
+library(kableExtra)
+
+df_reserve65 %>%
+  filter(duree %in% c(0, 10, 20, 30, 40, 44, 45)) %>%
+  transmute(
+    `Durée t` = duree,
+    `Âge` = Age,
+    `Avant prime ($)` = sprintf("%.3f", reserve_avant_prime),
+    `Après prime ($)` = sprintf("%.3f", reserve_apres_prime)
+  ) %>%
+  kbl(align = "c") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE, position = "center"
+  )
+```
+
+:::
+
+Le graphique présente les provisions au début de chaque année, avant paiement de la prime, comme pour les T-10 et T-20. Il permet les observations suivantes :
+
+- L’asymétrie de la courbe est très prononcée. Elle s’explique en partie par l’accélération de la mortalité avec l’âge. Le sommet de la courbe de réserve se situe sensiblement après le milieu du terme dans cette illustration.
 
 - Après avoir atteint son sommet, la réserve retombe rapidement vers zéro, puisque le coût de mortalité devient alors beaucoup plus élevé que la prime nivelée.
 
 ### Comparaison avec la T-10 et la T-20
 
-On peut maintenant superposer les courbes de réserve associées à chacun de ces produits afin de mieux comparer leur évolution. Le graphique suivant montre comment la provision mathématique se constitue, atteint un sommet, puis décroît jusqu’à zéro selon le type d’assurance temporaire considéré.
+On peut maintenant superposer les courbes de réserve associées à chacun de ces produits afin de mieux comparer leur évolution. Le graphique suivant montre comment la provision mathématique se constitue, atteint un sommet, puis décroît jusqu’à zéro selon le type d’assurance temporaire considéré. Les trois produits sont évalués au début de l’année, avant le paiement de la prime; chaque courbe correspond à un âge d’émission donné.
 
 ```{r}
 #| code-fold: true
@@ -1199,24 +1301,40 @@ On peut maintenant superposer les courbes de réserve associées à chacun de ce
 #| fig-width: 9
 #| fig-align: center
 
-df_reserve10 <- df_reserve10 %>% mutate(produit="T-10") %>% select(-age_emission)
-df_reserve20 <- df_reserve20 %>% mutate(produit="T-20") %>% select(-age_emission)
-df_reserve65 <- df_reserve65 %>% 
-  mutate(produit= "T à 65",
-         reserve = reserve_apres_prime) %>%
-  select(duree, Age, reserve, produit)
+df_reserve10_comp <- df_reserve10 %>%
+  mutate(produit = "T-10") %>%
+  select(age_emission, Age, reserve, produit)
 
-df_reserve <- bind_rows(df_reserve10, df_reserve20, df_reserve65)
+df_reserve20_comp <- df_reserve20 %>%
+  mutate(produit = "T-20") %>%
+  select(age_emission, Age, reserve, produit)
 
+df_reserve65_comp <- df_reserve65 %>%
+  transmute(
+    age_emission = 20,
+    Age,
+    reserve = reserve_avant_prime,
+    produit = "T à 65"
+  )
+
+df_reserve_comp <- bind_rows(
+  df_reserve10_comp,
+  df_reserve20_comp,
+  df_reserve65_comp
+)
 
 # Graphique
-p_res <- ggplot(df_reserve, aes(x = Age, y = reserve, color = produit)) +
+p_res <- ggplot(
+  df_reserve_comp,
+  aes(x = Age, y = reserve, color = produit,
+      group = interaction(produit, age_emission))
+) +
   geom_line(linewidth = 1) +
   geom_point(size = 1.8) +
   scale_x_continuous(breaks = seq(20, 80, by = 5)) +
   labs(
     x = "Âge de l'assuré",
-    y = "Provision mathématique",
+    y = "Réserve avant prime (par 1 000 $ d’assurance)",
     color = "Produit"
   ) +
   theme_bw()
@@ -1226,9 +1344,9 @@ p_res
 ```
 Le graphique permet de faire les observations suivantes :
 
-- L’asymétrie apparaît davantage aux âges avancés et est accentuée par la longueur du terme. Un terme plus long interagit avec la forme convexe de la courbe de mortalité. Ainsi, plus l’âge de terminaison est élevé, plus le point de croisement entre la courbe de mortalité et la prime nivelée se situe à droite du milieu du terme de la police.
+- L’asymétrie apparaît davantage aux âges avancés et est accentuée par la longueur du terme. Un terme plus long amplifie l’effet de l’accélération de la mortalité avec l’âge. Ainsi, plus l’âge de terminaison est élevé, plus le point de croisement entre la courbe de mortalité et la prime nivelée se situe à droite du milieu du terme de la police.
 
-- Plus le terme est long, plus la réserve actuarielle atteint un niveau élevé.
+- Le niveau de la réserve dépend simultanément de l’âge d’émission, de la durée du contrat et de la mortalité aux âges couverts. On ne peut donc pas conclure qu’une réserve est nécessairement plus élevée parce que le terme est plus long.
 
 ## L’assurance temporaire 100 ans (T-100)
 
@@ -1253,29 +1371,19 @@ Le T-1000 dans [Terminator 2: Le jugement dernier (1991)](https://www.imdb.com/f
 
 </div>
 
-L’assurance temporaire 100 ans (T-100) constitue un produit hybride situé entre l’assurance temporaire traditionnelle et l’assurance vie entière. Dans une assurance temporaire classique, la couverture est limitée à une période déterminée, par exemple 10, 20 ou 30 ans. Si l’assuré est toujours en vie à la fin de cette période, la protection prend fin et aucune prestation n’est versée. Dans le cas d’une T-100, la durée de la couverture est beaucoup plus longue. Le contrat demeure en vigueur jusqu’à l’âge de 100 ans de l’assuré. Étant donné qu’il est extrêmement rare qu’une personne dépasse cet âge, l’assureur s’attend à verser une prestation avant l’échéance du contrat. La T-100 se rapproche donc, dans les faits, d’une assurance permanente. 
+L’assurance temporaire 100 ans (T-100) porte un nom qui peut prêter à confusion : il s’agit généralement d’une protection viagère, mais dont les primes nivelées cessent au plus tard à 100 ans. Si l’assuré est encore vivant à cet âge et que la police est toujours en vigueur, la couverture se poursuit sans prime jusqu’au décès. Certains contrats comportent des modalités différentes : il faut toujours se reporter à leur libellé. Voir, par exemple, les explications de l’[Autorité des marchés financiers](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-temporaire) et d’[Assuris](https://assuris.ca/fr/comment-suis-je-protege/protection-dassuris/assurance-vie/individuelle/assurance-vie-temporaire-100-ans/).
 
-Dans sa structure, elle ressemble à une assurance permanente à prime nivelée, mais à laquelle on a retiré la valeur de rachat afin d’en réduire le coût (*nous verrons en détails ce qu'est une valeur de rachat à la section sur l'assurance-vie permanente*). Autrement dit, l’assuré bénéficie d’une protection qui peut durer toute sa vie, mais sans accumuler une valeur pouvant être retirée s’il cesse de payer les primes. Pour mieux comprendre ce produit, il est utile de distinguer les caractéristiques qu’il partage avec les assurances temporaires, celles qu’il partage avec les assurances permanentes, ainsi que certaines particularités propres à ce type de contrat.  
+Ce produit occupe une place particulière entre les assurances temporaires traditionnelles et certaines assurances permanentes. La couverture peut durer toute la vie, mais la T-100 ne comporte généralement aucune valeur de rachat. Le titulaire ne peut donc pas retirer une épargne accumulée s’il résilie son contrat, même si l’assureur doit constituer des provisions pour financer ses prestations futures.
 
-- **Caractéristiques communes avec les assurances temporaires**:
+Pour l’illustration actuarielle ci-dessous, nous retiendrons les hypothèses suivantes :
 
-  - Comme les assurances temporaires traditionnelles, la T-100 possède certaines caractéristiques importantes liées à l’absence de valeur de rachat et à la structure des primes:
+- la couverture demeure en vigueur jusqu’au décès si le contrat n’est pas résilié;
+- la prime est constante et payable au début de chaque année jusqu’à l’âge de 99 ans inclus, mais cesse à l’atteinte de 100 ans;
+- les prestations de décès sont payables à la fin de l’année du décès;
+- les déchéances éventuellement modélisées surviennent à la fin de chaque année avant 100 ans, après la couverture du décès pendant l’année, et il n’y a plus de déchéances après 100 ans dans notre modèle simplifié;
+- les prestations sont calculées avec les taux ultimes de la table ICA2014, sous l’hypothèse qu’un décès survient au plus tard à l’âge ultime $\Omega$ de la table.
 
-  - La T-100 n’offre généralement aucune valeur de rachat. Si l’assuré cesse de payer ses primes, la police tombe en **déchéance** et le contrat prend fin sans versement au titulaire.
-
-  - La prime annuelle est nivelée, c’est-à-dire qu’elle demeure constante pendant toute la période où l’assuré doit payer des primes.
-
-- **Caractéristiques communes avec l’assurance permanente**:
-
-  - Si l’assuré est encore vivant à 100 ans, deux situations peuvent se produire selon les dispositions du contrat :
-
-    - l’assureur verse immédiatement la prestation de décès à l’assuré;
-    - l’assurance demeure en vigueur sans paiement de prime jusqu’au décès de l’assuré, afin que la prestation soit versée au bénéficiaire.
-
-  - Comme pour les assurances permanentes, les provisions mathématiques associées à ce produit peuvent atteindre des niveaux élevés.
-
-Contrairement à une assurance temporaire traditionnelle, qui ne verse rien si l’assuré survit au terme du contrat, l’assureur est ici pratiquement certain de verser la prestation si la police demeure en vigueur. Il faut donc accumuler suffisamment d’actifs pour financer ce paiement futur.
-
+La T-100 se rapproche ainsi, du point de vue du risque couvert, d’une assurance-vie entière à primes limitées, tout en se distinguant par l’absence habituelle de valeur de rachat.
 <div style="clear: both;"></div>
 
 ### L'importance du concept de déchéance pour la T-100
@@ -1294,48 +1402,37 @@ text-align:center;
 </div>
 
 
-La tarification et le fonctionnement de la T-100 reposent également sur certains mécanismes propres à ce type de produit, notamment la déchéance, soit la possiblité que l'assuré cesse de payer ses primes et annule ainsi son droit à recevoir une indemnité au décès.  En conséquence, la T-100 coûte généralement moins cher qu’une assurance vie entière pour un même montant assuré. Cette différence s’explique notamment par l’absence de valeur de rachat en cas de déchéance. Plus concrètement et sous l'angle actuariel, les provisions mathématiques libérées lors des déchéances peuvent être utilisées pour financer les prestations des assurés qui maintiennent leur police.
+La tarification de la T-100 dépend notamment des déchéances, c’est-à-dire de la proportion de contrats qui cessent d’être en vigueur avant le décès, généralement à la suite d’un non-paiement des primes ou d’une résiliation.  À garanties et hypothèses comparables, l’absence de valeur de rachat peut contribuer à une prime inférieure à celle d’un produit permanent comportant une telle valeur. Dans les modèles de tarification, la disparition des engagements futurs lors d’une déchéance peut réduire le coût attendu du portefeuille, même si elle implique aussi la perte des primes futures.
 
 Dans la pratique, les assureurs font des analyses statistiques de leur portefeuille et anticipent un certain niveau de déchéances.  Ils intègrent cet effet dans la tarification du produit, ce qui signifie qu'une partie du financement du contrat repose sur le fait qu’une proportion des assurés abandonnera sa police avant le décès. Cette situation peut toutefois devenir problématique si les hypothèses utilisées lors de la tarification ne se réalisent pas, à savoir que les assurés conservent leur police plus souvent, ou encore plus longtemps que prévu.
 
-Cela s’est effectivement produit sur certains marchés. Un nombre plus élevé que prévu d’assurés a conservé leur assurance temporaire à 100 ans, tandis que les taux d’intérêt ont diminué de façon importante. Les assureurs se sont alors retrouvés avec des contrats garantis dont les provisions mathématiques étaient insuffisantes pour soutenir la tarification initiale. Dans plusieurs cas, les assureurs ont dû cesser de vendre ce produit ou augmenter sensiblement les primes des nouveaux contrats.
+Si les déchéances sont moins nombreuses que prévu ou si les rendements financiers s’avèrent insuffisants, les coûts réels peuvent dépasser ceux anticipés lors de la tarification. L’assureur peut alors devoir renforcer ses provisions ou revoir les primes des nouveaux contrats. Une prime garantie dans un contrat en vigueur ne peut pas être augmentée simplement parce que les hypothèses initiales étaient trop optimistes.
 
 <div style="clear: both;"></div>
 
-::: {#exm-2 .custom}
-Supposons un assuré âgé de 20 ans qui paie une prime annuelle de 150 $ pour une prestation de décès de 10 000 $. En négligeant les revenus de placement générés par les primes versées, évaluez l’impact d’une déchéance survenant aux âges de 20 ans, 50 ans et 70 ans.
+::: {#exm-decheance-t100 .custom}
+Supposons un assuré âgé de 20 ans qui verse une prime annuelle de 150 $ pour une protection de décès de 10 000 $. En négligeant les revenus de placement et en supposant qu’il n’y a eu aucun décès, calculez les primes cumulées versées si le contrat devient caduc aux âges de 20, 50 et 70 ans. Pourquoi ces sommes ne correspondent-elles pas directement au gain de l’assureur?
 :::
 
 ::: {.custom-solution}
-Solution.
+**Solution.**
 
-Dans cet exercice, on suppose que l’assuré cesse simplement de payer sa prime et que les primes déjà versées demeurent dans le portefeuille pour contribuer au financement des prestations des autres assurés. Comme on néglige les revenus de placement, l’impact de la déchéance correspond ici uniquement à la somme des primes déjà payées.
+On suppose que les déchéances surviennent aux âges indiqués avant le paiement de la prime annuelle qui serait due à cet âge.
 
-- Si l’assuré fait déchéance à 20 ans, il n’a encore versé aucune prime annuelle. L’impact financier de la déchéance est donc nul.
+- **À 20 ans :** aucune prime n’a encore été payée, soit 0 $.
+- **À 50 ans :** 30 primes ont été versées, soit 4 500 $ ($30 \times 150$).
+- **À 70 ans :** 50 primes ont été versées, soit 7 500 $ ($50 \times 150$).
 
-- Si l’assuré fait déchéance à 50 ans, il aura payé sa prime annuelle pendant 30 ans, soit un total de
-  $$
-  30 \times 150 = 4\,500\ \$
-  $$
-  Ces 4 500 $ demeurent alors dans le portefeuille et peuvent contribuer au financement des prestations des assurés qui y restent.
-
-- Si l’assuré fait déchéance à 70 ans, il aura payé sa prime annuelle pendant 50 ans, soit un total de
-  $$
-  50 \times 150 = 7\,500\ \$
-  $$
-  Ces 7 500 $ demeurent alors dans le portefeuille et peuvent également servir à financer les prestations des assurés qui restent dans le portefeuille.
-
-On constate donc que, dans ce cadre très simplifié, plus la déchéance survient tardivement, plus le montant déjà versé par l’assuré est élevé, et plus l’effet financier favorable pour l’assureur — et indirectement pour le reste du portefeuille — est important.
+Ces sommes représentent uniquement les primes encaissées, et non le profit associé à la déchéance. Pendant les années de couverture, l’assureur a supporté un risque de décès, engagé des frais et constitué des provisions. Le résultat financier d’une déchéance dépend aussi des primes futures perdues et des engagements futurs libérés. Il n’est donc pas possible de le calculer à partir des seules primes cumulées.
 :::
-
 
 ### Analyse de la T-100
 
-Le graphique ci-dessous illustre le taux par 1000$ de la T-1 et de la T-100.  On peut voir qu'à l'âge $\Omega$, la T-1 a un taux de 1000\$ pour 1000\$ d'assurance car la probabilité de décès est certaine.  Pour notre application numérique ici, le taux par 1000$ d'assurance de la T-100 est de 15.72574\$ par 1000\$ d'assurance.  Cette valeur suppose pour le moment aucune déchéance. 
+Le graphique ci-dessous compare le coût annuel du risque de décès (T-1) avec la prime pure nivelée d’une T-100 émise à 20 ans. Les primes de la T-100 cessent à 100 ans, mais la prestation reste payable au décès, même après cet âge. Le calcul suppose ici un taux d’intérêt et un taux de déchéance nuls; il s’agit donc d’une illustration pédagogique, et non d’un tarif commercial.
 
 ```{r}
 #| code-fold: true
-#| echo: false
+#| echo: true
 #| message: false
 #| warning: false
 #| fig-height: 4
@@ -1346,72 +1443,88 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-# Données hommes : on garde tous les âges disponibles à partir de 20 ans
 bdM <- bdd$MallL %>%
   filter(Age2 >= 20) %>%
   select(Age2, nult) %>%
   arrange(Age2)
 
-# Dernier âge disponible dans la table
-age_max <- max(bdM$Age2)
+# Modèle simplifié de T-100 : protection viagère, primes avant 100 ans.
+# Déchéances en fin d'année avant 100 ans; aucune après 100 ans.
+# A : valeur actuelle des prestations pour 1 $ d'assurance.
+# adue : valeur actuelle d'une prime de 1 $ payable d'avance.
+valeurs_T100 <- function(x, tab, i = 0, d = 0, age_arret_primes = 100) {
+  if (i < 0 || d < 0 || d >= 1) stop("Paramètres i ou d invalides")
 
-# Fonction pour calculer la prime pure annuelle nivelée d'une T-100
-# ici interprétée comme une couverture jusqu'au dernier âge de la table
-prime_T100 <- function(x, tab) {
-  
-  q <- tab %>%
+  tab_x <- tab %>%
     filter(Age2 >= x) %>%
-    pull(nult)
-  
+    arrange(Age2)
+
+  ages <- tab_x$Age2
+  q <- tab_x$nult
   n <- length(q)
-  
-  # Probabilités de survie cumulées : 0p_x, 1p_x, ..., (n-1)p_x
-  surv <- c(1, cumprod(1 - q))[1:n]
-  
-  # Valeur espérée de la prestation
-  A <- sum(surv * q)
-  
-  # Valeur espérée des primes annuelles payables d'avance tant que vivant
-  adue <- sum(surv)
-  
-  A / adue
+  if (n == 0 || anyNA(q) || any(diff(ages) != 1)) {
+    stop("Table de mortalité incomplète ou non consécutive")
+  }
+  if (tail(q, 1) < 1 - 1e-10) {
+    stop("La table doit se terminer par une probabilité de décès de 1")
+  }
+
+  t <- seq_len(n) - 1
+  v <- 1 / (1 + i)
+  surv <- c(1, cumprod(1 - q))[seq_len(n)]
+
+  # Persistance du contrat à l'instant t, conditionnellement à la survie.
+  # La probabilité de déchéance est appliquée uniquement avant 100 ans.
+  nombre_annees_decheance <- pmin(t, pmax(0, age_arret_primes - x))
+  persist <- (1 - d)^nombre_annees_decheance
+
+  A <- sum(v^(t + 1) * surv * persist * q)
+  adue <- sum(v^t * surv * persist * (ages < age_arret_primes))
+
+  list(A = A, adue = adue)
 }
 
-# Prime T-100 pour un assuré de 20 ans
-prime_20_T100 <- prime_T100(20, bdM)
+prime_T100 <- function(x, tab, i = 0, d = 0) {
+  vals <- valeurs_T100(x, tab, i, d)
+  if (vals$adue <= 0) stop("Aucune prime payable dans la période considérée")
+  vals$A / vals$adue
+}
 
-# Données pour le graphique
-df_T100 <- tibble(Age2 = 20:age_max) %>%
-  mutate(
-    valeur = prime_20_T100,
-    produit = "T-100"
-  )
+# Prime pure de la T-100 souscrite à 20 ans (par 1 $ de capital)
+prime_20_T100 <- prime_T100(20, bdM, i = 0, d = 0)
 
+# T-100 : aucune prime n'est payable à partir de 100 ans.
+df_T100 <- tibble(Age2 = 20:99) %>%
+  mutate(valeur = 1000 * prime_20_T100, produit = "T-100")
+
+# Pour faciliter la lecture, on affiche le coût annuel de mortalité jusqu'à 100 ans.
 df_T1 <- bdM %>%
-  transmute(Age2, valeur = nult, produit = "T-1")
+  filter(Age2 <= 100) %>%
+  transmute(Age2, valeur = 1000 * nult, produit = "T-1")
 
-df_plot <- bind_rows(df_T1, df_T100) %>% mutate(valeur = 1000*valeur)
+df_plot <- bind_rows(df_T1, df_T100)
 
-# Graphique
-p1 <- ggplot(df_plot, aes(x = Age2, y = valeur, color = produit)) +
+ggplot(df_plot, aes(x = Age2, y = valeur, color = produit)) +
   geom_line(linewidth = 1) +
+  geom_vline(xintercept = 100, linetype = "dotted", color = "gray50") +
   scale_color_manual(values = c("T-1" = "blue", "T-100" = "red")) +
   labs(
     x = "Âge",
-    y = "Taux par 1000$ d'assurance",
-    color = "Produit d'assurance"
+    y = "Prime pure / coût de mortalité par 1 000 $ ($)",
+    color = "Produit"
   ) +
   theme_bw()
-
-p1
 ```
+
+La prime annuelle nivelée de cette illustration est de `r sprintf("%.2f", 1000 * prime_20_T100)` $ par 1 000 $ d’assurance. Elle est due au début de chacune des années pendant lesquelles l’assuré a moins de 100 ans et où le contrat est en vigueur. Le coût annuel de mortalité, au contraire, augmente avec l’âge.
+
 ### Hypothèses de déchéance
 
 Lors de la tarification d’un produit d’assurance, l’assureur peut supposer différents taux de déchéance. Par exemple, les déchéances peuvent être supposées uniformes, ce qui signifie qu’on s’attend à un certain pourcentage de contrats qui tombent en déchéance chaque année. On pourrait ainsi supposer un taux de déchéance constant de 2 % par année pour l’ensemble des contrats vendus.
 
 Dans la pratique, il est toutefois plus réaliste de supposer que les déchéances varient selon la durée du contrat. La déchéance peut être relativement élevée au cours des premières années suivant la souscription, lorsque les assurés réévaluent leur décision ou modifient leur situation financière. À l’inverse, elle tend généralement à devenir très faible aux âges plus avancés, lorsque les assurés ont déjà payé des primes pendant de nombreuses années et ont davantage intérêt à conserver leur couverture.
 
-Le graphique ci-dessous illustre ainsi la prime annuelle de la T-100, par 1000$ d'assurance, en fonction d'un taux de déchéance uniforme allant de 0\% à 10\%.
+Le graphique ci-dessous illustre l’effet sur la prime annuelle pure d’une T-100 d’un taux de déchéance uniforme variant de 0 % à 10 % pendant les années précédant l’âge de 100 ans. On conserve un taux d’intérêt nul afin d’isoler cet effet.
 
 ```{r}
 #| code-fold: true
@@ -1422,178 +1535,91 @@ Le graphique ci-dessous illustre ainsi la prime annuelle de la T-100, par 1000$ 
 #| fig-width: 9
 #| fig-align: center
 
-library(dplyr)
-library(tidyr)
-library(ggplot2)
-
-# Données hommes : on garde tous les âges disponibles à partir de 20 ans
-bdM <- bdd$MallL %>%
-  filter(Age2 >= 20) %>%
-  select(Age2, nult) %>%
-  arrange(Age2)
-
-# Fonction pour calculer la prime pure annuelle nivelée d'une T-100
-# avec taux uniforme annuel de déchéance d
-prime_T100_decheance <- function(x, tab, d = 0) {
-  
-  q <- tab %>%
-    filter(Age2 >= x) %>%
-    pull(nult)
-  
-  n <- length(q)
-  p <- 1 - q
-  
-  # Survie au début de chaque année : 0p_x, 1p_x, ..., (n-1)p_x
-  surv <- c(1, cumprod(p))[1:n]
-  
-  # Persistance du contrat (pas de déchéance) au début de chaque année
-  persist <- (1 - d)^(0:(n - 1))
-  
-  # Valeur espérée de la prestation
-  # décès pendant l'année t, avec contrat encore en vigueur
-  A <- sum(surv * persist * q)
-  
-  # Valeur espérée des primes annuelles payables d'avance
-  # prime payée au début de l'année si vivant et encore en vigueur
-  adue <- sum(surv * persist)
-  
-  A / adue
-}
-
-# Grille de taux de déchéance : de 0 % à 10 % par pas de 1 %
+# Même modèle de T-100 que dans le graphique précédent.
+# prime_T100() a été défini plus haut et inclut l'arrêt des primes à 100 ans.
 taux_decheance <- seq(0, 0.10, by = 0.01)
 
-# Base de données des primes selon le taux de déchéance
 bd_prime2 <- tibble(
   taux_decheance = taux_decheance,
-  prime = 1000*sapply(taux_decheance, function(d) prime_T100_decheance(20, bdM, d))
+  prime = 1000 * sapply(taux_decheance, function(d) {
+    prime_T100(20, bdM, i = 0, d = d)
+  })
 ) %>%
-  mutate(
-    taux_pct = 100 * taux_decheance
-  )
+  mutate(taux_pct = 100 * taux_decheance)
 
 ggplot(bd_prime2, aes(x = taux_pct, y = prime)) +
-  geom_line(linewidth = 1, color="blue") +
-  geom_point(size = 2, color="blue") +
+  geom_line(linewidth = 1, color = "blue") +
+  geom_point(size = 2, color = "blue") +
   scale_x_continuous(breaks = seq(0, 10, by = 1)) +
   labs(
     x = "Taux annuel uniforme de déchéance (%)",
-    y = "Taux par 1000$ d'assurance"
+    y = "Prime pure par 1 000 $ d’assurance ($)"
   ) +
   theme_bw()
-
 ```
-Comme le montre ce graphique, l’anticipation d’un taux de déchéance de seulement 2 % permet de réduire la prime d’environ 44 %. Si l’on suppose plutôt une déchéance annuelle de 5 %, la prime devient environ cinq fois plus faible.  
 
-Ce phénomène s’explique par le fait que la mortalité demeure très faible pendant les premières décennies du contrat. L’introduction d’un taux de déchéance, même modeste, fait alors disparaître progressivement une proportion importante des contrats avant que la mortalité ne devienne significative. En conséquence, un grand nombre de contrats quittent le portefeuille sans jamais donner lieu au paiement de la prestation de décès, ce qui réduit fortement le nombre attendu de prestations.
-
-Une manière simple de comprendre ce mécanisme est la suivante. Pendant les premières années du contrat, les décès sont très rares, alors qu’un certain nombre d’assurés abandonnent leur contrat chaque année. Le portefeuille d’assurances diminue donc progressivement, non pas en raison de la mortalité, mais à cause des déchéances. Les primes versées par les assurés qui quittent le portefeuille contribuent alors indirectement à financer les prestations futures des assurés qui demeurent en vigueur.
-
-Dans ces conditions, il devient très tentant pour l’assureur d’anticiper des déchéances afin de rendre son produit plus concurrentiel. L’hypothèse de déchéance devient ainsi aussi importante que l’hypothèse de mortalité ou que l’hypothèse de taux de rendement dans la tarification du produit.
+Dans ce modèle, une hausse du taux de déchéance réduit la prime pure : une partie des contrats cesse d’être en vigueur avant que la mortalité augmente fortement. La diminution ne signifie pas que les primes déjà encaissées constituent intégralement un profit; elle traduit une modification de la valeur actuelle espérée des prestations et des primes futures. Dans la pratique, la tarification doit aussi tenir compte de la sélection des assurés qui conservent leur police et du risque de déchéances inférieures aux prévisions.
 
 ### Provision actuarielle
 
-Comme nous l'avons fait pour les autres produits d'assurance temporaire, il est intéressant d'analyser l'évolution de la provision actuarielle pour la T-100, en fonction d'hypothèses de déchéance.
+Comme pour les autres produits, la provision actuarielle est définie ici comme la valeur actuelle espérée des prestations futures moins celle des primes futures, conditionnellement à la survie de l’assuré et au maintien en vigueur de la police. Elle est évaluée **avant le paiement éventuel de la prime** à l'âge considéré, comme dans les graphiques des T-10, T-20 et T à 65 ans.
+
+La T-100 comporte cependant **deux particularités mathématiques** : les prestations demeurent payables après 100 ans, alors que les primes cessent à cet âge; et nous pouvons inclure des déchéances avant 100 ans. En notant $P$ la prime nivelée de la T-100 et $a=20+t$ l'âge atteint, la réserve prospective garde la structure suivante (où VA désigne la valeur actuelle espérée) :
+
+$$
+V_t^-=\operatorname{VA}_t(\text{prestations futures})
+-\operatorname{VA}_t(\text{primes futures avant 100 ans}).
+$$
+
+Le premier terme couvre toutes les prestations futures de décès, **même après 100 ans**, pondérées par la mortalité, la persistance de la police et, s'il y a lieu, les intérêts. Le second terme ne porte que sur les primes dues **avant 100 ans**. Le code R calcule ces valeurs en additionnant les flux d'une année à l'autre.
+
+Plus concrètement, dans un modèle où une déchéance de taux $d$ survient en fin d'année **si l'assuré survit**, la récurrence est :
+
+$$
+(V_t^-+P_t)(1+i)
+=S q_{20+t}+(1-q_{20+t})(1-d_t)V_{t+1}^-,
+$$
+
+où $P_t=P$ avant 100 ans et $P_t=0$ à partir de 100 ans; de même, $d_t=d$ avant 100 ans et $d_t=0$ ensuite. En cas de déchéance, le modèle suppose **aucune prestation de rachat**, conformément aux hypothèses de l'exercice.
+
+Cette relation montre que les scénarios de déchéance n'affectent pas seulement le nombre de contrats restant en vigueur : ils modifient aussi la **prime fixée à l'émission** et, par conséquent, toutes les réserves prospectives. Les réserves des deux courbes sont donc calculées avec des **primes différentes**, chacune cohérente avec son hypothèse de déchéance.
 
 ```{r}
 #| code-fold: true
-#| echo: false
+#| echo: true
 #| message: false
 #| warning: false
 #| fig-height: 4
 #| fig-width: 9
 #| fig-align: center
 
-library(dplyr)
-library(ggplot2)
-library(tidyr)
-
-# Données hommes : tous les âges disponibles à partir de 20 ans
-bdM <- bdd$MallL %>%
-  filter(Age2 >= 20) %>%
-  select(Age2, nult) %>%
-  arrange(Age2)
-
-i <- 0
-v <- 1 / (1 + i)
-
-# Âge d'émission
 x0 <- 20
-
-# Dernier âge disponible dans la table
+i <- 0
 age_max <- max(bdM$Age2)
 
-# Nombre d'années de couverture
-n <- age_max - x0 + 1
-
-# -------------------------------------------------------------------
-# Fonction auxiliaire : valeurs actuarielles futures d'une T-100
-# avec taux uniforme annuel de déchéance d
-# -------------------------------------------------------------------
-valeurs_T100 <- function(x, tab, i = 0, d = 0) {
-  v <- 1 / (1 + i)
-  
-  q <- tab %>%
-    filter(Age2 >= x) %>%
-    pull(nult)
-  
-  n <- length(q)
-  p <- 1 - q
-  
-  # Survie au début de chaque année : 0p_x, 1p_x, ..., (n-1)p_x
-  surv <- c(1, cumprod(p))[1:n]
-  
-  # Persistance du contrat (pas de déchéance) au début de chaque année
-  persist <- (1 - d)^(0:(n - 1))
-  
-  # VA de la prestation : décès en fin d'année si contrat encore en vigueur
-  A <- sum(v^(1:n) * surv * persist * q)
-  
-  # VA des primes annuelles payables d'avance si vivant et en vigueur
-  adue <- sum(v^(0:(n - 1)) * surv * persist)
-  
-  list(A = A, adue = adue)
-}
-
-# -------------------------------------------------------------------
-# Prime nette nivelée d'une T-100 émise à x avec déchéance d
-# -------------------------------------------------------------------
-prime_T100 <- function(x, tab, i = 0, d = 0) {
-  vals <- valeurs_T100(x, tab, i, d)
-  vals$A / vals$adue
-}
-
-# -------------------------------------------------------------------
-# Réserve prospective au début de l'année t (avant la prime)
-# pour une T-100 émise à x avec déchéance d
-# -------------------------------------------------------------------
 reserve_T100 <- function(x, t, tab, i = 0, d = 0) {
   age_max <- max(tab$Age2)
-  n_total <- age_max - x + 1
-  
-  # À l'échéance ultime, la réserve est nulle
-  if (t >= n_total) return(0)
-  
+  if (x + t > age_max) return(0)
   P <- prime_T100(x, tab, i, d)
-  
   vals_future <- valeurs_T100(x + t, tab, i, d)
-  
-  Vt <- vals_future$A - P * vals_future$adue
-  Vt
+  vals_future$A - P * vals_future$adue
 }
 
-# -------------------------------------------------------------------
-# Calcul des réserves pour 0 % et 2 % de déchéance
-# -------------------------------------------------------------------
+# Le graphique s'arrête à 100 ans : les primes cessent, mais la
+# protection et les provisions continuent au-delà.
+duree <- 0:(100 - x0)
 df_reserve_T100 <- tibble(
-  duree = 0:(age_max - x0),
+  duree = duree,
   Age = x0 + duree,
-  reserve_0 = 1000 * sapply(duree, function(t) reserve_T100(x0, t, bdM, i, d = 0)),
-  reserve_2 = 1000 * sapply(duree, function(t) reserve_T100(x0, t, bdM, i, d = 0.02))
+  reserve_0 = 1000 * sapply(duree, function(t) {
+    reserve_T100(x0, t, bdM, i, d = 0)
+  }),
+  reserve_2 = 1000 * sapply(duree, function(t) {
+    reserve_T100(x0, t, bdM, i, d = 0.02)
+  })
 )
 
-# Version longue pour ggplot
-df_plot <- df_reserve_T100 %>%
+df_plot_T100 <- df_reserve_T100 %>%
   pivot_longer(
     cols = c(reserve_0, reserve_2),
     names_to = "scenario",
@@ -1607,20 +1633,49 @@ df_plot <- df_reserve_T100 %>%
     )
   )
 
-# Graphique
-p_res <- ggplot(df_plot, aes(x = Age, y = reserve, color = scenario)) +
+ggplot(df_plot_T100, aes(x = Age, y = reserve, color = scenario)) +
   geom_line(linewidth = 1) +
-  scale_color_manual(values = c("Déchéance 0 %" = "blue", "Déchéance 2 %" = "red")) +
+  scale_color_manual(
+    values = c("Déchéance 0 %" = "blue", "Déchéance 2 %" = "red")
+  ) +
   labs(
-    x = "Âge de l'assuré",
-    y = "Provision mathématique",
+    x = "Âge de l’assuré",
+    y = "Réserve avant prime (par 1 000 $ d’assurance)",
     color = "Hypothèse de déchéance"
   ) +
   theme_bw()
-
-p_res
 ```
-Contrairement aux autres produits temporaires, la réserve de la T-100 continue de croître jusqu’à atteindre 1 000\$ par 1 000\$ d’assurance à l’âge $\Omega$ ans. Cela s’explique par le fait que, dans le cas d’une T-100, l’assureur est pratiquement certain de devoir verser la prestation si l’assuré n’abandonne pas sa police. En effet, même si l’assuré survit jusqu’au terme du contrat, soit l’âge de 100 ans, la prestation demeure payable. De plus, comme très peu de personnes survivent jusqu’à $\Omega$ ans, il est hautement probable que l’assureur ait à verser le montant d’assurance avant même l’échéance du contrat. La réserve doit donc croître progressivement jusqu’à atteindre le montant assuré, puisqu’à  $\Omega$ ans l’assureur doit être en mesure de payer intégralement la prestation.
+
+Pour faciliter la lecture des deux courbes, voici quelques valeurs calculées à des âges déterminés. Le tableau n'indique **pas** la valeur de rachat : il s'agit du passif net prospectif de l'assureur dans le modèle.
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: false
+#| message: false
+#| warning: false
+#| tbl-cap: "T-100 émise à 20 ans : réserves selon l’hypothèse de déchéance (par 1 000 $)"
+
+library(kableExtra)
+
+df_reserve_T100 %>%
+  filter(Age %in% c(20, 40, 60, 80, 99, 100)) %>%
+  transmute(
+    `Âge` = Age,
+    `Déchéance 0 % ($)` = sprintf("%.2f", reserve_0),
+    `Déchéance 2 % ($)` = sprintf("%.2f", reserve_2)
+  ) %>%
+  kbl(align = "c") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE, position = "center"
+  )
+```
+
+:::
+
+Dans ce modèle sans intérêt, la provision atteint 1 000 $ par 1 000 $ de capital à l’âge de 100 ans, conditionnellement à la survie et au maintien de la police en vigueur. À cet âge, les primes ont cessé et la prestation sera versée au décès; la valeur attendue de la prestation est donc égale au capital assuré, puisque nous supposons qu’aucune déchéance ne survient après 100 ans. Cela n’implique pas que la prestation soit effectivement versée à 100 ans. Avec un taux d’intérêt positif, la valeur actuelle à 100 ans serait généralement inférieure à 1 000 $, car la date du décès reste inconnue.
 
 
 ## Impact du taux d'intérêt
@@ -1649,7 +1704,7 @@ Dans les calculs actuariels, cet effet est pris en compte à l’aide du facteur
 
 ### Analyse de la T-100
 
-Pour mieux illustrer l'impact du taux d'actualisation, nous reprenons en exemple le produit d'assurance T-100 que nous venons d'étudier. Le graphique ci-dessous illustre ainsi la prime annuelle de la T-100, par 1000$ d'assurance, en fonction d'un taux de d'actualisation allant de 0\% à 10\%.
+Pour mieux illustrer l’impact du taux d’actualisation, nous reprenons la T-100 étudiée précédemment. Le graphique présente sa prime annuelle pure par 1 000 $ d’assurance lorsque le taux d’actualisation varie de 0 % à 10 %, avec une protection viagère, un arrêt des primes à 100 ans et aucune déchéance.
 
 ```{r}
 #| code-fold: true
@@ -1660,69 +1715,29 @@ Pour mieux illustrer l'impact du taux d'actualisation, nous reprenons en exemple
 #| fig-width: 9
 #| fig-align: center
 
-library(dplyr)
-library(tidyr)
-library(ggplot2)
-
-# Données hommes : on garde tous les âges disponibles à partir de 20 ans
-bdM <- bdd$MallL %>%
-  filter(Age2 >= 20) %>%
-  select(Age2, nult) %>%
-  arrange(Age2)
-
-# Fonction pour calculer la prime pure annuelle nivelée d'une T-100
-# en fonction du taux annuel d'actualisation i
-prime_T100_interet <- function(x, tab, i = 0) {
-  
-  q <- tab %>%
-    filter(Age2 >= x) %>%
-    pull(nult)
-  
-  n <- length(q)
-  p <- 1 - q
-  
-  # Survie au début de chaque année : 0p_x, 1p_x, ..., (n-1)p_x
-  surv <- c(1, cumprod(p))[1:n]
-  
-  # Facteur d'actualisation
-  v <- 1 / (1 + i)
-  
-  # Valeur actuelle espérée de la prestation
-  # décès pendant l'année t, paiement à la fin de l'année
-  A <- sum(surv * q * v^(1:n))
-  
-  # Valeur actuelle espérée des primes annuelles payables d'avance
-  # prime payée au début de l'année si vivant
-  adue <- sum(surv * v^(0:(n - 1)))
-  
-  A / adue
-}
-
-# Grille de taux d'intérêt : de 0 % à 10 % par pas de 1 %
+# Même fonction que dans les sections précédentes.
 taux_interet <- seq(0, 0.10, by = 0.01)
 
-# Base de données des primes selon le taux d'intérêt
 bd_prime <- tibble(
   taux_interet = taux_interet,
-  prime = 1000 * sapply(taux_interet, function(i) prime_T100_interet(20, bdM, i))
+  prime = 1000 * sapply(taux_interet, function(i) {
+    prime_T100(20, bdM, i = i, d = 0)
+  })
 ) %>%
-  mutate(
-    taux_pct = 100 * taux_interet
-  )
+  mutate(taux_pct = 100 * taux_interet)
 
 ggplot(bd_prime, aes(x = taux_pct, y = prime)) +
   geom_line(linewidth = 1, color = "blue") +
   geom_point(size = 2, color = "blue") +
   scale_x_continuous(breaks = seq(0, 10, by = 1)) +
   labs(
-    x = "Taux annuel d'actualisation (%)",
-    y = "Taux par 1000$ d'assurance"
+    x = "Taux annuel d’actualisation (%)",
+    y = "Prime pure par 1 000 $ d’assurance ($)"
   ) +
   theme_bw()
-
 ```
 
-Le graphique précédent peut sembler surprenant : l'effet du taux d'intérêt sur la prime ressemble beaucoup à celui du taux de déchéance. Cette similarité n'est pas un hasard. Elle provient de la structure mathématique des deux mécanismes dans les calculs actuariels. Dans le modèle avec déchéance, la probabilité qu'un contrat soit encore en vigueur après $t$ années est donnée par le facteur $(1-d)^t$, où $d$ représente le taux annuel uniforme de déchéance. Ce facteur réduit progressivement le poids des prestations et des primes futures dans les calculs.
+Le graphique précédent peut sembler surprenant : l'effet du taux d'intérêt sur la prime ressemble beaucoup à celui du taux de déchéance. Cette similarité n'est pas un hasard. Elle provient de la structure mathématique des deux mécanismes dans les calculs actuariels. Dans le modèle avec déchéance, la probabilité de persistance conditionnelle à la survie pendant les années précédant 100 ans est représentée par $(1-d)^t$, où $d$ est le taux annuel uniforme de déchéance. Après 100 ans, nous avons supposé qu’il n’y avait plus de déchéances : ce facteur cesse alors de diminuer. Il réduit donc surtout le poids des flux associés aux années antérieures à 100 ans.
 
 Dans le modèle avec actualisation financière, les flux monétaires futurs sont multipliés par le facteur d'actualisation $v^t$, où
 $v = \frac{1}{1+i}$.  Pour des taux relativement faibles, on observe que
@@ -1737,11 +1752,11 @@ $$
 v^t \approx (1-i)^t.
 $$
 
-Autrement dit, l'actualisation financière introduit un facteur qui est mathématiquement très proche de celui utilisé pour représenter la persistance du contrat en présence de déchéances. Dans les deux cas, les flux éloignés dans le temps reçoivent donc un poids de plus en plus faible.  Cette similarité explique pourquoi, dans un modèle simplifié avec un taux de déchéance constant, l'effet d'une variation du taux d'intérêt peut produire des résultats numériquement proches de ceux obtenus en faisant varier le taux de déchéance.  
+Autrement dit, l'actualisation financière introduit un facteur qui est mathématiquement très proche de celui utilisé pour représenter la persistance du contrat en présence de déchéances. Dans les deux cas, les flux éloignés dans le temps reçoivent donc un poids de plus en plus faible.  Cette similarité explique pourquoi, avant 100 ans, les deux hypothèses peuvent produire des effets qualitativement semblables sur la prime. Les effets ne sont toutefois pas identiques : contrairement aux déchéances, l’actualisation continue de s’appliquer aux prestations attendues après 100 ans.  
 
-Sans pour autant l'afficher ici, il est clair que l'évolution de la provision actuarielle de la T-100 avec un taux d'actualisation $i$ sera similaire à ce que nous avions montré pour une taux de déchéance $d$.
+Il serait possible d’effectuer une comparaison analogue pour les provisions actuarielles. Il faut cependant distinguer les mécanismes : l’intérêt actualise les flux, tandis que la déchéance met fin à une partie des contrats et des prestations attendues.
 
-Finalement, il faut toutefois garder à l'esprit que cette ressemblance est en grande partie une conséquence de la simplification du modèle. Dans la pratique, les taux de déchéance varient généralement selon la durée du contrat, l'âge de l'assuré ou les caractéristiques du produit, alors que le taux d'intérêt agit de manière uniforme sur l'ensemble des flux financiers.
+Enfin, cette ressemblance découle largement des hypothèses simplificatrices retenues ici. En pratique, les déchéances varient avec le temps, l’âge et le produit; la courbe des taux d’intérêt et le profil des placements peuvent également varier selon l’échéance.
 
 
 ## Conclusion
@@ -1750,7 +1765,7 @@ Ce chapitre a présenté les principales caractéristiques de l’assurance vie 
 
 ---
 
-## Exercices
+## Exercices mathématiques {-}
 
 ::: {.custom-question}
 **Question 1.**
@@ -1965,11 +1980,20 @@ Si on suppose un taux d'intérêt nul, calculez la provision actuarielle de chaq
 ::: {.custom-solution}
 **Solution.**
 
-Les tableaux suivants indiquent les calculs pour obtenir la provision actuarielle à chaque année.
+Les tableaux suivants présentent les calculs des réserves **au début de chaque année, avant la prime**, sous l’hypothèse que l’assuré est toujours vivant. La dernière colonne indique la réserve à la prochaine échéance **conditionnellement à la survie** : il ne s’agit pas d’une somme cumulée de primes.
+
+À intérêt nul, nous calculons les valeurs **à rebours**, à partir de $V_5^-=0$, en appliquant :
+
+$$
+V_t^-=1\,000\,q_{x+t}+(1-q_{x+t})V_{t+1}^--P_{x:5},
+\qquad t=4,3,2,1,0.
+$$
+
+Chaque ligne vérifie donc l'égalité $V_t^-+P_{x:5}=1\,000q_{x+t}+(1-q_{x+t})V_{t+1}^-$. Les valeurs arrondies des tableaux peuvent présenter de faibles écarts de dernière décimale.
 
 ```{r}
 #| code-fold: true
-#| echo: false
+#| echo: true
 #| message: false
 #| warning: false
 
@@ -2027,9 +2051,9 @@ tableau_reserve_T5 <- function(x, tab, S = 1000) {
     `q_x` = round(q, 6),
     `Réserve au début` = round(V[1:5], 6),
     `Prime payée` = round(rep(P, 5), 6),
-    `Montant soustrait : q_x × 1000` = round(q * S, 6),
-    `Apport à la réserve` = round(V[1:5] + P - q * S, 6),
-    `Réserve cumulative en fin d'année` = round(V[2:6], 6)
+    `Coût espéré du décès : q_x × 1000` = round(q * S, 6),
+    `Réserve future pondérée par la survie` = round(V[1:5] + P - q * S, 6),
+    `Réserve au début de l’année suivante (si survie)` = round(V[2:6], 6)
   )
 }
 

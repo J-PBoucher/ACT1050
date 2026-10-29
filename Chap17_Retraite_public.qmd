@@ -11,11 +11,11 @@ date-modified: last-modified
 <div class="act-objectifs-titre">Objectifs du chapitre</div>
 
 -	Comprendre le rôle de l’État en matière de sécurité du revenu  
--	Distinguer entre sécurité sociale vs aide sociale vs allocations universelles  
--	Comprendre les objectifs des régimes publics  
+-	Distinguer l’assurance sociale contributive, l’assistance fondée sur le revenu et les prestations de base financées par l’impôt  
+-	Comprendre les objectifs des principaux régimes publics canadiens  
 -	Connaître les caractéristiques des régimes publics  
--	Comprendre l’évolution des régimes publics  
--	Connaître le rôle des actuaires en matière de régimes publics  
+-	Expliquer le rôle de la fiscalité, de la résidence et des cotisations dans le calcul des prestations  
+-	Reconnaître le rôle des actuaires dans l’évaluation et le financement des régimes publics  
 -	Connaître et comprendre les enjeux auxquels sont confrontés les régimes publics  
 
 :::
@@ -28,13 +28,24 @@ Les régimes de retraite publics constituent le premier niveau de protection fin
 
 Les régimes de retraite publics au Canada reposent sur trois composantes principales, qui relèvent de logiques différentes mais complémentaires.
 
-- Premièrement, la **Pension de sécurité de la vieillesse (PSV)** constitue un programme financé à même les revenus généraux de l’État, versé aux personnes âgées admissibles en fonction de leur résidence au Canada. Elle vise à assurer un revenu de base à la retraite. Bien qu’elle soit souvent qualifiée d’universelle, son montant est réduit — et peut devenir nul — pour les individus à revenu élevé par l’intermédiaire du système fiscal.
+- Premièrement, la Pension de sécurité de la vieillesse (PSV) constitue un programme financé à même les revenus généraux de l’État, versé aux personnes âgées admissibles en fonction de leur résidence au Canada. Elle vise à assurer un revenu de base à la retraite. Bien qu’elle soit souvent qualifiée d’universelle, son montant est réduit — et peut devenir nul — pour les individus à revenu élevé par l’intermédiaire du système fiscal.
 
-- Deuxièmement, les *mesures complémentaires liées au revenu*, soit le **Supplément de revenu garanti (SRG)** ainsi que l’**Allocation au conjoint** (et l’**Allocation au survivant**), viennent compléter ce dispositif pour les individus à faible revenu. Ces prestations, entièrement financées par l’État, relèvent d’une logique redistributive : elles ne dépendent pas des cotisations passées, mais du revenu courant du bénéficiaire, et sont nulles dès que le revenu dépasse certains seuils.
+- Deuxièmement, les *mesures complémentaires liées au revenu*, soit le Supplément de revenu garanti (SRG) ainsi que l’Allocation au conjoint (et l’Allocation au survivant), viennent compléter ce dispositif pour les individus à faible revenu. Ces prestations, entièrement financées par l’État, relèvent d’une logique redistributive : elles ne dépendent pas des cotisations passées, mais du revenu courant du bénéficiaire, et sont nulles dès que le revenu dépasse certains seuils.
 
-- Troisièmement, les *régimes publics contributifs liés au travail*, soit le **Régime de rentes du Québec (RRQ)** et le **Régime de pensions du Canada (RPC)**, constituent des régimes d’assurance sociale contributifs. Les prestations y sont déterminées en fonction des revenus de travail admissibles et des cotisations versées au cours de la vie active, selon une logique de remplacement partiel du revenu. Le Régime de pensions du Canada s’applique dans l’ensemble des provinces, à l’exception du Québec, où un régime distinct mais très similaire est en place.
+- Troisièmement, les *régimes publics contributifs liés au travail*, soit le Régime de rentes du Québec (RRQ) et le Régime de pensions du Canada (RPC), constituent des régimes d’assurance sociale contributifs. Les prestations y sont déterminées en fonction des revenus de travail admissibles et des cotisations versées au cours de la vie active, selon une logique de remplacement partiel du revenu. Le Régime de pensions du Canada s’applique généralement hors Québec, tandis que le RRQ couvre les personnes qui travaillent au Québec; les régimes coordonnent les droits des personnes ayant travaillé dans plusieurs provinces.
 
-Dans ce chapitre, nous présentons plus en détail chacune de ces composantes, en mettant en évidence leur fonctionnement, leurs objectifs respectifs et leur rôle dans la structure globale du revenu de retraite.
+Dans ce chapitre, nous présentons chacune de ces composantes, leurs conditions d'admissibilité, leurs méthodes de calcul et leurs modes de financement. Les exemples utilisent les **paramètres de 2026** vérifiés auprès de Service Canada et de Retraite Québec. Lorsqu'une formule est volontairement simplifiée, nous le signalons : **un exemple pédagogique n'est pas une simulation administrative individuelle**. Les prestations réellement payées dépendent notamment des dossiers de cotisation, des dates de prise d'effet, du revenu de référence et des autres règles applicables.
+
+::: {.callout-note collapse="true"}
+## Comment lire les calculs de ce chapitre
+
+- Les **barèmes officiels** (plafonds, taux et prestations maximales) sont datés et accompagnés de liens vers les organismes responsables.
+- Les **formules exactes** sont utilisées quand les règles se résument réellement à une expression simple (par exemple, la cotisation RRQ sur un salaire donné, sous certaines hypothèses).
+- Les **approximations** servent à montrer un mécanisme sans reproduire l'ensemble des règles administratives (notamment pour le SRG et les droits acquis du régime supplémentaire).
+- Les **hypothèses** sont indiquées avant les résultats numériques : revenu, situation familiale, période de référence, durée de résidence ou carrière fictive.
+
+Les tableaux sont visibles directement dans la page. Le code R utilisé pour les calculs importants peut être déplié par le lecteur; le code consacré uniquement au tracé des graphiques demeure masqué lorsque les équations sont déjà expliquées dans le texte.
+:::
 
 
 ## Pension de sécurité de la vieillesse (PSV)
@@ -61,7 +72,7 @@ Contrairement aux régimes contributifs, la PSV est financée à partir des reve
 
 ### Admissibilité
 
-La PSV est souvent qualifiée d’universelle pour les résidents du Canada. Avant d’examiner de quelle manière son montant peut être réduit pour les personnes à revenu élevé, il convient d’abord de préciser les critères d’admissibilité et les modalités de versement. Le versement de la PSV débute le mois suivant le 65e anniversaire. De manière générale, pour [être admissible](https://www.canada.ca/fr/services/prestations/pensionspubliques/securite-vieillesse/admissibilite.html), il faut :
+La PSV est souvent qualifiée d’universelle pour les résidents du Canada. Avant d’examiner de quelle manière son montant peut être réduit pour les personnes à revenu élevé, il convient d’abord de préciser les critères d’admissibilité et les modalités de versement. La PSV peut commencer au plus tôt le mois suivant le 65e anniversaire; la personne peut aussi choisir d’en reporter le versement, jusqu’à 70 ans. De manière générale, pour [être admissible](https://www.canada.ca/fr/services/prestations/pensionspubliques/securite-vieillesse/admissibilite.html), il faut :
 
 - être âgé de 65 ans ou plus ;
 - et satisfaire l’une des conditions suivantes :
@@ -78,17 +89,16 @@ Dans certains cas particuliers, des périodes passées à l’étranger peuvent 
 
 ### Calcul de la pension
 
-Le site officiel du gouvernement canadien propose un [calculateur](https://estimateursv-oasestimator.service.canada.ca/fr) permettant d’estimer les prestations de la PSV. Il est toutefois utile de présenter la structure générale du calcul. Tout d’abord, le montant dépend de l’âge du bénéficiaire. Selon les données officielles disponibles sur le [site du gouvernement du Canada](https://www.canada.ca/fr/services/prestations/pensionspubliques/securite-vieillesse/impot-recuperation.html), en mars 2026, la prestation mensuelle maximale est :
+Le site officiel du gouvernement canadien propose un [estimateur](https://estimateursv-oasestimator.digital.service.canada.ca/fr) permettant d’estimer les prestations de la PSV. Le montant dépend notamment de l’âge du bénéficiaire, de sa durée de résidence au Canada et de son revenu. Pour le trimestre d’octobre à décembre 2026, les prestations mensuelles maximales sont :
 
-- 742,31 \$ pour les personnes âgées de 65 à 74 ans ;
-- 816,54 \$ pour les personnes âgées de 75 ans et plus.
+- 762,50 $ pour les personnes âgées de 65 à 74 ans;
+- 838,75 $ pour les personnes âgées de 75 ans et plus.
 
-On observe que la prestation versée aux personnes âgées de 75 ans et plus est environ 10 \% plus élevée. Cette différence est récente: elle a été introduite en 2022 et ne s’appliquait pas auparavant.  La pension peut également être augmentée en cas de report après 65 ans:
+Ces montants, publiés par [Service Canada](https://www.canada.ca/fr/services/prestations/pensionspubliques/securite-vieillesse/paiements.html), sont revus chaque trimestre. La pension maximale des personnes âgées de 75 ans et plus est supérieure de 10 %, une bonification entrée en vigueur en 2022. Le versement peut aussi être reporté après 65 ans : la hausse est de 0,6 % par mois de report, jusqu’à un maximum de 36 % à 70 ans. Les personnes qui reçoivent le SRG doivent toutefois évaluer les effets du report sur l’ensemble de leurs prestations.
 
-- +0,6 \% par mois de report,  
-- soit un maximum de +36 \% pour un report jusqu’à 70 ans.
+La pension de sécurité de la vieillesse est imposable, à la différence du SRG. Pour illustrer les deux paramètres fondamentaux de la pension — **l'âge et la durée de résidence** — le graphique suivant compare des pensions mensuelles théoriques, *avant récupération fiscale*, en appliquant les montants d'octobre à décembre 2026. Cette comparaison repose sur des données officielles et ne prétend pas reconstituer une série historique de montants anciens non vérifiés.
 
-Enfin, la pension de sécurité de la vieillesse est imposable, puisqu’il s’agit d’une allocation universelle versée sans égard au besoin.  Finalement, le graphique suivant illustre l’évolution du montant mensuel maximal de la Pension de la sécurité de la vieillesse (PSV) au Canada, à partir d’une reconstitution annuelle fondée sur les montants officiels publiés par le [Gouvernement du Canada (Emploi et Développement social Canada)](https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/benefit-amount.html), lesquels sont déterminés trimestriellement en fonction de l’indice des prix à la consommation : 
+Une pension partielle est égale à une fraction de la pension complète, déterminée à partir des années de résidence admissibles. Par exemple, avec 25 ans de résidence après 18 ans, on obtient $25/40=62{,}5\%$ du montant complet (pour une personne admissible).
 
 ```{r}
 #| code-fold: true
@@ -98,46 +108,44 @@ Enfin, la pension de sécurité de la vieillesse est imposable, puisqu’il s’
 #| fig-height: 4
 #| fig-width: 9
 #| fig-align: center
-#| fig-cap: "Historique du PSV par année, pour les personnes âgées de 65 à 74 ans"
-#| label: fig-psv_par_annee
+#| fig-cap: "PSV mensuelle théorique selon l'âge et les années de résidence, octobre–décembre 2026 (avant récupération fiscale)"
+#| label: fig-psv_par_residence
 
 library(ggplot2)
 library(dplyr)
 
-# Données
-psv <- data.frame(
-  annee = 1964:2026,
-  montant = c(
-    75.00,75.00,75.00,82.30,87.40,92.60,97.90,103.40,115.30,130.00,
-    140.00,150.00,166.00,182.00,198.00,210.00,225.00,245.00,260.00,270.00,
-    275.00,280.00,290.00,300.00,310.00,315.00,320.00,330.00,340.00,350.00,
-    355.00,360.00,365.00,370.00,380.00,400.00,420.00,430.00,440.00,450.00,
-    460.00,470.00,480.00,490.00,500.00,510.00,516.96,524.23,540.12,550.99,
-    558.71,570.52,578.53,585.49,596.67,601.45,613.53,618.45,666.83,707.68,
-    713.34,730.00,742.31
-  )
-)
+psv_scenarios <- expand.grid(
+  age = c("65 à 74 ans", "75 ans et plus"),
+  residence = c(10, 25, 40)
+) %>%
+  mutate(montant_complet = ifelse(age == "65 à 74 ans", 762.50, 838.75),
+         montant = montant_complet * residence / 40,
+         residence = factor(residence, levels = c(10, 25, 40),
+                            labels = c("10 ans", "25 ans", "40 ans")))
 
-ggplot(psv, aes(x = annee, y = montant)) +
-  geom_line(linewidth = 1.1, color = "blue") +
-  scale_y_continuous(breaks = seq(0, 800, by = 100)) +
-  labs(
-    x = "Année",
-    y = "Montant mensuel ($)"
-  ) +
+ggplot(psv_scenarios, aes(x = residence, y = montant, fill = age)) +
+  geom_col(position = "dodge") +
+  labs(x = "Années de résidence admissibles", y = "PSV mensuelle ($)", fill = NULL) +
   theme_bw()
+```
 
-```  
-  
 ### Réduction de la pension
 
-La PSV peut être réduite en fonction du nombre d'année de résidence, mais aussi du revenu déclaré. Ainsi, premièrement, le montant de la PSV dépend du nombre d’années de résidence au Canada après l’âge de 18 ans. Si l’on note $n$ ce nombre d’années, le facteur de proratisation $f$ est donné par :
+La PSV peut être réduite en fonction du nombre d’années de résidence, mais aussi du revenu déclaré. Ainsi, premièrement, le montant de la PSV dépend du nombre d’années de résidence au Canada après l’âge de 18 ans. Si l’on note $n$ ce nombre d’années, le facteur de proratisation $f$ est donné par :
 
 $$
 f = \frac{\min(n, 40)}{40}
 $$
 
-Une personne ayant résidé 40 ans (ou plus) au Canada reçoit la pleine prestation, tandis qu’une personne ayant moins de 40 ans de résidence reçoit une fraction proportionnelle. Une fois la pension établie au moment de l’admissibilité, les années de résidence accumulées par la suite n’augmentent pas le montant de la prestation.
+Une personne ayant résidé 40 ans (ou plus) au Canada après ses 18 ans reçoit la pleine prestation sous réserve des autres conditions, tandis qu'une personne comptant de 10 à 39 ans de résidence peut recevoir une pension partielle. Une fois la pension partielle approuvée, de nouvelles années de résidence ne font généralement pas augmenter cette fraction. Les ententes internationales et certaines circonstances particulières peuvent modifier l'admissibilité.
+
+**Calcul de résidence (sans récupération).** Avec 25 années de résidence admissibles et un montant mensuel maximal de 762,50 $ à 70 ans :
+
+$$
+P_{25}=762{,}50\times\frac{25}{40}=476{,}56\ \text{dollars par mois},
+$$
+
+soit environ 5 719 $ pour douze mois. La valeur annuelle suppose ici que le montant trimestriel reste constant, ce qui n'est pas le cas dans le calcul exact sur l'année civile.
 
 Ensuite, la PSV est une prestation mensuelle qui peut être réduite en fonction du revenu annuel. À partir d’un certain seuil de revenu, une récupération $Rc$ s’applique de manière linéaire selon la formule suivante :
 
@@ -145,19 +153,23 @@ $$
 Rc = 0.15 \times \max(0,\, Y - Y_0)
 $$
 
-où :  
+où $Rc$ est la récupération annuelle théorique, $Y$ est le revenu net retenu aux fins de la récupération et $Y_0$ le seuil applicable à l'année de référence. **Pour la période de récupération de juillet 2026 à juin 2027, le seuil est de 93 454 $ et l'année de revenu de référence est 2025.**
 
-  - $Rc$ est la récupération  
-  - $Y$ est le revenu net annuel (tel que défini aux fins fiscales);  
-  - $Y_0$ est le seuil de récupération (fixé annuellement et indexé).
+La récupération est plafonnée à la PSV réellement payable : dans le modèle simplifié, si $P$ représente la PSV annuelle avant récupération, alors
 
-La prestation annuelle de PSV correspond alors au montant maximal diminué de cette récupération, sans pouvoir être négative. Le tableau suivant présente les principaux paramètres de la récupération selon l’âge, vu en mars 2026.
+$$
+P_{\mathrm{net}}=\max\{0,\ P-0{,}15\max(0,Y-Y_0)\}.
+$$
+
+**Exemple intermédiaire.** Pour un revenu de référence de 100 000 $, la récupération annuelle théorique est $(100\,000-93\,454)\times15\%=981{,}90$ $. Cette récupération ne doit pas être confondue avec l'impôt sur le revenu ordinaire applicable à la PSV. [Source : Service Canada](https://www.canada.ca/fr/services/prestations/pensionspubliques/securite-vieillesse/impot-recuperation.html).
+
+La prestation annuelle de PSV correspond alors au montant maximal diminué de cette récupération, sans pouvoir être négative. Le tableau suivant distingue le revenu de référence de 2025, qui détermine la récupération applicable de juillet 2026 à juin 2027, et les prestations maximales du trimestre d’octobre à décembre 2026. Les seuils de disparition complète publiés par le gouvernement sont ceux de la période de récupération; ils ne doivent pas être recalculés en combinant mécaniquement le montant d’un seul trimestre avec le taux de 15 %. Cette présentation est donc une illustration annuelle simplifiée, non un calcul de retenue mensuelle exact.
 
 ::: {.encadre}
 
 ```{r}
 #| code-fold: true
-#| echo: false
+#| echo: true
 #| message: false
 #| warning: false
 #| fig-height: 4
@@ -170,14 +182,14 @@ library(ggplot2)
 library(kableExtra)
 library(scales)
 
-mnt.65 <- 742.31
-mnt.75 <- 816.54
+mnt.65 <- 762.50
+mnt.75 <- 838.75
 
-min.65 <- 95323
-min.75 <- 95323
+min.65 <- 93454
+min.75 <- 93454
 
-max.65 <- 154708
-max.75 <- 160647
+max.65 <- 152062
+max.75 <- 157923
 
 pct <- 0.15
 
@@ -217,7 +229,9 @@ tab_psv |>
 
 :::
 
-Le graphique suivant illustre le montant annuel de PSV versé en fonction du revenu annuel, pour chacun des groupes d’âge. On observe que le montant demeure constant tant que le revenu est inférieur au seuil minimal de récupération. Au-delà de ce seuil, la prestation diminue de façon linéaire. Elle devient finalement nulle lorsque le revenu atteint le seuil maximal de récupération.
+**Attention à la cohérence des périodes.** Les seuils de disparition complète publiés (152 062 $ et 157 923 $) sont ceux de la **période de récupération de juillet 2026 à juin 2027**. Ils n'ont pas à être identiques à la valeur théorique obtenue en divisant par 15 % douze fois la prestation du seul trimestre d'octobre à décembre 2026.
+
+Le graphique suivant illustre approximativement, à partir des montants mensuels du dernier trimestre de 2026 maintenus constants sur 12 mois, l’effet d’une récupération annuelle de 15 % au-delà du seuil de 93 454 $. Il ne représente pas le calcul administratif exact sur les douze mois, puisque les pensions sont indexées trimestriellement et que les retenues tiennent compte de l’année de revenu de référence.
 
 ```{r}
 #| code-fold: true
@@ -227,7 +241,7 @@ Le graphique suivant illustre le montant annuel de PSV versé en fonction du rev
 #| fig-height: 4
 #| fig-width: 9
 #| fig-align: center
-#| fig-cap: "Montant du PSV en fonction du revenu annuel"
+#| fig-cap: "Illustration simplifiée de la PSV annuelle après récupération, paramètres d’octobre–décembre 2026 et revenu de référence 2025"
 #| label: fig-psv_par_revenu
 
 revenu_seq <- seq(0, 180000, by = 500)
@@ -269,83 +283,48 @@ ggplot(psv_df, aes(x = revenu, y = PSV_annuelle, color = Groupe)) +
   )
 
 ```  
-::: {#exm-5 .custom}
-Supposons une personne âgée de 70 ans en 2026, ayant un revenu annuel de 110000 \$. Calculez le montant annuel de PSV qu’elle recevra après application de la récupération si:  
+::: {#exm-psv-recuperation .custom}
+Supposons qu’une personne de 70 ans touche une pension de PSV pendant douze mois au montant mensuel de 762,50 $ (montant d’octobre à décembre 2026, maintenu constant pour cet exercice). Son revenu net de référence pour la récupération est de 110 000 $ et le seuil retenu est de 93 454 $ (revenu de 2025). Estimez sa PSV annuelle après récupération si :
 
-  a) Elle a vécu au Canada pendant plus de 40 ans depuis ses 18 ans;  
-  b) Elle a vécu au Canada pendant 25 ans depuis ses 18 ans;
-  
+  a) elle a résidé au Canada au moins 40 ans depuis ses 18 ans;
+  b) elle a résidé au Canada 25 ans depuis ses 18 ans.
 :::
 
 ::: {.custom-solution}
-**Solution. a)**
+**Solution.**
 
-On calcule d’abord la récupération :
-
-\begin{align*}
-Rc &= 0.15 \times \max(0,\, Y - Y_0) \\
-&= 0.15 \times \max(0,\, 110000 - 95323) \\
-&= 2201.55
-\end{align*}
-
-Comme cette personne a vécu plus de 40 ans au Canada après 18 ans, on a $f=1$. Le montant annuel brut de PSV est donc :
+La récupération annuelle simplifiée est :
 
 $$
-12 \times 742.31 = 8907.72
+Rc = 0{,}15\,(110\,000-93\,454)=2\,481{,}90\ \$.
 $$
 
-Ainsi, le montant annuel net reçu est :
+**a)** Pour une pension complète ($f=1$) :
 
 $$
-PSV_{tot} = 8907.72 - 2201.55 = 6706.17
+PSV = 12\times762{,}50-2\,481{,}90=\boxed{6\,668{,}10\ \$}.
 $$
 
-**Solution. b)**
-
-Cette personne a vécu 25 ans au Canada après 18 ans, donc :
+**b)** Avec 25 ans de résidence admissible, $f=25/40=0{,}625$ :
 
 $$
-f = \frac{25}{40} = 0.625
+PSV = 12\times762{,}50\times0{,}625-2\,481{,}90
+=\boxed{3\,236{,}85\ \$}.
 $$
 
-Le montant annuel brut de PSV est alors :
-
-\begin{align*}
-PSV_{brute}
-&= 12 \times 742.31 \times 0.625 = 5567.325
-\end{align*}
-
-La récupération demeure la même, puisque le revenu est inchangé, $Rc = 2201.55$. Ainsi, le montant annuel net reçu est :
-
-\begin{align*}
-PSV_{tot}
-&= 5567.325 - 2201.55 = 3365.775
-\end{align*}
-
-Donc, la personne recevra environ **3365.78 \$** par année.
+Ces montants sont des estimations pédagogiques : en pratique, les montants et les retenues varient selon les trimestres et les renseignements fiscaux applicables.
 :::
 
 
 ### Indexation de la rente
 
-La PSV est indexée trimestriellement en fonction de l’évolution de l’indice des prix à la consommation (IPC). L’ajustement repose sur la comparaison de deux moyennes mobiles de trois mois, avec un décalage de deux mois afin de tenir compte de la disponibilité des données. De manière générale, pour un trimestre donné, on a :
+La PSV est indexée trimestriellement en fonction de l’indice des prix à la consommation (IPC). Le taux d’ajustement compare la moyenne de l’IPC de trois mois de référence à celle des trois mois précédents. En notant $\overline{IPC}_{t}$ et $\overline{IPC}_{t-1}$ ces deux moyennes trimestrielles, on peut représenter le principe par
 
 $$
-P_{t} = P_{t-1} \times \frac{\displaystyle \frac{1}{3}\left(\text{IPC}_{t-2} + \text{IPC}_{t-3} + \text{IPC}_{t-4}\right)}{\displaystyle \frac{1}{3}\left(\text{IPC}_{t-5} + \text{IPC}_{t-6} + \text{IPC}_{t-7}\right)}
+P_t = P_{t-1}\max\!\left(1,\frac{\overline{IPC}_{t}}{\overline{IPC}_{t-1}}\right).
 $$
 
-où :  
-
-  - $P_t$ = montant de la prestation pour le trimestre courant;
-  - $P_{t-1}$ = montant pour le trimestre précédent;
-  - $\text{IPC}_k$ = indice des prix à la consommation pour le mois $k$.
-
-Ainsi, l’indexation correspond au ratio entre :  
-
-  - la moyenne de l’IPC sur les trois mois récents disponibles;
-  - et la moyenne de l’IPC sur les trois mois précédents.
-
-Le décalage de deux mois s’explique par le fait que les données d’IPC ne sont pas immédiatement disponibles au moment du calcul. Une conséquence importante est que l’indexation est lissée (moyenne sur 3 mois) et retardée, ce qui atténue les fluctuations mensuelles de l’inflation.
+Cette notation simplifiée traduit le fait que la PSV peut augmenter avec l’inflation, mais ne diminue pas lorsque l’IPC recule. Les périodes exactes de référence sont déterminées selon le calendrier administratif fédéral. Le recours aux moyennes sur trois mois évite de faire dépendre la prestation des fluctuations d’un seul mois.
 
 
 ### Réformes
@@ -423,7 +402,7 @@ Pour être admissible au Supplément de revenu garanti (SRG), il faut satisfaire
 - Avoir un revenu faible, selon un test basé sur le revenu annuel (excluant la PSV et le SRG);  
 - Ne pas être visé par une entente de parrainage.
 
-En mars 2026, le site [gouvernemental federal du SRG](https://www.canada.ca/fr/services/prestations/pensionspubliques/securite-vieillesse/paiements.html) et le site de [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/flashretraite/Pages/capsule_retraite_007.aspx#:~:text=Le%20Suppl%C3%A9ment%20de%20revenu%20garanti,alors%20droit%20%C3%A0%20sa%20prestation) indiquent les valeurs de pensions suivantes: 
+Pour octobre à décembre 2026, le site [fédéral du SRG](https://www.canada.ca/fr/services/prestations/pensionspubliques/securite-vieillesse/paiements.html) et le site de [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/flashretraite/Pages/capsule_retraite_007.aspx#:~:text=Le%20Suppl%C3%A9ment%20de%20revenu%20garanti,alors%20droit%20%C3%A0%20sa%20prestation) indiquent les valeurs de pensions suivantes: 
 
 ::: {.encadre}
 
@@ -448,16 +427,16 @@ df <- data.frame(
     "Conjoint d'un bénéficiaire de l'Allocation"
   ),
   montant = c(
-    1108.74,
-    1108.74,
-    667.41,
-    667.41
+    1138.90,
+    1138.90,
+    685.56,
+    685.56
   ),
   revenu = c(
-    22488,
-    53904,
-    29712,
-    41616
+    23112,
+    55392,
+    30528,
+    42768
   )
 ) |>
   mutate(
@@ -481,9 +460,9 @@ df |>
 
 :::
 
-Le montant du Supplément est recalculé si les revenus du récipiendaire changent ou s’il y a changement de la situation familiale. De plus, on indique aussi que ces prestations ne sont pas imposables, et si une personne reçoit une pension partielle de la SV, le SRG maximal pourrait être augmenté. Le revenu maximal annuel comprend l’ensemble des revenus (combinés dans le cas d’un couple), à l’exception de la Pension de sécurité de la vieillesse (PSV). Aucun SRG n’est versé lorsque ce revenu dépasse les seuils indiqués précédemment.
+Le montant du Supplément peut être recalculé si les revenus du bénéficiaire changent ou s’il y a changement de la situation familiale. De plus, on indique aussi que ces prestations ne sont pas imposables, et si une personne reçoit une pension partielle de la SV, le SRG maximal pourrait être augmenté. Le revenu retenu exclut notamment la PSV et le SRG; des exemptions particulières, par exemple pour une partie des revenus d’emploi et de travail autonome, peuvent aussi s’appliquer. Aucun SRG n’est versé lorsque ce revenu dépasse les seuils indiqués précédemment.
 
-Le graphique suivant illustre l’évolution du montant mensuel maximal du Supplément de revenu garanti (SRG) pour une personne célibataire sans autre revenu, de 2010 à 2026. On y observe une augmentation graduelle du montant maximal au fil des années, attribuable à l’indexation des prestations et à certaines bonifications du programme. Il convient toutefois de préciser que cette série n’est pas publiée annuellement sous cette forme par le gouvernement. Les montants du SRG sont établis sur une base trimestrielle. La courbe présentée ici correspond donc à une reconstitution annuelle obtenue en retenant, pour chaque année, le montant maximal mensuel applicable au trimestre de janvier à mars. Les données proviennent des sources officielles du Gouvernement du Canada, notamment du jeu de données ouvert [Table of Benefit Amounts by marital status and income level](https://open.canada.ca/data/en/dataset/dfa4daf1-669e-4514-82cd-982f27707ed0) et des tableaux trimestriels publiés par Service Canada, par exemple celui de [janvier à mars 2026](https://www.canada.ca/en/employment-social-development/programs/pensions/pension/statistics/2026-quarterly-january-march.html).
+Le montant du SRG est actualisé chaque trimestre, et il varie selon la situation familiale. Le graphique suivant compare les **montants mensuels maximaux officiels d'octobre à décembre 2026**, plutôt que de présenter une série historique non vérifiée. Les seuils de revenu associés à chacun de ces cas figurent dans le tableau précédent. Il s'agit de **maximums**, non de montants garantis pour chaque ménage.
 
 ```{r}
 #| code-fold: true
@@ -493,55 +472,41 @@ Le graphique suivant illustre l’évolution du montant mensuel maximal du Suppl
 #| fig-height: 4
 #| fig-width: 9
 #| fig-align: center
-#| fig-cap: "Historique du montant mensuel maximal du SRG, personne célibataire sans autre revenu, janvier à mars de chaque année"
-#| label: fig-srg_celibataire
+#| fig-cap: "SRG maximal mensuel selon la situation familiale, octobre–décembre 2026"
+#| label: fig-srg_max_2026
 
-library(rvest)
-library(dplyr)
-library(stringr)
-library(purrr)
-library(tibble)
 library(ggplot2)
-
-srg_single <- tibble(
-  annee = 2010:2026,
-  montant_mensuel = c(
-    652.51, 661.69, 675.18, 740.44, 747.86, 765.93, 773.60, 864.09,
-    876.23, 888.32, 916.38, 948.82, 968.86, 1026.96, 1072.93, 1086.88,
-    1108.74
-  )
-) %>%
-  mutate(montant_annuel = 12 * montant_mensuel)
-
-
-ggplot(srg_single, aes(x = annee, y = montant_annuel)) +
-  geom_line(linewidth = 1.1, color = "blue") +
-  geom_point(size = 1.8, color = "blue") +
-  scale_y_continuous(breaks = seq(7000, 13500, by = 1000)) +
-  labs(
-    x = "Année",
-    y = "Montant annuel ($)"
-  ) +
+srg_max <- data.frame(
+  situation = c("Personne seule", "Conjoint sans PSV", "Deux pensionnés", "Conjoint avec Allocation"),
+  prestation = c(1138.90, 1138.90, 685.56, 685.56)
+)
+ggplot(srg_max, aes(x = reorder(situation, prestation), y = prestation)) +
+  geom_col(fill = "#2a6fdb") +
+  coord_flip() +
+  labs(x = NULL, y = "SRG maximal mensuel ($)") +
   theme_bw()
+```
 
-```  
+### Réduction du SRG
 
+La réduction du SRG dépend de la situation familiale, du revenu admissible et de certaines exemptions. Pour comprendre l’essentiel du mécanisme, on peut utiliser une approximation pédagogique :
 
+- pour une personne seule, le SRG diminue approximativement de 1 $ pour chaque 2 $ de revenu admissible supplémentaire;
+- pour un couple où les deux conjoints reçoivent la PSV, le SRG de chacun diminue approximativement de 1 $ pour chaque 4 $ de revenu admissible combiné supplémentaire.
 
-### Réduction de la SRG
+Sous ces seules hypothèses, pour un revenu annuel admissible $Y$ (individuel pour la personne seule, combiné pour le couple de deux pensionnés), la prestation annuelle *illustrative* par personne serait
 
-La réduction du SRG dépend de la situation familiale et, selon le site de [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/flashretraite/Pages/capsule_retraite_007.aspx#:~:text=Le%20Suppl%C3%A9ment%20de%20revenu%20garanti,alors%20droit%20%C3%A0%20sa%20prestation) s’applique de la façon suivante :
+$$
+SRG(Y)=\max\big(0,\,12M-rY\big),
+$$
 
-- **Personne seule** (célibataire, veuve, divorcée ou séparée)  
-  Le montant maximal mensuel est réduit de 1\$ pour chaque 2\$ de revenu mensuel supplémentaire (excluant la PSV).
+où $M$ désigne le maximum mensuel applicable et $r$ vaut approximativement $0{,}50$ pour une personne seule et $0{,}25$ par conjoint lorsque les deux reçoivent la PSV.
 
-- **Couple où les deux conjoints reçoivent la PSV**  
-  Le montant maximal mensuel de chacun est réduit de 1\$ pour chaque 4\$ de revenu mensuel combiné (excluant les PSV).
+**Vérification de la limite de cette approximation.** Pour une personne seule, en prenant $M=1\,138{,}90$ $, cette droite atteindrait zéro vers $12\times1\,138{,}90/0{,}50=27\,333{,}60$ $ de revenu, **alors que le seuil officiel est de 23 112 $** pour octobre à décembre 2026. Ce décalage n'est pas une erreur arithmétique : il démontre que le véritable barème n'est pas décrit par une droite unique. Il comporte notamment des suppléments, des exemptions et des règles de réduction propres aux diverses composantes.
 
-- **Couple où un seul conjoint reçoit la PSV** (l’autre n’est pas admissible à la PSV ni à l’Allocation)    
-  Le montant maximal mensuel est réduit de 1\$ pour chaque 4\$ de revenu mensuel du couple (excluant la PSV du pensionné).
-  
-On peut toutefois être sceptique de ce calcul.  En effet, le graphique ci-dessous illustre la SRG obtenue en fonction du revenu pour les différents cas. 
+Les règles simplifiées servent donc **uniquement à comprendre les effets marginaux**, et **ne peuvent pas être utilisées pour déterminer un SRG individuel**. Pour ce dernier, il faut utiliser les [barèmes ou l'estimateur de Service Canada](https://estimateursv-oasestimator.digital.service.canada.ca/fr).
+
+Le graphique trace les deux **droites purement pédagogiques** obtenues avec cette formule et avec les maximums d'octobre à décembre 2026. Elles **ne respectent pas les seuils officiels** et ne doivent pas servir à prévoir des prestations réelles.
 
 ```{r}
 #| code-fold: true
@@ -551,117 +516,59 @@ On peut toutefois être sceptique de ce calcul.  En effet, le graphique ci-desso
 #| fig-height: 4
 #| fig-width: 9
 #| fig-align: center
-#| fig-cap: "Pension de la SRG obtenue en fonction du revenu"
+#| fig-cap: "Illustration simplifiée du SRG annuel, personne seule et couple de deux pensionnés (2026)"
 #| label: fig-srg_par_revenu
 
 library(ggplot2)
 library(dplyr)
 library(tidyr)
 library(scales)
-library(tibble)
-
-revenu_seq <- seq(0, 60000, by = 100)
 
 srg_param <- tibble(
-  Situation = c(
-    "Personne célibataire",
-    "Conjoint d'un non pensionné",
-    "Conjoint d'un pensionné",
-    "Conjoint d'un bénéficiaire de l'Allocation"
-  ),
-  srg_max_mensuel = c(1108.74, 1108.74, 667.41, 667.41),
-  taux_reduction = c(0.50, 0.25, 0.25, 0.25),
-  seuil_officiel = c(22488, 53904, 29712, 41616)
+  Situation = c("Personne seule", "Deux conjoints pensionnés (par personne)"),
+  montant_mensuel = c(1138.90, 685.56),
+  reduction = c(0.50, 0.25)
 )
 
-srg_df <- expand_grid(
-  revenu = revenu_seq,
-  srg_param
-) |>
-  mutate(
-    SRG_annuel = pmax(0, 12 * srg_max_mensuel - taux_reduction * revenu),
-    SRG_affiche = case_when(
-      Situation == "Conjoint d'un bénéficiaire de l'Allocation" ~ SRG_annuel + 200,
-      TRUE ~ SRG_annuel
-    )
-  )
+srg_df <- tidyr::crossing(revenu = seq(0, 40000, by = 100), srg_param) %>%
+  mutate(srg_annuel_illustratif = pmax(0, 12 * montant_mensuel - reduction * revenu))
 
-ggplot(srg_df, aes(x = revenu, y = SRG_affiche, color = Situation)) +
+ggplot(srg_df, aes(revenu, srg_annuel_illustratif, color = Situation)) +
   geom_line(linewidth = 1.1) +
-  geom_vline(
-    data = srg_param,
-    aes(xintercept = seuil_officiel, color = Situation),
-    linetype = "dashed",
-    linewidth = 0.8,
-    show.legend = FALSE
-  ) +
-  scale_x_continuous(
-    labels = label_dollar(big.mark = " ", decimal.mark = ",", suffix = " $"),
-    breaks = seq(0, 60000, by = 10000)
-  ) +
-  scale_y_continuous(
-    labels = label_dollar(big.mark = " ", decimal.mark = ",", suffix = " $")
-  ) +
-  labs(
-    x = "Revenu annuel",
-    y = "SRG annuel reçu",
-    color = NULL
-  ) +
-  theme_bw() +
-  theme(
-    legend.position = "right"
-  )
-
-
+  scale_x_continuous(labels = label_dollar(big.mark = " ", decimal.mark = ",")) +
+  scale_y_continuous(labels = label_dollar(big.mark = " ", decimal.mark = ",")) +
+  labs(x = "Revenu annuel admissible (personne ou couple)",
+       y = "SRG annuel estimé, par personne", color = NULL) +
+  theme_bw()
 ```
-Ce graphique illustre l’évolution du Supplément de revenu garanti (SRG) en fonction du revenu annuel, pour différentes situations familiales, en utilisant la règle de réduction. Les lignes verticales pointillées représentent les seuils officiels de revenu à partir desquels le SRG n’est plus versé. On constate que les courbes obtenues avec la règle simplifiée de Retraite Québec n’atteignent pas exactement zéro à ces seuils. Étrangement (?), il semble difficile de trouver les règles officielles de réduction de la SRG en fonction du revenu. Selon moi, et en me basant sur les ancienne notes de cours de 2015, la réduction de la SRG fonctionne par différent pourcentage en fonction de palliers de revenus. Le [site actuel du gouvernement du Canada](https://ouvert.canada.ca/data/fr/dataset/dfa4daf1-669e-4514-82cd-982f27707ed0/resource/a2f5faf4-07fe-4a3c-9bd3-62bbf11a426f) ne semble pas proposer une équation simple pour la réduction, mais plutôt un table de correspondance en fonction des revenus.
 
-::: {#exm-5 .custom}
-Claire Lavoie a 73 ans. Elle reçoit une pension de la Sécurité de la vieillesse (PSV) de 8 800\$ par année ainsi qu’une rente de 6 000\$ par année du Régime de rentes du Québec (RRQ). Son conjoint, Hildephonse Laporte qui a également 73 ans, reçoit également une PSV de 8 800\$ par année ainsi qu’une rente de 7 000\$ par année du RRQ. En prennant les régles simplifiées indiquées par Retraite Québec, combien Claire reçoit-elle à titre de SRG ?
+::: {#exm-srg-couple .custom}
+Claire Lavoie, 73 ans, reçoit une PSV de 8 800 $ et une rente du RRQ de 6 000 $ par année. Son conjoint, Hildephonse Laporte, 73 ans, reçoit une PSV de 8 800 $ et une rente du RRQ de 7 000 $ par année. À partir de la règle simplifiée de réduction de 25 % du revenu admissible du couple, estimez le SRG annuel de Claire, en utilisant le maximum mensuel d’octobre à décembre 2026.
 :::
 
 ::: {.custom-solution}
 **Solution.**
 
-La première étape est de comprendre dans quelle catégorie Claire se situe.  Elle est dans un couple où les deux conjoints reçoivent la PSV, le SRG est réduit de 1\$ pour chaque 4\$ de revenu, soit un taux de 25\%. Le revenu familial pertinent (excluant la PSV et le SRG) est :
+Le revenu familial pertinent est de $6\,000+7\,000=13\,000$ \$ (les deux PSV ne sont pas incluses dans ce calcul simplifié). La réduction annuelle estimée pour Claire est donc de $0{,}25\times13\,000=3\,250$ \$.
+
+Le maximum annuel de SRG pour chaque membre d’un couple de deux pensionnés est de $12\times685{,}56=8\,226{,}72$ \$.
 
 $$
-6\,000 + 7\,000 = 13\,000
+SRG_{Claire}\approx8\,226{,}72-3\,250
+=4\,976{,}72\ \text{\$ par année},
 $$
 
-Ainsi, la réduction annuelle est donc :
-$$
-0{,}25 \times 13\,000 = 3\,250
-$$
+soit environ 414,73 $ par mois dans ce modèle.
 
-Claire est la conjointe d'un pensionné, alors le SRG maximal annuel est :
-$$
-667{,}41 \times 12 = 8\,008{,}92
-$$
+Le point important est **l'exclusion des deux PSV du revenu utilisé dans la réduction simplifiée du SRG**. L'ensemble des revenus encaissés par le couple est réintégré à la dernière étape pour calculer son revenu familial total. En appliquant la même approximation à Hildephonse, le revenu familial total serait de $13\,000+17\,600+2\times4\,976{,}72=40\,553{,}44$ \$.
 
-Le SRG annuel versé à Claire, en considérant la réduction, est donc :
-$$
-8\,008{,}92 - 3\,250 = 4\,758{,}92
-$$
-
-Sur base mensuelle :
-$$
-\frac{4\,758{,}92}{12} \approx 396{,}58
-$$
-
-Claire reçoit donc environ 397\$ par mois de SRG.
-
----
-
-Au total, le revenu annuel total de Claire est 6 000 \$ (RRQ), 8 800 \$ (PSV), 4 759 \$ (SRG), soit un total d’environ 19 559 \$. Par un calcul similaire de la SRG, le revenu annuel total de Hildephonse sera de 7 000 \$ (RRQ), 8 800 \$ (PSV), 4 759 \$ (SRG), soit un total d’environ 20 559 \$. Le revenu familial total est donc d’environ 40 118 \$, dont la portion provenant du SRG n’est pas imposable.
-
+Ce résultat est illustratif, et non une détermination du SRG effectivement payable : le calcul officiel peut différer en raison des règles de revenu admissible, de la période de référence, des exemptions et des barèmes.
 :::
-
 
 
 ### Stratégie de décaissement et Supplément de revenu garanti
 
-Le Supplément de revenu garanti (SRG) étant déterminé en fonction du revenu et non du patrimoine, certaines stratégies de décaissement peuvent en influencer l’admissibilité. Une approche consisterait à reporter à 70 ans le début des rentes publiques (RRQ) et des rentes d’un régime de retraite, ainsi que les retraits de REER. Entre 65 et 70 ans, le revenu déclaré peut ainsi être maintenu à un niveau relativement faible, ce qui permet de recevoir le SRG. Durant cette période, le niveau de consommation peut être soutenu par des retraits provenant d’un CELI, lesquels ne sont ni imposables ni pris en compte dans le calcul du SRG. Le report des rentes entraîne par ailleurs une augmentation des prestations à partir de 70 ans. Cette stratégie repose donc sur un arbitrage intertemporel entre revenu présent et revenu futur. Elle comporte toutefois des limites, notamment le risque lié à la longévité et la nécessité de disposer d’une épargne suffisante pour financer la période de transition.
+Le Supplément de revenu garanti (SRG) étant déterminé en fonction du revenu et non du patrimoine, certaines stratégies de décaissement peuvent en influencer l’admissibilité. Une approche possible serait de reporter le début de la rente du RRQ (lorsque les règles du régime le permettent), de différer certains revenus privés et les retraits imposables d'un REER, tout en utilisant temporairement une épargne non imposable. Entre 65 et 70 ans, le revenu déclaré peut ainsi être maintenu à un niveau relativement faible, ce qui permet de recevoir le SRG. Durant cette période, le niveau de consommation peut être soutenu par des retraits provenant d’un CELI, lesquels ne sont ni imposables ni pris en compte dans le calcul du SRG. Le report du RRQ entraîne une majoration actuarielle de la rente future. Toutefois, **le SRG exige de recevoir la PSV** : reporter cette dernière prive également du SRG pendant la période de report. Les retraits du CELI n'entrent généralement pas dans son calcul, mais d'autres revenus, les changements de situation familiale et les règles d'exemption peuvent faire varier le résultat. Cette stratégie repose donc sur un arbitrage intertemporel entre revenu présent et revenu futur. Elle comporte toutefois des limites, notamment le risque lié à la longévité et la nécessité de disposer d’une épargne suffisante pour financer la période de transition.
 
 ## Allocation au conjoint et Allocation au survivant
 
@@ -698,7 +605,7 @@ L’Allocation au conjoint et l’Allocation au survivant sont des prestations d
   - Résider au Canada;  
   - Avoir un époux ou conjoint de fait admissible au Supplément de revenu garanti (SRG);  
   - Avoir un revenu annuel combiné inférieur au seuil maximal prévu;  
-  - En cas de décès de l’époux ou du conjoint de fait, l’Allocation est automatiquement convertie en Allocation au survivant.
+  - En cas de décès de l’époux ou du conjoint de fait, la personne peut devenir admissible à l’Allocation au survivant si les conditions de celle-ci sont remplies.
 
 - **Allocation au survivant**
 
@@ -709,7 +616,7 @@ L’Allocation au conjoint et l’Allocation au survivant sont des prestations d
   - Avoir eu un époux ou conjoint de fait décédé et ne pas s’être remarié ni vivre en union de fait;  
   - Avoir un revenu annuel inférieur au seuil maximal prévu.
 
-En mars 2026, le site [gouvernemental federal du SRG](https://www.canada.ca/fr/services/prestations/pensionspubliques/securite-vieillesse/paiements.html) et le site de [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/flashretraite/Pages/capsule_retraite_007.aspx#:~:text=Le%20Suppl%C3%A9ment%20de%20revenu%20garanti,alors%20droit%20%C3%A0%20sa%20prestation) indiquent les valeurs de pensions suivantes: 
+Pour octobre à décembre 2026, le site [fédéral du SRG](https://www.canada.ca/fr/services/prestations/pensionspubliques/securite-vieillesse/paiements.html) et le site de [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/flashretraite/Pages/capsule_retraite_007.aspx#:~:text=Le%20Suppl%C3%A9ment%20de%20revenu%20garanti,alors%20droit%20%C3%A0%20sa%20prestation) indiquent les valeurs de pensions suivantes: 
 
 ::: {.encadre}
 
@@ -737,12 +644,12 @@ df <- data.frame(
     "Conjoint survivant"
   ),
   revenu = c(
-    41616,
-    30312
+    42768,
+    31152
   ),
   montant = c(
-    1409.72,
-    1680.47
+    1448.06,
+    1726.18
   )
 ) |>
   mutate(
@@ -773,11 +680,11 @@ df |>
 
 :::
 
-ces prestations reposent sur une logique de soutien au revenu fondée sur un test de revenu, similaire à celle du Supplément de revenu garanti. À ce titre, les montants versés ne sont pas assujettis à l’impôt sur le revenu, contrairement à la Pension de sécurité de la vieillesse.
+Ces prestations reposent sur une logique de soutien au revenu fondée sur un test de revenu, similaire à celle du Supplément de revenu garanti. À ce titre, les montants versés ne sont pas assujettis à l’impôt sur le revenu, contrairement à la Pension de sécurité de la vieillesse.
 
 ### Réduction de l'Allocation
 
-Comme pour le Supplément de revenu garanti (SRG), la réduction de l’Allocation au conjoint et de l’Allocation au survivant dépend de la situation familiale. Une description simplifiée est proposée sur le site de [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/flashretraite/Pages/capsule_retraite_007.aspx#:~:text=Le%20Suppl%C3%A9ment%20de%20revenu%20garanti,alors%20droit%20%C3%A0%20sa%20prestation).  Le revenu maximal annuel comprend l’ensemble des revenus (combinés dans le cas d’un couple), à l’exception de la Pension de sécurité de la vieillesse (PSV). Aucune Allocation n’est versée lorsque ce revenu dépasse les seuils indiqués.  De manière simplifiée, la réduction s’applique comme suit :  
+Comme pour le Supplément de revenu garanti (SRG), la réduction de l’Allocation au conjoint et de l’Allocation au survivant dépend de la situation familiale. Une description simplifiée est proposée sur le site de [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/flashretraite/Pages/capsule_retraite_007.aspx#:~:text=Le%20Suppl%C3%A9ment%20de%20revenu%20garanti,alors%20droit%20%C3%A0%20sa%20prestation).  Le revenu servant à déterminer l'Allocation est calculé selon des règles particulières : certaines prestations fédérales, dont la PSV et les prestations connexes, en sont exclues; des exemptions peuvent aussi s'appliquer. Aucune Allocation n’est versée lorsque ce revenu dépasse les seuils indiqués.  De manière simplifiée, la réduction s’applique comme suit :  
 
   - Le montant de l’Allocation est d’abord réduit de 3\$ pour chaque 4\$ de revenu mensuel du conjoint survivant ou du revenu mensuel du couple;
   - Pour un couple, la portion de l’Allocation équivalant au SRG, ainsi que le SRG du pensionné, sont ensuite réduits de 1\$ pour chaque 4\$ de revenu mensuel additionnel du couple;
@@ -805,7 +712,7 @@ text-align:center;
 
 Le [Régime de rentes du Québec (RRQ)](https://www.rrq.gouv.qc.ca/fr/programmes/regime_rentes/Pages/regime_rentes.aspx) et le [Régime de pensions du Canada (RPC)](https://www.canada.ca/fr/emploi-developpement-social/programmes/regime-pensions.html) sont deux régimes publics d’assurance sociale visant à fournir un revenu de remplacement à la retraite aux travailleurs, qu’ils soient salariés ou autonomes. Le RRQ est administré par le Québec, tandis que le RPC est administré au niveau fédéral pour les autres provinces.
 
-Ces régimes sont financés par des cotisations obligatoires versées par les travailleurs et les employeurs (ainsi que par les travailleurs autonomes), et les prestations qu’ils versent sont directement liées aux gains de travail réalisés au cours de la vie active. Autrement dit, la rente dépend des salaires passés du participant, jusqu’à concurrence du maximum des gains admissibles (MGA). Historiquement, ils visent à remplacer environ 25\% du revenu de travail admissible. En combinaison avec la Pension de sécurité de la vieillesse, cela correspond à un taux de remplacement d’environ 40\% pour un travailleur ayant un revenu proche de la moyenne. Le financement repose à la fois sur les cotisations des travailleurs actuels et sur l’accumulation de fonds investis, ce qui en fait un régime partiellement capitalisé.
+Ces régimes sont financés par des cotisations obligatoires versées par les travailleurs et les employeurs (ainsi que par les travailleurs autonomes), et les prestations qu’ils versent sont directement liées aux gains de travail réalisés au cours de la vie active. Autrement dit, la rente dépend des salaires passés du participant, jusqu’à concurrence du maximum des gains admissibles (MGA). Historiquement, ils visent à remplacer environ 25\% du revenu de travail admissible. L’ajout de la PSV peut augmenter ce taux de remplacement, mais le total dépend fortement du revenu et de la carrière de la personne. La bonification graduelle amorcée en 2019 vise, à terme, un remplacement pouvant atteindre 33,33 % des gains couverts par les régimes contributifs. Le financement repose à la fois sur les cotisations des travailleurs actuels et sur l’accumulation de fonds investis, ce qui en fait un régime partiellement capitalisé.
 
 <div style="clear: both;"></div>
 
@@ -852,17 +759,17 @@ Plus récemment, une réforme majeure introduite à partir de 2019 bonifie les d
 
 ### Objectifs du RRQ et du RPC
 
-À l’origine, le RRQ et le RPC visaient à offrir une rente de retraite permettant de remplacer environ 25\% du revenu de travail d’une personne gagnant un revenu proche du *salaire industriel moyen* au Canada. En combinaison avec la Pension de sécurité de la vieillesse que nous avons couverte en début de chapitre, l’objectif global correspond à un taux de remplacement d’environ 40\% pour un travailleur ayant un revenu moyen.  
+À l’origine, le RRQ et le RPC visaient à offrir une rente de retraite permettant de remplacer environ 25\% du revenu de travail d’une personne gagnant un revenu proche du *salaire industriel moyen* au Canada. La PSV s’ajoute à cette rente selon des règles distinctes; le remplacement total varie donc avec les revenus et l’histoire de travail plutôt que de correspondre à un taux fixe.  
 
-La rente de retraite en cours de paiement est indexée le 1er janvier de chaque année, selon l’augmentation de l’Indice des rentes. L’Indice des rentes pour une année correspond à la moyenne de l’indice des prix à la consommation au Canda (IPC) pour les mois compris entre le 1er novembre de l’année précédente et le 31 octobre de l’année en question.  La rente de retraite du RRQ / RPC est imposable.
+La rente de retraite en cours de paiement est indexée le 1er janvier de chaque année, selon l’augmentation de l’Indice des rentes. L’Indice des rentes pour une année correspond à la moyenne de l’indice des prix à la consommation au Canada (IPC) pour les mois compris entre le 1er novembre de l’année précédente et le 31 octobre de l’année en question.  La rente de retraite du RRQ / RPC est imposable.
 
 #### **Maximum des gains admissibles (MGA)** {-}
 
-Historiquement, le maximum des gains admissibles (MGA) a été conçu comme une approximation de ce salaire moyen. Toutefois, avec le temps, la correspondance entre ces deux notions s’est progressivement affaiblie à mesure que les indicateurs de référence ont évolué. De nos jours, le maximum des gains admissibles (MGA) est malgré tout déterminé de manière à évoluer avec le salaire moyen des travailleurs, puisqu’il est indexé annuellement selon la croissance des rémunérations. En pratique, il correspond à un ordre de grandeur similaire au salaire moyen, bien qu’il ne s’agisse pas d’une mesure exacte et que l’écart puisse varier dans le temps.  En se basant sur cette [source](https://www.rrq.gouv.qc.ca/fr/programmes/regime_rentes/travail_cotisations/Pages/revenus-de-travail-admissibles-et-cotisations.aspx), le graphique ci-dessous illustre l’évolution du MGA au Québec au cours des 50 dernières années.
+Historiquement, le maximum des gains admissibles (MGA) a été conçu comme une approximation de ce salaire moyen. Toutefois, avec le temps, la correspondance entre ces deux notions s’est progressivement affaiblie à mesure que les indicateurs de référence ont évolué. De nos jours, le maximum des gains admissibles (MGA) est déterminé de manière à évoluer avec le salaire moyen des travailleurs, puisqu’il est indexé annuellement selon la croissance des rémunérations. En pratique, il correspond à un ordre de grandeur similaire au salaire moyen, bien qu’il ne s’agisse pas d’une mesure exacte et que l’écart puisse varier dans le temps.  En se basant sur cette [source](https://www.rrq.gouv.qc.ca/fr/programmes/regime_rentes/travail_cotisations/Pages/revenus-de-travail-admissibles-et-cotisations.aspx), le graphique ci-dessous illustre l’évolution du MGA au Québec au cours des 50 dernières années.
 
 ```{r}
 #| code-fold: true
-#| echo: false
+#| echo: true
 #| message: false
 #| warning: false
 #| fig-height: 4
@@ -992,7 +899,7 @@ ggplot(rrq_cotisations, aes(x = annee, y = mga)) +
 
 [Depuis 2019](https://www.rrq.gouv.qc.ca/fr/programmes/regime_rentes/Pages/regime-supplementaire.aspx), un régime supplémentaire bonifie progressivement le RRQ et le RPC, selon deux mécanismes complémentaires :
 
-- Premièrement, le taux de remplacement du revenu admissible augmente graduellement, passant de 25\% à environ 33,33\% à long terme. Plus précisément, il passe de 25\% en 2018 à 27\% en 2033, à 31\% en 2048 et à 33,33\% en 2065. L’augmentation est donc très progressive, de l’ordre de 0,13 point de pourcentage par année au début de la période.
+- Premièrement, le taux de remplacement du revenu admissible augmente graduellement, passant de 25\% à environ 33,33\% à long terme. Ce passage à 33,33 % dépend de l’accumulation d’années de cotisation au régime supplémentaire : il ne signifie pas que toutes les années d’une carrière antérieure sont automatiquement remplacées au taux bonifié.
 
 - Deuxièmement, la portion du revenu couverte par le régime est élargie avec l’introduction d’un nouveau plafond, appelé maximum supplémentaire des gains admissibles (MSGA), qui s’ajoute au MGA. Ce plafond permet de couvrir une part plus élevée du revenu de travail.
 
@@ -1000,115 +907,50 @@ Ces modifications sont mises en place sur plusieurs décennies, de sorte que leu
 
 ### Le calcul de la rente du RRQ
 
-Pour comprendre le calcul de la rente, on peut peut-être imaginer se baser sur le [lien du RRQ](https://www.retraitequebec.gouv.qc.ca/fr/publications/nos-programmes/regime-de-rentes-du-quebec/retraite/Pages/methode-de-calcul-de-la-rente-rrq.aspx) qui présente trois exemples numériques.  Toutefois, ces exemples sont inutilement complexes, prennent trois détours au lieu de calculer directement une valeur, et contiennent plusieurs coquilles, erreurs et nombres tombés de nulle part sans aucune explication. A la place, au prix de manquer un peu de précision dans le calcul de la rente annuelle du RRQ, et en entendant qu'une nouvelle version du site web soit corrigée, on peut quand même assez facilement expliquer de quelle manière la rente est calculée, sans pour autant aller dans tous les détails.
+Le calcul réel de la rente du RRQ combine le régime de base et les deux volets du régime supplémentaire. Les revenus de travail de chaque année sont plafonnés puis rajustés, certaines périodes de faibles revenus peuvent être exclues et des règles particulières s’appliquent notamment aux périodes d’invalidité et aux responsabilités familiales. L’âge du début des versements apporte un autre ajustement. Les règles détaillées et des exemples officiels figurent dans les [feuillets de Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/publications/programmes/regime-rentes-quebec-rrq/retraite/methode-calcul-rente-retraite-regime-rentes-quebec).
 
-::: {.encadre2}
+Il serait incorrect d’attribuer le taux de remplacement de 33,33 % à tous les revenus réalisés depuis 2024 : cette bonification s’acquiert progressivement. Pour le cours, on peut néanmoins décomposer un exemple simplifié en trois parties :
 
-#### **Méthode de calcul** {-}
+- **Régime de base :** environ 25 % de la moyenne des gains admissibles rajustés, après exclusion d’une fraction des mois de plus faible revenu;
+- **Premier volet supplémentaire :** accumulation graduelle, depuis 2019, d’une rente additionnelle sur les gains jusqu’au MGA;
+- **Deuxième volet supplémentaire :** accumulation graduelle, depuis 2024, d’une rente additionnelle sur les gains situés entre le MGA et le MSGA.
 
-Voici les différentes étapes à suivre pour calculer la rente d’un travailleur.
+Pour une carrière de quarante années, l'idée de base peut être illustrée en séparant **les droits acquis depuis 1966** et **les droits additionnels acquis depuis 2019 et 2024**. Une personne qui prend sa retraite en 2026 n'a évidemment pas cotisé pendant quarante années au régime bonifié.
 
-- **Période de référence**
+Dans le modèle pédagogique ci-dessous, on note $G_t$ le gain annuel admissible plafonné au MGA, $H_t=\max(0,\min(S_t,MSGA_t)-MGA_t)$ les gains du deuxième volet, et $a_t$ un facteur de rajustement des revenus. On calcule alors trois termes distincts :
 
-  À l’exception de certaines périodes d’invalidité ou de réception de prestations familiales, on considère tous les revenus de travail annuels, notés $Z_t$, pour $t = 1, \ldots, T$, correspondant aux années comprises entre le premier jour du mois suivant le 18e anniversaire de la personne et le mois précédant celui où la rente devient payable.
+$$
+B \approx 0{,}25 \, \bar{G}_{\mathrm{base}}
+$$
 
-- **Moyenne des plafonds admissibles**
+$$
+S_1 \approx \frac{1}{480} \sum_{t=2019}^{2025} \frac{m_t}{12}a_tG_t
+$$
 
-  On calcule la moyenne du maximum des gains admissibles (MGA) des cinq dernières années, ainsi que son équivalent pour le maximum supplémentaire des gains admissibles (MSGA) :
+$$
+S_2 \approx \frac{1}{120} \sum_{t=2024}^{2025} \frac{m_t}{12}a_tH_t
+$$
 
-  $$
-  \begin{aligned}
-  MGA^{(5)}_a &= \frac{MGA_a + MGA_{a-1} + MGA_{a-2} + MGA_{a-3} + MGA_{a-4}}{5}, \\
-  MSGA^{(5)}_a &= \frac{MSGA_a + MSGA_{a-1} + MSGA_{a-2} + MSGA_{a-3} + MSGA_{a-4}}{5}.
-  \end{aligned}
-  $$
+Les bornes supérieures des deux sommes correspondent à la fin de la carrière fictive (2025). Ici $\bar{G}_{\mathrm{base}}$ est la moyenne annuelle rajustée des mois conservés pour le régime de base, et $m_t$ est le nombre de mois retenus pour l'année $t$, et les facteurs $1/40$ représentent **une règle d'acquisition uniforme fictive**, et non la formule réglementaire du RRQ. La somme $B+S_1+S_2$ illustre l'ordre de grandeur de la rente avant ajustement pour l'âge. Les calculs réels utilisent notamment des règles distinctes d'exclusion des mois, de rajustement des gains, de calcul des droits supplémentaires et de partage de gains.
 
-  Le $MSGA$ ayant été introduit en 2024, le calcul de $MSGA^{(5)}_a$ repose, en pratique, sur un nombre limité d’années dans les premières années d’application.
+**Exemple sur une année.** Pour un salaire de 85 000 $ en 2026, les gains soumis au premier volet sont plafonnés à 74 600 $, tandis que la tranche du deuxième volet est de $85\,000-74\,600=10\,400$ $. Cette distinction joue sur les cotisations et sur les droits supplémentaires acquis, mais ne permet pas, à elle seule, de calculer la rente de retraite future.
 
-- **Plafonnement des revenus**
+#### **Exemple de calcul illustratif** {-}
 
-  Chaque revenu est limité au plafond admissible applicable :
-
-  $$
-  Y_t =
-  \begin{cases}
-  \min(Z_t, MGA_t), & \text{si } t < 2024,\\[4pt]
-  \min(Z_t, MSGA_t), & \text{si } t \ge 2024.
-  \end{cases}
-  $$
-
-- **Rajustement des revenus**
-
-  Les revenus sont ensuite exprimés en dollars de l’année $a$ :
-
-  $$
-  Y_t^* =
-  \begin{cases}
-  Y_t \times \frac{MGA^{(5)}_a}{MGA_t}, & \text{si } t < 2024,\\[4pt]
-  Y_t \times \frac{MSGA^{(5)}_a}{MSGA_t}, & \text{si } t \ge 2024.
-  \end{cases}
-  $$
-
-- **Proratisation selon les mois cotisés**
-
-  Si $m$ mois ont été cotisés durant l’année $t$, on obtient :
-
-  $$
-  Y_t^*(m) = Y_t^* \times \frac{m}{12}.
-  $$
-
-- **Exclusion des mois à faible revenu**
-
-  La période de référence couvre environ 47 années. Afin d’obtenir l’équivalent d’environ 40 années d’accumulation, on exclut les 15 \% des mois pour lesquels les revenus $Y_t^*(m)$ sont les plus faibles.
-
-- **Calcul de la rente**
-
-  En ne conservant que les années retenues, la rente annuelle est donnée par :
-
-  $$
-  R = \sum_{t=1}^{40} R_t = \sum_{t=1}^{40} \frac{Y_t^*(m)\, \alpha}{40},
-  $$
-
-  où $\alpha_t$ dépend de l’année :
-
-  $$
-  \alpha_t =
-  \begin{cases}
-  25\%, & \text{si } t \le 2019,\\
-  26\%, & \text{si } t = 2020,\\
-  27\%, & \text{si } t = 2021,\\
-  29\%, & \text{si } t = 2022,\\
-  31\%, & \text{si } t = 2023,\\
-  33\%, & \text{si } t \ge 2024.
-  \end{cases}
-  $$
-
-:::
-
-  
-
-
-
-
-
-#### **Exemple de calcul de la rente du RRQ** {-}
-
-Pour mieux comprendre le calcul, considérons le tableau suivant, qui présente les revenus d’un travailleur pour chacune des années écoulées depuis l’âge de 18 ans, ainsi que les MGA et les MSGA correspondants. Les colonnes relatives à l’âge, à l’année, aux MGA, aux MSGA, aux revenus et au nombre de mois cotisés sont déjà données. Toutes les autres colonnes doivent être calculées à partir de ces informations, en appliquant les règles qui viennent d’être présentées.
+Le tableau suivant reprend une carrière fictive de 1978 à 2025. Les salaires, MGA, MSGA et nombres de mois proviennent de l’exemple pédagogique. L’objectif est de montrer comment les résultats changent lorsqu’on distingue les trois composantes, plutôt que de reproduire exactement le montant versé par Retraite Québec.
 
 ::: {.encadre}
 
 ```{r}
 #| code-fold: true
-#| echo: false
+#| echo: true
 #| message: false
 #| warning: false
-#| fig-height: 4
-#| fig-width: 9
-#| fig-align: center
 
 library(dplyr)
-library(kableExtra)
+library(tidyr)
 library(tibble)
+library(kableExtra)
 
 df <- tribble(
 ~Age,~Annee,~MGA,~MSGA,~Revenus,~mois,~Y,~`Y*`,~`Y*(t)`,~taux,~Column2,~Column1,
@@ -1162,41 +1004,91 @@ df <- tribble(
 65,2025,71300,81200,85000,11,81200,87919,80593,"33%",NA_real_,673
 )
 
-df_clean <- df %>%
-  mutate(across(everything(), ~ifelse(is.na(.), "", .)))
-
-colnames(df_clean)[2]  <- "Année (<i>t</i>)"
-colnames(df_clean)[5]  <- "Revenus (<i>Z</i><sub>t</sub>)"
-colnames(df_clean)[7]  <- "<i>Y</i><sub>t</sub>"
-colnames(df_clean)[8]  <- "<i>Y</i><sub>t</sub><sup>*</sup>"
-colnames(df_clean)[9]  <- "<i>Y</i><sub>t</sub><sup>*</sup>(<i>m</i>)"
-colnames(df_clean)[10] <- "&alpha;<sub>t</sub>"
-colnames(df_clean)[11] <- "Exclus"
-colnames(df_clean)[12] <- "<i>R</i><sub>t</sub>"
-
-df_clean %>%
-  kbl(
-    align = "c",
-    booktabs = TRUE,
-    digits = 0,
-    escape = FALSE
-  ) %>%
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    bootstrap_options = c("striped", "hover", "condensed")
+# Les autres colonnes de la table d'origine étaient des résultats
+# préremplis, calculés à l'aide d'un raccourci inexact sur la bonification.
+# On ne conserve que les données de départ.
+carriere <- df %>%
+  select(Age, Annee, MGA, MSGA, Revenus, mois) %>%
+  mutate(
+    gains_base = pmin(Revenus, MGA),
+    gains_sup2 = if_else(Annee >= 2024,
+                         pmax(0, pmin(Revenus, coalesce(MSGA, MGA)) - MGA), 0)
   )
 
+# Indexation pédagogique sur la moyenne des cinq derniers MGA
+mga_ref <- mean(tail(carriere$MGA, 5))
+
+carriere <- carriere %>%
+  mutate(
+    gains_base_raj = gains_base * mga_ref / MGA,
+    gains_sup2_raj = gains_sup2 * mga_ref / MGA
+  )
+
+carriere %>%
+  select(Age, Annee, Revenus, mois, MGA, MSGA,
+         `Gains de base rajustés` = gains_base_raj,
+         `Gains 2e volet rajustés` = gains_sup2_raj) %>%
+  mutate(across(where(is.numeric) & !any_of(c("Age", "Annee", "mois")),
+                ~ round(.x, 0))) %>%
+  kbl(align = "c", digits = 0, na = "—", booktabs = TRUE) %>%
+  kable_styling(full_width = FALSE, position = "center",
+                bootstrap_options = c("striped", "hover", "condensed"))
 ```
 
 :::
 
-Comme indiqué précédemment, il faut faire attention aux calculs des valeurs de $Y_t$ et $Y_t^*$ à partir de 2024, ainsi qu’à l’utilisation du paramètre $\alpha_t$ pour les années à partir de 2019. Pour rappel, ces nouveaux calculs font référence à la réforme du RRQ, souvent appelée *régime supplémentaire*.
+Pour illustrer le mécanisme, le calcul ci-dessous suit quatre opérations distinctes, visibles dans le code dépliable : (1) plafonner chaque salaire au MGA et isoler les gains entre MGA et MSGA; (2) convertir les gains passés à une même échelle au moyen du rapport des MGA; (3) exclure, pour le seul régime de base, les 15 % de mois ayant les gains rajustés les plus faibles; (4) additionner les droits simulés des trois composantes. On suppose un salaire uniforme au cours de chaque année et une acquisition régulière fictive sur 40 ans pour les volets supplémentaires. **Aucune de ces règles simplifiées ne doit remplacer le calcul individuel officiel.**
 
-Au final, on peut sommer la dernière colonne $R_t$ pour obtenir la rente annuelle calculée pour ce travailleur. Le résultat est de 17347\$ par année, soit une rente mensuelle de 1445.64\$. En comparant avec l’exemple *Rente de retraite versée dès 65 ans et 1 mois* provenant du [site de la RRQ](https://www.retraitequebec.gouv.qc.ca/fr/publications/nos-programmes/regime-de-rentes-du-quebec/retraite/Pages/methode-de-calcul-de-la-rente-rrq.aspx), on obtient de leur côté une rente de 1430.12\$ par mois. L’écart est relativement faible, même si leurs calculs contiennent des erreurs.
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
 
-::: {#exm-5 .custom}
-En exercice, vérifiez que vous obtenez les mêmes valeurs pour les différentes colonnes obtenues ci-dessus.  De plus, vous pouvez aussi jeter un coup d'oeil aux deux autres exemples du [site de la RRQ](https://www.retraitequebec.gouv.qc.ca/fr/publications/nos-programmes/regime-de-rentes-du-quebec/retraite/Pages/methode-de-calcul-de-la-rente-rrq.aspx).
+mois_carriere <- carriere %>%
+  tidyr::uncount(weights = mois, .id = "mois_annee") %>%
+  mutate(
+    gains_base_mensuels = gains_base_raj / 12,
+    gains_sup2_mensuels = gains_sup2_raj / 12,
+    gains_sup1_mensuels = if_else(Annee >= 2019, gains_base_raj / 12, 0)
+  ) %>%
+  arrange(gains_base_mensuels, Annee, mois_annee) %>%
+  mutate(exclu_base = row_number() <= floor(0.15 * n()))
+
+# Moyenne annuelle rajustée pour les mois conservés
+rente_base_illustrative <- 0.25 *
+  mean(mois_carriere$gains_base_mensuels[!mois_carriere$exclu_base]) * 12
+
+# Hypothèse illustrative : acquisition sur l'équivalent de 40 années
+rente_sup1_illustrative <- (1/3 - 1/4) / 40 *
+  sum(mois_carriere$gains_sup1_mensuels)
+rente_sup2_illustrative <- (1/3) / 40 *
+  sum(mois_carriere$gains_sup2_mensuels)
+
+rente_annuelle_illustrative <-
+  rente_base_illustrative + rente_sup1_illustrative + rente_sup2_illustrative
+
+resultat_rrq <- tibble(
+  Composante = c("Régime de base", "Régime suppl. – 1er volet",
+                 "Régime suppl. – 2e volet", "Total illustratif"),
+  `Rente annuelle` = c(rente_base_illustrative, rente_sup1_illustrative,
+                      rente_sup2_illustrative, rente_annuelle_illustrative)
+)
+
+resultat_rrq %>%
+  mutate(`Rente annuelle` = sprintf("%.2f $", `Rente annuelle`)) %>%
+  kbl(align = c("l", "r")) %>%
+  kable_styling(full_width = FALSE, position = "center",
+                bootstrap_options = c("striped", "hover")) %>%
+  row_spec(4, bold = TRUE)
+```
+
+**Résultat obtenu avec ces hypothèses :** environ **16 407 $** pour le régime de base, **959 $** pour le premier volet, **109 $** pour le deuxième volet, soit **17 475 $ par année** au total avant ajustement de l’âge. Ce résultat a été recalculé indépendamment du code R à partir des données de carrière. Il s’agit d’une simulation illustrative et non de la rente officielle de ce participant.
+
+Cet exercice ne permet pas de vérifier un montant officiel au dollar près. Il montre plutôt pourquoi les gains des années antérieures à 2019 alimentent le régime de base, tandis que les gains des années récentes peuvent aussi acquérir progressivement des droits supplémentaires. Pour obtenir une estimation individuelle, il faut utiliser le dossier officiel du participant et les outils de [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/retraite-et-planification/demandez-rente-retraite/rente-retraite-regime-rentes-quebec/calcul-rente-retraite).
+
+::: {#exm-rrq-composantes .custom}
+En exercice, expliquez pourquoi le taux de remplacement à terme de 33,33 % ne peut pas être appliqué à toutes les années de carrière d'une personne prenant sa retraite en 2026. Identifiez également les trois composantes de la rente du RRQ.
 :::
 
 
@@ -1204,7 +1096,9 @@ En exercice, vérifiez que vous obtenez les mêmes valeurs pour les différentes
 
 Il existe de nombreux autres scénarios possibles d’analyse de la rente de retraite du RRQ, notamment en présence de périodes d’invalidité, de revenus atypiques ou de trajectoires de carrière non continues. On peut par exemple rencontrer des situations plus particulières, comme des périodes prolongées sans cotisation suivies d’un retour tardif sur le marché du travail, des revenus très variables d’une année à l’autre, des situations d'invalidité, etc. Tous ces cas peuvent modifier de manière non triviale le calcul ou l’interprétation de la rente, mais elles ne seront pas étudiées ici.
 
-A la place, il convient plutôt d'analyser l'impact de l'âge de la retraite.  En ce basant sur cette [source](https://www.rrq.gouv.qc.ca/fr/retraite/rrq/calcul_rente/Pages/calcul_rente.aspx), le tableau ci-dessous indique les réductions et les majorations de rente en fonction de l'âge de retraite.
+Nous examinons donc plutôt l'impact de l'âge du début de la rente. Pour une rente annuelle de référence de 12 000 $ à 65 ans, une réduction illustrative de 0,6 % par mois avant 65 ans donne, à 60 ans, un facteur de $1-60\times0{,}006=0{,}64$, soit $12\,000\times0{,}64=7\,680$ $ par année. À 70 ans, la majoration prévue de 0,7 % par mois donne $1+60\times0{,}007=1{,}42$, soit $17\,040$ $ par année.
+
+Le tableau ci-dessous généralise **ce scénario**. En pratique, la réduction avant 65 ans varie de **0,5 % à 0,6 % par mois**, tandis que la majoration après 65 ans est de **0,7 % par mois jusqu'à 72 ans**. L'ajustement peut aussi différer dans certaines situations d'invalidité. [Source : Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/retraite-et-planification/demandez-rente-retraite/rente-retraite-regime-rentes-quebec/calcul-rente-retraite).
 
 ::: {.encadre}
 
@@ -1248,10 +1142,10 @@ kable(
 
 :::
 
-On peut voir que les travailleurs sont admissibles à la rente de retraite du RRQ à compter de 60 ans, à condition d’avoir cotisé au moins une année au régime. Toutefois, l’âge normal de retraite est fixé à 65 ans.  Si la rente débute avant ou après 65 ans, son montant est ajusté de façon actuarielle. Cet ajustement tient compte principalement de deux éléments :
+On peut voir que les travailleurs sont admissibles à la rente de retraite du RRQ à compter de 60 ans, à condition d’avoir cotisé au moins une année au régime. Toutefois, l’âge normal de retraite est fixé à 65 ans.  Si la rente débute avant ou après 65 ans, son montant est ajusté de façon actuarielle. Du point de vue actuariel, cet ajustement tient compte notamment de deux éléments :
 
 - la durée prévue de versement de la rente, qui est plus longue en cas de retraite anticipée et plus courte en cas de retraite tardive;
-- le fait que les cotisations accumulées auront eu moins de temps (ou davantage de temps) pour produire des rendements.
+- le nombre d’années de cotisation et les règles d’ajustement prévues par le régime, qui influencent le montant finalement obtenu.
 
 Ainsi, une rente débutant avant 65 ans est réduite, tandis qu’une rente débutant après 65 ans est majorée.
 
@@ -1280,14 +1174,14 @@ Le Régime de rentes du Québec (RRQ) prévoit [deux types de prestations](https
 
 La [rente d'invalidité](https://www.retraitequebec.gouv.qc.ca/fr/invalidite/prestations-invalidite-rrq/Pages/rente-invalidite-rrq.aspx) du Régime de rentes du Québec (RRQ) est une prestation mensuelle versée aux cotisants qui deviennent incapables de travailler en raison d’une invalidité grave et permanente.  Un participant est ainsi admissible s’il satisfait les conditions suivantes :
 
-- Être âgé de moins de 66 ans;
+- Être âgé de moins de 66 ans lors de la demande et avoir été reconnu invalide médicalement avant 65 ans;
 - Être atteint d’une invalidité grave et prolongée reconnue médicalement;
 - Être incapable d’exercer un emploi véritablement rémunérateur;
 - Avoir cotisé suffisamment au RRQ. 
 
-La rente comporte deux composantes une partie fixe (identique pour tous), et une partie variable dépendant des revenus de travail passés. En 2026, le montant de base est de 610,43\$ par mois, et la rente maximale est d'environ 1 737 $ / mois. 
+Pour les personnes de moins de 60 ans, la rente comporte une partie fixe de 610,43 $ par mois en 2026 et une partie liée aux revenus de travail; le maximum atteint 1 737,67 $ par mois. Entre 60 et 65 ans, les règles diffèrent : la prestation d’invalidité proprement dite est un montant uniforme de 610,43 $ par mois, qui peut s’ajouter à une rente de retraite selon les règles applicables. 
 
-À partir de 60 ans, une partie de la rente d’invalidité est remplacée par la rente de retraite, et la prestation devient donc une combinaison de rente de retraite avec un montant additionnel fixe. La rente indexée annuellement, imposable, et peut être réduite ou annulée si le revenu de travail dépasse un certain seuil. Finalement, la rente se termine à 65 ans et est remplacée par la rente de retraite. En ce sens, la rente d’invalidité agit comme un revenu de remplacement avant 65 ans. Son montant est déterminé à partir des cotisations passées, selon une logique proche de celle de la rente de retraite, tout en intégrant des ajustements propres à l’invalidité. Elle ne correspond donc pas à une simple anticipation de la rente de retraite, mais à une prestation distincte construite à partir des mêmes fondements.
+Les montants sont indexés annuellement et imposables. La prestation peut cesser si les critères d’invalidité ou de revenu ne sont plus remplis. La rente d’invalidité prend normalement fin à 65 ans, et les droits à la rente de retraite sont alors évalués selon les règles du RRQ. En ce sens, la rente d’invalidité agit comme un revenu de remplacement avant 65 ans. Son montant est déterminé à partir des cotisations passées, selon une logique proche de celle de la rente de retraite, tout en intégrant des ajustements propres à l’invalidité. Elle ne correspond donc pas à une simple anticipation de la rente de retraite, mais à une prestation distincte construite à partir des mêmes fondements.
 
 <div style="clear: both;"></div>
 
@@ -1298,7 +1192,7 @@ Lorsqu’un participant reçoit une rente d’invalidité du Régime de rentes d
 
 - Être l’enfant du cotisant invalide (biologique ou adopté);
 - Être âgé de moins de 18 ans;
-- Résider habituellement avec le cotisant invalide.
+- Être admissible selon les règles de filiation ou de résidence applicables (notamment la situation d’un enfant vivant avec la personne invalide depuis au moins un an).
 
 Contrairement à la rente d’invalidité du participant, cette rente est fixe et ne dépend pas des revenus de travail du parent. Elle est versée pour chaque enfant admissible. En 2026, le montant est d’environ 97,74\$ par mois par enfant. La rente est indexée annuellement et cesse lorsque l’enfant atteint 18 ans ou ne satisfait plus aux conditions d’admissibilité. Elle est imposable entre les mains de l’enfant. En ce sens, la rente à l’enfant d’un cotisant invalide agit comme un complément à la rente d’invalidité du parent, visant à soutenir financièrement les enfants à charge, sans être liée directement à l’historique de cotisations.
 
@@ -1318,19 +1212,19 @@ text-align:center;
 </div>
 </div>
 
-La RRQ prévoit Une protection financière de base aux proches de la personne décédée, si celle-ci a suffisamment cotisé au Régime de rentes du Québec. Plus précisément, la RRQ prévoit trois types de [prestations](https://www.rrq.gouv.qc.ca/fr/programmes/regime_rentes/prestations_survivants/Pages/prestations_survivants.aspx) :
+Le RRQ prévoit une protection financière de base aux proches de la personne décédée, si celle-ci a suffisamment cotisé au Régime de rentes du Québec. Plus précisément, la RRQ prévoit trois types de [prestations](https://www.rrq.gouv.qc.ca/fr/programmes/regime_rentes/prestations_survivants/Pages/prestations_survivants.aspx) :
 
 - La prestation de décès
 - La rente de conjoint survivant
 - La rente d'orphelin
 
-Certains [critères d'admissibilités](https://www.retraitequebec.gouv.qc.ca/fr/deces/rentes-prestations/rrq-prestation-deces/Pages/admissibilite.aspx) peuvent être consultés sur le site de Retraite Québec.
+Certains [critères d’admissibilité](https://www.retraitequebec.gouv.qc.ca/fr/deces/rentes-prestations/rrq-prestation-deces/Pages/admissibilite.aspx) peuvent être consultés sur le site de Retraite Québec.
 
 #### **Prestation de décès du RRQ** {-}
 
-La prestation de décès du Régime de rentes du Québec (RRQ) est un paiement forfaitaire unique de 2 500 $ versé à la suite du décès d’un cotisant, à condition que celui-ci ait suffisamment cotisé au régime. Cette prestation vise principalement à couvrir une partie des frais liés au décès.   La prestation est versée en priorité à la personne ou à l’organisme qui a payé les frais funéraires, à condition qu’une demande accompagnée des preuves de paiement soit faite dans les 60 jours suivant le décès. À défaut, elle peut être versée aux héritiers ou à d’autres personnes admissibles. La demande doit être présentée dans un délai maximal de 5 ans suivant le décès.
+La prestation de décès du Régime de rentes du Québec (RRQ) est un paiement forfaitaire unique **d’un maximum de 2 500 $** versé à la suite du décès d’un cotisant, à condition que celui-ci ait suffisamment cotisé au régime. Cette prestation vise principalement à couvrir une partie des frais liés au décès.   La prestation est versée en priorité à la personne ou à l’organisme qui a payé les frais funéraires, à condition qu’une demande accompagnée des preuves de paiement soit faite dans les 60 jours suivant le décès. À défaut, elle peut être versée aux héritiers ou à d’autres personnes admissibles. La demande doit être présentée dans un délai maximal de 5 ans suivant le décès.
 
-Si les frais funéraires sont inférieurs à 2 500 $, le solde peut être versé aux héritiers. Toutefois, aucun remboursement n’est accordé pour des arrangements funéraires déjà payés par la personne décédée. La prestation est imposable et doit être déclarée dans le revenu de la succession ou du bénéficiaire. En ce sens, la prestation de décès constitue une aide financière ponctuelle, indépendante des autres rentes du régime (conjoint survivant, orphelin), et ne dépend pas directement du montant des cotisations accumulées, mais uniquement du fait que celles-ci soient jugées suffisantes.
+Si les frais funéraires sont inférieurs à 2 500 $, le solde peut être versé aux héritiers. Toutefois, aucun remboursement n’est accordé pour des arrangements funéraires déjà payés par la personne décédée. La prestation est imposable et doit généralement être déclarée dans le revenu de la succession, indépendamment du destinataire du chèque. En ce sens, la prestation de décès constitue une aide financière ponctuelle, indépendante des autres rentes du régime (conjoint survivant, orphelin), et ne dépend pas directement du montant des cotisations accumulées, mais uniquement du fait que celles-ci soient jugées suffisantes.
 
 <div style="clear: both;"></div>
 
@@ -1364,7 +1258,7 @@ df <- data.frame(
     "moins de 45 ans",
     "moins de 45 ans",
     "moins de 45 ans",
-    "entre 45 et 65",
+    "de 45 à 64 ans",
     "65 ans et plus"
   ),
   `Situation` = c(
@@ -1377,7 +1271,7 @@ df <- data.frame(
   `Montant` = c(
     "719,50 $",
     "1 129,95 $",
-    "1 134,61 $",
+    "1 173,58 $",
     "1 173,58 $",
     "881,48 $"
   )
@@ -1409,7 +1303,7 @@ La rente d’orphelin du Régime de rentes du Québec (RRQ) est une prestation m
 La rente est un montant fixe, identique pour tous les enfants, et ne dépend pas des revenus de travail du parent.  En 2026 : environ 307,81\$ / mois par enfant. La rente est versée à partir du mois suivant le décès et est payable mensuellement. Elle est indexée annuellement et imposable entre les mains de l’enfant.  La rente cesse lorsque l’enfant atteint 18 ans. Si un enfant est admissible à plusieurs rentes du RRQ (par exemple enfant d’un parent invalide et orphelin), une seule rente est versée.  En ce sens, la rente d’orphelin constitue une prestation de nature redistributive, indépendante du niveau de cotisations du parent, visant à assurer un revenu minimal aux enfants à la suite d’un décès.
 
 
-### Financement et cotisation à la RRQ
+### Financement et cotisations au RRQ
 
 <div style="
 float:right;
@@ -1424,101 +1318,134 @@ text-align:center;
 </div>
 </div>
 
-Le financement du Régime de rentes du Québec (RRQ) constitue un élément central de son fonctionnement, puisqu’il détermine directement la capacité du régime à verser les prestations promises à long terme. Contrairement à une simple épargne individuelle, le RRQ repose sur un mécanisme collectif où les cotisations des travailleurs et des employeurs servent à financer à la fois les prestations actuelles et futures. Le régime est ainsi financé à parts égales par les employés et les employeurs. Les travailleurs autonomes paient l’équivalent des deux parts, ce qui reflète le fait qu’ils agissent à la fois comme employés et employeurs. Les cotisations sont établies de manière à assurer un équilibre financier à long terme, en tenant compte notamment de l’évolution démographique, des salaires et des rendements des placements.
+Le financement du Régime de rentes du Québec (RRQ) constitue un élément central de son fonctionnement, puisqu'il détermine la capacité du régime à verser ses prestations à long terme. Contrairement à une simple épargne individuelle, le RRQ repose sur un mécanisme collectif où les cotisations des travailleurs et des employeurs servent à financer à la fois les prestations actuelles et futures. Le régime est ainsi financé à parts égales par les employés et les employeurs. Les travailleurs autonomes paient l’équivalent des deux parts, ce qui reflète le fait qu’ils agissent à la fois comme employés et employeurs. Les cotisations sont établies de manière à assurer un équilibre financier à long terme, en tenant compte notamment de l’évolution démographique, des salaires et des rendements des placements.
 
 <div style="clear: both;"></div>
 
-#### ** Taux de cotisation** {-}
+#### **Taux de cotisation** {-}
 
-En 2022, pour le régime de base et le régime supplémentaire, les taux de cotisation sont les suivants :
+En 2026, les taux de cotisation par salarié ou par employeur sont les suivants. Le travailleur autonome assume les deux parts.
 
 ::: {.encadre}
 
-|                     | Régime de rentes du Québec | Régime de pensions du Canada |
-|:-------------------:|:--------------------------:|:-----------------------------:|
-| Employés (rég. de base)     | 5,40 %                   | 4,95 %                      |
-| Employeur (rég. de base)    | 5,40 %                   | 4,95 %                      |
-| Travailleur autonome (rég. de base) | 10,8 %         | 9,90 %                      |
-| Employés (rég. supp.) | 0,75 %           | 0,75 %                      |
-| Employeur (rég. supp.) | 0,75 %          | 0,75 %                      |
-| Travailleur autonome (rég. supp.) | 1,50 %        | 1,50 %                      |
+| Composante (2026) | RRQ | RPC |
+|:---|---:|---:|
+| Régime de base, jusqu’au MGA | 5,30 % | 4,95 % |
+| 1er volet supplémentaire, jusqu’au MGA | 1,00 % | 1,00 % |
+| **Total jusqu’au MGA** | **6,30 %** | **5,95 %** |
+| 2e volet supplémentaire, entre MGA et MSGA | 4,00 % | 4,00 % |
 
 :::
 
-Les cotisations sont prélevées sur les revenus de travail compris entre une exemption générale (3 500 \$) et un plafond appelé maximum des gains admissibles (MGA). Depuis la réforme entrée en vigueur en 2019, une seconde borne (le maximum supplémentaire des gains admissibles, ou MSGA) a été introduite, ce qui étend progressivement la portion du revenu assujettie aux cotisations. Ainsi, le régime repose sur une structure en paliers:
+Au RRQ comme au RPC, les taux indiqués pour les employés et les employeurs s’appliquent chacun à leur part; le travailleur autonome paie le double. Le MGA est de **74 600 $** et le MSGA de **85 000 $** en 2026, pour les deux régimes. Ces taux sont applicables **par employé et par employeur**, non au total des deux parts. Sources : [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/fr/montants-prestations-et-donnees-base) et [Service Canada](https://www.canada.ca/fr/emploi-developpement-social/programmes/pensions/pension/statistiques/rapport-trimestriel/2026-trimestriel-octobre-decembre.html).
+
+
+Les cotisations sont prélevées sur les revenus de travail compris entre une exemption générale (3 500 \$) et un plafond appelé maximum des gains admissibles (MGA). Dans le prolongement de la réforme entrée en vigueur en 2019, une seconde borne (le maximum supplémentaire des gains admissibles, ou MSGA) est appliquée depuis 2024, ce qui étend progressivement la portion du revenu assujettie aux cotisations. Ainsi, le régime repose sur une structure en paliers:
 
 - un premier palier correspondant au régime de base;
 - un second palier (1er volet) appliqué également jusqu’au MGA;
 - un troisième palier (2e volet) applicable uniquement sur la tranche de revenu située entre le MGA et le MSGA.
 
-::: {#exm-5 .custom}
+**Formule reproductible pour une année complète.** En notant $S$ le salaire brut annuel, $E=3\,500$, $M=74\,600$ et $M_2=85\,000$, définissons
 
-Considérons un travailleur gagnant 50 000 \$ par année. Calculez les cotisations selon le type de travailleur, en supposant les taux de cotisations de 2022. 
+$$
+A(S)=\max\big(0,\min(S,M)-E\big),\qquad
+B(S)=\max\big(0,\min(S,M_2)-M\big).
+$$
+
+En 2026, la cotisation **de l'employé** au RRQ s'écrit
+
+$$
+C_{RRQ}(S)=0{,}063\,A(S)+0{,}04\,B(S),
+$$
+
+et la cotisation correspondante au RPC est
+
+$$
+C_{RPC}(S)=0{,}0595\,A(S)+0{,}04\,B(S).
+$$
+
+Ces expressions supposent une année complète de travail et ne traitent pas les particularités de retenues en cours d'année, des emplois multiples ou des exemptions particulières. La part de l'employeur est égale à la part salariale; un travailleur autonome assume généralement les deux.
+
+::: {.encadre}
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+
+# Calculs reproductibles des cotisations 2026 (année complète)
+cotisations_2026 <- function(salaire, regime = c("RRQ", "RPC")) {
+  regime <- match.arg(regime)
+  if (length(salaire) != 1 || !is.finite(salaire) || salaire < 0) {
+    stop("Le salaire doit être un nombre positif ou nul.")
+  }
+  palier_1 <- max(0, min(salaire, 74600) - 3500)
+  palier_2 <- max(0, min(salaire, 85000) - 74600)
+  taux_1 <- if (regime == "RRQ") 0.063 else 0.0595
+  employe <- taux_1 * palier_1 + 0.04 * palier_2
+  data.frame(Regime = regime, Salaire = salaire,
+             Base_cotisable = palier_1, Tranche_supplementaire = palier_2,
+             Part_salariale = employe, Part_employeur = employe,
+             Travailleur_autonome = 2 * employe)
+}
+
+ex_cot <- dplyr::bind_rows(
+  cotisations_2026(50000, "RRQ"), cotisations_2026(50000, "RPC"),
+  cotisations_2026(85000, "RRQ"), cotisations_2026(85000, "RPC")
+)
+ex_cot |>
+  dplyr::select(Regime, Salaire, Part_salariale, Travailleur_autonome) |>
+  dplyr::mutate(dplyr::across(where(is.numeric), ~ format(round(.x, 2), big.mark = " ", decimal.mark = ",", nsmall = 2, trim = TRUE))) |>
+  knitr::kable(align = "c", col.names = c("Régime", "Salaire", "Employé", "Autonome")) |>
+  kableExtra::kable_styling(full_width = FALSE, position = "center",
+                              bootstrap_options = c("striped", "hover"))
+```
+
+:::
+
+Pour **85 000 $**, la formule donne au RRQ $0{,}063\times71\,100 + 0{,}04\times10\,400=4\,895{,}30$ $ de cotisation salariale, contre $0{,}0595\times71\,100+0{,}04\times10\,400=4\,646{,}45$ $ au RPC. Cette comparaison permet de constater l'effet du deuxième volet, absent pour un salaire de 50 000 $.
+
+::: {#exm-cotisations-publiques .custom}
+Considérons un travailleur qui gagne 50 000 $ en 2026. Calculez ses cotisations au RRQ et au RPC selon qu’il est salarié ou travailleur autonome, en supposant une année complète d’emploi.
 :::
 
 ::: {.custom-solution}
 **Solution.**
 
-Tout d'abord, on doit comprendre que les cotisations sont calculées sur le revenu admissible, et donc: 50000 - 3500 = 46500 \$.
+Le revenu cotisable jusqu’au MGA est $50\,000-3\,500=46\,500$ \$. Le salaire n’atteint pas le MGA : aucune cotisation de deuxième volet n’est exigible.
 
 ::: {.columns}
-
 ::: {.column width="50%"}
-**Régime de rentes du Québec (RRQ)**
+**RRQ**
 
-- Employé
-  - Régime de base :  
-    $5,40\% \times 46500$ = 2511\$
-  - Régime supplémentaire :  
-    $0,75\% \times 46500$ = 349\$
-  - **Total payé par l’employé : 2860 \$**
-
-- Employeur
-  - Régime de base : 2511\$  
-  - Régime supplémentaire : 349\$  
-  - **Total payé par l’employeur : 2860 \$**
-
-- Travailleur autonome
-  - Régime de base :  
-    $10,8\% \times 46500$ = 5022\$
-  - Régime supplémentaire :  
-    $1,50\% \times 46500$ = 698\$
-  - **Total payé par le travailleur aut.: 5720\$**
-  
+- Employé :
+  - Base : $46\,500\times5{,}30\%=2\,464{,}50$ \$;
+  - Supplémentaire : $46\,500\times1\%=465{,}00$ \$;
+  - **Total : 2 929,50 $**.
+- Employeur : **2 929,50 $**.
+- Travailleur autonome (deux parts) : **5 859,00 $**.
 :::
-
 ::: {.column width="50%"}
-**Régime de pensions du Canada (RPC)**
+**RPC**
 
-- Employé
-  - Régime de base :  
-    $4,95\% \times 46500$ = 2302\$
-  - Régime supplémentaire :  
-    $0,75\% \times 46500$ = 349\$
-  - **Total payé par l’employé : 2651\$**
-
-- Employeur
-  - Régime de base : 2302\$  
-  - Régime supplémentaire : 349\$  
-  - **Total payé par l’employeur : 2651\$**
-
-- Travailleur autonome
-  - Régime de base :  
-    $9,90\% \times 46500$ = 4603\$
-  - Régime supplémentaire :  
-    $1,50\% \times 46500$ = 698\$
-  - **Total payé par le travailleur aut.: 5301\$**
-  
+- Employé :
+  - Base : $46\,500\times4{,}95\%=2\,301{,}75$ \$;
+  - Supplémentaire : $46\,500\times1\%=465{,}00$ \$;
+  - **Total : 2 766,75 $**.
+- Employeur : **2 766,75 $**.
+- Travailleur autonome (deux parts) : **5 533,50 $**.
+:::
 :::
 
-:::    
-Les montants indiqués ci-dessus sont réellement prélevés sur la paie pour la part de l’employé. L’employeur verse un montant équivalent, bien que celui-ci ne soit pas directement visible sur le talon de paie. Le travailleur autonome, pour sa part, assume les deux parts, ce qui double la charge de cotisation. On observe ainsi que, pour un même niveau de revenu, les cotisations au RRQ sont légèrement plus élevées que celles au RPC.
-
+On constate que les cotisations au RRQ sont légèrement supérieures à celles au RPC pour ce revenu, en raison d’un taux de base différent.
 :::
 
-#### **Cotisations pour les prochaines années** {-}
 
-L’[Évaluation actuarielle du Régime de rentes du Québec au 31 décembre 2024](https://www.retraitequebec.gouv.qc.ca/fr/publications/nos-programmes/regime-de-rentes-du-quebec/evaluation-actuarielle/Pages/evaluation-actuarielle.aspx) présente l’évolution de ces taux depuis la réforme. Ces projections reposent sur un travail actuariel détaillé, dont l’objectif est d’estimer le niveau de cotisation nécessaire pour assurer la viabilité du régime à long terme. L’actuaire doit ainsi formuler des hypothèses sur plusieurs éléments incertains, notamment l’évolution démographique, la croissance des salaires, la longévité et les rendements des placements. En ce sens, le rôle de l’actuaire est central : il ne se contente pas d’observer les taux actuels, mais cherche à déterminer les taux futurs qui permettront d’équilibrer, sur un horizon de plusieurs décennies, les cotisations et les prestations du régime.
+#### **Évolution des cotisations depuis la bonification** {-}
+
+Les taux observés depuis 2019 reflètent l'entrée en vigueur progressive du régime supplémentaire. L'[Évaluation actuarielle du RRQ au 31 décembre 2024](https://www.retraitequebec.gouv.qc.ca/fr/publications/nos-programmes/regime-de-rentes-du-quebec/evaluation-actuarielle/Pages/evaluation-actuarielle.aspx) permet d'en examiner la soutenabilité à long terme. Les tableaux suivants donnent les **taux historiques et ceux en vigueur en 2026**; ils ne doivent pas être lus comme une prévision certaine de taux légaux futurs. Les projections actuarielles, quant à elles, servent à estimer la capacité du régime à financer ses prestations sur plusieurs décennies. L’actuaire doit ainsi formuler des hypothèses sur plusieurs éléments incertains, notamment l’évolution démographique, la croissance des salaires, la longévité et les rendements des placements. En ce sens, le rôle de l’actuaire est central : il ne se contente pas d’observer les taux actuels, mais cherche à déterminer les taux futurs qui permettront d’équilibrer, sur un horizon de plusieurs décennies, les cotisations et les prestations du régime.
 
 ::: {.encadre}
 
@@ -1526,14 +1453,16 @@ Employés et employeurs (RRQ)
 
 | Année | Régime de base | Régime sup. 1er volet | Régime sup. 2e volet | Total |
 |:-----:|:--------------:|:----------------:|:-----------------:|:-----:|
-| 2019  | 5,40 %         | 0,15 %           |                   | 5,65 % |
-| 2020  | 5,40 %         | 0,30 %           |                   | 5,80 % |
+| 2019  | 5,40 %         | 0,15 %           |                   | 5,55 % |
+| 2020  | 5,40 %         | 0,30 %           |                   | 5,70 % |
 | 2021  | 5,40 %         | 0,50 %           |                   | 5,90 % |
 | 2022  | 5,40 %         | 0,75 %           |                   | 6,15 % |
 | 2023  | 5,40 %         | 1,00 %           |                   | 6,40 % |
-| 2024 +| 5,40 %         | 1,00 %           | 4,00 %            | * |
+| 2024–2025 | 5,40 %    | 1,00 %           | 4,00 %            | * |
+| 2026  | 5,30 %          | 1,00 %           | 4,00 %            | ** |
 
-* 6,40 % jusqu’au MGA et 4,00 % entre le MGA et le MSGA. La cotisation des travailleurs autonomes est le double des taux indiqués ci-dessus.
+* 6,40 % jusqu’au MGA et 4,00 % entre le MGA et le MSGA.  
+** 6,30 % jusqu’au MGA et 4,00 % entre le MGA et le MSGA. La cotisation des travailleurs autonomes est le double des taux indiqués ci-dessus.
 
 :::
 
@@ -1551,13 +1480,13 @@ Employés et employeurs (RPC)
 | 2021  | 4,95 %         | 0,50 %           |                   | 5,45 % |
 | 2022  | 4,95 %         | 0,75 %           |                   | 5,70 % |
 | 2023  | 4,95 %         | 1,00 %           |                   | 5,95 % |
-| 2024 +| 4,95 %         | 1,00 %           | 4,00 %            | * |
+| 2024–2026 | 4,95 %    | 1,00 %           | 4,00 %            | * |
 
 * 5,95 % jusqu’au MGA et 4,00 % entre le MGA et le MSGA. La cotisation des travailleurs autonomes est le double des taux indiqués ci-dessus.
 
 :::
 
-Bien que les deux régimes soient structurellement très similaires, leurs taux de cotisation diffèrent légèrement. Cet écart s’explique principalement par des facteurs de nature actuarielle et économique :
+Bien que les deux régimes soient structurellement très similaires, leurs taux de cotisation diffèrent légèrement. Cet écart de taux reflète l’histoire propre du financement et des évaluations actuarielles des deux régimes, notamment :
 
 - le profil démographique, qui influence le rapport entre cotisants et bénéficiaires;
 - les hypothèses de rendement à long terme et les politiques de placement;

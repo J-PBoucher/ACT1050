@@ -22,13 +22,13 @@ date-modified: last-modified
 
 ## Introduction
 
-Après avoir présenté l’écosystème de l’assurance au Québec et les principaux types d’assureurs, il est utile de descendre à l’échelle des organisations où se pratique l’actuariat. Ce chapitre adopte une perspective volontairement générale : il ne vise pas un produit, une ligne d’affaires ou un type d’employeur en particulier.  L’objectif n’est pas de dresser des organigrammes exhaustifs, mais de comprendre comment l’actuariat s’insère dans des organisations qui gèrent des engagements incertains, prennent des décisions sous contrainte (réglementation, capital, concurrence, données, technologie) et doivent maintenir une cohérence entre promesses faites, risques assumés et ressources disponibles.
+Après avoir présenté l’écosystème de l’assurance au Québec et les principaux types d’assureurs, il est utile de descendre à l’échelle des organisations où se pratique l’actuariat. Ce chapitre adopte une perspective volontairement générale : il ne vise pas un produit, une ligne d’affaires ou un type d’employeur en particulier.  L’objectif n’est pas de dresser des organigrammes exhaustifs, mais de comprendre comment l’actuariat s’insère dans des organisations qui gèrent des engagements incertains, prennent des décisions sous diverses contraintes (réglementation, capital, concurrence, données, technologie) et doivent maintenir une cohérence entre promesses faites, risques assumés et ressources disponibles.
 
-Les exemples et fonctions décrits ci-dessous se retrouvent, avec des variantes, dans plusieurs milieux : assureurs de personnes, assureurs de dommages, réassureurs, cabinets de consultation, institutions financières, et certaines grandes entreprises privées qui embauchent des actuaires pour des enjeux de retraite, d’avantages sociaux, de risque, ou d’analytique.  Au premier chapitre de ce cours, nous avions listé certaines de ces entreprises qui sont dans la grande région de Montréal.
+Les exemples et fonctions décrits ci-dessous se retrouvent, avec des variantes, dans plusieurs milieux : assureurs de personnes, assureurs de dommages, réassureurs, cabinets de consultation, institutions financières, et certaines grandes entreprises privées qui embauchent des actuaires pour des enjeux de retraite, d’avantages sociaux, de risque, ou d’analytique.  Le premier chapitre présentait notamment plusieurs employeurs de la région de Montréal.
 
 ### Panorama des milieux où l’on retrouve des actuaires
 
-Les actuaires exercent dans une diversité de milieux, publics ou privés, où il s’agit de mesurer, gérer et financer des risques incertains. Sans être exhaustifs, les principaux milieux de pratique peuvent être regroupés comme suit :
+Les actuaires exercent dans une diversité de milieux, publics ou privés, où il s’agit de mesurer, gérer et financer des risques. Sans être exhaustifs, les principaux milieux de pratique peuvent être regroupés comme suit :
 
 - **Assureurs (assurances de personnes et de dommages)**  
   Les assureurs conçoivent et administrent des contrats d’assurance, encaissent des primes, paient des prestations ou des sinistres et doivent demeurer solvables malgré l’incertitude. Les actuaires y contribuent à plusieurs fonctions : tarification, provisionnement, capital, analyse d’expérience, réassurance, modélisation et parfois soutien stratégique.
@@ -54,15 +54,15 @@ La gouvernance correspond à l’ensemble des mécanismes par lesquels une organ
 
 Dans les organisations où se pratique l’actuariat — qu’il s’agisse d’assureurs, de cabinets de consultation, d’institutions financières ou de grandes entreprises — la gouvernance est particulièrement importante. Ces organisations prennent souvent des engagements financiers importants, parfois sur de très longues périodes, dans un contexte d’incertitude. Les conséquences de mauvaises décisions peuvent donc se manifester plusieurs années, voire plusieurs décennies plus tard.
 
-La gouvernance ne s’occupe pas des opérations quotidiennes. Elle fixe plutôt le cadre général dans lequel ces opérations doivent s’inscrire : ce qui est permis, ce qui est risqué, ce qui est acceptable ou non. Elle définit les grandes orientations, les limites à respecter et les mécanismes de contrôle.
+La gouvernance définit les responsabilités, les pouvoirs de décision et les mécanismes de surveillance qui encadrent les activités de l’organisation. Le conseil d’administration intervient principalement dans la définition et la surveillance des grandes orientations, tandis que la haute direction assure la gestion quotidienne dans le respect du cadre établi. Cette distinction est notamment exposée dans la [ligne directrice sur la gouvernance d’entreprise du BSIF](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/gouvernance-dentreprise-ligne-directrice-2018), destinée aux institutions financières de compétence fédérale.
 
 De façon générale, la gouvernance s’appuie sur plusieurs instances et niveaux de responsabilité.
 
-### Le Conseil d’administration
+### Le conseil d’administration
 
-Le Conseil d’administration est l’instance suprême de décision et de surveillance de l’organisation. Il est généralement composé d’une majorité d’administrateurs externes, c’est-à-dire de personnes qui ne sont pas des employés de la société. Cette composition vise à assurer une certaine indépendance dans la supervision de la direction.
+Le conseil d’administration constitue la principale instance de gouvernance et de surveillance de l’organisation. Il comprend généralement des administrateurs qui ne participent pas à la gestion quotidienne. Une attention particulière est portée à leur indépendance afin qu’ils puissent exercer une surveillance objective de la haute direction et limiter les conflits d’intérêts. L’absence de lien d’emploi ne suffit pas, à elle seule, à garantir cette indépendance.
 
-Le Conseil peut également comprendre certains dirigeants, comme le Chef de la direction, ainsi que le Secrétaire corporatif. Le Conseil d’administration ne gère toutefois pas les opérations quotidiennes. Son rôle est plutôt de :
+Selon la structure de l’organisation, certains dirigeants, comme le chef de la direction, peuvent également être administrateurs. Le secrétaire corporatif contribue au fonctionnement du conseil, notamment en préparant et en assurant le suivi des réunions, sans nécessairement en être membre ou disposer d’un droit de vote. Le conseil ne gère toutefois pas les opérations quotidiennes. Son rôle est plutôt de :
 
 - approuver les grandes orientations stratégiques ;
 - nommer et superviser la haute direction ;
@@ -72,12 +72,12 @@ Le Conseil peut également comprendre certains dirigeants, comme le Chef de la d
 
 ### La haute direction et les grands responsables
 
-La haute direction est responsable de la gestion quotidienne de l’organisation et de la mise en œuvre des orientations définies par le Conseil d’administration. Elle coordonne les grandes fonctions internes et arbitre entre des objectifs parfois contradictoires, comme la croissance, la rentabilité, la prudence financière et la conformité réglementaire. Au sommet de cette structure de gestion, on retrouve généralement plusieurs postes de très haute responsabilité. Les intitulés peuvent varier d’une organisation à l’autre, mais les fonctions associées sont relativement standardisées.
+La haute direction est responsable de la gestion quotidienne de l’organisation et de la mise en œuvre des orientations approuvées par le conseil d’administration. Elle coordonne les grandes fonctions internes et arbitre entre des objectifs parfois contradictoires, comme la croissance, la rentabilité, la prudence financière et la conformité réglementaire. Au sommet de cette structure de gestion, on retrouve généralement plusieurs postes de très haute responsabilité. Les intitulés peuvent varier d’une organisation à l’autre, mais les fonctions associées sont relativement standardisées.
 
 On retrouve habituellement les postes suivants :
 
 - **Chef de la direction (Chief Executive Officer – CEO)**  
-  Il est responsable de la gestion globale de l’organisation. Il assure la cohérence entre la stratégie approuvée par le Conseil d’administration et les activités concrètes de l’entreprise. Il coordonne l’ensemble de la haute direction et représente l’organisation auprès des parties externes.
+  Il est responsable de la gestion globale de l’organisation. Il assure la cohérence entre la stratégie approuvée par le conseil d’administration et les activités concrètes de l’entreprise. Il coordonne l’ensemble de la haute direction et représente l’organisation auprès des parties externes.
 
 - **Chef des opérations (Chief Operating Officer – COO)**  
   Il est responsable du bon fonctionnement des opérations quotidiennes. Cela inclut, selon l’organisation, l’administration des contrats, la gestion des sinistres ou des prestations, le service à la clientèle et l’efficacité des processus internes.
@@ -88,12 +88,12 @@ On retrouve habituellement les postes suivants :
 - **Chef de la gestion des risques (Chief Risk Officer – CRO)**  
   Il est responsable de l’identification, de la mesure et du suivi des principaux risques auxquels l’organisation est exposée. Ces risques peuvent être financiers, actuariels, opérationnels, juridiques ou réputationnels. Son rôle est de s’assurer que les risques pris sont cohérents avec l’appétit pour le risque défini par la gouvernance.
 
-De plus en plus souvent, on retrouve également :
+Selon l’organisation, on retrouve également :
 
 - **Chef des technologies de l’information (Chief Information Officer – CIO)**  
   Il est responsable des systèmes informatiques, des données et des infrastructures technologiques. Dans un contexte où les décisions reposent fortement sur les données et les modèles, ce rôle est devenu central.
 
-Ces dirigeants forment l’équipe de direction et chapeautent l’ensemble des activités de l’organisation.
+Ces fonctions peuvent être exercées par des personnes distinctes, combinées ou réparties entre plusieurs équipes. En finance, l’acronyme CIO désigne parfois le *Chief Investment Officer* (chef des placements), plutôt que le *Chief Information Officer* : le contexte est donc important pour interpréter les titres.
 
 #### **Beneva** {-}
 
@@ -111,11 +111,11 @@ text-align:center;
 </div>
 
 
-Beneva est une société canadienne d’assurance mutuelle et de services financiers. Elle est née du regroupement de deux assureurs mutualistes québécois bien établis : La Capitale, fondée en 1941, et SSQ Assurance, fondée en 1944. Le regroupement a été annoncé en janvier 2020 et la nouvelle entité a pris le nom de Beneva en 2020, marquant la création de la plus grande mutuelle d’assurance au Canada.
+Beneva est une société canadienne d’assurance mutuelle et de services financiers. Elle est née du regroupement de deux assureurs mutualistes québécois bien établis : La Capitale, fondée en 1941, et SSQ Assurance, fondée en 1944. Le regroupement a été annoncé en janvier 2020 et la marque Beneva a été dévoilée en décembre de la même année. L’intégration des activités s’est ensuite poursuivie au fil des années suivantes.
 
 <div style="clear: both;"></div>
 
-L’organigramme ci-dessus (provenant du [rapport financier de décembre 2024](https://www.beneva.ca/fr/informations-financieres)) présente l’équipe de direction de Beneva telle qu’elle apparaît dans le rapport annuel 2024. À première vue, on ne retrouve pas explicitement les intitulés de postes fréquemment utilisés dans la littérature anglophone (CEO, COO, CFO, CRO, etc.). Cela ne signifie toutefois pas que ces fonctions n’existent pas.
+La présentation de l’équipe de direction ci-dessous, tirée des [documents financiers de Beneva pour 2024](https://www.beneva.ca/fr/informations-financieres), illustre la répartition des responsabilités à cette époque. Il s’agit d’un exemple historique : les dirigeants et les intitulés des postes peuvent avoir changé depuis. Les titres ne correspondent pas nécessairement aux acronymes anglophones usuels (CEO, COO, CFO, CRO, etc.), mais les responsabilités correspondantes demeurent présentes dans l’organisation.
 
 ![](images/BenevaDirection.png){width=80% fig-align="center"}
 
@@ -141,7 +141,7 @@ tab_beneva <- data.frame(
 ),
 `Titre utilisé chez Beneva` = c(
 "Président et chef de la direction",
-"Fonction répartie entre plusieurs vice-présidences exécutives",
+"Aucun poste unique de COO identifié dans la présentation; responsabilités opérationnelles réparties",
 "Vice-présidente exécutive et leader – Affaires financières",
 "Vice-président – Gestion des risques",
 "Vice-présidente exécutive et leader – Performance d’affaires et technologies de l’information",
@@ -150,12 +150,7 @@ tab_beneva <- data.frame(
 ),
 `Dirigeant(s)` = c(
 "Jean-François Chalifoux",
-paste(
-"Lara Nourcy",
-"Éric Trudel",
-"Christian Fournier",
-sep = "<br>"
-),
+"—",
 "Mélissa Gilbert",
 "Michel Fournier",
 "Catherine Desgagnés-Bezil",
@@ -170,7 +165,7 @@ tab_beneva,
 format = "html",
 escape = FALSE,
 align = c("l", "l", "l"),
-caption = "Correspondance entre fonctions de direction et titres utilisés chez Beneva"
+caption = "Fonctions de direction et titres chez Beneva, selon les documents de 2024"
 ) %>%
 kable_classic(full_width = TRUE, html_font = "sans-serif") %>%
 kable_styling(
@@ -179,8 +174,9 @@ position = "center"
 )
 ```
 
+L’audit interne occupe une position particulière : contrairement aux directions opérationnelles, cette fonction doit pouvoir évaluer les activités et les mécanismes de contrôle avec suffisamment d’indépendance. Elle dispose généralement d’un accès fonctionnel direct au comité d’audit du conseil d’administration.
 
-#### **Industrielle-Alliance** {-}
+#### **Industrielle Alliance** {-}
 
 <div style="
 float:right;
@@ -200,7 +196,7 @@ iA Groupe financier, aussi connu sous le nom d’Industrielle Alliance, est un i
 <div style="clear: both;"></div>
 
 
-L’organigramme ci-dessous (provenant du [rapport financier de décembre 2024](https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2025/fr/fo-rapportannuel2024.pdf)) présente les membres du comité exécutif d’Industrielle Alliance (iA Groupe financier). Comme pour Beneva, les titres de postes sont formulés en français et ne correspondent pas toujours directement aux acronymes usuels de la littérature anglophone (CEO, COO, CFO, CRO, etc.). Les fonctions fondamentales de direction — finance, risques, opérations, placements, stratégie et ressources humaines — sont néanmoins clairement présentes, même si leur organisation et leur répartition diffèrent. Cet exemple montre que les organigrammes doivent être interprétés en fonction des responsabilités exercées, et non uniquement à partir des intitulés de postes.
+La présentation du comité exécutif ci-dessous provient du [rapport annuel 2024 d’iA Groupe financier](https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2025/fr/fo-rapportannuel2024.pdf). Elle décrit les responsabilités et les titulaires à cette date, et non nécessairement ceux de 2026. Comme pour Beneva, les titres ne correspondent pas toujours aux acronymes usuels (CEO, COO, CFO, CRO, etc.). L’exemple illustre qu’il faut interpréter une structure en fonction des responsabilités exercées plutôt qu’uniquement à partir des intitulés de postes.
 
 ![](images/IADirection.png){width=60% fig-align="center"}
 
@@ -224,7 +220,7 @@ tab_ia <- data.frame(
   ),
   `Titre utilisé chez iA` = c(
     "Président et chef de la direction",
-    "Fonction répartie entre plusieurs vice-présidences exécutives",
+    "Aucun poste unique de COO identifié dans la présentation; responsabilités opérationnelles réparties",
     "Vice-président exécutif, chef des finances et actuaire en chef",
     "Vice-président exécutif et chef de la gestion des risques",
     "Vice-président exécutif et chef des placements",
@@ -233,13 +229,7 @@ tab_ia <- data.frame(
   ),
   `Dirigeant(s)` = c(
     "Denis Ricard",
-    paste(
-      "Pierre Miron",
-      "Sean O’Brien",
-      "Renée Laflamme",
-      "Louis-Philippe Pouliot",
-      sep = "<br>"
-    ),
+    "—",
     "Éric Jobin",
     "Philippe Sarfati",
     "Alain Bergeron",
@@ -254,7 +244,7 @@ kbl(
   format = "html",
   escape = FALSE,
   align = c("l", "l", "l"),
-  caption = "Correspondance entre fonctions de direction et titres utilisés chez iA Groupe financier") %>%
+  caption = "Fonctions de direction et titres chez iA Groupe financier, selon le rapport annuel 2024") %>%
   kable_classic(full_width = TRUE, html_font = "sans-serif") %>%
   kable_styling(
     bootstrap_options = c("striped", "hover", "condensed"),
@@ -267,16 +257,16 @@ kbl(
 
 ### Les comités spécialisés
 
-Pour appuyer le Conseil d’administration et la haute direction, plusieurs comités spécialisés sont généralement mis en place. Ces comités permettent d’approfondir certains enjeux clés et de soutenir la prise de décision au plus haut niveau.
+Le conseil d’administration et la haute direction peuvent s’appuyer sur différents comités spécialisés. Certains sont des **comités du conseil**, principalement responsables de la surveillance; d’autres sont des **comités de direction**, davantage associés à la gestion courante et à la préparation des décisions. Leur rattachement exact varie selon l’organisation.
 
-- Le comité d’audit  
-  Il supervise la qualité de l’information financière et les mécanismes de contrôle interne. Il s’assure que les états financiers sont fiables et que les processus de vérification interne et externe sont adéquats.
+- **Le comité d’audit**  
+  Généralement rattaché au conseil d’administration, il surveille la qualité de l’information financière, les mécanismes de contrôle interne et les travaux des auditeurs internes et externes.
 
-- Le comité de gestion des risques  
-  Il se concentre sur l’identification et le suivi des risques importants. Il veille à ce que ces risques soient compris, mesurés et gérés de façon cohérente avec les objectifs de l’organisation.
+- **Le comité de gestion des risques**  
+  Selon sa structure et son rattachement, il contribue soit à la surveillance des principaux risques pour le compte du conseil, soit à leur gestion et à leur suivi au niveau de la direction.
 
-- Le comité d’investissement (lorsque pertinent)  
-  Dans les organisations qui gèrent des sommes importantes, ce comité supervise les orientations en matière de placement. Il s’assure que les décisions d’investissement sont compatibles avec les engagements financiers et avec l’appétit pour le risque.
+- **Le comité d’investissement (lorsque pertinent)**  
+  Il examine les orientations et les décisions en matière de placement. Un comité du conseil peut en surveiller les grandes politiques, tandis qu’un comité de direction peut participer à leur mise en œuvre.
 
 ### Politiques et cadres de gestion
 
@@ -291,7 +281,7 @@ Ces politiques servent de référence commune à l’ensemble de l’organisatio
 
 ### Rôle de l’actuariat dans la gouvernance
 
-Sans entrer encore dans le détail du travail actuariel, il est important de comprendre le rôle que joue l’actuariat au niveau de la gouvernance et de la haute direction. Dans ce contexte, l’actuariat joue un rôle clé de soutien à la gouvernance. Les actuaires fournissent des analyses quantitatives qui permettent d’éclairer les décisions prises au plus haut niveau.
+L’actuariat joue un rôle important dans le soutien à la gouvernance et à la haute direction. Les actuaires fournissent des analyses quantitatives qui permettent d’éclairer les décisions prises aux différents niveaux de l’organisation.
 
 Leurs travaux peuvent inclure :
 
@@ -307,7 +297,7 @@ Même si les actuaires ne prennent généralement pas les décisions finales, le
 
 Après avoir présenté les mécanismes de gouvernance et de pilotage au niveau organisationnel, cette section décrit les principaux départements qui assurent le fonctionnement quotidien d’une société d’assurance. Certains de ces départements sont communs à la majorité des grandes organisations, tandis que d’autres sont directement liés aux activités propres au secteur de l’assurance. 
 
-Il convient toutefois de noter que certaines fonctions, comme la gestion des risques d’entreprise et la conformité réglementaire, ne correspondent pas toujours à des départements opérationnels distincts. Elles jouent plutôt un rôle transversal, en soutenant la gouvernance et en encadrant l’ensemble des départements dans leurs activités quotidiennes. On peut aussi noter que la structure exacte des départements peut toutefois varier considérablement d’une organisation à l’autre. Selon la taille de la société, son modèle d’affaires et son niveau de spécialisation, certains départements peuvent être fusionnés, scindés, externalisés ou même absents. La présentation qui suit vise donc à décrire les grandes fonctions que l’on retrouve le plus fréquemment dans les sociétés d’assurance, plutôt qu’un organigramme universel ou rigide.
+Il convient toutefois de noter que certaines fonctions, comme la gestion des risques d’entreprise et la conformité réglementaire, ne correspondent pas toujours à des départements opérationnels distincts. Elles jouent plutôt un rôle transversal, en soutenant la gouvernance et en encadrant l’ensemble des départements dans leurs activités quotidiennes. La structure exacte des départements varie considérablement d’une organisation à l’autre. Selon la taille de la société, son modèle d’affaires et son niveau de spécialisation, certains départements peuvent être fusionnés, scindés, externalisés ou même absents. La présentation qui suit vise donc à décrire les grandes fonctions que l’on retrouve le plus fréquemment dans les sociétés d’assurance, plutôt qu’un organigramme universel ou rigide.
 
 - **Départements communs à la plupart des organisations** 
   - **Département de la comptabilité**  
@@ -342,6 +332,21 @@ Il convient toutefois de noter que certaines fonctions, comme la gestion des ris
   - **Département des affaires juridiques**  
     Le département des affaires juridiques assure l’interprétation et l’application du cadre légal, l’approbation des contrats, la gestion des litiges et le soutien juridique aux activités d’assurance, qui reposent largement sur des engagements contractuels.
 
+### Les interactions entre l’actuariat et les autres départements
+
+Les actuaires travaillent rarement de façon isolée. Leurs analyses dépendent des données et de l’expertise d’autres équipes et, en retour, orientent des décisions opérationnelles, financières ou commerciales. Les collaborations varient selon les domaines :
+
+| Fonction actuarielle | Collaborations fréquentes |
+|:---|:---|
+| **Tarification** | Souscription, distribution et développement des produits |
+| **Provisionnement** | Finance, comptabilité et indemnisation |
+| **Gestion du capital** | Finance, gestion des risques et placements |
+| **Réassurance** | Souscription, gestion des risques et finance |
+| **Analyse d’expérience** | Indemnisation, administration, analytique et données |
+| **Modélisation** | Technologies de l’information, finance et gestion des risques |
+
+Par exemple, une analyse de tarification peut nécessiter des données sur les sinistres, des informations sur les contrats et une discussion avec les équipes de souscription ou de distribution. La qualité d’un travail actuariel dépend donc autant de la compréhension du fonctionnement de l’assureur et de la qualité des données que des méthodes quantitatives utilisées.
+
 #### **Manuvie** {-}
 
 <div style="
@@ -358,17 +363,17 @@ text-align:center;
 </div>
 
 
-[Manuvie](https://www.manuvie.ca) (en anglais *Manulife Financial Corporation*) est une société canadienne de services financiers fondée en 1887. Son siège social principal est situé à Toronto, avec un siège secondaire à Montréal. Elle est historiquement connue sous le nom de *The Manufacturers Life Insurance Company* et constitue aujourd’hui la plus importante compagnie d’assurance au Canada, comme le décrit l’article de [Wikipédia](https://fr.wikipedia.org/wiki/Manuvie).  Manuvie exerce ses activités au Canada et à l’international. Elle est notamment présente aux États-Unis par l’intermédiaire de sa filiale [John Hancock](https://www.johnhancock.com), ainsi que dans plusieurs pays d’Asie et d’autres régions du monde. Cette présence internationale lui confère un rôle majeur dans le secteur de l’assurance et des services financiers à l’échelle mondiale, tel que présenté sur le site officiel de [Manulife](https://www.manulife.com/ca/fr/about-us/who-we-are/our-story).
+[Manuvie](https://www.manuvie.ca) (*Manulife Financial Corporation* en anglais) est une société canadienne de services financiers fondée en 1887, historiquement connue sous le nom de *The Manufacturers Life Insurance Company*. Son [siège social mondial est situé à Toronto, tandis que le siège de ses activités canadiennes se trouve à Waterloo](https://www.manulife.com/ca/en/business/contact-us), en Ontario. L’entreprise possède également une présence importante à Montréal. Elle exerce ses activités au Canada et à l’international, notamment aux États-Unis par l’intermédiaire de sa marque [John Hancock](https://www.johnhancock.com), ainsi que dans plusieurs pays d’Asie. Cette présence internationale est présentée sur le [site institutionnel de Manuvie](https://www.manulife.com/ca/fr/about-us/who-we-are/our-story).
 
 <div style="clear: both;"></div>
 
 ![](images/postesManuvie.png){width=100% fig-align="center"}
 
-La [page de postes disponibles chez Manuvie](https://careers.manulife.com/ca/fr/home)  (janvier 2026) illustre concrètement la diversité des fonctions présentes au sein d’une grande société d’assurance. On y observe que, bien que certains postes soient directement liés à l’actuariat, comme les stages coopératifs en actuariat ou les rôles en tarification et en finances des retraites, une part importante des emplois concerne d’autres départements essentiels au fonctionnement de l’organisation.
+La capture d’écran des [offres d’emploi de Manuvie](https://careers.manulife.com/ca/fr/home), relevées en janvier 2026, illustre la diversité des fonctions présentes au sein d’une grande société d’assurance. Les offres visibles sur le site peuvent avoir changé depuis. On y observe que, bien que certains postes soient directement liés à l’actuariat, comme les stages coopératifs en actuariat ou les rôles en tarification et en finances des retraites, une part importante des emplois concerne d’autres départements essentiels au fonctionnement de l’organisation.
 
-Les offres affichées couvrent notamment des fonctions en ventes et distribution, en services bancaires et crédit, en gestion de projets, en stratégie organisationnelle et en gestion opérationnelle. Cela reflète le fait qu’une compagnie d’assurance ne se limite pas à la production actuarielle, mais repose sur une combinaison de compétences financières, commerciales, technologiques, juridiques et managériales.
+Les offres affichées couvrent notamment des fonctions en ventes et distribution, en services bancaires et crédit, en gestion de projets, en stratégie organisationnelle et en gestion opérationnelle. Cet exemple met notamment en évidence le poids des fonctions opérationnelles et commerciales dans une grande société d’assurance.
 
-#### **Sunlife** {-}
+#### **Sun Life** {-}
 
 <div style="
 float:right;
@@ -393,9 +398,9 @@ text-align:center;
 ![](images/postesSunlife.png){width=80% fig-align="center"}
 
 
-L’annonce des [domaines d’expertise chez Sun Life  (janvier 2026)](https://www.sunlife.ca/fr/careers/become-an-employee/) met en évidence une organisation structurée autour de plusieurs pôles fonctionnels distincts, dont l’actuariat n’est qu’un élément parmi d’autres. Bien que l’actuariat y occupe une place centrale, notamment dans la conception des produits, la tarification et l’évaluation des risques, l’affichage montre clairement que l’entreprise repose sur une diversité de compétences spécialisées. On y retrouve des fonctions en analytique avancée et en science des données, qui soutiennent la prise de décision stratégique, l’optimisation des opérations et la compréhension des comportements des clients. Les activités de gestion d’actifs, de gestion de patrimoine et de placements illustrent également le rôle financier élargi des assureurs, qui agissent à la fois comme gestionnaires de risques et comme gestionnaires de capitaux à grande échelle.
+La capture des [domaines d’expertise présentés par Sun Life](https://www.sunlife.ca/fr/careers/become-an-employee/), réalisée en janvier 2026, met en évidence plusieurs pôles fonctionnels distincts. La présentation en ligne peut évoluer. Bien que l’actuariat y occupe une place centrale, notamment dans la conception des produits, la tarification et l’évaluation des risques, l’affichage montre clairement que l’entreprise repose sur une diversité de compétences spécialisées. On y retrouve des fonctions en analytique avancée et en science des données, qui soutiennent la prise de décision stratégique, l’optimisation des opérations et la compréhension des comportements des clients. Les activités de gestion d’actifs, de gestion de patrimoine et de placements illustrent également le rôle financier élargi des assureurs, qui agissent à la fois comme gestionnaires de risques et comme gestionnaires de capitaux à grande échelle.
 
-L’annonce met aussi en lumière des domaines plus opérationnels et transversaux, tels que l’analyse des opérations, la gestion des demandes de règlement, ainsi que la conformité et les affaires juridiques. Ces fonctions sont essentielles au fonctionnement quotidien de l’assureur, à l’application des contrats, au respect du cadre réglementaire et à la protection des intérêts de l’entreprise et des assurés.
+La présentation fait aussi ressortir des domaines opérationnels et transversaux, tels que l’analyse des opérations, la gestion des demandes de règlement, ainsi que la conformité et les affaires juridiques. Ces fonctions sont essentielles au fonctionnement quotidien de l’assureur, à l’application des contrats, au respect du cadre réglementaire et à la protection des intérêts de l’entreprise et des assurés.
 
 
 ## Structure des autres organisations qui emploient des actuaires
@@ -404,7 +409,7 @@ Après avoir décrit en détail la structure d’une société d’assurance, il
 
 ### Réassureurs
 
-Les réassureurs présentent une structure organisationnelle très proche de celle des assureurs. On y retrouve généralement un conseil d’administration, une haute direction et des départements spécialisés en finance, actuariat, gestion des risques et investissements. La différence principale réside dans la nature des activités. Les réassureurs ne sont pas en contact direct avec le grand public, mais travaillent avec des assureurs pour absorber une partie de leurs risques. L’actuariat y joue un rôle central, souvent axé sur la modélisation avancée, l’agrégation de portefeuilles complexes, l’analyse de risques extrêmes et la gestion de l’exposition globale.
+Les réassureurs présentent une structure proche de celle des assureurs, avec des fonctions de finance, d’actuariat, de gestion des risques et de placements. Leur clientèle est principalement constituée d’assureurs auxquels ils proposent de transférer une partie des risques. L’actuariat y met particulièrement l’accent sur la modélisation, l’agrégation de portefeuilles, les risques extrêmes et les expositions internationales.
 
 ### Cabinets de consultation en actuariat
 
@@ -444,21 +449,18 @@ text-align:center;
 </div>
 
 
-La firme de consultation [Normandin Beaudry](https://www.normandin-beaudry.ca) est une société de conseil pleinement québécoise, fondée en 1992 par André Normandin et René Beaudry, spécialisée dans les services-conseils en rémunération globale et en actuariat. Elle rassemble plus de 350 experts qui accompagnent des organisations de toutes tailles (grandes entreprises, PME, organismes publics, municipalités et organismes à but non lucratif) dans la conception, l’optimisation et la gestion de leurs programmes de retraite, d’assurance collective, d’épargne, de rémunération, de santé et de performance. L’entreprise est indépendante et détenue par ses spécialistes, ce qui lui permet de maintenir une stabilité de personnel clé et une expertise pointue. Elle possède des bureaux à Montréal, Toronto et Québec, et sert une clientèle à l’échelle canadienne.
+La firme de consultation [Normandin Beaudry](https://www.normandin-beaudry.ca) est une société de conseil d’origine québécoise, fondée en 1992 par André Normandin et René Beaudry, spécialisée dans les services-conseils en rémunération globale et en actuariat. Elle rassemble plus de 350 experts qui accompagnent des organisations de toutes tailles (grandes entreprises, PME, organismes publics, municipalités et organismes à but non lucratif) dans la conception, l’optimisation et la gestion de leurs programmes de retraite, d’assurance collective, d’épargne, de rémunération, de santé et de performance. L’entreprise est indépendante et détenue par ses spécialistes, ce qui lui permet de maintenir une stabilité de personnel clé et une expertise pointue. Elle possède des bureaux à Montréal, Toronto et Québec, et sert une clientèle à l’échelle canadienne.
 
 <div style="clear: both;"></div>
 
 
-Les [annonces de postes affichées  (janvier 2026)](https://www.normandin-beaudry.ca/offres-demploi/) par une firme de consultation, comme celle de Normandin-Beaudry ci-dessous, illustrent concrètement la structure organisationnelle décrite précédemment. On y observe que, même si l’actuariat constitue le cœur de l’expertise offerte aux clients, l’organisation repose sur un ensemble beaucoup plus large de fonctions spécialisées.
+La capture ci-dessous présente des [offres d’emploi chez Normandin Beaudry](https://www.normandin-beaudry.ca/offres-demploi/) relevées en janvier 2026; les postes actuellement affichés peuvent différer. Elle illustre la manière dont un cabinet de consultation organise ses activités autour de ses expertises et des mandats de ses clients.
 
 ![](images/postesNBAC.png){width=60% fig-align="center"}
 
 Les postes liés directement aux domaines de pratique, tels que le conseil en assurance collective ou en retraite, correspondent aux équipes structurées par spécialité et par type de mandats. À côté de ces rôles, la présence de postes en intelligence d’affaires, en ingénierie de données, en développement logiciel et en gestion des applications d’entreprise reflète l’importance croissante des outils analytiques, des systèmes internes et de l’automatisation dans la prestation des services-conseils.
 
 L’affichage met également en évidence des fonctions de soutien essentielles au fonctionnement quotidien du cabinet, comme l’administration, la gestion documentaire et l’administration des régimes. Ces rôles, bien que moins visibles du point de vue actuariel, sont nécessaires pour assurer la qualité des livrables, le respect des échéanciers et la conformité aux exigences contractuelles et réglementaires.
-
-Dans l’ensemble, ces annonces confirment que les cabinets de consultation fonctionnent comme des entreprises de services professionnelles structurées autour de leurs expertises, tout en intégrant des fonctions technologiques, administratives et organisationnelles qui soutiennent directement le travail des équipes de consultation.
-
 
 
 #### **Aon** {-}
@@ -477,27 +479,27 @@ text-align:center;
 </div>
 
 
-[Aon](https://www.aon.com) est une grande firme mondiale de services professionnels spécialisée dans la gestion des risques, le courtage d’assurance et de réassurance, ainsi que le conseil en retraite, santé et ressources humaines. Elle a été fondée en 1982 à la suite de la fusion de plusieurs sociétés d’assurance et prend son nom d’un mot gaélique signifiant « unité ». Son siège social se trouve à Londres, avec des opérations importantes à Chicago et dans plus d’une centaine de pays, ce qui en fait l’un des acteurs majeurs de son secteur à l’échelle internationale. 
+[Aon](https://www.aon.com) est une grande firme mondiale de services professionnels spécialisée dans la gestion des risques, le courtage d’assurance et de réassurance, ainsi que le conseil en retraite, santé et ressources humaines. Elle a été fondée en 1982 à la suite de la fusion de plusieurs sociétés d’assurance et prend son nom d’un mot gaélique signifiant « unité ». Son [siège statutaire se trouve à Dublin, en Irlande, tandis que son siège opérationnel mondial est situé à Londres](https://www.aon.com/en/about/leadership-and-governance/corporate-information). L’entreprise est également présente à Chicago et dans de nombreux autres marchés internationaux. 
 
 <div style="clear: both;"></div>
 
 
-Les [annonces de postes affichées (janvier 2026)](https://jobs.aon.com/jobs) par la firme Aon pour des postes au Canada illustrent une autre facette de la consultation en actuariat, marquée par l’envergure internationale et la diversification des activités.
+La capture des [offres d’emploi d’Aon au Canada](https://jobs.aon.com/jobs), relevées en janvier 2026, illustre une consultation actuarielle marquée par l’envergure internationale et la diversification des activités. Les offres en ligne peuvent avoir changé depuis.
 
 ![](images/postesAon.png){width=60% fig-align="center"}
 
 
-On y observe une organisation structurée à la fois par lignes d’affaires (retraite, réassurance, solutions de patrimoine, courtage, développement des affaires) et par fonctions transversales, reflétant la complexité opérationnelle d’une firme de services professionnels mondiale.  Les postes en consultation actuarielle et en gestion des régimes de retraite coexistent avec des rôles en réassurance, en développement des affaires, en opérations, en technologies et en gestion de programmes. Cette diversité montre que, dans une firme comme Aon, l’expertise actuarielle s’insère dans des équipes multidisciplinaires où interagissent des compétences analytiques, commerciales, opérationnelles et technologiques, souvent à l’échelle internationale.
+On y observe une organisation structurée à la fois par lignes d’affaires (retraite, réassurance, solutions de patrimoine, courtage, développement des affaires) et par fonctions transversales, reflétant la complexité opérationnelle d’une firme de services professionnels mondiale.  Les postes en consultation actuarielle et en gestion des régimes de retraite coexistent avec des rôles en réassurance, en développement des affaires, en opérations, en technologies et en gestion de programmes. Les équipes de consultation actuarielle collaborent ainsi avec des spécialistes du courtage, de la gestion des risques, de la technologie et des opérations, souvent dans un contexte international.
 
 La présence de stages, de postes en début de carrière et de fonctions de gestion souligne également le rôle d’Aon comme organisation de formation et de développement professionnel. Pour les étudiants en actuariat, cet exemple met en évidence que la consultation ne se limite pas à la production d’analyses techniques, mais implique aussi la coordination de projets, la relation client, la compréhension des marchés et l’adaptation à des contextes réglementaires et culturels variés.
 
 ### Institutions financières et secteurs connexes
 
-Dans les banques, les gestionnaires d’actifs ou d’autres institutions financières, les actuaires sont intégrés à des équipes qui traitent de gestion des risques, de modélisation financière, de gestion actif-passif (ALM), de capital ou d’analytique avancée. La structure organisationnelle ressemble à celle de grandes entreprises financières, avec une gouvernance formelle et des départements spécialisés. L’actuariat n’y est pas toujours un département distinct, mais plutôt une expertise intégrée à des équipes pluridisciplinaires composées de financiers, d’analystes et de spécialistes des données.
+Dans les banques, les sociétés de gestion d’actifs et les autres institutions financières, les actuaires se retrouvent généralement au sein d’équipes de gestion des risques, de modélisation financière, de gestion actif-passif (ALM), de capital ou d’analytique. Leur expertise s’intègre ainsi à des équipes multidisciplinaires plutôt qu’à un département d’actuariat distinct.
 
 ### Entreprises privées non financières
 
-Dans les grandes entreprises industrielles ou de services, la structure repose généralement sur une gouvernance classique (conseil d’administration et haute direction) et sur des départements fonctionnels comme les finances, les ressources humaines et les technologies de l’information.  Les actuaires y interviennent principalement dans des domaines ciblés, tels que les avantages sociaux, les régimes de retraite, la gestion des risques ou certaines analyses de coûts à long terme. Il est rare d’y trouver un département d’actuariat formel ; l’actuaire est souvent rattaché aux finances ou aux ressources humaines.
+Dans les grandes entreprises industrielles ou de services, les actuaires interviennent surtout sur des enjeux ciblés : avantages sociaux, régimes de retraite, gestion des risques ou coûts à long terme. Ils sont fréquemment rattachés aux finances ou aux ressources humaines plutôt qu’à un département d’actuariat distinct.
 
 
 ### Gouvernements et organismes publics
@@ -509,9 +511,6 @@ L’actuariat peut y être organisé sous différentes formes. Dans certains org
 Quelle que soit la forme retenue, l’actuariat s’insère dans une structure ministérielle ou parapublique caractérisée par une hiérarchie administrative formelle, des mandats définis par la loi et des mécanismes institutionnels de reddition de comptes. Contrairement aux assureurs privés, où l’actuariat constitue un pilier direct du modèle d’affaires, l’actuariat public agit comme une fonction d’expertise au service d’un mandat collectif.
 
 Les équipes auxquelles sont rattachés les actuaires regroupent souvent des profils variés, tels que des économistes, des statisticiens, des analystes financiers et des juristes. Cette organisation reflète le caractère multidisciplinaire de l’action publique et la nécessité d’intégrer l’analyse actuarielle dans un cadre décisionnel plus large.
-
-La gouvernance des organismes publics repose sur des mécanismes formels propres au secteur public, incluant les lois constitutives, les règlements, les orientations ministérielles et les processus de reddition de comptes. Les travaux d’analyse, dont ceux réalisés par les actuaires, s’inscrivent dans ce cadre institutionnel et contribuent à soutenir les décisions prises aux niveaux administratif et politique.
-
 
 ## Conclusion
 

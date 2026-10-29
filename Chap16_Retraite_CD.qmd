@@ -23,7 +23,7 @@ date-modified: last-modified
 
 Au chapitre précédent, nous avons étudié les régimes à prestations déterminées, qui reposent sur une promesse de revenu à la retraite. Nous abordons maintenant les régimes à cotisations déterminées, qui s’appuient sur une logique différente : l’accumulation d’une épargne au cours de la vie active, sans garantie explicite quant au revenu futur. Ce changement de perspective entraîne un transfert important des risques financiers vers l’individu et modifie la nature des décisions à prendre. Dans ce chapitre, nous présentons le fonctionnement général de ces régimes et leurs principales caractéristiques.
 
-L’objectif fondamental d’un régime à cotisations déterminées est de financer une épargne de retraite au moyen de cotisations versées pendant la vie active, sans engagement quant au niveau de revenu qui en découlera. Le montant disponible à la retraite dépend des cotisations accumulées et du rendement obtenu. Au moment de la retraite, les sommes peuvent être converties en revenu de différentes façons, notamment par l’achat d’une rente viagère ou par des retraits progressifs à partir d’un véhicule de décaissement. À la cessation d’emploi, les sommes sont généralement transférées dans un véhicule immobilisé, comme un CRI ou un fonds de revenu viager.
+L’objectif fondamental d’un régime à cotisations déterminées est de financer une épargne de retraite au moyen de cotisations versées pendant la vie active, sans engagement quant au niveau de revenu qui en découlera. Le montant disponible à la retraite dépend des cotisations accumulées et du rendement obtenu. Au moment de la retraite, les sommes peuvent être converties en revenu de différentes façons, notamment par l’achat d’une rente viagère ou par des retraits progressifs à partir d’un véhicule de décaissement. À la cessation d’emploi, le participant peut généralement conserver ses droits dans le régime ou les transférer, selon les règles applicables, vers un autre régime ou un véhicule immobilisé comme un compte de retraite immobilisé (CRI). Pour retirer des revenus d’un capital immobilisé, il peut notamment utiliser un fonds de revenu viager (FRV).
 
 ## Bref historique et évolution des régimes
 
@@ -45,7 +45,7 @@ max-width:320px;
 style="width:100%; height:auto; display:block;">
 
 <div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-Rusty Staub (1944–2018), surnommé le Grand Orange a été la première grande vedette des Expos de Montréal.
+Rusty Staub (1944–2018), surnommé le Grand Orange, a été l’une des premières grandes vedettes des Expos de Montréal.
 </div>
 
 </div>
@@ -76,14 +76,14 @@ max-width:320px;
 style="width:100%; height:auto; display:block;">
 
 <div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-Gary Carter (1954-2012), surnommé Le Kid, receveur étoile des Expos dans les années 1980
+Gary Carter (1954–2012), surnommé « Le Kid », receveur étoile des Expos dans les années 1980.
 </div>
 
 </div>
 
-À partir des années 1980, plusieurs facteurs viennent fragiliser ce modèle. D’abord, l’allongement de la longévité entraîne une augmentation directe du coût des régimes. Les rentes doivent être versées pendant une période plus longue que celle anticipée initialement, ce qui augmente la valeur des engagements du régime. Ensuite, la baisse progressive des taux d’intérêt a un effet actuariel important. Les prestations futures étant actualisées à des taux plus faibles, leur valeur actuelle augmente. À engagement identique, le passif du régime devient donc plus élevé, ce qui exige des cotisations supplémentaires.
+À partir des années 1980, plusieurs évolutions de long terme accentuent les contraintes financières de ce modèle. D’abord, l’allongement de la longévité entraîne une augmentation du coût des régimes, toutes choses étant égales par ailleurs. Les rentes doivent être versées pendant une période plus longue que celle anticipée initialement, ce qui augmente la valeur des engagements du régime. À plus long terme, la baisse des taux d’intérêt par rapport aux niveaux élevés du début des années 1980 a également un effet actuariel important. Les prestations futures étant actualisées à des taux plus faibles, leur valeur actuelle augmente. À engagement identique, le passif du régime devient donc plus élevé, ce qui exige des cotisations supplémentaires.
 
-Par ailleurs, la volatilité accrue des marchés financiers rend les rendements plus incertains. Comme les régimes à prestations déterminées reposent en partie sur le rendement des actifs pour financer les prestations, une baisse ou une instabilité des marchés peut rapidement créer des déficits. Ces facteurs affectent ainsi à la fois la valeur des engagements du régime et le rendement des actifs qui servent à les financer.
+Par ailleurs, les fluctuations des marchés financiers peuvent rendre les rendements plus incertains. Comme les régimes à prestations déterminées reposent en partie sur le rendement des actifs pour financer les prestations, une baisse ou une instabilité des marchés peut rapidement créer des déficits. Ces facteurs affectent ainsi à la fois la valeur des engagements du régime et le rendement des actifs qui servent à les financer.
 
 Pris ensemble, ces éléments augmentent à la fois le coût et l’incertitude associés aux régimes à prestations déterminées. L’employeur, qui garantit les prestations, se retrouve exposé à une plus grande volatilité des cotisations et à un risque accru de déficit. Cette détérioration progressive ne se traduit toutefois pas immédiatement par une crise visible, notamment en raison des rendements élevés observés à certaines périodes.
 
@@ -107,14 +107,14 @@ max-width:320px;
 style="width:100%; height:auto; display:block;">
 
 <div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-Pedro Martinez (1971-...), resté célèbre pour sa saison 1997 historique avec son premier trophée Cy Young, était un lanceur des Expos
+Pedro Martínez (né en 1971), resté célèbre pour sa saison 1997 historique avec son premier trophée Cy Young, était un lanceur des Expos
 </div>
 
 </div>
 
-Dans les années 1990, plusieurs régimes à prestations déterminées affichent des surplus actuariels, en raison notamment de rendements financiers élevés et d’hypothèses favorables. Ces surplus ne reflètent toutefois pas nécessairement une amélioration durable de la situation financière, mais plutôt une combinaison de conditions de marché favorables et d’hypothèses optimistes.
+Dans les années 1990, plusieurs régimes à prestations déterminées affichent des surplus actuariels, en raison notamment de bons rendements financiers et des hypothèses utilisées dans leurs évaluations. Ces surplus ne reflètent toutefois pas nécessairement une amélioration durable de la situation financière : ils peuvent dépendre de conditions de marché qui ne se maintiennent pas.
 
-Dans ce contexte, les règles de financement permettent aux employeurs de réduire, voire de suspendre temporairement leurs cotisations. Ces congés de cotisation reposent implicitement sur l’idée que les surplus accumulés suffiront à absorber les fluctuations futures. Par ailleurs, les évaluations actuarielles s’appuient souvent sur des hypothèses de rendement relativement optimistes, ce qui contribue à limiter les cotisations requises.
+Dans ce contexte, les règles de financement permettent aux employeurs de réduire, voire de suspendre temporairement leurs cotisations. Ces congés de cotisation sont permis dans certaines conditions par les règles de financement et dépendent des surplus disponibles. Les hypothèses actuarielles retenues influencent également la mesure des engagements et, par conséquent, les cotisations requises.
 
 Cette situation crée toutefois une fragilité. Lorsque les conditions de marché se détériorent — baisse des rendements ou diminution des taux d’intérêt — les surplus peuvent disparaître rapidement. Les régimes se retrouvent alors en déficit actuariel, parfois de façon importante. L’ajustement est alors brutal : les employeurs doivent reprendre les cotisations et, dans plusieurs cas, verser des contributions additionnelles pour combler les déficits. Ainsi, malgré une apparente stabilité, les mécanismes de financement mis en place durant cette période contribuent à amplifier les déséquilibres lorsque les conditions deviennent moins favorables.
 
@@ -138,7 +138,7 @@ max-width:320px;
 style="width:100%; height:auto; display:block;">
 
 <div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-Vladimir Guerrero (1975-...), meilleur joueur de l'histoire des Expos.  Ici, avec son fils Vladimir Guerrero Jr. joueur étoile actuel des Blue Jays de Toronto.
+Vladimir Guerrero (né en 1975), l’une des grandes vedettes de l’histoire des Expos.  Ici, avec son fils Vladimir Guerrero Jr. joueur étoile actuel des Blue Jays de Toronto.
 </div>
 
 </div>
@@ -180,18 +180,20 @@ Il n'y a plus d'équipe de baseball à Montréal et la mascotte Youppi! est dém
 
 </div>
 
-Aujourd’hui, les régimes de retraite offerts par les employeurs au Canada présentent une forte distinction entre le secteur public et le secteur privé.  
+Les régimes de retraite offerts par les employeurs canadiens présentent une distinction importante entre le secteur public et le secteur privé.  
 
-- Dans le **secteur public** — notamment au Québec — les régimes à prestations déterminées demeurent largement dominants. Ils sont présents dans les administrations gouvernementales, les municipalités, les réseaux de la santé et de l’éducation, ainsi que dans plusieurs universités. Ces régimes ont toutefois été ajustés au cours des dernières années, notamment par un partage accru des coûts entre employeurs et participants, ainsi que par des modifications à l’indexation des rentes. Leur maintien s’explique en partie par l’horizon à long terme des institutions publiques et leur capacité à absorber une certaine volatilité financière.
+- Dans le secteur public — notamment au Québec — les régimes à prestations déterminées demeurent largement dominants. Ils sont présents dans les administrations gouvernementales, les municipalités, les réseaux de la santé et de l’éducation, ainsi que dans plusieurs universités. Ces régimes ont toutefois été ajustés au cours des dernières années, notamment par un partage accru des coûts entre employeurs et participants, ainsi que par des modifications à l’indexation des rentes. Leur maintien s’explique en partie par l’horizon à long terme des institutions publiques et leur capacité à absorber une certaine volatilité financière.
 
-- Dans le **secteur privé**, la situation est très différente. Les régimes à prestations déterminées y sont désormais rares pour les nouveaux employés. Ils subsistent surtout sous forme de régimes fermés ou gelés, qui couvrent des employés ayant accumulé des droits dans le passé. Les nouveaux régimes offerts sont majoritairement des régimes à cotisations déterminées, des régimes hybrides ou encore des dispositifs plus simples comme des REER collectifs. Certaines grandes entreprises, notamment dans des secteurs historiquement syndiqués (transport, énergie, ressources naturelles), maintiennent encore des régimes à prestations déterminées, mais souvent avec des conditions révisées. À l’inverse, dans les secteurs plus concurrentiels ou à forte mobilité de main-d’œuvre, les régimes à cotisations déterminées sont devenus la norme. Ainsi, le paysage actuel reflète un compromis : les régimes à prestations déterminées subsistent principalement là où les contraintes institutionnelles permettent d’en soutenir les risques, tandis que les régimes à cotisations déterminées dominent là où la flexibilité et la prévisibilité des coûts sont privilégiées.
+- Dans le secteur privé, la situation est très différente. L’accès à un nouveau régime à prestations déterminées y est devenu moins courant dans plusieurs milieux. Une partie de ces régimes est fermée aux nouveaux employés ou gelée pour l’accumulation de nouveaux droits, mais d’autres demeurent ouverts. De nombreux employeurs privilégient désormais les régimes à cotisations déterminées, les régimes hybrides ou des dispositifs plus simples comme les REER collectifs pour les nouvelles adhésions. Certaines grandes entreprises, notamment dans des secteurs historiquement syndiqués (transport, énergie, ressources naturelles), maintiennent encore des régimes à prestations déterminées, mais souvent avec des conditions révisées. À l’inverse, plusieurs secteurs plus concurrentiels ou à forte mobilité de main-d’œuvre privilégient les régimes à cotisations déterminées ou l’épargne-retraite collective. Ainsi, le paysage actuel reflète un compromis : les régimes à prestations déterminées subsistent principalement là où les contraintes institutionnelles permettent d’en soutenir les risques, tandis que les régimes à cotisations déterminées dominent là où la flexibilité et la prévisibilité des coûts sont privilégiées.
 
-Cette évolution a également des implications pour la pratique actuarielle. La diminution relative des régimes à prestations déterminées réduit l’importance de certaines activités traditionnelles, comme l’évaluation et le financement de passifs à long terme. En contrepartie, elle accentue le rôle des actuaires dans d’autres domaines, notamment la gestion des risques financiers, la conception de produits de décaissement et l’analyse des comportements d’épargne et de retraite. Le rôle de l’actuaire ne disparaît donc pas, mais se transforme en fonction des nouvelles structures de régimes.
+Ces tendances doivent toutefois être distinguées du nombre total de personnes déjà couvertes. Selon [Statistique Canada, dans ses données publiées en juillet 2026](https://www150.statcan.gc.ca/n1/daily-quotidien/260728/dq260728a-fra.htm), les régimes à prestations déterminées regroupaient encore 68,1 % des participants actifs à un régime de pension agréé en 2024, contre 18,3 % pour les régimes à cotisations déterminées et 13,5 % pour d’autres types de régimes. Il serait donc inexact de croire que les régimes à prestations déterminées ont disparu du paysage canadien, même si les choix faits pour les nouveaux employés ont évolué.
+
+Cette évolution a également des implications pour la pratique actuarielle. Le développement des régimes à cotisations déterminées modifie la composition des activités actuarielles, sans faire disparaître l’évaluation et le financement de passifs à long terme. En contrepartie, elle accentue le rôle des actuaires dans d’autres domaines, notamment la gestion des risques financiers, la conception de produits de décaissement et l’analyse des comportements d’épargne et de retraite. Le rôle de l’actuaire ne disparaît donc pas, mais se transforme en fonction des nouvelles structures de régimes.
 
 <div style="clear: both;"></div>
 
 
-::: {#exm-5 .custom}
+::: {#exm-cd-nortel .custom}
 **- Nortel**
 
 <div style="
@@ -214,7 +216,7 @@ Après l'éclatement de la bulle technologique au début des années 2000, Norte
 
 Nortel offrait plusieurs régimes de retraite à prestations déterminées couvrant des milliers d'employés et de retraités. Les actifs de ces régimes étaient détenus dans des caisses de retraite juridiquement distinctes du patrimoine de l'entreprise. Ils étaient donc protégés contre les créanciers de Nortel et ne pouvaient pas être utilisés pour rembourser les dettes générales de l'entreprise.
 
-Toutefois, au moment de l'insolvabilité de Nortel, les régimes présentaient d'importants déficits de solvabilité : les actifs accumulés étaient insuffisants pour couvrir la valeur des prestations promises. En temps normal, l'employeur doit effectuer des cotisations supplémentaires pour financer de tels déficits, conformément aux règles applicables. Or, Nortel n'était plus en mesure d'assumer pleinement ces obligations. La liquidation des régimes a donc entraîné des réductions importantes des rentes. Certains retraités ontariens ont initialement subi des réductions d'environ 25 % à 30 %, tandis que celles de certains retraités québécois ont atteint environ 40 % à 43 %. Ces réductions ont ensuite été partiellement atténuées grâce aux sommes récupérées dans les procédures d'insolvabilité.
+Toutefois, au moment de l'insolvabilité de Nortel, les régimes présentaient d'importants déficits de solvabilité : les actifs accumulés étaient insuffisants pour couvrir la valeur des prestations promises. En temps normal, l'employeur doit effectuer des cotisations supplémentaires pour financer de tels déficits, conformément aux règles applicables. Or, Nortel n'était plus en mesure d'assumer pleinement ces obligations. La liquidation des régimes a ainsi exposé des retraités à des réductions importantes de leurs rentes. L’ampleur des réductions a varié selon les régimes et les provinces, et les montants finalement reçus ont aussi été influencés par les recouvrements obtenus au cours des procédures d’insolvabilité.
 
 Ce cas illustre une distinction fondamentale des régimes à prestations déterminées : la protection juridique des actifs d'une caisse de retraite ne garantit pas nécessairement le versement intégral des prestations promises. Même lorsque les actifs sont séparés de ceux de l'employeur, un déficit de solvabilité peut entraîner des pertes pour les participants si l'entreprise devient insolvable et ne peut plus verser les cotisations nécessaires. La solidité financière de l'employeur demeure donc un élément important de la sécurité des prestations de retraite.
 
@@ -224,7 +226,7 @@ Ce cas illustre une distinction fondamentale des régimes à prestations déterm
 
 :::
 
-::: {#exm-6 .custom}
+::: {#exm-cd-air-canada .custom}
 **- Air Canada**
 
 <div style="
@@ -251,7 +253,7 @@ La situation s'est toutefois améliorée considérablement par la suite. En janv
 
 Ce cas illustre une difficulté importante des régimes à prestations déterminées : les obligations de financement peuvent représenter une contrainte financière majeure pour une entreprise, même lorsqu'elle poursuit ses activités. Il montre également que la situation actuarielle d'un régime peut évoluer rapidement, notamment en fonction des marchés financiers, des taux d'intérêt et des caractéristiques du régime.
 
-**Sources :** Gouvernement du Canada (2014), [*Règlement sur la capitalisation des régimes de pension d'Air Canada*](https://gazette.gc.ca/rp-pr/p2/2014/2014-01-01/html/sor-dors244-fra.html).
+**Sources :** Gouvernement du Canada (2014), [*Règlement sur la capitalisation des régimes de pension d'Air Canada*](https://gazette.gc.ca/rp-pr/p2/2014/2014-01-01/html/sor-dors244-fra.html) ; [Air Canada, communiqué du 22 janvier 2014 sur la situation de solvabilité](https://www.newswire.ca/news-releases/air-canada-provides-pension-plan-solvency-update---domestic-plans-estimated-to-be-in-a-small-surplus-position-as-at-january-1-2014-513592141.html).
 
 <div style="clear: both;"></div>
 
@@ -265,9 +267,17 @@ Les participants disposent de certains droits d'accès à l'information, tandis 
 
 ## Fonctionnement des régimes à cotisations déterminées
 
-Les régimes à cotisations déterminées présentent moins de diversité conceptuelle que les régimes à prestations déterminées, puisqu’ils reposent tous sur une même logique fondamentale : l’employeur et, dans la plupart des cas, l’employé versent des cotisations définies à l’avance dans un compte individuel. Les sommes accumulées, ainsi que le rendement obtenu au fil du temps, déterminent le capital disponible à la retraite. Ce capital doit ensuite être converti en revenu de retraite, soit par l’achat d’une rente viagère, soit par des retraits progressifs à partir d’un véhicule de décaissement.
+Les régimes à cotisations déterminées reposent sur une même logique fondamentale : l’employeur et, dans certains cas, l’employé versent des cotisations dont le montant ou la méthode de calcul est fixé à l’avance. Ces cotisations sont créditées au compte individuel du participant. Les sommes accumulées, ainsi que le rendement obtenu au fil du temps, déterminent le capital disponible à la retraite. Ce capital doit ensuite être converti en revenu de retraite, soit par l’achat d’une rente viagère, soit par des retraits progressifs à partir d’un véhicule de décaissement.
 
-Contrairement aux régimes à prestations déterminées, les régimes à cotisations déterminées reposent sur une logique individualisée. Chaque participant possède un compte distinct dans lequel sont versées les cotisations et accumulés les rendements. Le montant disponible à la retraite dépend donc directement de l’historique de cotisation et des rendements propres à ce compte.  Ainsi, deux employés ayant le même salaire peuvent obtenir des résultats différents à la retraite, selon leur comportement d’épargne et les choix de placement effectués.
+Contrairement aux régimes à prestations déterminées, les régimes à cotisations déterminées reposent sur une logique individualisée. Chaque participant possède un compte distinct dans lequel sont versées les cotisations et accumulés les rendements. Le montant disponible à la retraite dépend donc directement de l’historique de cotisation et des rendements propres à ce compte.  Ainsi, deux employés ayant le même salaire peuvent obtenir des résultats différents à la retraite si leurs cotisations, leurs périodes de participation ou leurs rendements diffèrent.
+
+### Du capital accumulé au revenu de retraite
+
+Pendant la carrière, le régime CD permet d’accumuler un capital, mais ce capital ne correspond pas automatiquement à une rente garantie. Au moment du départ à la retraite, plusieurs possibilités existent, selon les règles du régime et la législation applicable : l’achat d’une rente viagère auprès d’un assureur, le transfert dans un véhicule de décaissement, ou le maintien des sommes dans un mécanisme de versements offert par le régime, lorsque cela est permis.
+
+Au Québec, on distingue notamment le compte de retraite immobilisé (CRI), qui sert à conserver et à faire fructifier des sommes immobilisées, et le fonds de revenu viager (FRV), qui permet de retirer des revenus à partir de ces sommes. Contrairement à une rente viagère garantie par un assureur, les retraits d’un FRV ne garantissent pas à eux seuls que le capital durera jusqu’au décès.
+
+Les règles de décaissement dépendent de la juridiction. Depuis le 1er janvier 2025, pour les FRV régis par les règles québécoises visées, il n’existe plus de plafond de retrait à partir de 55 ans. Les retraits minimaux prévus par les règles fiscales demeurent applicables et les transferts directs d’un FRV vers un REER ou un FERR ne sont plus permis. Ces changements ne s’appliquent pas automatiquement aux véhicules régis par les règles fédérales. Voir [Retraite Québec — Modifications relatives aux FRV à compter de 2025](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/modifications-frv-compter-2025).
 
 ### Types de régimes à cotisations déterminées
 
@@ -280,25 +290,25 @@ Contrairement aux régimes à prestations déterminées, les régimes à cotisat
 
 Ces choix ne sont pas neutres. Ils influencent directement le niveau d’épargne accumulé, mais aussi le comportement des participants. Les exemples suivants illustrent différentes logiques utilisées en pratique.
 
-::: {#exm-5 .custom}
+::: {#exm-cd-patronal .custom}
 **- Régime simple (cotisation patronale seulement)**
 
 L’employeur cotise 4 % du salaire; l’employé ne cotise pas. Ce type de régime est simple à administrer et entièrement financé par l’employeur, mais il limite l’accumulation, puisqu’il ne repose que sur un seul flux de cotisation.
 :::
 
-::: {#exm-5 .custom}
+::: {#exm-cd-contributif .custom}
 **- Régime contributif fixe**
 
-L’employeur et l’employé cotisent chacun 9 % du salaire (ex. régime des chargés de cours de l’UQAM). L’effort d’épargne est partagé et automatique, ce qui permet une accumulation plus importante et relativement prévisible.
+L’employeur et l’employé cotisent chacun 9 % du salaire. Le [Régime de retraite des chargés de cours de l’Université du Québec (RRCCUQ)](https://rrcc.uquebec.ca/faq.php) offre notamment cette possibilité, mais le participant peut choisir d’autres taux de cotisation salariale selon les règles du régime. La contribution patronale correspond à la contribution salariale pour ce régime. L’effort d’épargne est ainsi partagé; le montant accumulé demeure toutefois dépendant des rendements.
 :::
 
-::: {#exm-5 .custom}
+::: {#exm-cd-appariement .custom}
 **- Régime avec appariement**
 
-L’employé cotise, à son choix, de 0 % à 4 % du salaire; l’employeur cotise 5 % du salaire, plus 0,25 % pour chaque 1 % cotisé par l’employé. Ce type de formule introduit une incitation directe : l’employé est encouragé à cotiser davantage pour maximiser la contribution de l’employeur.
+L’employé cotise, à son choix, de 0 % à 4 % du salaire; l’employeur cotise 5 % du salaire, plus 0,25 point de pourcentage pour chaque 1 % du salaire cotisé par l’employé (soit une cotisation patronale allant de 5 % à 6 %). Ce type de formule introduit une incitation directe : l’employé est encouragé à cotiser davantage pour maximiser la contribution de l’employeur.
 :::
 
-::: {#exm-5 .custom}
+::: {#exm-cd-croissant .custom}
 **- Régime à cotisation croissante (profil de carrière)**
 
 L’employeur augmente sa cotisation en fonction des années de service :  
@@ -311,7 +321,7 @@ L’employeur augmente sa cotisation en fonction des années de service :
   - 11–12 ans : 12 %  
   - plus de 12 ans : 14 %  
 
-L’employé cotise 4 % du salaire. Ce type de structure concentre l’effort d’épargne en fin de carrière. Il cherche ainsi à reproduire partiellement la logique des régimes à prestations déterminées, où les droits sont fortement influencés par les dernières années de salaire et de service. Dans tous les cas, les cotisations versées sont créditées dans un compte individuel. Le montant accumulé dépend à la fois des cotisations et des rendements obtenus, ce qui introduit une variabilité importante entre les participants.
+L’employé cotise 4 % du salaire. Ce type de structure augmente la proportion du salaire cotisée à mesure que le service s’accumule. Il peut favoriser la fidélisation, sans toutefois reproduire une véritable promesse de prestations déterminées. Dans ces exemples, les cotisations sont créditées au compte du participant et le montant accumulé dépend des cotisations, des rendements et des frais applicables.
 :::
 
 
@@ -320,7 +330,7 @@ L’employé cotise 4 % du salaire. Ce type de structure concentre l’effort d�
 
 ### Gestion des placements
 
-Un autre élément important de différenciation entre les régimes concerne la gestion des placements. Dans la majorité des régimes à cotisations déterminées, le participant doit choisir la répartition de ses placements parmi un ensemble d’options offertes par le régime (fonds d’actions, obligations, fonds équilibrés, etc.). Le rendement obtenu dépend donc en partie de ces choix. Toutefois, cette liberté est encadrée. L’employeur (ou le fournisseur du régime) détermine généralement une gamme limitée de fonds accessibles, afin de contrôler les risques et de simplifier la prise de décision. De plus, plusieurs régimes offrent une option par défaut, souvent sous la forme d’un fonds à date cible, dans lequel les cotisations sont investies automatiquement si le participant ne fait pas de choix. Dans ce cas, la gestion des placements est déléguée à un gestionnaire professionnel, selon un profil qui évolue avec l’âge du participant. Ainsi, bien que le régime repose sur des comptes individuels, la gestion des placements demeure en pratique partiellement mutualisée et encadrée.
+Un autre élément important de différenciation entre les régimes concerne la gestion des placements. Dans plusieurs régimes à cotisations déterminées, le participant choisit la répartition de ses placements parmi un ensemble d’options offertes par le régime (fonds d’actions, obligations, fonds équilibrés, etc.). Dans d’autres, les placements sont gérés collectivement ou par des professionnels, avec une latitude plus limitée pour le participant. Le rendement obtenu dépend donc en partie de ces choix. Toutefois, cette liberté est encadrée. L’administrateur du régime, avec les intervenants concernés, définit les options offertes et en assure la surveillance conformément à ses obligations. De plus, plusieurs régimes offrent une option par défaut, souvent sous la forme d’un fonds à date cible, dans lequel les cotisations sont investies automatiquement si le participant ne fait pas de choix. Dans ce cas, la gestion des placements est déléguée à un gestionnaire professionnel, selon un profil qui évolue avec l’âge du participant. Ainsi, même si les droits sont suivis dans des comptes individuels, les placements peuvent être administrés collectivement. Cela ne signifie pas pour autant que le risque de rendement ou de longévité est automatiquement mutualisé entre les participants.
 
 ### Caractéristiques et encadrement
 
@@ -345,10 +355,10 @@ Bien que les régimes à cotisations déterminées soient généralement moins c
   En cas de cessation d’emploi, le participant peut généralement transférer les sommes accumulées vers un autre régime ou vers un véhicule immobilisé (par exemple un CRI). Cette portabilité est plus simple que dans un régime à prestations déterminées, où la valeur transférée dépend d’hypothèses actuarielles et peut être soumise à certaines restrictions. La valeur correspond ici directement au compte accumulé, ce qui facilite les mouvements entre employeurs.
 
 - **Acquisition des droits (*vesting*)**  
-  Les cotisations de l’employé lui appartiennent en tout temps. Les cotisations de l’employeur sont, dans la plupart des juridictions canadiennes, acquises immédiatement (ou après un délai limité). Cette règle est aujourd’hui similaire à celle des régimes à prestations déterminées, mais son effet est plus transparent ici, puisque les droits sont exprimés sous forme de solde individuel plutôt que de prestation future.
+  Les cotisations salariales appartiennent au participant. Au Québec, les droits découlant des cotisations patronales à un régime de retraite assujetti à la LRCR sont également acquis sans délai; les règles peuvent différer selon la juridiction et le type de régime. Cette règle est aujourd’hui similaire à celle des régimes à prestations déterminées, mais son effet est plus transparent ici, puisque les droits sont exprimés sous forme de solde individuel plutôt que de prestation future.
 
 - **Absence d’évaluation actuarielle de financement**  
-  Il n’est pas nécessaire d’effectuer des évaluations actuarielles de financement, puisqu’il n’y a pas d’engagement à long terme à évaluer. À l’inverse, les régimes à prestations déterminées nécessitent un suivi actuariel régulier pour mesurer les engagements et ajuster les cotisations. L’absence de ce mécanisme simplifie l’administration, mais élimine aussi un mécanisme formel de suivi des engagements à long terme.
+  Pour un régime à cotisations déterminées pur, il n’est généralement pas nécessaire d’effectuer des évaluations actuarielles périodiques de financement d’une rente promise, puisque le régime ne garantit pas de prestation de retraite déterminée. À l’inverse, les régimes à prestations déterminées nécessitent un suivi actuariel régulier pour mesurer les engagements et ajuster les cotisations. L’absence de ce mécanisme simplifie l’administration, mais élimine aussi un mécanisme formel de suivi des engagements à long terme.
 
 - **Information aux participants**  
   Les participants reçoivent périodiquement de l’information sur les cotisations, le rendement et la valeur de leur compte. Cette information est généralement plus directe et compréhensible que dans un régime à prestations déterminées, où la valeur des droits dépend de formules et d’hypothèses actuarielles. En contrepartie, cette transparence s’accompagne d’une plus grande responsabilité individuelle.
@@ -357,13 +367,13 @@ Bien que les régimes à cotisations déterminées soient généralement moins c
   Les cotisations de l’employeur peuvent être fixes ou liées à celles de l’employé (appariement). Il n’existe généralement pas d’obligation d’équivalence stricte entre les contributions. Dans un régime à prestations déterminées, la structure de financement est encadrée de manière plus rigide afin d’assurer le respect de la promesse de rente. Ici, la flexibilité est plus grande, mais elle se traduit par une variabilité accrue des résultats pour le participant.
 
 - **Absence de déficit ou de surplus actuariel**  
-  Le régime ne présente pas de surplus ni de déficit actuariel, puisque les engagements correspondent en tout temps aux sommes accumulées dans les comptes. Cette caractéristique élimine un enjeu central des régimes à prestations déterminées, soit le financement des déficits. Toutefois, elle signifie aussi que tout déséquilibre est absorbé directement par le participant, sous forme d’un capital insuffisant à la retraite.
+  Un régime à cotisations déterminées pur n’a pas à financer un passif de prestations garanties comme un régime à prestations déterminées. Il ne présente donc généralement pas de déficit ou de surplus de financement lié à une rente promise. Cela n’exclut pas des cotisations dues mais non versées ni d’autres obligations administratives. Le risque principal pour le participant est plutôt que son compte accumulé soit insuffisant pour procurer le revenu de retraite souhaité.
 
 <div style="clear: both;"></div>
 
 ### Risques
 
-Dans un régime à cotisations déterminées, l’absence de promesse de rente a une conséquence directe : le niveau de revenu à la retraite dépend entièrement des sommes accumulées et des conditions de marché. L’employé est donc exposé à une série de risques qui étaient, dans un régime à prestations déterminées, assumés en grande partie par l’employeur.
+Dans un régime à cotisations déterminées, l’absence de promesse de rente a une conséquence directe : le revenu financé par le régime dépend du capital accumulé, du mode de décaissement choisi et des conditions financières pertinentes. L’employé est donc exposé à une série de risques qui étaient, dans un régime à prestations déterminées, assumés en grande partie par l’employeur.
 
 - **Rendement des placements**  
   Ce risque joue un rôle central. Si les rendements obtenus au cours de la vie active sont inférieurs aux attentes, le capital accumulé sera insuffisant pour soutenir un revenu de retraite adéquat. Cette incertitude est amplifiée par la volatilité des marchés, particulièrement à l’approche de la retraite. Dans un régime à prestations déterminées, ce risque est essentiellement assumé par l’employeur : la rente promise est indépendante du rendement réel des actifs. Le régime agit donc comme un mécanisme de mutualisation et de stabilisation. À cet égard, le régime à cotisations déterminées expose directement le participant à un risque qui était auparavant collectivisé.
@@ -375,10 +385,10 @@ Dans un régime à cotisations déterminées, l’absence de promesse de rente a
   Le moment de la retraite influence directement le revenu pouvant être tiré du capital accumulé. Lorsque les taux d’intérêt sont faibles, le coût d’achat d’une rente est plus élevé, ce qui réduit le revenu disponible. Deux individus ayant accumulé des montants similaires peuvent ainsi obtenir des revenus très différents.  Dans un régime à prestations déterminées, ce risque est largement atténué pour le participant, puisque la rente est déterminée par une formule prédéfinie. Toutefois, il ne disparaît pas : il est transféré au régime (et donc ultimement à l’employeur), notamment à travers le financement actuariel.
 
 - **Risque décisionnel**  
-  Les décisions de placement et de décaissement sont souvent laissées au participant. Ces choix influencent directement le résultat final, et des décisions inadéquates peuvent détériorer significativement le revenu de retraite. Ce risque est pratiquement absent dans un régime à prestations déterminées, où les décisions sont centralisées et prises par des professionnels (actuaires, gestionnaires de portefeuille). Le régime à cotisations déterminées introduit donc une responsabilité supplémentaire pour le participant, sans nécessairement lui donner les compétences pour l’assumer.
+  Les décisions de placement et de décaissement sont souvent laissées au participant. Ces choix influencent directement le résultat final, et des décisions inadéquates peuvent détériorer significativement le revenu de retraite. Ce risque est généralement plus limité pour le participant à un régime à prestations déterminées, sans disparaître entièrement : les décisions relatives à la date de retraite et aux options de rente conservent leur importance. Le régime à cotisations déterminées introduit donc une responsabilité supplémentaire pour le participant, sans nécessairement lui donner les compétences pour l’assumer.
 
 - **Risque d’inflation**  
-  Même si certains placements peuvent offrir une protection partielle, rien ne garantit que le rendement suivra l’évolution du coût de la vie, ce qui peut éroder le pouvoir d’achat du revenu de retraite. Dans un régime à prestations déterminées, ce risque dépend de la présence ou non d’une indexation des rentes. Sans indexation, le problème est similaire. Avec indexation, le risque est partiellement transféré à l’employeur. En régime à cotisations déterminées, la protection contre l’inflation repose entièrement sur les choix d’investissement du participant, ce qui rend le résultat incertain.
+  Même si certains placements peuvent offrir une protection partielle, rien ne garantit que le rendement suivra l’évolution du coût de la vie, ce qui peut éroder le pouvoir d’achat du revenu de retraite. Dans un régime à prestations déterminées, ce risque dépend de la présence ou non d’une indexation des rentes. Sans indexation, le problème est similaire. Avec indexation, le risque est partiellement transféré à l’employeur. En régime à cotisations déterminées, la protection contre l’inflation dépend des placements, du mode de décaissement et des options de rente retenues; le résultat demeure incertain.
   
 
 ### Avantages et inconvénients 
@@ -401,7 +411,7 @@ text-align:center;
 
 Du point de vue de l’employé, les régimes à cotisations déterminées offrent d’abord une plus grande transparence. La valeur accumulée dans le compte est connue en tout temps, ce qui permet de suivre directement l’évolution de l’épargne. Cette individualisation des droits facilite également la portabilité : en cas de changement d’employeur, les sommes accumulées peuvent être transférées sans dépendre de l’historique salarial futur. Le régime offre aussi une certaine flexibilité. Dans la plupart des cas, l’employé peut choisir la répartition de ses placements parmi les options offertes, et il dispose de plusieurs possibilités au moment de la retraite pour convertir son capital en revenu, que ce soit par l’achat d’une rente ou par des retraits progressifs.
 
-Ces avantages s’accompagnent toutefois de contreparties importantes. L’employé assume directement les risques financiers associés au régime. Le rendement des placements, la durée de vie et les conditions de marché au moment de la retraite influencent le niveau de revenu obtenu, ce qui rend celui-ci incertain et difficile à prévoir à l’avance. De plus, le résultat dépend en partie des décisions prises par le participant, tant en matière de placement que de décaissement. Cette responsabilité introduit un risque comportemental, notamment si les choix effectués ne sont pas adaptés à la situation de l’individu. Enfin, contrairement aux régimes à prestations déterminées, il n’y a pas de mutualisation du risque de longévité. Deux individus ayant accumulé des montants similaires peuvent obtenir des revenus très différents, selon leur durée de vie et les conditions économiques au moment de leur retraite.
+Ces avantages s’accompagnent toutefois de contreparties importantes. L’employé assume directement les risques financiers associés au régime. Le rendement des placements, la durée de vie et les conditions de marché au moment de la retraite influencent le niveau de revenu obtenu, ce qui rend celui-ci incertain et difficile à prévoir à l’avance. De plus, le résultat dépend en partie des décisions prises par le participant, tant en matière de placement que de décaissement. Cette responsabilité introduit un risque comportemental, notamment si les choix effectués ne sont pas adaptés à la situation de l’individu. Enfin, à moins de choisir une rente viagère ou un autre mécanisme de mutualisation, le régime ne protège pas directement le participant contre le risque d’épuiser son capital en vivant longtemps. Deux individus ayant accumulé des montants similaires peuvent obtenir des revenus très différents, selon leur durée de vie et les conditions économiques au moment de leur retraite.
 
 <div style="clear: both;"></div>
 
@@ -421,15 +431,15 @@ text-align:center;
 </div>
 
 
-Du point de vue de l’employeur, les régimes à cotisations déterminées offrent avant tout une prévisibilité financière. Les cotisations étant définies à l’avance, le coût du régime est connu et ne dépend pas de l’évolution des marchés financiers, des taux d’intérêt ou de la longévité des participants. Contrairement aux régimes à prestations déterminées, l’employeur n’est pas exposé à un risque actuariel lié à des engagements futurs incertains. Cette structure réduit également la volatilité financière associée au régime. L’employeur n’a pas à compenser d’éventuels déficits ni à ajuster ses cotisations en fonction de la situation actuarielle du régime. L’administration est généralement plus simple, puisqu’il n’est pas nécessaire d’effectuer des évaluations actuarielles de financement ni de gérer des surplus ou des déficits.
+Du point de vue de l’employeur, les régimes à cotisations déterminées offrent avant tout une prévisibilité financière. La formule de cotisation étant définie à l’avance, le coût du régime est plus prévisible et ne dépend normalement pas des fluctuations du passif actuariel. Le montant effectivement versé varie toutefois avec la masse salariale, le nombre de participants et les modalités du régime. Contrairement aux régimes à prestations déterminées, l’employeur n’est pas exposé à un risque actuariel lié à des engagements futurs incertains. Cette structure réduit également la volatilité financière associée au régime. L’employeur n’a normalement pas à verser des cotisations d’équilibre pour financer une prestation de retraite garantie, mais il demeure tenu de payer les cotisations prévues et de respecter ses autres obligations. L’administration est généralement plus simple, puisqu’il n’est pas nécessaire d’effectuer des évaluations actuarielles de financement ni de gérer des surplus ou des déficits.
 
-Ces avantages ont toutefois une contrepartie. Les régimes à cotisations déterminées sont souvent perçus comme moins avantageux par les employés, en particulier dans les milieux syndiqués, puisqu’ils ne garantissent aucun niveau de revenu à la retraite. Ils offrent également moins de leviers pour gérer la main-d’œuvre, notamment en matière de retraite anticipée ou de planification des départs. Enfin, en individualisant les droits et en réduisant la dépendance à l’employeur, ces régimes tendent à diminuer le pouvoir de rétention à long terme, comparativement à certains régimes à prestations déterminées.
+Ces avantages ont toutefois une contrepartie. Les régimes à cotisations déterminées sont souvent perçus comme moins avantageux par les employés, en particulier dans les milieux syndiqués, puisqu’ils ne garantissent aucun niveau de revenu à la retraite. Ils offrent également moins de leviers pour gérer la main-d’œuvre, notamment en matière de retraite anticipée ou de planification des départs. Enfin, la portabilité et l’individualisation des droits peuvent réduire certains mécanismes de rétention associés aux régimes à prestations déterminées, même si l’effet dépend de la conception du régime et du marché du travail.
 
 <div style="clear: both;"></div>
 
 ### Rôle des actuaires
 
-Le développement des régimes à cotisations déterminées a modifié de façon importante le rôle des actuaires dans le domaine des régimes de retraite. Dans les régimes à prestations déterminées, l’actuaire joue un rôle central : il évalue les engagements du régime, détermine les cotisations requises et analyse les risques liés à la longévité, aux taux d’intérêt et aux rendements. La diminution relative de ces régimes a donc réduit l’importance de certaines activités traditionnelles, notamment les évaluations actuarielles de financement. Toutefois, le rôle de l’actuaire ne disparaît pas. Il se transforme. Dans les régimes à cotisations déterminées, l’intervention actuarielle est moins centrée sur l’évaluation d’un passif collectif et davantage orientée vers l’analyse des risques et l’accompagnement des décisions. Les actuaires contribuent notamment à :  
+Le développement des régimes à cotisations déterminées a modifié de façon importante le rôle des actuaires dans le domaine des régimes de retraite. Dans les régimes à prestations déterminées, l’actuaire joue un rôle central : il évalue les engagements du régime, détermine les cotisations requises et analyse les risques liés à la longévité, aux taux d’intérêt et aux rendements. L’évolution de la répartition des régimes influe sur la demande de certaines activités traditionnelles, notamment les évaluations actuarielles de financement. Toutefois, le rôle de l’actuaire ne disparaît pas. Il se transforme. Dans les régimes à cotisations déterminées, l’intervention actuarielle est moins centrée sur l’évaluation d’un passif collectif et davantage orientée vers l’analyse des risques et l’accompagnement des décisions. Les actuaires contribuent notamment à :  
 
 - la conception des régimes et des structures de cotisation;  
 - l’élaboration des options de placement offertes aux participants;  
@@ -440,7 +450,7 @@ Par ailleurs, les actuaires demeurent essentiels dans les régimes à prestation
 
 
 
-## Régimes mixtes
+## Régimes mixtes et régimes à prestations cibles
 
 <div style="
 float:right;
@@ -455,11 +465,11 @@ text-align:center;
 </div>
 </div>
 
-Pour terminer la présentation des différentes logiques de conception des régimes de retraite, il convient d'introduire les régimes mixtes qui cherchent à utiliser certaines des caractéristiques des régimes à prestations déterminées avec des caractéristiques des régimes à cotisations déterminées. Plus précisément, les régimes mixtes cherchent à répondre à une tension fondamentale : offrir une certaine prévisibilité du revenu de retraite, comme dans un régime à prestations déterminées, tout en limitant l’exposition financière de l’employeur, comme dans un régime à cotisations déterminées. Ils reposent donc sur un partage du risque entre l’employeur et les participants, plutôt que sur une prise en charge complète par l’un ou l’autre. Deux grandes approches de régimes mixtes sont observées en pratique :
+Pour terminer la présentation des différentes logiques de conception des régimes de retraite, il convient d’introduire les régimes mixtes et les régimes à prestations cibles. Ils se situent, de manières différentes, entre la promesse d’une prestation déterminée et l’accumulation d’un compte individuel. Il faut toutefois éviter de les considérer comme une catégorie juridique unique : un régime combinant des volets PD et CD ne fonctionne pas comme un régime à prestations cibles. Deux approches permettent d’illustrer ces différences :
 
 - **Régimes à deux volets**  
 
-  Dans un régime à deux volets, la prestation de retraite provient de deux composantes distinctes : une composante à prestations déterminées et une composante à cotisations déterminées. Par exemple, un régime peut prévoir :
+  Dans un régime à deux volets, le revenu de retraite peut provenir de deux composantes distinctes : une composante à prestations déterminées et une composante à cotisations déterminées. Par exemple, un régime peut prévoir :
   - une rente à prestations déterminées de 0,8 % du salaire par année de service;
   - combinée à une cotisation de type cotisations déterminées de l’ordre de 2 % du salaire.
 
@@ -467,39 +477,39 @@ Pour terminer la présentation des différentes logiques de conception des régi
 
 - **Régimes à prestations cibles**  
 
-  Les régimes à prestations cibles constituent une approche différente. Ils visent à fournir un niveau de rente déterminé à l’avance, mais sans garantie formelle. Les cotisations sont généralement fixées à un niveau stable, et l’actuaire évalue périodiquement si les actifs accumulés sont suffisants pour financer la rente cible. En cas d’écart, des ajustements peuvent être apportés, par exemple :
-  - modification des cotisations;
-  - réduction ou suspension de l’indexation;
-  - ajustement des prestations futures, et parfois des prestations déjà promises.
+  Les régimes à prestations cibles constituent une approche différente. Ils visent à fournir un niveau de rente déterminé à l’avance, mais sans garantie formelle. Au Québec, les cotisations patronales prévues et la cible de prestations sont fixées à l’avance. Les engagements et les éventuels déficits sont à la charge des participants et des bénéficiaires, conformément aux règles particulières du régime. L’actuaire évalue périodiquement si les actifs permettent de soutenir les prestations cibles. En cas d’insuffisance, les mesures de redressement prévues peuvent notamment inclure :
+  - la réduction ou la suspension de l’indexation, selon les dispositions du régime;
+  - l’ajustement des prestations futures;
+  - la réduction des droits accumulés et même des rentes en paiement, dans les situations prévues par la loi.
 
-  Ainsi, contrairement aux régimes à prestations déterminées, la rente n’est pas garantie. Contrairement aux régimes à cotisations déterminées, elle n’est pas entièrement laissée au résultat individuel : elle repose sur une logique collective.
+  Il ne faut donc pas présenter ces régimes comme une simple garantie de rente assortie d’une cotisation flexible. La prestation constitue une cible collective, sans garantie équivalente à celle d’un régime PD classique. [Retraite Québec explique les règles particulières des régimes à prestations cibles](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-cibles/caracteristiques-regime).
 
 <div style="clear: both;"></div>
 
 
 ### Contraintes, avantages et inconvénients
 
-Les régimes mixtes combinent les caractéristiques des régimes à prestations déterminées et à cotisations déterminées, mais ne se réduisent pas à une simple addition de leurs avantages.  Dans les régimes à deux volets, la coexistence des deux composantes permet de diversifier les sources de revenu à la retraite, mais ajoute une certaine complexité. La partie à prestations déterminées offre une base plus stable, tandis que la partie à cotisations déterminées introduit de la variabilité. Dans les régimes à prestations cibles, l’avantage principal réside dans le partage du risque. Les fluctuations économiques ne sont pas supportées uniquement par l’employeur ou par l’individu, mais réparties entre les participants. En contrepartie, cela implique une incertitude sur les prestations futures, qui peuvent être ajustées en fonction de la situation financière du régime. Ces régimes occupent ainsi une position intermédiaire entre les régimes à prestations déterminées et les régimes à cotisations déterminées, tant du point de vue du risque que de la prévisibilité du revenu.
+Les régimes mixtes combinent les caractéristiques des régimes à prestations déterminées et à cotisations déterminées, mais ne se réduisent pas à une simple addition de leurs avantages. Dans les régimes à deux volets, la coexistence des deux composantes permet de diversifier les sources de revenu à la retraite, mais ajoute une certaine complexité. La partie à prestations déterminées offre une base plus stable, tandis que la partie à cotisations déterminées introduit de la variabilité. Dans les régimes à prestations cibles, l’avantage principal est une mise en commun des risques au sein du groupe de participants et bénéficiaires, selon des mécanismes de redressement prévus. En contrepartie, les prestations peuvent être réduites lorsque la situation financière du régime l’exige. La répartition du risque dépend donc du type précis de régime et de son cadre juridique.
 
 ### Partage du risque
 
-L’élément central des régimes mixtes est le partage du risque. Contrairement aux régimes à prestations déterminées, où l’employeur assume principalement le risque financier, et aux régimes à cotisations déterminées, où ce risque est largement transféré à l’individu, les régimes mixtes répartissent ces risques entre les différentes parties.  
+L’élément central de ces arrangements est la répartition des risques, mais cette répartition n’est pas identique d’un modèle à l’autre. Dans les régimes à prestations déterminées, l’employeur assume généralement une part importante du risque financier, alors que dans les régimes à cotisations déterminées, ce risque est largement transféré au participant.  
 
 - Dans les régimes à deux volets, ce partage est explicite : une partie du revenu est relativement stable (volet à prestations déterminées), tandis qu’une autre dépend des rendements (volet à cotisations déterminées).
 
-- Dans les régimes à prestations cibles, le partage est plus subtil. Les cotisations sont généralement stables, mais les prestations peuvent être ajustées en fonction de la situation financière du régime. Les participants acceptent donc une certaine variabilité des prestations en échange d’une plus grande stabilité des cotisations.
+- Dans les régimes à prestations cibles québécois, les engagements financiers et les déficits éventuels sont assumés collectivement par les participants et bénéficiaires, et les prestations peuvent être ajustées. L’employeur demeure responsable des cotisations qu’il s’est engagé à verser.
 
-Ce type de structure modifie la nature même du contrat de retraite : il ne s’agit plus d’une promesse ferme ni d’un simple mécanisme d’épargne, mais d’un arrangement collectif où les risques sont répartis et ajustés dans le temps.
+Ces structures montrent qu’entre la garantie complète d’un régime PD classique et l’accumulation individuelle d’un régime CD, il existe plusieurs façons d’organiser et de partager les risques de retraite.
 
 ### Rôle de l’actuaire
 
-Les régimes mixtes font appel à des compétences actuarielles plus étendues que les régimes à cotisations déterminées, tout en se distinguant des régimes à prestations déterminées traditionnels.  
+Les régimes mixtes et les régimes à prestations cibles font appel à des compétences actuarielles qui dépassent souvent celles requises pour un régime CD pur, tout en se distinguant des régimes PD traditionnels.  
 
 - Dans les régimes à deux volets, l’actuaire intervient principalement pour évaluer et financer la composante à prestations déterminées, selon des méthodes similaires à celles utilisées dans les régimes classiques.
 
 - Dans les régimes à prestations cibles, son rôle est plus central. L’actuaire doit évaluer périodiquement la situation financière du régime, estimer les prestations pouvant être soutenues à long terme et proposer des ajustements lorsque nécessaire. Cela implique non seulement des calculs actuariels, mais aussi une analyse du partage du risque entre les participants.
 
-Plus généralement, les régimes mixtes exigent une compréhension fine des interactions entre financement, rendement et prestations. Le rôle de l’actuaire s’étend ainsi au-delà de l’évaluation des engagements, pour inclure la conception du régime et l’analyse de sa stabilité à long terme.
+Plus généralement, ces régimes exigent une compréhension fine des interactions entre financement, rendement et prestations. Le rôle de l’actuaire s’étend ainsi au-delà de l’évaluation des engagements, pour inclure la conception du régime et l’analyse de sa stabilité à long terme.
 
 
 
@@ -507,5 +517,5 @@ Plus généralement, les régimes mixtes exigent une compréhension fine des int
 
 Le passage des régimes à prestations déterminées aux régimes à cotisations déterminées représente bien davantage qu'un changement dans la façon de financer la retraite. Il modifie fondamentalement la répartition des risques entre l'employeur et l'employé. Si les cotisations deviennent prévisibles pour l'employeur, le revenu de retraite demeure incertain pour le participant, puisqu'il dépend du capital accumulé, des rendements obtenus et des décisions prises au moment du décaissement.
 
-Cette évolution soulève une question importante : jusqu'où doit-on laisser à l'individu la responsabilité de financer et de gérer sa retraite? Les régimes mixtes proposent une réponse intermédiaire en combinant certaines garanties collectives avec une plus grande maîtrise des coûts. Pour les actuaires, ces différentes structures illustrent un même enjeu fondamental : les risques liés à la retraite ne disparaissent jamais; ils sont simplement assumés et répartis différemment.
+Cette évolution soulève une question importante : jusqu'où doit-on laisser à l'individu la responsabilité de financer et de gérer sa retraite? Les régimes mixtes et les régimes à prestations cibles proposent différentes réponses intermédiaires, sans répartir les risques de la même manière. Pour les actuaires, ces différentes structures illustrent un même enjeu fondamental : les risques liés à la retraite ne disparaissent jamais; ils sont simplement assumés et répartis différemment.
 
