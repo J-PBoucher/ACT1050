@@ -53,7 +53,7 @@ main.content h1#horaire-de-la-session { display: none !important; }
 <div class="act-sous-titre">Rencontres, conférences et lectures · Introduction à l'actuariat I</div>
 </div>
 
-Au cours de la session d'hiver 2027, des professionnels et des professeurs viendront présenter leur domaine de pratique et leur expérience aux étudiantes et étudiants du cours ACT1050.
+Pendant la session d’hiver 2027, des professionnels et des professeurs présenteront leur domaine de pratique et leur expérience aux étudiantes et étudiants du cours ACT1050. Les lectures indiquées dans le calendrier doivent être effectuées avant la séance correspondante.
 
 ```{r}
 #| echo: false
@@ -95,23 +95,22 @@ liste_lectures <- function(...) {
   )
 }
 # Conférencier avec organisation sous le nom
-conferencier <- function(nom, organisation = NULL, linkedin = NULL) {
+conferencier <- function(nom, organisation = NULL, lien = NULL) {
 
-  # Ajout du lien LinkedIn, si fourni
-  if (!is.null(linkedin) && !is.na(linkedin) && linkedin != "" &&
-      !grepl("IDENTIFIANT", linkedin, fixed = TRUE)) {
+  # Ajout du lien professionnel, si fourni
+  if (!is.null(lien) && !is.na(lien) && lien != "" &&
+      !grepl("IDENTIFIANT", lien, fixed = TRUE)) {
     nom <- paste0(
-      '<a href="', linkedin,
+      '<a href="', lien,
       '" target="_blank" rel="noopener noreferrer">',
       nom,
       '</a>'
     )
   }
 
-  # Présentation uniforme des noms
-  if (!grepl("<strong>", nom, fixed = TRUE)) {
-    nom <- paste0("<strong>", nom, "</strong>")
-  }
+  # Mise en forme uniforme des noms
+  nom <- gsub("</?strong>", "", nom)
+  nom <- paste0("<strong>", nom, "</strong>")
   nom <- paste0('<span class="nom-invite">', nom, "</span>")
 
   # Organisation sous le nom
@@ -165,95 +164,95 @@ horaire <- data.frame(
   conferencier = c(
 
     conferencier(
-      "<strong>Jean-Philippe Boucher</strong>",
+      "Jean-Philippe Boucher",
       "Professeur, UQAM",
-      linkedin = "https://www.linkedin.com/in/jean-philippe-boucher-b12a313b"
+      lien = "https://www.linkedin.com/in/jean-philippe-boucher-b12a313b"
     ),
     
     conferencier(
-      "<strong>Mathieu Boudreault</strong>",
+      "Mathieu Boudreault",
       "Professeur, UQAM",
-      linkedin = "https://www.linkedin.com/in/mathieu-boudreault-72642b82/"
+      lien = "https://www.linkedin.com/in/mathieu-boudreault-72642b82/"
     ),
 
     conferencier(
-      "<strong>Florence Onar</strong>",
+      "Florence Onar",
       "Faculté des sciences, UQAM",
-      linkedin = "https://www.linkedin.com/in/florence-onar/"
+      lien = "https://www.linkedin.com/in/florence-onar/"
     ),
 
     conferencier(
-      "<strong>Emmanuel Hamel</strong>",
+      "Emmanuel Hamel",
       "Scientifique des données, Autorité des marchés financiers (AMF)",
-      linkedin = "https://www.linkedin.com/in/emmanuel-hamel-b8989926/"
+      lien = "https://www.linkedin.com/in/emmanuel-hamel-b8989926/"
     ),
 
     conferencier(
-      "<strong>Felipe Koetz</strong>",
+      "Felipe Koetz",
       "Vice-président, Tokio Marine Canada",
-      linkedin = "https://www.linkedin.com/in/felippe-koetz-m-sc-acas-acia-miba-52554a19/"
+      lien = "https://www.linkedin.com/in/felippe-koetz-m-sc-acas-acia-miba-52554a19/"
     ),
 
     conferencier(
       "Alexandre Léger",
       "Conseiller en actuariat, PBI Conseillers en actuariat",
-      linkedin = "https://pbiactuarial.ca/fr/equipe/"
+      lien = "https://pbiactuarial.ca/fr/equipe/"
     ),
 
     conferencier(
-      "<strong>Catherine Bernard</strong>",
+      "Catherine Bernard",
       "Directrice principale, Co-operators",
-      linkedin = "https://www.linkedin.com/in/catherine-bernard-490417a4/"
+      lien = "https://www.linkedin.com/in/catherine-bernard-490417a4/"
     ),
 
     "Semaine de relâche",
 
     conferencier(
-      "François Beauchesne  (à confirmer)",
+      "François Beauchesne (à confirmer)",
       "Conseiller en actuariat, RAMQ",
-      linkedin = "https://www.linkedin.com/in/françois-beauchesne-b-sc-75089835"
+      lien = "https://www.linkedin.com/in/françois-beauchesne-b-sc-75089835"
     ),
 
     conferencier(
       "Dominic Viola",
-      "Directeur surveillance des risques, Desjardins assurances générales",
-      linkedin = "https://www.linkedin.com/in/dominic-viola-40924572/"
+      "Directeur de la surveillance des risques, Desjardins assurances générales",
+      lien = "https://www.linkedin.com/in/dominic-viola-40924572/"
     ),
 
     conferencier(
       "Philippe Massin",
       "Directeur, Trans Canada Capital",
-      linkedin = "https://www.linkedin.com/in/philippemasin"
+      lien = "https://www.linkedin.com/in/philippemasin"
     ),
 
     conferencier(
       "Benoit Bilodeau",
       "Vice-président, Beneva",
-      linkedin = "https://www.linkedin.com/in/benoit-bilodeau-fsa-fica-emba-6b3a4646/"
+      lien = "https://www.linkedin.com/in/benoit-bilodeau-fsa-fica-emba-6b3a4646/"
     ),
 
     conferencier(
-      "Etienne Poulin  (à confirmer)",
+      "Étienne Poulin",
       "Actuaire en chef du RQAP, Retraite Québec",
-      linkedin = "https://www.linkedin.com/in/etienne-poulin-885509132/"
+      lien = "https://www.linkedin.com/in/etienne-poulin-885509132/"
     ),
 
     conferencier(
-      "<strong>Anthony Benarroch</strong>",
+      "Anthony Benarroch",
       "Conseiller-adjoint, Normandin Beaudry",
-      linkedin = "https://www.linkedin.com/in/anthony-benarroch-fsa-fica-a98356143/"
+      lien = "https://www.linkedin.com/in/anthony-benarroch-fsa-fica-a98356143/"
     ),
 
     conferencier(
-      "<strong>Thomas Landry</strong>",
+      "Thomas Landry",
       "Analyste en actuariat, Retraite Québec",
-      linkedin = "https://www.linkedin.com/in/thomas-landry-b7631752/"
+      lien = "https://www.linkedin.com/in/thomas-landry-b7631752/"
     ),
 
     conferencier(
-      "<strong>Jean-Philippe Boucher</strong>",
+      "Jean-Philippe Boucher",
       "Professeur, UQAM",
-      linkedin = "https://www.linkedin.com/in/jean-philippe-boucher-b12a313b"
+      lien = "https://www.linkedin.com/in/jean-philippe-boucher-b12a313b"
     )
   ),
 
@@ -261,19 +260,19 @@ horaire <- data.frame(
     "Introduction au cours ACT1050",
     "L'adhésion à l'Institut canadien des actuaires",
     "Stages, CV et entrevues en actuariat",
-    "Organisme de régulation",
+    "Le rôle de l’Autorité des marchés financiers",
     "L'assurance de dommages",
     "La consultation en assurances collectives",
     "L'assurance de dommages",
     "",
-    "La régie de l'assurance-maladie du Québec (RAMQ)",
-    "Gestion de patrimoine",
+    "La Régie de l’assurance maladie du Québec (RAMQ)",
+    "La gestion de patrimoine",
     "L'actuariat et la finance",
     "Les assurances collectives",
     "Le régime québécois d'assurance parentale",
     "La consultation en régimes de retraite",
     "Les régimes de retraite publics",
-    "Retour sur le cours"
+    "Bilan du cours"
   ),
 
   chapitres = c(
@@ -294,7 +293,6 @@ horaire <- data.frame(
 
     # Semaine 3
     liste_lectures(
-      "<span class='mini-quiz'>Mini-quiz #1</span>",
       '<a href="Chap6_Ecosysteme.html">Chapitre 6 : Écosystème de l’assurance</a>'
     ),
 
@@ -310,13 +308,13 @@ horaire <- data.frame(
 
     # Semaine 6
     liste_lectures(
-      "<span class='mini-quiz'>Mini-quiz #2</span>",
-      '<a href="Chap9_Base_assurancevie.html">Chapitre 9 : Notions de base en assurance-vie</a>'
+      "<span class='mini-quiz'>Mini-quiz I</span>",
+      '<a href="Chap9_Base_assurancepersonnes.html">Chapitre 9 : Notions de base en assurance de personnes</a>'
     ),
 
     # Semaine 7
     liste_lectures(
-      '<a href="Chap10_Actuariat_assurancevie.html">Chapitre 10 : L’actuariat de l’assurance-vie</a>'
+      '<a href="Chap10_Actuariat_assurancepersonnes.html">Chapitre 10 : L’actuariat de l’assurance de personnes</a>'
     ),
 
     # Semaine 8
@@ -326,48 +324,46 @@ horaire <- data.frame(
 
     # Semaine 9
     liste_lectures(
-      '<a href="Chap11_Assurancevie_temporaire.html">Chapitre 11 : L’assurance vie temporaire</a>',
-      '<a href="Chap12_Assurancevie_permanente.html">Chapitre 12 : L’assurance vie permanente</a>'
+      '<a href="Chap11_Assurancevie_temporaire.html">Chapitre 11 : L’assurance vie temporaire</a>'
     ),
 
     # Semaine 10
     liste_lectures(
-      "<span class='mini-quiz'>Mini-quiz #3</span>",
-      '<a href="Chap13_Base_retraite.html">Chapitre 13 : Notions de base en régime de retraite</a>'
+      '<a href="Chap12_Assurancevie_entière.html">Chapitre 12 : L’assurance vie entière</a>',
+      '<a href="Chap13_Assurancevie_universelle.html">Chapitre 13 : L’assurance vie universelle</a>'
     ),
-
+    
     # Semaine 11
     liste_lectures(
-      '<a href="Chap14_Actuariat_retraite.html">Chapitre 14 : L’actuariat des régimes de retraite</a>'
+      "<span class='mini-quiz'>Mini-quiz II</span>",
+      '<a href="Chap14_Fondements_retraite.html">Chapitre 14 : Fondements de la retraite</a>'
     ),
 
     # Semaine 12
     liste_lectures(
-      '<a href="Chap15_Retraite_PD.html">Chapitre 15 : Régimes à prestations déterminées</a>',
-      '<a href="Chap16_Retraite_CD.html">Chapitre 16 : Régimes à cotisations déterminées</a>'
+      '<a href="Chap15_Actuariat_retraite.html">Chapitre 15 : L’actuariat des régimes de retraite</a>'
     ),
 
     # Semaine 13
     liste_lectures(
-      "<span class='mini-quiz'>Mini-quiz #4</span>",
-      '<a href="Chap17_Retraite_public.html">Chapitre 17 : Régimes de retraite publics</a>'
+      '<a href="Chap16_Retraite_public.html">Chapitre 16 : Régimes de retraite publics</a>'
     ),
 
     # Semaine 14
     liste_lectures(
-      '<a href="Chap18_Retraite_fiscal.html">Chapitre 18 : Aspect fiscal</a>'
+      '<a href="Chap17_Retraite_PD.html">Chapitre 17 : Régimes à prestations déterminées</a>',
+      '<a href="Chap18_Retraite_CD.html">Chapitre 18 : Régimes à cotisations déterminées</a>'
     ),
 
     # Semaine 15
     liste_lectures(
-      '<a href="Chap19_Provisionnement.html">Chapitre 19 : Provisionnement</a>'
+      '<a href="Chap19_Retraite_fiscal.html">Chapitre 19 : Épargne-retraite et fiscalité</a>'
     ),
 
-    
     # Semaine 16
     liste_lectures(
       '<a href="Conclusion.html">Conclusion</a>',
-      "<span class='mini-quiz'>Mini-quiz #5</span>"
+      "<span class='mini-quiz'>Mini-quiz III</span>"
     )
   ),
 
@@ -466,15 +462,16 @@ html <- paste0(
   '<tbody>'
 )
 
+parties <- c(
+  `1` = "Partie I — Découvrir l’actuariat",
+  `6` = "Partie II — Assurance de personnes",
+  `11` = "Partie III — Régimes de retraite"
+)
+
 for (i in seq_len(nrow(horaire))) {
 
-  # Bandeau discret pour annoncer chaque partie du cours
-  parties <- c(
-    `1` = "Partie 1 — Découvrir l’actuariat",
-    `3` = "Partie 2 — Environnement actuariel",
-    `6` = "Partie 3 — Assurance de personnes",
-    `10` = "Partie 4 — Régimes de retraite"
-  )
+  # Bandeau annonçant chaque partie du cours
+
   if (as.character(i) %in% names(parties)) {
     html <- paste0(html, '<tr class="partie"><td colspan="5">',
                    parties[[as.character(i)]], '</td></tr>')
@@ -534,4 +531,4 @@ cat("```{=html}\n", css, "\n", html, "\n```\n", sep = "")
 
 ```
 
-*Les dates des conférences, les sujets et les lectures préparatoires sont sujets à modification.*
+*Les dates des conférences, les sujets et les lectures préparatoires sont susceptibles d’être modifiés.*

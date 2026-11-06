@@ -18,6 +18,15 @@ date-modified: last-modified
 
 :::
 
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+:::
+
+
 ## Rapport annuel de l'AMF
 
 Pour comprendre l'écosystème de l'assurance au Québec, nous nous appuierons principalement sur le [*Rapport annuel sur les institutions financières et les agents d'évaluation du crédit 2024*](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf) de l'Autorité des marchés financiers (AMF). Ce rapport présente un portrait détaillé des assureurs autorisés à exercer au Québec au 31 décembre 2024, notamment selon leur charte, leur statut juridique et leurs activités.
@@ -44,7 +53,7 @@ text-align:center;
 
 Elle exerce ses fonctions notamment dans les domaines des valeurs mobilières, des institutions de dépôt, des instruments dérivés, de la distribution de produits et services financiers, ainsi que de l’assurance.  
 
-Dans le secteur de l'assurance, l'AMF joue un rôle central puisqu'elle autorise les assureurs à exercer leurs activités au Québec et veille au respect des exigences légales applicables. Elle assure notamment la surveillance prudentielle des assureurs de compétence québécoise ainsi que l'encadrement des pratiques commerciales sur le territoire québécois. Les assureurs de compétence fédérale sont pour leur part soumis à la surveillance prudentielle du Bureau du surintendant des institutions financières (BSIF). Ces autorités exercent donc des responsabilités complémentaires.
+Dans le secteur de l'assurance, l'AMF joue un rôle central puisqu'elle autorise les assureurs à exercer leurs activités au Québec et veille au respect des exigences légales applicables. Elle assure notamment la surveillance prudentielle des assureurs de compétence québécoise ainsi que l'encadrement des pratiques commerciales sur le territoire québécois. Les assureurs de compétence fédérale sont pour leur part soumis à la surveillance prudentielle du Bureau du surintendant des institutions financières (BSIF). Ces autorités exercent donc des responsabilités complémentaires. [↗](https://lautorite.qc.ca/professionnels/assureurs/droit-dexercice/autorisation-exercer-assureur-quebec "AMF : Autorisation d'exercer l'activité d'assureur"){.source-link} [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres/societes-dassurance-multirisque "BSIF : Assurance multirisque et partage des compétences"){.source-link}
 :::
 
 La table des matières du [rapport annuel de l'AMF](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf) au 31 décembre 2024 montre que l’AMF s’intéresse à plusieurs secteurs du système financier québécois. On y retrouve notamment le secteur bancaire (*le secteur des institutions de dépôt*). Dans le cadre de ce cours, nous nous concentrerons toutefois sur le secteur de l’assurance. On constate rapidement que ce secteur est structuré autour de deux grandes catégories distinctes :
@@ -61,7 +70,7 @@ De façon intéressante, cette distinction correspond à la division historique 
 
 Le premier tableau du rapport annuel lié au secteur de l’assurance est le Tableau 19, reproduit ci-dessous. On y observe qu’en assurance de personnes, on dénombre 73 assureurs autorisés à offrir des produits d’assurance au Québec, soit 70 assureurs spécialisés en assurance de personnes auxquels s’ajoutent 3 assureurs exerçant à la fois en assurance de personnes et en assurance de dommages.  De façon analogue, le nombre d’assureurs autorisés dans le secteur de l’assurance de dommages s’élève à 155, soit 152 assureurs de dommages auxquels s’ajoutent les mêmes 3 assureurs exerçant dans les deux secteurs.
 
-Il faut distinguer ces nombres d'autorisations des effectifs utilisés dans les statistiques détaillées du rapport. Trois assureurs autorisés en assurance de personnes remplissent le formulaire de divulgation des assureurs de dommages : les analyses sectorielles portent donc sur **70 assureurs de personnes** et **158 assureurs de dommages**. Les populations statistiques ne coïncident pas exactement avec les catégories d'autorisation du tableau 19.
+Il faut distinguer ces nombres d'autorisations des effectifs utilisés dans les statistiques détaillées du rapport. Trois assureurs autorisés en assurance de personnes remplissent le formulaire de divulgation des assureurs de dommages : les analyses sectorielles portent donc sur **70 assureurs de personnes** et **158 assureurs de dommages**. Les populations statistiques ne coïncident pas exactement avec les catégories d'autorisation du tableau 19. [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link}
 
 
 ![](images/AMF_Tableau19.png){width=80% fig-align="center"}
@@ -71,12 +80,12 @@ On peut également observer une ventilation du nombre d’assureurs selon deux a
 
 ## Charte des assureurs 
 
-Au Québec, on dénombre quatre types de chartes permettant à un assureur d’exercer des activités d’assurance.  Sur le site de l’Autorité des marchés financiers, il est également possible de consulter la [liste de l’ensemble des assureurs autorisés à exercer au Québec](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/a-propos-autorite/diffusion-information/Document2_GDC05-06-01-3131.pdf), ainsi que la charte en vertu de laquelle chacun d’eux est constitué (la 4e colonne nommée *Origine de la charte*).
+On distingue quatre origines de charte parmi les assureurs autorisés à exercer au Québec. Sur le site de l’Autorité des marchés financiers, il est également possible de consulter la [liste de l’ensemble des assureurs autorisés à exercer au Québec](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF), ainsi que la charte en vertu de laquelle chacun d’eux est constitué (la 4e colonne nommée *Origine de la charte*).
 
 
 - **Assureur à charte du Québec** 
 
-  Un assureur à charte du Québec est constitué en vertu de la législation québécoise applicable. Sa juridiction de constitution est donc le Québec. Il doit être autorisé par l’AMF pour exercer des activités d’assurance et relève en principe de son encadrement prudentiel, en plus des règles québécoises concernant la conduite de marché.
+  Un assureur à charte du Québec est constitué en vertu de la législation québécoise applicable. Sa juridiction de constitution est donc le Québec. Il doit être autorisé par l’AMF pour exercer des activités d’assurance et relève en principe de son encadrement prudentiel, en plus des règles québécoises concernant la conduite de marché. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/a-32.1 "Légis Québec : Loi sur les assureurs"){.source-link}
 
   Parmi les assureurs exerçant sous cette charte, on peut notamment citer :
 
@@ -87,7 +96,7 @@ Au Québec, on dénombre quatre types de chartes permettant à un assureur d’e
 
 - **Assureur à charte d’une autre province ou d’un territoire canadien** 
 
-  Un assureur à charte d’une autre province ou d’un territoire est constitué en vertu des lois d’une juridiction provinciale ou territoriale canadienne, par exemple l’Ontario, l’Alberta ou la Colombie-Britannique. Il n’est pas juridiquement un assureur du Québec, mais il peut exercer au Québec s’il est autorisé par l’AMF. Son régime de constitution demeure celui de sa province ou de son territoire d’origine, tandis que ses activités exercées au Québec sont soumises aux règles québécoises applicables aux assureurs autorisés.
+  Un assureur à charte d’une autre province ou d’un territoire est constitué en vertu des lois d’une juridiction provinciale ou territoriale canadienne, par exemple l’Ontario, l’Alberta ou la Colombie-Britannique. Il n’est pas juridiquement un assureur du Québec, mais il peut exercer au Québec s’il est autorisé par l’AMF. Son régime de constitution demeure celui de sa province ou de son territoire d’origine, tandis que ses activités exercées au Québec sont soumises aux règles québécoises applicables aux assureurs autorisés. [↗](https://lautorite.qc.ca/professionnels/assureurs/droit-dexercice/autorisation-exercer-assureur-quebec "AMF : Autorisation d'exercer l'activité d'assureur"){.source-link}
 
   Parmi les assureurs exerçant sous cette charte, on peut notamment citer :
 
@@ -96,7 +105,7 @@ Au Québec, on dénombre quatre types de chartes permettant à un assureur d’e
 
 - **Assureur à charte du Canada (charte fédérale)** 
 
-  Un assureur à charte du Canada est constitué en vertu d’une loi fédérale canadienne, principalement la Loi sur les sociétés d’assurances. Il relève, pour sa constitution et sa surveillance prudentielle principale, du cadre fédéral. Toutefois, pour exercer au Québec, même un assureur fédéral doit obtenir une autorisation de l’AMF et se conformer aux règles québécoises en matière de distribution, de contrats d’assurance et de protection des consommateurs.
+  Un assureur à charte du Canada est constitué en vertu d’une loi fédérale canadienne, principalement la Loi sur les sociétés d’assurances. Il relève, pour sa constitution et sa surveillance prudentielle principale, du cadre fédéral. Toutefois, pour exercer au Québec, même un assureur fédéral doit obtenir une autorisation de l’AMF et se conformer aux règles québécoises en matière de distribution, de contrats d’assurance et de protection des consommateurs. [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres/societes-dassurance-vie-secours-mutuels "BSIF : Assurance vie et sociétés de secours mutuels"){.source-link}
 
   Parmi les assureurs exerçant sous cette charte, on peut notamment citer :
 
@@ -107,7 +116,7 @@ Au Québec, on dénombre quatre types de chartes permettant à un assureur d’e
 
 - **Assureur à charte d’un État ou d’un pays étranger** 
 
-  Un assureur à charte étrangère est constitué selon les lois d'une juridiction située à l'extérieur du Canada, par exemple un État américain ou un pays européen. Pour exercer au Québec, il doit satisfaire aux exigences d'autorisation de l'AMF. Son régime de constitution demeure étranger, mais ses activités canadiennes peuvent également être soumises à la surveillance prudentielle fédérale, notamment lorsqu'elles sont exercées par l'intermédiaire d'une succursale relevant du BSIF. Il importe donc de distinguer la juridiction de constitution de l'assureur et les régimes qui encadrent ses activités au Canada.
+  Un assureur à charte étrangère est constitué selon les lois d'une juridiction située à l'extérieur du Canada, par exemple un État américain ou un pays européen. Pour exercer au Québec, il doit satisfaire aux exigences d'autorisation de l'AMF. Son régime de constitution demeure étranger, mais ses activités canadiennes peuvent également être soumises à la surveillance prudentielle fédérale, notamment lorsqu'elles sont exercées par l'intermédiaire d'une succursale relevant du BSIF. Il importe donc de distinguer la juridiction de constitution de l'assureur et les régimes qui encadrent ses activités au Canada. [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres/societes-dassurance-multirisque "BSIF : Assurance multirisque et partage des compétences"){.source-link}
 
   Parmi les assureurs exerçant sous cette charte, on peut notamment citer :
 
@@ -131,11 +140,11 @@ text-align:center;
 </div>
 </div>
 
-Lloyd’s of London occupe une place particulière dans l’histoire et le fonctionnement de l’assurance en raison de sa structure institutionnelle unique.  Contrairement à un assureur traditionnel, Lloyd’s n’est pas une compagnie d’assurance, mais un marché spécialisé d’assurance et de réassurance. À ce titre, il est pertinent de lui consacrer une attention spécifique dans ces notes de cours.
+Lloyd’s of London occupe une place particulière dans l’histoire et le fonctionnement de l’assurance en raison de sa structure institutionnelle unique.  Contrairement à un assureur traditionnel, Lloyd’s n’est pas une compagnie d’assurance, mais un marché spécialisé d’assurance et de réassurance. [↗](https://www.lloyds.com/about-lloyds/our-market/lloyds-market "Lloyd’s : Fonctionnement du marché"){.source-link} À ce titre, il est pertinent de lui consacrer une attention spécifique dans ces notes de cours.
 
 #### **Origines historiques** {-}
 
-Les origines de Lloyd's remontent à la fin du XVIIe siècle, dans le monde du commerce maritime londonien. Ce contexte explique son développement initial autour de l'assurance des navires et des cargaisons. Au cours des XVIIIe et XIXe siècles, avec l’expansion du commerce international et de l’Empire britannique, les activités de Lloyd’s s’élargissent au-delà de l’assurance maritime. En 1871, le Parlement britannique adopte le *Lloyd’s Act*, qui confère à Lloyd’s un statut juridique officiel et permet une organisation plus structurée du marché.
+Les origines de Lloyd's remontent à la fin du XVIIe siècle, dans le monde du commerce maritime londonien. Ce contexte explique son développement initial autour de l'assurance des navires et des cargaisons. Au cours des XVIIIe et XIXe siècles, avec l’expansion du commerce international et de l’Empire britannique, les activités de Lloyd’s s’élargissent au-delà de l’assurance maritime. En 1871, le Parlement britannique adopte le *Lloyd’s Act*, qui confère à Lloyd’s un statut juridique officiel et permet une organisation plus structurée du marché. [↗](https://www.lloyds.com/about-lloyds/history/sweeping-change-new-standards "Lloyd’s : Loi de 1871 et évolution historique"){.source-link}
 
 #### **Une structure institutionnelle singulière** {-}
 
@@ -146,9 +155,9 @@ Lloyd's of London fonctionne comme un marché dans lequel plusieurs acteurs inte
 - des coverholders, qui peuvent souscrire des risques au nom des syndicats dans certaines juridictions ;
 - des membres, historiquement appelés « Names », qui fournissent le capital nécessaire à la prise de risques.
 
-Le risque est présenté au marché, généralement par un courtier, et peut être souscrit par un seul syndicat ou réparti entre plusieurs syndicats, chacun participant alors à une fraction déterminée de l'engagement et de la prime. La souscription partagée est fréquente pour les risques complexes, comme un satellite, un parc éolien en mer ou un événement international, sans être obligatoire.
+Le risque est présenté au marché, généralement par un courtier, et peut être souscrit par un seul syndicat ou réparti entre plusieurs syndicats, chacun participant alors à une fraction déterminée de l'engagement et de la prime. [↗](https://www.lloyds.com/about-lloyds/our-market/lloyds-market "Lloyd’s : Fonctionnement du marché"){.source-link} La souscription partagée est fréquente pour les risques complexes, comme un satellite, un parc éolien en mer ou un événement international, sans être obligatoire.
 
-Les membres qui fournissent le capital assument les engagements correspondant à leur participation au syndicat, séparément et non solidairement avec les autres membres. Le marché permet ainsi de mobiliser des capacités spécialisées pour des risques parfois difficiles à couvrir auprès d'un assureur traditionnel. Le marché a longtemps été financé par des investisseurs individuels, les *Names*, avant que les réformes amorcées dans les années 1990 favorisent une participation accrue de capitaux corporatifs. Cette transition est présentée plus loin dans une anecdote historique.
+Les membres qui fournissent le capital assument les engagements correspondant à leur participation au syndicat, séparément et non solidairement avec les autres membres. [↗](https://www.lloyds.com/market-resources/member-services/about/what-is-a-member "Lloyd’s : Membres et responsabilité distincte"){.source-link} Le marché permet ainsi de mobiliser des capacités spécialisées pour des risques parfois difficiles à couvrir auprès d'un assureur traditionnel. Le marché a longtemps été financé par des investisseurs individuels, les *Names*, avant que les réformes amorcées dans les années 1990 favorisent une participation accrue de capitaux corporatifs. Cette transition est présentée plus loin dans une anecdote historique.
 
 Quelques anecdotes à propos de Lloyd's méritent d'être racontées.
 
@@ -170,7 +179,7 @@ text-align:center;
 
 À l’origine, Lloyd’s n’était ni une compagnie d’assurance ni même une institution formelle, mais le coffee house d’Edward Lloyd, ouvert vers 1688 à Londres. Ce café était fréquenté par des armateurs, capitaines de navires, marchands et investisseurs qui cherchaient à échanger de l’information sur les voyages maritimes, les cargaisons et les risques en mer. 
 
-Progressivement, certains clients ont commencé à inscrire leur nom sous des descriptions de risques maritimes, indiquant la part de risque qu’ils acceptaient de couvrir — d’où le terme *underwriter*. Ce lieu informel est ainsi devenu le noyau d’un marché d’assurance fondé sur la réputation personnelle, la confiance et l’information partagée, bien avant l’existence d’assureurs structurés au sens moderne. [Source](https://riskresource.com/newsletters/the-history-of-insurance-underwriting-explained-in-2-minutes/)
+Progressivement, certains clients ont commencé à inscrire leur nom sous des descriptions de risques maritimes, indiquant la part de risque qu’ils acceptaient de couvrir — d’où le terme *underwriter*. Ce lieu informel est ainsi devenu le noyau d’un marché d’assurance fondé sur la réputation personnelle, la confiance et l’information partagée, bien avant l’existence d’assureurs structurés au sens moderne. [↗](https://www.lloyds.com/about-lloyds/history/coffee-and-commerce "Lloyd’s : Origine du café d’Edward Lloyd"){.source-link}
 
 <div style="clear: both;"></div>
 
@@ -190,7 +199,7 @@ text-align:center;
 </div>
 </div>
 
-Au fil des siècles, Lloyd’s est devenu célèbre pour avoir assuré des risques jugés trop atypiques ou trop spécifiques pour les assureurs traditionnels. Parmi les exemples souvent cités figurent la voix de chanteurs, les mains de pianistes ou encore les jambes de danseuses. L’un des cas les plus connus est celui de l’actrice américaine Betty Grable, grande vedette hollywoodienne des années 1940, dont les jambes — élément central de son image publique et de sa carrière dans les comédies musicales — auraient été assurées auprès de Lloyd’s.
+Au fil des siècles, Lloyd’s est devenu célèbre pour avoir assuré des risques jugés trop atypiques ou trop spécifiques pour les assureurs traditionnels. Parmi les exemples souvent cités figurent la voix de chanteurs, les mains de pianistes ou encore les jambes de danseuses. L’un des cas les plus connus est celui de l’actrice américaine Betty Grable, grande vedette hollywoodienne des années 1940, dont les jambes — élément central de son image publique et de sa carrière dans les comédies musicales — auraient été assurées auprès de Lloyd’s. [↗](https://www.ebsco.com/research-starters/history/betty-grable "EBSCO : Betty Grable et assurance de ses jambes"){.source-link}
 
 Plus sérieusement, Lloyd’s a aussi assuré des risques extrêmes liés à l’exploration, à l’aviation expérimentale ou à des événements uniques. Ces contrats illustrent une caractéristique fondamentale de Lloyd’s : il ne s’agit pas d’un assureur unique, mais d’un marché dans lequel des syndicats spécialisés peuvent accepter des risques très ciblés, pourvu qu’ils puissent être décrits, évalués et mutualisés.
 
@@ -215,7 +224,7 @@ text-align:center;
 
 Pendant plus de deux siècles, une grande partie du capital de Lloyd’s provenait des Names, des individus fortunés qui engageaient leur patrimoine personnel pour garantir les risques souscrits par les syndicats auxquels ils participaient. Contrairement aux actionnaires d’une compagnie moderne, les Names n’avaient aucune responsabilité limitée : en cas de sinistres majeurs, ils étaient légalement tenus de payer, même si cela signifiait vendre leur maison ou liquider leurs actifs.
 
-Cette structure a fonctionné tant que les pertes restaient relativement prévisibles. Mais dans les années 1980 et au début des années 1990, une combinaison de sinistres catastrophiques, de réclamations liées à l’amiante et de polices à développement long a entraîné des appels de fonds massifs. Des milliers de Names ont fait faillite personnelle, ce qui a provoqué une crise existentielle pour Lloyd’s et mené à une profonde réforme : introduction de Names corporatifs, création de véhicules à responsabilité limitée et refonte de la gouvernance. [Source](https://www.theguardian.com/money/2000/nov/04/business.personalfinancenews1)
+Cette structure a fonctionné tant que les pertes restaient relativement prévisibles. Mais dans les années 1980 et au début des années 1990, une combinaison de sinistres catastrophiques, de réclamations liées à l’amiante et de polices à développement long a entraîné des appels de fonds massifs. De nombreux Names ont subi de lourdes pertes personnelles, et certains ont fait faillite, ce qui a provoqué une crise existentielle pour Lloyd’s et mené à une profonde réforme : introduction de membres corporatifs, création de véhicules à responsabilité limitée et refonte de la gouvernance. [↗](https://www.lloyds.com/about-lloyds/history/important-people-from-our-past/sir-david-rowland "Lloyd’s : Crise des Names et réformes"){.source-link}
 
 <div style="clear: both;"></div>
 
@@ -246,7 +255,7 @@ Cette décision a coûté extrêmement cher à court terme, mais elle a établi 
 
 #### **Lloyd’s of London aujourd’hui** {-}
 
-Les réformes entreprises à la suite de la crise des années 1980-1990 ont renforcé la gouvernance et élargi les sources de capital. Aujourd'hui, les activités de Lloyd's reposent largement sur des structures corporatives, aux côtés de la participation historique de certains membres individuels. Aujourd'hui, Lloyd's demeure un acteur important de l'assurance et de la réassurance à l'échelle mondiale. Le marché est actif dans plus de 200 pays et territoires et se spécialise dans des risques complexes ou non standardisés, notamment :
+Les réformes entreprises à la suite de la crise des années 1980-1990 ont renforcé la gouvernance et élargi les sources de capital. Aujourd'hui, les activités de Lloyd's reposent largement sur des structures corporatives, aux côtés de la participation historique de certains membres individuels. Lloyd's demeure un acteur important de l'assurance et de la réassurance à l'échelle mondiale. Le marché dessert plus de 200 territoires et se spécialise dans des risques complexes ou non standardisés, notamment : [↗](https://www.lloyds.com/worldwide "Lloyd’s : Présence dans le monde"){.source-link}
 
 - les risques de catastrophes naturelles ;
 - l’assurance aviation et maritime ;
@@ -258,16 +267,16 @@ Lloyd’s continue également d’innover sur le plan de l’analyse des risques
 Sources :  
 
   - [Revue Assurances et gestion des risques](https://www.revueassurances.ca/wp-content/uploads/2016/03/2013_81_no1_2_london.pdf)  
-  - [Wikipedia](https://en.wikipedia.org/wiki/Lloyd%27s_of_London)
+  - [Lloyd’s — fonctionnement du marché](https://www.lloyds.com/about-lloyds/our-market/lloyds-market)
 
 
 ## Statut juridique des assureurs
 
-En plus de leur charte de constitution, les assureurs autorisés au Québec sont classés par l'AMF selon leur **statut juridique ou institutionnel**. Cette classification regroupe des formes d'organisation et certains régimes particuliers. Selon la catégorie, elle renseigne notamment sur la propriété, la gouvernance, la capitalisation et les obligations applicables. Dans la [liste des assureurs autorisés au Québec](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/a-propos-autorite/diffusion-information/Document2_GDC05-06-01-3131.pdf), la première colonne présente cette classification. Il faut toutefois éviter de considérer chacune de ces catégories comme une forme juridique parfaitement comparable aux autres.
+En plus de leur charte de constitution, les assureurs autorisés au Québec sont classés par l'AMF selon leur **statut juridique ou institutionnel**. Cette classification regroupe des formes d'organisation et certains régimes particuliers. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/a-32.1 "Légis Québec : Loi sur les assureurs"){.source-link} Selon la catégorie, elle renseigne notamment sur la propriété, la gouvernance, la capitalisation et les obligations applicables. Dans la [liste des assureurs autorisés au Québec](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF), la première colonne présente cette classification. Il faut toutefois éviter de considérer chacune de ces catégories comme une forme juridique parfaitement comparable aux autres.
 
 - **Compagnie d’assurance funéraire**
 
-  Une compagnie d’assurance funéraire est un assureur spécialisé dans l’offre de produits d’assurance liés aux frais funéraires. Ce statut fait l’objet d’un encadrement juridique distinct, en raison de la nature particulière des produits offerts, de la gestion des fonds perçus à long terme et des enjeux spécifiques de protection des assurés. Les règles applicables à ces compagnies visent notamment à encadrer l’utilisation des fonds, la solvabilité et la transparence à l’égard des bénéficiaires. Seuls deux assureurs au Québec ont ce statut.
+  Une compagnie d’assurance funéraire est un assureur spécialisé dans l’offre de produits d’assurance liés aux frais funéraires. Ce statut fait l’objet d’un encadrement juridique distinct, en raison de la nature particulière des produits offerts, de la gestion des fonds perçus à long terme et des enjeux spécifiques de protection des assurés. Les règles applicables à ces compagnies visent notamment à encadrer l’utilisation des fonds, la solvabilité et la transparence à l’égard des bénéficiaires. Selon le registre de l’AMF consulté en octobre 2026, deux assureurs autorisés possèdent ce statut. [↗](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF "AMF : Liste actualisée des institutions autorisées"){.source-link}
 
 - **Organisme d’autoréglementation**
 
@@ -291,12 +300,12 @@ En plus de leur charte de constitution, les assureurs autorisés au Québec sont
 
 - **Union réciproque**
 
-  Une union réciproque est une forme particulière d’organisation assurantielle dans laquelle les membres s’assurent mutuellement les uns les autres, sans qu’il existe une compagnie d’assurance traditionnelle dotée d’un capital-actions. Chaque membre participe collectivement à l’absorption des risques assumés par le groupe.   La gestion des activités d’assurance est généralement confiée à un gestionnaire mandaté, qui administre les contrats, les sinistres et les opérations courantes au nom des membres. Les risques demeurent toutefois portés collectivement par l’ensemble des participants. Ce statut est relativement rare et est principalement utilisé pour des groupes fermés ou des risques spécialisés, en raison de sa complexité juridique et de sa moindre compatibilité avec les cadres prudentiels modernes. Seuls deux assureurs au Québec ont ce statut.
+  Une union réciproque est une forme particulière d’organisation assurantielle dans laquelle les membres s’assurent mutuellement les uns les autres, sans qu’il existe une compagnie d’assurance traditionnelle dotée d’un capital-actions. Chaque membre participe collectivement à l’absorption des risques assumés par le groupe.   La gestion des activités d’assurance est généralement confiée à un gestionnaire mandaté, qui administre les contrats, les sinistres et les opérations courantes au nom des membres. Les risques demeurent toutefois portés collectivement par l’ensemble des participants. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/a-32.1 "Légis Québec : Loi sur les assureurs"){.source-link} Ce statut est relativement rare et est principalement utilisé pour des groupes fermés ou des risques spécialisés, en raison de sa complexité juridique et de sa moindre compatibilité avec les cadres prudentiels modernes. Le registre de l’AMF recense trois unions réciproques autorisées au Québec (consultation d’octobre 2026). [↗](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF "AMF : Liste actualisée des institutions autorisées"){.source-link}
 
 ::: {.callout-important icon=false}
 ## Absence du statut de coopérative
 
-La classification utilisée par l'AMF ne comprend pas de catégorie générale intitulée « coopérative d'assurance ». Les structures mutualistes y sont principalement représentées par les sociétés mutuelles et les sociétés mutuelles membres d'une fédération. Cela ne signifie toutefois pas que toute organisation exerçant des activités d'assurance et présentant un caractère coopératif relève nécessairement de ces catégories. Il faut distinguer le mode de fonctionnement coopératif ou mutualiste, la forme juridique de l'organisation et le statut sous lequel elle est reconnue par l'AMF.
+La classification utilisée par l'AMF ne comprend pas de catégorie générale intitulée « coopérative d'assurance ». [↗](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF "AMF : Liste actualisée des institutions autorisées"){.source-link} Les structures mutualistes y sont principalement représentées par les sociétés mutuelles et les sociétés mutuelles membres d'une fédération. Cela ne signifie toutefois pas que toute organisation exerçant des activités d'assurance et présentant un caractère coopératif relève nécessairement de ces catégories. Il faut distinguer le mode de fonctionnement coopératif ou mutualiste, la forme juridique de l'organisation et le statut sous lequel elle est reconnue par l'AMF.
 :::
 
 
@@ -396,7 +405,7 @@ text-align:center;
 
   La profession **médicale** illustre bien cette situation. Un diagnostic posé trop tard, un résultat critique non suivi ou une complication postopératoire peuvent donner lieu à des réclamations complexes, où l’explication et la documentation deviennent centrales. Dans ces dossiers, l’enjeu ne se limite pas à l’indemnité éventuelle : les coûts de défense — honoraires d’experts, analyses spécialisées et frais juridiques — peuvent être très élevés.
 
-  De plus, les réclamations peuvent survenir longtemps après l'acte médical, par exemple lorsque l'état du patient se détériore ou lorsqu'un lien causal est allégué a posteriori. L'[Association canadienne de protection médicale (CMPA/ACPM)](https://www.cmpa-acpm.ca/fr/home) illustre un modèle de défense médicale mutuelle qui n'est pas une police d'assurance traditionnelle. Les médecins membres partagent les coûts de cette protection, mais l'assistance de l'ACPM est accordée selon ses règles et conserve un caractère discrétionnaire : elle ne représente pas un droit contractuel identique aux garanties prévues par une police d'assurance.
+  De plus, les réclamations peuvent survenir longtemps après l'acte médical, par exemple lorsque l'état du patient se détériore ou lorsqu'un lien causal est allégué a posteriori. L'[Association canadienne de protection médicale (CMPA/ACPM)](https://www.cmpa-acpm.ca/fr/home) illustre un modèle de défense médicale mutuelle qui n'est pas une police d'assurance traditionnelle. Les médecins membres partagent les coûts de cette protection, mais l'assistance de l'ACPM est accordée selon ses règles et conserve un caractère discrétionnaire : elle ne représente pas un droit contractuel identique aux garanties prévues par une police d'assurance. [↗](https://www.cmpa-acpm.ca/fr/membership/protection-for-members/principles-of-assistance/medico-legal-issues-to-consider-with-individual-contracts "ACPM : Protection mutuelle non assimilable à une assurance"){.source-link}
 
 <div style="clear: both;"></div>
 
@@ -404,7 +413,7 @@ text-align:center;
 
 ## L’encadrement de l’assurance
 
-La réglementation de l'assurance au Canada repose sur un partage des compétences entre les autorités fédérales et provinciales. Au Québec, l'AMF veille notamment à l'autorisation des assureurs et à l'encadrement des pratiques commerciales, et exerce la surveillance prudentielle des assureurs de compétence québécoise. Le BSIF est responsable de la surveillance prudentielle des assureurs de compétence fédérale et de certaines activités canadiennes d'assureurs étrangers. Cette surveillance porte notamment sur la solvabilité et la solidité financière; elle ne doit pas être confondue avec la réglementation des contrats, de la distribution et de la protection des consommateurs. Nous reviendrons plus en détail sur ces questions au [chapitre 8 : Aspects juridiques et réglementaires](Chap8_Juridique.qmd).
+La réglementation de l'assurance au Canada repose sur un partage des compétences entre les autorités fédérales et provinciales. Au Québec, l'AMF veille notamment à l'autorisation des assureurs et à l'encadrement des pratiques commerciales, et exerce la surveillance prudentielle des assureurs de compétence québécoise. Le BSIF est responsable de la surveillance prudentielle des assureurs de compétence fédérale et de certaines activités canadiennes d'assureurs étrangers. Cette surveillance porte notamment sur la solvabilité et la solidité financière; elle ne doit pas être confondue avec la réglementation des contrats, de la distribution et de la protection des consommateurs. [↗](https://lautorite.qc.ca/professionnels/assureurs/lignes-directrices "AMF : Encadrement et surveillance prudentielle"){.source-link} [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres/societes-dassurance-multirisque "BSIF : Assurance multirisque et partage des compétences"){.source-link} Nous reviendrons plus en détail sur ces questions au [chapitre 8 : Aspects juridiques et réglementaires](Chap8_Juridique.qmd).
 
 ## Portrait de l’assurance au Québec
 
@@ -425,11 +434,11 @@ L’assurance de personnes inclut notamment les catégories de produits suivante
 - les rentes individuelles ;
 - les rentes collectives.
 
-Dans cette classification, la distinction entre les produits individuels et collectifs renvoie à la manière dont la couverture est souscrite et administrée, et non à la nature du risque assuré. Les produits individuels sont souscrits directement par une personne à titre individuel. Le contrat est établi entre l’assureur et l’assuré, et les conditions (prime, garanties, exclusions) sont déterminées en fonction du profil individuel de la personne assurée. Les produits collectifs sont souscrits par un preneur de groupe, le plus souvent un employeur, une association ou une organisation, au bénéfice d’un ensemble de personnes. Les garanties sont définies pour le groupe dans son ensemble, et la tarification repose principalement sur les caractéristiques et l’expérience du groupe plutôt que sur celles de chaque individu pris isolément.
+Dans cette classification, la distinction entre les produits individuels et collectifs renvoie à la manière dont la couverture est souscrite et administrée, et non à la nature du risque assuré. Les produits individuels sont souscrits directement par une personne à titre individuel. Le contrat est établi entre l’assureur et le preneur, qui peut être distinct de la personne assurée, et les conditions (prime, garanties, exclusions) dépendent notamment des caractéristiques du risque assuré. Les produits collectifs sont souscrits par un preneur de groupe, le plus souvent un employeur, une association ou une organisation, au bénéfice d’un ensemble de personnes. Les garanties sont définies pour le groupe dans son ensemble, et la tarification repose principalement sur les caractéristiques et l’expérience du groupe plutôt que sur celles de chaque individu pris isolément.
 
 #### **Part de marché**  {-}
 
-Selon les données de l’Autorité des marchés financiers, les treize assureurs à charte québécoise, appelés « assureurs québécois », détiennent toujours une part majoritaire du marché québécois en matière de primes directes souscrites non consolidées. En 2024, leur part de marché s'élève à 59,2 %, soit une hausse de 1,2 point de pourcentage par rapport à 2023. Les primes directes souscrites augmentent nettement sur la période 2015–2024, avec une accélération à partir de 2021. Cette progression en valeur monétaire peut provenir tant d'une évolution des couvertures que des tarifs. Les assureurs étrangers conservent une part de marché marginale.
+Selon les données de l’Autorité des marchés financiers, les treize assureurs à charte québécoise, appelés « assureurs québécois », détiennent toujours une part majoritaire du marché québécois en matière de primes directes souscrites non consolidées. En 2024, leur part de marché s'élève à 59,2 %, soit une hausse de 1,2 point de pourcentage par rapport à 2023. Les primes directes souscrites augmentent nettement sur la période 2015–2024, avec une accélération à partir de 2021. Cette progression en valeur monétaire peut provenir tant d'une évolution des couvertures que des tarifs. Les assureurs étrangers conservent une part de marché marginale. [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link}
 
 Pris ensemble, ces graphiques mettent en évidence une structure de marché concentrée, dans laquelle un nombre limité d’assureurs à charte québécoise capte une part importante de la croissance du marché, malgré la présence d’un plus grand nombre d’assureurs à charte canadienne et étrangère.
 
@@ -537,7 +546,7 @@ Intact demeure au premier rang du tableau des assureurs individuels de dommages 
 
 Les assureurs classés du quatrième au dixième rang — incluant notamment Lloyd’s, La Personnelle, Belair, Unique et Aviva — détiennent chacun des parts de marché comprises entre 2 % et 5 %. La décroissance des parts est plus graduelle que dans l'assurance de personnes, ce qui traduit une répartition moins concentrée des primes entre les assureurs individuels.
 
-Selon le tableau 41, les dix premières **entités individuelles** représentent environ 64 % des primes en assurance de dommages en 2024. Cette proportion ne doit pas être comparée directement à une concentration calculée pour des **groupes financiers**. En regroupant les assureurs appartenant à un même groupe, le tableau 34 du rapport indique plutôt une concentration de **78,6 %** pour les dix principaux assureurs ou groupes d'assureurs. À unité de comparaison équivalente, le chiffre correspondant est de **92,3 % en assurance de personnes** (tableau 20). Le secteur des dommages est donc moins concentré, sans que cet écart permette à lui seul de conclure qu'il serait nécessairement plus concurrentiel.
+Selon le tableau 41, les dix premières **entités individuelles** représentent environ 64 % des primes en assurance de dommages en 2024. Cette proportion ne doit pas être comparée directement à une concentration calculée pour des **groupes financiers**. En regroupant les assureurs appartenant à un même groupe, le tableau 34 du rapport indique plutôt une concentration de **78,6 %** pour les dix principaux assureurs ou groupes d'assureurs. À unité de comparaison équivalente, le chiffre correspondant est de **92,3 % en assurance de personnes** (tableau 20). [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link} Le secteur des dommages est donc moins concentré, sans que cet écart permette à lui seul de conclure qu'il serait nécessairement plus concurrentiel.
 
 En ce qui concerne les volumes globaux, le tableau indique que les primes directes souscrites non consolidées en assurance de dommages s’élèvent à environ 19,2 milliards de dollars en 2024. À titre de comparaison, les primes correspondantes en assurance de personnes atteignent environ 25,0 milliards de dollars pour la même année. L’assurance de personnes constitue donc le marché le plus important en termes de volume de primes au Québec, malgré un nombre d’assureurs plus restreint et une concentration plus élevée.
 
@@ -550,3 +559,39 @@ La comparaison des deux segments illustre ainsi une concentration plus forte en 
 
 Ce chapitre a présenté l'écosystème de l'assurance au Québec en distinguant l'assurance de personnes et l'assurance de dommages selon les produits, les structures d'organisation et les marchés. La charte de constitution et le statut juridique ou institutionnel permettent de mieux comprendre l'encadrement des assureurs. Enfin, les données de l'AMF ont permis de comparer la taille et la concentration des deux segments, tout en montrant l'importance de bien définir les populations statistiques et les indicateurs utilisés.
 
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### AMF, encadrement du marché et législation {-}
+
+- [AMF : Rapport sur les institutions financières 2024](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf)
+- [AMF : Rapports, données et analyses sectorielles](https://lautorite.qc.ca/grand-public/publications/publications-organisationnelles/rapports-annuels)
+- [AMF : Liste actualisée des institutions autorisées](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF)
+- [AMF : Autorisation d'exercer l'activité d'assureur](https://lautorite.qc.ca/professionnels/assureurs/droit-dexercice/autorisation-exercer-assureur-quebec)
+- [AMF : Encadrement et surveillance prudentielle](https://lautorite.qc.ca/professionnels/assureurs/lignes-directrices)
+- [Légis Québec : Loi sur les assureurs](https://www.legisquebec.gouv.qc.ca/fr/document/lc/a-32.1)
+- [BSIF : Assurance multirisque et partage des compétences](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres/societes-dassurance-multirisque)
+- [BSIF : Assurance vie et sociétés de secours mutuels](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres/societes-dassurance-vie-secours-mutuels)
+- [AMF : Site institutionnel](https://lautorite.qc.ca/grand-public)
+
+### Lloyd’s : organisation et histoire {-}
+
+- [Lloyd’s : Fonctionnement du marché](https://www.lloyds.com/about-lloyds/our-market/lloyds-market)
+- [Lloyd’s : Membres et responsabilité distincte](https://www.lloyds.com/market-resources/member-services/about/what-is-a-member)
+- [Lloyd’s : Origine du café d’Edward Lloyd](https://www.lloyds.com/about-lloyds/history/coffee-and-commerce)
+- [Lloyd’s : Loi de 1871 et évolution historique](https://www.lloyds.com/about-lloyds/history/sweeping-change-new-standards)
+- [Lloyd’s : Crise des Names et réformes](https://www.lloyds.com/about-lloyds/history/important-people-from-our-past/sir-david-rowland)
+- [Lloyd’s : Séisme et incendie de San Francisco (1906)](https://www.lloyds.com/about-lloyds/history/catastrophes-and-claims/san-francisco-earthquake)
+- [Lloyd’s : Présence dans le monde](https://www.lloyds.com/worldwide)
+- [EBSCO : Betty Grable et assurance de ses jambes](https://www.ebsco.com/research-starters/history/betty-grable)
+- [Revue Assurances et gestion des risques : Lloyd’s](https://www.revueassurances.ca/wp-content/uploads/2016/03/2013_81_no1_2_london.pdf)
+
+### Responsabilité professionnelle {-}
+
+- [Légis Québec : Règlement pour les urbanistes](https://www.legisquebec.gouv.qc.ca/fr/document/rc/c-26,%20r.%20299)
+- [ACPM : Protection mutuelle non assimilable à une assurance](https://www.cmpa-acpm.ca/fr/membership/protection-for-members/principles-of-assistance/medico-legal-issues-to-consider-with-individual-contracts)
+- [Association canadienne de protection médicale (ACPM)](https://www.cmpa-acpm.ca/fr/home)
+- [Fonds d’assurance responsabilité professionnelle des notaires](https://www.farpcnq.qc.ca)
+
+:::

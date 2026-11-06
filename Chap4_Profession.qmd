@@ -22,15 +22,24 @@ date-modified: last-modified
 
 :::
 
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+:::
+
+
 ## Les ordres professionnels au Québec
 
-Le Québec encadre certaines professions par un dispositif juridique central, fondé sur le Code des professions. Ce texte constitue la loi-cadre régissant les professions réglementées. Il prévoit notamment :
+Le Québec encadre certaines professions par un dispositif juridique central, fondé sur le [Code des professions](https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-26). Ce texte constitue la loi-cadre régissant les professions réglementées. Il prévoit notamment :
 
 - les conditions de création d’un ordre professionnel ;
 - les pouvoirs, obligations et responsabilités des ordres ;
 - la finalité première du système, soit la protection du public.
 
-En 2026, tel qu'on peut le voir sur leur [site](https://www.professions-quebec.org/fr/liste-des-ordres-professionnels), 55 professions sont régies par le Code des professions et encadrées par 46 ordres professionnels.
+En 2026, 55 professions sont régies par le *Code des professions* et encadrées par 46 ordres professionnels. [↗](https://www.quebec.ca/gouvernement/ministeres-organismes/office-professions/coordonnees-structure/organigramme/composition-systeme-professionnel "Source : Office des professions du Québec"){.source-link}
 
 ::: {.callout-important}
 ## Principe institutionnel
@@ -42,7 +51,7 @@ La reconnaissance d’une profession par un ordre professionnel ne vise pas à v
 
 ### Les critères examinés par le législateur
 
-L’article 25 du Code des professions énumère des facteurs servant à déterminer s’il est pertinent de réglementer une profession par un ordre professionnel. Ces facteurs portent principalement sur la nature des activités professionnelles et sur les risques associés à leur exercice.
+L’article 25 du *Code des professions* énumère des facteurs servant à déterminer s’il est pertinent de réglementer une profession par un ordre professionnel. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-26 "Source : Code des professions, art. 25"){.source-link} Ces facteurs portent principalement sur la nature des activités professionnelles et sur les risques associés à leur exercice.
 
 - Compétences et autonomie
   - Niveau de connaissances spécialisées requis  
@@ -62,7 +71,7 @@ Ces critères ne sont ni exclusifs ni appliqués mécaniquement. Ils servent de 
 ::: {.callout-note appearance="simple" icon=false}
 #### La réserve du titre {-}
 
-Lorsqu’une profession est réglementée, le Code des professions prévoit généralement que le titre professionnel associé est contrôlé par l’ordre concerné. Il s’agit de la réserve du titre. Concrètement, seules les personnes membres de l’ordre peuvent porter le titre officiel, et une personne non membre ne peut pas utiliser ce titre, ni une abréviation ou une appellation laissant croire à une telle appartenance. Le titre professionnel sert à informer le public sur la nature des services offerts et à signaler que la personne qui le porte satisfait à certaines exigences minimales de compétence, de formation et de déontologie.
+Lorsqu’une profession est réglementée, le Code des professions prévoit généralement que le titre professionnel associé est contrôlé par l’ordre concerné. Il s’agit de la réserve du titre. Concrètement, seules les personnes membres de l’ordre peuvent porter le titre officiel, et une personne non membre ne peut pas utiliser ce titre, ni une abréviation ou une appellation laissant croire à une telle appartenance. Le titre professionnel sert à informer le public sur la nature des services offerts et à signaler que la personne qui le porte satisfait à certaines exigences minimales de compétence, de formation et de déontologie. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-26 "Source : Code des professions, art. 32 et suivants"){.source-link}
 :::
 :::
 
@@ -73,7 +82,7 @@ Lorsqu’une profession est réglementée, le Code des professions prévoit gén
 ::: {.callout-note appearance="minimal" icon=false}
 #### Exercice de la profession {-}
 
-Dans certains cas, le cadre légal va plus loin que la réserve du titre et prévoit une exclusivité de l’exercice. Cela signifie que certains actes professionnels précis ne peuvent être posés que par les membres de l’ordre concerné. Des exemples souvent cités incluent les géologues, les avocats et les infirmières. Même lorsqu’une exclusivité est prévue par la loi, un ordre professionnel peut, par règlement, autoriser certaines catégories de personnes non membres à exercer des activités spécifiques associées à la profession. Ce type d’autorisation est présenté comme exceptionnel.
+Dans certains cas, le cadre légal va plus loin que la réserve du titre et prévoit une exclusivité de l’exercice. Cela signifie que certains actes professionnels précis ne peuvent être posés que par les membres de l’ordre concerné. On peut notamment penser aux géologues, aux avocats et aux infirmières, dont certaines activités sont réservées par la loi. Selon les dispositions applicables, des exceptions ou des autorisations réglementaires peuvent toutefois permettre à certaines personnes non membres de poser des actes particuliers. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-26 "Source : Code des professions, art. 32 à 34 et lois particulières"){.source-link}
 :::
 :::
 :::
@@ -82,8 +91,24 @@ Ainsi, la réserve du titre répond à la question « Qui peut porter le titre ?
 
 ## Statut juridique de l’actuaire
 
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+padding:6px;
+background:white;
+max-width:330px;
+">
+
+<img src="images/WhatisActuary.png"
+style="width:100%; height:auto; display:block;">
+
+</div>
+
+
 Ainsi, on peut voir, à partir de la 
-[liste officielle des ordres professionnels du Québec](https://www.professions-quebec.org/fr/liste-des-ordres-professionnels), que les actuaires ne font pas partie d’un ordre professionnel et ne sont pas régis par le Code des professions du Québec.  En conséquence, le titre d’actuaire n’est pas un titre réservé au sens du Code des professions, et son usage n’est pas protégé par un ordre professionnel québécois.  Une personne peut donc utiliser le terme « actuaire » sans être membre d’un ordre professionnel québécois. Cela ne lui permet toutefois ni de se présenter faussement comme titulaire d’une désignation professionnelle, ni d’exercer les fonctions que certaines lois réservent à des personnes qualifiées.
+[liste officielle des professions réglementées au Québec](https://www.quebec.ca/emploi/informer-metier-profession/ordres-professionnels/liste-repertoire-membres), que les actuaires ne font pas partie d’un ordre professionnel et ne sont pas régis par le Code des professions du Québec.  En conséquence, le titre d’actuaire n’est pas un titre réservé au sens du Code des professions, et son usage n’est pas protégé par un ordre professionnel québécois.  Une personne peut donc utiliser le terme « actuaire » sans être membre d’un ordre professionnel québécois. Cela ne lui permet toutefois ni de se présenter faussement comme titulaire d’une désignation professionnelle, ni d’exercer les fonctions que certaines lois réservent à des personnes qualifiées.
 
 ### Références législatives au rôle de l’actuaire
 
@@ -107,12 +132,15 @@ On retrouve notamment ce type de référence dans les textes suivants :
 - [Teachers’ Pension Act (Ontario)](https://www.ontario.ca/laws/statute/90t01) et [Insurance Act (Ontario)](https://www.ontario.ca/laws/statute/90i08)
 - [Loi sur les assureurs (Québec)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/a-32.1) et [Loi sur les accidents du travail et les maladies professionnelles (Québec)](https://legisquebec.gouv.qc.ca/fr/showdoc/cs/a-3.001)
 - [Loi sur les régimes complémentaires de retraite (Québec)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/r-15.1)
-- [Code criminel (Canada)](https://laws-lois.justice.gc.ca/fra/lois/c-46/)
+- [Code criminel (Canada)](https://laws-lois.justice.gc.ca/fra/lois/c-46/) (notamment l’article 347, relatif au taux d’intérêt criminel)
 - [Loi sur les sociétés d’assurances (Canada)](https://laws-lois.justice.gc.ca/fra/lois/I-11.8/)
 
 La [Loi sur les sociétés d’assurances (Canada)](https://laws-lois.justice.gc.ca/fra/lois/I-11.8/) fournit un exemple particulièrement clair : elle définit l’« actuaire » comme un Fellow de l’Institut canadien des actuaires et prévoit explicitement la fonction d’actuaire désigné dans les sociétés d’assurance sous réglementation fédérale.
 
-Cet exemple montre que, même sans ordre professionnel québécois ni titre d’actuaire réservé par le *Code des professions*, la loi peut exiger des qualifications précises pour exercer certaines fonctions sensibles.
+Cet exemple montre que, même sans ordre professionnel québécois ni titre d’actuaire réservé par le *Code des professions*, la loi peut exiger des qualifications précises pour exercer certaines fonctions sensibles. Le Québec prévoit lui aussi, aux articles 115 et 116 de la *Loi sur les assureurs*, que l’actuaire chargé des fonctions prévues par cette loi doit être Fellow de l’ICA. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-32.1 "Source : Loi sur les assureurs, art. 115 et 116"){.source-link}
+
+<div style="clear: both;"></div>
+
 
 ### L’actuaire désigné
 
@@ -131,7 +159,7 @@ style="width:100%; height:auto; display:block;">
 
 </div>
 
-La [Loi sur les sociétés d’assurances](https://laws-lois.justice.gc.ca/fra/lois/I-11.8/), adoptée en 1991, a établi le cadre législatif moderne de la fonction d’**actuaire désigné** dans les sociétés d’assurance sous réglementation fédérale. Cette fonction comporte des obligations et des responsabilités précises. Selon la loi et les attentes de l’[organisme fédéral de réglementation (BSIF)](https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/appointed-actuary-legal-requirements-qualifications-peer-review-guideline-2023), ses principales caractéristiques sont les suivantes :
+La [Loi sur les sociétés d’assurances](https://laws-lois.justice.gc.ca/fra/lois/I-11.8/), adoptée en 1991, a établi le cadre législatif moderne de la fonction d’**actuaire désigné** dans les sociétés d’assurance sous réglementation fédérale. Cette fonction comporte des obligations et des responsabilités précises. Selon la loi et les attentes de l’[organisme fédéral de réglementation (BSIF)](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/actuaire-designe-dispositions-legislatives-qualifications-examen-pairs-ligne-directrice-2023), ses principales caractéristiques sont les suivantes :
 
 - la société d’assurance doit désigner un actuaire répondant aux qualifications exigées ;
 - l’actuaire désigné peut être un employé de la société ou un consultant externe ;
@@ -141,9 +169,12 @@ La [Loi sur les sociétés d’assurances](https://laws-lois.justice.gc.ca/fra/l
 - il formule une opinion actuarielle portant notamment sur l’évaluation des engagements liés aux contrats d’assurance ;
 - il prépare les rapports actuariels réglementaires exigés par le BSIF et présente au conseil d’administration ses travaux sur la situation financière de l’assureur.
 
+Le BSIF a également annoncé en septembre 2025 qu’à compter du 1er janvier 2027, l’examen externe périodique des travaux de l’actuaire désigné par des pairs ne serait plus systématiquement exigé, tout en conservant le pouvoir d’en demander un au besoin. [↗](https://www.osfi-bsif.gc.ca/fr/nouvelles/document-dinformation-ligne-directrice-e-15-actuaire-designe-dispositions-legislatives "Source : BSIF, révision E-15 de septembre 2025"){.source-link}
+
 Ainsi, même si le titre d'actuaire n'est pas réservé par le *Code des professions* du Québec, certaines lois confient des fonctions précises à des personnes qui possèdent des qualifications actuarielles reconnues, notamment le titre de Fellow de l'Institut canadien des actuaires. L'absence d'ordre professionnel ne signifie donc pas l'absence de règles encadrant la pratique.
 
 Autrement dit, le titre générique est libre, mais certaines fonctions ne le sont pas. Il faut donc se rendre à l'évidence : si tout le monde peut se déclarer actuaire, certains sont manifestement beaucoup plus actuaires que d'autres.
+
 <div style="clear: both;"></div>
 
 
@@ -195,7 +226,7 @@ Ces orientations s’inscrivent dans une même logique : soutenir l’évolution
 
 ### Catégories de membres de l’ICA
 
-L’ICA distingue aujourd’hui les membres titulaires des désignations professionnelles **FICA** et **AICA**, ainsi que deux catégories destinées aux personnes en cours de formation : les **membres étudiants** et les **membres candidats**. Ces deux dernières catégories existent depuis le 1er décembre 2024.
+L’ICA distingue aujourd’hui les membres titulaires des désignations professionnelles **FICA** et **AICA**, ainsi que deux catégories destinées aux personnes en cours de formation : les **membres étudiants** et les **membres candidats**. Ces deux dernières catégories existent depuis le 1er décembre 2024. [↗](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-etudiant-ou-candidat-de-lica/ "Source : ICA, catégories de membres et conditions"){.source-link}
 
 | Catégorie | Statut et principales caractéristiques |
 |:--|:--|
@@ -243,28 +274,9 @@ Dans l’ensemble, ces règles visent à protéger l’intérêt public, à enca
 
 #### **Fraudes financières** {-}
 
-Les règles de déontologie et les mécanismes de surveillance prennent une importance particulière dans le secteur financier, où les clients confient parfois des sommes considérables à des professionnels et à des organisations dont ils ne peuvent pas facilement vérifier toutes les activités. Il est important de distinguer ici le travail des actuaires de celui des représentants en assurance ou en placement : ces derniers exercent d’autres fonctions et relèvent de cadres professionnels et réglementaires qui leur sont propres.
+Les règles de déontologie et les mécanismes de surveillance prennent une importance particulière dans le secteur financier, où les clients confient parfois des sommes considérables à des professionnels et à des organisations dont ils ne peuvent pas facilement vérifier toutes les activités. Il est important de distinguer ici le travail des actuaires de celui des représentants en assurance ou en placement : ces derniers exercent d’autres fonctions et relèvent de cadres professionnels et réglementaires qui leur sont propres. La rémunération à commission de certains représentants peut soulever des questions de transparence ou de conflits d’intérêts. Une commission n’est toutefois pas, à elle seule, la preuve d’un comportement contraire à l’éthique. Ce qui importe notamment est que la rémunération et les intérêts en jeu soient divulgués conformément aux règles applicables et que les conseils donnés répondent aux obligations professionnelles.
 
-La rémunération à commission de certains représentants peut soulever des questions de transparence ou de conflits d’intérêts. Une commission n’est toutefois pas, à elle seule, la preuve d’un comportement contraire à l’éthique. Ce qui importe notamment est que la rémunération et les intérêts en jeu soient divulgués conformément aux règles applicables et que les conseils donnés répondent aux obligations professionnelles.
-
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Ponzi.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
-</div>
-
-Les fraudes financières illustrent un problème beaucoup plus grave : celui de la tromperie délibérée. Un [schéma de Ponzi](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_Ponzi), par exemple, consiste à verser de prétendus rendements à des investisseurs au moyen des fonds apportés par de nouveaux investisseurs, plutôt qu’à partir de véritables profits. Ce mécanisme devient insoutenable lorsque les demandes de retrait dépassent les nouveaux apports.
-
-Les deux affaires suivantes illustrent des mécanismes de fraude différents. Elles ne mettent pas en cause la profession actuarielle en tant que telle, mais rappellent pourquoi l’intégrité, la divulgation des conflits d’intérêts et la surveillance sont essentielles dans les services financiers.
-
-<div style="clear: both;"></div>
+Les fraudes financières illustrent un problème beaucoup plus grave : celui de la tromperie délibérée. Une [fraude à la Ponzi](https://lautorite.qc.ca/grand-public/types-de-fraude/la-fraude-a-la-ponzi), par exemple, consiste à verser de prétendus rendements à des investisseurs au moyen des fonds apportés par de nouveaux investisseurs, plutôt qu’à partir de véritables profits. Ce mécanisme devient insoutenable lorsque les demandes de retrait dépassent les nouveaux apports. Les deux affaires suivantes illustrent des mécanismes de fraude différents. Elles ne mettent pas en cause la profession actuarielle en tant que telle, mais rappellent pourquoi l’intégrité, la divulgation des conflits d’intérêts et la surveillance sont essentielles dans les services financiers.
 
 ::: {.callout-important icon=false}
 ## Une fraude financière au Québec
@@ -276,9 +288,9 @@ Les deux affaires suivantes illustrent des mécanismes de fraude différents. El
 </div>
 
 
-[L’affaire Norbourg](https://lautorite.qc.ca/grand-public/salle-de-presse/grands-dossiers/tous-les-grands-dossiers) est une fraude financière survenue au Québec au milieu des années 2000, impliquant une société de gestion de fonds communs de placement et son dirigeant, Vincent Lacroix. La fraude reposait sur le détournement de sommes appartenant aux investisseurs, la falsification de documents financiers et la dissimulation de la situation réelle des fonds sous gestion. Une partie des actifs confiés n’était pas investie conformément à ce qui était annoncé, et certains documents transmis aux autorités et aux investisseurs ne reflétaient pas la réalité financière de l’entreprise.
+[L’affaire Norbourg](https://lautorite.qc.ca/grand-public/salle-de-presse/actualites/fiche-dactualite/dossier-norbourg-lautorite-intente-un-recours-au-profit-des-investisseurs) est une fraude financière survenue au Québec au milieu des années 2000, impliquant une société de gestion de fonds communs de placement et son dirigeant, Vincent Lacroix. La fraude reposait sur le détournement de sommes appartenant aux investisseurs, la falsification de documents financiers et la dissimulation de la situation réelle des fonds sous gestion. Une partie des actifs confiés n’était pas investie conformément à ce qui était annoncé, et certains documents transmis aux autorités et aux investisseurs ne reflétaient pas la réalité financière de l’entreprise.
 
-L'écart constaté entre les actifs réellement détenus et ceux présentés dans les états financiers était d'environ 130 millions de dollars, et plusieurs milliers d’investisseurs ont été touchés. L’affaire a mené à des poursuites pénales et criminelles, à des condamnations à des peines d’emprisonnement ainsi qu’à des démarches de récupération partielle des fonds pour les victimes.
+L'écart constaté entre les actifs réellement détenus et ceux présentés dans les états financiers était d'environ 130 millions de dollars, et environ 9 200 détenteurs de parts étaient concernés. [↗](https://lautorite.qc.ca/grand-public/salle-de-presse/actualites/fiche-dactualite/lautorite-des-marches-financiers-recommande-la-liquidation-de-norbourg "Source : AMF, rapport de l’administrateur provisoire"){.source-link} L’affaire a mené à des poursuites pénales et criminelles, à des condamnations à des peines d’emprisonnement ainsi qu’à des démarches de récupération partielle des fonds pour les victimes.
 
 Cette fraude reposait principalement sur le détournement de fonds et la falsification de documents; il ne s’agissait pas d’un schéma de Ponzi au sens strict. L’affaire a mis en évidence des failles importantes dans la surveillance des marchés financiers québécois.
 
@@ -288,13 +300,13 @@ Cette fraude reposait principalement sur le détournement de fonds et la falsifi
 
 
 ::: {.callout-important icon=false}
-## La plus grande fraude financière de l'histoire
+## Un des plus grands schémas de Ponzi de l’histoire
 
 [L’affaire Madoff](https://www.sec.gov/news/press/2008/2008-293.htm) constitue l’un des plus vastes schémas de Ponzi jamais découverts. Pendant plusieurs décennies, Bernard Madoff a géré une activité de placement qui promettait des rendements réguliers et élevés, présentés comme résultant de stratégies financières sophistiquées. En réalité, les rendements versés aux investisseurs ne provenaient pas d’activités économiques réelles, mais de l’argent apporté par de nouveaux investisseurs. Le système reposait donc entièrement sur l’afflux continu de nouveaux fonds, caractéristique centrale d’un schéma de Ponzi.
 
-La fraude a été révélée en 2008, lorsque les demandes de retrait sont devenues trop importantes pour être honorées. Le montant d’environ 65 milliards de dollars souvent associé à cette affaire inclut des gains fictifs figurant dans les relevés des investisseurs; il ne correspond donc pas aux seules sommes effectivement investies. L’affaire a touché des particuliers, des institutions financières et des organismes à vocation philanthropique dans de nombreux pays.
+La fraude a été révélée en 2008, lorsque les demandes de retrait sont devenues trop importantes pour être honorées. Le montant d’environ 65 milliards de dollars souvent associé à cette affaire inclut des gains fictifs figurant dans les relevés des investisseurs; il ne correspond donc pas aux seules sommes effectivement investies. [↗](https://www.justice.gov/usao-sdny/file/762616/dl "Source : ministère américain de la Justice, montants déclarés"){.source-link} L’affaire a touché des particuliers, des institutions financières et des organismes à vocation philanthropique dans de nombreux pays.
 
-Bernard Madoff a plaidé coupable à plusieurs infractions financières et a été condamné à 150 ans de prison. Des mécanismes judiciaires ont permis le versement d’indemnités partielles à un grand nombre de victimes, sans toutefois compenser intégralement les pertes subies.
+Bernard Madoff a plaidé coupable à plusieurs infractions financières et a été condamné à 150 ans de prison. [↗](https://www.justice.gov/archives/opa/pr/justice-departments-10th-distribution-brings-total-provided-over-43b-nearly-full-recovery "Source : ministère américain de la Justice"){.source-link} Des mécanismes judiciaires ont permis le versement d’indemnités partielles à un grand nombre de victimes, sans toutefois compenser intégralement les pertes subies.
 
 :::
 
@@ -312,9 +324,9 @@ Au prochain chapitre, nous étudierons en détail le lien entre la formation uni
 
 ::: {.columns .align-center}
 ::: {.column width="64%"}
-La [Society of Actuaries (SOA)](https://www.soa.org) est un organisme professionnel international ayant ses racines aux États-Unis, principalement dédié à la formation des actuaires et à la recherche en actuariat. Elle regroupe aujourd’hui plus de 30 000 membres à travers le monde. Ses origines remontent à 1889, année de fondation de l’*Actuarial Society of America*. La SOA actuelle a été constituée en 1949 par la fusion de cette société et de l’*American Institute of Actuaries*. Les examens professionnels ont occupé une place centrale dans son histoire et demeurent un élément essentiel de son système de qualification.
+La [Society of Actuaries (SOA)](https://www.soa.org) est un organisme professionnel international ayant ses racines aux États-Unis, principalement dédié à la formation des actuaires et à la recherche en actuariat. Elle regroupe aujourd’hui plus de 34 000 membres à travers le monde. [↗](https://www.soa.org/about/purpose/ "Source : SOA, présentation officielle"){.source-link} Ses origines remontent à 1889, année de fondation de l’*Actuarial Society of America*. La SOA actuelle a été constituée en 1949 par la fusion de cette société et de l’*American Institute of Actuaries*. Les examens professionnels ont occupé une place centrale dans son histoire et demeurent un élément essentiel de son système de qualification.
 
-Jusqu’en 2012, la SOA concentrait essentiellement ses activités sur les risques liés aux personnes, notamment la mortalité, la morbidité, les taux d’intérêt et les placements. À partir de 2012, elle a élargi son champ d’intervention afin d’inclure également l’assurance IARD et la gestion des risques.
+Jusqu’en 2012, la SOA concentrait essentiellement ses activités sur les risques liés aux personnes, notamment la mortalité, la morbidité, les taux d’intérêt et les placements. En 2012, elle a décidé de créer un parcours de formation en assurance IARD, dont les premiers examens ont été offerts en 2013. [↗](https://www.soa.org/education/general-insurance/edu-general-ins/ "Source : SOA, lancement du parcours IARD"){.source-link}
 
 La SOA offre notamment les titres d’*Associate of the Society of Actuaries (ASA)* et de *Fellow of the Society of Actuaries (FSA)*. Depuis l’automne 2025, le parcours FSA est plus flexible : après les exigences du titre ASA, les candidats doivent réussir quatre cours techniques, dont deux cours successifs dans un même domaine de pratique, ainsi que les activités de professionnalisme et de communication requises. Ils peuvent se concentrer sur un domaine ou combiner plusieurs domaines, par exemple l’assurance-vie, la santé, la retraite, la finance ou la gestion des risques. Les [exigences du titre FSA](https://www.soa.org/education/fsa/) sont présentées sur le site de la SOA.
 :::
@@ -334,7 +346,7 @@ La SOA offre notamment les titres d’*Associate of the Society of Actuaries (AS
 
 ::: {.columns .align-center}
 ::: {.column width="64%"}
-La [Casualty Actuarial Society (CAS)](https://www.casact.org) est un organisme professionnel international, également basé aux États-Unis, consacré exclusivement à la formation des actuaires en assurance IARD et en gestion des risques. Elle regroupe aujourd’hui plus de 8 000 membres. Fondée en 1914, la CAS a instauré son système d’examens dès 1915, dans le but d’évaluer les compétences techniques nécessaires à la pratique actuarielle en assurance de dommages. Le syllabus historique de 1915 peut être consulté [ici](https://www.casact.org/about/rules1915).
+La [Casualty Actuarial Society (CAS)](https://www.casact.org) est un organisme professionnel international, également basé aux États-Unis, consacré exclusivement à la formation des actuaires en assurance IARD et en gestion des risques. Elle comptait 11 509 membres en 2025. [↗](https://www.casact.org/article/cas-releases-updated-membership-glance-infographic-2025 "Source : CAS, effectif 2025 publié en 2026"){.source-link} Fondée en 1914, la CAS a instauré son système d’examens dès 1915, dans le but d’évaluer les compétences techniques nécessaires à la pratique actuarielle en assurance de dommages. On peut retrouver les règles d’examens de 1915 dans les [archives historiques de la CAS](https://www.casact.org/sites/default/files/database/proceed_proceed16_1916.pdf).
 :::
 
 ::: {.column width="6%"}
@@ -375,7 +387,7 @@ L’[American Academy of Actuaries (AAA)](https://www.actuary.org) est une organ
 
 ::: {.columns .align-center}
 ::: {.column width="64%"}
-L’[Institute and Faculty of Actuaries (IFoA)](https://www.actuaries.org.uk) est l’organisme professionnel responsable de la formation et de la réglementation des actuaires au Royaume-Uni. Il résulte de la fusion, en 2010, de l’Institute of Actuaries et de la Faculty of Actuaries. L’IFoA offre un parcours d’examens menant au titre de Fellow, combinant examens techniques, modules de professionnalisme et exigences d’expérience pratique. Sa mission et ses objectifs stratégiques sont décrits [ici](https://www.actuaries.org.uk/about-us/our-strategy-and-objectives).
+L’[Institute and Faculty of Actuaries (IFoA)](https://www.actuaries.org.uk) est l’organisme professionnel responsable de la formation et de la réglementation des actuaires au Royaume-Uni. Il résulte de la fusion, en 2010, de l’Institute of Actuaries et de la Faculty of Actuaries. [↗](https://actuaries.org.uk/news-and-media-releases/news-articles/2023/july/7-jul-23-ifoa-celebrates-its-175th-anniversary/ "Source : IFoA, histoire institutionnelle"){.source-link} L’IFoA offre un parcours d’examens menant au titre de Fellow, combinant examens techniques, modules de professionnalisme et exigences d’expérience pratique. Son rôle de réglementation et les mécanismes de contrôle professionnel sont décrits sur [son site](https://actuaries.org.uk/standards/our-role-as-a-regulator/).
 
 :::
 
@@ -398,7 +410,7 @@ L’[Institute and Faculty of Actuaries (IFoA)](https://www.actuaries.org.uk) es
 ::: {.columns .align-center}
 ::: {.column width="64%"}
 
-L’[Association actuarielle internationale (AAI)](https://www.actuaries.org) est l’organisme faîtier regroupant les associations actuarielles nationales reconnues à l’échelle mondiale. Fondée en 1895, elle joue un rôle central dans la coordination internationale de la profession actuarielle. À titre d’organisation internationale, l’AAI a notamment pour mission de représenter la profession actuarielle à l’échelle mondiale, de promouvoir le professionnalisme, les normes de pratique et l’éducation actuarielle, et de favoriser l’harmonisation des standards de formation entre les différentes juridictions. Les sections et domaines d’intervention de l’AAI sont présentés [ici](https://www.actuaries.org/about/sections).  Anecdote : les bureaux de l’AAI sont situés au Canada, à Ottawa.
+L’[Association actuarielle internationale (AAI)](https://www.actuaries.org) est l’organisme faîtier regroupant les associations actuarielles nationales reconnues à l’échelle mondiale. Fondée en 1895, elle joue un rôle central dans la coordination internationale de la profession actuarielle. [↗](https://actuaries.org/our-history/ "Source : AAI, historique de l’association"){.source-link} À titre d’organisation internationale, l’AAI a notamment pour mission de représenter la profession actuarielle à l’échelle mondiale, de promouvoir le professionnalisme, les normes de pratique et l’éducation actuarielle, et de favoriser l’harmonisation des standards de formation entre les différentes juridictions. Ses missions et principaux champs d’intervention sont présentés dans sa [déclaration officielle de mission](https://actuaries.org/mission-and-vision/).  Anecdote : les bureaux de l’AAI sont situés au Canada, à Ottawa.
 
 :::
 
@@ -418,7 +430,7 @@ L’[Association actuarielle internationale (AAI)](https://www.actuaries.org) es
 
 ::: {.columns .align-center}
 ::: {.column width="64%"}
-L’[Association nationale des étudiants en actuariat (ANEA)](https://www.anea-asna.ca) est une association canadienne fondée en 1989, qui représente les étudiants inscrits dans les programmes universitaires d’actuariat au Canada.  L’ANEA regroupe des étudiants provenant de nombreuses universités canadiennes et organise notamment un congrès annuel au début du mois de janvier, offrant des activités de formation, de réseautage et de développement professionnel.
+L’[Association nationale des étudiants en actuariat (ANEA)](https://anea-asna.ca/) est une association canadienne fondée en 1989, qui représente les étudiants inscrits dans les programmes universitaires d’actuariat au Canada. [↗](https://anea-asna.ca/notre-vision/ "Source : ANÉA, historique et mission"){.source-link}  L’ANEA regroupe des étudiants provenant de nombreuses universités canadiennes et organise notamment un congrès annuel au début du mois de janvier, offrant des activités de formation, de réseautage et de développement professionnel.
 
 :::
 
@@ -438,13 +450,13 @@ L’[Association nationale des étudiants en actuariat (ANEA)](https://www.anea-
 
 ::: {.columns .align-center}
 ::: {.column width="64%"}
-L’[International Association of Black Actuaries (IABA)](https://www.blackactuaries.org) est une organisation professionnelle à but non lucratif fondée aux États-Unis le 25 octobre 1992. Sa mission est de soutenir, de promouvoir et de développer la présence des personnes noires dans la profession actuarielle, tant chez les étudiants que chez les professionnels.
+L’[International Association of Black Actuaries (IABA)](https://www.blackactuaries.org) est une organisation professionnelle à but non lucratif dont la première réunion s’est tenue à Washington le 25 octobre 1992 et qui a été officiellement constituée en 1993. [↗](https://www.blackactuaries.org/our-history/ "Source : IABA, histoire de l’organisme"){.source-link} Sa mission est de soutenir, de promouvoir et de développer la présence des personnes noires dans la profession actuarielle, tant chez les étudiants que chez les professionnels.
 
 L’IABA offre à ses membres divers services, notamment des programmes de mentorat, des activités de perfectionnement professionnel, des occasions de réseautage ainsi que des bourses d’études destinées aux étudiants en actuariat. L’organisme s’adresse principalement aux actuaires et aux étudiants en actuariat issus des communautés noires et fonctionne principalement en anglais.
 
 L’association organise régulièrement des événements professionnels, dont un *Boot Camp* actuariel, ainsi que des activités de formation et de développement de carrière. Elle collabore également avec d’autres organisations actuarielles, notamment la *Society of Actuaries* (SOA) et la *Casualty Actuarial Society* (CAS), dans le cadre d’initiatives visant à favoriser la diversité et l’inclusion au sein de la profession.
 
-L’IABA publie périodiquement un bulletin regroupant des nouvelles de l’organisation, des ressources professionnelles et des informations à l’intention de ses membres. Les bulletins sont accessibles [ici](https://www.blackactuaries.org/page/Newsletters).
+L’IABA publie également des articles et des témoignages de membres dans [*Voices of IABA*](https://www.blackactuaries.org/voices-of-iaba/), une publication consacrée à la communauté actuarielle et à ses expériences professionnelles.
 
 :::
 
@@ -469,7 +481,7 @@ L’IABA publie périodiquement un bulletin regroupant des nouvelles de l’orga
 
 L’[Association des actuaires en assurance de dommages du Québec (AAIARD)](https://app.amilia.com/store/fr/aaiard/shop/programs) est une association professionnelle québécoise qui regroupe les actuaires œuvrant principalement en assurance de dommages et en gestion des risques. Elle vise à promouvoir le développement professionnel, la formation continue et le rayonnement de la pratique actuarielle en assurance IARD au Québec.
 
-L’AAIARD organise régulièrement, deux fois par année, des conférences à Montréal et à Québec destinées à ses membres. Ces événements contribuent au maintien et au développement des compétences professionnelles dans un contexte propre au marché québécois. L’association agit également comme lieu d’échange entre actuaires issus de différents milieux, notamment les assureurs, les cabinets de consultation et les organismes publics.
+L’AAIARD organise régulièrement des conférences à Montréal et à Québec destinées à ses membres. Ces événements contribuent au maintien et au développement des compétences professionnelles dans un contexte propre au marché québécois. L’association agit également comme lieu d’échange entre actuaires issus de différents milieux, notamment les assureurs, les cabinets de consultation et les organismes publics.
 
 Par ses activités, l’AAIARD favorise le partage de connaissances sur les enjeux techniques, réglementaires et économiques propres à l’assurance de dommages, tout en renforçant les liens entre la communauté actuarielle québécoise et les autres acteurs du secteur financier.
 
@@ -498,7 +510,7 @@ Les activités d’Actulab se déroulent sous forme d’ateliers ou de séries d
 
 Au-delà du volet technique, Actulab offre des occasions de réseautage avec des représentants d’entreprises, ce qui peut favoriser l’accès à des stages, des emplois ou des projets de recherche. Certains événements prévoient également des récompenses monétaires ou des prix, attribués lorsque les propositions des participants se distinguent auprès d’un jury.
 
-Actulab accueille des participants de tous horizons, et les activités sont ouvertes à tous les étudiants intéressés, quel que soit leur programme d’études, sans obligation d’assister à l’intégralité des rencontres proposées. L’organisation fonctionne comme un lieu d’apprentissage expérientiel où l’interaction entre le milieu universitaire et l’industrie est encouragée.
+Actulab favorise la participation d’étudiants de divers programmes, mais les conditions d’inscription varient selon l’événement. Par exemple, pour l’activité organisée à l’UQAM à l’automne 2026, une équipe devait compter au moins une personne inscrite en actuariat, et les participants devaient présenter leur solution lors de l’événement final. [↗](https://www.actulab.ca/ "Source : Actulab, modalités de l’événement UQAM automne 2026"){.source-link} L’organisation fonctionne comme un lieu d’apprentissage expérientiel où l’interaction entre le milieu universitaire et l’industrie est encouragée.
 
 :::
 
@@ -514,3 +526,84 @@ Actulab accueille des participants de tous horizons, et les activités sont ouve
 ## Conclusion
 
 Ce chapitre avait pour objectif de fournir des repères clairs aux étudiantes et aux étudiants. Il a présenté le cadre juridique québécois des professions, le statut particulier de l’actuariat en l’absence d’un ordre professionnel, ainsi que le rôle central joué par les lois, l’actuaire désigné et l’Institut canadien des actuaires. Il a également montré que la profession repose moins sur la protection légale d’un titre que sur des responsabilités précises, des exigences de compétence et des règles de conduite formelles. Ces éléments permettent aux étudiantes et aux étudiants de comprendre le cadre réel dans lequel s’exerce la profession d’actuaire et les obligations qui l’accompagnent.
+
+::: {.callout-note collapse="true" icon=false}
+## Références et liens utiles
+
+Les liens ci-dessous regroupent les sources et les ressources mentionnées dans ce chapitre, sans répétition.
+
+### Cadre professionnel, lois et réglementation {-}
+
+- [Code des professions](https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-26)
+- [Office des professions du Québec — Composition du système professionnel](https://www.quebec.ca/gouvernement/ministeres-organismes/office-professions/coordonnees-structure/organigramme/composition-systeme-professionnel)
+- [liste officielle des professions réglementées au Québec](https://www.quebec.ca/emploi/informer-metier-profession/ordres-professionnels/liste-repertoire-membres)
+- [Loi de l’impôt sur le revenu (Canada)](https://laws-lois.justice.gc.ca/fra/lois/i-3.3/)
+- [Loi sur les impôts (Québec)](https://legisquebec.gouv.qc.ca/fr/ShowDoc/cs/I-3)
+- [Loi sur le régime de rentes du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-9)
+- [Règlement sur les normes de prestation de pension (Canada)](https://laws-lois.justice.gc.ca/eng/regulations/sor-87-19/)
+- [Colombie-Britannique — Pension Benefits Standards Act](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/00_12030)
+- [Alberta — Employment Pension Plans Act](https://open.alberta.ca/publications/e08p1)
+- [Saskatchewan — The Pension Benefits Act, 1992](https://pubsaskdev.blob.core.windows.net/pubsask-prod/87570/87570-The_Pension_Benefits_Act%2C_1992.pdf)
+- [Manitoba — The Pension Benefits Act](https://web2.gov.mb.ca/laws/statutes/ccsm/p032.php)
+- [Ontario — Pension Benefits Act](https://www.ontario.ca/laws/statute/90p08)
+- [Nouvelle-Écosse — Pension Benefits Act](https://nslegislature.ca/sites/default/files/legc/statutes/pension%20benefits.pdf)
+- [Nouveau-Brunswick — Pension Benefits Act](https://laws.gnb.ca/en/document/cs/p-5.1)
+- [Terre-Neuve-et-Labrador — Pension Benefits Act, 1997](https://assembly.nl.ca/legislation/sr/statutes/p04-01.htm)
+- [Teachers’ Pension Act (Ontario)](https://www.ontario.ca/laws/statute/90t01)
+- [Insurance Act (Ontario)](https://www.ontario.ca/laws/statute/90i08)
+- [Loi sur les assureurs (Québec)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/a-32.1)
+- [Loi sur les accidents du travail et les maladies professionnelles (Québec)](https://legisquebec.gouv.qc.ca/fr/showdoc/cs/a-3.001)
+- [Loi sur les régimes complémentaires de retraite (Québec)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/r-15.1)
+- [Code criminel (Canada)](https://laws-lois.justice.gc.ca/fra/lois/c-46/)
+- [Loi sur les sociétés d’assurances (Canada)](https://laws-lois.justice.gc.ca/fra/lois/I-11.8/)
+- [BSIF — Actuaire désigné : dispositions législatives, qualifications et examen par les pairs](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/actuaire-designe-dispositions-legislatives-qualifications-examen-pairs-ligne-directrice-2023)
+- [BSIF, révision E-15 de septembre 2025](https://www.osfi-bsif.gc.ca/fr/nouvelles/document-dinformation-ligne-directrice-e-15-actuaire-designe-dispositions-legislatives)
+
+### Institut canadien des actuaires (ICA) {-}
+
+- [Institut canadien des actuaires](https://www.cia-ica.ca/fr/)
+- [Loi constituant en corporation l’Institut canadien des actuaires](https://www.cia-ica.ca/publications/6502e/)
+- [ICA — Professionnalisme et principes directeurs](https://www.cia-ica.ca/fr/professionnalisme/)
+- [Statuts administratifs de l’ICA](https://www.cia-ica.ca/fr/publications/223157e/)
+- [ICA — Conduite professionnelle et plaintes](https://www.cia-ica.ca/professionalism/conduct-and-complaints/)
+- [Politique sur le processus disciplinaire de l’ICA (2024)](https://www.cia-ica.ca/publications/224041e/)
+- [plan stratégique 2026–2029 de l’Institut canadien des actuaires](https://www.cia-ica.ca/fr/publications/226046e/)
+- [ICA — Catégories de membres étudiants et candidats](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-etudiant-ou-candidat-de-lica/)
+- [règles de vote de l’ICA](https://www.cia-ica.ca/fr/etre-membre/vote-des-membres/)
+- [ICA — Règles de déontologie](https://www.cia-ica.ca/fr/publications/223164f/)
+
+### Fraudes et déontologie financière {-}
+
+- [fraude à la Ponzi](https://lautorite.qc.ca/grand-public/types-de-fraude/la-fraude-a-la-ponzi)
+- [L’affaire Norbourg](https://lautorite.qc.ca/grand-public/salle-de-presse/actualites/fiche-dactualite/dossier-norbourg-lautorite-intente-un-recours-au-profit-des-investisseurs)
+- [AMF, rapport de l’administrateur provisoire](https://lautorite.qc.ca/grand-public/salle-de-presse/actualites/fiche-dactualite/lautorite-des-marches-financiers-recommande-la-liquidation-de-norbourg)
+- [L’affaire Madoff](https://www.sec.gov/news/press/2008/2008-293.htm)
+- [Ministère américain de la Justice — Affaire Madoff, montants déclarés](https://www.justice.gov/usao-sdny/file/762616/dl)
+- [Ministère américain de la Justice — Indemnisation des victimes de Madoff](https://www.justice.gov/archives/opa/pr/justice-departments-10th-distribution-brings-total-provided-over-43b-nearly-full-recovery)
+
+### Associations actuarielles et autres ressources {-}
+
+- [Society of Actuaries (SOA)](https://www.soa.org/)
+- [Casualty Actuarial Society (CAS)](https://www.casact.org/)
+- [Institute and Faculty of Actuaries (IFoA)](https://actuaries.org.uk/)
+- [SOA — Mission et présentation](https://www.soa.org/about/purpose/)
+- [SOA — Parcours de formation en assurance IARD](https://www.soa.org/education/general-insurance/edu-general-ins/)
+- [exigences du titre FSA](https://www.soa.org/education/fsa/)
+- [CAS — Effectif des membres en 2025](https://www.casact.org/article/cas-releases-updated-membership-glance-infographic-2025)
+- [archives historiques de la CAS](https://www.casact.org/sites/default/files/database/proceed_proceed16_1916.pdf)
+- [American Academy of Actuaries (AAA)](https://www.actuary.org)
+- [IFoA, histoire institutionnelle](https://actuaries.org.uk/news-and-media-releases/news-articles/2023/july/7-jul-23-ifoa-celebrates-its-175th-anniversary/)
+- [IFoA — Rôle de réglementation](https://actuaries.org.uk/standards/our-role-as-a-regulator/)
+- [Association actuarielle internationale (AAI)](https://www.actuaries.org)
+- [AAI, historique de l’association](https://actuaries.org/our-history/)
+- [déclaration officielle de mission](https://actuaries.org/mission-and-vision/)
+- [Association nationale des étudiants en actuariat (ANEA)](https://anea-asna.ca/)
+- [ANÉA, historique et mission](https://anea-asna.ca/notre-vision/)
+- [International Association of Black Actuaries (IABA)](https://www.blackactuaries.org)
+- [IABA — Historique](https://www.blackactuaries.org/our-history/)
+- [Voices of IABA](https://www.blackactuaries.org/voices-of-iaba/)
+- [Association des actuaires en assurance de dommages du Québec (AAIARD)](https://app.amilia.com/store/fr/aaiard/shop/programs)
+- [Actulab](https://www.actulab.ca/)
+- [Frédérick Guillot — Profil LinkedIn](https://www.linkedin.com/in/fr%C3%A9d%C3%A9rick-guillot-336a1237/)
+
+:::

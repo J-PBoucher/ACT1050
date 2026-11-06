@@ -1,0 +1,58 @@
+<script>
+function genererPlanChapitre() {
+  const cible = document.getElementById("plan-chapitre-auto");
+  const contenu = document.getElementById("quarto-document-content") ||
+                  document.querySelector("main.content");
+
+  if (!cible || !contenu) return;
+
+  // Repérer les titres ## et ### du chapitre
+  const titres = Array.from(contenu.querySelectorAll("h2, h3"))
+    .filter(h => !h.closest(".callout") &&
+                 !h.classList.contains("unlisted"));
+
+  const liste = document.createElement("ul");
+  let section = null;
+  let sousListe = null;
+
+  for (const titre of titres) {
+
+    // Quarto place souvent l'identifiant sur la section
+    const id = titre.id ||
+               titre.getAttribute("data-anchor-id") ||
+               titre.closest("section[id]")?.id;
+
+    if (!id) continue;
+
+    const element = document.createElement("li");
+    const lien = document.createElement("a");
+
+    lien.href = "#" + encodeURIComponent(id);
+    lien.textContent = titre.textContent.trim();
+    element.appendChild(lien);
+
+    if (titre.tagName === "H2") {
+      liste.appendChild(element);
+      section = element;
+      sousListe = null;
+    } else if (section) {
+      if (!sousListe) {
+        sousListe = document.createElement("ul");
+        section.appendChild(sousListe);
+      }
+      sousListe.appendChild(element);
+    } else {
+      liste.appendChild(element);
+    }
+  }
+
+  cible.replaceChildren(liste);
+}
+
+// Exécuter après le chargement du document
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", genererPlanChapitre);
+} else {
+  genererPlanChapitre();
+}
+</script>

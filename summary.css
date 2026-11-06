@@ -1,0 +1,112 @@
+
+/* ========================================================
+   ACT1050 — Sommaire du livre
+   Version épurée, harmonisée avec « En bref »
+   ======================================================== */
+
+/* 1. Couverture du livre */
+#quarto-sidebar .sidebar-logo-link {
+  display: block;
+  text-align: center;
+}
+
+#quarto-sidebar .sidebar-logo {
+  max-width: 140px;
+  height: auto;
+  margin: 0 auto 1rem;
+}
+
+/* 2. Encadré du sommaire */
+#quarto-sidebar .sidebar-menu-container {
+  background: #ffffff;
+  border: 1px solid #eeeae3;
+  border-radius: 5px;
+  padding: 14px 10px 10px;
+  margin-top: 15px;
+}
+
+/* 3. Titre « Sommaire » */
+#quarto-sidebar .sidebar-menu-container::before {
+  content: "";
+  display: block;
+  color: #294e5b;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  text-transform: none;
+  padding: 0 5px 12px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #ece9e3;
+}
+
+/* 4. Structure des grandes sections */
+#quarto-sidebar .sidebar-menu-container > ul {
+  margin: 0 !important;
+  padding: 0;
+}
+
+#quarto-sidebar .sidebar-menu-container > ul > li {
+  padding: 5px 0;
+  border-bottom: 1px solid #f0eeea;
+}
+
+#quarto-sidebar .sidebar-menu-container > ul > li:last-child {
+  border-bottom: none;
+}
+
+/* 5. Liens du sommaire */
+#quarto-sidebar .sidebar-item-container > a.sidebar-item-text {
+  display: block;
+  color: #4b5b62;
+  font-size: 0.89rem;
+  line-height: 1.45;
+  padding: 7px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+/* 6. Titres des grandes parties */
+#quarto-sidebar .sidebar-item-section
+  > .sidebar-item-container > a.sidebar-item-text {
+  color: #294e5b;
+  font-weight: 600;
+}
+
+/* 7. Chapitres à l'intérieur des parties */
+#quarto-sidebar .sidebar-section
+  .sidebar-item-container > a.sidebar-item-text {
+  color: #55636a;
+  font-weight: 400;
+  font-size: 0.86rem;
+}
+
+/* 8. Survol d'un lien */
+#quarto-sidebar .sidebar-item-container
+  > a.sidebar-item-text:hover {
+  background: #f7f5f0;
+  color: #294e5b;
+}
+
+/* 9. Page actuellement consultée */
+#quarto-sidebar .sidebar-item-container
+  > a.sidebar-item-text.active {
+  background: #f0eadc;
+  color: #294e5b;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+/* 10. Flèches des parties repliables */
+#quarto-sidebar .sidebar-item-toggle {
+  color: #8b887e;
+}
+
+/* 11. Préface et Conclusion toujours en gras */
+#quarto-sidebar .sidebar-menu-container > ul > li:first-child
+  > .sidebar-item-container > a.sidebar-item-text,
+#quarto-sidebar .sidebar-menu-container > ul > li:last-child
+  > .sidebar-item-container > a.sidebar-item-text {
+  color: #294e5b;
+  font-weight: 600;
+}

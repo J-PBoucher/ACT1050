@@ -582,7 +582,7 @@ body:has(.act-objectifs, .act-conclusion) #title-block-header
 
 #quarto-sidebar img.sidebar-logo {
   display: block;
-  width: 220px;
+  width: 280px;
   max-width: 100%;
   height: auto;
   margin: 0 auto 15px;
@@ -673,3 +673,294 @@ body:has(.act-objectifs, .act-conclusion) #title-block-header
   --cas-fond: #36291f;
 }
 
+
+
+
+
+
+
+/* =========================================
+   HYPERLIENS ET SOURCES
+   ========================================= */
+
+/* Hyperliens ordinaires : bleu, sans gras ni soulignement */
+
+#quarto-document-content a:not(.source-link):not(.anchorjs-link) {
+  color: #1769aa !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+}
+
+#quarto-document-content a:not(.source-link):not(.anchorjs-link):hover {
+  color: #0b477a !important;
+}
+
+/* Petites flèches indiquant une source */
+
+#quarto-document-content a.source-link,
+#quarto-document-content a.source-link:visited {
+  color: #1769aa !important;
+  text-decoration: none !important;
+  font-size: 0.88em;
+  font-weight: normal !important;
+  vertical-align: 0.12em;
+  margin-left: 0.08em;
+  white-space: nowrap;
+}
+
+#quarto-document-content a.source-link:hover {
+  color: #0b477a !important;
+  text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================
+   ACT1050 — Sommaire du livre
+   Style harmonisé avec l'encadré « En bref »
+   ======================================================== */
+
+/* 1. Couverture du livre */
+#quarto-sidebar .sidebar-logo-link {
+  display: block;
+  text-align: center;
+}
+
+#quarto-sidebar .sidebar-logo {
+  max-width: 140px;
+  height: auto;
+  margin: 0 auto 1rem;
+}
+
+/* 2. Encadré du sommaire */
+#quarto-sidebar .sidebar-menu-container {
+  background: #f7f5f0;
+  border: 1px solid #eee9df;
+  border-radius: 5px;
+  padding: 17px 12px 12px;
+  margin-top: 15px;
+}
+
+/* 3. Titre « Sommaire » */
+#quarto-sidebar .sidebar-menu-container::before {
+  content: "Sommaire";
+  display: block;
+  color: #294e5b;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  text-transform: none;
+  padding: 0 5px 12px;
+  margin-bottom: 7px;
+  border-bottom: 1px solid #e2ddd2;
+}
+
+/* 4. Structure des grandes sections */
+#quarto-sidebar .sidebar-menu-container > ul {
+  margin: 0 !important;
+  padding: 0;
+}
+
+#quarto-sidebar .sidebar-menu-container > ul > li {
+  padding: 6px 0;
+  border-bottom: 1px solid #e2ddd2;
+}
+
+#quarto-sidebar .sidebar-menu-container > ul > li:last-child {
+  border-bottom: none;
+}
+
+/* 5. Liens du sommaire */
+#quarto-sidebar .sidebar-item-container > a.sidebar-item-text {
+  display: block;
+  color: #4b5b62;
+  font-size: 0.89rem;
+  line-height: 1.45;
+  padding: 7px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+/* 6. Titres des grandes parties */
+#quarto-sidebar .sidebar-item-section
+  > .sidebar-item-container > a.sidebar-item-text {
+  color: #294e5b;
+  font-weight: 700;
+}
+
+/* 7. Chapitres à l'intérieur des parties */
+#quarto-sidebar .sidebar-section
+  .sidebar-item-container > a.sidebar-item-text {
+  color: #4b5b62;
+  font-weight: 400;
+  font-size: 0.86rem;
+}
+
+/* 8. Survol d'un lien */
+#quarto-sidebar .sidebar-item-container
+  > a.sidebar-item-text:hover {
+  background: #eee9df;
+  color: #294e5b;
+}
+
+/* 9. Page actuellement consultée */
+#quarto-sidebar .sidebar-item-container
+  > a.sidebar-item-text.active {
+  background: #ebe4d3;
+  color: #294e5b;
+  font-weight: 700;
+  box-shadow: none;
+}
+
+/* 10. Flèches des parties repliables */
+#quarto-sidebar .sidebar-item-toggle {
+  color: #766743;
+}
+
+
+
+
+/* Couleurs discrètes des quatre composantes */
+
+/* Pension de sécurité de la vieillesse */
+.encadre.encadre-psv {
+  background-color: #F3F7FC;
+  border-left: 3px solid #91B3D8;
+}
+
+/* Supplément de revenu garanti */
+.encadre.encadre-srg {
+  background-color: #F3F9F4;
+  border-left: 3px solid #94BA9F;
+}
+
+/* Allocations */
+.encadre.encadre-allocation {
+  background-color: #FFF8F1;
+  border-left: 3px solid #D9AE80;
+}
+
+/* Régime de rentes du Québec et RPC */
+.encadre.encadre-rrq {
+  background-color: #F8F5FC;
+  border-left: 3px solid #B2A0D0;
+}
+
+
+
+
+
+
+/* Verdicts — répartition des risques */
+
+.verdict-risque {
+  background: #F5F0E8;
+  border: 1px solid #E4D9C9;
+  border-radius: 8px;
+  padding: 0.7rem 0.9rem;
+  margin: 0.6rem 0 1.2rem;
+  font-size: 0.92rem;
+}
+
+/* Titre VERDICT, sur la même ligne que les étiquettes */
+
+.verdict-titre {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #665D52;
+  margin-right: 0.6rem;
+  vertical-align: middle;
+}
+
+/* Style commun des étiquettes */
+
+.verdict-tag {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0.22rem 0.6rem;
+  margin: 0.15rem 0.25rem 0.15rem 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+/* Employeur — bleu ardoise */
+
+.verdict-employeur {
+  background: #DCE9F5;
+  color: #24577D;
+}
+
+/* Participant — violet désaturé */
+
+.verdict-participant {
+  background: #E5E3F4;
+  color: #594B87;
+}
+
+/* Assureur — vert sauge */
+
+.verdict-assureur {
+  background: #E0EEE4;
+  color: #286548;
+}
+
+/* Risque partagé ou conditionnel — brun cuivré */
+
+.verdict-partage {
+  background: #F2DECC;
+  color: #875327;
+}
+
+/* Texte explicatif sous les étiquettes */
+
+.verdict-risque p {
+  margin: 0.45rem 0 0;
+  line-height: 1.45;
+  color: #514A41;
+}
+
+.verdict-risque p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+/* Titres de niveau 4 — notes de cours */
+#quarto-content h4 {
+  font-weight: 700;
+}
+
+
+
+
+/* Mèmes flottants et cliquables */
+
+a.meme {
+  float: right;
+  display: inline-block;
+  margin: 0 0 1em 1em;
+  padding: 6px;
+  background: white;
+  text-align: center;
+}
+
+a.meme img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

@@ -17,13 +17,22 @@ date-modified: last-modified
 
 :::
 
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+:::
+
+
 
 ## Introduction
 
 <div style="
 float:right;
 width:24vw;
-max-width:300px;
+max-width:400px;
 min-width:180px;
 margin:0 0 1em 1.5em;
 text-align:center;
@@ -35,7 +44,7 @@ Les stages permettent aux étudiants en actuariat de compléter leur formation t
 
 - **Deux cours optionnels** : ACT6901 (Stage I) et ACT6902 (Stage II).
 - **Trois crédits universitaires** par stage.
-- **Une durée minimale de 420 heures**, soit l'équivalent de 12 semaines à raison de 35 heures par semaine.
+- **Une durée minimale de 420 heures** [↗](https://stagesciences.uqam.ca/actuariat-mathematiques-et-statistique/ "Source : UQAM, conditions des stages en actuariat"){.source-link}, soit l'équivalent de 12 semaines à raison de 35 heures par semaine.
 
 Ce chapitre présente les conditions de reconnaissance des stages, les différences entre ACT6901 et ACT6902 ainsi que les ressources permettant de trouver un stage en milieu professionnel ou universitaire.
 
@@ -43,7 +52,7 @@ Ce chapitre présente les conditions de reconnaissance des stages, les différen
 
 ## Le cours ACT6901 – Stage en actuariat I
 
-Le cours [ACT6901 – Stage en actuariat I](https://etudier.uqam.ca/cours?sigle=ACT6901) correspond à un premier stage crédité en milieu industriel ou universitaire, dans un domaine de l’actuariat ou dans un domaine connexe. Son contenu doit être planifié et approuvé par la direction de programme avant sa réalisation.
+Le cours ACT6901 – Stage en actuariat I correspond à un premier stage crédité en milieu industriel ou universitaire, dans un domaine de l’actuariat ou dans un domaine connexe. Son contenu doit être planifié et approuvé par la direction de programme avant sa réalisation [↗](https://etudier.uqam.ca/cours?sigle=ACT6901 "Source : UQAM, description du cours ACT6901"){.source-link}.
 
 Ce stage vise à :
 
@@ -53,7 +62,7 @@ Ce stage vise à :
 - cultiver une attitude professionnelle et éthique propre au domaine actuariel;
 - développer des aptitudes pour le travail en équipe.
 
-Pour s’inscrire à ACT6901, l’étudiant doit :
+Pour s’inscrire à ACT6901, l’étudiant doit respecter les conditions suivantes [↗](https://etudier.uqam.ca/cours?sigle=ACT6901 "Source : UQAM, conditions d’admission à ACT6901"){.source-link} :
 
 - avoir complété 24 crédits dans le programme;
 - avoir une moyenne cumulative minimale de 2,6 sur 4,3;
@@ -63,7 +72,7 @@ Pour s’inscrire à ACT6901, l’étudiant doit :
 
 ## Le cours ACT6902 – Stage en actuariat II
 
-Le cours [ACT6902 – Stage en actuariat II](https://etudier.uqam.ca/cours?sigle=ACT6902) correspond à une seconde expérience professionnelle, réalisée à un stade plus avancé du cheminement. Le stage peut se dérouler dans un autre domaine de l’actuariat ou approfondir un domaine déjà abordé par des tâches plus complexes.
+Le cours ACT6902 – Stage en actuariat II correspond à une seconde expérience professionnelle, réalisée à un stade plus avancé du cheminement. Le stage peut se dérouler dans un autre domaine de l’actuariat ou approfondir un domaine déjà abordé par des tâches plus complexes [↗](https://etudier.uqam.ca/cours?sigle=ACT6902 "Source : UQAM, description du cours ACT6902"){.source-link}.
 
 Les objectifs du Stage II prolongent ceux du Stage I. Il s’agit notamment de :
 
@@ -72,7 +81,7 @@ Les objectifs du Stage II prolongent ceux du Stage I. Il s’agit notamment de :
 - collaborer avec un professionnel qualifié et son équipe;
 - approfondir les habitudes de travail professionnel, l’éthique et le travail en équipe.
 
-Pour s’inscrire à ACT6902, l’étudiant doit :
+Pour s’inscrire à ACT6902, l’étudiant doit respecter les conditions suivantes [↗](https://etudier.uqam.ca/cours?sigle=ACT6902 "Source : UQAM, conditions d’admission à ACT6902"){.source-link} :
 
 - avoir complété 45 crédits dans le programme;
 - avoir une moyenne cumulative minimale de 2,8 sur 4,3;
@@ -93,7 +102,7 @@ Les cours ACT6901 et ACT6902 sont soumis aux mêmes exigences générales d’en
 - L’étudiant remet un rapport écrit présentant son travail et une réflexion sur l’expérience acquise et ses liens avec la formation universitaire.
 - Le superviseur de stage procède à l’évaluation, et la note finale est attribuée selon la modalité Succès / Échec.
 
-Ces conditions s’appliquent aussi lorsqu’un étudiant trouve lui-même un stage ou souhaite faire reconnaître une expérience en recherche. L’approbation doit être obtenue auprès de la direction de programme.
+Ces conditions s’appliquent aussi lorsqu’un étudiant trouve lui-même un stage ou souhaite faire reconnaître une expérience en recherche. L’approbation doit être obtenue auprès de la direction de programme [↗](https://stagesciences.uqam.ca/actuariat-mathematiques-et-statistique/ "Source : UQAM, encadrement des stages crédités"){.source-link}.
 
 ## Comparaison entre ACT6901 et ACT6902
 
@@ -108,7 +117,7 @@ Ces conditions s’appliquent aussi lorsqu’un étudiant trouve lui-même un st
 | Niveau de complexité attendu | Initiation au milieu professionnel | Activités plus complexes ou spécialisées |
 | Évaluation | Rapport et évaluation du superviseur; Succès / Échec | Rapport et évaluation du superviseur; Succès / Échec |
 
-## Babillard Moodle
+## Babillard Moodle et StagePro
 
 <div style="
 float:right;
@@ -123,11 +132,11 @@ text-align:center;
 </div>
 </div>
 
-Les offres de stage et d’emploi destinées aux étudiants en actuariat sont notamment diffusées par le [babillard Moodle](https://ena01.uqam.ca/course/view.php?id=11223) du programme. Le [Service des stages de la Faculté des sciences](https://stagesciences.uqam.ca/) offre également des ressources pour la recherche et la reconnaissance des stages. Il est utile de consulter régulièrement ces canaux, puisque les offres et les modalités de candidature peuvent varier.
+Les offres de stage et d’emploi destinées aux étudiants en actuariat sont notamment diffusées par le [babillard Moodle](https://ena01.uqam.ca/course/view.php?id=11223) du programme. Le [Service des stages de la Faculté des sciences](https://stagesciences.uqam.ca/) offre également des ressources pour la recherche et la reconnaissance des stages. Il met notamment à la disposition des étudiants la [plateforme StagePro](https://stagesciences.uqam.ca/comment-utiliser-stagepro/), qui permet de consulter les offres de stage et de postuler. Il est utile de consulter régulièrement ces canaux, puisque les offres et les modalités de candidature peuvent varier.
 
 Afin de mettre en place des conditions favorables à l’obtention d’un stage ou d’un emploi, plusieurs éléments peuvent être pris en compte :
 
-- La préparation du curriculum vitae, de la lettre de présentation et de l’entrevue joue un rôle important. Il est recommandé d’assister aux séances d’information offertes et, au besoin, de prendre rendez-vous avec l’agente de stage, Florence Onar, du [Service des stages](https://stagesciences.uqam.ca/coordonnees/).
+- La préparation du curriculum vitae, de la lettre de présentation et de l’entrevue joue un rôle important [↗](https://portailetudiant.uqam.ca/emploi-orientation/ateliers-formations/ "Source : UQAM, ateliers de préparation à l’emploi"){.source-link}. Il est recommandé d’assister aux séances d’information offertes et, au besoin, de prendre rendez-vous avec l’agente de stage, Florence Onar, du [Service des stages](https://stagesciences.uqam.ca/coordonnees/).
 - La présence d’un profil LinkedIn complet et régulièrement mis à jour permet de présenter de manière structurée le parcours académique et les expériences pertinentes.
 - La réussite des cours du programme, combinée à la mise en valeur de compétences complémentaires à l’actuariat telles que l’informatique, la programmation ou les langues, contribue à situer le profil académique dans un contexte professionnel.
 - Les expériences antérieures, qu’il s’agisse d’emplois, de stages à l’étranger ou d’implications bénévoles, peuvent être présentées afin de donner une vue d’ensemble du parcours et des compétences développées.
@@ -137,7 +146,7 @@ Afin de mettre en place des conditions favorables à l’obtention d’un stage 
 
 ## Stage d’initiation à la recherche de premier cycle
 
-Des stages d’initiation à la recherche peuvent également être offerts aux étudiants du baccalauréat en actuariat de l’UQAM. Ils s’adressent notamment aux étudiants de première ou de deuxième année qui souhaitent découvrir la recherche universitaire et approfondir leur compréhension théorique et appliquée de l’actuariat.  Selon les projets proposés, ces stages peuvent porter sur différents domaines de l’actuariat et mobiliser des méthodes mathématiques, statistiques ou informatiques avancées. Sous la responsabilité d’un professeur ou d’un professionnel de recherche, le stagiaire peut aussi travailler au quotidien avec des étudiants de maîtrise ou de doctorat. Les activités comprennent notamment :
+Des stages d’initiation à la recherche peuvent également être offerts aux étudiants du baccalauréat en actuariat de l’UQAM [↗](https://www.ism.uqam.ca/accueil/bourses/ "Source : ISM, stages de recherche de premier cycle"){.source-link}. Ils s’adressent notamment aux étudiants de première ou de deuxième année qui souhaitent découvrir la recherche universitaire et approfondir leur compréhension théorique et appliquée de l’actuariat.  Selon les projets proposés, ces stages peuvent porter sur différents domaines de l’actuariat et mobiliser des méthodes mathématiques, statistiques ou informatiques avancées. Sous la responsabilité d’un professeur ou d’un professionnel de recherche, le stagiaire peut aussi travailler au quotidien avec des étudiants de maîtrise ou de doctorat. Les activités comprennent notamment :
 
 - l’analyse et la manipulation de bases de données;
 - la lecture et la compréhension d’articles scientifiques;
@@ -161,11 +170,11 @@ text-align:center;
 </div>
 </div>
 
-Les étudiants souhaitant acquérir une expérience de recherche peuvent également présenter une candidature au programme de [bourses de recherche de 1er cycle (BRPC)](https://nserc-crsng.canada.ca/fr/possibilite-de-financement/bourses-de-recherche-de-1er-cycle), administré notamment par le Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG). Ces bourses offrent un soutien financier pour un travail de recherche à temps plein, généralement pendant 14 à 16 semaines.
+Les étudiants souhaitant acquérir une expérience de recherche peuvent également présenter une candidature au programme de bourses de recherche de 1er cycle (BRPC), administré notamment par le Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG). Ces bourses offrent un soutien financier pour un travail de recherche à temps plein, généralement pendant 14 à 16 semaines.
 
-Pour être admissible, il faut notamment présenter une moyenne cumulative satisfaisante, habituellement d’au moins B−. L’établissement peut toutefois fixer ses propres critères. La sélection tient également compte de l’excellence universitaire, du potentiel de recherche et de la qualité de la formation proposée. Les demandes sont présentées selon la procédure et les dates limites de l’établissement, et non directement au CRSNG.
+Pour être admissible, il faut notamment présenter une moyenne cumulative satisfaisante, habituellement d’au moins B− selon les critères généraux du CRSNG [↗](https://nserc-crsng.canada.ca/fr/possibilite-de-financement/bourses-de-recherche-de-1er-cycle "Source : CRSNG, conditions d’admissibilité aux BRPC"){.source-link}. L’établissement peut toutefois fixer des critères plus exigeants : par exemple, le concours de l’UQAM pour l’été 2026 exigeait une moyenne minimale de 3,0 sur 4,3 (B) [↗](https://www.apps.uqam.ca/Application/Bourses/Bourses/DetailBourse.aspx?brs_id_bourse=12603 "Source : UQAM, concours BRPC été 2026"){.source-link}. La sélection tient également compte de l’excellence universitaire, du potentiel de recherche et de la qualité de la formation proposée. Les demandes sont présentées selon la procédure et les dates limites de l’établissement, et non directement au CRSNG.
 
-Une BRPC et un stage crédité répondent à des règles distinctes. Un étudiant qui souhaite obtenir des crédits pour son expérience de recherche doit donc vérifier les conditions applicables auprès de la direction de programme et de l’établissement qui administre la bourse, avant de s’engager.
+Une BRPC et un stage crédité répondent à des règles distinctes. En particulier, le concours BRPC de l’UQAM pour l’été 2026 précisait que le stage devait être **non crédité** et que les travaux réalisés durant la période de validité de la bourse ne pouvaient donner lieu à des crédits universitaires [↗](https://www.apps.uqam.ca/Application/Bourses/Bourses/DetailBourse.aspx?brs_id_bourse=12603 "Source : UQAM, condition de stage non crédité pour la BRPC 2026"){.source-link}. Un étudiant qui souhaite faire reconnaître une expérience de recherche dans le cadre d’ACT6901 ou d’ACT6902 doit donc vérifier les conditions applicables et la compatibilité du financement auprès de la direction de programme, avant de s’engager.
 
 <div style="clear: both;"></div>
 
@@ -184,13 +193,13 @@ text-align:center;
 </div>
 </div>
 
-Il est également possible pour un étudiant de trouver lui-même un stage en actuariat en prenant contact directement avec un employeur susceptible d’être intéressé. Certaines organisations n’affichent pas nécessairement leurs offres de stage sur les canaux institutionnels, soit parce qu’elles recrutent principalement par l’entremise d’autres universités, soit parce que la possibilité d’accueillir un stagiaire n’a pas été formalisée.
+Il est également possible pour un étudiant de trouver lui-même un stage en actuariat en prenant contact directement avec un employeur susceptible d’être intéressé [↗](https://stagesciences.uqam.ca/etudiants/recherche-du-stage/ "Source : UQAM, recherche autonome de stages"){.source-link}. Certaines organisations n’affichent pas nécessairement leurs offres de stage sur les canaux institutionnels, soit parce qu’elles recrutent principalement par l’entremise d’autres universités, soit parce que la possibilité d’accueillir un stagiaire n’a pas été formalisée.
 
 Lorsqu’un stage est trouvé de manière autonome, celui-ci peut néanmoins être reconnu comme stage crédité, à condition que son contenu et ses modalités soient approuvés par la direction de programme. Pour être créditée dans le cadre des cours ACT6901 ou ACT6902, l’expérience doit comporter des tâches clairement actuarielles, être encadrée par un professionnel qualifié et respecter les exigences générales du programme.
 
 Il est toutefois possible pour un étudiant de travailler pendant ses études dans un emploi ou un stage qui n’est pas reconnu comme cours crédité. Ce type d’expérience professionnelle demeure pertinent et peut être mis en valeur dans un curriculum vitae, indépendamment de sa reconnaissance académique.
 
-La reconnaissance universitaire peut faciliter certaines démarches administratives pour l’employeur. Elle peut également contribuer à remplir les conditions de certains programmes d’aide ou de crédits d’impôt, comme le [crédit d’impôt québécois pour stage en milieu de travail](https://www.revenuquebec.ca/fr/entreprises/impots/impot-des-societes/credits-dimpot-des-societes/credits-auxquels-une-societe-peut-avoir-droit/credit-dimpot-stage-en-milieu-de-travail-etudiant-temps-plein/). Toutefois, le seul fait qu’un stage soit crédité ne garantit aucun avantage fiscal : l’admissibilité dépend notamment des caractéristiques du stage, de l’employeur et des exigences administratives du programme concerné.
+La reconnaissance universitaire peut faciliter certaines démarches administratives pour l’employeur. Elle peut également contribuer à remplir les conditions de certains programmes d’aide ou de crédits d’impôt, comme le crédit d’impôt québécois pour stage en milieu de travail [↗](https://www.revenuquebec.ca/fr/entreprises/impots/impot-des-societes/credits-dimpot-des-societes/credits-auxquels-une-societe-peut-avoir-droit/credit-dimpot-stage-en-milieu-de-travail-etudiant-temps-plein/ "Source : Revenu Québec, crédit d’impôt pour stage en milieu de travail"){.source-link}. Toutefois, le seul fait qu’un stage soit crédité ne garantit aucun avantage fiscal : l’admissibilité dépend notamment des caractéristiques du stage, de l’employeur et des exigences administratives du programme concerné.
 
 <div style="clear: both;"></div>
 
@@ -198,5 +207,41 @@ La reconnaissance universitaire peut faciliter certaines démarches administrati
 
 ## Conclusion
 
-Les stages permettent de compléter la formation actuarielle par une expérience concrète, en milieu professionnel ou en recherche. Les cours ACT6901 et ACT6902 offrent une possibilité de reconnaissance universitaire, à condition de respecter leurs exigences et d’obtenir l’approbation de la direction de programme. Une expérience trouvée de manière autonome ou financée par une bourse de recherche peut également être formatrice, même lorsqu’elle ne donne pas lieu à des crédits. Le babillard Moodle et le Service des stages demeurent des points de départ utiles pour entreprendre ces démarches.
+Les stages permettent de compléter la formation actuarielle par une expérience concrète, en milieu professionnel ou en recherche. Les cours ACT6901 et ACT6902 offrent une possibilité de reconnaissance universitaire, à condition de respecter leurs exigences et d’obtenir l’approbation de la direction de programme. Une expérience trouvée de manière autonome ou financée par une bourse de recherche peut également être formatrice, même lorsqu’elle ne donne pas lieu à des crédits. Le babillard Moodle, [StagePro](https://stagesciences.uqam.ca/comment-utiliser-stagepro/) et le Service des stages demeurent des points de départ utiles pour entreprendre ces démarches.
+
+
+
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### Stages crédités et cours de l'UQAM {-}
+
+- [Service des stages – Actuariat, mathématiques et statistique](https://stagesciences.uqam.ca/actuariat-mathematiques-et-statistique/)
+- [ACT6901 – Stage en actuariat I](https://etudier.uqam.ca/cours?sigle=ACT6901)
+- [ACT6902 – Stage en actuariat II](https://etudier.uqam.ca/cours?sigle=ACT6902)
+- [ACT2035 – Actuariat et informatique](https://etudier.uqam.ca/cours?sigle=ACT2035)
+- [ACT2060 – Applications probabilistes des risques actuariels](https://etudier.uqam.ca/cours?sigle=ACT2060)
+- [ACT3035 – Laboratoire d'actuariat](https://etudier.uqam.ca/cours?sigle=ACT3035)
+- [ACT3300 – Mathématiques de l'assurance de personne I](https://etudier.uqam.ca/cours?sigle=ACT3300)
+- [ACT3400 – Distribution de sinistres](https://etudier.uqam.ca/cours?sigle=ACT3400)
+- [ACT3410 – Distribution de sinistres](https://etudier.uqam.ca/cours?sigle=ACT3410)
+
+### Recherche de stage et accompagnement {-}
+
+- [Babillard Moodle des stages en actuariat](https://ena01.uqam.ca/course/view.php?id=11223)
+- [Service des stages de la Faculté des sciences](https://stagesciences.uqam.ca/)
+- [Plateforme StagePro – Guide d'utilisation](https://stagesciences.uqam.ca/comment-utiliser-stagepro/)
+- [UQAM – Ateliers de préparation à l'emploi](https://portailetudiant.uqam.ca/emploi-orientation/ateliers-formations/)
+- [Service des stages – Coordonnées](https://stagesciences.uqam.ca/coordonnees/)
+- [Service des stages – Recherche autonome d'un stage](https://stagesciences.uqam.ca/etudiants/recherche-du-stage/)
+
+### Recherche universitaire et financement {-}
+
+- [Institut des sciences mathématiques – Bourses](https://www.ism.uqam.ca/accueil/bourses/)
+- [CRSNG – Bourses de recherche de 1er cycle (BRPC)](https://nserc-crsng.canada.ca/fr/possibilite-de-financement/bourses-de-recherche-de-1er-cycle)
+- [UQAM – Concours BRPC, été 2026](https://www.apps.uqam.ca/Application/Bourses/Bourses/DetailBourse.aspx?brs_id_bourse=12603)
+- [Revenu Québec – Crédit d'impôt pour stage en milieu de travail](https://www.revenuquebec.ca/fr/entreprises/impots/impot-des-societes/credits-dimpot-des-societes/credits-auxquels-une-societe-peut-avoir-droit/credit-dimpot-stage-en-milieu-de-travail-etudiant-temps-plein/)
+
+:::
 

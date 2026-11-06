@@ -1,0 +1,1577 @@
+---
+toc: false
+date: 03/15/2026
+date-modified: last-modified
+---
+
+# Épargne-retraite et fiscalité
+
+
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
+
+- Reconnaître les principaux instruments de placement et distinguer les notions de rendement, de risque et de liquidité.
+- Comprendre les principaux mécanismes fiscaux applicables à l'épargne, notamment les déductions, les exonérations et les reports d'imposition.
+- Expliquer et comparer le fonctionnement fiscal du REER et du CELI, tant pendant l'accumulation que lors des retraits.
+- Comprendre les limites fiscales de l'épargne-retraite, calculer le facteur d'équivalence (FE) et expliquer le rôle des autres ajustements des droits REER.
+- Examiner le principe d'équivalence fiscale entre les régimes PD et CD, ainsi que les limites du facteur 9.
+- Décrire les principaux mécanismes de décaissement de l'épargne-retraite et calculer les retraits minimaux d'un FERR ou d'un FRV.
+
+:::
+
+
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
+:::
+
+
+
+## Introduction
+
+Les chapitres précédents ont présenté les régimes publics et les régimes collectifs de retraite, qui permettent aux travailleurs de bénéficier de revenus à la retraite selon des mécanismes établis par l'État ou par les employeurs. Toutefois, ces régimes ne constituent pas les seules sources de financement de la retraite. Une personne peut également compter sur l'épargne qu'elle a accumulée au cours de sa vie. L'épargne personnelle repose sur un principe simple : consacrer une partie de ses revenus actuels à des dépenses futures. Dans le contexte de la retraite, les sommes ainsi mises de côté peuvent être investies afin de constituer progressivement un capital qui servira à compléter les autres sources de revenu.
+
+L'accumulation de ce capital soulève plusieurs questions. Combien faut-il épargner? Quel rôle jouent les rendements obtenus sur les placements? Et comment la fiscalité influence-t-elle les sommes accumulées et celles qui seront éventuellement disponibles à la retraite? Ce dernier aspect occupe une place particulièrement importante au Canada, où différents mécanismes fiscaux encouragent l'épargne à long terme. Ces mécanismes ne concernent toutefois pas uniquement l'épargne personnelle : ils encadrent également les régimes collectifs étudiés dans les chapitres précédents.
+
+Avant d'examiner en détail les mécanismes d'épargne-retraite et les règles fiscales qui les encadrent, nous commencerons par présenter quelques notions de base sur les instruments de placement et le fonctionnement de l'impôt. Ces notions permettront ensuite de mieux comprendre les différentes possibilités d'épargne personnelle et leurs avantages fiscaux.
+
+### Les instruments d'épargne et de placement
+
+{{< meme "memes/stonks.jpg" "https://knowyourmeme.com/memes/stonks" "300px" >}}
+
+Épargner consiste à mettre de côté une partie de son revenu pour une utilisation future. Les sommes accumulées peuvent notamment être investies dans des produits financiers afin de générer un rendement. Au Canada, ces placements peuvent être obtenus auprès de banques, de caisses populaires ou de courtiers en valeurs mobilières. Le choix des placements dépend notamment de l'objectif poursuivi, du rendement recherché et du temps disponible avant d'utiliser l'argent. [↗](https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/epargnes-investissements/objectifs-epargne-investissement.html "ACFC — Objectifs d'épargne et d'investissement"){.source-link}
+
+#### Les principaux types de placements {-}
+
+Les instruments financiers les plus courants comprennent :
+
+- Les comptes d'épargne, qui permettent de conserver de l'argent auprès d'une institution financière tout en recevant des intérêts.
+- Les certificats de placement garanti (CPG), qui offrent généralement un taux d'intérêt déterminé à l'avance et garantissent le capital à l'échéance.
+- Les obligations, qui permettent de prêter de l'argent à un gouvernement ou à une entreprise en échange d'intérêts.
+- Les actions, qui représentent une part de propriété d'une entreprise. Leur détenteur peut recevoir des dividendes et profiter d'une augmentation de leur valeur.
+- Les fonds d'investissement, qui regroupent l'argent de plusieurs investisseurs pour le placer dans différents actifs financiers. Les fonds communs de placement et les fonds négociés en bourse (FNB) en sont des exemples.
+
+L'Autorité des marchés financiers présente les caractéristiques de ces différents instruments, notamment les titres d'emprunt [↗](https://lautorite.qc.ca/grand-public/investissements/titres-demprunt "AMF — Titres d'emprunt"){.source-link}, les actions [↗](https://lautorite.qc.ca/grand-public/investissements/actions "AMF — Actions"){.source-link} et les fonds d'investissement [↗](https://lautorite.qc.ca/grand-public/investissements/fonds "AMF — Fonds d'investissement"){.source-link}.
+
+#### Rendement, risque et liquidité {-}
+
+Les placements se distinguent notamment par trois caractéristiques :
+
+- Le rendement, qui représente le gain ou la perte généré par un placement. Il peut notamment prendre la forme d'intérêts, de dividendes ou d'un gain en capital lorsque le placement est revendu plus cher que son prix d'achat.
+- Le risque, qui correspond à l'incertitude entourant le rendement d'un placement, notamment la possibilité de subir une perte.
+- La liquidité, qui désigne la facilité avec laquelle un placement peut être converti en argent disponible sans perte importante de valeur.
+
+En général, un placement offrant un potentiel de rendement plus élevé comporte également davantage de risques. Le choix d'un placement implique donc un compromis entre le rendement recherché, le risque accepté et la disponibilité des sommes investies. [↗](https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/epargnes-investissements/principes-base-investissement.html "ACFC — Principes de base de l'investissement"){.source-link}
+
+<div style="clear: both;"></div>
+
+
+### Principes fiscaux
+
+{{< meme "memes/Pikachu.jpg" "https://knowyourmeme.com/memes/surprised-pikachu" "280px" >}}
+
+L'impôt constitue l'une des principales sources de financement des gouvernements. Il permet notamment de financer les services publics, comme la santé, l'éducation et les infrastructures. Au Canada, les gouvernements fédéral et provinciaux prélèvent des impôts sur différents types de revenus, notamment les salaires et les revenus de placement. La fiscalité prévoit toutefois plusieurs mécanismes qui peuvent modifier le montant de l'impôt à payer ou le moment où celui-ci doit être payé.
+
+#### Les revenus imposables {-}
+
+Lorsqu'une personne gagne un revenu, une partie de celui-ci peut être prélevée sous forme d'impôt. C'est notamment le cas des revenus de travail, mais également des revenus générés par les placements financiers, comme les intérêts, les dividendes et les gains en capital imposables. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/tout-votre-declaration-revenus/declaration-revenus/remplir-declaration-revenus/revenu-personnel/revenu-placements.html "ARC — Revenus de placement"){.source-link} L'impôt peut ainsi intervenir à différents moments :
+
+- Lors de l'obtention du revenu, par exemple lorsqu'une personne reçoit son salaire.
+- Pendant l'accumulation de l'épargne, lorsque les placements produisent des revenus imposables.
+- Lors de l'utilisation de l'épargne, lorsque les sommes retirées constituent un revenu imposable.
+
+L'impôt ne s'applique cependant pas nécessairement à chacune de ces étapes. Tout dépend des règles fiscales applicables.
+
+#### Les mécanismes fiscaux {-}
+
+La fiscalité prévoit également plusieurs mécanismes qui peuvent réduire l'impôt ou en reporter le paiement. Il importe notamment de distinguer : [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/programmes-educatifs/remplir-declaration-revenu-base.html "ARC — Déductions et crédits d'impôt"){.source-link}
+
+- Une déduction fiscale, qui réduit le revenu imposable et, par conséquent, l'impôt calculé sur celui-ci.
+- Un crédit d'impôt, qui réduit directement l'impôt à payer.
+- Une exonération fiscale, qui permet à certains revenus de ne pas être imposés.
+- Un report d'imposition, qui permet de repousser le paiement de l'impôt à une année ultérieure.
+
+La distinction entre exonération et report est particulièrement importante : dans le premier cas, le revenu n'est pas imposé; dans le second, son imposition est simplement remise à plus tard.
+
+#### Le cadre législatif {-}
+
+Au Canada, les revenus sont imposés par les gouvernements fédéral et provinciaux. Au fédéral, les règles sont établies par la Loi de l'impôt sur le revenu [↗](https://laws-lois.justice.gc.ca/fra/lois/I-3.3/TexteComplet.html "Gouvernement du Canada — Loi de l'impôt sur le revenu"){.source-link}, administrée par l'Agence du revenu du Canada (ARC). Au Québec, la Loi sur les impôts [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/I-3 "LégisQuébec — Loi sur les impôts"){.source-link} est administrée par Revenu Québec. Ces lois déterminent notamment quels revenus sont imposables, les taux d'imposition applicables et les conditions permettant de bénéficier de déductions, de crédits ou d'autres avantages fiscaux.
+
+<div style="clear: both;"></div>
+
+::: {#exm-synthese-fiscalite .custom}
+Sophie gagne 1 000 $ en travaillant. Supposons un taux d'imposition de 20 %, ce qui correspond normalement à 200 $ d'impôt. Considérons d'abord le cas où elle épargne une partie de son revenu :
+
+- Sophie paie 200 $ d'impôt sur son salaire et conserve 800 $, dont elle décide d'épargner 200 $.
+- Ses 200 $ lui rapportent 10 $ d'intérêts, sur lesquels elle paie 2 $ d'impôt. Son épargne atteint donc 208 $.
+- Lorsqu'elle retire ses 208 $ de son compte bancaire ordinaire, elle ne paie aucun impôt supplémentaire, puisque son salaire et ses intérêts ont déjà été imposés.
+
+Examinons maintenant quatre situations indépendantes illustrant les mécanismes fiscaux :
+
+- Déduction fiscale : Sophie bénéficie d'une déduction admissible de 100 $. Son revenu imposable passe de 1 000 $ à 900 $, ce qui réduit son impôt de 200 $ à 180 $.
+- Crédit d'impôt : Sophie bénéficie d'un crédit d'impôt de 30 $, par exemple à la suite d'un don admissible. Son impôt passe directement de 200 $ à 170 $.
+- Exonération fiscale : Sophie reçoit 10 $ d'intérêts bénéficiant d'une exonération. Elle conserve ces 10 $ sans payer d'impôt sur ceux-ci.
+- Report d'imposition : supposons que les 10 $ d'intérêts de Sophie bénéficient plutôt d'un report fiscal. Elle n'a aucun impôt à payer sur ces intérêts cette année, mais ceux-ci pourront être imposés ultérieurement.
+
+Ces exemples illustrent que les règles fiscales peuvent modifier aussi bien le montant de l'impôt que le moment où celui-ci doit être payé.
+:::
+
+
+## Le régime enregistré d'épargne-retraite (REER)
+
+{{< meme "memes/Padme.png" "https://knowyourmeme.com/memes/for-the-better-right" "350px" >}}
+
+Nous avons vu que l'épargne permet d'accumuler progressivement un capital, mais que les impôts peuvent réduire les sommes disponibles et les rendements obtenus. Pour encourager les particuliers à épargner en vue de leur retraite, le gouvernement fédéral a donc mis en place un mécanisme offrant certains avantages fiscaux : le régime enregistré d'épargne-retraite (REER). Le REER a été créé en 1957. À cette époque, les avantages fiscaux liés à l'épargne-retraite étaient principalement accessibles aux travailleurs participant à un régime de pension offert par leur employeur. L'introduction du REER visait notamment à permettre aux autres travailleurs de bénéficier eux aussi d'avantages fiscaux pour préparer leur retraite. [↗](https://ised-isde.canada.ca/site/bureau-consommation/fr/pour-groupes-dinteret-consommateurs/tendances-consommation/rapport-tendances-consommation-chapitre-6-avoirs-consommateurs "Gouvernement du Canada — Historique des REER"){.source-link} Un REER n'est toutefois pas un placement financier en lui-même. Il s'agit plutôt d'un régime enregistré auprès de l'Agence du revenu du Canada (ARC), dans lequel une personne peut détenir différents placements admissibles, comme ceux présentés précédemment. Sa particularité réside dans les règles fiscales qui s'appliquent aux cotisations, aux rendements et aux retraits. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/regime-enregistre-epargne-retraite-reer.html "ARC — Régime enregistré d'épargne-retraite"){.source-link}
+
+### Fonctionnement fiscal du REER
+
+Le principal avantage du REER repose sur le report de l'imposition. Les sommes versées dans le régime peuvent généralement être déduites du revenu imposable, tandis que les rendements s'accumulent sans être imposés immédiatement. L'impôt est plutôt payé lorsque les sommes sont retirées. On peut résumer son fonctionnement en trois étapes :
+
+- Lors de la cotisation, les sommes admissibles versées dans le REER peuvent être déduites du revenu imposable, ce qui réduit l'impôt à payer.
+- Pendant l'accumulation, les revenus de placement ne sont généralement pas imposés tant qu'ils demeurent dans le REER.
+- Lors du retrait, les sommes reçues sont généralement ajoutées au revenu imposable, qu'elles proviennent des cotisations initiales ou des rendements accumulés.
+
+Ce traitement fiscal est décrit par l'ARC. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/regime-enregistre-epargne-retraite-reer.html "ARC — Cotisations, rendements et retraits d'un REER"){.source-link} Le rendement obtenu dépend toutefois des placements choisis, comme les CPG, les obligations, les actions ou les fonds d'investissement admissibles, et non du REER lui-même. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/cotiser-a-reer-a-rpac-a/reer-autogeres.html "ARC — REER autogérés et placements admissibles"){.source-link}
+
+<div style="clear: both;"></div>
+
+
+::: {#exm-fiscalite-reer .custom}
+Sophie gagne un salaire annuel de 60 000 $ et souhaite consacrer une partie de son revenu à son épargne. Supposons un taux d'imposition de 30 %, un rendement annuel de 5 % et une période d'accumulation de 30 ans. Comparons deux possibilités.
+
+**1. Épargne dans un compte ordinaire**
+
+- Sophie gagne 60 000 $ et paie 18 000 $ d'impôt (30 % de son salaire). Il lui reste donc 42 000 $.
+- Elle décide d'investir 7 000 $ dans un compte ordinaire et conserve 35 000 $ pour ses dépenses.
+- Les intérêts produits par son épargne sont imposés chaque année à 30 %. Son rendement annuel après impôt est donc de 3,5 %.
+- Après 30 ans, son capital atteint :
+
+$$
+7\,000\times(1{,}035)^{30}\approx19\,648\ \$.
+$$
+
+- Lors du retrait, Sophie récupère la totalité des 19 648 $ accumulés, sans payer d'impôt supplémentaire, puisque les intérêts ont déjà été imposés chaque année. Son capital disponible après impôt demeure donc de 19 648 $.
+
+**2. Épargne dans un REER**
+
+Sophie décide plutôt de verser 10 000 $ dans son REER. C'est ici que la déduction fiscale devient intéressante.
+
+- Sophie gagne toujours 60 000 $, mais sa cotisation de 10 000 $ est déductible de son revenu imposable. Celui-ci diminue donc à 50 000 $.
+- Son impôt est alors calculé sur 50 000 $ plutôt que 60 000 $. Avec un taux de 30 %, elle paie 15 000 $ d'impôt plutôt que 18 000 $, soit une économie de 3 000 $.
+- Sophie a donc investi 10 000 $ dans son REER, payé 15 000 $ d'impôt et conserve 35 000 $ pour ses dépenses.
+- Pendant l'accumulation, les 10 000 $ investis produisent un rendement annuel de 5 %, sans imposition courante.
+- Après 30 ans, le capital atteint :
+
+$$
+10\,000\times(1{,}05)^{30}\approx43\,219\ \$.
+$$
+
+- Lors du retrait, supposons que le taux d'imposition de Sophie soit toujours de 30 %. Elle conserve donc :
+
+$$
+43\,219\times(1-0{,}30)\approx30\,254\ \$.
+$$
+
+**Comparaison des deux possibilités**
+
+::: {.encadre}
+
+| | Compte ordinaire | REER |
+|:---|---:|---:|
+| Salaire brut | 60 000 $ | 60 000 $ |
+| Cotisation REER déductible | 0 $ | 10 000 $ |
+| Revenu imposable | 60 000 $ | 50 000 $ |
+| Impôt payé sur le salaire | 18 000 $ | 15 000 $ |
+| Capital initial investi | 7 000 $ | 10 000 $ |
+| Argent disponible pour les dépenses | 35 000 $ | 35 000 $ |
+| Rendement annuel après impôt courant | 3,5 % | 5 % |
+| Capital après 30 ans, avant impôt au retrait | 19 648 $ | 43 219 $ |
+| Capital disponible après impôt | 19 648 $ | 30 254 $ |
+
+:::
+
+Dans les deux situations, Sophie conserve 35 000 $ pour ses dépenses. Pourtant, après 30 ans, elle dispose de 30 254 $ dans son REER, contre 19 648 $ dans son compte ordinaire, soit une différence d'environ 10 600 $.
+:::
+
+### Analyse de l'exemple
+
+L'exemple précédent montre que le REER peut être avantageux même lorsque le taux d'imposition demeure identique pendant la vie active et à la retraite. Pour comprendre ce résultat, il faut distinguer trois éléments :
+
+1. **Les avantages pendant l'accumulation**
+
+   Le REER permet de faire fructifier une épargne plus importante grâce à deux mécanismes complémentaires :
+
+   - La déduction fiscale initiale : en versant 10 000 $ dans son REER, Sophie réduit son revenu imposable de 60 000 $ à 50 000 $, ce qui lui procure une économie d'impôt de 3 000 $. Elle peut ainsi investir 10 000 $ plutôt que 7 000 $ tout en conservant le même montant pour ses dépenses.
+   - L'absence d'imposition des rendements : dans le compte ordinaire, les intérêts sont imposés chaque année, ce qui réduit le rendement annuel de 5 % à 3,5 %. Dans le REER, les rendements continuent de s'accumuler au taux de 5 %, sans imposition courante.
+
+   Ces deux effets se combinent pendant les 30 années d'accumulation, ce qui explique la différence entre les capitaux obtenus.
+
+2. **Le principe du report d'imposition**
+
+   La déduction fiscale initiale ne constitue toutefois pas une économie d'impôt définitive. Le REER repose sur un report d'imposition : Sophie réduit son revenu imposable aujourd'hui, mais les sommes retirées de son REER seront imposables plus tard. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/regime-enregistre-epargne-retraite-reer.html "ARC — Traitement fiscal du REER"){.source-link} Lorsque le taux d'imposition est identique à la cotisation et au retrait, le résultat après impôt est équivalent à celui d'un placement effectué avec le revenu après impôt, dont les rendements seraient entièrement exonérés. Dans notre exemple, l'avantage du REER par rapport au compte ordinaire provient donc de l'absence d'imposition annuelle des intérêts.
+
+3. **L'effet du taux d'imposition à la retraite**
+
+   Un avantage supplémentaire peut apparaître lorsque le taux d'imposition est plus faible au moment du retrait. Cette situation peut notamment se produire à la retraite, lorsque les revenus imposables sont inférieurs à ceux de la vie active. Une personne peut ainsi bénéficier d'une déduction fiscale importante lorsqu'elle gagne un salaire élevé, puis retirer les sommes accumulées à un taux d'imposition plus faible. À l'inverse, si son taux d'imposition est plus élevé au moment du retrait, une partie de l'avantage fiscal peut être réduite.
+
+Reprenons maintenant l'exemple de Sophie pour distinguer l'avantage lié à l'accumulation des rendements sans imposition courante de celui qui peut découler d'un taux d'imposition plus faible à la retraite.
+
+::: {#exm-analyse-reer .custom}
+
+**1. Un taux d'imposition identique**
+
+Lorsque le taux d'imposition demeure à 30 %, le capital disponible après 30 ans est :
+
+$$
+10\,000\times(1{,}05)^{30}\times(1-0{,}30)
+=
+7\,000\times(1{,}05)^{30}
+\approx30\,254\ \$.
+$$
+
+Ce résultat est identique à celui que Sophie aurait obtenu en investissant ses 7 000 $ après impôt à un rendement de 5 %, sans aucune imposition annuelle. La différence avec les 19 648 $ du compte ordinaire provient donc de l'imposition annuelle des intérêts dans ce dernier.
+
+**2. Un taux d'imposition plus faible à la retraite**
+
+Supposons maintenant que le taux d'imposition de Sophie soit de 20 % plutôt que de 30 % au moment du retrait. Elle conserverait alors :
+
+$$
+43\,219\times(1-0{,}20)\approx34\,575\ \$.
+$$
+
+Elle disposerait donc d'environ 4 321 $ supplémentaires par rapport au scénario précédent. Cette différence provient uniquement de la diminution de son taux d'imposition.
+
+:::
+
+### Autres caractéristiques du REER
+
+Quelques règles supplémentaires sont importantes pour comprendre le fonctionnement du REER :
+
+- Les limites de cotisation : les sommes pouvant être versées dans un REER sont soumises à des plafonds fiscaux, qui dépendent notamment du revenu gagné et de la participation à un régime de retraite d'employeur. Nous examinerons ces limites plus loin dans ce chapitre.
+- Les retraits avant la retraite : malgré son objectif d'épargne-retraite, le REER permet généralement de retirer des sommes à tout âge, sous réserve des restrictions propres à certains placements ou régimes. Ces retraits sont normalement imposables. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/faire-retrait.html "ARC — Retraits d'un REER"){.source-link}
+- La fin du REER à 71 ans : au plus tard le 31 décembre de l'année où son titulaire atteint 71 ans, le REER doit être fermé. Les sommes peuvent alors être retirées, transférées dans un fonds enregistré de revenu de retraite (FERR) ou utilisées pour acheter une rente. Le transfert direct vers un FERR n'entraîne pas d'imposition immédiate, mais les retraits effectués par la suite sont généralement imposables. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/options-vos-reer-lorsque-vous-atteignez-71-ans/options-vos-propres-reer.html "ARC — Options pour les REER à 71 ans"){.source-link}
+
+
+## Le compte d'épargne libre d'impôt (CELI)
+
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "350px" >}}
+
+
+Le gouvernement fédéral a introduit le compte d'épargne libre d'impôt (CELI) en 2009 afin d'encourager les Canadiens à épargner. Ce mécanisme peut servir à différents objectifs, comme financer des dépenses importantes, constituer une réserve financière ou accumuler des sommes en prévision de la retraite. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/compte-epargne-libre-impot-celi/a-propos-compte-epargne-libre-impot-celi.html "ARC — Historique et caractéristiques du CELI"){.source-link} Malgré son nom, un CELI n'est pas nécessairement un simple compte d'épargne bancaire. Il s'agit d'un compte enregistré dans lequel une personne peut détenir différents placements admissibles, notamment des CPG, des obligations, des actions et des fonds d'investissement. Le rendement dépend des placements choisis, tandis que le CELI détermine le traitement fiscal des sommes accumulées. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/quest-ce-celi.html "ARC — Qu'est-ce qu'un CELI?"){.source-link}
+
+### Fonctionnement fiscal du CELI
+
+Le principal avantage du CELI repose sur l'exonération des revenus de placement. Une personne y verse des sommes provenant de revenus déjà imposés, mais les rendements générés à l'intérieur du compte sont généralement exempts d'impôt. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/quest-ce-celi.html "ARC — Traitement fiscal du CELI"){.source-link} Son fonctionnement peut être résumé en trois étapes :
+
+- Lors de la cotisation, les sommes versées dans le CELI ne sont pas déductibles du revenu imposable.
+- Pendant l'accumulation, les intérêts, les dividendes et les gains en capital réalisés dans le CELI ne sont généralement pas imposables.
+- Lors du retrait, les sommes récupérées ne sont généralement pas imposables, qu'elles proviennent des cotisations initiales ou des rendements accumulés.
+
+L'exonération fiscale permet ainsi aux revenus générés par les placements de demeurer entièrement dans le compte et de produire à leur tour de nouveaux rendements, sans imposition courante.
+
+<div style="clear: both;"></div>
+
+
+::: {#exm-fiscalite-celi .custom}
+Sophie gagne un salaire annuel de 60 000 $ et souhaite épargner une partie de son revenu. Supposons un taux d'imposition de 30 %, un rendement annuel de 5 % et une période d'accumulation de 30 ans. Comparons deux possibilités.
+
+**1. Épargne dans un compte ordinaire**
+
+- Sophie gagne 60 000 $ et paie 18 000 $ d'impôt (30 % de son salaire). Il lui reste donc 42 000 $.
+- Elle décide d'investir 7 000 $ dans un compte ordinaire et conserve 35 000 $ pour ses dépenses.
+- Les intérêts produits par son épargne sont imposés chaque année à 30 %. Son rendement annuel après impôt est donc de 3,5 %.
+- Après 30 ans, son capital atteint :
+
+$$
+7\,000\times(1{,}035)^{30}\approx19\,648\ \$.
+$$
+
+- Lors du retrait, Sophie récupère la totalité des 19 648 $ accumulés sans payer d'impôt supplémentaire, puisque les intérêts ont déjà été imposés chaque année.
+
+**2. Épargne dans un CELI**
+
+Sophie décide plutôt de placer 7 000 $ dans un CELI, en supposant qu'elle dispose de droits de cotisation suffisants.
+
+- Sophie gagne toujours 60 000 $ et paie 18 000 $ d'impôt. Sa cotisation au CELI ne lui procure aucune déduction fiscale.
+- Elle investit donc 7 000 $ dans son CELI et conserve, comme précédemment, 35 000 $ pour ses dépenses.
+- Pendant l'accumulation, les 7 000 $ investis produisent un rendement annuel de 5 %, sans imposition des intérêts.
+- Après 30 ans, le capital atteint :
+
+$$
+7\,000\times(1{,}05)^{30}\approx30\,254\ \$.
+$$
+
+- Lors du retrait, Sophie récupère la totalité des 30 254 $ accumulés, sans payer d'impôt sur les intérêts générés ni sur les sommes retirées.
+
+**Comparaison des deux possibilités**
+
+::: {.encadre}
+
+| | Compte ordinaire | CELI |
+|:---|---:|---:|
+| Salaire brut | 60 000 $ | 60 000 $ |
+| Impôt payé sur le salaire | 18 000 $ | 18 000 $ |
+| Capital initial investi | 7 000 $ | 7 000 $ |
+| Argent disponible pour les dépenses | 35 000 $ | 35 000 $ |
+| Rendement annuel après impôt courant | 3,5 % | 5 % |
+| Capital après 30 ans | 19 648 $ | 30 254 $ |
+| Impôt supplémentaire au retrait | 0 $ | 0 $ |
+| Capital disponible après impôt | 19 648 $ | 30 254 $ |
+
+:::
+
+Dans les deux situations, Sophie investit exactement 7 000 $ et conserve 35 000 $ pour ses dépenses. Pourtant, après 30 ans, elle dispose d'environ 10 600 $ supplémentaires grâce au CELI.
+:::
+
+### Analyse de l'exemple
+
+L'exemple précédent montre que l'avantage fiscal du CELI ne se manifeste pas au moment de la cotisation, mais plutôt pendant l'accumulation des rendements et lors du retrait des sommes. Trois éléments permettent de comprendre ce résultat :
+
+1. **L'absence de déduction fiscale initiale**
+
+   Sophie paie 18 000 $ d'impôt sur son salaire de 60 000 $, qu'elle choisisse un compte ordinaire ou un CELI. Les 7 000 $ qu'elle investit proviennent donc de son revenu après impôt. La cotisation au CELI ne réduit ni son revenu imposable ni son impôt initial.
+
+2. **L'exonération des rendements**
+
+   Dans le compte ordinaire, les intérêts sont imposés chaque année, ce qui réduit le rendement de 5 % à 3,5 %. Dans le CELI, les rendements demeurent entièrement disponibles pour produire de nouveaux intérêts. Après 30 ans, cette différence explique pourquoi le capital atteint 30 254 $ plutôt que 19 648 $.
+
+3. **L'absence d'imposition au retrait**
+
+   Sophie peut retirer les 30 254 $ de son CELI sans payer d'impôt supplémentaire. Les 7 000 $ initialement investis provenaient déjà de son revenu après impôt, tandis que les rendements accumulés bénéficient d'une exonération fiscale. Contrairement à un simple report d'imposition, cette exonération permet de conserver définitivement les revenus de placement sans les imposer ultérieurement.
+
+L'avantage du CELI réside donc dans le fait que les revenus de placement ne subissent pas d'imposition, ni pendant leur accumulation ni au moment de leur retrait.
+
+### Autres caractéristiques du CELI
+
+Quelques règles supplémentaires sont importantes pour comprendre le fonctionnement du CELI :
+
+- L'admissibilité : une personne peut généralement ouvrir un CELI dès l'âge de 18 ans, à condition d'être résidente du Canada aux fins fiscales et de posséder un numéro d'assurance sociale valide. Il n'est pas nécessaire de gagner un revenu pour y cotiser. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/ouvrir.html "ARC — Conditions d'admissibilité au CELI"){.source-link}
+- Les limites de cotisation : les sommes pouvant être versées dans un CELI sont soumises à un plafond annuel. Les droits de cotisation inutilisés peuvent toutefois être reportés aux années suivantes. Nous examinerons ces limites plus loin dans ce chapitre. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/cotiser/calculer-droits.html "ARC — Calcul des droits de cotisation au CELI"){.source-link}
+- Les retraits et les nouvelles cotisations : les sommes accumulées peuvent généralement être retirées à tout moment, selon les conditions des placements détenus. Le montant retiré s'ajoute aux droits de cotisation à compter du 1er janvier de l'année suivante. Un retrait ne permet donc pas automatiquement de cotiser de nouveau la même somme pendant l'année en cours. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/retirer.html "ARC — Retraits et droits de cotisation au CELI"){.source-link}
+- La durée du CELI : aucun âge maximal n'oblige son titulaire à fermer son compte ou à convertir les sommes accumulées en revenu de retraite. Le CELI peut ainsi être conservé et utilisé tout au long de la vie.
+
+
+### REER et CELI : deux traitements fiscaux différents
+
+Le REER et le CELI permettent tous deux d'accumuler des placements sans imposition courante des rendements. Leur principale différence concerne le moment où l'impôt intervient : le REER permet généralement de reporter l'imposition à une date ultérieure, tandis que le CELI permet d'accumuler des revenus de placement qui ne seront généralement jamais imposés. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/regime-enregistre-epargne-retraite-reer.html "ARC — Régime enregistré d'épargne-retraite"){.source-link} [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/quest-ce-celi.html "ARC — Qu'est-ce qu'un CELI?"){.source-link}
+
+::: {.encadre2}
+
+| Traitement fiscal | REER | CELI |
+|:---|:---|:---|
+| Cotisations déductibles du revenu imposable | Généralement oui | Non |
+| Rendements imposés pendant l'accumulation | Généralement non | Généralement non |
+| Retraits imposables | Généralement oui | Généralement non |
+| Effet des retraits sur le revenu imposable | Augmentation | Aucun, généralement |
+| Utilisation habituelle | Principalement la retraite | Épargne à différentes fins |
+
+:::
+
+Il serait toutefois incorrect de conclure qu'un mécanisme est nécessairement plus avantageux que l'autre. Pour les comparer équitablement, il faut considérer un même effort d'épargne après impôt, mais aussi les taux d'imposition applicables au moment de la cotisation et du retrait. Comme nous le verrons dans l'exemple suivant, l'évolution de ces taux peut modifier considérablement l'avantage relatif du REER et du CELI.
+
+D'autres considérations peuvent également intervenir, notamment la souplesse des retraits et leur incidence sur les programmes gouvernementaux fondés sur le revenu. Par exemple, les retraits d'un REER peuvent entraîner une réduction des prestations de la Sécurité de la vieillesse (SV) ou du Supplément de revenu garanti (SRG), alors que les retraits d'un CELI n'ont généralement aucun effet sur ces prestations fédérales. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/quest-ce-celi.html "ARC — Incidence du CELI sur les prestations gouvernementales"){.source-link}
+
+
+::: {#exm-comparaison-reer-celi .custom}
+Reprenons les résultats des exemples précédents de Sophie. Elle dispose de 7 000 $ après impôt pour épargner, le rendement annuel est de 5 % et la période d'accumulation est de 30 ans. Supposons d'abord que son taux d'imposition demeure à 30 % :
+
+- Dans le REER, Sophie peut investir 10 000 $ grâce à la déduction fiscale de 3 000 $. Après 30 ans, elle accumule 43 219 $, dont elle conserve 30 254 $ après impôt.
+- Dans le CELI, Sophie investit ses 7 000 $ après impôt. Après 30 ans, elle accumule 30 254 $, qu'elle peut retirer sans impôt supplémentaire.
+
+Les deux mécanismes produisent donc exactement le même capital disponible après impôt, malgré des traitements fiscaux différents. Supposons maintenant que le taux d'imposition de Sophie change au moment du retrait. On voit que le REER devient plus avantageux lorsque le taux d'imposition diminue à la retraite, tandis que le CELI devient plus avantageux lorsqu'il augmente :
+
+::: {.encadre}
+
+| Taux d'imposition au retrait | REER après impôt | CELI après impôt |
+|:---|---:|---:|
+| 20 % | 34 575 $ | 30 254 $ |
+| 30 % | 30 254 $ | 30 254 $ |
+| 40 % | 25 932 $ | 30 254 $ |
+
+:::
+
+:::
+
+
+
+## Limites fiscales de l'épargne-retraite
+
+L'existence de plusieurs mécanismes d'épargne-retraite soulève une question d'équité fiscale : une personne qui participe à un régime de retraite offert par son employeur devrait-elle bénéficier des mêmes possibilités d'épargne-retraite fiscalement avantageuse qu'une personne qui ne dispose d'aucun régime d'employeur? Cette question a notamment motivé une importante réforme de la fiscalité canadienne de l'épargne-retraite. Adoptée en 1990 à la suite du projet de loi C-52, déposé en 1989, cette réforme a établi un cadre visant à harmoniser les avantages fiscaux accordés aux différents mécanismes d'épargne-retraite. Les nouvelles règles ont commencé à s'appliquer en 1991. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/nouvelles-manuel-technique/no-91-1.html "ARC — Réforme de l'épargne-retraite et projet de loi C-52"){.source-link}  La réforme poursuivait principalement trois objectifs :
+
+- Limiter le montant d'épargne-retraite pouvant bénéficier d'avantages fiscaux au cours d'une année.
+- Offrir des possibilités d'épargne-retraite fiscalement comparables aux travailleurs ayant des revenus semblables.
+- Coordonner les avantages fiscaux accordés aux régimes de pension agréés à prestations déterminées (PD), aux régimes à cotisations déterminées (CD) et aux régimes enregistrés d'épargne-retraite (REER).
+
+Pour atteindre ces objectifs, le système fiscal canadien repose notamment sur un principe commun : les nouvelles possibilités d'épargne-retraite bénéficiant d'avantages fiscaux sont généralement limitées à 18 % du revenu gagné, jusqu'à concurrence de plafonds annuels. [↗](https://www150.statcan.gc.ca/n1/pub/13f0026m/2010001/section1-fra.htm "Statistique Canada — Traitement fiscal des régimes privés d'épargne-retraite au Canada"){.source-link} Ce cadre concerne les principales formes d'épargne-retraite enregistrée, mais non le CELI, qui possède ses propres limites de cotisation.
+
+### Les plafonds des régimes CD et des REER
+
+Les régimes à cotisations déterminées (CD) et les régimes enregistrés d'épargne-retraite (REER) permettent tous deux d'accumuler une épargne-retraite bénéficiant d'avantages fiscaux. Les limites applicables à ces deux mécanismes sont toutefois calculées différemment :
+
+- **Pour un régime CD**, les cotisations versées par l'employé et l'employeur sont prises en compte dans le calcul du plafond annuel. Ce plafond limite ainsi les cotisations pouvant être versées au régime au cours d'une année.
+- **Pour un REER**, les nouveaux droits annuels sont généralement établis à partir du moindre de 18 % du revenu gagné pendant l'année précédente et du plafond annuel des REER. Ces droits peuvent ensuite être ajustés pour tenir compte notamment de la participation à un régime de retraite d'employeur.
+
+L'Agence du revenu du Canada publie chaque année les plafonds applicables à ces deux mécanismes d'épargne-retraite. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/fesp/plafonds-cd-reer-rpdb-celi-mgap.html "ARC — Plafonds annuels des régimes enregistrés"){.source-link}
+
+#### Évolution historique des plafonds {-}
+
+La figure suivante présente l'évolution des plafonds annuels applicables aux régimes CD et aux REER depuis 1991. On observe une période de stabilité à la fin des années 1990, suivie d'une augmentation progressive des plafonds. Les deux séries évoluent de manière étroitement liée, mais présentent généralement un décalage d'une année. Les montants sont exprimés en dollars courants, sans correction pour l'inflation. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/fesp/plafonds-cd-reer-rpdb-celi-mgap.html "ARC — Évolution historique des plafonds fiscaux"){.source-link}
+
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.5
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# Source : Agence du revenu du Canada
+plafonds <- tibble::tribble(
+  ~Année, ~CD, ~REER,
+  1991, 12500, 11500,
+  1992, 12500, 12500,
+  1993, 13500, 12500,
+  1994, 14500, 13500,
+  1995, 15500, 14500,
+  1996, 13500, 13500,
+  1997, 13500, 13500,
+  1998, 13500, 13500,
+  1999, 13500, 13500,
+  2000, 13500, 13500,
+  2001, 13500, 13500,
+  2002, 13500, 13500,
+  2003, 15500, 14500,
+  2004, 16500, 15500,
+  2005, 18000, 16500,
+  2006, 19000, 18000,
+  2007, 20000, 19000,
+  2008, 21000, 20000,
+  2009, 22000, 21000,
+  2010, 22450, 22000,
+  2011, 22970, 22450,
+  2012, 23820, 22970,
+  2013, 24270, 23820,
+  2014, 24930, 24270,
+  2015, 25370, 24930,
+  2016, 26010, 25370,
+  2017, 26230, 26010,
+  2018, 26500, 26230,
+  2019, 27230, 26500,
+  2020, 27830, 27230,
+  2021, 29210, 27830,
+  2022, 30780, 29210,
+  2023, 31560, 30780,
+  2024, 32490, 31560,
+  2025, 33810, 32490,
+  2026, 35390, 33810,
+  2027, 36390, 35390
+)
+
+plafonds_long <- plafonds %>%
+  pivot_longer(
+    cols = c(CD, REER),
+    names_to = "Régime",
+    values_to = "Plafond"
+  ) %>%
+  mutate(
+    Régime = recode(
+      Régime,
+      CD = "RPA à cotisations déterminées",
+      REER = "REER"
+    )
+  )
+
+ggplot(plafonds_long,
+       aes(x = Année, y = Plafond, color = Régime)) +
+  geom_line(linewidth = 1) +
+  scale_x_continuous(
+    breaks = seq(1991, 2027, by = 4)
+  ) +
+  scale_y_continuous(
+    labels = function(x)
+      paste0(format(x, big.mark = " ",
+                    scientific = FALSE, trim = TRUE), " $")
+  ) +
+  labs(
+    x = "Année",
+    y = "Plafond annuel ($)",
+    color = NULL
+  ) +
+  theme_bw() +
+  theme(
+    legend.position = "bottom"
+  )
+```  
+
+#### Plafonds pour 2026 et 2027 {-}
+
+Le tableau suivant présente les plafonds annuels applicables aux régimes CD et aux REER pour 2026 et 2027. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/fesp/plafonds-cd-reer-rpdb-celi-mgap.html "ARC — Plafonds annuels des régimes enregistrés"){.source-link}
+
+::: {.encadre2}
+
+| Paramètre fiscal | 2026 | 2027 |
+|:---|---:|---:|
+| Plafond annuel des régimes CD | 35 390 $ | 36 390 $ |
+| Plafond annuel REER | 33 810 $ | 35 390 $ |
+
+:::
+
+Deux éléments permettent de mieux comprendre ces plafonds :
+
+- **Le plafond REER n'est pas un droit de cotisation individuel.** Une personne ne peut pas nécessairement cotiser jusqu'à ce montant. Ses droits dépendent notamment de son revenu gagné l'année précédente, de ses droits inutilisés et de sa participation éventuelle à un régime de retraite d'employeur.
+- **Le plafond REER correspond au plafond CD de l'année précédente.** Par exemple, le plafond CD de 2026 (35 390 $) correspond au plafond REER de 2027. Ce décalage s'explique par le fait que les nouveaux droits REER sont calculés à partir des données fiscales de l'année précédente. [↗](https://laws-lois.justice.gc.ca/fra/lois/i-3.3/section-146.html "Loi de l'impôt sur le revenu — Article 146"){.source-link}
+
+::: {#exm-limites-epargne .custom}
+
+**Calcul des nouveaux droits REER**
+
+Considérons une personne qui a gagné un revenu de 60 000 $ en 2026. Supposons qu'elle n'a participé à aucun régime de retraite d'employeur pendant cette année et qu'elle ne dispose d'aucun droit REER inutilisé des années précédentes. Pour 2027, les nouveaux droits REER correspondent au moindre de 18 % du revenu gagné en 2026 et du plafond annuel REER de 2027 :
+
+$$
+\min(0{,}18\times60\,000,\;35\,390)
+=
+\min(10\,800,\;35\,390)
+=
+10\,800\ \$.
+$$
+
+Cette personne dispose donc de 10 800 $ de nouveaux droits de cotisation REER pour 2027. Le plafond général de 35 390 $ ne lui permet pas de cotiser davantage, puisque ses nouveaux droits sont limités à 18 % de son revenu gagné.
+
+:::
+
+
+### Facteur d'équivalence (FE)
+
+{{< meme "memes/Batman.png" "https://knowyourmeme.com/memes/my-parents-are-dead-batman-slapping-robin" "300px" >}}
+
+Dans l'exemple précédent, une personne gagnant 60 000 $ en 2026 et ne participant à aucun régime de retraite d'employeur obtenait 10 800 $ de nouveaux droits REER pour 2027. Mais que se passerait-il si cette même personne participait également à un régime de retraite offert par son employeur?  Le système fiscal canadien doit tenir compte de cette participation afin d'éviter qu'un travailleur puisse accumuler des droits à une épargne-retraite fiscalement avantageuse dans un régime d'employeur tout en conservant l'ensemble de ses nouveaux droits REER.
+
+C'est le rôle du **facteur d'équivalence (FE)**. Celui-ci représente, selon des règles fiscales établies, les droits à pension accumulés par un travailleur pendant une année dans un régime de retraite d'employeur. Le FE sert ensuite à réduire les nouveaux droits de cotisation REER de l'année suivante. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/fesp/facteur-equivalence.html "ARC — Facteur d'équivalence"){.source-link} Ainsi, deux travailleurs ayant le même revenu gagné peuvent obtenir des droits REER différents selon leur participation à un régime de retraite d'employeur.
+
+#### Calcul du facteur d'équivalence {-}
+
+Le calcul du FE dépend du type de régime auquel participe le travailleur.
+
+- **Régime à cotisations déterminées (CD)**
+
+    Dans un régime CD, le FE correspond généralement à la somme des cotisations versées pendant l'année par l'employé et par l'employeur :
+
+    $$
+    FE = C_s + C_p
+    $$
+
+    où :
+
+    - $C_s$ représente les cotisations salariales versées par l'employé;
+    - $C_p$ représente les cotisations patronales versées par l'employeur.
+
+    Le calcul est relativement simple puisque les cotisations sont directement exprimées en dollars. Certaines situations particulières peuvent toutefois nécessiter des ajustements, notamment lorsque des montants supplémentaires sont attribués au compte du participant. [↗](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4084/guide-facteur-equivalence.html "ARC — Guide du facteur d'équivalence"){.source-link}
+
+- **Régime à prestations déterminées (PD)**
+
+    Dans un régime PD, l'employé et l'employeur versent également des cotisations. Pourquoi ne pas simplement les additionner pour calculer le FE, comme dans un régime CD? La différence vient de ce que représentent les cotisations dans les deux types de régimes :
+
+    - Dans un régime CD, les cotisations sont déposées dans un compte au bénéfice du participant. Plus les cotisations sont élevées, plus le capital accumulé pour sa retraite est important. Il est donc logique d'utiliser ces cotisations pour calculer le FE.
+    - Dans un régime PD, le participant accumule plutôt un droit à une rente déterminée selon une formule prévue par le régime. Les cotisations servent à financer cette rente, mais leur montant ne détermine pas directement la prestation promise.
+
+    Cette distinction est importante. Dans un régime PD, l'employeur pourrait devoir augmenter considérablement ses cotisations pour combler un déficit causé par de mauvais rendements financiers. Pourtant, l'employé n'aurait pas accumulé davantage de droits à la retraite pendant cette année. À l'inverse, un régime disposant d'importants surplus pourrait nécessiter moins de cotisations, sans que les droits accumulés par l'employé diminuent. Le FE doit donc refléter les nouveaux droits à la retraite du participant, et non les sommes que le régime doit recueillir pour financer ses engagements. C'est pourquoi, dans un régime PD, le FE est calculé à partir de la rente supplémentaire acquise pendant l'année, au moyen d'une formule fiscale conventionnelle.
+
+    Dans le cas d'un régime PD ordinaire, pour une année complète de participation, cette formule est :
+
+    $$
+    FE=\max(0,\;9\times CR-600),
+    $$
+
+    où :
+
+    - $CR$ représente la rente viagère annuelle supplémentaire acquise pendant l'année, déterminée selon les règles fiscales applicables au régime;
+    - le multiplicateur 9 permet de convertir ce droit à une rente annuelle en un montant conventionnel;
+    - le montant de 600 $ constitue un ajustement forfaitaire prévu par les règles fiscales.
+
+    Le FE ne peut pas être négatif. Lorsque le calcul produit un résultat inférieur à zéro, le FE est donc fixé à zéro. Certaines situations, notamment une participation pendant une partie de l'année seulement, nécessitent des ajustements à cette formule. [↗](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4084/guide-facteur-equivalence.html "ARC — Guide du facteur d'équivalence, régimes PD"){.source-link} Le calcul de la prestation acquise doit respecter les règles fiscales, que le régime utilise une formule fondée sur le salaire de carrière ou sur le salaire de fin de carrière. Dans ce dernier cas, il ne s'agit pas de projeter le salaire du participant jusqu'à sa retraite pour calculer le FE de l'année courante.
+
+<div style="clear:both;"></div>
+
+
+#### Incidence sur les droits REER {-}
+
+Le facteur d'équivalence calculé pour une année réduit généralement les nouveaux droits de cotisation REER de l'année suivante. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/tout-votre-declaration-revenus/declaration-revenus/remplir-declaration-revenus/deductions-credits-depenses/ligne-20600-facteur-equivalence.html "ARC — Facteur d'équivalence et droits REER"){.source-link} En négligeant les droits inutilisés des années précédentes et les autres ajustements fiscaux, les nouveaux droits REER pour l'année $t+1$ peuvent être exprimés par :
+
+$$
+D_{t+1} = \max\left(0,\;\min(0{,}18 R_t,\;P_{t+1})-FE_t\right)
+$$
+
+où :
+
+- $D_{t+1}$ représente les nouveaux droits de cotisation REER pour l'année $t+1$;
+- $R_t$ représente le revenu gagné pendant l'année $t$;
+- $P_{t+1}$ représente le plafond annuel REER applicable à l'année $t+1$;
+- $FE_t$ représente le facteur d'équivalence calculé pour l'année $t$.
+
+Ainsi, deux travailleurs ayant le même revenu gagné pendant l'année $t$ peuvent obtenir des droits REER différents pour l'année $t+1$. Celui qui participe à un régime de retraite d'employeur voit généralement ses nouveaux droits REER réduits en fonction du FE associé à sa participation. Cette réduction ne touche pas les sommes déjà accumulées dans un REER. Elle concerne uniquement les nouveaux droits de cotisation, afin de tenir compte des droits à pension acquis dans un régime d'employeur. En pratique, le FE est généralement déclaré par l'employeur à la case 52 du feuillet T4. L'ARC l'utilise notamment pour établir le maximum déductible au titre des REER de l'année suivante. [↗](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4040/reer-autres-regimes-enregistres-retraite.html "ARC — REER et autres régimes enregistrés pour la retraite"){.source-link}
+
+::: {#exm-calcul-fe .custom}
+
+**Calcul du facteur d'équivalence et des droits REER**
+
+Reprenons le cas d'un employé qui gagne un salaire de 60 000 $ en 2026. Considérons trois situations possibles :
+
+- Aucun régime de retraite d'employeur.
+- Un régime à cotisations déterminées (CD), dans lequel l'employé cotise à raison de 4 % de son salaire et son employeur verse également 4 %.
+- Un régime à prestations déterminées (PD), dans lequel l'employé accumule, pour chaque année de service, une rente viagère annuelle égale à 1,5 % de son salaire.
+
+Supposons que l'employé ne possède aucun droit REER inutilisé des années précédentes et qu'aucun autre ajustement fiscal ne s'applique.
+
+1. Calculez le facteur d'équivalence (FE) pour 2026 dans chacune des trois situations.
+2. Déterminez les nouveaux droits de cotisation REER pour 2027 dans chacune des situations.
+3. Comparez les résultats obtenus et expliquez pourquoi les nouveaux droits REER diffèrent selon le type de régime.
+
+:::
+
+::: {.custom-solution}
+**Solution.**
+
+**1. Participation à un régime à cotisations déterminées (CD)**
+
+Supposons que l'employé cotise à son régime à raison de 4 % de son salaire et que son employeur verse également une cotisation de 4 %.
+
+Le facteur d'équivalence correspond à la somme de ces deux cotisations :
+
+$$
+FE_{\text{CD}}=(0{,}04+0{,}04)\times60\,000=4\,800\ \$.
+$$
+
+**2. Participation à un régime à prestations déterminées (PD)**
+
+Supposons plutôt que l'employé participe à un régime PD lui permettant d'accumuler, pour chaque année de service, une rente viagère annuelle égale à 1,5 % de son salaire.
+
+Pour l'année 2026, le crédit de rente acquis est :
+
+$$
+CR=0{,}015\times60\,000=900\ \$.
+$$
+
+Le facteur d'équivalence est donc :
+
+$$
+FE_{\text{PD}}=9\times900-600=7\,500\ \$.
+$$
+
+**3. Conséquences sur les droits REER de 2027**
+
+Pour 2027, le plafond général des REER est de 35 390 $. Compte tenu du salaire gagné en 2026, les nouveaux droits REER avant l'application du FE seraient :
+
+$$
+\min(0{,}18\times60\,000,\;35\,390)=10\,800\ \$.
+$$
+
+Le FE calculé pour 2026 vient réduire ces nouveaux droits :
+
+- Sans régime d'employeur : 10 800 $.
+- Avec le régime CD : $10\,800-4\,800=6\,000$ $.
+- Avec le régime PD : $10\,800-7\,500=3\,300$ $.
+
+::: {.encadre}
+
+| Situation en 2026 | FE de 2026 | Nouveaux droits REER de 2027 |
+|:---|---:|---:|
+| Aucun régime d'employeur | 0 $ | 10 800 $ |
+| Régime CD | 4 800 $ | 6 000 $ |
+| Régime PD | 7 500 $ | 3 300 $ |
+
+:::
+
+Le facteur d'équivalence permet donc de tenir compte des droits de retraite accumulés dans un régime d'employeur lorsqu'on détermine les nouvelles possibilités de cotisation au REER. Les montants différents obtenus pour les régimes CD et PD proviennent des caractéristiques retenues dans cet exemple et ne signifient pas qu'un régime est nécessairement plus avantageux que l'autre.
+
+:::
+
+
+#### Salaire de carrière {-}
+
+Dans certains régimes PD, la rente est calculée à partir du meilleur salaire de carrière ou de la moyenne des salaires des dernières années de travail. Cette caractéristique soulève une difficulté pour le calcul du facteur d'équivalence : comment déterminer les droits à pension accumulés pendant une année alors que le salaire qui servira à calculer la rente définitive est encore inconnu? Par exemple, un employé de 35 ans pourrait voir son salaire augmenter considérablement avant sa retraite. Il serait toutefois impossible de connaître aujourd'hui son meilleur salaire futur. 
+
+Pour résoudre ce problème, les règles fiscales prévoient que le calcul du FE repose sur les gains ouvrant droit à pension de l'année courante, sans projeter les augmentations salariales futures. Cette règle s'applique notamment aux régimes fondés sur le meilleur salaire ou le salaire de fin de carrière. [↗](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4084/guide-facteur-equivalence.html "ARC — Guide du facteur d'équivalence, section 5.2.3"){.source-link}  Il faut donc distinguer deux montants :
+
+- Le crédit de rente utilisé pour calculer le FE d'une année, déterminé à partir des données salariales de cette année selon les règles fiscales.
+- La rente qui sera effectivement versée à la retraite, calculée selon les dispositions du régime et pouvant dépendre d'un salaire beaucoup plus élevé.
+
+Le FE constitue ainsi une mesure fiscale conventionnelle des droits accumulés, et non une évaluation actuarielle exacte de la rente future. Il n'est pas recalculé simplement parce que le salaire du participant augmente au cours des années suivantes.
+
+
+
+::: {#exm-calcul-fe-meilleur-salaire .custom}
+
+**Facteur d'équivalence d'un régime PD fondé sur le meilleur salaire de carrière**
+
+Considérons deux employés de 35 ans qui gagnent chacun un salaire de 60 000 $ en 2026. Ils participent à un régime PD qui prévoit, pour chaque année de service, une rente viagère annuelle égale à 1,5 % de leur meilleur salaire de carrière. Leur situation salariale est toutefois différente :
+
+- **Employé A :** son meilleur salaire de carrière atteint jusqu'en 2026 est de 60 000 $.
+- **Employé B :** son meilleur salaire de carrière atteint jusqu'en 2026 est de 100 000 $, même si son salaire en 2026 est de 60 000 $.
+
+1. Calculez le facteur d'équivalence de chacun des employés pour 2026.
+2. Plusieurs décennies plus tard, au moment de leur retraite, on constate que leur meilleur salaire de carrière a finalement été de 120 000 $. Quelle rente annuelle leur année de service de 2026 leur procure-t-elle?
+3. Comparez les résultats et expliquez ce qu'ils révèlent sur le calcul du FE et l'équité fiscale entre les mécanismes d'épargne-retraite.
+
+:::
+
+
+::: {.custom-solution}
+
+**Solution.**
+
+**1. Facteur d'équivalence pour 2026**
+
+Dans les deux situations, le calcul fiscal repose sur les gains ouvrant droit à pension de 2026, soit 60 000 $, indépendamment du meilleur salaire historique. Le crédit de rente utilisé pour le FE est donc identique :
+
+$$
+CR=0{,}015\times60\,000=900\ \$.
+$$
+
+Le facteur d'équivalence de chaque employé est :
+
+$$
+FE=9\times900-600=7\,500\ \$.
+$$
+
+**2. Rente annuelle à la retraite**
+
+Au moment de leur retraite, on constate que le meilleur salaire de carrière de chacun des employés a atteint 120 000 $. La rente annuelle correspondant à leur année de service de 2026 est donc :
+
+$$
+0{,}015\times120\,000=1\,800\ \$.
+$$
+
+**3. Conséquences fiscales**
+
+Si le FE de 2026 avait été calculé à partir de cette rente définitive de 1 800 $, il aurait été de :
+
+$$
+FE=9\times1\,800-600=15\,600\ \$.
+$$
+
+Ce montant dépasse de 8 100 $ le FE effectivement déclaré en 2026. Le FE ne reflète donc pas nécessairement la rente qui sera finalement associée à une année de service.
+
+**4. Comparaison**
+
+La comparaison des deux employés révèle une limite importante du calcul fiscal du FE :
+
+- **Employé A :** en 2026, rien ne permet d'affirmer que son salaire de 60 000 $ ne sera pas son meilleur salaire de carrière. Ce n'est qu'à sa retraite que l'on constate qu'il a finalement atteint 120 000 $.
+
+- **Employé B :** dès 2026, on sait que son meilleur salaire de carrière sera d'au moins 100 000 $. La rente annuelle associée à son année de service de 2026 sera donc d'au moins 1 500 $, alors que le crédit de rente utilisé pour calculer son FE n'est que de 900 $. La sous-estimation est donc déjà certaine au moment du calcul.
+
+Cette comparaison illustre une limite de l'équivalence fiscale entre les mécanismes d'épargne-retraite. Dans un régime PD fondé sur le meilleur salaire de carrière, le FE peut être calculé à partir d'un salaire inférieur à celui qui servira effectivement à déterminer la rente, même lorsque cette différence est déjà connue. Le participant peut ainsi bénéficier de droits REER plus élevés que si le FE tenait compte de la rente minimale déjà prévisible, ce qui peut avantager fiscalement certains régimes PD par rapport aux régimes CD.
+
+:::
+
+
+
+### Le facteur 9 : une approximation actuarielle à des fins fiscales
+
+{{< meme "memes/Rambo.gif" "https://knowyourmeme.com/memes/brent-rambo" "350px" >}}
+
+Dans un régime PD, le facteur d'équivalence utilise un multiplicateur de 9 pour convertir le crédit de rente annuel en un montant comparable aux cotisations versées dans un régime CD. Mais pourquoi avoir retenu précisément ce facteur? En principe, il serait possible d'évaluer actuariellement les prestations acquises par chaque participant. Une telle évaluation devrait notamment tenir compte :
+
+- de l'âge du participant et des probabilités de survie;
+- du taux d'intérêt utilisé pour actualiser les prestations futures;
+- de l'indexation éventuelle des rentes;
+- des garanties offertes par le régime, notamment les prestations au conjoint survivant.
+
+Cette approche serait toutefois complexe à appliquer annuellement à l'ensemble des participants. Elle produirait également des facteurs d'équivalence différents selon leurs caractéristiques individuelles et celles de leur régime. Les règles fiscales canadiennes ont donc retenu une solution simplifiée : utiliser un facteur uniforme de 9, fondé sur un modèle actuariel de référence, plutôt que procéder à une évaluation individuelle des prestations.
+
+<div style="clear: both;"></div>
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### L'origine du facteur 9 {-}
+
+Le multiplicateur 9 n'a pas été choisi arbitrairement. Dans un document publié en décembre 1989, le ministère fédéral des Finances explique qu'il résulte d'un modèle visant à établir une équivalence entre les cotisations versées pendant une carrière et les prestations de retraite qui en découlent. Le modèle reposait notamment sur les hypothèses suivantes : [↗](https://publications.gc.ca/collections/collection_2016/fin/F2-96-1989-fra.pdf "Ministère des Finances du Canada — La réforme des pensions : amélioration de l'aide fiscale à l'épargne-retraite, décembre 1989, p. 30-31"){.source-link}
+
+- Une carrière comportant 35 années de cotisations maximales.
+- Des plafonds de cotisation et de pension évoluant en relation avec le salaire industriel moyen.
+- Un rendement des placements supérieur de deux points de pourcentage à la croissance du salaire industriel moyen.
+- Un départ à la retraite à 63 ans.
+- Une pension indexée selon l'inflation, diminuée d'un point de pourcentage.
+- Une prestation de conjoint survivant correspondant à 60 % de la pension de base.
+
+Le facteur 9 représente ainsi une équivalence actuarielle approximative, établie pour un régime de référence et non pour chaque participant individuellement. La soustraction forfaitaire de 600 $ vise également à tenir compte approximativement du fait que certains régimes offrent des prestations moins généreuses que celles du modèle de référence, notamment en matière d'indexation.
+
+Dans l'analyse qui suit, nous nous concentrerons sur le multiplicateur 9, en laissant de côté cet ajustement forfaitaire. Cette simplification permettra de comparer directement le facteur fiscal à la valeur actuarielle d'une rente annuelle de 1 $. Le recours à un facteur uniforme facilite l'application des règles fiscales, mais peut entraîner des différences entre le FE et la valeur actuarielle des prestations acquises. Certains participants peuvent ainsi être avantagés ou désavantagés par rapport à une méthode fondée sur une évaluation actuarielle individuelle, ce qui soulève la question de l'équité fiscale entre les régimes de retraite.
+
+:::
+
+
+
+#### Comparaison avec une rente {-}
+
+Le calcul du facteur d'équivalence d'un régime PD repose sur un multiplicateur uniforme de 9. Mais comment ce facteur se compare-t-il à la valeur actuarielle des prestations de retraite? Pour examiner cette question, considérons une rente viagère annuelle de 1 $, payable à partir de 66 ans. Nous souhaitons déterminer combien vaut aujourd'hui cette rente pour des participants âgés de 25 à 65 ans. Avec les notations introduites au [chapitre 10](Chap10_Actuariat_assurancepersonnes.qmd), la valeur actuarielle de cette rente à l'âge $x$ est :
+
+$$
+a_x(i)=\sum_{t=66-x}^{\omega-x}
+v^t\,{}_tp_x,
+\qquad v=\frac{1}{1+i}.
+$$
+
+Puisque la rente annuelle est de 1 $, cette valeur correspond directement au nombre de dollars nécessaires aujourd'hui pour financer les prestations futures, selon les hypothèses retenues. C'est précisément ce qui permet de faire le lien avec le facteur 9. En multipliant le crédit de rente par 9, la formule fiscale attribue conventionnellement une valeur de 9 $ à chaque dollar de rente annuelle acquise. Notre calcul actuariel permet plutôt de déterminer combien vaut réellement ce dollar de rente selon l'âge du participant et le taux d'intérêt retenu. Nous pouvons ainsi comparer directement les valeurs obtenues au multiplicateur fiscal de 9. 
+
+#### Table de mortalité ICA2014 {-}
+
+Pour notre analyse, nous utiliserons la table de mortalité ICA2014 (`MallL`), déjà étudiée au [chapitre 10](Chap10_Actuariat_assurancepersonnes.qmd), et trois taux d'intérêt : 2 %, 4 % et 6 %. La figure suivante compare les valeurs actuarielles obtenues au facteur conventionnel de 9. Nous isolons ici le multiplicateur 9, sans tenir compte de la soustraction forfaitaire de 600 $ prévue dans la formule fiscale du FE.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.5
+#| fig-width: 9
+#| fig-align: center
+
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# Table ICA2014, hommes, mortalité ultime
+bdM <- read_excel(
+  "data/222040T1e.xlsx",
+  sheet = "MallL",
+  skip = 3
+)
+
+names(bdM) <- c(
+  "Age1", paste0("n", 0:19), "nult", "Age2"
+)
+
+mortalite <- bdM %>%
+  transmute(
+    age = as.integer(Age2),
+    q = as.numeric(nult)
+  ) %>%
+  filter(!is.na(age), !is.na(q)) %>%
+  arrange(age)
+
+# Valeur actuarielle d'une rente annuelle de 1 $
+# payable à partir de 66 ans
+valeur_rente <- function(x, i) {
+
+  donnees <- mortalite %>%
+    filter(age >= x) %>%
+    arrange(age)
+
+  ages <- donnees$age
+  q <- donnees$q
+
+  stopifnot(
+    length(ages) > 1,
+    ages[1] == x,
+    all(diff(ages) == 1)
+  )
+
+  t <- ages - x
+
+  # Probabilités de survie
+  tpx <- c(1, cumprod(1 - head(q, -1)))
+
+  # Versements à partir de 66 ans
+  paiement <- ages >= 66
+
+  sum(
+    (1 + i)^(-t[paiement]) *
+      tpx[paiement]
+  )
+}
+
+# Calcul des trois courbes
+resultats <- tidyr::crossing(
+  Age = 25:65,
+  taux = c(0.02, 0.04, 0.06)
+) %>%
+  mutate(
+    Valeur = mapply(valeur_rente, Age, taux),
+    Taux = factor(
+      paste0(100 * taux, " %"),
+      levels = c("2 %", "4 %", "6 %")
+    )
+  )
+
+ggplot(
+  resultats,
+  aes(x = Age, y = Valeur, color = Taux)
+) +
+  geom_line(linewidth = 1) +
+  geom_hline(
+    yintercept = 9,
+    linetype = "dashed",
+    color = "black",
+    linewidth = 0.8
+  ) +
+  annotate(
+    "text",
+    x = 26,
+    y = 9,
+    label = "Facteur 9",
+    hjust = 0,
+    vjust = -0.8,
+    size = 3.5
+  ) +
+  scale_x_continuous(
+    breaks = seq(25, 65, by = 5)
+  ) +
+  labs(
+    x = "Âge du participant",
+    y = "Valeur actuarielle d'une rente annuelle de 1 $",
+    color = "Taux d'intérêt"
+  ) +
+  theme_bw() +
+  theme(
+    legend.position = "bottom"
+  )
+```
+
+
+Le graphique met en évidence trois caractéristiques (*les calculs reposent sur la table de mortalité ICA2014- mortalité ultime masculine, et une autre table modifierait les résultats*):
+
+- L'âge : la valeur actuarielle augmente généralement lorsque le participant se rapproche de 66 ans, puisque les prestations futures sont moins éloignées.
+- Le taux d'intérêt : un taux plus élevé réduit la valeur actuelle des prestations.
+- Le facteur 9 : contrairement à la valeur actuarielle, il demeure constant, peu importe l'âge du participant ou le taux d'intérêt.
+
+Lorsque la courbe se situe au-dessus de 9, la valeur actuarielle de la rente dépasse le montant suggéré par le multiplicateur fiscal. Lorsqu'elle se situe en dessous de 9, c'est l'inverse.
+
+#### Équité fiscale? {-}
+
+Le graphique montre que l'utilisation d'un facteur uniforme de 9 peut avantager certains participants à un régime PD et en désavantager d'autres, comparativement à une méthode fondée sur la valeur actuarielle individuelle des prestations.
+
+- **Les jeunes participants sont généralement désavantagés :** leurs prestations étant plus éloignées dans le temps, leur valeur actuarielle est souvent inférieure à 9. Le FE réduit alors leurs nouveaux droits REER davantage que ne le suggérerait cette valeur.
+
+- **Les participants plus âgés sont généralement avantagés :** la proximité de la retraite augmente la valeur actuarielle des prestations. Lorsque celle-ci dépasse 9, le FE devient relativement faible, ce qui laisse davantage de droits REER.
+
+- **Le taux d'intérêt influence également cette équité :** des taux faibles augmentent la valeur actuarielle des rentes et tendent à avantager les participants aux régimes PD. À l'inverse, des taux élevés réduisent cette valeur et peuvent les désavantager.
+
+Ces conclusions dépendent toutefois des hypothèses actuarielles retenues. Notre graphique considère une rente non indexée, sans prestations de survivant. Des garanties plus généreuses augmenteraient sa valeur actuarielle et modifieraient l'ampleur des avantages ou des désavantages observés. Le facteur 9 ne traite donc pas tous les participants de manière économiquement équivalente. Une règle fiscale uniforme peut favoriser certains profils au détriment d'autres, même si elle est appliquée de manière identique à tous.
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### Propositions récentes {-}
+
+Le modèle ayant servi à établir le facteur 9 remonte à 1989. Depuis, les conditions démographiques et économiques ont évolué, notamment en matière de longévité et de rendement des placements.  
+
+- En 2017, William B. P. Robson a remis en question la pertinence de ce facteur pour assurer un traitement fiscal équitable entre les régimes PD, les régimes CD et les REER. [↗](https://cdhowe.org/publication/rethinking-limits-tax-deferred-retirement-savings-canada/ "Institut C.D. Howe — Robson (2017), Rethinking Limits on Tax-Deferred Retirement Savings in Canada"){.source-link}
+
+- En 2019, l'Association canadienne des administrateurs de régimes de retraite (ACARR) a proposé de remplacer le facteur 9 par un facteur 12. Pour préserver la cohérence du système, elle recommandait également de relever de 18 % à 24 % du revenu les plafonds de cotisation applicables aux REER et aux régimes CD. Cette proposition n'a pas été adoptée. [↗](https://www.acpm.com/getmedia/4937610c-3cf0-412b-ae89-b8190665f1e9/ACPM-Tax-Reform-White-Paper-November27-2019-EN-Final.pdf "ACARR — Increasing Support for Retirement Savings, novembre 2019, p. 5-8"){.source-link}
+
+Ces propositions montrent que le débat ne porte pas uniquement sur les différences de traitement entre participants, comme dans notre graphique, mais également sur l'équivalence fiscale entre les régimes PD, les régimes CD et les REER à l'échelle d'une carrière complète.
+
+:::
+
+
+
+### Plafond des prestations dans les régimes PD
+
+Les règles fiscales ne limitent pas seulement les cotisations versées dans les REER et les régimes CD. Elles imposent également un plafond aux prestations de retraite pouvant être accumulées dans un régime PD. La distinction est importante :
+
+- Dans un régime CD, le plafond limite les cotisations annuelles.
+- Dans un régime PD, le plafond limite la rente annuelle pouvant être reconnue pour chaque année de service.
+
+Dans les deux cas, l'objectif est de limiter les avantages fiscaux accordés à l'épargne-retraite. Dans un régime CD, cette limite s'applique aux cotisations pouvant être versées. Dans un régime PD, elle s'applique plutôt aux prestations promises. Ainsi, pour les salariés les mieux rémunérés, le plafond PD peut limiter la proportion du salaire qui pourra être remplacée à la retraite par une rente bénéficiant du traitement fiscal des régimes enregistrés.
+
+
+#### Plafonds en dollars {-}
+
+Le plafond des prestations déterminées est fixé à **3 932,22 $ par année de service en 2026** et à **4 043,33 $ en 2027**. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/quoi-neuf.html "ARC — Annonce des plafonds fiscaux pour 2026 et 2027"){.source-link} Ces montants ne sont pas indépendants des plafonds applicables aux régimes CD. En effet, le plafond des prestations déterminées correspond au neuvième du plafond annuel des cotisations déterminées, conformément au principe d'équivalence fiscale déjà étudié. Pour 2026, nous obtenons :
+
+$$
+\frac{35\,390}{9}\approx3\,932{,}22\ \$.
+$$
+
+Ce mécanisme de coordination existe depuis la réforme fiscale du début des années 1990, mais les plafonds ont évolué au fil du temps. Le graphique suivant présente l'évolution du plafond des prestations déterminées depuis 1991, en dollars courants et par année de service reconnue. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/fesp/plafonds-cd-reer-rpdb-celi-mgap.html "ARC — Plafonds historiques des prestations déterminées"){.source-link}
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.5
+#| fig-width: 9
+#| fig-align: center
+
+library(ggplot2)
+library(dplyr)
+
+# Plafonds annuels des prestations déterminées, 1991-2027
+# Source : Agence du revenu du Canada
+
+plafonds_pd <- tibble(
+  Annee = 1991:2027,
+  Plafond = c(
+    rep(1722.22, 13),  # 1991 à 2003
+    1833.33, 2000.00, 2111.11, 2222.22,
+    2333.33, 2444.44, 2494.44, 2552.22,
+    2646.67, 2696.67, 2770.00, 2818.89,
+    2890.00, 2917.44, 2944.44, 3025.56,
+    3092.22, 3245.56, 3420.00, 3506.67,
+    3610.00, 3756.67, 3932.22, 4043.33
+  )
+)
+
+ggplot(plafonds_pd, aes(x = Annee, y = Plafond)) +
+  geom_line(linewidth = 1, color = "#2C5F8A") +
+  geom_point(
+    data = filter(plafonds_pd, Annee == 2027),
+    size = 2.8,
+    color = "#2C5F8A"
+  ) +
+  annotate(
+    "text",
+    x = 2027,
+    y = 4043.33,
+    label = "4 043 $",
+    hjust = 1.15,
+    vjust = -1,
+    size = 3.5
+  ) +
+  scale_x_continuous(
+    breaks = seq(1991, 2027, by = 4)
+  ) +
+  scale_y_continuous(
+    limits = c(0, 4500),
+    breaks = seq(0, 4500, by = 500),
+    labels = function(x) {
+      paste0(
+        format(x, big.mark = " ", trim = TRUE),
+        " $"
+      )
+    }
+  ) +
+  labs(
+    x = "Année",
+    y = "Plafond annuel de rente par année de service"
+  ) +
+  theme_bw() +
+  theme(
+    panel.grid.minor = element_blank()
+  )
+```
+
+#### Plafonds en pourcentage {-}
+
+Le plafond de 3 932,22 $ en 2026 n'est pas la seule limite fiscale applicable aux régimes PD. Une deuxième restriction vise à empêcher que les prestations promises soient trop élevées par rapport à la rémunération du participant. En simplifiant, pour chaque année de service, la rente maximale correspond au plus petit des deux montants suivants :
+
+- 2 % d'une rémunération de référence, afin de limiter la générosité de la rente par rapport au salaire.
+- 3 932,22 $ en 2026, afin de limiter le montant absolu de rente pouvant être accumulé.
+
+Les deux limites sont complémentaires : la première encadre la proportion du salaire qui peut être remplacée, tandis que la seconde impose un maximum en dollars, particulièrement contraignant pour les salariés les mieux rémunérés. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/manuel-technique-direction-regimes-enregistres-11.html "ARC — Prestations maximales dans les régimes PD"){.source-link}
+
+
+::: {#exm-plafond-pd-deux-limites .custom}
+
+**Application des limites fiscales d'un régime PD**
+
+Considérons deux employés participant à un régime PD qui prévoit une rente annuelle égale à 2 % de leur salaire de référence pour chaque année de service. Les deux employés prennent leur retraite en 2026 après 20 années de service. Supposons que les autres restrictions fiscales ne sont pas contraignantes.
+
+- **Employé A :** son salaire de référence est de 100 000 $.
+- **Employé B :** son salaire de référence est de 250 000 $.
+
+Le plafond fiscal de 2026 est de 3 932,22 $ de rente annuelle par année de service.
+
+1. Déterminez si le plafond fiscal en dollars limite la rente de chacun des employés.
+2. Calculez la rente annuelle totale que chacun pourra recevoir après 20 années de service.
+3. Quel pourcentage de leur salaire de référence cette rente représente-t-elle?
+
+:::
+
+::: {.custom-solution}
+
+**Solution.**
+
+**1. Rente maximale par année de service**
+
+Le régime prévoit une rente de 2 % du salaire par année de service. Cette formule respecte donc déjà la limite fiscale exprimée en pourcentage du salaire. Il reste à vérifier si le plafond en dollars réduit la rente prévue.
+
+La rente annuelle admissible par année de service est :
+
+$$
+CR_{\max}=\min(0{,}02\times S,\;3\,932{,}22),
+$$
+
+où $S$ représente le salaire de référence.
+
+- **Employé A :**
+
+  $$
+  CR_{\max}=\min(0{,}02\times100\,000,\;3\,932{,}22)
+  =\min(2\,000,\;3\,932{,}22)
+  =2\,000\ \$.
+  $$
+
+  Le plafond en dollars n'est pas contraignant. L'employé conserve la totalité de la rente prévue par la formule du régime.
+
+- **Employé B :**
+
+  $$
+  CR_{\max}=\min(0{,}02\times250\,000,\;3\,932{,}22)
+  =\min(5\,000,\;3\,932{,}22)
+  =3\,932{,}22\ \$.
+  $$
+
+  Le plafond en dollars est contraignant. La rente prévue par la formule du régime doit être réduite.
+
+**2. Rente annuelle après 20 années de service**
+
+- Employé A : $20\times2\,000=40\,000$ $.
+- Employé B : $20\times3\,932{,}22=78\,644{,}40$ $.
+
+**3. Taux de remplacement du salaire**
+
+Le taux de remplacement correspond à la rente annuelle divisée par le salaire de référence.
+
+- Employé A :
+
+  $$
+  \frac{40\,000}{100\,000}=40\ \%.
+  $$
+
+- Employé B :
+
+  $$
+  \frac{78\,644{,}40}{250\,000}\approx31{,}5\ \%.
+  $$
+
+**Interprétation**
+
+Les deux employés participent au même régime et comptent le même nombre d'années de service. Pourtant, le plafond fiscal produit des résultats différents :
+
+- Pour l'employé A, la rente atteint les 40 % du salaire prévus par la formule du régime.
+- Pour l'employé B, le plafond en dollars empêche d'atteindre ces 40 %. La rente est limitée à environ 31,5 % de son salaire.
+
+Cet exemple montre comment le plafond fiscal en dollars peut réduire le taux de remplacement du revenu des salariés les mieux rémunérés, même lorsque la formule du régime est identique pour tous les participants.
+
+:::
+
+
+#### Effet du plafond sur les salaires élevés {-}
+
+Dans un régime PD qui prévoit une rente annuelle de 2 % du salaire de référence par année de service, le plafond fiscal en dollars peut empêcher les salariés les mieux rémunérés de bénéficier pleinement de cette formule. En effet, à partir d'un certain salaire, 2 % de la rémunération dépasse le plafond fiscal autorisé. La rente admissible cesse alors d'augmenter proportionnellement au salaire, même si celui-ci continue de progresser. Le taux effectif de remplacement du revenu diminue donc pour les salariés dépassant ce seuil.
+
+::: {#exm-plafond-pd-salaire .custom}
+
+**Détermination du seuil salarial**
+
+Considérons un régime PD qui prévoit une rente annuelle égale à 2 % du salaire de référence pour chaque année de service. Sachant que le plafond fiscal de 2026 est de 3 932,22 $ de rente annuelle par année de service, déterminez le salaire de référence à partir duquel ce plafond devient contraignant.
+
+:::
+
+::: {.custom-solution}
+
+**Solution.**
+
+Pour une année de service, la formule du régime prévoit :
+
+$$
+CR=0{,}02\times S,
+$$
+
+où $S$ représente le salaire de référence. Le salaire recherché correspond à celui pour lequel la rente atteint exactement le plafond fiscal :
+
+$$
+0{,}02\times S=3\,932{,}22.
+$$
+
+Nous obtenons donc :
+
+$$
+S=\frac{3\,932{,}22}{0{,}02}=196\,611\ \$.
+$$
+
+Le plafond fiscal en dollars devient ainsi contraignant lorsque le salaire de référence dépasse 196 611 $.
+
+:::
+
+
+
+
+
+
+
+### Droits de cotisation REER inutilisés
+
+Les nouveaux droits de cotisation REER calculés chaque année ne doivent pas nécessairement être utilisés immédiatement. Les droits inutilisés peuvent être reportés indéfiniment et s'ajoutent aux droits créés au cours des années suivantes. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/cotiser-a-reer-a-rpac-a/effet-vos-cotisations-maximum-deductible-votre-reer-rpac.html "ARC — Calcul du maximum déductible au titre des REER"){.source-link} Ainsi, une personne qui dispose de 12 000 $ de droits inutilisés et qui acquiert 3 300 $ de nouveaux droits après application du FE pourra disposer de :
+
+$$
+12\,000+3\,300={15\,300\ \$}
+$$
+
+de droits de cotisation, en l'absence d'autres ajustements. Le plafond annuel de 18 % du revenu gagné ne constitue donc pas nécessairement le montant maximal qu'une personne peut cotiser à son REER pendant une année. Les droits accumulés antérieurement doivent également être considérés. Le montant personnel des droits disponibles figure notamment sur l'avis de cotisation de l'Agence du revenu du Canada.
+
+
+
+### Autres ajustements des droits REER
+
+Le facteur d'équivalence (FE) mesure les droits à pension acquis pendant une année. Toutefois, certains événements peuvent modifier les droits à pension associés aux années antérieures. Deux mécanismes fiscaux permettent notamment d'ajuster les droits REER en conséquence.
+
+
+- **Facteur d'équivalence pour services passés (FESP)**
+
+    Le facteur d'équivalence pour services passés (FESP) intervient lorsqu'un régime PD reconnaît rétroactivement des années de service ou améliore les prestations associées à des années antérieures. Puisque ces modifications augmentent les droits à pension du participant, le FESP entraîne généralement une réduction de ses droits REER. [↗](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4104/guide-facteur-equivalence-services-passes.html "ARC — Guide du facteur d'équivalence pour services passés"){.source-link}
+
+    > Une employée travaille dans une entreprise depuis 2018, mais ne participe à son régime PD que depuis 2020. En 2026, elle décide de *racheter* ses deux premières années de service, soit 2018 et 2019, afin d'augmenter sa rente future. Un FESP est alors calculé pour tenir compte des droits à pension supplémentaires qu'elle vient d'acquérir. La réduction des droits REER s'applique en 2026, au moment du rachat, et non rétroactivement en 2018 ou 2019. Par exemple, si le FESP est de 5 000 $, ses droits REER disponibles pourraient passer de 15 000 $ à 10 000 $. Si ses droits REER disponibles sont insuffisants, elle pourrait toutefois ne pas être autorisée à effectuer ce rachat, même si elle possède l'argent nécessaire pour le financer.
+
+- **Facteur d'équivalence rectifié (FER)**
+
+    Le facteur d'équivalence rectifié (FER) peut intervenir lorsqu'une personne cesse de participer à un régime de retraite et que les droits qu'elle conserve sont inférieurs à ceux précédemment pris en compte dans ses FE. Le FER permet alors de rétablir une partie des droits REER antérieurement réduits. Il n'est toutefois pas accordé automatiquement lors d'un changement d'emploi. [↗](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/rc4137/guide-facteur-equivalence-rectifie.html "ARC — Guide du facteur d'équivalence rectifié"){.source-link}
+
+    > Un employé participe pendant quelques années à un régime PD. Ses facteurs d'équivalence (FE) ont réduit ses droits REER d'un total de 20 000 $. Lorsqu'il cesse de participer au régime, il choisit de transférer la valeur de sa rente dans un autre instrument de retraite. Or, cette valeur n'est que de 12 000 $, soit moins que les 20 000 $ précédemment comptabilisés dans ses FE. Un FER peut alors lui redonner une partie des droits REER qui avaient été réduits, puisque les prestations finalement conservées sont moins importantes que ce que les FE avaient pris en compte.
+
+Ainsi, le **FESP** permet de tenir compte de droits à pension supplémentaires accordés rétroactivement, tandis que le **FER** peut rétablir des droits REER lorsque les prestations finalement conservées sont inférieures à celles prises en compte antérieurement.
+
+
+
+## Le décaissement de l'épargne-retraite
+
+{{< meme "memes/Ecureuil.jpg" "https://fr.wikipedia.org/wiki/%C3%89cureuil_roux" "300px" >}}
+
+Lorsqu'une personne prend sa retraite, son salaire diminue ou, plus généralement, disparaît. Pourtant, elle doit continuer à financer ses dépenses quotidiennes : logement, alimentation, transport, loisirs, etc. D'où provient alors l'argent qu'elle utilise pour vivre? Comme nous l'avons vu précédemment, le système de retraite canadien repose sur trois grandes sources de revenu : les programmes publics, les régimes collectifs privés et l'épargne personnelle. Au moment de la retraite, chacune fonctionne différemment.  Pour rappel, nous avons:
+
+- **Les programmes publics**
+
+    Comme nous l'avons vu au [chapitre 16 — Régimes de retraite publics](Chap16_Retraite_public.qmd), une personne admissible peut recevoir plusieurs prestations :
+
+    - Le Régime de rentes du Québec (RRQ) lui verse une rente mensuelle imposable jusqu'à son décès.
+    - La pension de la Sécurité de la vieillesse (PSV) lui procure également un revenu imposable.
+    - Le Supplément de revenu garanti (SRG) peut lui procurer un revenu supplémentaire non imposable si ses revenus sont suffisamment faibles.
+
+- **Les régimes collectifs privés**
+
+    Comme nous l'avons vu aux chapitres [17 — Régimes à prestations déterminées](Chap17_Retraite_PD.qmd) et [18 — Régimes à cotisations déterminées](Chap18_Retraite_CD.qmd), la situation dépend du type de régime auquel la personne a participé :
+
+    - Régime à prestations déterminées (PD) : le régime lui verse la rente prévue selon sa formule de prestations, généralement sous forme de paiements mensuels pendant toute sa vie. Cette rente constitue un revenu imposable. Le participant n'a donc normalement pas à gérer lui-même le capital nécessaire au paiement de sa rente.
+
+    - Régime à cotisations déterminées (CD) : le participant dispose plutôt d'un capital accumulé grâce aux cotisations et aux revenus de placement. À la retraite, il doit déterminer comment utiliser ce capital, notamment en le transférant dans un instrument de décaissement ou en achetant une rente viagère auprès d'un assureur. Les sommes sont généralement soumises à des règles d'immobilisation. [↗](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/retraite-et-planification/demandez-rente-retraite/revenu-regime-complementaire-retraite/regime-cotisation-determinee/vous-prenez-retraite/transfert "Retraite Québec — Transfert des sommes d'un régime CD"){.source-link}
+
+- **L'épargne personnelle**
+
+    Comme nous l'avons vu dans ce chapitre, la personne peut également utiliser son épargne personnelle :
+
+    - Épargne ordinaire : elle peut utiliser ses comptes bancaires et ses placements comme avant la retraite. Les revenus de placement peuvent toutefois être imposables.
+    - CELI : elle peut retirer librement des sommes sans imposition sur les retraits. Son fonctionnement ne change pas à la retraite et aucune conversion n'est exigée à un âge déterminé. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/quest-ce-celi.html "ARC — Fonctionnement du CELI"){.source-link}
+    - REER : elle peut effectuer des retraits imposables ou conserver son épargne pendant une partie de sa retraite. Toutefois, au plus tard le 31 décembre de l'année où elle atteint 71 ans, elle doit retirer les fonds, les transférer dans un FERR ou les utiliser pour acheter une rente. [↗](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4040/reer-autres-regimes-enregistres-retraite.html "ARC — REER et autres régimes enregistrés pour la retraite"){.source-link}
+
+<div style="clear: both;"></div>
+
+
+### Du capital à un revenu de retraite
+
+Dans les régimes publics et les régimes PD, la personne retraitée reçoit directement une rente, généralement versée chaque mois. La situation est différente lorsqu'elle possède un capital accumulé dans un REER ou un régime CD. Elle doit alors décider comment utiliser cet argent pour financer sa retraite. Les possibilités dépendent notamment de la provenance des sommes accumulées.
+
+- Pour les sommes accumulées dans un REER
+
+    Trois possibilités principales s'offrent au titulaire :
+
+    - Retirer directement les sommes : l'argent retiré du REER devient imposable au moment du retrait.
+    - Transférer les sommes dans un FERR : le transfert ne déclenche pas d'impôt immédiat. Le capital demeure investi et le titulaire effectue des retraits, qui deviennent imposables lorsqu'il les reçoit.
+    - Acheter une rente auprès d'un assureur : les sommes du REER peuvent servir directement à acheter une rente admissible, notamment une rente viagère. Aucun impôt n'est alors exigé sur le capital utilisé au moment de l'achat. Ce sont plutôt les versements de la rente qui constituent un revenu imposable. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/recevoir-revenu-vos-reer.html "ARC — Recevoir un revenu de vos REER"){.source-link}
+
+- Pour les sommes accumulées dans un régime CD
+
+    Le principe est semblable, mais les sommes accumulées dans un régime CD sont généralement immobilisées, c'est-à-dire réservées au financement de la retraite. Contrairement à un REER ordinaire, elles ne peuvent donc pas être retirées directement à la convenance du participant. Pour obtenir un revenu, des options courantes s'offrent à lui :
+
+    - Transférer les sommes dans un FRV : le transfert peut se faire directement ou après un passage dans un compte de retraite immobilisé (CRI). Il n'entraîne pas d'impôt immédiat et les retraits du FRV sont imposables.
+    - Acheter une rente viagère auprès d'un assureur : le capital accumulé sert à financer une rente payable pendant toute la vie du participant. Le transfert admissible n'entraîne pas d'impôt immédiat, mais les versements de la rente sont imposables.
+    - Certains régimes CD peuvent également prévoir le versement d'une rente directement par le régime. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-cotisation-determinee/revenus-regime "Retraite Québec — Revenus d'un régime à cotisation déterminée"){.source-link}
+
+La différence essentielle concerne la manière dont le revenu est obtenu. Dans un FERR ou un FRV, le retraité conserve un capital dans lequel il puise pour financer ses dépenses. Lorsqu'il achète une rente viagère, il utilise plutôt son capital pour obtenir des paiements pendant toute sa vie, selon les conditions du contrat. Nous allons maintenant examiner plus précisément le fonctionnement du FERR, du CRI et du FRV.
+
+
+
+### Le fonds enregistré de revenu de retraite (FERR)
+
+Le fonds enregistré de revenu de retraite (FERR) est un instrument de décaissement qui permet de retirer progressivement les sommes accumulées dans un REER, tout en conservant les fonds non retirés dans un environnement fiscal enregistré. Un REER doit arriver à échéance au plus tard le 31 décembre de l'année où son titulaire atteint 71 ans. Trois possibilités principales existent alors :
+
+- Retirer les sommes accumulées, lesquelles deviennent imposables.
+- Transférer les sommes dans un FERR.
+- Utiliser les sommes pour acheter une rente.
+
+La conversion en FERR peut également avoir lieu avant 71 ans. Le transfert direct d'un REER vers un FERR n'entraîne pas d'imposition immédiate : l'imposition survient lorsque des montants sont retirés. [↗](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4040/reer-autres-regimes-enregistres-retraite.html "ARC — REER et autres régimes enregistrés pour la retraite"){.source-link} Le FERR possède plusieurs caractéristiques :
+
+- Les sommes non retirées peuvent continuer de produire des revenus de placement sans imposition courante.
+- Un retrait minimal annuel est obligatoire à compter de l'année suivant sa création.
+- Il n'existe généralement pas de limite maximale de retrait.
+- Les montants retirés sont imposables dans l'année où ils sont reçus.
+
+Autrement dit, le titulaire peut retirer davantage que le minimum obligatoire, mais il ne peut pas retirer moins.
+
+#### Calcul du retrait minimal {-}
+
+Le retrait minimal dépend de la valeur du FERR au début de l'année et d'un facteur réglementaire lié à l'âge du titulaire. Dans certaines conditions, le calcul peut plutôt reposer sur l'âge de son conjoint, si ce choix a été effectué lors de l'établissement du FERR. On obtient :
+
+$$
+R_{\min}=V\times f_x,
+$$
+
+où :
+
+- $R_{\min}$ représente le retrait minimal annuel;
+- $V$ représente la valeur du FERR au début de l'année;
+- $f_x$ représente le facteur réglementaire applicable à l'âge $x$.
+
+Pour un FERR ordinaire, les facteurs réglementaires sont notamment les suivants :
+
+::: {.encadre2}
+| Âge | Facteur de retrait minimal |
+|:---:|---:|
+| 71 ans | 5,28 % |
+| 72 ans | 5,40 % |
+| 75 ans | 5,82 % |
+| 80 ans | 6,82 % |
+| 85 ans | 8,51 % |
+| 90 ans | 11,92 % |
+:::
+
+Les facteurs augmentent généralement avec l'âge, ce qui oblige progressivement le titulaire à retirer une proportion plus importante de son épargne. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/entreprises/sujets/remplir-feuillets-sommaires/declaration-renseignements-t4rsp-t4rif/paiements/tableau-facteurs-prescrits.html "ARC — Tableau des facteurs prescrits pour les FERR"){.source-link} Il faut toutefois distinguer un FERR d'une rente viagère : le FERR ne garantit pas un revenu pendant toute la vie du retraité. Les sommes disponibles dépendent du capital restant, des rendements obtenus et des retraits effectués.
+
+
+#### Illustration graphique {-}
+
+Pour illustrer le fonctionnement du retrait minimal, considérons une personne qui détient 1 000 $ dans son FERR à 71 ans. Supposons que ce capital produit un rendement annuel constant de 5 % et que, chaque année, la personne retire uniquement le minimum prescrit, calculé à partir du solde au début de l'année. Même avec un rendement positif, le capital diminue progressivement, puisque les facteurs de retrait minimal augmentent avec l'âge. Le graphique suivant illustre cette évolution. Il montre également qu'un FERR ne garantit pas un revenu stable pendant toute la retraite : les montants disponibles dépendent du capital restant, des rendements obtenus et des retraits effectués.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.5
+#| fig-width: 9
+#| fig-align: center
+
+
+library(dplyr)
+library(ggplot2)
+library(tibble)
+
+# Facteurs minimaux d'un FERR ordinaire, de 71 à 100 ans
+facteurs_ferr <- tibble(
+  Age = 71:100,
+  Facteur = c(
+    0.0528, 0.0540, 0.0553, 0.0567, 0.0582,
+    0.0598, 0.0617, 0.0636, 0.0658, 0.0682,
+    0.0708, 0.0738, 0.0771, 0.0808, 0.0851,
+    0.0899, 0.0955, 0.1021, 0.1099, 0.1192,
+    0.1306, 0.1449, 0.1634, 0.1879, 0.2000,
+    rep(0.2000, 5)  # De 96 à 100 ans
+  )
+)
+
+# Hypothèses
+solde_initial <- 1000
+taux_rendement <- 0.05
+
+# Simulation
+resultats <- facteurs_ferr %>%
+  mutate(
+    Solde_debut = NA_real_,
+    Retrait_min = NA_real_,
+    Solde_fin = NA_real_
+  )
+
+solde <- solde_initial
+
+for (i in 1:nrow(resultats)) {
+  solde_debut <- solde
+  retrait <- solde_debut * resultats$Facteur[i]
+  solde_fin <- (solde_debut - retrait) * (1 + taux_rendement)
+
+  resultats$Solde_debut[i] <- solde_debut
+  resultats$Retrait_min[i] <- retrait
+  resultats$Solde_fin[i] <- solde_fin
+
+  solde <- solde_fin
+}
+
+# Graphique
+ggplot(resultats, aes(x = Age, y = Solde_fin)) +
+  geom_line(linewidth = 1, color='blue') +
+  geom_point(size = 1.8, color='blue') +
+  scale_y_continuous(
+    labels = function(x) {
+      paste0(
+        format(
+          round(x, 0),
+          big.mark = " ",
+          scientific = FALSE,
+          trim = TRUE
+        ),
+        " $"
+      )
+    }
+  ) +
+  scale_x_continuous(
+    breaks = c(71, seq(75, 100, by = 5)),
+    limits = c(71, 100)
+  ) +
+  labs(
+    x = "Âge",
+    y = "Solde à la fin de l'année"
+  ) +
+  theme_bw()
+```
+
+
+
+
+
+### Le fonds de revenu viager (FRV)
+
+Le fonds de revenu viager (FRV) remplit une fonction semblable à celle du FERR, mais il accueille principalement des sommes immobilisées provenant d'un régime complémentaire de retraite. Pour comprendre son fonctionnement, il faut distinguer deux instruments :
+
+- Le compte de retraite immobilisé (CRI) permet de conserver et de faire fructifier l'épargne provenant d'un régime de retraite, sans effectuer de retraits. Il ne prévoit aucun retrait annuel obligatoire.
+- Le fonds de revenu viager (FRV) permet également de faire fructifier cette épargne, mais autorise les retraits pour financer la retraite. Contrairement au CRI, il impose un retrait minimal annuel à partir de l'année suivant son ouverture.
+
+Le CRI constitue donc principalement un instrument d'accumulation, tandis que le FRV est un instrument de décaissement. Une personne qui n'a pas encore besoin de son épargne peut préférer conserver ses sommes dans un CRI afin d'éviter les retraits obligatoires et l'imposition correspondante.  Pour commencer à recevoir un revenu provenant de son CRI, elle peut transférer son capital dans un FRV ou acheter une rente viagère auprès d'un assureur. Le transfert dans un FRV ne déclenche pas d'impôt immédiat. Le CRI doit être converti au plus tard le 31 décembre de l'année où son titulaire atteint 71 ans. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-cri "Retraite Québec — Caractéristiques d'un CRI"){.source-link}
+
+#### Fonctionnement du FRV {-}
+
+Comme le FERR, le FRV possède plusieurs caractéristiques :
+
+- Les sommes non retirées demeurent investies et peuvent continuer de produire des revenus de placement sans imposition courante.
+- Un retrait minimal annuel est obligatoire à partir de l'année suivant son ouverture, selon les mêmes règles fiscales que celles du FERR.
+- Les montants retirés constituent un revenu imposable.
+
+Au Québec, pour les FRV assujettis à la Loi sur les régimes complémentaires de retraite, les possibilités de retrait dépendent également de l'âge du titulaire :
+
+- Avant 55 ans : les retraits sont soumis à des limites réglementaires.
+- À partir de 55 ans : il n'existe plus de plafond maximal de retrait. Le titulaire peut retirer une partie ou même la totalité de son capital, sous réserve du traitement fiscal applicable.
+
+Ainsi, pour une personne de 55 ans ou plus, le fonctionnement d'un FRV québécois ressemble beaucoup à celui d'un FERR : un retrait minimal est obligatoire, mais aucun plafond maximal ne limite les sommes pouvant être retirées. Les deux instruments demeurent toutefois distincts, notamment parce que les sommes d'un FRV ne peuvent pas être transférées directement dans un REER ou un FERR. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-frv "Retraite Québec — Caractéristiques d'un FRV"){.source-link}
+
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### Calcul du retrait minimal {-}
+
+Le retrait minimal d'un FRV est calculé de la même manière que celui d'un FERR, à partir de la valeur du capital au début de l'année et du facteur réglementaire applicable. Aucun retrait minimal n'est exigé pendant l'année d'ouverture du FRV. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-frv "Retraite Québec — Retrait minimal d’un FRV"){.source-link} Ainsi, le tableau des facteurs et le graphique présentés précédemment pour le FERR s'appliquent également à un FRV dont le titulaire retire uniquement le minimum obligatoire.
+:::
+
+::: {#exm-cri-frv .custom}
+
+**Du régime CD au revenu de retraite**
+
+À 60 ans, Nathalie quitte son emploi. Elle possède 150 000 $ dans le régime CD de son employeur. Elle ne souhaite toutefois pas encore utiliser cet argent pour financer sa retraite.
+
+- À 60 ans : Nathalie transfère les 150 000 $ dans un CRI auprès de son institution financière. Son épargne demeure investie et continue de fructifier, sans retrait obligatoire. Le transfert n'entraîne pas d'impôt immédiat.
+
+- À 65 ans : grâce aux rendements obtenus, son CRI vaut maintenant 180 000 $. Nathalie souhaite commencer à utiliser cette épargne. Elle transfère donc les 180 000 $ dans un FRV, sans impôt immédiat. Le capital demeure investi, mais elle peut désormais effectuer des retraits.
+
+- Pendant l'année de ses 65 ans : Nathalie retire 12 000 $ de son FRV pour financer ses dépenses. Ce montant est imposable. En supposant qu'aucun rendement n'est réalisé entre le transfert et le retrait, il reste 168 000 $ dans son FRV, qui continuent de produire des revenus de placement.
+
+- À partir de l'année suivante : Nathalie doit effectuer un retrait minimal annuel de son FRV, même si elle préférerait conserver tout son capital investi. Ce minimum dépend de son âge et du solde de son FRV au début de l'année.
+
+Si Nathalie avait transféré son épargne directement dans un FRV à 60 ans, elle aurait été obligée de commencer ses retraits minimaux dès l'année suivante. En choisissant d'abord un CRI, elle a donc pu reporter le début de ses retraits obligatoires jusqu'au moment où elle souhaitait utiliser son épargne.
+
+:::
+
+
+
+
+
+### FERR, FRV ou rente viagère?
+
+Le FERR et le FRV permettent au retraité de conserver la gestion de son capital et de déterminer, dans les limites applicables, le rythme de ses retraits. Le revenu disponible dépend donc de l'épargne restante et des rendements futurs. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/fonds-enregistre-revenu-retraite-ferr.html "ARC — Fonds enregistré de revenu de retraite"){.source-link} [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-frv "Retraite Québec — Caractéristiques d'un FRV"){.source-link} Une rente viagère achetée auprès d'un assureur fonctionne différemment : le capital est utilisé pour obtenir des paiements garantis pendant toute la vie du rentier, selon les conditions du contrat. Le risque de longévité est alors transféré à l'assureur. [↗](https://lautorite.qc.ca/grand-public/investissements/regimes-depargne/rente-viagere-et-rente-a-duree-determinee "Autorité des marchés financiers — Rente viagère et rente à durée déterminée"){.source-link} On peut résumer les principales différences :
+
+::: {.encadre2}
+
+| Caractéristique | FERR | FRV québécois | Rente viagère |
+|:---|:---|:---|:---|
+| Provenance habituelle | Épargne personnelle enregistrée | Épargne-retraite immobilisée | Capital utilisé pour acheter la rente |
+| Gestion du capital | Titulaire | Titulaire | Assureur |
+| Retrait minimal obligatoire | Oui | Oui | Sans objet |
+| Retrait maximal | Aucun | Aucun à partir de 55 ans | Paiements prévus au contrat |
+| Revenu garanti à vie | Non | Non | Oui |
+
+:::
+
+Cette distinction est importante : malgré son nom, un FRV ne garantit pas à lui seul des paiements pendant toute la vie du participant. Comme dans un FERR, le capital peut être épuisé si les retraits sont trop importants ou si les rendements sont insuffisants.
+
+
+## Conclusion
+
+L'épargne personnelle constitue un complément important aux régimes publics et collectifs de retraite. Les instruments de placement permettent d'accumuler un capital, mais la fiscalité influence considérablement son évolution. Le REER et le CELI illustrent deux approches différentes : le premier repose principalement sur le report de l'imposition, tandis que le second permet généralement d'exonérer les revenus de placement et les retraits. Les avantages fiscaux accordés à l'épargne-retraite sont toutefois encadrés. Les plafonds de cotisation, les limites de prestations et le facteur d'équivalence visent à coordonner le traitement fiscal des différents régimes. Comme nous l'avons constaté, cette recherche d'équité repose sur des règles uniformes qui ne reflètent pas nécessairement toutes les différences économiques entre les participants.
+
+Enfin, l'accumulation de l'épargne ne constitue qu'une partie du financement de la retraite. Le capital doit éventuellement être transformé en revenu, notamment au moyen d'un FERR, d'un FRV ou de l'achat d'une rente viagère. Ces instruments illustrent une distinction fondamentale : conserver et décaisser progressivement un capital n'offre pas la même protection contre le risque de longévité que recevoir une rente garantie à vie.
+
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### Épargne, placements et principes fiscaux {-}
+
+- [Agence de la consommation en matière financière du Canada — Objectifs d'épargne et d'investissement](https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/epargnes-investissements/objectifs-epargne-investissement.html)
+- [Agence de la consommation en matière financière du Canada — Principes de base de l'investissement](https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/epargnes-investissements/principes-base-investissement.html)
+- [Autorité des marchés financiers — Titres d'emprunt](https://lautorite.qc.ca/grand-public/investissements/titres-demprunt)
+- [Autorité des marchés financiers — Actions](https://lautorite.qc.ca/grand-public/investissements/actions)
+- [Autorité des marchés financiers — Fonds d'investissement](https://lautorite.qc.ca/grand-public/investissements/fonds)
+- [Agence du revenu du Canada — Revenus de placement](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/tout-votre-declaration-revenus/declaration-revenus/remplir-declaration-revenus/revenu-personnel/revenu-placements.html)
+- [Agence du revenu du Canada — Comprendre les déductions et les crédits d'impôt](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/programmes-educatifs/remplir-declaration-revenu-base.html)
+- [Gouvernement du Canada — Loi de l'impôt sur le revenu](https://laws-lois.justice.gc.ca/fra/lois/I-3.3/TexteComplet.html)
+- [LégisQuébec — Loi sur les impôts](https://www.legisquebec.gouv.qc.ca/fr/document/lc/I-3)
+
+### REER et CELI : fonctionnement et fiscalité {-}
+
+- [Gouvernement du Canada — Historique des REER depuis 1957](https://ised-isde.canada.ca/site/bureau-consommation/fr/pour-groupes-dinteret-consommateurs/tendances-consommation/rapport-tendances-consommation-chapitre-6-avoirs-consommateurs)
+- [Agence du revenu du Canada — Régime enregistré d'épargne-retraite (REER)](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/regime-enregistre-epargne-retraite-reer.html)
+- [Agence du revenu du Canada — REER autogérés et placements admissibles](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/cotiser-a-reer-a-rpac-a/reer-autogeres.html)
+- [Agence du revenu du Canada — Options pour les REER à 71 ans](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/options-vos-reer-lorsque-vous-atteignez-71-ans/options-vos-propres-reer.html)
+- [Agence du revenu du Canada — Guide T4040, REER et autres régimes enregistrés pour la retraite](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4040/reer-autres-regimes-enregistres-retraite.html)
+- [Agence du revenu du Canada — Fonctionnement fiscal du CELI](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/quest-ce-celi.html)
+- [Agence du revenu du Canada — Calcul des droits de cotisation au CELI](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/cotiser/calculer-droits.html)
+- [Agence du revenu du Canada — Retraits et reconstitution des droits de cotisation au CELI](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/compte-epargne-libre-impot/retirer.html)
+
+### Réforme fiscale et plafonds de l'épargne-retraite {-}
+
+- [Agence du revenu du Canada — Historique de la réforme fiscale et du projet de loi C-52](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/nouvelles-manuel-technique/no-91-1.html)
+- [Statistique Canada — Traitement fiscal des régimes privés d'épargne-retraite](https://www150.statcan.gc.ca/n1/pub/13f0026m/2010001/section1-fra.htm)
+- [Agence du revenu du Canada — Plafonds annuels des CD, PD, REER et CELI depuis 1991](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/fesp/plafonds-cd-reer-rpdb-celi-mgap.html)
+- [Agence du revenu du Canada — Annonce des plafonds pour 2027](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/quoi-neuf.html)
+- [Agence du revenu du Canada — Prestations maximales des régimes PD (règles de l'article 8504)](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/manuel-technique-direction-regimes-enregistres-11.html)
+
+### Facteur d'équivalence et équité fiscale {-}
+
+- [Agence du revenu du Canada — Présentation du facteur d'équivalence (FE)](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/fesp/facteur-equivalence.html)
+- [Agence du revenu du Canada — Guide T4084 du facteur d'équivalence](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4084/guide-facteur-equivalence.html)
+- [Ministère des Finances du Canada — La réforme des pensions, décembre 1989 (PDF)](https://publications.gc.ca/collections/collection_2016/fin/F2-96-1989-fra.pdf)
+- [Institut C.D. Howe — Robson (2017), *Rethinking Limits on Tax-Deferred Retirement Savings in Canada*](https://cdhowe.org/publication/rethinking-limits-tax-deferred-retirement-savings-canada/)
+- [Association canadienne des administrateurs de régimes de retraite — Proposition de modernisation des limites fiscales (2019, PDF)](https://www.acpm.com/getmedia/4937610c-3cf0-412b-ae89-b8190665f1e9/ACPM-Tax-Reform-White-Paper-November27-2019-EN-Final.pdf)
+
+### Droits REER inutilisés et ajustements fiscaux {-}
+
+- [Agence du revenu du Canada — Calcul du maximum déductible au titre des REER](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/cotiser-a-reer-a-rpac-a/effet-vos-cotisations-maximum-deductible-votre-reer-rpac.html)
+- [Agence du revenu du Canada — Guide T4104 du facteur d'équivalence pour services passés (FESP)](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/t4104/guide-facteur-equivalence-services-passes.html)
+- [Agence du revenu du Canada — Guide RC4137 du facteur d'équivalence rectifié (FER)](https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/rc4137/guide-facteur-equivalence-rectifie.html)
+
+### Décaissement : FERR, CRI, FRV et rentes viagères {-}
+
+- [Agence du revenu du Canada — Recevoir un revenu de son REER](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/reer-regimes-connexes/recevoir-revenu-vos-reer.html)
+- [Agence du revenu du Canada — Fonctionnement du FERR](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/sujets/fonds-enregistre-revenu-retraite-ferr.html)
+- [Agence du revenu du Canada — Facteurs réglementaires de retrait minimal des FERR](https://www.canada.ca/fr/agence-revenu/services/impot/entreprises/sujets/remplir-feuillets-sommaires/declaration-renseignements-t4rsp-t4rif/paiements/tableau-facteurs-prescrits.html)
+- [Retraite Québec — Revenus d'un régime à cotisation déterminée](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-cotisation-determinee/revenus-regime)
+- [Retraite Québec — Modalités de transfert des sommes d'un régime CD](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/retraite-et-planification/demandez-rente-retraite/revenu-regime-complementaire-retraite/regime-cotisation-determinee/vous-prenez-retraite/transfert)
+- [Retraite Québec — Caractéristiques du CRI](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-cri)
+- [Retraite Québec — Caractéristiques du FRV](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-frv)
+- [Retraite Québec — Modifications aux règles des FRV depuis 2025](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/modifications-frv-compter-2025)
+- [Autorité des marchés financiers — Rente viagère et rente à durée déterminée](https://lautorite.qc.ca/grand-public/investissements/regimes-depargne/rente-viagere-et-rente-a-duree-determinee)
+
+:::
+

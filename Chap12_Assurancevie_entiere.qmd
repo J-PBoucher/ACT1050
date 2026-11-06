@@ -1,0 +1,1053 @@
+---
+toc: false
+date: 03/11/2026
+date-modified: last-modified
+---
+
+# L'assurance vie entière
+
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
+
+- Décrire les principales caractéristiques de l'assurance vie entière et les besoins auxquels elle répond.
+- Expliquer le lien entre les primes nivelées, la provision prospective et la valeur de rachat.
+- Interpréter l'évolution de la prime et de la provision dans un modèle actuariel simplifié.
+- Comparer l'effet des déchéances sur l'assurance vie entière et sur une T-100 sans valeur de rachat.
+- Distinguer les options contractuelles offertes au titulaire, notamment les options de non-déchéance et les avances sur police.
+- Expliquer le fonctionnement des participations et distinguer une projection de participations d'une garantie contractuelle.
+
+:::
+
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+:::
+
+
+## Introduction
+
+Contrairement à l'assurance temporaire, qui offre une protection pendant une période déterminée, l'assurance vie entière prévoit le versement d'un capital au décès de l'assuré, quel que soit l'âge auquel celui-ci survient, pourvu que le contrat demeure en vigueur. Cette protection permanente répond à des besoins financiers particuliers, mais soulève également plusieurs questions actuarielles. Comment un assureur peut-il garantir une prestation qui pourrait être versée dans plusieurs décennies, tout en offrant une prime annuelle constante malgré l'augmentation du risque de décès avec l'âge? Pour répondre à cette question, nous examinerons d'abord les mécanismes de financement de l'assurance vie entière, notamment le rôle des provisions actuarielles. Nous accorderons une attention particulière à la valeur de rachat, qui constitue l'une des caractéristiques fondamentales de ce produit. Contrairement à l'assurance T-100 avec déchéance étudiée précédemment, l'assurance vie entière permet généralement au titulaire de récupérer une certaine somme lorsqu'il décide de mettre fin à son contrat. Nous verrons que cette différence a des conséquences importantes sur le financement de l'assurance et sur le rôle des déchéances dans la tarification.
+
+Enfin, après avoir étudié ces mécanismes à l'aide d'un modèle actuariel simplifié, nous examinerons le fonctionnement des contrats offerts en pratique. Nous présenterons notamment les différentes modalités de paiement des primes, les possibilités d'utilisation de la valeur de rachat et les assurances avec participation. Cette dernière caractéristique nous permettra également d'aborder une distinction essentielle en actuariat : celle entre les garanties contractuelles et les projections financières fondées sur des hypothèses incertaines.
+
+## Description du produit
+
+L'assurance vie entière, comme son nom l'indique, procure une protection pendant toute la vie de l'assuré, pourvu que les conditions du contrat soient respectées. Contrairement à l'assurance temporaire, dont la protection se limite à une période déterminée, l'assurance vie entière demeure en vigueur jusqu'au décès de l'assuré. Elle prévoit généralement des primes fixes et garanties ainsi qu'une valeur de rachat, qui peut permettre au titulaire d'obtenir une somme d'argent s'il décide de mettre fin à son contrat. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — L'assurance vie entière et avec participation"){.source-link} Avant d'examiner les mécanismes actuariels qui permettent de financer une telle protection, présentons les principaux besoins auxquels répond l'assurance vie entière ainsi que ses caractéristiques.
+
+### Utilité
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+max-width:330px;
+">
+
+<img src="images/Tirelire.jpg"
+style="width:100%; height:auto; display:block;">
+
+</div>
+
+L'assurance vie entière est particulièrement adaptée aux situations où le besoin de protection financière ne disparaît pas avec le temps. Contrairement à l'assurance temporaire, généralement utilisée pour couvrir des obligations limitées dans le temps, elle permet de prévoir le versement d'un capital au décès, quel que soit l'âge auquel celui-ci survient. Elle peut notamment servir à :
+
+- Prévoir un capital destiné aux proches ou aux héritiers, notamment dans une perspective de transmission du patrimoine.
+
+- Couvrir certaines dépenses liées au décès, comme les frais funéraires ou les frais de règlement de la succession.
+
+- Fournir des liquidités pour acquitter certaines obligations fiscales au décès, particulièrement lorsque le patrimoine comprend des actifs difficiles à vendre rapidement, comme une entreprise familiale ou un immeuble.
+
+- Assurer un soutien financier à long terme à une personne à charge, notamment lorsque ses besoins risquent de se poursuivre pendant toute sa vie.
+
+- Prévoir un don à un organisme de bienfaisance au décès de l'assuré.
+
+Ces besoins expliquent pourquoi l'assurance vie entière peut occuper une place importante dans la planification successorale et financière. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Besoins associés à l'assurance permanente"){.source-link} Elle comporte toutefois un coût initial généralement plus élevé que celui d'une assurance temporaire offrant le même capital assuré. Il importe donc de déterminer si le besoin de protection est réellement permanent avant de privilégier ce type de contrat.
+
+<div style="clear: both;"></div>
+
+### Principales particularités
+
+L'assurance vie entière se distingue principalement par la durée de sa protection, les garanties offertes et la présence habituelle d'une valeur de rachat.
+
+- **Protection permanente**. Le capital assuré est payable au décès de la personne assurée, quel que soit son âge, pourvu que le contrat soit toujours en vigueur. Contrairement à l'assurance temporaire, la protection ne prend pas fin simplement parce qu'une période déterminée s'est écoulée. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — L'assurance vie entière"){.source-link}
+
+- **Structure des primes**. Les primes sont généralement nivelées, c'est-à-dire qu'elles demeurent constantes pendant la période prévue au contrat, même si la probabilité de décès augmente avec l'âge. Certains contrats exigent des primes pendant toute la vie de l'assuré, alors que d'autres prévoient une période limitée de paiement, par exemple 10 ou 20 ans. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Primes et modalités de paiement"){.source-link} Il existe également des contrats à prime unique, dont la totalité de la prime est versée dès la souscription. L'assurance est alors immédiatement libérée, tout en maintenant la protection pendant toute la vie de l'assuré. [↗](https://www.canadalife.com/content/dam/advisors/documents/marketing/insurance/fr_ca/par/qu-est-ce-que-mon-assurance-vie-avec-participation.pdf "Canada Vie — Exemple d'assurance vie entière à prime unique"){.source-link}
+
+- **Capital assuré garanti**. Le contrat prévoit un capital de base garanti, qui sera versé au bénéficiaire au décès de l'assuré. L'assureur assume le risque de placement associé à cette garantie : même si les rendements de ses placements sont inférieurs aux prévisions, il doit respecter ses engagements contractuels. Le montant payable peut toutefois être augmenté par certaines garanties complémentaires ou par les participations, lorsque le contrat en prévoit. [↗](https://assuris.ca/fr/comment-suis-je-protege/protection-dassuris/assurance-vie/individuelle/assurance-vie-entiere/ "Assuris — Assurance vie entière"){.source-link}
+
+- **Valeur de rachat**. La plupart des contrats d'assurance vie entière prévoient une valeur de rachat, c'est-à-dire un montant que le titulaire peut recevoir s'il décide de mettre fin à son contrat. Cette valeur est souvent nulle pendant les premières années et augmente généralement avec la durée du contrat. Selon les modalités de la police, elle peut être garantie ou non. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/comment-utiliser-une-valeur-de-rachat-sans-mettre-fin-a-son-assurance "AMF — Valeur de rachat et garanties"){.source-link} Elle ne correspond pas nécessairement aux primes versées ni à la provision actuarielle constituée par l'assureur. [↗](https://www.soa.org/sections/product-dev/product-dev-newsletter/2025/april/pm-2025-04-farmer/ "SOA — Minimum Cash Surrender Values and Lapse Immunization"){.source-link} Nous examinerons plus loin son interprétation actuarielle dans un modèle simplifié, puis certaines façons de l'utiliser en pratique.
+
+- **Participation aux résultats**. Certains contrats d'assurance vie entière permettent au titulaire de bénéficier d'une partie des surplus réalisés par l'assureur, sous forme de participations. Ces participations ne sont pas garanties et peuvent varier selon les résultats obtenus. Elles peuvent notamment servir à augmenter le capital assuré ou à réduire les primes à payer. Nous reviendrons sur ce mécanisme dans une section ultérieure. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Assurance vie entière avec participation"){.source-link}
+
+
+## Valeur de rachat
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+padding:6px;
+background:white;
+max-width:330px;
+">
+
+<img src="images/Wonka.png"
+style="width:100%; height:auto; display:block;">
+
+</div>
+
+La valeur de rachat est un concept fondamental pour comprendre le fonctionnement de l'assurance vie entière. Elle permet notamment de faire le lien entre les primes payées par l'assuré, les provisions constituées par l'assureur et les conséquences financières de la résiliation d'un contrat. Dans le chapitre précédent, nous avons introduit la notion de provision actuarielle (prospective), qui correspond à la valeur actuelle espérée des prestations futures de l'assureur, diminuée de la valeur actuelle espérée des primes futures. Cette provision permet notamment de financer les prestations d'assurance aux âges plus avancés, lorsque les primes nivelées ne suffisent plus à couvrir le coût de la protection.
+
+Dans le cas de l'assurance T-100 avec déchéance étudiée précédemment, un assuré qui met fin à son contrat ne reçoit aucune somme en contrepartie de cette résiliation : ni remboursement des primes versées, ni valeur de rachat, même si une provision actuarielle a été constituée. L'assurance vie entière introduit une différence importante : lorsqu'un assuré décide de résilier son contrat, il peut recevoir une somme appelée **valeur de rachat**. Comprendre ce mécanisme est essentiel pour saisir la logique financière de ce produit et ce qui le distingue de l'assurance T-100 avec déchéance.
+
+> Pour simplifier notre analyse dans ce chapitre, nous supposerons que la valeur de rachat correspond exactement à la provision actuarielle prospective au moment de la résiliation. Cette hypothèse nous permettra d'étudier les mécanismes mathématiques de la valeur de rachat et de mieux comprendre son rôle dans le financement de l'assurance vie entière.
+
+<div style="clear: both;"></div>
+
+
+### Explications
+
+À première vue, la valeur de rachat d'une assurance vie entière peut sembler surprenante. Après avoir bénéficié d'une protection pendant plusieurs années, un assuré peut mettre fin à son contrat et recevoir une somme d'argent. Comment l'assureur peut-il lui verser cette somme alors qu'il lui a déjà fourni une protection pendant toutes ces années?
+
+La clé est de comprendre que la valeur de rachat ne constitue pas un remboursement de toutes les primes versées. Dans un contrat à primes nivelées, comme on l'avait déjà vu, les primes sont généralement plus élevées que le coût de mortalité aux jeunes âges. Une partie des primes contribue donc à financer la protection pendant les premières années, tandis que l'excédent permet de constituer une provision actuarielle destinée à financer les engagements futurs de l'assureur. Lorsqu'un assuré résilie son contrat, l'assureur est libéré de son obligation de verser le capital assuré au décès, mais il renonce également aux primes futures. Dans notre modèle simplifié, la valeur nette de ces engagements, représentée par la provision actuarielle prospective, est remise au titulaire sous forme de valeur de rachat.
+
+::: {#exm-rachat-intuition .custom}
+Considérons un exemple très simplifié. Supposons qu'un assuré paie une prime annuelle de 10\$ pour une assurance vie entière de 1 000\$. Pour illustrer le mécanisme, supposons qu'en moyenne, pendant les dix premières années :
+
+- 6\$ par année servent à financer le coût de l'assurance;
+- 4\$ par année contribuent à constituer une provision pour financer la protection aux âges plus avancés.
+
+Après 10 ans, l'assuré aura payé un total de 100\$. En négligeant les intérêts et les autres éléments qui influencent l'évolution de la provision, environ 60\$ auront servi à financer la protection pendant ces dix années, tandis que 40\$ auront contribué à la constitution de la provision. Supposons ainsi que la provision actuarielle prospective soit alors de 40\$. Selon notre hypothèse, si l'assuré décide de résilier son contrat à ce moment, il recevra une valeur de rachat de 40\$.
+
+Au final, dans ce modèle sans intérêts ni frais, le bilan du contrat est le suivant :
+
+- L'assuré aura déboursé un montant net de 60\$ pour bénéficier d'une protection d'assurance pendant 10 ans. Ce montant correspond exactement au coût de la protection offerte par l'assureur, soit 6\$ par année pendant 10 ans.
+
+- Les 40\$ restants correspondent aux sommes versées en surplus durant les premières années, afin de financer la protection aux âges plus avancés, lorsque son coût annuel aurait dépassé la prime de 10\$. Puisque l'assuré met fin à son contrat, ces sommes ne sont plus nécessaires au financement de sa protection future et lui sont remises sous forme de valeur de rachat.
+:::
+
+## Analyse actuarielle du produit
+
+### Prime nivelée et coût de mortalité
+
+Pour illustrer ce produit, considérons une assurance vie entière souscrite à 20 ans, offrant un capital de 1 000 $ au décès. Comme au chapitre précédent, nous supposerons un taux d'intérêt nul et utiliserons la table de mortalité CIA2014 de l'Institut canadien des actuaires. [↗](https://www.cia-ica.ca/publications/rp222040t1e/ "ICA — Tables de mortalité CIA2014, publication de 2022"){.source-link} Puisque notre table comporte un âge maximal, nous supposerons que la probabilité de décès est égale à 1 au dernier âge disponible, afin de garantir que le capital sera éventuellement versé.
+
+Le graphique suivant compare la prime pure annuelle nivelée de cette assurance vie entière à celle d'une T-1, dont le coût varie chaque année selon l'âge de l'assuré. Pour faciliter la lecture, le graphique est limité à 90 ans, même si le calcul de la prime utilise l'ensemble des âges disponibles dans la table.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(tibble)
+library(readxl)
+
+
+fichier <- "data/222040T1e.xlsx"  # Tables ICA2014 (ICA, publication 2022)
+
+onglets <- excel_sheets(fichier)
+
+# Lire tous les onglets
+bdd <- lapply(onglets, function(sh) {
+  read_excel(
+    path = fichier,
+    sheet = sh,
+    skip = 3
+  )
+})
+names(bdd) <- onglets
+
+# Nom des colonnes de chaque onglet
+noms_colonnes <- c(
+  "Age1",
+  paste0("n", 0:19),
+  "nult",
+  "Age2"
+)
+
+for (i in seq_along(bdd)) {
+  colnames(bdd[[i]]) <- noms_colonnes
+}
+
+# Données de mortalité des hommes
+bdM <- bdd$MallL %>%
+  filter(Age2 >= 20) %>%
+  select(Age2, nult) %>%
+  arrange(Age2)
+
+# Vérifications avant les calculs
+stopifnot(nrow(bdM) > 40)
+stopifnot(all(!is.na(bdM$nult)))
+stopifnot(all(bdM$nult >= 0 & bdM$nult <= 1))
+stopifnot(all(diff(bdM$Age2) == 1))
+
+# Fermeture de la table de mortalité
+bdM$nult[nrow(bdM)] <- 1
+
+# Calcul de la prime pure annuelle nivelée
+prime_vie_entiere <- function(x, tab) {
+
+  q <- tab %>%
+    filter(Age2 >= x) %>%
+    pull(nult)
+
+  # Probabilités de survie cumulées
+  surv <- c(1, cumprod(1 - q))[seq_along(q)]
+
+  # Valeur espérée des prestations
+  A <- sum(surv * q)
+
+  # Valeur espérée des primes payables d'avance
+  adue <- sum(surv)
+
+  A / adue
+}
+
+# Prime d'assurance vie entière à 20 ans
+prime_20_vie <- prime_vie_entiere(20, bdM)
+
+# Prime nivelée d'assurance vie entière
+df_vie <- bdM %>%
+  transmute(
+    Age2,
+    valeur = 1000 * prime_20_vie,
+    produit = "Vie entière"
+  )
+
+# Prime pure annuelle T-1
+df_T1 <- bdM %>%
+  transmute(
+    Age2,
+    valeur = 1000 * nult,
+    produit = "T-1"
+  )
+
+# Données du graphique
+df_plot <- bind_rows(df_T1, df_vie) %>%
+  filter(Age2 <= 90)
+
+# Graphique
+p1 <- ggplot(
+  df_plot,
+  aes(x = Age2, y = valeur, color = produit)
+) +
+  geom_line(linewidth = 1) +
+  scale_color_manual(
+    values = c(
+      "T-1" = "blue",
+      "Vie entière" = "red"
+    )
+  ) +
+  labs(
+    x = "Âge",
+    y = "Prime pure annuelle par 1 000 $ d'assurance ($)",
+    color = "Produit d'assurance"
+  ) +
+  theme_bw()
+
+p1
+```
+
+Le graphique permet de dégager quelques observations :
+
+- La prime d'assurance vie entière demeure constante pendant toute la vie de l'assuré, contrairement à celle de la T-1, qui augmente généralement avec l'âge.
+
+- Aux jeunes âges, la prime nivelée est supérieure au coût annuel de mortalité. Cette différence contribue à la constitution d'une provision actuarielle.
+
+- À partir d'un certain âge, le coût annuel de mortalité devient supérieur à la prime nivelée. La provision constituée précédemment contribue alors à financer cette différence.
+
+- Contrairement aux assurances temporaires, la protection ne prend pas fin à un âge déterminé. L'assureur doit donc prévoir le financement d'une prestation qui sera versée au décès, même si celui-ci survient à un âge très avancé.
+
+Comme dans les exemples précédents, l'assureur doit donc constituer une provision actuarielle pendant les premières années. Toutefois, puisque la protection demeure en vigueur jusqu'au décès, l'évolution de cette provision sera très différente de celle observée pour les assurances temporaires.
+
+### Évolution de la provision actuarielle
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+max-width:330px;
+">
+
+<img src="images/Chameau.jpg"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+Le chameau, peu présent à Montréal, fait lui aussi des réserves.
+</div>
+
+</div>
+
+L'assurance vie entière permet maintenant d'observer une évolution différente de la provision actuarielle. Contrairement à une assurance temporaire, dont la protection prend fin à une date déterminée, l'assureur demeure engagé à verser le capital assuré au décès, peu importe l'âge de l'assuré. Dans notre exemple, puisque le taux d'intérêt est nul et que le décès surviendra nécessairement, la valeur actuelle espérée des prestations futures demeure toujours égale à 1 000 $. En revanche, à mesure que l'assuré vieillit, le nombre de primes qu'il reste à payer diminue généralement. La provision prospective, qui correspond à la différence entre ces deux valeurs, augmente donc avec l'âge dans notre modèle à taux d'intérêt nul.
+
+Comme précédemment, nous ne chercherons pas à comprendre les calculs mathématiques nécessaires pour déterminer cette provision. Nous supposerons que les valeurs obtenues sont correctes et nous concentrerons notre attention sur leur interprétation. Le code R peut être déroulé par les étudiants intéressés, mais sa compréhension n'est pas nécessaire pour ce cours.
+
+Le graphique suivant présente l'évolution de la provision actuarielle prospective depuis la souscription du contrat à 20 ans jusqu'au dernier âge de notre table de mortalité, toujours en supposant un taux d'intérêt nul. La provision est calculée au début de chaque année, avant le paiement de la prime.
+
+<div style="clear: both;"></div>
+
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(ggplot2)
+library(tibble)
+
+# Paramètres du contrat
+x <- 20
+n <- nrow(bdM)
+
+# Prime pure nivelée, calculée précédemment
+P <- prime_20_vie
+
+# Réserve prospective au début de l'année,
+# avant le paiement de la prime
+reserve_vie_entiere <- function(t, tab = bdM) {
+
+  if (t == 0) return(0)
+
+  q <- tab %>%
+    filter(Age2 >= x + t) %>%
+    pull(nult)
+
+  # Probabilités de survie cumulées
+  surv <- c(1, cumprod(1 - q))[seq_along(q)]
+
+  # Valeur espérée des prestations futures
+  A <- sum(surv * q)
+
+  # Valeur espérée des primes futures
+  adue <- sum(surv)
+
+  # Provision par 1 000 $ d'assurance
+  1000 * (A - P * adue)
+}
+
+# Réserves aux différentes durées
+df_reserve_vie <- tibble(
+  duree = 0:(n - 1),
+  Age = x + duree,
+  reserve = sapply(duree, reserve_vie_entiere)
+)
+
+# Graphique
+p_res <- ggplot(
+  df_reserve_vie,
+  aes(x = duree, y = reserve)
+) +
+  geom_line(
+    linewidth = 1,
+    color = "blue"
+  ) +
+  scale_x_continuous(
+    breaks = seq(0, max(df_reserve_vie$duree), by = 10)
+  ) +
+  labs(
+    x = "Durée écoulée depuis l'émission (années)",
+    y = "Réserve par 1 000 $ d'assurance ($)"
+  ) +
+  theme_bw()
+
+p_res
+```
+
+Le graphique présente une évolution très différente de celle observée pour les assurances temporaires. On peut notamment constater que :
+
+- La provision est nulle au début du contrat, puis augmente progressivement avec l'âge de l'assuré.
+
+- Contrairement aux assurances T-10, T-20 et T à 65 ans, la provision ne redescend pas à zéro après avoir atteint un maximum. Elle continue plutôt d'augmenter à mesure que l'assuré vieillit.
+
+- Aux âges très avancés, la provision se rapproche du capital assuré de 1 000 $. Cela s'explique par le fait que le versement de la prestation devient de plus en plus imminent, tandis que l'assureur ne s'attend plus à recevoir beaucoup de primes futures.
+
+- Au décès de l'assuré, le capital de 1 000 $ est versé au bénéficiaire et le contrat prend fin. La provision constituée contribue alors au financement de cette prestation.
+
+Ce graphique permet également de comprendre le fonctionnement de la valeur de rachat. Dans notre modèle simplifié, puisque nous supposons que la valeur de rachat est égale à la provision actuarielle prospective, la courbe représente également le montant que le titulaire pourrait recevoir s'il décidait de mettre fin à son contrat à différents âges.
+
+Ainsi, un assuré qui résilie son contrat à 65 ans recevrait la provision correspondant à cet âge. S'il conserve plutôt son contrat, cette provision continuera de contribuer au financement de sa protection jusqu'à son décès.
+
+### Impact de la déchéance
+
+Une propriété particulièrement intéressante de l'assurance vie entière est que, dans notre modèle simplifié, le taux de déchéance n'a aucun effet sur la provision actuarielle prospective d'un contrat qui demeure en vigueur. Que le taux de déchéance soit de 0 %, de 5 % ou même de 30 %, la provision calculée pour un contrat donné qui demeure en vigueur est la même. Cette propriété repose sur notre hypothèse d'une valeur de rachat égale à la provision prospective, ainsi que sur l'absence d'effet de sélection : le comportement de rachat ne modifie pas les probabilités de décès des assurés qui restent.
+
+L'explication est relativement simple. Lorsqu'un assuré met fin à son contrat, l'assureur n'a plus à financer ses prestations futures, mais il doit lui verser une valeur de rachat correspondant exactement à la provision actuarielle associée à son contrat. Autrement dit, l'assureur est libéré de ses engagements futurs, mais il doit en contrepartie remettre à l'assuré la valeur nette de ces engagements. Ainsi, contrairement à une assurance sans valeur de rachat, la déchéance ne procure aucun gain financier à l'assureur dans notre modèle. Elle ne lui occasionne pas non plus de perte : la somme versée à l'assuré correspond exactement à la provision qui n'est plus nécessaire.
+
+Cette propriété a une conséquence importante : dans notre modèle simplifié, il n'est pas nécessaire de connaître ou d'estimer le taux de déchéance pour calculer la prime pure nivelée d'une assurance vie entière. Les assurés qui quittent reçoivent exactement la valeur de leurs engagements futurs nets, de sorte que leur départ ne modifie pas l'équilibre actuariel du contrat.
+
+
+::: {#exm-decheance-vie .custom}
+
+Considérons un portefeuille de 100 contrats d'assurance vie entière identiques, chacun comportant une provision actuarielle prospective de 200 $. La provision totale du portefeuille est donc de :
+
+$$
+100 \times 200 = 20\,000\ \$
+$$
+
+Supposons maintenant que certains assurés décident de résilier leur contrat. Puisque nous avons supposé que la valeur de rachat est exactement égale à la provision prospective, chaque assuré qui quitte reçoit 200 $. En contrepartie, l'assureur n'a plus à conserver la provision de 200 $ associée à ce contrat. Comparons trois scénarios de déchéance :
+
+| Taux de déchéance | Contrats résiliés | Contrats restants | Valeurs de rachat versées | Provision totale des contrats restants | Provision par contrat restant |
+|:---:|:---:|:---:|---:|---:|---:|
+| 0 %  | 0  | 100 | 0 $     | 20 000 $ | 200 $ |
+| 5 %  | 5  | 95  | 1 000 $ | 19 000 $ | 200 $ |
+| 30 % | 30 | 70  | 6 000 $ | 14 000 $ | 200 $ |
+
+Prenons le scénario le plus extrême, dans lequel 30 % des assurés quittent. L'assureur doit alors verser :
+
+$$
+30 \times 200 = 6\,000\ \$
+$$
+
+Il ne reste toutefois que 70 contrats à assurer. La provision totale nécessaire pour ces contrats est donc de :
+
+$$
+70 \times 200 = 14\,000\ \$
+$$
+
+On retrouve ainsi exactement les 20 000 $ de provision initiale, répartis entre les valeurs de rachat versées et les provisions conservées :
+
+$$
+\underbrace{6\,000}_{\text{Valeurs de rachat}}
++
+\underbrace{14\,000}_{\text{Provisions restantes}}
+=
+20\,000\ \$
+$$
+
+L'observation la plus importante se trouve dans la dernière colonne du tableau : peu importe le taux de déchéance, la provision par contrat toujours en vigueur demeure égale à 200 $. Seule la provision totale du portefeuille diminue, puisqu'il reste moins de contrats à assurer.
+
+Dans notre modèle simplifié, chaque rachat entraîne donc deux opérations qui se compensent exactement : l'assureur verse une valeur de rachat de 200 $, mais il est simultanément libéré d'un engagement actuariel net de 200 $. Il ne réalise ainsi aucun gain ni aucune perte du seul fait de cette déchéance. C'est pourquoi, dans notre modèle, le taux de déchéance n'a aucun effet sur la provision prospective d'un contrat qui demeure en vigueur, ni sur la prime pure nivelée nécessaire à son financement.
+
+:::
+
+## Lien avec la T-100
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+max-width:330px;
+">
+
+<img src="images/T1000.jpg"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+Le même T-1000 qu'au chapitre précédent
+</div>
+
+</div>
+
+D'un point de vue actuariel, l'assurance vie entière est très proche de l'assurance T-100 étudiée au chapitre précédent. Dans notre modèle simplifié, les deux produits offrent la même protection jusqu'au décès de l'assuré. En l'absence de déchéance, et avec les mêmes garanties et modalités de paiement, ils sont donc actuariellement équivalents. Une assurance vie entière peut ainsi être vue comme une T-100 sans déchéance. La distinction fondamentale apparaît lorsque des assurés décident de mettre fin à leur contrat.
+
+  - Dans le cas de l'assurance vie entière, nous avons supposé que le titulaire qui résilie son contrat reçoit une valeur de rachat exactement égale à la provision actuarielle prospective. L'assureur est alors libéré de ses engagements futurs, mais il doit remettre au titulaire une somme correspondant à cette provision. Comme nous venons de le montrer, le rachat ne procure donc aucun gain financier à l'assureur.
+
+  - La situation est très différente dans le cas d'une T-100 avec déchéance. Lorsqu'un assuré quitte, l'assureur est également libéré de ses engagements futurs, mais il ne lui verse aucune valeur de rachat. La provision associée à ce contrat est donc libérée sans contrepartie financière. Cette somme, qui devait contribuer au financement de la protection future de cet assuré, peut désormais contribuer au financement des prestations des autres assurés.
+
+Autrement dit, les assurés qui abandonnent leur T-100 laissent derrière eux une provision qui bénéficie indirectement aux assurés qui conservent leur protection. Puisque l'assureur peut anticiper ces gains de déchéance dès la tarification, il peut offrir une prime nivelée moins élevée à l'ensemble des assurés. Ces gains attendus sont donc pris en compte dans la prime dès l'émission du contrat; ils ne constituent pas nécessairement des profits supplémentaires pour l'assureur. C'est pourquoi le taux de déchéance joue un rôle majeur dans le calcul de la prime d'une T-100, alors qu'il n'a aucun effet sur la prime pure de notre assurance vie entière avec valeur de rachat égale à la provision prospective.
+
+<div style="clear: both;"></div>
+
+
+### Calcul de la prime
+
+Pour illustrer cette différence, reprenons notre assurance souscrite à 20 ans, offrant un capital de 1 000 $ au décès. Comparons deux produits :
+
+- Une assurance vie entière dont la valeur de rachat est égale à la provision prospective, indépendamment du taux de déchéance;
+- Une T-100 sans valeur de rachat, pour laquelle nous supposons un taux de déchéance annuel de 2 %.
+
+Comme précédemment, nous utiliserons la même table de mortalité, un taux d'intérêt nul et des primes pures annuelles nivelées payables d'avance. Dans le calcul de la T-100, le taux de déchéance de 2 % intervient entre deux années de couverture et s'applique aux contrats toujours en vigueur; nous supposons qu'il est indépendant du risque de mortalité. Les deux produits sont évalués jusqu'au dernier âge de notre table, avec décès certain à cet âge. En utilisant ces hypothèses, les primes pures annuelles nivelées sont les suivantes :
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+
+# La table bdM a déjà été chargée, contrôlée et fermée au premier graphique.
+# La réutiliser évite toute différence entre les deux calculs.
+bdM_T100 <- bdM
+
+# Âge d'émission et taux d'intérêt
+x0 <- 20
+i_T100 <- 0
+age_max_T100 <- max(bdM_T100$Age2)
+
+# Valeurs actuarielles d'un contrat sans valeur de rachat :
+# d = taux annuel de déchéance, intervenant entre deux années.
+valeurs_T100 <- function(x, tab, i = 0, d = 0) {
+  q <- tab %>%
+    filter(Age2 >= x) %>%
+    pull(nult)
+
+  n <- length(q)
+  if (n == 0) stop("Âge hors de la table de mortalité.")
+
+  v <- 1 / (1 + i)
+
+  # Survie et persistance au début de chaque année
+  surv <- c(1, cumprod(1 - q))[seq_len(n)]
+  persist <- (1 - d)^(seq_len(n) - 1)
+
+  # Prestation de décès payée en fin d'année
+  A <- sum(v^seq_len(n) * surv * persist * q)
+
+  # Primes annuelles payables au début de chaque année
+  adue <- sum(v^(seq_len(n) - 1) * surv * persist)
+
+  list(A = A, adue = adue)
+}
+
+prime_T100 <- function(x, tab, i = 0, d = 0) {
+  vals <- valeurs_T100(x, tab, i, d)
+  vals$A / vals$adue
+}
+
+# Provision prospective, au début de l'année t, avant la prime
+reserve_T100 <- function(x, t, tab, i = 0, d = 0) {
+  age_max <- max(tab$Age2)
+  if (x + t > age_max) return(0)
+
+  P <- prime_T100(x, tab, i, d)
+  vals <- valeurs_T100(x + t, tab, i, d)
+  vals$A - P * vals$adue
+}
+
+# Les primes pures, par tranche de 1 000 $
+prime_vie_exacte <- 1000 * prime_T100(x0, bdM_T100, i_T100, d = 0)
+prime_T100_exacte <- 1000 * prime_T100(x0, bdM_T100, i_T100, d = 0.02)
+
+# Les deux méthodes sans déchéance doivent produire la même prime.
+stopifnot(isTRUE(all.equal(prime_vie_exacte, 1000 * prime_20_vie,
+                           tolerance = 1e-10)))
+
+# Montants affichés au cent près (utilisés dans le bilan de l'exercice)
+prime_vie_aff <- round(prime_vie_exacte, 2)
+prime_T100_aff <- round(prime_T100_exacte, 2)
+
+# Provisions à 60 ans, pour les deux modèles
+age_exercice <- 60
+duree_exercice <- age_exercice - x0
+rachat_60 <- round(
+  1000 * reserve_T100(x0, duree_exercice, bdM_T100, i_T100, d = 0),
+  2
+)
+reserve_T100_60 <- round(
+  1000 * reserve_T100(x0, duree_exercice, bdM_T100, i_T100, d = 0.02),
+  2
+)
+
+# Bilan : 40 primes au montant affiché (arrondi au cent près)
+primes_versees_T100 <- round(duree_exercice * prime_T100_aff, 2)
+primes_versees_vie <- round(duree_exercice * prime_vie_aff, 2)
+debourse_net_vie <- round(primes_versees_vie - rachat_60, 2)
+
+# Mise en forme française des montants
+fmt_montant <- function(x) {
+  formatC(x, format = "f", digits = 2, big.mark = " ", decimal.mark = ",")
+}
+```
+
+
+| Produit | Taux de déchéance | Prime annuelle par 1 000 $ |
+|---|:---:|---:|
+| Assurance vie entière | Sans effet sur la prime | `r fmt_montant(prime_vie_aff)` $ |
+| T-100 avec déchéance | 2 % | `r fmt_montant(prime_T100_aff)` $ |
+
+La différence est considérable : la prime de la T-100 est beaucoup plus faible parce que l'assureur prévoit qu'une partie des assurés abandonnera son contrat avant le décès, sans recevoir de valeur de rachat. Les provisions ainsi libérées contribuent au financement des contrats qui demeurent en vigueur.
+
+### Évolution de la provision
+
+Le graphique suivant compare l'évolution de la provision actuarielle prospective des deux produits en fonction de l'âge de l'assuré. La courbe de l'assurance vie entière est identique à celle d'une T-100 sans déchéance. La deuxième courbe correspond à une T-100 avec un taux de déchéance de 2 %, dont la prime tient compte des gains anticipés provenant des contrats résiliés. La ligne verticale indique l'âge de 60 ans, qui sera utilisé dans l'exemple suivant.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 9
+#| fig-align: center
+
+# Provisions pour tous les âges disponibles dans la table
+durees_T100 <- 0:(age_max_T100 - x0)
+
+df_reserve_T100 <- tibble(
+  duree = durees_T100,
+  Age = x0 + durees_T100,
+  reserve_0 = 1000 * sapply(
+    durees_T100,
+    function(t) reserve_T100(x0, t, bdM_T100, i_T100, d = 0)
+  ),
+  reserve_2 = 1000 * sapply(
+    durees_T100,
+    function(t) reserve_T100(x0, t, bdM_T100, i_T100, d = 0.02)
+  )
+)
+
+# Une courbe par produit
+df_plot_T100 <- df_reserve_T100 %>%
+  pivot_longer(
+    cols = c(reserve_0, reserve_2),
+    names_to = "scenario",
+    values_to = "reserve"
+  ) %>%
+  mutate(
+    scenario = recode(
+      scenario,
+      reserve_0 = "Vie entière",
+      reserve_2 = "T-100 avec déchéance 2 %"
+    )
+  )
+
+# Points à 60 ans
+points60 <- df_plot_T100 %>%
+  filter(Age == age_exercice)
+
+p_res_T100 <- ggplot(
+  df_plot_T100,
+  aes(x = Age, y = reserve, color = scenario)
+) +
+  geom_line(linewidth = 1) +
+  geom_vline(
+    xintercept = age_exercice,
+    linetype = "dashed",
+    color = "black"
+  ) +
+  geom_point(
+    data = points60,
+    size = 3
+  ) +
+  scale_color_manual(values = c(
+    "Vie entière" = "blue",
+    "T-100 avec déchéance 2 %" = "red"
+  )) +
+  labs(
+    x = "Âge de l'assuré",
+    y = "Provision actuarielle par 1 000 $ d'assurance ($)",
+    color = "Produit"
+  ) +
+  theme_bw()
+
+p_res_T100
+```
+
+::: {#exm-comparaison-t100 .custom}
+
+Supposons qu'un assuré ayant souscrit une assurance à 20 ans décide de résilier son contrat à son 60e anniversaire, immédiatement avant la prime qui serait autrement exigible à cet âge. Il a donc payé 40 primes annuelles, de 20 à 59 ans. Comparez les conséquences financières de cette décision selon qu'il possède une assurance vie entière ou une T-100 avec un taux de déchéance de 2 %.
+
+:::
+
+::: {.custom-solution}
+
+**Solution.**
+
+Examinons les deux situations.
+
+**T-100 avec déchéance de 2 %**
+
+L'assuré a versé 40 primes annuelles de `r fmt_montant(prime_T100_aff)` $, pour un total de :
+
+$$
+40 \times `r fmt_montant(prime_T100_aff)` = `r fmt_montant(primes_versees_T100)`\ \$
+$$
+
+En résiliant son contrat, il perd sa protection au décès et ne reçoit aucune valeur de rachat. La provision actuarielle qui avait été constituée pour financer sa protection future est alors libérée. Elle peut contribuer au financement des prestations des autres assurés, ce qui explique pourquoi l'assureur pouvait initialement offrir une prime aussi faible.
+
+**Assurance vie entière**
+
+L'assuré a plutôt versé 40 primes annuelles de `r fmt_montant(prime_vie_aff)` $, pour un total de :
+
+$$
+40 \times `r fmt_montant(prime_vie_aff)` = `r fmt_montant(primes_versees_vie)`\ \$
+$$
+
+Toutefois, lorsqu'il résilie son contrat, il reçoit une valeur de rachat correspondant, selon notre hypothèse, à la provision actuarielle prospective. À 60 ans, cette provision est d'environ `r fmt_montant(rachat_60)` $ par 1 000 $ d'assurance, comme l'indique le graphique précédent (point sur la courbe bleue).
+
+Le montant net qu'il aura déboursé est donc de :
+
+$$
+`r fmt_montant(primes_versees_vie)` - `r fmt_montant(rachat_60)` = `r fmt_montant(debourse_net_vie)`\ \$
+$$
+
+Dans notre exemple simplifié, cet assuré aura ainsi bénéficié de 40 années de protection pour un déboursé net de `r fmt_montant(debourse_net_vie)` $. Ce résultat est un bilan des flux monétaires non actualisés pour un assuré ayant survécu jusqu'à 60 ans et choisi de résilier à cet âge. Il ne représente ni la rentabilité moyenne du produit ni le coût actuariel espéré de la protection. Il repose également sur nos hypothèses, notamment un taux d'intérêt nul, l'absence de frais et des déchéances sans effet de sélection.
+
+**Comparaison des deux produits**
+
+| | T-100 | Vie entière |
+|---|---:|---:|
+| Primes versées en 40 ans | `r fmt_montant(primes_versees_T100)` $ | `r fmt_montant(primes_versees_vie)` $ |
+| Valeur de rachat reçue | 0 $ | `r fmt_montant(rachat_60)` $ |
+| Déboursé net | `r fmt_montant(primes_versees_T100)` $ | `r fmt_montant(debourse_net_vie)` $ |
+
+La différence fondamentale ne réside donc pas uniquement dans le niveau des primes. Dans la T-100, l'assuré bénéficie de primes plus faibles parce que les provisions abandonnées par les assurés qui quittent contribuent au financement des autres contrats. Dans l'assurance vie entière, les primes sont plus élevées, mais l'assuré conserve le droit de récupérer la provision actuarielle associée à son contrat lorsqu'il décide de le résilier.
+
+:::
+
+
+## Autres caractéristiques de l'assurance vie entière
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+padding:6px;
+background:white;
+max-width:430px;
+">
+
+<img src="images/Matrix.jpg"
+style="width:100%; height:auto; display:block;">
+
+</div>
+
+Jusqu'à présent, nous avons étudié l'assurance vie entière à partir d'un modèle volontairement simplifié, afin de comprendre les mécanismes actuariels qui déterminent les primes, les provisions et les valeurs de rachat. Ces simplifications nous ont permis de développer une intuition mathématique du fonctionnement de ce produit, sans tenir compte de toutes les particularités des contrats offerts en pratique. 
+
+Nous adoptons maintenant une perspective plus concrète. Les contrats d'assurance vie entière comportent différentes modalités, garanties et options qui influencent leur fonctionnement au cours du temps. Certaines sont propres à chaque assureur ou à chaque produit, tandis que d'autres sont encadrées par des dispositions légales ou réglementaires. Nous présenterons les principales caractéristiques de ces contrats, en nous appuyant notamment sur les informations publiées par les assureurs et les organismes de réglementation.
+
+### Structure des primes
+
+   Comme nous l'avons vu précédemment, les primes d'une assurance vie entière sont généralement nivelées, c'est-à-dire qu'elles demeurent constantes pendant la période de paiement prévue au contrat. Cette structure permet de stabiliser le coût pour le titulaire, même si le risque de décès augmente avec l'âge. Il existe toutefois plusieurs modalités de paiement :
+
+   - Primes payables pendant toute la vie de l'assuré;
+   - Primes payables pendant une période limitée (par exemple 10 ans, 20 ans ou jusqu'à 65 ans);
+   - Assurance à prime unique.
+
+   Dans ce dernier cas, le titulaire verse une seule prime au moment de la souscription, suffisante pour financer la protection pendant toute la vie de l'assuré. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Assurance vie entière et modalités de paiement"){.source-link} On dit qu'une assurance est *libérée* lorsque la période de paiement des primes est terminée. Le contrat demeure alors en vigueur sans qu'aucune prime supplémentaire ne soit exigée. Il ne faut pas confondre cette situation avec l'assurance libérée réduite, que nous présenterons plus loin. [↗](https://lautorite.qc.ca/grand-public/glossaire-financier "AMF — Définitions de l'assurance vie libérée et de l'assurance vie libérée réduite"){.source-link}
+
+<div style="clear: both;"></div>
+
+::: {#exm-structure-primes .custom}
+
+Supposons qu'une personne âgée de 30 ans souscrive une assurance vie entière de 100 000 $. L'assureur pourrait lui proposer trois modalités de paiement différentes (les primes suivantes sont fictives et servent uniquement à illustrer le fonctionnement des contrats) :
+
+- **Primes payables toute la vie :** L'assuré verse 700 $ par année tant qu'il est en vie. Même à 80 ou 90 ans, il devra continuer de payer cette prime pour maintenir sa protection.
+
+- **Primes payables pendant 20 ans :** L'assuré verse 1 500 $ par année pendant 20 ans, soit de 30 à 49 ans inclusivement. À partir de 50 ans, son assurance est libérée : il n'a plus de primes à payer, mais sa protection de 100 000 $ demeure en vigueur jusqu'à son décès.
+
+- **Prime unique :** L'assuré verse 25 000 $ dès la souscription du contrat. Son assurance est immédiatement libérée et aucune autre prime ne sera exigée.
+
+Dans les trois cas, le capital assuré demeure de 100 000 $ et sera versé au décès, pourvu que les conditions du contrat soient respectées. Seule la façon de financer cette protection diffère. Il faut donc bien distinguer la durée de paiement des primes de la durée de la protection : une assurance vie entière dont les primes sont payables pendant 20 ans n'est pas une assurance temporaire de 20 ans!
+
+:::
+
+### Options de non-déchéance
+
+Comme nous l'avons vu précédemment, le non-paiement des primes peut entraîner la déchéance d'un contrat d'assurance vie. Toutefois, dans le cas de l'assurance vie entière, la présence d'une valeur de rachat permet souvent de maintenir une certaine protection, même lorsque le titulaire cesse de payer ses primes. Ces mécanismes, appelés **options de non-déchéance**, permettent d'utiliser la valeur accumulée dans le contrat plutôt que de perdre immédiatement toute protection. Les principales options sont les suivantes :
+
+- **Avance automatique de prime.** L'assureur utilise une avance garantie par la valeur de rachat pour payer les primes exigibles. Cette avance constitue un emprunt portant intérêt. Si elle n'est pas remboursée, le montant dû, incluant les intérêts accumulés, sera notamment déduit du capital versé au décès. Cette option permet de maintenir temporairement la protection, tant que la valeur disponible est suffisante.
+
+- **Assurance libérée réduite.** La valeur de rachat sert à financer une assurance permanente dont le capital assuré est inférieur à celui du contrat initial. Le titulaire n'a alors plus de primes à payer, mais il demeure assuré pour le reste de sa vie.
+
+- **Prolongation d'assurance.** La valeur de rachat sert à financer une assurance temporaire dont le capital assuré demeure généralement égal à celui du contrat initial, mais pour une durée limitée. Aucune prime supplémentaire n'est exigée pendant cette période. Si l'assuré survit au-delà de la durée prévue, la protection prend fin.
+
+Ces mécanismes sont notamment présentés par l'Autorité des marchés financiers dans son explication des différentes utilisations de la valeur de rachat. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/comment-utiliser-une-valeur-de-rachat-sans-mettre-fin-a-son-assurance "AMF — Utilisation de la valeur de rachat et options de non-déchéance"){.source-link} En pratique, les contrats prévoient généralement une option applicable lorsque le titulaire ne fait aucun choix. Il peut notamment s'agir de l'avance automatique de prime ou d'une assurance libérée réduite, selon les modalités de la police.
+
+::: {#exm-options-nondecheance .custom}
+
+Supposons qu'une personne âgée de 55 ans possède une assurance vie entière offrant un capital de 100 000 $, pour laquelle elle paie une prime annuelle de 1 500 $. Son contrat comporte une valeur de rachat de 12 000 $. Pour des raisons financières, elle décide de cesser de payer ses primes, mais souhaite éviter de perdre sa protection. Selon les options prévues au contrat, trois possibilités pourraient s'offrir à elle :
+
+- **Avance automatique de prime.** L'assureur accorde une avance de 1 500 $, garantie par la valeur de rachat, afin de payer la prochaine prime annuelle. La protection de 100 000 $ demeure en vigueur. Supposons que l'avance porte intérêt à 5 %. Si l'assuré décède un an plus tard, sans avoir remboursé l'avance, le bénéficiaire recevra :
+
+  $$
+  100\,000 - 1\,500(1,05) = 98\,425\ \$
+  $$
+
+- **Assurance libérée réduite.** Supposons que la valeur de rachat de 12 000 $ permette d'obtenir une assurance permanente réduite de 30 000 $. Le titulaire n'aura plus aucune prime à payer, et cette nouvelle protection demeurera en vigueur jusqu'à son décès.
+
+- **Prolongation d'assurance.** Supposons plutôt que la valeur de rachat permette de maintenir le capital assuré initial de 100 000 $ pendant 10 années supplémentaires. Le titulaire n'aura plus de primes à payer, mais sa protection prendra fin à 65 ans s'il est toujours vivant.
+
+Les montants et les durées sont fictifs et servent uniquement à illustrer les trois mécanismes. En pratique, ils dépendent notamment de l'âge de l'assuré et des conditions prévues au contrat. Cet exemple montre que les trois options permettent d'éviter une perte immédiate de protection, mais de façons très différentes : la première maintient le contrat en empruntant sur sa valeur de rachat, la deuxième réduit le capital assuré tout en conservant une protection permanente, et la troisième maintient le capital initial, mais pour une durée limitée.
+
+:::
+
+### Avance sur contrat
+
+   Même lorsque la police est en vigueur et que les primes sont payées régulièrement, le titulaire peut généralement emprunter une somme en utilisant la valeur de rachat de son contrat comme garantie. Cette opération, appelée **avance sur police**, permet d'obtenir des liquidités sans devoir résilier son assurance. Les principales caractéristiques de cette avance sont les suivantes :
+
+   - Le montant empruntable est limité par la valeur de rachat disponible et les modalités du contrat;
+   - L'avance porte intérêt, selon le taux et les conditions prévus au contrat;
+   - Le titulaire peut généralement rembourser l'avance, en totalité ou en partie, pendant que le contrat est en vigueur;
+   - Si l'assuré décède avant le remboursement complet, le capital versé au bénéficiaire est réduit du solde de l'emprunt et des intérêts accumulés.
+
+   Cette option est notamment intéressante parce que l'emprunt est garanti par la valeur de rachat du contrat. Toutefois, si la dette et les intérêts accumulés deviennent trop importants par rapport à la valeur disponible, le maintien de la protection peut être compromis. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/comment-utiliser-une-valeur-de-rachat-sans-mettre-fin-a-son-assurance "AMF — Avance sur police et conséquences d'un emprunt"){.source-link}
+
+::: {#exm-avance-contrat .custom}
+
+Supposons qu'une personne âgée de 55 ans possède une assurance vie entière offrant un capital de 100 000 $, dont la valeur de rachat est actuellement de 20 000 $. Elle continue de payer ses primes normalement, mais souhaite obtenir des liquidités pour effectuer des rénovations à sa maison. Plutôt que de résilier son contrat, elle décide d'emprunter 10 000 $ auprès de son assureur, en utilisant la valeur de rachat comme garantie. Supposons que cette avance porte intérêt à un taux annuel de 5 %, composé annuellement.
+
+Si l'assuré décède trois ans plus tard sans avoir effectué de remboursement, le solde de l'emprunt sera alors de :
+
+$$
+10\,000 \times (1,05)^3 = 11\,576,25\ \$
+$$
+
+Le bénéficiaire recevra donc un capital de :
+
+$$
+100\,000 - 11\,576,25 = 88\,423,75\ \$
+$$
+
+L'assuré aura ainsi pu utiliser 10 000 $ de son vivant, tout en conservant sa protection d'assurance. Toutefois, le montant éventuellement versé au bénéficiaire aura été réduit de l'emprunt et des intérêts accumulés. Il faut donc comprendre que l'avance sur police n'est pas un retrait définitif de la valeur de rachat, mais bien un emprunt garanti par celle-ci. Si l'assuré avait remboursé entièrement son avance et les intérêts avant son décès, le bénéficiaire aurait reçu le capital assuré de 100 000 $.
+
+:::
+
+
+### Modalités de versement du capital assuré
+
+   Lors du décès de l'assuré, le capital est généralement versé au bénéficiaire sous forme d'un paiement unique. Certains contrats permettent toutefois de prévoir d'autres modalités de règlement, notamment le versement du capital sous forme de paiements périodiques. Selon les options offertes, le capital peut notamment servir à financer :
+
+   - Une rente viagère, qui prévoit des paiements périodiques tant que le bénéficiaire est en vie;
+   - Une rente à durée déterminée, dont les paiements sont versés pendant une période fixée à l'avance.
+
+   Ces modalités permettent notamment d'offrir au bénéficiaire un revenu régulier plutôt qu'une somme importante à gérer immédiatement. Certains assureurs proposent explicitement de telles options de règlement de la prestation de décès. [↗](https://advisor.equitable.ca/advisor/advisor/getattachment/6c03e18f-70cb-4eee-9941-7578d030c668/455FR.pdf "Assurance vie Équitable — Option de règlement sous forme de rente, formulaire 0455"){.source-link} Une possibilité similaire existe lorsque le titulaire décide de mettre fin à son contrat. Plutôt que de conserver la valeur de rachat reçue sous forme de paiement unique, il peut l'utiliser pour souscrire une rente, afin de transformer ce capital en une série de paiements périodiques. Les caractéristiques et le montant des paiements dépendront alors des modalités de la rente choisie. [↗](https://lautorite.qc.ca/grand-public/investissements/regimes-depargne/rente-viagere-et-rente-a-duree-determinee "AMF — Rente viagère et rente à durée déterminée"){.source-link}
+   
+::: {#exm-modalites-versement .custom}
+
+Supposons qu'une personne décède en laissant à son conjoint, âgé de 65 ans, une prestation d'assurance vie de 120 000 $. Selon les modalités offertes par l'assureur, le bénéficiaire pourrait choisir parmi les options suivantes :
+
+- **Versement unique.** Le bénéficiaire reçoit immédiatement les 120 000 $. Il peut utiliser ou investir cette somme comme il le souhaite, mais il doit lui-même en assurer la gestion.
+
+- **Rente à durée déterminée.** Supposons que le capital permette de financer une rente de 12 000 $ par année pendant 10 ans, en négligeant les intérêts et les frais. Le bénéficiaire recevra ainsi un total de 120 000 $, réparti sur une période de 10 ans.
+
+- **Rente viagère.** Supposons plutôt que le capital permette de financer une rente de 8 000 $ par année, payable tant que le bénéficiaire est en vie. Si celui-ci survit pendant 5 ans, il aura reçu 40 000 $. S'il survit pendant 20 ans, il aura reçu 160 000 $. Le montant total dépend donc de sa durée de vie.
+
+Les montants sont fictifs et servent uniquement à illustrer les différences entre les modalités de règlement. En pratique, les versements d'une rente dépendent notamment de l'âge du bénéficiaire, des taux d'intérêt et des garanties choisies. Cet exemple montre que le versement unique offre une grande liberté d'utilisation du capital, tandis que les rentes permettent de recevoir un revenu régulier. La rente viagère présente toutefois une particularité importante : elle protège le bénéficiaire contre le risque de survivre trop longtemps et d'épuiser son capital, puisque les paiements se poursuivent jusqu'à son décès.
+
+:::   
+   
+## Participations
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+padding:6px;
+background:white;
+max-width:330px;
+">
+<img src="images/Participation.png" style="width:100%; height:auto; display:block;">
+</div>
+
+Certaines polices d'assurance vie entière sont dites *participantes* : elles permettent aux titulaires de recevoir des **participations**, parfois appelées *dividendes de police*. Ces participations leur permettent de bénéficier d'une partie des résultats favorables du compte de participation de l'assureur. Les contrats d'assurance temporaire (chapitre précédent) et d'assurance vie universelle (prochain chapitre) sont, quant à eux, généralement non participants. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Assurance vie entière avec participation"){.source-link}
+
+Contrairement au capital assuré de base et aux primes garanties prévus au contrat, les participations futures ne sont pas garanties. Elles peuvent augmenter, diminuer ou même être nulles d'une année à l'autre. Leur montant dépend notamment de l'expérience de mortalité, du rendement des placements, des dépenses et d'autres facteurs, comme les résiliations de contrats. [↗](https://www.canadalife.com/fr/assurance/assurance-vie/assurance-vie-permanente/assurance-vie-entiere-avec-participation/fondements.html "Canada Vie — Fondements de l'assurance vie avec participation"){.source-link}
+
+### Origine des participations
+
+Les contrats d'assurance vie entière comportent généralement des primes garanties, déterminées lors de la souscription. L'assureur doit donc tenir compte de l'incertitude entourant les résultats futurs, parfois sur plusieurs décennies. Pour établir les garanties, les actuaires retiennent des hypothèses prudentes concernant notamment :
+
+- La mortalité : si les prestations de décès sont moins élevées que prévu, l'expérience peut être plus favorable pour l'assureur.
+- Le rendement des placements : si les sommes investies produisent de meilleurs rendements que ceux anticipés, cela peut contribuer à augmenter les surplus.
+- Les dépenses : si les coûts d'administration et de gestion sont inférieurs aux hypothèses retenues, cela peut également contribuer aux surplus.
+
+D'autres éléments, notamment les résiliations, les retraits, les avances sur police et les impôts, peuvent aussi influencer les résultats du compte de participation. [↗](https://www.canadalife.com/fr/assurance/assurance-vie/assurance-vie-permanente/assurance-vie-entiere-avec-participation/affectation-des-participations.html "Canada Vie — Facteurs influençant le barème des participations"){.source-link} Lorsque l'expérience est globalement favorable, des surplus peuvent apparaître. L'assureur peut alors en attribuer une partie aux titulaires de contrats participants. Il peut aussi conserver des surplus dans le compte de participation pour soutenir les engagements futurs ou stabiliser les participations d'une année à l'autre. Il ne faut donc pas considérer les participations comme une redistribution automatique de tous les profits réalisés pendant l'année. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Fonctionnement du fonds avec participation et répartition des surplus"){.source-link}
+
+<div style="clear: both;"></div>
+
+
+### Fonctionnement des participations
+
+Pour comprendre ce mécanisme, on peut imaginer que l'assureur regroupe les contrats participants dans un même bassin, appelé *compte de participation*. Les primes reçues contribuent au financement des prestations, des frais et des placements associés à ces contrats. Les résultats de ce compte servent ensuite à déterminer les participations susceptibles d'être attribuées aux titulaires. Les titulaires de contrats non participants ne bénéficient pas de ce mécanisme de partage. [↗](https://www.canadalife.com/fr/assurance/assurance-vie/assurance-vie-permanente/assurance-vie-entiere-avec-participation/fondements.html "Canada Vie — Fonctionnement du compte de participation"){.source-link} La prime d'une assurance vie entière participante est généralement plus élevée que celle d'une assurance vie entière comparable sans participation. En contrepartie, le titulaire peut recevoir des participations qui, selon l'option choisie, réduiront son déboursé ou augmenteront les prestations de son contrat. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Comparaison des assurances avec et sans participation"){.source-link}
+
+L'assureur établit périodiquement un *barème des participations*, qui sert à déterminer les montants attribuables aux différentes polices. Le barème peut être révisé selon l'expérience du compte et les politiques de l'assureur. Les participations sont déclarées conformément aux règles de gouvernance applicables; leur montant n'est pas garanti. Par exemple, l'Équitable publie un barème approuvé par son conseil d'administration et rappelle explicitement que les participations peuvent varier. [↗](https://www.equitable.ca/fr-ca/communiquer-avec-nous/renseignements-sur-les-participations "Équitable — Renseignements sur les participations"){.source-link}
+
+La réglementation encadre également certains aspects du partage des bénéfices. Il faut toutefois être prudent avec la règle parfois résumée par « 90 % des profits ». Au Québec, les articles 539 et 542 de la *Loi sur les assureurs* prévoient, pour certaines polices participantes conclues avant le 13 juin 2019, une attribution d'au moins 90 % à 97,5 % de la **portion des bénéfices distribués** provenant de ces contrats, selon la taille du fonds. Cela ne signifie ni que tous les assureurs doivent distribuer 90 % de leurs bénéfices chaque année, ni que cette disposition s'applique indistinctement à toutes les polices participantes. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-32.1#se:539 "Loi sur les assureurs — Articles 539 et 542"){.source-link}
+
+::: {#exm-fonctionnement-participations .custom}
+
+Supposons qu'un assureur possède un compte de participation regroupant 100 contrats d'assurance vie entière identiques, chacun comportant une prime annuelle de 1 500 $. Au cours d'une année, l'expérience de mortalité est meilleure que prévu et les placements rapportent davantage que ce qui avait été anticipé. Ces résultats favorables génèrent un surplus de 10 000 $ dans le compte de participation. Supposons que l'assureur décide de distribuer 6 000 $ de ce surplus et de conserver les 4 000 $ restants pour contribuer notamment à stabiliser les participations futures.
+
+Pour illustrer la règle des 90 %, supposons que notre assureur soit soumis à cette disposition et que la taille de son fonds corresponde au seuil réglementaire de 90 %. Les titulaires participants doivent alors recevoir au moins :
+
+$$
+6\,000 \times 90\% = 5\,400\ \$
+$$
+
+Ainsi, sur le surplus initial de 10 000 $ :
+
+- 4 000 $ sont conservés dans le compte de participation;
+- 5 400 $ sont distribués aux titulaires participants;
+- 600 $ représentent la portion des bénéfices distribués qui n'est pas attribuée aux titulaires participants.
+
+Puisque nos 100 contrats sont identiques, supposons que les 5 400 $ soient répartis également. Chaque titulaire reçoit alors :
+
+$$
+\frac{5\,400}{100}=54\ \$
+$$
+
+Si le titulaire choisit d'utiliser cette participation pour réduire sa prime annuelle, son déboursé sera de :
+
+$$
+1\,500-54=1\,446\ \$
+$$
+
+Cet exemple illustre la distinction entre le surplus réalisé par l'assureur, les bénéfices qu'il décide de distribuer et la part de ces bénéfices attribuée aux titulaires participants. La règle des 90 % s'applique ici aux 6 000 $ distribués, et non à la totalité du surplus de 10 000 $. Les participations futures demeurent toutefois non garanties : leur montant peut varier d'une année à l'autre selon l'expérience du compte de participation et les décisions de l'assureur.
+
+:::
+
+### Utilisation des participations
+
+Lorsque des participations sont déclarées, le titulaire peut généralement choisir comment elles seront utilisées, parmi les options offertes par son contrat. Les principales possibilités sont les suivantes. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Utilisation des participations"){.source-link}
+
+- **Versement au comptant.** Le titulaire reçoit directement la participation. Selon la situation, ce versement peut entraîner des conséquences fiscales.
+
+- **Réduction ou paiement de la prime.** La participation sert à payer une partie ou la totalité de la prime exigible. Si son montant est insuffisant, le titulaire doit payer la différence.
+
+- **Mise en dépôt.** La participation est conservée auprès de l'assureur dans un compte portant intérêt, selon les modalités du contrat. Le titulaire peut généralement retirer les sommes disponibles; celles qui demeurent en dépôt peuvent s'ajouter au montant payable au décès. Les intérêts crédités peuvent être imposables.
+
+- **Achat d'assurance libérée additionnelle.** La participation sert à acheter un montant supplémentaire d'assurance vie permanente qui n'exigera plus de primes. Cette protection additionnelle peut comporter sa propre valeur de rachat et donner droit à d'autres participations, ce qui permet de faire croître progressivement la protection.
+
+- **Achat d'assurance temporaire d'un an.** La participation peut servir à acheter une protection temporaire additionnelle pour une année. Son renouvellement ou son remplacement dépend des modalités prévues au contrat.
+
+- **Affectation aux primes futures.** Dans certains contrats, les participations et, parfois, les valeurs accumulées dans la police peuvent devenir suffisantes pour financer les primes exigibles. On parle alors d'une stratégie d'*éclipse de primes*, présentée ci-dessous.
+
+Les options exactes diffèrent d'un contrat à l'autre. L'Autorité des marchés financiers décrit notamment le versement comptant, l'accumulation, la réduction des primes, l'achat d'assurance temporaire d'un an et l'achat de bonifications d'assurance libérée. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Options d'utilisation des participations"){.source-link}
+
+::: {#exm-utilisation-participations .custom}
+
+Supposons qu'une personne possède une assurance vie entière participante offrant un capital assuré de 100 000 $, avec une prime annuelle de 1 500 $. Cette année, l'assureur lui attribue une participation de 400 $. Selon les modalités prévues au contrat, le titulaire pourrait utiliser cette participation de différentes façons :
+
+| Option | Utilisation de la participation de 400 $ |
+|---|---|
+| Versement au comptant | Le titulaire reçoit directement 400 $ dans son compte bancaire. |
+| Réduction de la prime | La participation réduit la prime annuelle de 1 500 $ à 1 100 $. |
+| Mise en dépôt | Les 400 $ sont conservés auprès de l'assureur. À un taux d'intérêt hypothétique de 3 %, cette somme atteindrait 412 $ après un an. |
+| Assurance libérée additionnelle | Supposons que les 400 $ permettent d'acheter une protection permanente supplémentaire de 1 000 $. Le capital assuré passe alors de 100 000 $ à 101 000 $, sans prime supplémentaire pour cette bonification. |
+| Assurance temporaire d'un an | Supposons que les 400 $ permettent d'acheter une protection temporaire supplémentaire de 50 000 $ pour une année. Durant cette période, le capital total payable au décès atteint 150 000 $. |
+| Affectation aux primes futures | Les 400 $ peuvent contribuer à financer les primes des années suivantes. Toutefois, cette participation est insuffisante pour couvrir à elle seule la prime annuelle de 1 500 $. |
+
+Les montants d'assurance supplémentaires sont fictifs et servent uniquement à illustrer les différentes options. En pratique, les montants pouvant être achetés dépendent notamment de l'âge de l'assuré, des tarifs et des modalités du contrat. Cet exemple montre qu'une même participation peut servir à des objectifs très différents : obtenir immédiatement des liquidités, réduire le coût de l'assurance, accumuler une somme portant intérêt ou augmenter la protection offerte au décès.
+
+Enfin, si les participations futures et les valeurs disponibles deviennent éventuellement suffisantes pour payer entièrement les primes exigibles, le titulaire pourrait cesser de les payer directement. C'est le principe des *polices à éclipse de primes*, que nous examinerons dans la prochaine section. Cette possibilité demeure toutefois incertaine, puisque les participations futures ne sont pas garanties.
+
+:::
+
+
+### Les polices à éclipse de primes
+
+<div style="
+float:right;
+width:28vw;
+max-width: 270px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/Eclipse.png" style="width:100%; height:auto; display:block; margin:auto;">
+</div>
+
+Une possibilité particulièrement intéressante de l'assurance vie entière participante est ce qu'on appelle l'**éclipse de primes** (*vanishing premium*). Le principe est simple : après plusieurs années, les participations et certaines valeurs accumulées dans le contrat peuvent devenir suffisamment importantes pour payer les primes futures. Le titulaire peut alors cesser de débourser lui-même les sommes nécessaires au paiement de son assurance. Il faut cependant comprendre une distinction fondamentale : les primes ne disparaissent pas réellement. Elles demeurent exigibles selon les conditions du contrat, mais elles sont payées à partir des participations et des valeurs disponibles plutôt que directement par le titulaire.
+
+Il est essentiel de ne pas confondre cette situation avec celle d'une assurance *libérée*, pour laquelle l'obligation contractuelle de payer des primes a définitivement pris fin. Dans le cas d'une éclipse de primes, cette obligation demeure : seules les sommes utilisées pour payer les primes changent. Le titulaire dépend donc des participations futures et des valeurs disponibles dans son contrat pour continuer à financer sa protection. Si ces sommes deviennent insuffisantes, notamment parce que les rendements des placements ou les autres résultats de l'assureur sont moins favorables que prévu, il pourrait devoir recommencer à payer ses primes, même après plusieurs années sans aucun déboursé personnel. L'éclipse de primes n'est donc jamais une garantie que les primes cesseront définitivement d'être à sa charge. [↗](https://www.canadalife.com/fr/assurance/assurance-vie/assurance-vie-permanente/assurance-vie-entiere-avec-participation/affectation-des-participations.html "Canada Vie — Affectation des participations au paiement des primes"){.source-link}
+
+<div style="clear: both;"></div>
+
+::: {#exm-eclipse-primes .custom}
+
+Supposons qu'une personne souscrive une assurance vie entière participante offrant un capital de 100 000 $, avec une prime annuelle garantie de 1 500 $, payable pendant toute sa vie. Au moment de la souscription, l'assureur lui présente une illustration financière selon laquelle les participations pourraient devenir suffisantes pour payer entièrement les primes après 15 ans. Le titulaire pourrait donc, selon cette projection, cesser de payer ses primes directement à partir de la 16e année. 
+
+Mais que se passe-t-il si les participations réelles sont moins élevées que prévu? Comparons les résultats pour la 16e année :
+
+| | Projection initiale | Résultat réel |
+|---|---:|---:|
+| Prime annuelle exigible | 1 500 $ | 1 500 $ |
+| Participations disponibles | 1 500 $ | 900 $ |
+| Montant à payer par le titulaire | 0 $ | 600 $ |
+
+Dans la projection initiale, les participations suffisent à payer entièrement la prime annuelle de 1 500 $. Le titulaire n'aurait donc rien à débourser personnellement. Cependant, supposons que les rendements des placements de l'assureur aient été inférieurs aux prévisions et que les participations disponibles ne soient finalement que de 900 $. En l'absence d'autres valeurs pouvant servir à payer la prime, le titulaire devra fournir la différence :
+
+$$
+1\,500-900=600\ \$
+$$
+
+L'assureur ne modifie donc pas la prime garantie de 1 500 $. Ce sont plutôt les participations, qui ne sont pas garanties, qui s'avèrent insuffisantes pour la financer. Cet exemple est volontairement simplifié à une seule année. En pratique, la possibilité de maintenir une éclipse de primes dépend également des participations futures projetées et des autres valeurs disponibles dans la police.
+
+:::
+
+#### **La controverse des années 1990** {-}
+
+Ce mécanisme a suscité d'importantes controverses dans les années 1990. Durant les années 1980, alors que les taux d'intérêt étaient élevés, plusieurs contrats d'assurance vie entière participante ont été vendus à l'aide d'illustrations financières prévoyant des participations futures importantes. Ces illustrations pouvaient notamment laisser croire que les titulaires n'auraient plus à débourser de primes après une dizaine ou une quinzaine d'années. Or, ces projections reposaient sur l'hypothèse que les résultats financiers de l'assureur demeureraient suffisamment favorables. Lorsque les taux d'intérêt ont diminué, les participations ont été inférieures à celles qui avaient été projetées, retardant ainsi la date à laquelle les primes pouvaient être entièrement financées sans déboursé du titulaire. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Effet des taux d’intérêt sur les participations"){.source-link} Plusieurs titulaires ont alors découvert qu'ils devaient continuer à payer leurs primes, parfois pendant de nombreuses années supplémentaires, alors qu'ils croyaient que ces paiements cesseraient beaucoup plus tôt.  Cette situation a donné lieu à des recours judiciaires contre des assureurs, dont certains se sont conclus par des règlements. Les litiges portaient notamment sur les représentations faites lors de la vente des contrats et sur la distinction entre les garanties contractuelles et les projections financières présentées aux consommateurs. Un dossier québécois documenté concerne notamment New York Life et Canada Vie. [↗](https://lblavocats.ca/en/class-actions/insurance-vanishing-premiums/completed/newyork-canada-life.php "Lauzon Bélanger Lespérance — Recours collectif au Québec"){.source-link}
+
+<div style="
+  background: #F5F7FA;
+  border-left: 3px solid #A0A8B0;
+  padding: 12px 18px;
+  margin: 1.5em 0;
+  border-radius: 3px;
+">
+
+<strong>Une leçon importante pour les actuaires</strong>
+
+<p style="margin-top: 0.6em; margin-bottom: 0;">
+
+Cette controverse illustre une distinction fondamentale : une projection actuarielle n'est pas une garantie contractuelle. Une illustration financière présente ce qui pourrait se produire si certaines hypothèses se réalisaient. Lorsque ces hypothèses concernent des éléments incertains, comme les taux d'intérêt ou les participations futures, les résultats réels peuvent être très différents. L'Association canadienne des compagnies d'assurances de personnes (ACCAP) souligne, dans son code de déontologie, que les illustrations de prix, de valeurs et de prestations doivent être claires et distinguer les montants garantis des montants non garantis. [↗](https://www.clhia.ca/en-ca/about/about-clhia/Code-of-Ethics "ACCAP — Code de déontologie, principes relatifs aux illustrations"){.source-link} L'Autorité des marchés financiers recommande également d'examiner des scénarios réalistes et défavorables pour apprécier l'incertitude entourant les participations futures. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Illustrations et projections de l'assurance participante"){.source-link} Cette histoire rappelle finalement qu'en actuariat, il ne suffit pas de produire des calculs mathématiquement corrects. Il faut également savoir en communiquer les résultats, expliquer les hypothèses et les incertitudes qui les entourent, et surtout éviter qu'une projection favorable soit interprétée comme une promesse.
+
+</p>
+
+</div>
+
+
+## Conclusion
+
+L'assurance vie entière offre une protection qui peut se maintenir jusqu'au décès, tout en permettant généralement au titulaire de disposer d'une valeur de rachat. Son fonctionnement repose sur un mécanisme central : les primes nivelées des premières années contribuent au financement des engagements futurs de l'assureur. La provision actuarielle prospective permet de mesurer la valeur nette de ces engagements à une date donnée.  Dans notre modèle simplifié, l'égalité entre la valeur de rachat et la provision prospective explique pourquoi les résiliations n'affectent ni la prime pure ni la provision d'un contrat qui demeure en vigueur. La comparaison avec la T-100 sans valeur de rachat montre, au contraire, comment les provisions libérées lors des déchéances anticipées peuvent contribuer à réduire les primes offertes à l'ensemble des assurés.
+
+Les contrats commercialisés comportent toutefois davantage de possibilités : paiement des primes sur une durée limitée, options de non-déchéance, avances sur police, modalités de versement du capital et participations. Ces éléments ne modifient pas la logique fondamentale de l'assurance vie entière, mais ils montrent pourquoi les garanties et les modalités contractuelles doivent être examinées avec attention. Le cas des polices à éclipse de primes rappelle enfin qu'une projection de résultats futurs, même établie selon des méthodes actuarielles rigoureuses, ne doit jamais être confondue avec une garantie.
+
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### Comprendre les produits et leurs options {-}
+
+- [Autorité des marchés financiers — Assurance vie entière et avec participation](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation)
+- [Autorité des marchés financiers — Utiliser une valeur de rachat sans mettre fin à l'assurance](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/comment-utiliser-une-valeur-de-rachat-sans-mettre-fin-a-son-assurance)
+- [Autorité des marchés financiers — Rente viagère et rente à durée déterminée](https://lautorite.qc.ca/grand-public/investissements/regimes-depargne/rente-viagere-et-rente-a-duree-determinee)
+- [Canada Vie — Assurance vie entière à prime unique (produit Donner au suivant)](https://www.canadalife.com/content/dam/advisors/documents/marketing/insurance/fr_ca/par/qu-est-ce-que-mon-assurance-vie-avec-participation.pdf)
+- [Équitable — Formulaire 0455, option de règlement sous forme de rente](https://advisor.equitable.ca/advisor/advisor/getattachment/6c03e18f-70cb-4eee-9941-7578d030c668/455FR.pdf)
+
+### Calculs actuariels et réglementation {-}
+
+- [Institut canadien des actuaires — Tables de mortalité CIA2014 (2022)](https://www.cia-ica.ca/publications/rp222040t1e/)
+- [Society of Actuaries — Minimum Cash Surrender Values and Lapse Immunization](https://www.soa.org/sections/product-dev/product-dev-newsletter/2025/april/pm-2025-04-farmer/)
+- [Loi sur les assureurs du Québec — Articles 539 et 542, contrats avec participation](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-32.1#se:539)
+
+### Participations, illustrations et expérience historique {-}
+
+- [Canada Vie — Fondements de l'assurance vie avec participation](https://www.canadalife.com/fr/assurance/assurance-vie/assurance-vie-permanente/assurance-vie-entiere-avec-participation/fondements.html)
+- [Canada Vie — Affectation des participations au paiement des primes](https://www.canadalife.com/fr/assurance/assurance-vie/assurance-vie-permanente/assurance-vie-entiere-avec-participation/affectation-des-participations.html)
+- [Équitable — Renseignements sur les participations](https://www.equitable.ca/fr-ca/communiquer-avec-nous/renseignements-sur-les-participations)
+- [ACCAP — Code de déontologie, transparence des illustrations](https://www.clhia.ca/en-ca/about/about-clhia/Code-of-Ethics)
+- [Lauzon Bélanger Lespérance — Recours collectif relatif aux primes à éclipse](https://lblavocats.ca/en/class-actions/insurance-vanishing-premiums/completed/newyork-canada-life.php)
+
+:::

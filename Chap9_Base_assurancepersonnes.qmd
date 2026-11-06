@@ -1,0 +1,622 @@
+---
+toc: false
+date: 03/11/2026
+date-modified: last-modified
+---
+
+# Notions de base en assurance de personnes
+
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
+
+- Identifier les principales catégories de protections en assurance de personnes, publiques et privées;
+- Distinguer les principaux intervenants d’un contrat d’assurance (assureur, preneur, assuré, bénéficiaire);
+- Décrire certaines caractéristiques fondamentales d’un contrat d’assurance de personnes (prise d’effet, obligations de déclaration, non-paiement des primes, etc.);
+- Expliquer le rôle du bénéficiaire et les différentes façons de le désigner;
+- Comprendre les notions de révocabilité du bénéficiaire et de saisissabilité des droits associés au contrat d’assurance-vie.
+
+:::
+
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+:::
+
+
+## Principales protections en assurance de personnes
+
+L'assurance de personnes ne se limite pas au versement d'un capital au décès. Elle peut aussi remplacer un revenu interrompu par une invalidité ou couvrir certaines dépenses de santé. Les garanties varient selon l'événement assuré, la forme des prestations et les conditions du contrat. Ce chapitre prolonge le [chapitre 8](Chap8_Juridique.qmd), consacré aux règles juridiques générales de l'assurance. Certaines notions pourront donc sembler familières, notamment la déclaration du risque, les exclusions et la preuve du sinistre. Nous ne reprendrons toutefois pas leur présentation générale : nous examinerons plutôt leur application concrète aux assurances de personnes, puis les règles propres à la désignation des bénéficiaires d'une assurance-vie.
+
+L'assurance individuelle de personnes comprend principalement deux grandes familles :
+
+- L'**assurance sur la vie**, qui prévoit le versement d'un capital au décès de l'assuré, lorsque les conditions du contrat sont remplies. Le montant est généralement choisi en fonction des besoins financiers anticipés des proches : perte de revenu, remboursement d'une hypothèque, dépenses des enfants ou frais immédiats. Les différentes formes d'assurance-vie seront étudiées dans les chapitres suivants.
+- L'**assurance contre les accidents et la maladie**, qui couvre d'autres conséquences financières, notamment une incapacité de travailler, certains frais médicaux ou la survenance d'une maladie grave. Selon la garantie, l'assureur peut verser une somme forfaitaire, un revenu périodique ou le remboursement de dépenses admissibles.
+
+Ces protections sont complémentaires : un capital payable au décès et un revenu de remplacement pendant une invalidité ne répondent pas au même besoin.
+
+::: {#exm-1 .custom}
+Marie, 38 ans, vit avec son conjoint et leurs deux enfants. Le ménage possède une résidence sur laquelle il reste une hypothèque de 210 000 $. Marie gagne un revenu important pour sa famille et détient deux contrats d’assurance de personnes.  
+
+- Le premier est une assurance-vie de 250 000 $. Si Marie décède, son conjoint pourrait utiliser cette somme pour rembourser entièrement l’hypothèque. Il resterait alors 40 000 $ pour faire face aux autres dépenses familiales. La disparition du revenu de Marie pourrait néanmoins créer des difficultés financières à plus long terme.  
+
+- Le second contrat est une assurance invalidité qui prévoit une prestation mensuelle de 3 000 $, après un délai de carence de 90 jours, si les conditions du contrat sont satisfaites. Si Marie devient incapable de travailler pendant deux ans à la suite d'un accident, elle pourrait recevoir un revenu de remplacement pendant cette période. Cependant, les dépenses familiales continueraient de s'accumuler, notamment les versements hypothécaires.
+
+Cet exemple montre que les deux protections répondent à des besoins distincts. Une assurance-vie suffisamment élevée pour rembourser les dettes au décès ne garantit pas que la famille pourra maintenir son niveau de vie si l'assuré devient invalide.
+:::
+
+Avant d’examiner plus précisément les contrats privés, il est utile de situer leur rôle par rapport aux protections publiques offertes au Québec.
+
+### Régimes publics de santé au Québec
+
+Au Québec, la protection financière contre les dépenses de santé repose notamment sur deux grands mécanismes : le régime public d'assurance maladie, qui couvre les principaux services médicaux et hospitaliers, et le régime général d'assurance médicaments, qui combine des protections publiques et privées. Ces deux régimes jouent un rôle central dans l'accès aux soins, tout en laissant une place aux assurances privées pour certaines protections complémentaires.
+
+#### **Le régime public d'assurance maladie** {-}
+
+<div style="
+float:right;
+width:28vw;
+max-width:320px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/Assurancemaladie.png" style="width:100%;">
+</div>
+
+L'instauration de l'assurance hospitalisation en 1961, puis de l'assurance maladie en 1970 constitue une transformation majeure du système de santé québécois [↗](https://www.ramq.gouv.qc.ca/fr/a-propos/historique "Source : RAMQ — Historique"){.source-link}. Auparavant, l'accès aux soins pouvait représenter un fardeau financier considérable pour les familles. Ces régimes ont progressivement établi un principe fondamental : l'accès aux services médicaux et hospitaliers assurés doit dépendre des besoins de santé plutôt que de la capacité financière des personnes.
+
+La [Régie de l'assurance maladie du Québec (RAMQ)](https://www.ramq.gouv.qc.ca/fr) administre notamment le régime public d'assurance maladie. Celui-ci permet aux personnes admissibles de recevoir sans frais directs les services médicaux assurés, comme les consultations, les examens diagnostiques et les interventions chirurgicales. Les services hospitaliers assurés sont également financés publiquement. Ce système repose sur une mutualisation à l'échelle de la population, financée principalement par les revenus publics plutôt que par des primes individuelles établies selon l'état de santé.
+
+La couverture n'est toutefois pas illimitée. Certains services dentaires et optométriques sont couverts seulement pour des catégories particulières de personnes, tandis que plusieurs services de physiothérapie, de psychologie ou d'autres professionnels de la santé ne sont pas systématiquement assurés lorsqu'ils sont obtenus en pratique privée. Les assurances collectives offertes par les employeurs viennent souvent compléter cette protection publique. On peut consulter la [liste des services couverts par la RAMQ](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-maladie/informer-services-couverts) pour en savoir plus sur les protections offertes.  
+
+Pour l'actuariat, ce régime illustre une forme de mutualisation très différente de celle des assurances privées. Le risque financier associé à la maladie est largement réparti entre les contribuables, tandis que les questions de financement concernent notamment l'évolution des dépenses de santé, le vieillissement de la population et l'utilisation des services. La couverture publique réduit ainsi considérablement l'exposition financière individuelle aux soins assurés, sans éliminer tous les besoins d'assurance privée.
+
+<div style="clear: both;"></div>
+
+#### **Régime général d'assurance médicaments du Québec** {-}
+
+<div style="
+float:right;
+width:28vw;
+max-width:320px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/medicaments.jpg" style="width:100%;">
+</div>
+
+L'assurance maladie ne couvre pas automatiquement tous les médicaments achetés en pharmacie. Pour répondre à ce besoin, le Québec a instauré en 1997 un régime général d'assurance médicaments dont l'objectif est d'assurer à la population un accès raisonnable et équitable aux médicaments requis par son état de santé [↗](https://www.quebec.ca/sante/systeme-et-services-de-sante/regimes-dassurance/assurance-maladie-assurance-medicaments "Source : Gouvernement du Québec"){.source-link}. Ce régime présente une particularité importante : contrairement à l'assurance maladie, il repose sur une combinaison de protections publiques et privées. Toute personne établie de façon permanente au Québec doit être couverte par une assurance médicaments [↗](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/connaitre-conditions-admissibilite-regime-public "Source : RAMQ — Admissibilité"){.source-link}, selon les règles d'admissibilité applicables. Le fonctionnement général est le suivant :
+
+- Les personnes de moins de 65 ans ayant accès à un régime privé admissible, notamment par leur employeur, leur conjoint ou un regroupement professionnel, doivent généralement y adhérer.
+- Les personnes qui n'ont pas accès à un tel régime doivent généralement s'inscrire au régime public administré par la RAMQ, à condition d'y être admissibles.
+- À partir de 65 ans, l'inscription au régime public est automatique [↗](https://www.ramq.gouv.qc.ca/fr/citoyens/votre-65e-anniversaire "Source : RAMQ — 65e anniversaire"){.source-link}, mais les personnes ayant accès à une assurance privée peuvent, selon les protections offertes, choisir leur couverture ou combiner le régime public avec une assurance complémentaire.
+
+Le régime public couvre les médicaments inscrits sur une liste régulièrement mise à jour [↗](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/savoir-si-medicament-est-couvert "Source : RAMQ — Médicaments couverts"){.source-link}, sous réserve des conditions de remboursement applicables. Son financement repose notamment sur des contributions publiques, une prime annuelle établie selon le revenu familial net et une participation au coût des médicaments. Cette dernière peut prendre la forme d'une franchise et d'une coassurance, avec des [plafonds de contribution et des exemptions](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/tarifs-vigueur) pour certaines catégories de personnes.
+
+Les régimes privés sont également encadrés par la [Loi sur l'assurance médicaments](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-29.01). Ils doivent notamment respecter une protection minimale et certaines limites de contribution financière, tout en pouvant offrir des garanties supplémentaires. Ces obligations assurent un niveau de protection de base malgré la diversité des employeurs, des assureurs et des contrats. Du point de vue actuariel, ce système est particulièrement intéressant puisqu'il combine une obligation générale d'assurance, un financement public pour une partie de la population et des régimes privés dont les primes dépendent notamment de l'expérience des groupes assurés. Il soulève également des questions importantes de mutualisation, de sélection des risques, de consommation des médicaments et de croissance des coûts pharmaceutiques.
+
+Le [site de la RAMQ consacré à l'assurance médicaments](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments) présente les règles d'admissibilité, les médicaments couverts et les modalités de participation financière. Les exigences relatives aux contrats privés sont détaillées dans la section [Renseignements sur les régimes privés](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/renseignements-regimes-prives).
+
+
+<div style="clear: both;"></div>
+
+### Assurances privées de personnes
+
+<div style="
+float:right;
+width:28vw;
+max-width:360px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/LifeInsurance.png" style="width:100%;">
+</div>
+
+
+En complément des régimes publics, les assureurs privés offrent différentes protections visant à réduire les conséquences financières de la maladie, de l'invalidité ou du décès. Certaines couvrent des dépenses qui ne sont pas prises en charge par les régimes publics, tandis que d'autres prévoient le versement d'un capital ou d'un revenu de remplacement lorsqu'un événement assuré survient.
+
+Ces protections comprennent notamment l'assurance-vie, l'assurance invalidité, l'assurance maladies graves ainsi que les assurances couvrant les médicaments, les soins dentaires et d'autres dépenses de santé. Dans le cas des médicaments, les régimes privés participent directement au régime général québécois présenté précédemment. Les assurances privées de personnes peuvent être souscrites de deux façons :
+
+- En assurance individuelle, une personne souscrit directement un contrat auprès d'un assureur. Les garanties et la tarification tiennent notamment compte des caractéristiques du contrat et, lorsque cela s'applique, du risque propre à la personne assurée.
+- En assurance collective, un contrat est généralement souscrit par un employeur, un syndicat ou une association au bénéfice de ses employés ou de ses membres, ainsi que de leurs personnes à charge admissibles. Les garanties sont établies pour le groupe, parfois avec des protections facultatives et un partage des primes entre les participants et le preneur du contrat.
+
+Cette distinction influence notamment la sélection des risques, la tarification, l'admissibilité et l'administration des garanties. Elle ne change toutefois pas fondamentalement la nature des protections offertes.
+
+<div style="clear: both;"></div>
+
+
+::: {#exm-2 .custom}
+Sophie détient une assurance-vie individuelle de 150 000 $, choisie selon ses besoins. Son employeur lui offre aussi un régime collectif comprenant une assurance-vie équivalant à son salaire annuel, une assurance invalidité et une assurance médicaments. Elle peut personnaliser certaines conditions de son contrat individuel, alors que les garanties collectives sont surtout déterminées pour le groupe. Le régime collectif peut néanmoins lui permettre d'acheter une protection d'assurance-vie additionnelle, dans les limites proposées et parfois sous réserve de preuves d'assurabilité. Les deux assurances-vie couvrent le même événement, mais elles ne donnent pas à Sophie la même liberté de choix.
+
+:::
+
+
+#### **Souscription d'une assurance individuelle** {-}
+
+Une personne qui souhaite souscrire une assurance-vie, une assurance invalidité ou une autre assurance individuelle peut généralement communiquer directement avec un assureur ou faire appel à un conseiller en sécurité financière. Au Québec, ce dernier est un professionnel certifié par l'Autorité des marchés financiers (AMF). Il peut notamment travailler pour une compagnie d'assurance, un cabinet de services financiers ou exercer de manière autonome. Le rôle du conseiller consiste notamment à évaluer les besoins du client, à lui présenter les protections disponibles et à l'accompagner dans le choix d'un contrat. Selon ses affiliations professionnelles, il peut avoir accès aux produits d'un ou de plusieurs assureurs. Certaines assurances peuvent également être souscrites directement sur Internet, sans rencontre avec un conseiller. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/5-etapes-a-suivre-avant-de-vous-assurer "AMF — Les étapes pour souscrire une assurance-vie"){.source-link} Après avoir choisi une protection, le proposant doit généralement remplir une proposition d'assurance et fournir les renseignements nécessaires à l'évaluation de son risque, notamment sur son état de santé. L'assureur examine ensuite la demande et détermine s'il accepte de couvrir la personne, à quelles conditions et à quelle prime. Une fois le contrat établi et les conditions de prise d'effet respectées, la protection entre en vigueur.
+
+#### **Adhésion à une assurance collective** {-}
+
+En assurance collective, la démarche est différente. Ce n'est généralement pas chaque personne assurée qui choisit directement son assureur. Un employeur, un syndicat ou une association conclut plutôt un contrat avec une compagnie d'assurance afin d'offrir des protections aux membres du groupe. L'organisme qui souscrit ce contrat est appelé le *preneur*. Lorsqu'une personne devient admissible au régime, par exemple en obtenant un nouvel emploi, elle reçoit de l'information sur les garanties offertes et les modalités d'adhésion. Selon le régime, certaines protections peuvent être accordées automatiquement, tandis que d'autres nécessitent une inscription. Les primes peuvent être payées entièrement par l'employeur, entièrement par les employés ou partagées entre les deux. Les garanties de base sont généralement déterminées pour l'ensemble du groupe. Les participants peuvent toutefois disposer de certains choix, comme l'ajout d'une protection facultative pour leur conjoint ou l'achat d'un capital d'assurance-vie supplémentaire. Les protections facultatives peuvent nécessiter des preuves d'assurabilité, même lorsque les garanties de base n'en exigent pas. [↗](https://lautorite.qc.ca/grand-public/assurance/assurances-collectives "AMF — Assurances collectives"){.source-link} Une autre différence importante concerne la durée de la protection. L'assurance collective est généralement liée à l'appartenance au groupe. Lorsqu'une personne quitte son emploi, certaines garanties peuvent donc prendre fin, bien qu'un droit de transformation en assurance individuelle puisse exister pour l'assurance-vie, selon les conditions applicables. [↗](https://lautorite.qc.ca/grand-public/assurance/assurances-collectives/assurance-vie-collective "AMF — Assurance-vie collective et droit de transformation"){.source-link} Ces notions sont approfondies dans les cours [ACT2060 – Applications probabilistes des risques actuariels](https://etudier.uqam.ca/cours?sigle=ACT2060\&utm_source=chatgpt.com) et [ACT6041 – Modèles actuariels en assurance collective](https://etudier.uqam.ca/cours?sigle=ACT6041\&utm_source=chatgpt.com), qui abordent notamment la tarification et la modélisation des risques en assurance collective.
+
+::: {#exm-2 .custom}
+
+Sophie termine ses études et obtient un emploi dans une entreprise qui lui offre un régime d'assurance collective. Son salaire annuel est de 60 000 $ et le régime comprend notamment :
+
+- Une assurance-vie correspondant à une fois son salaire annuel, soit 60 000 $;
+- Une assurance invalidité;
+- Une assurance médicaments.
+
+Lors de son embauche, le service des ressources humaines lui remet les documents expliquant les protections, les conditions d'admissibilité et les modalités de participation. Sophie effectue les démarches d'adhésion nécessaires et désigne un bénéficiaire pour son assurance-vie. Une partie des primes est payée par son employeur et l'autre est prélevée directement sur son salaire. Sophie estime toutefois que la protection d'assurance-vie de 60 000 $ est insuffisante pour répondre à ses besoins. Elle rencontre donc un conseiller en sécurité financière afin d'examiner les possibilités d'assurance individuelle. Après avoir comparé différentes protections et rempli une proposition comportant notamment des questions sur sa santé, elle obtient une assurance-vie individuelle supplémentaire de 150 000 $.
+
+Sophie dispose ainsi de deux protections distinctes :
+
+- Une assurance-vie collective de 60 000 $, offerte dans le cadre de son emploi;
+- Une assurance-vie individuelle de 150 000 $, qu'elle a souscrite personnellement.
+
+Si Sophie décède alors que les deux protections sont en vigueur et que les conditions des contrats sont respectées, les prestations totaliseront 210 000 $ et seront versées aux bénéficiaires désignés selon chacun des contrats. Quelques années plus tard, si Sophie quitte son emploi, elle pourrait perdre sa protection collective de 60 000 $, à moins de bénéficier de dispositions permettant son maintien ou sa transformation. Son assurance individuelle de 150 000 $, quant à elle, pourra continuer de la protéger indépendamment de son employeur, tant qu'elle respecte les conditions du contrat, notamment le paiement des primes. Cet exemple montre que les assurances individuelles et collectives peuvent se compléter, mais qu'elles ne sont pas souscrites, administrées ou maintenues de la même manière.
+
+:::
+
+
+## Caractéristiques des contrats privés d'assurance de personnes
+
+Les principes généraux présentés au [chapitre 8](Chap8_Juridique.qmd) servent ici de point de départ. Nous nous intéressons maintenant aux particularités des contrats privés d'assurance de personnes : les rôles des différents intervenants, le contenu de la police, l'acceptation et la prise d'effet de la couverture, son maintien et le versement des prestations. L'objectif est de comprendre comment ces règles se traduisent dans le fonctionnement d'un contrat, plutôt que d'en refaire l'exposé juridique.
+
+### Intervenants au contrat
+
+Dans un contrat d'assurance-vie, plusieurs personnes peuvent jouer des rôles distincts :
+
+- L'assureur fournit la garantie prévue au contrat.
+- Le preneur, ou titulaire, souscrit le contrat et exerce les droits qui y sont rattachés.
+- L'assuré est la personne dont le décès déclenche, le cas échéant, la prestation.
+- Le bénéficiaire est la personne désignée pour recevoir cette prestation.
+- Le payeur des primes acquitte les primes; il s'agit souvent du preneur, mais pas nécessairement.
+
+Ces rôles peuvent être réunis ou répartis entre plusieurs personnes.
+
+::: {#exm-3 .custom}
+Bernard veut protéger financièrement sa petite-fille Alice, âgée de 19 ans, si sa mère Julie décède prématurément. Il souscrit auprès d'Assurances ABC une assurance-vie de 250 000 $ sur la vie de Julie, désigne Alice comme bénéficiaire et paie les primes. Les rôles sont donc les suivants :
+
+- Assureur : Assurances ABC.
+- Preneur et payeur des primes : Bernard.
+- Assurée : Julie.
+- Bénéficiaire : Alice.
+
+Si Julie décède pendant que la protection est en vigueur, Alice recevra le capital. Bernard, bien qu'il possède et finance le contrat, n'en est pas bénéficiaire. La souscription sur la vie d'une autre personne suppose aussi le respect des règles d'intérêt d'assurance ou de consentement exposées au [chapitre 8](Chap8_Juridique.qmd).
+:::
+
+### Contenu du contrat : la police d'assurance
+
+La police consigne les garanties, les exclusions et les principales conditions de l'assurance. Elle permet notamment de retrouver :
+
+- l'identité du preneur et de l'assuré, ainsi que la désignation du bénéficiaire;
+- le risque couvert, le montant assuré et la durée de la protection;
+- les primes et les échéances de paiement;
+- les droits particuliers du titulaire, notamment le rachat, les avances sur police ou la transformation, lorsque ces mécanismes existent.
+
+La proposition et les autres documents contractuels pertinents doivent également être pris en compte pour établir les droits et obligations des parties. Comme l'explique le [chapitre 8](Chap8_Juridique.qmd), l'interprétation des clauses et les limites de la couverture ont des conséquences sur les engagements financiers de l'assureur; nous nous concentrons ici sur la façon dont ces éléments apparaissent dans la police d'assurance de personnes.
+
+
+::: {#exm-4 .custom}
+Reprenons l'exemple de Bernard, qui a souscrit une assurance-vie de 250 000 $ sur la vie de Julie, au bénéfice d'Alice. Supposons que la police précise les conditions suivantes :
+
+- Capital assuré : 250 000 $.
+- Type de protection : assurance-vie temporaire de 20 ans.
+- Durée : protection prenant fin 20 ans après la prise d'effet, sans renouvellement automatique.
+- Prime : montant annuel fixe payable par Bernard pendant la durée du contrat.
+- Bénéficiaire : Alice.
+
+Si Julie décède pendant les 20 années de couverture, Alice recevra normalement les 250 000 $, sous réserve des conditions et exclusions applicables. En revanche, si Julie décède après l'expiration du contrat et qu'aucune nouvelle protection n'a été souscrite, aucune prestation ne sera versée. Cet exemple montre que la police ne définit pas seulement le montant assuré : elle précise également les circonstances et la période pendant lesquelles l'assureur s'engage à verser une prestation.
+
+:::
+
+
+### Garanties complémentaires et avenants
+
+La police d'assurance présentée précédemment décrit les protections offertes par l'assureur et les conditions qui s'y rattachent. Toutefois, un contrat peut également comporter des garanties supplémentaires permettant d'adapter la protection aux besoins particuliers du titulaire. Ces garanties prennent souvent la forme d'avenants, c'est-à-dire de dispositions qui ajoutent ou modifient certaines conditions du contrat initial. Un avenant peut notamment augmenter le capital versé dans certaines circonstances, permettre l'ajout d'une protection ou modifier les obligations de paiement des primes. Il entraîne parfois une prime supplémentaire, selon la garantie choisie. Il faut cependant distinguer les avenants d'assurance-vie des autres produits d'assurance de personnes, qui peuvent être souscrits séparément ou, dans certains cas, combinés à une police existante. [↗](https://assuris.ca/fr/comment-suis-je-protege/protection-dassuris/assurance-vie/garanties-connexes-et-avenants/ "Assuris — Garanties connexes et avenants"){.source-link}
+
+#### **Les principaux avenants d'assurance-vie** {-}
+
+Parmi les garanties qui peuvent être ajoutées à une police d'assurance-vie, on retrouve notamment :
+
+- **Exonération des primes en cas d'invalidité.** Lorsque la personne désignée au contrat devient invalide et satisfait aux conditions prévues, l'assureur prend en charge les primes exigibles afin de maintenir la protection. Les modalités dépendent notamment de la définition de l'invalidité, du délai de carence et de la durée de l'exonération. Cette garantie est particulièrement utile lorsque l'invalidité empêche la personne responsable des primes de continuer à les payer.
+
+- **Garantie d'assurabilité future.** Elle permet d'augmenter le capital assuré à certaines dates ou à l'occasion d'événements prévus au contrat, sans devoir présenter de nouvelles preuves médicales d'assurabilité. Les montants supplémentaires sont soumis à certaines limites et la nouvelle protection est généralement tarifée selon l'âge atteint au moment de l'augmentation. Cette option peut notamment être intéressante lorsqu'une personne souhaite augmenter sa protection après la naissance d'un enfant.
+
+- **Décès ou mutilation accidentels.** Une prestation supplémentaire est versée si le décès découle d'un accident couvert. Certaines garanties prévoient également une indemnité en cas de perte accidentelle d'un membre, de la vue ou d'autres capacités, selon un barème prédéterminé. Cette garantie s'ajoute à la protection générale en cas de décès, plutôt que de la remplacer.
+
+- **Couverture familiale.** Certains contrats permettent d'ajouter une protection sur la vie du conjoint ou des enfants. Les capitaux assurés sont souvent plus modestes que celui de l'assuré principal. Ces avenants permettent de regrouper plusieurs protections au sein d'une même police.
+
+Les garanties offertes et leurs modalités peuvent varier considérablement d'un assureur à l'autre. [↗](https://www.canadalife.com/fr/assurance/assurance-vie/what-are-life-insurance-riders.html "Canada Vie — Les avenants d'assurance-vie"){.source-link}
+
+#### **Les protections liées à l'invalidité et à la santé** {-}
+
+Certaines protections déjà présentées dans ce chapitre peuvent également compléter une assurance-vie. Elles ne constituent cependant pas nécessairement des avenants, puisqu'elles peuvent être offertes sous la forme de contrats distincts.
+
+- **Rente d'invalidité.** Elle prévoit le versement d'un revenu périodique lorsque l'assuré devient incapable de travailler, selon la définition d'invalidité retenue au contrat. Contrairement à l'exonération des primes, qui permet de maintenir une assurance existante, cette protection vise principalement à remplacer une partie du revenu perdu. [↗](https://lautorite.qc.ca/grand-public/assurance/lassurance-invalidite-assurance-salaire "AMF — Assurance invalidité"){.source-link}
+
+- **Assurance maladies graves.** Elle prévoit généralement le versement d'un montant forfaitaire lorsqu'un diagnostic satisfait aux conditions d'une maladie couverte, par exemple certains cancers, certaines crises cardiaques ou certains accidents vasculaires cérébraux. Le versement dépend des définitions et des conditions du contrat, et n'exige pas nécessairement une incapacité de travailler. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-maladies-redoutees-graves "AMF — Assurance maladies graves"){.source-link}
+
+- **Assurance soins de longue durée.** Elle prévoit des prestations lorsque l'assuré présente une perte d'autonomie répondant aux critères du contrat, notamment une incapacité d'effectuer certaines activités de la vie quotidienne ou des troubles cognitifs nécessitant une surveillance. Les prestations peuvent notamment contribuer au financement de soins à domicile ou en établissement. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-soins-de-longue-duree "AMF — Assurance soins de longue durée"){.source-link}
+
+#### **Des garanties qui reposent sur des risques différents** {-}
+
+Du point de vue actuariel, ces garanties ne représentent pas simplement différentes façons de verser une prestation. Elles nécessitent aussi des hypothèses distinctes, puisque les événements assurés et la durée possible des prestations ne sont pas les mêmes. Le tableau suivant illustre les principaux risques à considérer pour chacune de ces protections.
+
+| Protection | Principaux risques à modéliser |
+|:---|:---|
+| Assurance-vie de base | Probabilité de décès et montant du capital assuré |
+| Exonération des primes | Probabilité d'invalidité, durée de l'invalidité et montant des primes exonérées |
+| Garantie d'assurabilité future | Probabilité d'exercice de l'option et caractéristiques des personnes qui l'exercent |
+| Décès ou mutilation accidentels | Fréquence des accidents couverts et montant des prestations |
+| Couverture familiale | Mortalité des personnes supplémentaires assurées |
+| Rente d'invalidité | Probabilité d'invalidité, durée et montant des prestations |
+| Assurance maladies graves | Incidence des maladies couvertes et conditions de versement |
+| Assurance soins de longue durée | Probabilité de perte d'autonomie, durée et niveau des prestations |
+
+Ce tableau fait ressortir un aspect important du travail actuariel en assurance de personnes : il ne suffit pas de connaître les probabilités de décès pour évaluer l'ensemble des garanties offertes. Il faut également étudier la morbidité, l'invalidité, la perte d'autonomie et certains comportements des assurés. Le cadre canadien de suffisance du capital des assureurs-vie distingue d'ailleurs explicitement plusieurs de ces catégories de risques. [↗](https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/life-insurance-capital-adequacy-test-2025-chapter-6-insurance-risk "BSIF — Risques d'assurance dans le TSAV"){.source-link} L'ajout de certaines garanties peut donc modifier sensiblement le risque assumé par l'assureur. C'est notamment pourquoi la souscription d'une protection supplémentaire peut nécessiter de nouveaux renseignements médicaux ou une évaluation de l'assurabilité, comme nous le verrons dans la prochaine section.
+
+
+
+::: {#exm-garanties-complementaires .custom}
+
+Les garanties complémentaires peuvent intervenir dans des situations très différentes. Considérons quatre personnes ayant souscrit diverses protections en assurance de personnes.
+
+**1. Marianne : l'arrivée d'un enfant**
+
+À 30 ans, Marianne souscrit une assurance-vie de 200 000 $, accompagnée d'une garantie d'assurabilité future. Quatre ans plus tard, à la naissance de son premier enfant, elle décide d'exercer cette option pour augmenter son capital assuré de 100 000 $, sans avoir à présenter de nouvelles preuves médicales d'assurabilité. La prime correspondant à cette protection supplémentaire est calculée selon les conditions prévues au contrat. Marianne choisit également d'ajouter une couverture familiale prévoyant un capital de 20 000 $ sur la vie de son enfant. Il s'agit d'une protection distincte : ce montant ne s'ajoute pas aux 300 000 $ maintenant assurés sur sa propre vie.
+
+**2. Nicolas : un accident entraînant une invalidité**
+
+À 45 ans, Nicolas possède une assurance-vie comprenant une exonération des primes en cas d'invalidité et une garantie de décès ou de mutilation accidentels. Il détient également une assurance invalidité lui procurant un revenu de remplacement mensuel. Nicolas subit un accident grave qui entraîne la perte permanente d'une main et l'empêche de travailler pendant plusieurs mois. Supposons que son état répond aux conditions de chacune des garanties concernées. Plusieurs protections peuvent alors intervenir :
+
+- La garantie de mutilation accidentelle verse une indemnité calculée selon le barème prévu au contrat.
+- L'assurance invalidité lui procure un revenu périodique pendant la durée où il satisfait aux conditions de cette protection.
+- Après le délai de carence applicable, l'exonération des primes lui permet de maintenir son assurance-vie sans avoir à payer les primes exigibles pendant la période admissible.
+
+En revanche, le capital de son assurance-vie de base n'est pas versé, puisque Nicolas est toujours vivant. Si l'accident avait causé son décès, la garantie de décès accidentel aurait plutôt pu entraîner le versement d'un capital supplémentaire.
+
+**3. Sophie : le diagnostic d'une maladie grave**
+
+À 48 ans, Sophie détient une assurance-vie de 250 000 $ ainsi qu'une protection de 50 000 $ contre certaines maladies graves. Elle reçoit un diagnostic de cancer qui répond à la définition d'une maladie couverte par son contrat. Après avoir satisfait aux conditions applicables, Sophie reçoit une prestation forfaitaire de 50 000 $. Elle peut utiliser cette somme selon ses besoins, notamment pour couvrir des dépenses supplémentaires ou réduire temporairement ses activités professionnelles. Cette prestation ne dépend pas nécessairement de son incapacité à travailler. Elle est déclenchée par le diagnostic admissible, contrairement à une rente d'invalidité qui repose sur une incapacité répondant à la définition du contrat. Son assurance-vie demeure en vigueur et aucun capital-décès n'est versé.
+
+**4. André : une perte d'autonomie à un âge avancé**
+
+À 76 ans, André éprouve des difficultés importantes à accomplir certaines activités de la vie quotidienne. Son état nécessite une aide régulière pour se laver et s'habiller. Plusieurs années auparavant, il avait souscrit une assurance soins de longue durée distincte de son assurance-vie. Supposons que son état satisfait aux critères de perte d'autonomie prévus au contrat. Il peut alors recevoir les prestations convenues pour contribuer au financement des soins dont il a besoin. Cette protection ne repose donc pas sur la survenance du décès, mais sur l'apparition et éventuellement la durée d'un état de dépendance.
+
+
+Ces quatre situations montrent que les garanties complémentaires peuvent répondre à des besoins très différents. Certaines permettent de modifier une protection existante, d'autres prévoient des prestations supplémentaires à la suite d'un événement particulier, tandis que certaines visent à remplacer un revenu ou à financer des soins. Un même événement peut également déclencher plusieurs garanties, à condition que les exigences propres à chacune soient respectées.
+
+:::
+
+
+### Déclarations de santé et acceptation du risque
+
+Les obligations de déclaration du risque, les conséquences d'une fausse déclaration et la distinction entre déclaration initiale et aggravation du risque ont été présentées au [chapitre 8](Chap8_Juridique.qmd). En assurance de personnes, la déclaration intervient notamment lors de la sélection médicale : l'assureur peut accepter la demande aux conditions habituelles, imposer une surprime, prévoir une exclusion ou refuser la protection.
+
+Une question plus particulière mérite toutefois d'être examinée : que se passe-t-il lorsqu'une maladie est déclarée, mais que l'assureur n'en prévoit pas expressément l'exclusion? La déclaration d'une maladie préexistante ne signifie pas automatiquement que cette maladie est exclue de la garantie. Lorsque l'assureur accepte une assurance accidents ou maladie sans prévoir de clause d'exclusion désignant nommément une affection déclarée, il ne peut généralement pas refuser ultérieurement une prestation pour le seul motif que cette affection était déjà connue, sauf en cas de fraude ([article 2417 du Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/ccq-1991#se:2417)). Il faut donc distinguer une surprime, qui modifie le coût de la couverture, d'une exclusion, qui en limite l'étendue. Les autres conditions du contrat continuent néanmoins de s'appliquer.
+
+::: {#exm-5 .custom}
+À 35 ans, Alexandre, consultant en informatique à son compte, souhaite souscrire une assurance invalidité lui garantissant un revenu de remplacement de 5 000 $ par mois. Il souffre depuis plusieurs années de la maladie de Crohn, une affection inflammatoire chronique de l'intestin. Sa condition est relativement stable, mais elle peut occasionner des épisodes nécessitant des traitements importants et des périodes d'arrêt de travail.
+
+Alexandre déclare cette maladie dans sa proposition et fournit les renseignements médicaux demandés. Après avoir évalué son dossier, l'assureur accepte de lui offrir une protection, mais exige une prime supérieure à celle d'une personne présentant un profil de risque standard. Aucune exclusion particulière concernant la maladie de Crohn n'est toutefois inscrite au contrat.
+
+Quatre ans plus tard, Alexandre subit une complication importante de sa maladie et doit interrompre ses activités professionnelles pendant huit mois. Lorsqu'il présente sa demande de prestations, l'assureur ne peut simplement refuser de l'indemniser au motif que la maladie était déjà présente lors de la souscription. Cette affection avait été déclarée et aucune clause ne l'excluait expressément. Alexandre doit néanmoins satisfaire aux autres conditions du contrat, notamment celles définissant l'invalidité assurée.
+
+La situation aurait été différente si l'assureur avait accepté le contrat en y inscrivant une exclusion visant expressément la maladie de Crohn. Une surprime et une exclusion ne produisent donc pas les mêmes effets : la première permet à l'assureur de facturer davantage pour accepter un risque, tandis que la seconde limite les événements donnant droit à une prestation.
+:::
+
+### Erreur sur l'âge de l'assuré
+
+<div style="
+float:right;
+width:28vw;
+max-width:360px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/Age.png" style="width:100%;">
+</div>
+
+L'âge intervient directement dans la tarification et parfois dans la durée des prestations. Contrairement aux fausses déclarations examinées au [chapitre 8](Chap8_Juridique.qmd), une erreur d'âge fait l'objet de règles particulières :
+
+- Si l'âge véritable dépassait les limites prévues par les tarifs à la souscription, l'assureur peut, dans les délais et conditions de l'[article 2421 du Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2421), demander la nullité de l'assurance-vie.
+- Dans les autres cas, le capital d'assurance-vie est généralement ajusté selon le rapport entre la prime payée et celle qui aurait été exigée à l'âge véritable ([article 2420](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2420)).
+
+Les deux exemples suivants illustrent les conséquences possibles sur le capital et sur la durée d'une garantie.
+
+<div style="clear: both;"></div>
+
+
+
+::: {#exm-6 .custom}
+À la souscription de son assurance-vie, Marc déclare avoir 45 ans alors qu’il en a réellement 50. Il obtient une protection de 500 000\$ moyennant une prime annuelle de 900\$. Si l’assureur avait connu son âge véritable, il aurait exigé une prime annuelle de 1 500\$ pour cette même protection. Douze ans plus tard, Marc décède. Son conjoint présente une demande de prestation de 500 000\$, mais l’assureur découvre l’erreur sur l’âge déclaré. Comme Marc était admissible à l’assurance à son âge véritable, le contrat demeure valide. Toutefois, la prestation est ajustée pour tenir compte de la prime insuffisante qui a été payée. Le capital versé est alors calculé comme suit :
+
+$$
+500\,000 \times \frac{900}{1\,500} = 300\,000
+$$
+
+Le bénéficiaire recevra donc 300 000\$ plutôt que les 500 000\$ prévus initialement. Cette réduction de 200 000\$ peut avoir des conséquences importantes : si le couple comptait notamment sur cette assurance pour rembourser un solde hypothécaire de 360 000\$, la prestation ne suffira plus à éliminer entièrement cette dette. Le contrat n’est donc pas annulé, mais la protection est ramenée au montant que la prime payée permettait réellement d’obtenir à l’âge véritable de l’assuré.
+:::
+
+L’âge peut aussi déterminer la durée de la protection. Certains contrats d’assurance-vie ou d’assurance invalidité prennent fin lorsque l’assuré atteint un âge donné. Lorsqu’une erreur est découverte, c’est alors l’âge véritable qui sert à déterminer la date de fin de la couverture.
+
+
+::: {#exm-7 .custom}
+Nadia, une professionnelle à son compte, souscrit une assurance invalidité prévoyant une prestation de 5 000\$ par mois. Son contrat stipule que la protection et le versement des prestations prennent fin lorsqu’elle atteint 65 ans. Or, une erreur dans sa date de naissance fait en sorte que l’assureur lui attribue 54 ans au moment de la souscription, alors qu’elle en a réellement 59. Trois ans plus tard, Nadia subit un accident qui la rend incapable de reprendre ses activités professionnelles. Elle a alors 62 ans, mais les renseignements figurant au dossier de l’assureur indiquent plutôt 57 ans.
+
+En consultant son contrat, Nadia pourrait croire qu’elle bénéficie encore de huit années de prestations potentielles, jusqu’à l’âge de 65 ans inscrit implicitement dans son dossier. Pourtant, l’âge véritable prévaut : sa protection prendra fin lorsqu’elle atteindra réellement 65 ans, soit dans trois ans seulement.  En supposant une invalidité permanente, et en faisant abstraction du délai de carence et des autres limitations contractuelles, la différence est considérable :
+
+- Selon l’âge déclaré : 96 mois × 5 000\$ = 480 000\$ de prestations potentielles.
+- Selon l’âge véritable : 36 mois × 5 000\$ = 180 000\$ de prestations potentielles.
+
+La différence atteint ainsi 300 000\$. Il ne s’agit pas d’une réduction du montant mensuel assuré, mais plutôt d’une diminution de la période pendant laquelle les prestations peuvent être versées. Une erreur sur l’âge peut donc modifier considérablement la valeur économique d’une protection, même lorsque le montant de la prestation demeure inchangé.
+:::
+
+### Autres éléments du contrat
+
+#### **Prise d'effet du contrat** {-}
+
+Une proposition signée ne signifie pas nécessairement que l'assurance est déjà en vigueur. Au Québec, la prise d'effet d'une assurance-vie suppose généralement l'acceptation de la proposition sans modification, le paiement de la première prime et l'absence de changement dans l'assurabilité du risque entre la proposition et l'acceptation ([article 2425 du Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2425)). En assurance contre les accidents et la maladie, la prise d'effet est généralement liée à la livraison de la police au preneur ([article 2426](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2426)). Une protection provisoire peut aussi être prévue selon les documents contractuels. Il importe donc de vérifier la date et les conditions de prise d'effet plutôt que de présumer que la signature suffit.
+
+#### **Conséquences du non-paiement des primes** {-}
+
+Le non-paiement d'une prime ne met pas toujours fin immédiatement à l'assurance. En assurance-vie, un délai de grâce de 30 jours s'applique généralement aux primes autres que la première. Une assurance individuelle qui a pris fin pour défaut de paiement peut, sous certaines conditions, être remise en vigueur à la demande du titulaire dans les deux ans, notamment moyennant le paiement des sommes dues et la preuve d'assurabilité requise ([articles 2427](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2427) et [2431](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2431) du Code civil du Québec). Cette remise en vigueur fait toutefois recommencer certains délais de deux ans, notamment ceux concernant les fausses déclarations et l'exclusion du suicide ([article 2434](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2434)). En assurance contre les accidents et la maladie, la résiliation pour non-paiement exige généralement un avis écrit transmis au titulaire au moins 15 jours à l'avance [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2430 "Source : C.c.Q., art. 2430"){.source-link}. La police doit être consultée pour établir la situation exacte du contrat et les modalités de maintien ou de remise en vigueur.
+
+#### **Possibilité de rachat du contrat** {-}
+
+Certaines assurances-vie, notamment des contrats permanents, comportent une [valeur de rachat](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/comment-utiliser-une-valeur-de-rachat-sans-mettre-fin-a-son-assurance). Le titulaire peut alors, selon les dispositions de sa police, mettre fin à la protection et recevoir une somme de l'assureur. Cette valeur ne doit pas être confondue avec la provision actuarielle constituée pour évaluer les engagements futurs de l'assureur. Le fonctionnement de ces contrats et de leur valeur de rachat sera étudié au [chapitre 12](Chap12_Assurancevie_permanente.html), consacré à l'assurance-vie permanente.
+
+#### **Suicide de l'assuré** {-}
+
+Une police d'assurance-vie peut prévoir une exclusion de la prestation en cas de suicide pendant les deux premières années de couverture [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2441 "Source : C.c.Q., art. 2441"){.source-link}. Cette exclusion doit être expressément stipulée au contrat; elle ne s'applique pas simplement parce que le décès résulte d'un suicide. Il faut donc examiner la clause et la date de prise d'effet de la protection. Cette exclusion contractuelle est distincte de la contestation du contrat pour fausse déclaration, présentée au [chapitre 8](Chap8_Juridique.qmd), même si les deux mécanismes font intervenir une période de deux ans.
+
+#### **Déclaration du sinistre et paiement des prestations** {-}
+
+Le [chapitre 8](Chap8_Juridique.qmd) a distingué la déclaration d'un sinistre, la preuve des faits donnant ouverture à la garantie et la prescription d'un recours. En assurance de personnes, des règles particulières précisent les délais de déclaration et de paiement des prestations. Ainsi, en assurance contre les accidents et la maladie, le sinistre doit généralement être déclaré par écrit dans les 30 jours suivant sa connaissance [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2435 "Source : C.c.Q., art. 2435"){.source-link}, et les renseignements requis doivent être transmis dans les 90 jours, sous réserve des exceptions prévues par la loi. De son côté, l'assureur doit généralement verser la prestation dans les 30 jours suivant la réception des justificatifs nécessaires. Ce délai est toutefois de 60 jours pour certaines assurances contre les accidents et la maladie, tandis que des règles particulières s'appliquent à l'assurance invalidité ([articles 2436 et 2437](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2436)).
+
+
+## Dispositions touchant le bénéficiaire du contrat d'assurance-vie
+
+Le [chapitre 8](Chap8_Juridique.qmd) a présenté l'intérêt d'assurance, qui concerne notamment les conditions permettant de souscrire une assurance sur la vie d'autrui. Cette notion doit être distinguée de la désignation du bénéficiaire : celle-ci détermine qui recevra le capital au décès de l'assuré, si les conditions du contrat sont remplies. La désignation mérite une attention particulière, car elle peut aussi déterminer si la prestation fera partie de la succession. Ainsi, même lorsque le capital assuré demeure inchangé, les choix de désignation peuvent avoir des conséquences financières importantes pour les proches et les créanciers.
+
+- Si [l'assurance est payable à la succession](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2456), le capital est intégré au patrimoine successoral et peut notamment servir au règlement des dettes du défunt.
+- Si [une personne est désignée directement comme bénéficiaire](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2455), elle reçoit généralement la prestation hors succession, sous réserve des règles applicables.
+
+En l'absence de bénéficiaire valide, la somme revient normalement au titulaire [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2445 "Source : C.c.Q., art. 2445"){.source-link}; lorsque le titulaire et l'assuré sont la même personne, elle entre dans sa succession. Le choix du bénéficiaire peut donc avoir des conséquences très concrètes, comme l'illustre l'exemple suivant.
+
+::: {#exm-8 .custom}
+
+Alex possède un chalet familial d’une valeur de 650 000\$ qu’il souhaite transmettre à ses deux enfants. Il détient également 20 000\$ de liquidités ainsi qu'un contrat d'assurance-vie prévoyant le versement d'un capital de 200 000\$ à son décès. Dans son testament, il prévoit que ses enfants hériteront de ses biens à parts égales. Au moment de son décès, le liquidateur estime que les dettes, les impôts et les autres obligations de la succession totalisent 115 000\$. Le patrimoine d’Alex est donc suffisamment important pour acquitter ces sommes, mais il manque de liquidités pour le faire sans vendre ou refinancer certains actifs.
+
+- Si Alex a désigné sa succession comme bénéficiaire de son assurance-vie, les 200 000\$ s’ajoutent aux 20 000\$ déjà disponibles. Le liquidateur dispose ainsi de 220 000\$ pour acquitter les obligations successorales. Une fois celles-ci réglées, il reste 105 000\$ en liquidités, en plus du chalet qui pourra être transmis aux enfants conformément au testament.
+
+- Si Alex a plutôt désigné directement sa fille Camille comme bénéficiaire, celle-ci recevra personnellement les 200 000\$. Le liquidateur ne disposera alors que des 20 000\$ appartenant à la succession pour régler les obligations de 115 000\$. Il devra trouver les 95 000\$ manquants, par exemple en refinançant le chalet ou en envisageant sa vente. Camille pourrait volontairement utiliser une partie de sa prestation pour faciliter le règlement de la succession, mais elle n'y serait généralement pas obligée.
+
+Dans cette situation, la désignation de la succession peut donc être avantageuse, puisqu’elle permet d'utiliser l’assurance-vie pour préserver les autres actifs et faciliter leur transmission aux héritiers. À l'inverse, lorsqu'une succession possède déjà suffisamment de liquidités, une désignation directe peut être préférable pour soustraire la prestation aux dettes successorales.
+
+:::
+
+### Décès du bénéficiaire et désignation d'un remplaçant
+
+Si le bénéficiaire principal décède avant l'assuré, sa désignation peut devenir sans effet ([article 2447 du Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2447)). Le titulaire peut prévoir un [bénéficiaire subsidiaire](https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/assurance/vie.html), qui recevra la prestation dans cette situation. En revanche, si le bénéficiaire survit à l'assuré, même brièvement, il acquiert normalement le droit au capital; son décès ultérieur ne transfère pas ce droit au bénéficiaire subsidiaire ([article 2453](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2453)).
+
+::: {#exm-9 .custom}
+Olivier détient une assurance-vie de 100 000\$ dont il est à la fois le titulaire et l'assuré. Il a désigné sa sœur Sophie comme bénéficiaire principale et son frère Thomas comme bénéficiaire subsidiaire. Thomas ne recevra donc le capital que si Sophie n'est plus en vie au moment du décès d'Olivier.
+
+Considérons deux situations où seule la chronologie des décès est différente.
+
+- Dans la première situation, Olivier décède et Sophie lui survit pendant quelques jours. Même si Sophie décède avant que l'assureur ait traité la réclamation, elle avait déjà acquis le droit à la prestation au décès d'Olivier. Les 100 000\$ font donc partie de la [succession de Sophie](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:625) et seront transmis à ses propres héritiers. Thomas ne reçoit pas automatiquement cette somme, malgré sa désignation comme bénéficiaire subsidiaire.
+
+- Dans la seconde situation, Sophie décède quelques jours avant Olivier. Au moment du décès de ce dernier, la bénéficiaire principale n'est plus en vie. Thomas devient alors le bénéficiaire de la prestation et reçoit directement les 100 000\$, sans que cette somme transite par la succession de Sophie.
+
+Le contrat, le montant assuré et les bénéficiaires désignés sont identiques dans les deux situations. Pourtant, la destination de la prestation est différente. Quelques jours, voire quelques minutes, peuvent donc modifier considérablement les conséquences financières d'une désignation de bénéficiaire.
+:::
+
+
+### Décès simultané de l'assuré et du bénéficiaire
+
+Lorsque l'assuré et le bénéficiaire décèdent en même temps ou dans des circonstances qui ne permettent pas d'établir l'ordre des décès, l'[article 2448 du Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2448) prévoit une présomption particulière : aux fins de l'assurance, l'assuré est réputé avoir survécu au bénéficiaire. Une exception est prévue lorsque l'assuré décède sans testament et sans héritier au degré successible. Cette règle peut modifier le destinataire du capital.
+
+::: {#exm-10 .custom}
+Alexandre détient une assurance-vie de 500 000\$ et a désigné sa conjointe Mélanie comme bénéficiaire principale. Sa fille Julie, issue d'une précédente union, est désignée comme bénéficiaire subsidiaire. Alexandre et Mélanie sont victimes d'un grave accident de la route. Tous deux décèdent, mais les circonstances de l'accident ne permettent pas d'établir avec certitude lequel est mort en premier. Cette incertitude pourrait avoir des conséquences financières importantes.
+
+- Si Mélanie avait survécu à Alexandre, même pendant quelques minutes, le droit à la prestation de 500 000\$ lui aurait appartenu. Après son propre décès, ce droit aurait fait partie de sa succession, dont les héritiers ne sont pas nécessairement les mêmes que ceux d'Alexandre.
+- À l'inverse, si Mélanie était décédée avant Alexandre, Julie aurait eu droit à la prestation en sa qualité de bénéficiaire subsidiaire.
+
+Comme l'ordre des décès ne peut être établi, la [présomption prévue par le Code civil](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2448) s'applique. Alexandre est réputé avoir survécu à Mélanie, de sorte que celle-ci est considérée comme étant décédée avant lui. Julie reçoit donc directement les 500 000\$. Cette règle ne permet évidemment pas de connaître l'ordre réel des décès. Elle établit plutôt une solution juridique à une situation qui, autrement, pourrait donner lieu à des contestations entre les successions des personnes décédées.
+:::
+
+
+### Titulaire subrogé
+
+Le titulaire d'une assurance sur la vie d'autrui peut prévoir qu'une autre personne deviendra titulaire du contrat à son propre décès [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2445 "Source : C.c.Q., art. 2445"){.source-link}. Ce titulaire subrogé reprend alors les droits associés à la police; il n'est pas nécessairement le bénéficiaire de la prestation. Le mécanisme permet de maintenir le contrat lorsque le preneur décède avant la personne assurée. Malgré la ressemblance des termes, il ne s'agit pas de la [subrogation étudiée au chapitre 8](Chap8_Juridique.qmd), où un assureur de dommages exerce les droits de l'assuré contre un tiers responsable : ici, c'est la titularité du contrat qui est transmise à une autre personne.
+
+::: {#exm-11 .custom}
+Martin est l'un des trois associés d'un cabinet de génie-conseil. Il détient personnellement une assurance-vie de 600 000\$ sur la tête de Samuel, un autre associé dont l'expertise est essentielle au fonctionnement de l'entreprise et qui a donné son consentement écrit à la souscription. Le cabinet est désigné comme bénéficiaire, puisque la prestation doit permettre de financer les coûts de remplacement de Samuel et de soutenir les activités de l'entreprise en cas de décès. Martin a également désigné Inès, la troisième associée, comme titulaire subrogée du contrat. Cette disposition prend toute son importance lorsque Martin décède subitement, alors que Samuel est toujours vivant.
+
+Le décès de Martin n'entraîne aucun versement de l'assurance-vie, puisque ce n'est pas lui qui est assuré. Cependant, grâce à la désignation effectuée, Inès devient propriétaire du contrat [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2455 "Source : C.c.Q., art. 2455"){.source-link}. Elle reprend les droits et obligations associés à celui-ci, notamment le paiement des primes nécessaires à son maintien en vigueur. La désignation du cabinet comme bénéficiaire demeure inchangée. Quatre ans plus tard, Samuel décède à son tour. Le contrat étant toujours en vigueur, l'assureur verse les 600 000\$ au cabinet, conformément à la désignation du bénéficiaire.
+
+Cet exemple met en évidence deux mécanismes distincts. Au décès de Martin, la propriété du contrat est transférée à Inès, sans qu'aucune prestation soit versée. Au décès de Samuel, c'est plutôt l'obligation de l'assureur de verser le capital assuré qui prend effet, et la somme revient au cabinet. Le titulaire subrogé n'est donc pas nécessairement celui qui recevra la prestation. Sa désignation vise avant tout à assurer la continuité de la propriété et de l'administration du contrat.
+:::
+
+
+### Révocabilité du bénéficiaire
+
+La [désignation d'un bénéficiaire est révocable](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2449) lorsque le titulaire peut la modifier sans son autorisation. Si elle est irrévocable, son consentement est normalement requis pour la remplacer. Au Québec, les règles supplétives varient notamment selon le lien avec le bénéficiaire et le mode de désignation.
+
+::: {.encadre}
+
+| Situation | Police | Écrit distinct | Testament |
+|---|---|---|---|
+| Conjoint marié | irrévocable (sauf stipulation contraire) | irrévocable (sauf stipulation contraire) | révocable |
+| Conjoint en union civile | irrévocable (sauf stipulation contraire) | irrévocable (sauf stipulation contraire) | révocable |
+| Conjoint de fait | révocable (sauf stipulation contraire) | révocable (sauf stipulation contraire) | révocable |
+| Autre personne | révocable (sauf stipulation contraire) | révocable (sauf stipulation contraire) | révocable |
+
+:::
+
+Une désignation testamentaire est toujours révocable. Le divorce, la nullité du mariage ou la dissolution de l'union civile rendent en principe caduque la désignation du conjoint à titre de bénéficiaire ou de titulaire subrogé ([article 2459 du Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2459)). La séparation de conjoints de fait n'entraîne pas automatiquement cette conséquence. Ces effets sur la désignation doivent être distingués du maintien de la validité du contrat après la disparition de l'intérêt d'assurance, examiné au [chapitre 8](Chap8_Juridique.qmd).
+
+::: {#exm-12 .custom}
+Émilie et Nicolas sont mariés depuis quinze ans. Émilie détient une assurance-vie de 400 000\$ et a désigné Nicolas comme bénéficiaire lors de la souscription, sans préciser si cette désignation est révocable ou irrévocable. Le couple se sépare, mais aucune procédure de divorce n'a encore été complétée. Émilie souhaite maintenant désigner ses deux enfants comme bénéficiaires, à parts égales. Elle communique avec son assureur pour effectuer le changement, mais apprend que la désignation de Nicolas est présumée irrévocable en vertu du Code civil du Québec [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/8-questions-et-reponses-pour-demystifier-lassurance-vie "Source : AMF — Assurance-vie"){.source-link}. Elle ne peut donc pas le remplacer sans son consentement.
+
+Supposons maintenant qu'Émilie et Nicolas aient plutôt vécu en union de fait. Dans cette situation, la désignation de Nicolas aurait été présumée révocable. Émilie aurait alors pu transmettre une nouvelle désignation écrite à l'assureur sans avoir à obtenir son autorisation.
+
+Les conséquences peuvent être importantes. Si Émilie décède avant que la situation soit régularisée, Nicolas pourrait recevoir les 400 000\$ malgré leur séparation. Le simple fait de ne plus former un couple ne suffit donc pas nécessairement à modifier les droits associés à une désignation de bénéficiaire. La distinction entre mariage et union de fait ne concerne ainsi pas seulement le droit familial : elle peut aussi avoir des répercussions importantes sur le contrôle d'un contrat d'assurance-vie.
+:::
+
+::: {#exm-13 .custom}
+En 2018, François souscrit une assurance-vie de 300 000\$ et désigne son frère Mathieu comme bénéficiaire révocable. Quelques années plus tard, François devient père d'une petite fille, Clara, et décide de modifier ses dispositions successorales. En 2025, il rédige un nouveau testament dans lequel il prévoit que Clara héritera de l'ensemble de ses biens. François suppose alors que cette disposition s'applique également à son assurance-vie. Il ne communique toutefois avec son assureur pour effectuer aucune modification. François décède l'année suivante. Lors du règlement de sa succession, le liquidateur découvre que Mathieu figure toujours comme bénéficiaire dans la police d'assurance. Or, le testament ne mentionne pas expressément cette police et ne manifeste pas clairement l'intention de modifier la désignation du bénéficiaire.
+
+Dans ces circonstances, la désignation antérieure de Mathieu demeure applicable [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2450 "Source : C.c.Q., art. 2450"){.source-link}. Il pourra donc recevoir les 300 000\$ directement de l'assureur, même si le testament prévoit que Clara hérite de l'ensemble des biens de François.
+
+La situation aurait été différente si François avait expressément désigné Clara comme bénéficiaire de cette assurance-vie dans son testament, ou si son intention de modifier la désignation antérieure avait été évidente. Une telle disposition testamentaire aurait pu remplacer la désignation de Mathieu, puisque celle-ci était révocable, sous réserve des [règles applicables à la réception des désignations par l'assureur](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2452).
+
+Cet exemple montre que modifier son testament ne revient pas nécessairement à modifier les bénéficiaires de ses contrats d'assurance. Une planification successorale cohérente exige de vérifier que les désignations figurant dans les polices correspondent toujours aux intentions du titulaire.
+:::
+
+
+
+
+### Saisissabilité du contrat d'assurance-vie
+
+Certaines assurances-vie permanentes comportent une valeur de rachat que les créanciers du titulaire pourraient chercher à saisir. Le Code civil du Québec prévoit toutefois des protections qui dépendent notamment du bénéficiaire désigné et de la révocabilité de cette désignation ([articles 2457](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2457) et [2458](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2458)). Il faut distinguer cette question, qui concerne les droits du titulaire pendant sa vie, de celle du paiement direct du capital après le décès.
+
+::: {.encadre}
+
+| Bénéficiaire désigné | Protection contre la saisie des droits du contrat |
+|---|:---:|
+| Révocable ordinaire (ami, conjoint de fait, etc.) | Généralement non |
+| Révocable privilégié (époux, conjoint uni civilement, descendant ou ascendant du titulaire) | Oui |
+| Irrévocable | Oui |
+
+:::
+
+Ces protections sont assujetties aux exceptions prévues par la loi et ne rendent pas automatiquement tous les avoirs du titulaire insaisissables. Une fois le capital versé, les droits des créanciers personnels du bénéficiaire constituent également une question distincte.
+
+::: {#exm-14 .custom}
+Isabelle est consultante à son compte depuis une quinzaine d'années. Elle détient une assurance-vie permanente offrant une prestation de décès de 500 000\$ et comportant une valeur de rachat de 85 000\$. Cette dernière représente la somme qu'elle pourrait récupérer, selon les conditions de son contrat, si elle décidait de mettre fin à sa protection.
+
+À la suite de difficultés financières dans son entreprise, Isabelle accumule des dettes personnelles de 140 000\$. Certains de ses créanciers entreprennent des démarches pour récupérer les sommes qui leur sont dues. La valeur de rachat de son assurance-vie constitue alors un actif susceptible de les intéresser. Le traitement de cet actif dépend notamment de la désignation du bénéficiaire. Considérons trois situations possibles :
+
+- Si Isabelle a désigné sa conjointe de fait comme bénéficiaire révocable, les droits associés au contrat ne bénéficient généralement pas de la protection contre la saisie prévue pour certaines catégories de bénéficiaires. Les créanciers pourraient donc, sous réserve des règles applicables, chercher à faire réaliser la valeur de rachat de 85 000\$ pour récupérer une partie de leurs créances.
+
+- Si Isabelle a plutôt désigné sa fille adulte comme bénéficiaire révocable, les droits conférés par le contrat bénéficient de la [protection prévue dans le Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2457). La valeur de rachat est alors généralement insaisissable, même si Isabelle conserve le droit de modifier sa désignation.
+
+- Isabelle aurait également pu désigner sa conjointe de fait comme bénéficiaire irrévocable. Cette désignation aurait aussi pour effet de [rendre les droits du contrat insaisissables](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2458). Toutefois, Isabelle perdrait alors une partie de sa liberté de gestion du contrat, puisqu'elle ne pourrait notamment plus modifier librement la désignation de sa conjointe.
+
+Dans les trois situations, le capital assuré et la valeur de rachat sont identiques. Ce sont les droits accordés au bénéficiaire et les règles juridiques qui en découlent qui modifient la protection contre les créanciers. Il faut toutefois préciser qu'une personne déjà aux prises avec des difficultés financières ne peut pas nécessairement rendre ses actifs insaisissables en changeant simplement de bénéficiaire. Certaines opérations effectuées au détriment des créanciers peuvent être contestées en vertu des règles relatives à l'action en inopposabilité [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1631 "Source : C.c.Q., art. 1631"){.source-link}.
+
+Cet exemple illustre ainsi que la désignation d'un bénéficiaire n'influence pas seulement la distribution du capital au décès. Elle peut également modifier la protection du patrimoine du titulaire pendant sa vie, tout en limitant, dans certains cas, sa liberté de disposer du contrat.
+:::
+
+
+## Conclusion
+
+Les protections d'assurance de personnes répondent à des besoins différents, mais leur fonctionnement repose toujours sur des conditions contractuelles précises. La distinction entre preneur, assuré et bénéficiaire, les modalités de prise d'effet ou de maintien de la couverture et les dispositions propres aux assurances de personnes peuvent changer concrètement le résultat d'une réclamation.  La désignation du bénéficiaire est particulièrement importante : elle peut modifier la destination du capital, les droits du titulaire et la situation de ses créanciers. C'est pourquoi la compréhension des contrats doit accompagner leur analyse actuarielle.
+
+
+<div style="
+  background: #F5F7FA;
+  border-left: 3px solid #A0A8B0;
+  padding: 12px 18px;
+  margin: 1.5em 0;
+  border-radius: 3px;
+">
+
+<strong>Limites des dispositions juridiques présentées</strong>
+
+<p style="margin-top: 0.6em; margin-bottom: 0;">
+
+Les règles relatives à l'assurance de personnes présentées dans ce chapitre ont été sélectionnées pour illustrer certains mécanismes juridiques qui influencent les engagements des assureurs et les droits des assurés et des bénéficiaires. Dans le cadre d'un cours d'introduction à l'actuariat, plusieurs dispositions ont volontairement été résumées ou simplifiées, tandis que d'autres n'ont pas été abordées. Les explications et les exemples proposés visent avant tout la compréhension des principes et ne constituent pas des références juridiques permettant de déterminer les droits des parties dans une situation particulière. Une telle analyse exige de consulter les dispositions pertinentes du <a href="https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991">Code civil du Québec</a>, les conditions du contrat et, au besoin, la jurisprudence applicable. Ce chapitre et le précédent doivent ainsi être considérés comme une introduction aux dimensions juridiques de l'actuariat, et non comme une présentation exhaustive du droit des assurances.
+
+</p>
+
+</div>
+
+
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### Régimes publics de santé et assurance médicaments {-}
+
+- [RAMQ — Historique de l’assurance hospitalisation et de l’assurance maladie](https://www.ramq.gouv.qc.ca/fr/a-propos/historique)
+- [Régie de l’assurance maladie du Québec (RAMQ)](https://www.ramq.gouv.qc.ca/fr)
+- [RAMQ — Services couverts par l’assurance maladie](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-maladie/informer-services-couverts)
+- [Gouvernement du Québec — Assurance maladie et assurance médicaments](https://www.quebec.ca/sante/systeme-et-services-de-sante/regimes-dassurance/assurance-maladie-assurance-medicaments)
+- [RAMQ — Conditions d’admissibilité à l’assurance médicaments](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/connaitre-conditions-admissibilite-regime-public)
+- [RAMQ — Assurance médicaments à partir de 65 ans](https://www.ramq.gouv.qc.ca/fr/citoyens/votre-65e-anniversaire)
+- [RAMQ — Vérifier si un médicament est couvert](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/savoir-si-medicament-est-couvert)
+- [RAMQ — Tarifs, franchise, coassurance et exemptions](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/tarifs-vigueur)
+- [Loi sur l’assurance médicaments (Québec)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-29.01)
+- [RAMQ — Assurance médicaments](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments)
+- [RAMQ — Renseignements sur les régimes privés](https://www.ramq.gouv.qc.ca/fr/citoyens/assurance-medicaments/renseignements-regimes-prives)
+
+### Souscription individuelle et assurance collective {-}
+
+- [Autorité des marchés financiers — Assurance vie : 5 étapes à suivre avant de vous assurer](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/5-etapes-a-suivre-avant-de-vous-assurer)
+- [Autorité des marchés financiers — Assurances collectives](https://lautorite.qc.ca/grand-public/assurance/assurances-collectives)
+- [Autorité des marchés financiers — Assurance vie collective et droit de transformation](https://lautorite.qc.ca/grand-public/assurance/assurances-collectives/assurance-vie-collective)
+
+### Pour approfondir : cours d’actuariat à l’UQAM {-}
+
+- [ACT2060 — Applications probabilistes des risques actuariels](https://etudier.uqam.ca/cours?sigle=ACT2060)
+- [ACT6041 — Modèles actuariels en assurance collective](https://etudier.uqam.ca/cours?sigle=ACT6041)
+
+### Garanties complémentaires et avenants {-}
+
+- [Assuris — Garanties connexes et avenants d’assurance-vie](https://assuris.ca/fr/comment-suis-je-protege/protection-dassuris/assurance-vie/garanties-connexes-et-avenants/)
+- [Canada Vie — Qu’est-ce qu’un avenant d’assurance-vie?](https://www.canadalife.com/fr/assurance/assurance-vie/what-are-life-insurance-riders.html)
+- [Autorité des marchés financiers — Assurance invalidité (assurance salaire)](https://lautorite.qc.ca/grand-public/assurance/lassurance-invalidite-assurance-salaire)
+- [Autorité des marchés financiers — Assurance maladies graves](https://lautorite.qc.ca/grand-public/assurance/assurance-maladies-redoutees-graves)
+- [Autorité des marchés financiers — Assurance soins de longue durée](https://lautorite.qc.ca/grand-public/assurance/assurance-soins-de-longue-duree)
+- [BSIF — Test de suffisance du capital des sociétés d’assurance-vie, chapitre 6 : risque d’assurance](https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/life-insurance-capital-adequacy-test-2025-chapter-6-insurance-risk)
+
+### Souscription, garanties et prestations {-}
+
+- [Code civil du Québec — Article 2417 (affection déclarée et exclusion)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/ccq-1991#se:2417)
+- [Code civil du Québec — Article 2421 (erreur sur l’âge)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2421)
+- [Code civil du Québec — Article 2420 (ajustement de la prestation selon l’âge)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2420)
+- [Code civil du Québec — Article 2425 (prise d’effet en assurance-vie)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2425)
+- [Code civil du Québec — Article 2426 (prise d’effet en assurance accidents et maladie)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2426)
+- [Code civil du Québec — Article 2427 (non-paiement des primes)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2427)
+- [Code civil du Québec — Article 2431 (remise en vigueur)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2431)
+- [Code civil du Québec — Article 2434 (effets de la remise en vigueur)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2434)
+- [Code civil du Québec — Article 2430 (avis pour non-paiement)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2430)
+- [AMF — Utiliser une valeur de rachat sans mettre fin à l’assurance](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/comment-utiliser-une-valeur-de-rachat-sans-mettre-fin-a-son-assurance)
+- [Code civil du Québec — Article 2441 (suicide)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2441)
+- [Code civil du Québec — Article 2435 (déclaration du sinistre)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2435)
+- [Code civil du Québec — Article 2436 (délais et justificatifs du sinistre)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2436)
+
+### Bénéficiaires, successions et saisissabilité {-}
+
+- [Code civil du Québec — Article 2456 (assurance payable à la succession)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2456)
+- [Code civil du Québec — Article 2455 (bénéficiaire et titularité)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2455)
+- [Code civil du Québec — Article 2445 (désignation et titulaire subrogé)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2445)
+- [Code civil du Québec — Article 2447 (décès du bénéficiaire)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2447)
+- [Agence de la consommation en matière financière du Canada — Assurance-vie](https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/assurance/vie.html)
+- [Code civil du Québec — Article 2453 (droits du bénéficiaire)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2453)
+- [Code civil du Québec — Article 625 (transmission successorale)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:625)
+- [Code civil du Québec — Article 2448 (décès simultanés)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2448)
+- [Code civil du Québec — Article 2449 (révocabilité du bénéficiaire)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2449)
+- [Code civil du Québec — Article 2459 (effets de la rupture matrimoniale)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2459)
+- [AMF — Huit questions et réponses sur l’assurance-vie](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/8-questions-et-reponses-pour-demystifier-lassurance-vie)
+- [Code civil du Québec — Article 2450 (désignation testamentaire)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2450)
+- [Code civil du Québec — Article 2452 (réception des désignations)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2452)
+- [Code civil du Québec — Article 2457 (protection contre la saisie)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2457)
+- [Code civil du Québec — Article 2458 (protection contre la saisie)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2458)
+- [Code civil du Québec — Article 1631 (action en inopposabilité)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1631)
+- [Code civil du Québec — Texte intégral](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991)
+
+:::
+

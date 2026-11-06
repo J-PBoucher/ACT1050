@@ -1,0 +1,1073 @@
+---
+toc: false
+date: 03/15/2026
+date-modified: last-modified
+---
+
+# L'actuariat des régimes de retraite
+
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
+
+- Comprendre les principales formes de rentes utilisées en actuariat des régimes de retraite et distinguer les rentes certaines, viagères, différées et avec période garantie;
+- Expliquer la différence entre une rente immédiate et une rente due, ainsi que l’effet de cette distinction sur la valeur actuelle des prestations;
+- Calculer et interpréter la valeur actuelle et l’évolution du passif associé à différents types de rentes;
+- Comprendre le rôle des probabilités de survie et du taux d’actualisation dans l’évaluation actuarielle des rentes;
+
+:::
+
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+:::
+
+
+## Introduction
+
+L’actuariat des régimes de retraite repose en grande partie sur l’évaluation de rentes, c’est-à-dire de séries de paiements versés selon certaines modalités dans le temps. Dès qu’un régime promet un revenu de retraite, explicite ou implicite, il devient nécessaire de déterminer la valeur actuelle de ces versements futurs et d’en suivre l’évolution au fil du temps. Nous avons vu les mathématiques actuarielles de base des rentes au [chapitre 10 — L'actuariat de l'assurance de personnes](Chap10_Actuariat_assurancepersonnes.qmd).
+
+Dans ce chapitre, nous revenons d’abord sur les notions fondamentales associées aux rentes, en distinguant notamment les rentes certaines et les rentes viagères, ainsi que les rentes immédiates, dues, différées ou assorties d’une période garantie. Nous introduisons ensuite la notion de passif actuariel, qui permet de mesurer, à un moment donné, la valeur des engagements associés à ces paiements futurs. L’objectif n’est pas seulement de présenter des formules, mais de comprendre la logique actuarielle qui les sous-tend. La valeur d’une rente dépend de la date des paiements, par l’intermédiaire de l’actualisation, et, dans le cas d’une rente viagère, des probabilités de survie. 
+
+## Retour sur les rentes
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+padding:6px;
+background:white;
+max-width:360px;
+">
+
+<img src="images/Rente.png"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+</div>
+
+</div>
+
+Une rente est une série de versements, habituellement d’un même montant, effectués à partir d’une date déterminée, à une fréquence déterminée et pour une durée fixe ou conditionnelle à un événement, notamment la survie du rentier. Le versement est effectué par une personne (physique ou morale, comme une banque, une société d’assurance, un organisme de l’État ou un organisme mis sur pied par un employeur, par exemple) à une autre personne, typiquement une personne physique que l’on appelle le rentier. On peut mentionner quelques exemples de rentes :
+
+- 100 $ par mois pendant 10 ans ;
+- 100 $ par mois pendant toute la vie.
+
+Il peut arriver que le montant versé varie dans le temps. Par exemple, une rente peut être indexée selon l’inflation, auquel cas le montant versé augmentera chaque année. Dans certains cas, la rente peut aussi prévoir un certain versement mensuel si le rentier et son conjoint sont tous deux vivants, et un versement réduit après le décès de l’une des deux personnes. Dans la pratique, de nombreuses rentes sont payées mensuellement. Toutefois, dans les exemples de calcul actuariel, on utilise souvent des rentes payées annuellement afin de simplifier la présentation mathématique.
+
+Une rente peut être achetée au moyen d'un capital versé au départ ou financée progressivement, notamment dans un régime de retraite. Pour une rente certaine achetée au moyen d'un capital, la valeur des versements repose sur le remboursement de ce capital et sur l'intérêt accumulé. Pour une rente viagère, il faut également tenir compte de la mutualisation du risque de longévité. Nous avons déjà introduit le calcul de la valeur actuelle d'une rente viagère dans le chapitre consacré aux bases de l'assurance-vie. 
+
+<div style="clear: both;"></div>
+
+
+
+
+### Rente immédiate et rente due
+
+Dans la terminologie actuarielle utilisée dans ce cours, et comme nous l'avions vu dans le <a href="Chap10_Actuariat_assurancevie.html">Chapitre 10 : L’actuariat de l’assurance-vie</a>, il est important de bien distinguer deux types de rentes selon le moment des versements :
+
+#### **Rente immédiate** {-}
+
+Une rente est dite « immédiate » si le versement débute à la fin de la première période qui suit le début de la rente.
+
+::: {#exm-rente-immediate-date .custom}
+Par exemple, si une personne achète une rente mensuelle immédiate le 1er octobre 2017, le premier versement de cette rente sera effectué le 1er novembre 2017. De même, si c’est une rente annuelle immédiate que la personne achète le 1er octobre 2017, le premier versement ne sera effectué qu’après un an, soit le 1er octobre 2018.
+:::
+
+#### **Rente due** {-}
+
+Une rente est dite « due » si le versement débute dès l’achat de la rente.
+
+::: {#exm-rente-due-date .custom}
+Par exemple, si une personne achète une rente mensuelle due le 1er octobre 2017, le premier versement de cette rente sera effectué le 1er octobre 2017. De même, si c’est une rente annuelle due que cette personne achète le 1er octobre 2017, le premier versement sera aussi effectué le 1er octobre 2017.
+:::
+
+## Rente certaine
+
+Une rente est dite « certaine » si elle est payable pour une durée prédéterminée, sans égard au fait que le rentier soit vivant ou non, ou qu’il décède ou non pendant que la rente est versée. La rente certaine relève du domaine des mathématiques financières, comme vous pouvez le voir dans le cours [ACT1200 - Mathématiques financières I](https://etudier.uqam.ca/cours?sigle=ACT1200). Le calcul d’une rente certaine ne fait intervenir que la notion d’intérêt composé, par l’intermédiaire du facteur d’actualisation $v^t = \frac{1}{(1+i)^t}$. 
+
+*L’idée ici n’est pas de refaire ce que vous avez vu dans le cours [ACT1200 - Mathématiques financières I](https://etudier.uqam.ca/cours?sigle=ACT1200), mais plutôt d’utiliser cet exemple pour mieux comprendre par la suite les notions de rentes viagères.*
+
+#### **Rente certaine due** {-}
+
+Voici des exemples de calcul d’une rente certaine due d’une durée de 10 ans, payée annuellement, selon trois taux d’intérêt $i$. 
+
+::: {.encadre}
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 11
+#| fig-align: center
+
+library(dplyr)
+library(tidyr)
+library(kableExtra)
+library(tibble)
+
+n <- 9
+
+df <- tibble(
+  duree_num = 0:n,
+  duree = as.character(0:n)
+)
+
+# Taux d'actualisation
+v2 <- 1 / 1.02
+v4 <- 1 / 1.04
+v6 <- 1 / 1.06
+
+# ------------------------------------------------------------
+# Tableau des rentes dues
+# ------------------------------------------------------------
+df_due <- df %>%
+  mutate(
+    vt_2 = v2^duree_num,
+    rente_2 = v2^duree_num,
+    vt_4 = v4^duree_num,
+    rente_4 = v4^duree_num,
+    vt_6 = v6^duree_num,
+    rente_6 = v6^duree_num
+  )
+
+tot_due <- tibble(
+  duree_num = NA,
+  duree = "Total",
+  vt_2 = NA,
+  rente_2 = sum(v2^(0:n)),
+  vt_4 = NA,
+  rente_4 = sum(v4^(0:n)),
+  vt_6 = NA,
+  rente_6 = sum(v6^(0:n))
+)
+
+tab_due <- bind_rows(df_due, tot_due) %>%
+  select(-duree_num) %>%
+  mutate(across(-duree, ~ round(.x, 6))) %>%
+  mutate(across(-duree, ~ replace_na(as.character(.x), "")))
+
+tab_due %>%
+  kbl(
+    align = "c",
+    col.names = c(
+      "Temps (t)",
+      "v<sup>t</sup>", "Rente due",
+      "v<sup>t</sup>", "Rente due",
+      "v<sup>t</sup>", "Rente due"
+    ),
+    escape = FALSE
+  ) %>%
+  add_header_above(
+    c(
+      " " = 1,
+      "2%" = 2,
+      "4%" = 2,
+      "6%" = 2
+    ),
+    escape = FALSE
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+```
+:::
+
+#### **Rente certaine immédiate** {-}
+
+Le tableau suivant présente le calcul d’une rente certaine immédiate. Contrairement à la rente due, pour laquelle les paiements sont effectués au début de chaque période et sont donc actualisés par un facteur $v^t$, les paiements d’une rente immédiate sont effectués à la fin de chaque période.  Ainsi, le paiement associé à la période $t$ est versé à la fin de cette période, c’est-à-dire au temps $t+1$, et doit donc être actualisé par le facteur $v^{t+1}$. Par exemple, pour $t=0$, aucun paiement n’est effectué dès le départ. Le premier paiement a lieu à la fin de la première année, soit au temps $1$, et sa valeur actuelle est donc $v^1$. De façon générale, le paiement correspondant à la période $t$ est actualisé par $v^{t+1}$.
+
+::: {.encadre}
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 11
+#| fig-align: center
+
+# ------------------------------------------------------------
+# Tableau des rentes immédiates
+# ------------------------------------------------------------
+df_imm <- df %>%
+  mutate(
+    vt_2 = v2^(duree_num + 1),
+    rente_2 = v2^(duree_num + 1),
+    vt_4 = v4^(duree_num + 1),
+    rente_4 = v4^(duree_num + 1),
+    vt_6 = v6^(duree_num + 1),
+    rente_6 = v6^(duree_num + 1)
+  )
+
+tot_imm <- tibble(
+  duree_num = NA,
+  duree = "Total",
+  vt_2 = NA,
+  rente_2 = sum(v2^(1:(n + 1))),
+  vt_4 = NA,
+  rente_4 = sum(v4^(1:(n + 1))),
+  vt_6 = NA,
+  rente_6 = sum(v6^(1:(n + 1)))
+)
+
+tab_imm <- bind_rows(df_imm, tot_imm) %>%
+  select(-duree_num) %>%
+  mutate(across(-duree, ~ round(.x, 6))) %>%
+  mutate(across(-duree, ~ replace_na(as.character(.x), "")))
+
+tab_imm %>%
+  kbl(
+    align = "c",
+    col.names = c(
+      "Période (t)",
+      "v<sup>t+1</sup>", "Rente immédiate",
+      "v<sup>t+1</sup>", "Rente immédiate",
+      "v<sup>t+1</sup>", "Rente immédiate"
+    ),
+    escape = FALSE
+  ) %>%
+  add_header_above(
+    c(
+      " " = 1,
+      "2%" = 2,
+      "4%" = 2,
+      "6%" = 2
+    ),
+    escape = FALSE
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+
+
+```
+:::
+
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### **Comparaison** {-}
+
+Les deux tableaux présentent la valeur actuelle des versements de rentes certaines de 10 ans selon trois taux d’intérêt : 2\%, 4\% et 6\%. Chaque ligne indique la valeur actuelle d’un versement de 1\$ à la date prévue par le contrat.
+
+- On observe d’abord la différence entre une rente immédiate et une rente due.  Dans une rente immédiate, le versement est effectué en fin de période, alors que dans une rente due, il est effectué en début de période. Pour un même taux d’intérêt positif, une même durée et des paiements identiques, la valeur totale d’une rente due est donc plus élevée que celle d’une rente immédiate.
+
+- Le tableau permet aussi d’observer l’impact du taux d’intérêt sur la valeur actuelle des versements. Plus le taux d’intérêt est élevé, plus les paiements futurs sont fortement actualisés, ce qui réduit leur valeur actuelle. Par conséquent, la valeur totale d’une rente diminue lorsque le taux d’intérêt augmente.
+
+À noter que les expressions *valeur actuelle*, *valeur présente* et *valeur actualisée* désignent ici la même notion. Le vocabulaire actuariel fait parfois coexister des termes français et des calques de l’anglais.
+
+:::
+
+### Évolution du passif d’une rente certaine
+
+Lorsqu'une institution vend une rente certaine, elle reçoit un capital en échange de son engagement à effectuer des versements futurs. Ce capital ne constitue pas un profit immédiat : il sert à financer les paiements promis au rentier. La valeur actuelle des versements restant à effectuer représente le *passif de l'institution*. Pour illustrer son évolution, considérons deux rentes comportant chacune 10 versements annuels de 1 $, une rente due, dont le premier versement est effectué immédiatement, et une rente immédiate, dont le premier versement est effectué après un an.
+
+#### **Illustration graphique** {-}
+
+Le passif d'une rente certaine évolue sous l'effet de deux mécanismes :
+
+- Entre les versements, le passif augmente en raison de l'accumulation des intérêts.
+- Lorsqu'un versement est effectué, le passif diminue immédiatement du montant payé.
+
+Le graphique suivant illustre cette évolution pour un taux d'intérêt annuel constant de 4 %, sans tenir compte des frais. Chaque chute dans les courbes correspond à un versement de 1 $ au rentier.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 14
+#| fig-align: center
+
+
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(ggplot2)
+
+# Trajectoire du passif : avant et après chaque date de paiement
+passif_certain <- function(type = "due", n = 10, differe = 0, i = 0.04) {
+  stopifnot(type %in% c("due", "immediate"), n >= 1, differe >= 0)
+  dates_paiement <- if (type == "due") {
+    differe + 0:(n - 1)
+  } else {
+    differe + 1:n
+  }
+  v <- 1 / (1 + i)
+  C0 <- sum(v^dates_paiement)
+  N <- differe + n
+
+  avant <- apres <- numeric(N + 1)
+  for (t in 0:N) {
+    avant[t + 1] <- if (t == 0) C0 else apres[t] * (1 + i)
+    paiement <- as.numeric(t %in% dates_paiement)
+    apres[t + 1] <- avant[t + 1] - paiement
+  }
+
+  tibble(t = 0:N, avant = avant, apres = apres)
+}
+
+
+# Décalage graphique minime pour distinguer avant et après paiement
+tracer_passif_certain <- function(type, differe = 0, i = 0.04, eps = 0.002) {
+  d <- passif_certain(type = type, differe = differe, i = i)
+  n <- 10
+  N <- max(d$t)
+  dates <- if (type == "due") differe + 0:(n - 1) else differe + 1:n
+
+  a <- d %>% transmute(temps = t, passif = apres)
+  b <- d %>% filter(t %in% dates) %>%
+    transmute(temps = ifelse(t == 0, 0, t - eps), passif = avant)
+  if (type == "due" && differe == 0) {
+    a <- a %>% mutate(temps = ifelse(temps == 0, eps, temps))
+  }
+  bind_rows(a, b) %>%
+    arrange(temps) %>%
+    mutate(type = if (type == "due") "Rente due" else "Rente immédiate")
+}
+
+df_detail <- bind_rows(
+  tracer_passif_certain("due"),
+  tracer_passif_certain("immediate")
+)
+
+ggplot(df_detail, aes(temps, passif)) +
+  geom_line(color = "#00BA38", linewidth = 1) +
+  facet_wrap(~ type, nrow = 1) +
+  scale_x_continuous(breaks = 0:10) +
+  labs(x = "Durée (années)", y = "Valeur du passif ($)") +
+  theme_bw() +
+  theme(
+    strip.background = element_blank(),
+    strip.text = element_text(size = 13, face = "plain")
+  )
+```
+
+Pour mieux comprendre cette évolution, suivons les premiers paiements.
+
+- **Rente due :** Le passif initial est de 8,4353 $. Le premier versement de 1 $ est effectué immédiatement, ce qui réduit le passif à 7,4353 $. Pendant l'année suivante, les intérêts le font augmenter à 7,7327 $, avant qu'un deuxième versement de 1 $ ne le ramène à 6,7327 $.
+
+- **Rente immédiate :** Le passif initial est de 8,1109 $. Comme aucun versement n'est effectué au départ, il augmente pendant la première année pour atteindre 8,4353 $. Le premier versement de 1 $ le ramène alors à 7,4353 $. Un an plus tard, le passif atteint 7,7327 $, puis diminue à 6,7327 $ après le deuxième versement.
+
+On remarque que les deux rentes présentent les mêmes valeurs de passif après leur premier versement, mais à des dates différentes. La rente due effectue son dernier paiement après 9 ans, tandis que la rente immédiate le fait après 10 ans. Dans les deux cas, le passif devient nul après le dernier versement.
+
+#### **Influence du taux d'intérêt** {-}
+
+Le taux d'intérêt influence également la valeur du passif. Pour un même calendrier de paiements futurs, un taux plus élevé réduit leur valeur actuelle. Les graphiques suivants comparent les deux rentes pour des taux annuels de 2 %, 4 % et 6 %.  On y voit que pour des paiements futurs identiques, un taux d'intérêt plus élevé entraîne généralement un passif moins élevé.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 14
+#| fig-align: center
+
+# Décalage graphique minime pour distinguer avant et après paiement
+tracer_passif_certain <- function(type, differe = 0, i = 0.04, eps = 0.002) {
+  d <- passif_certain(type = type, differe = differe, i = i)
+  n <- 10
+  N <- max(d$t)
+  dates <- if (type == "due") differe + 0:(n - 1) else differe + 1:n
+
+  a <- d %>% transmute(temps = t, passif = apres)
+  b <- d %>% filter(t %in% dates) %>%
+    transmute(temps = ifelse(t == 0, 0, t - eps), passif = avant)
+
+  if (type == "due" && differe == 0) {
+    a <- a %>% mutate(temps = ifelse(temps == 0, eps, temps))
+  }
+
+  bind_rows(a, b) %>%
+    arrange(temps) %>%
+    mutate(
+      type = if (type == "due") "Rente due" else "Rente immédiate",
+      taux = factor(
+        paste0(round(100 * i), "%"),
+        levels = c("2%", "4%", "6%")
+      )
+    )
+}
+
+# Trois taux d'intérêt pour chaque type de rente
+df_detail <- bind_rows(lapply(c(0.02, 0.04, 0.06), function(i) {
+  bind_rows(
+    tracer_passif_certain("due", i = i),
+    tracer_passif_certain("immediate", i = i)
+  )
+}))
+
+ggplot(df_detail, aes(temps, passif, color = taux, group = taux)) +
+  geom_line(linewidth = 1) +
+  facet_wrap(~ type, nrow = 1) +
+  scale_x_continuous(breaks = 0:10) +
+  labs(
+    x = "Durée (années)",
+    y = "Valeur du passif ($)",
+    color = "Taux d'intérêt"
+  ) +
+  theme_bw() +
+  theme(
+    strip.background = element_blank(),
+    strip.text = element_text(size = 13, face = "plain")
+  )
+```
+
+## Rente certaine différée
+
+Une rente certaine est dite différée si elle est achetée un certain temps avant le début de sa période de versement.
+
+::: {#exm-rente-certaine-differee .custom}
+Par exemple, supposons qu’une personne achète l’une des deux rentes décrites précédemment, mais 10 ans avant le début de leur période de versement. Si le taux d’intérêt annuel demeure de 4\%, on obtient leur coût à la date d'achat en actualisant sur 10 ans les valeurs des rentes calculées précédemment, à l'aide de $v^{10}=0.6755642$.
+
+Dans ce cas :
+
+- pour la rente immédiate, la valeur actuelle $C$ se calcule comme suit :
+
+$$ C = 8,110896 \times v^{10} = 5,479431 $$
+
+- pour la rente due, la valeur actuelle $C$ se calcule comme suit :
+
+$$ C = 8,435332 \times v^{10} = 5,698608 $$
+:::
+
+
+### Évolution du passif d’une rente certaine différée
+
+Pendant les 10 années de différé, aucun versement n'est effectué. La valeur du passif croît au taux de 4 % jusqu'au début de la période de paiement : elle passe de 5,4794 \$ à 8,1109 \$ pour la rente immédiate, et de 5,6986 \$ à 8,4353 \$ pour la rente due. Dans la convention retenue, le premier paiement de la rente due intervient au temps $t=10$ et celui de la rente immédiate au temps $t=11$. Les graphiques suivants reprennent le mécanisme de calcul précédent, mais avec un différé de 10 ans.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4
+#| fig-width: 14
+#| fig-align: center
+
+library(ggplot2)
+library(dplyr)
+
+# La fonction est définie à la section précédente.
+df_differe <- bind_rows(
+  tracer_passif_certain("due", differe = 10),
+  tracer_passif_certain("immediate", differe = 10)
+)
+
+ggplot(df_differe, aes(temps, passif)) +
+  geom_line(color = "#00BA38", linewidth = 1) +
+  facet_wrap(~ type, nrow = 1) +
+  scale_x_continuous(breaks = 0:20) +
+  labs(x = "Durée (années)", y = "Valeur du passif ($)") +
+  theme_bw() +
+  theme(
+    strip.background = element_blank(),
+    strip.text = element_text(size = 13, face = "plain")
+  )
+```
+
+## Rente viagère
+
+Une rente est dite **viagère** lorsque les versements se poursuivent aussi longtemps que le rentier est en vie. Contrairement à une rente certaine, dont la durée est connue à l'avance, le nombre total de versements d'une rente viagère est donc incertain. Pour calculer la valeur d'une rente viagère, il faut tenir compte de deux éléments :
+
+- Le taux d'intérêt $i$, qui permet d'actualiser les paiements futurs.
+- Les probabilités de survie ${}_t p_x$, qui représentent la probabilité qu'une personne âgée de $x$ ans soit encore en vie dans $t$ années. Ces probabilités proviennent généralement de tables de mortalité.
+
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### **Types de rentes** {-}
+
+Comme pour les rentes certaines, on distingue deux types de rentes viagères :
+
+- La rente viagère due : les versements sont effectués au début de chaque période, tant que le rentier est vivant.
+- La rente viagère immédiate : les versements sont effectués à la fin de chaque période, à condition que le rentier soit encore vivant.
+
+La valeur d'une rente viagère correspond ainsi à la valeur actuelle des paiements futurs, chacun étant pondéré par la probabilité que le rentier soit vivant au moment du versement.  Nous avions vu le principe de la rente viagère étudiée dans le [chapitre sur l’assurance-vie](Chap10_Actuariat_assurancevie.html).
+
+:::
+
+### Illustration 
+
+Pour illustrer ce calcul, reprenons l'exemple de la rente certaine au taux de 4 %, mais en ajoutant des probabilités de survie pour chacune des 10 années. Les probabilités utilisées sont fictives. En particulier, la probabilité de survie à 10 ans est fixée à zéro pour simplifier et terminer l'exemple numérique. Cette hypothèse n'est pas réaliste.
+
+::: {.encadre}
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(kableExtra)
+
+n <- 9
+i <- 0.04
+v <- 1 / (1 + i)
+
+px <- c(
+  0.970000,
+  0.930000,
+  0.880000,
+  0.780000,
+  0.650000,
+  0.500000,
+  0.350000,
+  0.220000,
+  0.120000,
+  0.000000
+)
+
+df <- tibble(
+  t = 0:n,
+  duree = as.character(0:n),
+  survie = px,
+  vt = v^(t + 1),
+  rente_immediate = survie * vt
+)
+
+tot <- tibble(
+  t = NA,
+  duree = "Total",
+  survie = NA,
+  vt = NA,
+  rente_immediate = sum(df$rente_immediate, na.rm = TRUE)
+)
+
+tab_rente_viagere <- bind_rows(df, tot) %>%
+  select(duree, vt, survie, rente_immediate) %>%
+  mutate(
+    vt = ifelse(is.na(vt), NA, round(vt, 6)),
+    survie = ifelse(is.na(survie), NA, round(survie, 6)),
+    rente_immediate = ifelse(
+      is.na(rente_immediate),
+      NA,
+      formatC(rente_immediate, format = "f", digits = 6)
+    )
+  ) %>%
+  mutate(across(everything(), ~ replace_na(as.character(.x), "")))
+
+tab_rente_viagere %>%
+  kbl(
+    align = "c",
+    col.names = c(
+      "Période (t)",
+      "v<sup>t+1</sup>",
+      "<sub>t+1</sub>p<sub>x</sub>",
+      "Rente immédiate"
+    ),
+    escape = FALSE
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+
+
+
+```
+:::
+
+Les résultats tableau met en évidence plusieurs éléments importants.
+
+- La valeur actuelle de chaque versement est égale au montant du versement (1,00 \$), multiplié par le facteur d’actualisation $v^{t+1}$ et par la probabilité de survie ${}_{t+1} p_x$. Un paiement futur n’est donc pris en compte que dans la mesure où le rentier est encore en vie au moment où ce paiement devrait être effectué.
+
+- Pour un même montant de versement, une rente viagère coûte, toutes choses étant égales par ailleurs, moins cher qu’une rente certaine. Certains versements ne seront jamais effectués si le rentier décède avant la date prévue. L’effet de la mortalité réduit donc la valeur actuelle de la rente.
+
+- Les probabilités de survie utilisées dans le tableau dépendent de l’hypothèse de mortalité retenue. Si l’on suppose une mortalité plus élevée, les probabilités de survie diminuent et la valeur initiale de la rente devient plus faible. À l’inverse, une population plus longévive entraîne une valeur plus élevée de la rente.
+
+- Dans l’exemple présenté, les facteurs d’actualisation sont calculés avec un taux d’intérêt de 4 \%. Ce taux détermine la valeur actuelle des paiements futurs, alors que les probabilités de survie déterminent la proportion de paiements qui seront versés en moyenne.
+
+
+### Évolution du passif d’une rente viagère
+
+Lorsqu’une rente viagère est achetée, l’institution qui la vend reçoit un montant initial en échange d’un engagement de paiements futurs conditionnels à la survie du rentier. Du point de vue de cette institution, ces paiements constituent un passif, puisqu’ils représentent des sorties de fonds potentielles à venir. La valeur de ce passif dépend de la valeur actuelle des paiements futurs attendus, calculée en tenant compte du taux d’intérêt et des probabilités de survie. 
+
+Le graphique ci-dessous illustre l'évolution du passif espéré d'une rente viagère, pour un contrat initialement émis au temps $t=0$. Par convention, la valeur représentée à chaque année correspond au passif immédiatement après le paiement prévu à cette date.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(tibble)
+library(ggplot2)
+
+# Hypothèses de la rente viagère immédiate de l'exemple
+survie_viagere <- c(
+  0.970000, 0.930000, 0.880000, 0.780000, 0.650000,
+  0.500000, 0.350000, 0.220000, 0.120000, 0.000000
+)
+i_viager <- 0.04
+
+# Passif espéré par contrat émis au temps 0, avant/après paiement.
+# La garantie éventuelle porte sur les premiers paiements.
+calcul_passif_viager <- function(survie, i, garantie = 0) {
+  n <- length(survie)
+  t <- seq_len(n)
+  v <- 1 / (1 + i)
+  paiement_espere <- ifelse(t <= garantie, 1, survie)
+  prix <- sum(v^t * paiement_espere)
+
+  avant <- rep(NA_real_, n + 1)
+  apres <- numeric(n + 1)
+  apres[1] <- prix
+
+  for (k in t) {
+    avant[k + 1] <- apres[k] * (1 + i)
+    apres[k + 1] <- avant[k + 1] - paiement_espere[k]
+  }
+
+  # Éliminer les traces numériques proches de zéro
+  avant[!is.na(avant) & abs(avant) < 1e-12] <- 0
+  apres[abs(apres) < 1e-12] <- 0
+
+  tibble(t = 0:n, avant = avant, apres = apres)
+}
+
+# Dessiner la valeur juste avant, puis juste après chaque paiement
+points_passif_viager <- function(d, libelle, eps = 0.001) {
+  bind_rows(
+    d %>% transmute(temps = t, passif = apres),
+    d %>% filter(t > 0) %>%
+      transmute(temps = t - eps, passif = avant)
+  ) %>%
+    arrange(temps) %>%
+    mutate(type = libelle)
+}
+
+passif_viager <- calcul_passif_viager(survie_viagere, i_viager)
+
+ggplot(points_passif_viager(passif_viager, "Rente viagère"),
+       aes(x = temps, y = passif)) +
+  geom_line(color = "#00BA38", linewidth = 1) +
+  scale_x_continuous(breaks = 0:10) +
+  labs(
+    x = "Durée (années)",
+    y = "Passif espéré par contrat initial ($)"
+  ) +
+  theme_bw()
+```
+
+L’évolution du passif présente une trajectoire décroissante au fil du temps, mais avec une dynamique différente de celle observée dans le cas d’une rente certaine. Entre deux dates de paiement, le passif augmente en raison de l’accumulation des intérêts. Au moment du versement, il diminue, mais cette diminution est plus faible que dans le cas certain, puisque le paiement est pondéré par la probabilité de survie. À mesure que le temps avance, les probabilités de survie diminuent, ce qui réduit progressivement l’importance des paiements futurs. Cette double dynamique — accumulation financière et décroissance des probabilités de survie — explique la forme du graphique.
+
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### **Rente viagère versus rente certaine** {-}
+
+Cet exemple numérique met en évidence une différence importante entre la rente certaine et la rente viagère. Dans le cas viager, le passif espéré est calculé à partir des paiements futurs possibles, pondérés par les probabilités de survie depuis l'origine du contrat. Il ne représente donc pas nécessairement la provision qui sera établie à une date future, lorsque l'on saura si le rentier est encore vivant. En effet, le nombre de rentiers encore vivants à cette date peut différer du nombre anticipé. Une institution qui verse des rentes viagères doit donc tenir compte de cette incertitude lorsqu'elle établit ses provisions actuarielles, c'est-à-dire les valeurs estimées de ses engagements futurs, compte tenu de l'information disponible et des hypothèses retenues.
+
+:::
+
+### Mortalité anticipée et mortalité observée
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+padding:6px;
+background:white;
+max-width:360px;
+">
+
+<img src="images/PredictSurvie.png"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+</div>
+
+</div>
+
+
+Contrairement à une rente certaine, dont le nombre et les dates des versements sont connus dès le départ, une rente viagère comporte une incertitude importante : on ne sait pas combien de temps le rentier vivra. Pour calculer son passif, l'assureur utilise donc des probabilités de survie. Celles-ci permettent d'estimer les paiements futurs, mais elles ne permettent pas de prédire exactement combien de rentiers seront encore vivants à une date donnée. Au fil des années, l'assureur observe le nombre réel de survivants et le compare à ses prévisions. Deux situations peuvent alors se présenter :
+
+- Si les survivants sont moins nombreux que prévu, l'assureur aura moins de rentes à verser dans le futur. Son passif sera donc inférieur au montant anticipé, ce qui entraîne un gain actuariel.
+- Si les survivants sont plus nombreux que prévu, l'assureur devra continuer à verser davantage de rentes. Son passif sera supérieur au montant anticipé, ce qui entraîne une perte actuarielle.
+
+Ce risque lié à la mortalité n'existe pas pour une rente certaine, puisque les versements ne dépendent pas de la survie du bénéficiaire. Cela ne signifie toutefois pas que son passif est exempt de toute incertitude : sa valeur peut notamment varier si les taux d'intérêt utilisés pour l'évaluer changent.
+
+<div style="clear: both;"></div>
+
+::: {#exm-5 .custom}
+Nous continuous avec les hypothèses de notre illustration. Supposons maintenant qu’un groupe de 10 personnes achète la même rente viagère au temps $t=0$. Comparez le passif actuariel du groupe au temps $t=5$, immédiatement après le paiement, selon qu'il reste 4, 5, 6 ou 7 survivants à ce moment.
+:::
+
+::: {.custom-solution}
+**Solution.**
+
+D’après les probabilités utilisées dans l’exemple, la probabilité de survie jusqu’au temps $t=5$ est ${}_5p_x=0.650$. On s’attend donc, en moyenne, à ce que
+
+$$
+10\times0.650=6.5
+$$
+
+personnes soient encore vivantes au temps $t=5$.  D'après le graphique, le passif espéré au temps $t=5$ est de 1,1025 $ par contrat initialement émis. Pour les 10 contrats, le passif total anticipé est donc :
+
+$$
+10\times1.1025\approx11.025\ \$.
+$$
+
+Mais ce montant correspond à un nombre moyen de 6,5 survivants attendus. En réalité, il y aura nécessairement un nombre entier de survivants. Pour déterminer la provision associée à une personne encore vivante, on peut répartir le passif total anticipé entre les 6,5 survivants attendus. En utilisant la valeur non arrondie du calcul précédent, on obtient :
+
+$$
+\frac{11.025196}{6.5}\approx1.696184\ \$.
+$$
+
+Autrement dit, la provision actuarielle pour une personne encore vivante au temps $t=5$ est d'environ 1,696 $. On suppose ici que le taux d'intérêt et les hypothèses de mortalité pour les années suivantes demeurent inchangés. Le passif total du groupe dépend alors du nombre de survivants effectivement observé :
+
+| Survivants | Passif actuariel |
+|---:|---:|
+| 4 | $4\times1.696184\approx6.785$ \$ |
+| 5 | $5\times1.696184\approx8.481$ \$ |
+| 6 | $6\times1.696184\approx10.177$ \$ |
+| 7 | $7\times1.696184\approx11.873$ \$ |
+
+On peut maintenant comparer ces montants au passif initialement anticipé de 11,025 $, toutes choses étant égales par ailleurs.
+
+- **Avec 4 survivants**, le passif est de 6,785 $, soit environ 4,240 $ de moins que prévu. L'assureur réalise un gain actuariel.
+- **Avec 5 survivants**, le passif est de 8,481 $, soit environ 2,544 $ de moins que prévu. L'assureur réalise également un gain.
+- **Avec 6 survivants**, le passif est de 10,177 $, légèrement inférieur au montant prévu. L'assureur réalise un gain d'environ 0,848 $.
+- **Avec 7 survivants**, le passif atteint 11,873 $, soit environ 0,848 $ de plus que prévu. L'assureur subit alors une perte actuarielle.
+
+Cet exemple illustre une caractéristique fondamentale des rentes viagères : plus les rentiers vivent longtemps, plus les engagements financiers de l'assureur sont importants, pour des prestations et des hypothèses financières inchangées. À l'inverse, une mortalité plus élevée que prévu réduit les engagements futurs. Dans la pratique, les institutions financières regroupent un grand nombre de contrats afin de rendre les résultats de mortalité plus prévisibles. Toutefois, même avec un portefeuille important, des écarts peuvent subsister entre la mortalité observée et celle anticipée dans les calculs actuariels.
+:::
+
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### **Interprétation de la provision actuarielle** {-}
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+padding:6px;
+background:white;
+max-width:360px;
+">
+
+<img src="images/Ralph.png"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+</div>
+
+</div>
+
+Lorsqu'une personne achète cette rente viagère immédiate de 1 $ par année, la prime unique pure est de 4,682037 $, selon nos hypothèses de mortalité et un taux d'intérêt de 4 %. Cette somme représente la valeur actuelle espérée des paiements futurs, sans frais ni chargements. Elle ne constitue donc pas un profit immédiat pour l'assureur : elle sert à financer les prestations promises. [↗](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-17-insurance-contracts/ "Fondation IFRS — IFRS 17, évaluation des engagements d'assurance"){.source-link}
+
+Au fil des années, l'assureur doit réévaluer son passif en fonction du nombre de rentiers encore vivants. Les écarts entre la mortalité anticipée et la mortalité observée peuvent alors avoir des conséquences financières importantes :
+
+- **Moins de survivants que prévu :** l'assureur a moins de prestations futures à verser. Son passif diminue par rapport aux prévisions, ce qui peut libérer une partie des sommes jusque-là nécessaires pour couvrir ses engagements. Cette diminution représente un gain actuariel qui peut contribuer à ses profits. [↗](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-17-insurance-contracts/ "Fondation IFRS — IFRS 17, comptabilisation des résultats d'assurance"){.source-link}
+
+- **Plus de survivants que prévu :** l'assureur doit financer davantage de prestations futures. Son passif augmente par rapport aux prévisions, ce qui entraîne une perte actuarielle. Il doit alors disposer de ressources supplémentaires pour couvrir cet engagement, notamment en affectant une plus grande partie de ses actifs à la couverture du passif. [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/test-suffisance-du-capital-societes-dassurance-vie-ligne-directrice-2025 "BSIF — Test de suffisance du capital des sociétés d'assurance vie, section 6.3 : Risque de longévité"){.source-link}
+
+Ainsi, même si les prestations promises à chaque rentier sont connues, leur coût total demeure incertain. La rentabilité des rentes viagères dépend notamment de la capacité de l'assureur à prévoir correctement la mortalité de ses assurés. [↗](https://www.cia-ica.ca/fr/etre-membre/normes-de-pratique/ "Institut canadien des actuaires — Normes de pratique, partie 2000 : Assurance"){.source-link}
+
+<div style="clear: both;"></div>
+
+:::
+
+
+## Rente viagère avec période garantie
+
+Une personne qui achète une rente viagère peut décéder peu de temps après le début des versements. Dans le cas d’une rente viagère immédiate, aucun paiement n’est versé si le décès survient avant la fin de la première période. Même si cette situation est conforme au contrat, elle peut paraître défavorable pour le rentier et ses proches. Pour atténuer l’effet d’un décès prématuré, il est possible d’ajouter une période garantie à la rente.
+
+Une rente viagère avec période garantie prévoit qu’un nombre minimal de paiements sera versé, que le rentier soit vivant ou non. Si le rentier décède durant cette période, les paiements restants sont généralement versés au bénéficiaire ou à la succession. Si le rentier survit à la période garantie, la rente continue ensuite aussi longtemps qu’il demeure en vie.
+
+### Illustration 
+
+Pour illustrer ce mécanisme, supposons qu’une rente viagère immédiate comporte une période garantie de 5 ans. Dans ce cas, les paiements des cinq premières années sont garantis par le contrat. Ils seront donc versés soit au rentier s’il est vivant, soit au bénéficiaire ou à la succession s’il est décédé. À partir de la sixième année, la rente redevient une rente viagère immédiate ordinaire : les paiements ne sont effectués que si le rentier est encore en vie. Les versements effectués après la période garantie doivent donc être pondérés par les probabilités de survie. Le tableau ci-dessous illustre ce calcul.
+
+::: {.encadre}
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(kableExtra)
+
+n <- 9
+i <- 0.04
+v <- 1 / (1 + i)
+garantie <- 5
+
+px <- c(
+  0.970000,
+  0.930000,
+  0.880000,
+  0.780000,
+  0.650000,
+  0.500000,
+  0.350000,
+  0.220000,
+  0.120000,
+  0.000000
+)
+
+df <- tibble(
+  t = 0:n,
+  duree = as.character(0:n),
+  survie = px,
+  vt = v^(t + 1),
+  facteur_paiement = ifelse(t < garantie, 1, survie),
+  rente_garantie = vt * facteur_paiement
+)
+
+tot <- tibble(
+  t = NA,
+  duree = "Total",
+  survie = NA,
+  vt = NA,
+  facteur_paiement = NA,
+  rente_garantie = sum(df$rente_garantie, na.rm = TRUE)
+)
+
+tab_rente_garantie <- bind_rows(df, tot) %>%
+  select(duree, vt, survie, facteur_paiement, rente_garantie) %>%
+  mutate(
+    vt = ifelse(is.na(vt), NA, round(vt, 6)),
+    survie = ifelse(is.na(survie), NA, round(survie, 6)),
+    facteur_paiement = ifelse(is.na(facteur_paiement), NA, round(facteur_paiement, 6)),
+    rente_garantie = ifelse(
+      is.na(rente_garantie),
+      NA,
+      formatC(rente_garantie, format = "f", digits = 6)
+    )
+  ) %>%
+  mutate(across(everything(), ~ replace_na(as.character(.x), "")))
+
+tab_rente_garantie %>%
+  kbl(
+    align = "c",
+    col.names = c(
+      "Période (t)",
+      "v<sup>t+1</sup>",
+      "<sub>t+1</sub>p<sub>x</sub>",
+      "Facteur de paiement",
+      "Rente avec garantie"
+    ),
+    escape = FALSE
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = FALSE,
+    position = "center"
+  )
+```
+:::
+
+On obtient ainsi une valeur de 5,3580 \$ pour la rente avec période garantie, comparativement à 4,6820 \$ pour la rente viagère de base. Cette différence s’explique par le fait que les cinq premiers paiements sont garantis par le contrat : ils sont versés avec certitude, indépendamment de la survie du rentier. Le coût supplémentaire provient donc entièrement de cette période garantie. À partir de la sixième année, les paiements redeviennent conditionnels à la survie, et les valeurs obtenues coïncident avec celles de la rente viagère de base.  
+
+Ci-dessous, on compare l'évolution du passif espéré par contrat initial pour la rente viagère avec et sans garantie. Dans les deux cas, les valeurs sont calculées à partir de la même cohorte initiale et du même taux d'intérêt. La rente garantie commence avec un passif plus élevé, puisque les cinq premiers versements seront effectués même en cas de décès. Après le cinquième versement, les engagements restants sont identiques à ceux de la rente viagère sans garantie, sous les mêmes hypothèses.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(ggplot2)
+
+# Les fonctions ont été définies dans la section précédente.
+df_comparaison <- bind_rows(
+  points_passif_viager(
+    calcul_passif_viager(survie_viagere, i_viager, garantie = 0),
+    "Rente viagère"
+  ),
+  points_passif_viager(
+    calcul_passif_viager(survie_viagere, i_viager, garantie = 5),
+    "Avec garantie 5 ans"
+  )
+)
+
+ggplot(df_comparaison, aes(temps, passif, color = type)) +
+  geom_line(linewidth = 1) +
+  scale_color_manual(values = c(
+    "Rente viagère" = "#00BA38",
+    "Avec garantie 5 ans" = "#D55E00"
+  )) +
+  scale_x_continuous(breaks = 0:10) +
+  labs(x = "Durée (années)",
+       y = "Passif espéré par contrat initial ($)", color = "") +
+  theme_bw()
+```
+
+## Rente viagère différée
+
+Une rente viagère est dite différée si elle est achetée un certain temps avant le début des versements. Pendant la période de différé, aucun paiement n'est effectué. Les versements débutent après ce délai, puis se poursuivent tant que le rentier est vivant.
+
+::: {#exm-rente-viagere-differee .custom}
+Supposons que la rente viagère immédiate de notre exemple, qui coûterait 4,682037 \$ à la date de début des paiements, soit achetée 10 ans à l'avance. Sa valeur actuelle ne s'obtient pas seulement en actualisant ce montant : il faut aussi considérer que la rente ne sera versée que si l'assuré est vivant à cette date.
+
+Il s'agit ici d'un nouveau scénario fictif : on suppose que la probabilité de survie pendant les dix années de différé est ${}_{10}p_x=0.80$, et que, pour une personne vivante au temps 10, les probabilités de survie des années suivantes sont celles de notre exemple de rente immédiate. Il ne faut donc pas interpréter le 0,80 comme la probabilité au temps 10 du tableau précédent. Avec un taux d'intérêt de 4 %, la valeur actuelle devient
+
+$$
+C=4.682037\times v^{10}\times{}_{{10}}p_x
+=4.682037\times(1.04)^{-10}\times0.80
+\approx2.5304\ \$.
+$$
+
+Il s'agit d'une prime unique pure simplifiée, sans frais ni autres garanties. On suppose que les probabilités de survie après le temps 10, conditionnellement à la survie jusque-là, sont celles du tableau fictif de la rente immédiate.
+:::
+
+L'évolution du passif espéré par contrat émis au temps 0 est illustrée ci-dessous. Durant les 10 ans de différé, il n'y a aucun versement et, selon notre convention de calcul par contrat initial, le passif espéré augmente au taux de 4 %. Au temps 10, il vaut donc $0.80\times4.682037\approx3.7456$ \$. Après cette date, le passif espéré suit le même profil que celui d'une rente viagère immédiate, mais multiplié par la probabilité initiale $0.80$ de parvenir à la retraite.
+
+```{r}
+#| code-fold: true
+#| echo: true
+#| message: false
+#| warning: false
+#| fig-height: 4.8
+#| fig-width: 9
+#| fig-align: center
+
+library(dplyr)
+library(tibble)
+library(ggplot2)
+
+defer <- 10
+p_defer <- 0.80
+i <- i_viager
+v <- 1 / (1 + i)
+
+# Passif de la rente viagère à la date du début des paiements,
+# évalué conditionnellement à la survie jusque-là.
+df_post <- calcul_passif_viager(survie_viagere, i)
+valeur_t10 <- df_post$apres[1]
+prix_t0 <- p_defer * v^defer * valeur_t10
+
+# Phase de différé, aucune prestation versée
+phase_differ <- tibble(
+  temps = 0:defer,
+  passif = prix_t0 * (1 + i)^(0:defer)
+)
+
+# Phase de versement : passif espéré pour le contrat initial
+phase_versement <- points_passif_viager(df_post, "Rente différée") %>%
+  filter(temps > 0) %>%
+  transmute(
+    temps = temps + defer,
+    passif = p_defer * passif
+  )
+
+df_differe_viager <- bind_rows(phase_differ, phase_versement) %>%
+  arrange(temps)
+
+ggplot(df_differe_viager, aes(temps, passif)) +
+  geom_line(color = "#00BA38", linewidth = 1) +
+  scale_x_continuous(breaks = 0:20) +
+  labs(x = "Durée (années)",
+       y = "Passif espéré par contrat initial ($)") +
+  theme_bw()
+```
+
+La courbe est exprimée partout selon la même convention : une valeur espérée par contrat initialement émis, et non la provision d'un rentier dont la survie serait connue à chaque date. Pendant le différé, la mortalité future est déjà intégrée à la valeur initiale; aucun paiement n'est soustrait avant le temps 10. À partir du temps 11, les versements espérés réduisent progressivement le passif.
+
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### **Interprétation de la provision actuarielle** {-}
+
+<div style="
+float:right;
+display:inline-block;
+margin:0 0 1em 1em;
+text-align:center;
+padding:6px;
+background:white;
+max-width:260px;
+">
+
+<img src="images/Brian.png"
+style="width:100%; height:auto; display:block;">
+
+<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
+</div>
+
+</div>
+
+Une particularité importante des rentes viagères différées est que le passif existe dès la souscription du contrat, même si les premiers versements ne commencent que plusieurs années plus tard. Par exemple, une personne de 55 ans pourrait acheter une rente dont les versements commenceront à 65 ans. Même si l'assureur n'a rien à verser pendant les 10 premières années, il doit déjà tenir compte de cet engagement dans son passif. Pour évaluer ce passif, l'assureur doit notamment considérer :
+
+- La probabilité que le rentier soit encore vivant au début des versements, à 65 ans.
+- Les probabilités de survie pendant les années suivantes, qui déterminent la durée possible des paiements.
+- Le taux d'intérêt utilisé pour actualiser l'ensemble de ces paiements futurs.
+
+Pendant la période de différé, le passif évolue donc même si aucun paiement n'est effectué. À mesure que le début des versements approche, l'assureur doit réévaluer son engagement en tenant compte notamment du temps écoulé et de la survie du rentier. [↗](https://www.osfi-bsif.gc.ca/fr/bac/rapports-actuariels/rapport-actuariel-relatif-rentes-sur-letat-au-31-mars-2024 "BSIF — Rapport actuariel relatif aux Rentes sur l'État"){.source-link}
+
+<div style="clear: both;"></div>
+
+:::
+
+
+
+
+## Conclusion
+
+Ce chapitre a permis de comprendre comment les actuaires évaluent les engagements financiers associés aux rentes. Qu'il s'agisse d'une rente certaine, viagère, différée ou assortie d'une période garantie, le principe demeure le même : déterminer la valeur actuelle des paiements futurs en tenant compte des caractéristiques du contrat. Deux éléments jouent un rôle particulièrement important dans ces calculs :
+
+- Le taux d'intérêt, qui permet d'actualiser les paiements futurs et influence directement la valeur du passif.
+- Les probabilités de survie, qui interviennent dans les rentes viagères puisque le nombre de versements dépend de la durée de vie du rentier.
+
+Nous avons également vu que le passif actuariel n'est pas une valeur fixe. Il évolue avec les paiements effectués, l'accumulation des intérêts et, dans le cas des rentes viagères, la mortalité observée. Des écarts entre les prévisions et la réalité peuvent ainsi entraîner des gains ou des pertes actuariels pour l'institution qui verse les rentes. Ces notions constituent le fondement de l'actuariat des régimes de retraite. Derrière la promesse relativement simple de verser un revenu à une personne pendant sa retraite se trouve un engagement financier qui doit être évalué, financé et suivi pendant de nombreuses années. C'est précisément l'un des rôles essentiels de l'actuaire.
+
+
+
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### Comprendre les différents types de rentes {-}
+
+- [Autorité des marchés financiers — Rente viagère et rente à durée déterminée](https://lautorite.qc.ca/grand-public/investissements/regimes-depargne/rente-viagere-et-rente-a-duree-determinee)
+- [Agence de la consommation en matière financière du Canada — Rentes : fonctionnement, rentes différées et périodes garanties](https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/planification-retraite/rentes.html)
+
+### Mathématiques financières et probabilités de survie {-}
+
+- [UQAM — ACT1200 : Mathématiques financières I](https://etudier.uqam.ca/cours?sigle=ACT1200)
+- [Statistique Canada — Tables de mortalité, tableau 13-10-0114-01](https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=1310011401)
+
+### Passif actuariel et risque de longévité {-}
+
+- [Institut canadien des actuaires — Normes de pratique, parties 2000 (assurance) et 3000 (régimes de retraite)](https://www.cia-ica.ca/fr/etre-membre/normes-de-pratique/)
+- [Fondation IFRS — IFRS 17, contrats d'assurance et évaluation des engagements](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-17-insurance-contracts/)
+- [BSIF — Test de suffisance du capital des sociétés d'assurance vie (2025), chapitre 6 : Risque d'assurance, notamment le risque de longévité](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/test-suffisance-du-capital-societes-dassurance-vie-2025-chapitre-6-risque-dassurance)
+- [BSIF — Rapport actuariel relatif aux Rentes sur l'État au 31 mars 2024](https://www.osfi-bsif.gc.ca/fr/bac/rapports-actuariels/rapport-actuariel-relatif-rentes-sur-letat-au-31-mars-2024)
+
+:::
+
+

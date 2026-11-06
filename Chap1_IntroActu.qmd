@@ -20,6 +20,14 @@ date-modified: last-modified
 
 :::
 
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+:::
+
 
 ## Définition de l’actuaire et de l’actuariat
 
@@ -72,7 +80,7 @@ text-align:center;
 
 ### Domaines de pratique traditionnels de l'actuaire
 
-Au-delà des définitions formelles de ce qu’est un actuaire, il est parfois plus utile de détailler ce que font *réellement* les actuaires en pratique afin de mieux comprendre ce qu’est la science actuarielle. Il existe plusieurs manières de présenter les domaines de l’actuariat.  Un premier coup d’œil sur les 5 grands domaines traditionnels de l'actuariat peut permettre une bonne compréhension de ce qu'est l'actuariat.
+Au-delà des définitions formelles de ce qu’est un actuaire, il est parfois plus utile de détailler ce que font *réellement* les actuaires en pratique afin de mieux comprendre ce qu’est la science actuarielle. Il existe plusieurs manières de présenter les domaines de l’actuariat.  Un premier coup d’œil sur les 5 grands domaines traditionnels de l'actuariat peut permettre une bonne compréhension de ce qu'est l'actuariat. [↗](https://www.cia-ica.ca/fr/les-actuaires/ "Source : ICA, aperçu des domaines de pratique actuarielle"){.source-link}
 
 ::: {.callout-important icon=false}
 ## Le domaine des régimes de retraite
@@ -85,7 +93,7 @@ Supposons qu’une personne souhaite se constituer un revenu mensuel à la retra
 
 Pour répondre à ces questions, l’actuaire doit tenir compte de plusieurs sources d’incertitude fondamentales. Le rendement futur des placements n’est pas connu à l’avance et il est également incertain que la personne atteigne l’âge prévu de la retraite. Enfin, la durée de vie après la retraite — qui détermine combien de temps le revenu devra être versé — est elle aussi inconnue.
 
-Ce type d’analyse, appliqué à une seule personne, prend une tout autre dimension lorsqu’il est étendu à l’ensemble de la population. Dans ce contexte, le rôle de l’actuaire consiste à quantifier les conséquences financières d’événements futurs incertains, afin d’éclairer tant les décisions individuelles que les choix collectifs.
+Ce type d’analyse, appliqué à une seule personne, prend une tout autre dimension lorsqu’il est étendu à l’ensemble de la population. Dans ce contexte, le rôle de l’actuaire consiste à quantifier les conséquences financières d’événements futurs incertains, afin d’éclairer tant les décisions individuelles que les choix collectifs. [↗](https://www.retraitequebec.gouv.qc.ca/fr/publications/programmes/regimes-complementaires-retraite/bien-administrer-regime-retraite "Source : Retraite Québec, évaluations actuarielles des régimes de retraite"){.source-link}
 :::
 
 ::: {.callout-important icon=false}
@@ -98,7 +106,7 @@ Considérons une entreprise qui offre à ses employés un régime d’assurance 
 
 Pour répondre à ces questions, l’actuaire doit estimer la fréquence et le coût futur des réclamations, en tenant compte de l’évolution de l’état de santé des assurés, des tendances médicales et de l’inflation des coûts de soins. Il doit aussi considérer que les comportements peuvent changer lorsque les individus sont assurés, ce qui influence l’utilisation des services.
 
-À l’échelle collective, l’enjeu est d’équilibrer la générosité des protections offertes, la stabilité des primes et la viabilité financière du régime, autant pour l’employeur que pour les employés.
+À l’échelle collective, l’enjeu est d’équilibrer la générosité des protections offertes, la stabilité des primes et la viabilité financière du régime, autant pour l’employeur que pour les employés. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/soins-de-sante/ "Source : ICA, soins de santé et prestations collectives"){.source-link}
 :::
 
 ::: {.callout-important icon=false}
@@ -109,7 +117,7 @@ Supposons qu’un assureur offre des polices d’assurance annuelles, pour la pr
 - Quelle prime faut-il demander aujourd’hui pour être en mesure de payer les sinistres futurs, tout en demeurant compétitif ?
 - Quelles sont les caractéristiques des assurés qui doivent être considérées dans le calcul des primes (segmentation) ?
 
-L’actuaire doit estimer combien de sinistres surviendront, à quelle fréquence, et à quel coût moyen. Ces estimations dépendent de nombreux facteurs incertains : le comportement des assurés, l’évolution des conditions climatiques, l’inflation des coûts de réparation ou encore les changements réglementaires.  La segmentation des risques joue également un rôle important pour limiter les problèmes d’*anti-sélection*, qui surviennent notamment lorsque les assurés disposent d’informations sur leur niveau de risque que l’assureur ne possède pas.
+L’actuaire doit estimer combien de sinistres surviendront, à quelle fréquence, et à quel coût moyen. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurances-iard/ "Source : ICA, missions des actuaires en assurance IARD"){.source-link} Ces estimations dépendent de nombreux facteurs incertains : le comportement des assurés, l’évolution des conditions climatiques, l’inflation des coûts de réparation ou encore les changements réglementaires.  La segmentation des risques joue également un rôle important pour limiter les problèmes d’*anti-sélection*, qui surviennent notamment lorsque les assurés disposent d’informations sur leur niveau de risque que l’assureur ne possède pas.
 
 :::
 
@@ -118,7 +126,7 @@ L’actuaire doit estimer combien de sinistres surviendront, à quelle fréquenc
 
 Considérons une personne qui souscrit une assurance-vie afin de protéger financièrement ses proches en cas de décès. L’assureur s’engage à verser un montant prédéterminé au moment du décès, mais sans savoir quand cet événement surviendra. La question actuarielle fondamentale est alors la suivante : quelle prime faut-il demander pour couvrir cette promesse, tout en tenant compte du fait que certains assurés vivront très longtemps, alors que d’autres décéderont plus tôt que prévu ?
 
-Pour y répondre, l’actuaire s’appuie sur des modèles de mortalité et sur des hypothèses concernant les rendements financiers, puisque les primes perçues aujourd’hui seront investies avant d’être éventuellement versées. L’incertitude porte à la fois sur la durée de vie des assurés et sur la performance future des placements. À l’échelle de la population assurée, l’assurance-vie repose sur la mutualisation du risque : les primes perçues permettent de financer les prestations, dont le moment du versement demeure incertain. L’actuaire joue alors un rôle clé en s’assurant que cet équilibre demeure viable dans le temps.
+Pour y répondre, l’actuaire s’appuie sur des modèles de mortalité et sur des hypothèses concernant les rendements financiers, puisque les primes perçues aujourd’hui seront investies avant d’être éventuellement versées. L’incertitude porte à la fois sur la durée de vie des assurés et sur la performance future des placements. À l’échelle de la population assurée, l’assurance-vie repose sur la mutualisation du risque : les primes perçues permettent de financer les prestations, dont le moment du versement demeure incertain. L’actuaire joue alors un rôle clé en s’assurant que cet équilibre demeure viable dans le temps. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurance-vie/ "Source : ICA, pratique actuarielle en assurance vie"){.source-link}
 
 :::
 
@@ -135,14 +143,14 @@ Plusieurs questions de nature actuarielle se posent alors :
 
 Pour répondre à ces questions, l’actuaire doit modéliser l’évolution aléatoire des rendements financiers et analyser l’interaction entre les actifs et les passifs. L’incertitude ne porte pas uniquement sur les rendements futurs, mais aussi sur leur volatilité et sur la possibilité de chocs financiers majeurs.
 
-À l’échelle institutionnelle, la finance actuarielle vise à assurer l’équilibre et la solvabilité à long terme, en tenant compte à la fois des opportunités offertes par les marchés financiers et des risques qui y sont associés. Le rôle de l’actuaire est alors de quantifier ces risques et d’éclairer les décisions d’investissement afin de maintenir la viabilité financière des engagements pris.
+À l’échelle institutionnelle, la finance actuarielle vise à assurer l’équilibre et la solvabilité à long terme, en tenant compte à la fois des opportunités offertes par les marchés financiers et des risques qui y sont associés. Le rôle de l’actuaire est alors de quantifier ces risques et d’éclairer les décisions d’investissement afin de maintenir la viabilité financière des engagements pris. [↗](https://www.cia-ica.ca/fr/les-actuaires/ "Source : ICA, domaines de pratique, notamment les placements"){.source-link}
 
 :::
 
 
 ## Survol du programme de baccalauréat en actuariat de l'UQAM
 
-Dans le cadre de ce cours d’introduction à l’actuariat du baccalauréat en actuariat de l’UQAM, en plus des exemples liés aux domaines traditionnels, il est approprié de s’appuyer directement sur les cours du programme afin de mieux comprendre ce qu'est l'actuariat, et d'ainsi mieux cerner ces domaines. On peut ainsi voir ci-dessous le cheminement type du profil régulier, présentant d’abord les 23 cours obligatoires du programme, puis les six cours optionnels (dont au moins cinq siglés ACT) et le cours de communication. Ce cheminement correspond au [programme officiel en vigueur depuis l’automne 2026](https://etudier.uqam.ca/programme?code=7363&version=20263).
+Dans le cadre de ce cours d’introduction à l’actuariat du baccalauréat en actuariat de l’UQAM, en plus des exemples liés aux domaines traditionnels, il est approprié de s’appuyer directement sur les cours du programme afin de mieux comprendre ce qu'est l'actuariat, et d'ainsi mieux cerner ces domaines. On peut ainsi voir ci-dessous le cheminement type du profil régulier, présentant d’abord les 23 cours obligatoires du programme, puis les six cours optionnels (dont au moins cinq siglés ACT) et le cours de communication. Ce cheminement correspond au programme officiel en vigueur depuis l’automne 2026. [↗](https://etudier.uqam.ca/programme?code=7363&version=20263 "Source : UQAM, baccalauréat en actuariat, version automne 2026"){.source-link}
 
 ::: {.content-visible when-format="html"}
 <div class="grid-actuariat">
@@ -599,7 +607,7 @@ La finance actuarielle se situe à l’interface entre l’actuariat et la finan
 
 ### Cheminement Honor
 
-Ceux qui ont un peu analysé le programme d'études en actuariat de l'UQAM savent qu'il existe aussi un profil Honor du baccalauréat, permettant à l'étudiant qui manifeste un désir particulier pour la recherche en actuariat de s'y initier et d'accéder plus facilement aux études de cycles supérieurs en mathématiques actuarielles et financières.  Le diagramme ci-dessous illustre le cheminement type avec deux cours de recherche, **ACT6071** et **MAT8594**. Le cours **MAT8600** peut aussi être choisi : les étudiants doivent suivre au moins deux des trois cours proposés, et non obligatoirement les trois. Le cheminement type comporte cinq cours optionnels, dont au moins trois siglés ACT, et deux cours axés sur la recherche; d’autres combinaisons demeurent possibles dans les limites prévues au règlement du programme.
+Ceux qui ont un peu analysé le programme d'études en actuariat de l'UQAM savent qu'il existe aussi un profil Honor du baccalauréat, permettant à l'étudiant qui manifeste un désir particulier pour la recherche en actuariat de s'y initier et d'accéder plus facilement aux études de cycles supérieurs en mathématiques actuarielles et financières.  Le diagramme ci-dessous illustre le cheminement type avec deux cours de recherche, **ACT6071** et **MAT8594**. Le cours **MAT8600** peut aussi être choisi : les étudiants doivent suivre au moins deux des trois cours proposés, et non obligatoirement les trois. Le cheminement type comporte cinq cours optionnels, dont au moins trois siglés ACT, et deux cours axés sur la recherche; d’autres combinaisons demeurent possibles dans les limites prévues au règlement du programme. [↗](https://etudier.uqam.ca/programme?code=7359 "Source : UQAM, descriptif officiel du profil Honor"){.source-link}
 
 ::: {.html}
 <div class="grid-actuariat">
@@ -763,7 +771,7 @@ Ceux qui ont un peu analysé le programme d'études en actuariat de l'UQAM saven
 
 Il peut paraître particulier de constater que les cours axés sur la recherche **MAT8594** et **MAT8600** portent un sigle *MAT*, bien qu’ils soient offerts dans le cadre du profil Honor en actuariat. Cela s’explique par le fait que les études de cycle supérieur en actuariat à l’UQAM s’inscrivent dans une **concentration de la maîtrise en mathématiques**, et non dans une maîtrise en actuariat autonome. 
 
-Plus précisément, les diplômés du baccalauréat en actuariat de l’UQAM ayant obtenu une moyenne cumulative d’au moins 3,2 sur 4,3 satisfont normalement au critère de moyenne exigé pour l’admission à la [maîtrise en mathématiques, concentration en mathématiques actuarielles et financières](https://etudier.uqam.ca/programme?code=1912). Leur admission demeure toutefois soumise à l’évaluation de leur dossier. Cette structure reflète la nature fondamentalement mathématique et scientifique de l’actuariat avancé, où les problématiques pratiques sont abordées à l’aide de cadres théoriques sophistiqués issus des probabilités, de la statistique et de l’analyse mathématique.
+Plus précisément, les diplômés du baccalauréat en actuariat de l’UQAM ayant obtenu une moyenne cumulative d’au moins 3,2 sur 4,3 satisfont normalement au critère de moyenne exigé pour l’admission à la [maîtrise en mathématiques](https://etudier.uqam.ca/programme?code=1912), concentration en mathématiques actuarielles et financières. Leur admission demeure toutefois soumise à l’évaluation de leur dossier. Cette structure reflète la nature fondamentalement mathématique et scientifique de l’actuariat avancé, où les problématiques pratiques sont abordées à l’aide de cadres théoriques sophistiqués issus des probabilités, de la statistique et de l’analyse mathématique.
 
 En plus des cinq grands domaines de pratique de l’actuariat présentés précédemment, le programme accorde également une place importante à la recherche scientifique en actuariat, qui vise à développer de nouveaux modèles, à améliorer les méthodes existantes et à répondre à des problématiques émergentes de l’industrie. Cet aspect sera également abordé dans le cadre de ce cours.
 
@@ -795,7 +803,7 @@ Plusieurs autres domaines de pratique de l’actuariat sont possibles en dehors 
 
 La réassurance consiste, pour un assureur, à transférer une partie de ses risques à un autre assureur appelé réassureur. Ce mécanisme permet de limiter l’exposition aux pertes importantes, de stabiliser les résultats financiers et de rendre assurables des risques qui seraient autrement trop concentrés ou trop rares. En réassurance, l’actuaire intervient notamment dans la tarification des risques transférés, l’analyse des sinistres extrêmes et l’évaluation des besoins en capital.
 
-La réassurance illustre ainsi un aspect fondamental de l’actuariat : la mutualisation des risques à une plus grande échelle, appuyée sur des modèles probabilistes et une analyse rigoureuse de l’incertitude.
+La réassurance illustre ainsi un aspect fondamental de l’actuariat : la mutualisation des risques à une plus grande échelle, appuyée sur des modèles probabilistes et une analyse rigoureuse de l’incertitude. [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/saines-pratiques-procedures-reassurance-ligne-directrice-2025 "Source : BSIF, rôle de la réassurance dans le transfert et la gestion des risques"){.source-link}
 :::
 
 ::: {.callout-important icon=false}
@@ -805,7 +813,7 @@ La réassurance illustre ainsi un aspect fondamental de l’actuariat : la mutua
 
 Les organismes publics qui gèrent des programmes sociaux administrent des régimes collectifs de très grande envergure, couvrant parfois l’ensemble de la population. Selon leur nature, ces régimes reposent sur différents mécanismes de financement et de mutualisation. Leur financement peut notamment provenir des cotisations des travailleurs et des employeurs, de la fiscalité générale et, dans certains cas, des revenus de placement. Les prestations et les modalités de financement sont encadrées par la loi.
 
-Dans ce contexte, l’actuariat intervient pour analyser la viabilité financière de ces programmes sur des horizons de temps très longs, souvent de plusieurs décennies. Les enjeux portent sur l’évolution démographique, les changements dans les comportements de la population, l’évolution des coûts et l’adéquation entre les prestations promises et les ressources disponibles. Ce secteur met particulièrement en évidence le rôle de l’actuaire comme analyste de politiques publiques et comme expert du risque collectif à long terme.
+Dans ce contexte, l’actuariat intervient pour analyser la viabilité financière de ces programmes sur des horizons de temps très longs, souvent de plusieurs décennies. Les enjeux portent sur l’évolution démographique, les changements dans les comportements de la population, l’évolution des coûts et l’adéquation entre les prestations promises et les ressources disponibles. Ce secteur met particulièrement en évidence le rôle de l’actuaire comme analyste de politiques publiques et comme expert du risque collectif à long terme. [↗](https://www.retraitequebec.gouv.qc.ca/fr/publications/programmes/regime-rentes-quebec-rrq/evaluations-actuarielles/evaluation-actuarielle-regime-rentes-quebec-31-decembre-2024 "Source : Retraite Québec, évaluation actuarielle du RRQ"){.source-link}
 :::
 
 
@@ -816,7 +824,7 @@ Dans ce contexte, l’actuariat intervient pour analyser la viabilité financiè
 
 Les organismes de réglementation ont pour mandat d’assurer la stabilité du système financier et la protection du public. Ils encadrent les activités des assureurs, des régimes de retraite et d’autres institutions financières en imposant des règles en matière de solvabilité, de capitalisation et de gestion des risques.
 
-Dans ce secteur, l’actuariat est mobilisé pour évaluer la solidité financière des institutions, interpréter les résultats actuariels produits par les sociétés réglementées et contribuer à l’élaboration de cadres normatifs. Le travail actuariel vise ici à s’assurer que les engagements pris envers les assurés et les bénéficiaires pourront être honorés, même en présence de scénarios défavorables. Ce champ de pratique illustre le rôle de l’actuaire comme garant de la stabilité financière et de la confiance du public.
+Dans ce secteur, l’actuariat est mobilisé pour évaluer la solidité financière des institutions, interpréter les résultats actuariels produits par les sociétés réglementées et contribuer à l’élaboration de cadres normatifs. Le travail actuariel vise ici à s’assurer que les engagements pris envers les assurés et les bénéficiaires pourront être honorés, même en présence de scénarios défavorables. Ce champ de pratique illustre le rôle de l’actuaire dans la stabilité financière et la confiance du public. [↗](https://lautorite.qc.ca/grand-public/a-propos-de-lamf/mission "Source : AMF, mission de surveillance et de protection du public"){.source-link} [↗](https://www.osfi-bsif.gc.ca/fr/propos-du-bsif "Source : BSIF, mandat de surveillance prudentielle fédérale"){.source-link}
 :::
 
 ::: {.callout-important icon=false}
@@ -826,7 +834,7 @@ La gestion des risques d’entreprise s’intéresse à l’ensemble des risques
 
 Les outils actuariels y sont utilisés pour identifier, mesurer et analyser l’incertitude associée à divers scénarios futurs. Ce domaine s’inscrit naturellement dans la logique actuarielle, puisqu’il repose notamment sur l’identification, la quantification et la gestion des risques.
 
-Pour l’actuaire, la gestion des risques d’entreprise constitue un prolongement naturel des méthodes utilisées en assurance et en finance, appliquées à un cadre organisationnel plus large.
+Pour l’actuaire, la gestion des risques d’entreprise constitue un prolongement naturel des méthodes utilisées en assurance et en finance, appliquées à un cadre organisationnel plus large. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/gestion-du-risque-dentreprise/ "Source : ICA, gestion du risque d’entreprise"){.source-link}
 :::
 
 ::: {.callout-important icon=false}
@@ -834,7 +842,7 @@ Pour l’actuaire, la gestion des risques d’entreprise constitue un prolongeme
 
 On retrouve de plus en plus d’actuaires dans des secteurs connexes. Leur présence est notamment observée dans l’administration de régimes de retraite, la gestion de la rémunération et des ressources humaines, la gestion d’actifs, la finance quantitative, le courtage d’assurance, l’analyse actuarielle des impacts climatiques, la cybersécurité et l’analyse des risques technologiques, ainsi que le secteur bancaire.
 
-Dans ces milieux, les outils actuariels sont parfois mobilisés de manière moins habituelle que dans les domaines traditionnels. Toutefois, la capacité à analyser des données, à modéliser l’incertitude et à soutenir la prise de décision demeure centrale. Cela illustre la flexibilité de la formation actuarielle et montre que l’actuariat constitue avant tout une expertise quantitative en gestion du risque, applicable à une grande diversité de contextes.
+Dans ces milieux, les outils actuariels sont parfois mobilisés de manière moins habituelle que dans les domaines traditionnels. Toutefois, la capacité à analyser des données, à modéliser l’incertitude et à soutenir la prise de décision demeure centrale. Cela illustre la flexibilité de la formation actuarielle et montre que l’actuariat constitue avant tout une expertise quantitative en gestion du risque, applicable à une grande diversité de contextes. [↗](https://www.cia-ica.ca/fr/les-actuaires/ "Source : ICA, domaines de pratique au-delà de l’assurance et des régimes de retraite"){.source-link}
 
 Il est également possible qu’après un baccalauréat en actuariat, certains diplômés s’orientent vers des domaines connexes sans exercer immédiatement dans un domaine actuariel traditionnel. Parmi ces trajectoires, on retrouve, notamment chez nos diplômés de l’UQAM, la science des données, l’intelligence artificielle et l’apprentissage automatique, l’analytique d’affaires, la modélisation et la simulation, ainsi que la conception et l’analyse de jeux vidéo.
 :::
@@ -844,392 +852,273 @@ Au cours de sa carrière, un actuaire peut travailler dans plusieurs secteurs d'
 
 ## Les différents rôles et fonctions des actuaires
 
-Les actuaires exercent dans plusieurs secteurs où l’incertitude financière est centrale. Certains rôles reviennent d’un secteur à l’autre — tarification, provisionnement, analyses d’expérience, développement de produits — mais les méthodes et les jeux de données diffèrent selon la nature du risque, l’horizon temporel, et le cadre réglementaire.
+Les actuaires exercent dans plusieurs secteurs où l'incertitude financière occupe une place centrale. Bien que les principes de la science actuarielle demeurent les mêmes, les risques étudiés varient considérablement selon le domaine de pratique. En assurance de personnes, on s'intéresse principalement à la mortalité, à la morbidité, à l'invalidité et à la longévité. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurance-vie/ "Institut canadien des actuaires — Assurance vie"){.source-link} En assurance IARD, les analyses portent davantage sur la fréquence et la sévérité des sinistres, leur volatilité et la dépendance entre les événements. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurances-iard/ "Institut canadien des actuaires — Assurances IARD"){.source-link} Dans le domaine des régimes de retraite et des programmes sociaux, les actuaires doivent plutôt projeter des engagements financiers sur de longues périodes, en combinant des hypothèses démographiques et économiques. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/regimes-de-retraite/ "Institut canadien des actuaires — Régimes de retraite"){.source-link} Malgré ces différences, plusieurs fonctions se retrouvent dans la plupart des domaines de pratique. On peut les regrouper en cinq grandes catégories :
 
-::: {.callout-warning icon=false}
-## Objets différents
-La science actuarielle reste la même, mais avec des objets différents:  
-- En **assurance de personnes**, on modélise surtout la mortalité, la morbidité, l’invalidité et la longévité.   
-- En **assurance IARD**, l’accent porte davantage sur la fréquence et la sévérité des sinistres, la volatilité et la dépendance entre événements.   
-- En **retraite** et en **programmes sociaux**, on projette des flux sur de longues périodes en combinant hypothèses démographiques et financières.  
-:::
+- Analyse et modélisation des risques : étudier les données et l'expérience passée, utiliser des méthodes statistiques, notamment la crédibilité, et construire des modèles permettant de quantifier les risques et l'incertitude. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/analytique-predictive/ "Institut canadien des actuaires — Analytique prédictive"){.source-link}
 
-Bien que plusieurs rôles se recoupent, les méthodes, données et outils utilisés par les actuaires varient selon le contexte de pratique. De manière générale, les activités actuarielles incluent notamment :
+- Tarification et développement de produits : déterminer les primes ou les cotisations, concevoir de nouveaux produits d'assurance et adapter les couvertures existantes.
 
-- Tarification de produits et de couvertures d’assurance ou de régimes, tant à un niveau général que spécifique  
-- Analyse et modélisation des risques et de l’incertitude  
-- Calcul des provisions, passifs actuariels et autres engagements futurs  
-- Analyse d’expérience et crédibilité des données  
-- Développement, évaluation et adaptation de produits  
-- Évaluation de la solvabilité, de la capitalisation et de la santé financière  
-- Tests de sensibilité, analyses de scénarios et stress tests  
-- Production de rapports actuariels et réglementaires  
-- Soutien à la prise de décision et à la gouvernance  
-- Analyses démographiques et projections à long terme  
-- Évaluation de l’impact de changements législatifs ou réglementaires  
-- Conseils techniques aux assureurs, institutions ou organismes publics  
-- Développement de normes, méthodes et outils quantitatifs  
+- Évaluation des engagements financiers : calculer les provisions et les passifs actuariels, évaluer la solvabilité et la capitalisation des régimes et réaliser des projections financières à long terme.
+
+- Analyse de scénarios : effectuer des tests de sensibilité et des simulations de crise afin de mesurer les conséquences possibles de changements économiques, démographiques ou réglementaires. [↗](https://www.cia-ica.ca/fr/publications/225095f/ "Institut canadien des actuaires — Examen de la santé financière"){.source-link}
+
+- Conseil et responsabilités professionnelles : préparer des rapports actuariels et réglementaires, évaluer les conséquences de modifications législatives, soutenir la prise de décision et contribuer au développement de normes, de méthodes et d'outils quantitatifs. [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/actuaire-designe-dispositions-legislatives-qualifications-examen-pairs-ligne-directrice-2023 "BSIF — Actuaire désigné : dispositions législatives, qualifications et examen par des pairs"){.source-link}
+
+Ces activités ne sont pas indépendantes les unes des autres. Par exemple, les modèles développés pour analyser les risques peuvent servir aussi bien à établir les tarifs qu'à évaluer les engagements financiers ou à orienter les décisions d'un assureur.
 
 ## Les principaux employeurs d'actuaires
 
-::: {.callout-note title="Note sur la mise à jour des employeurs"}
-Les listes présentées ci-dessous ont été constituées il y a plusieurs années et n'ont pas fait l'objet d'une mise à jour systématique récente. Depuis, certaines entreprises ont pu changer de nom, fusionner ou modifier leurs activités.
+La formation en actuariat ouvre la porte à une grande variété d'employeurs. Si les sociétés d'assurance et les firmes d'actuariat-conseil constituent les milieux de pratique les plus traditionnels, les compétences des actuaires sont également recherchées dans les institutions financières, les organismes publics et plusieurs grandes organisations. Les besoins varient selon le type d'employeur. Dans une société d'assurance, les actuaires participent notamment à la tarification des produits, à l'évaluation des engagements financiers et à la gestion des risques. Dans une firme d'actuariat-conseil, ils interviennent plutôt auprès de plusieurs clients, notamment pour l'évaluation de régimes de retraite, les programmes d'avantages sociaux et les questions de gestion des risques. D'autres organisations font également appel à des actuaires pour gérer leurs engagements financiers, analyser leurs investissements ou soutenir leurs décisions stratégiques. Les listes suivantes présentent des exemples d'employeurs présents principalement dans la région de Montréal, mais aussi ailleurs au Québec.
 
-Ces listes demeurent utiles pour illustrer la diversité des employeurs d'actuaires dans la région de Montréal, mais elles ne doivent pas être considérées comme exhaustives ni entièrement à jour.
 
-Une révision de ces listes par les responsables du programme d'actuariat de l'UQAM serait souhaitable afin de mieux refléter la réalité actuelle du marché de l'emploi.
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### **À propos de ces listes** {-}
+
+Ces listes ont été constituées il y a plusieurs années et n'ont pas été entièrement actualisées. Elles sont donc présentées à titre indicatif et ne sont pas exhaustives. Depuis leur établissement, certains employeurs ont changé de nom, fusionné ou modifié leurs activités. Pour compléter ces listes et découvrir d'autres employeurs d'actuaires au Canada, on peut consulter le [répertoire des employeurs de l'Institut canadien des actuaires](https://www.cia-ica.ca/fr/les-actuaires/employeurs-dactuaires/).
+
 :::
 
-### Les plus gros employeurs {-}
-
-De manière générale, les plus gros employeurs d’actuaires sont ceux qui ont un besoin structurel et permanent d’expertise actuarielle à l’interne. Il s’agit principalement :
-
-- des sociétés d’assurance et de réassurance ;
-- des firmes d’actuariat-conseil, de plus en plus présentées comme des firmes de solutions intégrées en ressources humaines.
-
-Les tableaux suivants présentent quelques employeurs importants d’actuaires dans la région de Montréal.
-
-#### Sociétés d’assurance de personnes (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-library(knitr)
-library(kableExtra)
-
-assurance_personnes <- data.frame(
-  `Nom de la société` = c(
-    "Assurance vie Banque Nationale",
-    "Croix Bleue du Québec",
-    "Croix Bleue Medavie (Atlantic Blue Cross)",
-    "Desjardins Sécurité financière",
-    "Humania Société d'assurance vie (St-Hyacinthe)",
-    "Industrielle Alliance",
-    "Beneva",
-    "L'Excellence, compagnie d'assurance vie",
-    "L'Union Vie, compagnie mutuelle (Drummondville)",
-    "Manuvie",
-    "Sun Life"
-  )
-)
-
-colnames(assurance_personnes) <- 'Nom de la société'
-
-kable(assurance_personnes, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-
-```
-
-
-
-#### Sociétés d’assurance IARD (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-assurance_iard <- data.frame(
-  `Nom de la société` = c(
-    "Allstate Insurance Company of Canada",
-    "Bélair Direct",
-    "Co-operators General Insurance",
-    "Desjardins Groupe d'assurances générales",
-    "Echelon Compagnie d'assurance",
-    "Intact Financial Corporation",
-    "Optimum Générale",
-    "TD Assurance / Meloche Monnex"
-  )
-)
-
-colnames(assurance_iard) <- 'Nom de la société'
-
-kable(assurance_iard, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-```
-
-
-
-#### Réassureurs (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-reassureurs <- data.frame(
-  `Nom de la société` = c(
-    "Munich Reinsurance",
-    "Optimum Réassurance",
-    "RGA Life Reinsurance of Canada",
-    "Scor Global"
-  )
-)
-
-colnames(reassureurs) <- 'Nom de la société'
-
-kable(reassureurs, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-```
-
-
-
-#### Firmes d’actuariat-conseil (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-conseil <- data.frame(
-  `Nom de la société` = c(
-    "AGA assurances collectives",
-    "Aon Hewitt",
-    "Eckler Ltée",
-    "Groupe conseil Samson (Terrebonne)",
-    "Hub International",
-    "Mercer",
-    "TELUS Santé (anciennement Morneau Shepell)",
-    "Normandin Beaudry",
-    "Optimum Actuaires et conseillers",
-    "PBI Conseillers actuariels",
-    "Services actuariels SAI",
-    "WTW (anciennement Willis Towers Watson)"
-  )
-)
-
-colnames(conseil) <- 'Nom de la société'
-
-kable(conseil, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-```
-
-### Les autres employeurs
-
-À l’extérieur des sociétés d’assurance et des firmes d’actuariat-conseil, on trouve aussi des actuaires dans les entreprises suivantes :
-
-- Les cabinets de comptables (souvent pour aider à la vérification des rapports financiers, mais aussi parfois pour offrir des services d’actuariat corporatif, d’évaluation de régimes de retraite ou d’avantages sociaux postérieurs à l’emploi).
-- Les organismes gouvernementaux.
-- Les sociétés de placement.
-- Les banques.
-- Les universités.
-- Les employeurs ayant des très gros régimes de retraite.
-- Les syndicats et centrales syndicales.
-
-
-
-#### Cabinets de comptables (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-library(knitr)
-library(kableExtra)
-
-comptables <- data.frame(
-  `Nom de la société` = c(
-    "Deloitte LLP",
-    "EY / Ernst & Young",
-    "KPMG",
-    "PWC / PriceWaterhouseCoopers"
-  )
-)
-
-colnames(comptables) <- 'Nom de la société'
-
-kable(comptables, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-```
-
-
-
-#### Organismes gouvernementaux (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-gouvernement <- data.frame(
-  `Nom de la société` = c(
-    "Banque de développement du Canada",
-    "Caisse de dépôt et placement du Québec",
-    "Export Development Canada",
-    "Loto-Québec"
-  )
-)
-
-colnames(gouvernement) <- 'Nom de la société'
-
-kable(gouvernement, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-```
-
-
-
-#### Sociétés de placement (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-placement <- data.frame(
-  `Nom de la société` = c(
-    "BMO Gestion d'actifs",
-    "Fiera Capital",
-    "Financière Banque Nationale",
-    "TD Asset Management"
-  )
-)
-
-colnames(placement) <- 'Nom de la société'
-
-kable(placement, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-```
-
-
-
-#### Banques (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-banques <- data.frame(
-  `Nom de la société` = c(
-    "Banque Laurentienne",
-    "RBC DS Services financiers Inc."
-  )
-)
-
-colnames(banques) <- 'Nom de la société'
-
-kable(banques, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-```
-
-
-
-#### Universités (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-universites <- data.frame(
-  `Nom de la société` = c(
-    "Concordia University",
-    "Université de Montréal",
-    "UQAM"
-  )
-)
-
-
-colnames(universites) <- 'Nom de la société'
-
-kable(universites, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-```
-
-
-
-#### Employeurs et organisations disposant de régimes de retraite importants (région de Montréal) {-}
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-retraites <- data.frame(
-  `Nom de la société` = c(
-    "Air Canada",
-    "Air Canada Pension Investments",
-    "Arcelor Mittal",
-    "Association de bienfaisance et de retraite des policiers et policières de Montréal",
-    "Bell Canada / BCE",
-    "Bombardier",
-    "CAE",
-    "CN (Canadian National Railways)",
-    "Commission de la construction du Québec",
-    "Domtar",
-    "Groupe Pages Jaunes",
-    "Hydro Québec",
-    "Kruger",
-    "La Presse",
-    "Ligue Nationale de Hockey",
-    "Metro Richelieu et Groupe Jean Coutu",
-    "Molson Coors",
-    "Power Corporation",
-    "Régime complémentaire de retraite de l'industrie du camionnage",
-    "Rio Tinto",
-    "Société de transport de Montréal",
-    "Ville de Laval",
-    "Ville de Longueuil",
-    "Ville de Montréal"
-  )
-)
-
-colnames(retraites) <- 'Nom de la société'
-
-kable(retraites, booktabs = TRUE, align = "l") |>
-  kable_styling(
-    full_width = FALSE,
-    position = "center",
-    latex_options = "hold_position"
-  ) |>
-  column_spec(1, width = "13cm")
-```
-
-Parmi les syndicats et centrales syndicales, seule la CSN a été identifiée comme employant des actuaires dans la région de Montréal. Les données présentées aux tableaux précédents proviennent des sources suivantes :
-
-- <https://www.actuarialdirectory.org/>
-- <https://www.cia-ica.ca/>
+### Sociétés d'assurance et firmes d'actuariat-conseil
+
+Les sociétés d'assurance, les réassureurs et les firmes d'actuariat-conseil représentent les principaux milieux de pratique traditionnels de l'actuariat.
+
+#### **Sociétés d'assurance de personnes** {-}
+
+- [Assurance-vie Banque Nationale](https://www.bnc.ca/particuliers/assurances.html)
+- [Croix Bleue du Québec](https://qc.croixbleue.ca/)
+- [Croix Bleue Medavie](https://www.medaviebc.ca/fr/)
+- [Desjardins Sécurité financière](https://www.desjardins.com/)
+- [Humania Assurance](https://www.humania.ca/) (Saint-Hyacinthe)
+- [iA Groupe financier](https://ia.ca/) (anciennement Industrielle Alliance, incluant L'Excellence)
+- [Beneva](https://www.beneva.ca/)
+- [UV Assurance](https://www.uvassurance.ca/) (anciennement L'Union Vie, Drummondville)
+- [Manuvie](https://www.manuvie.ca/)
+- [Sun Life](https://www.sunlife.ca/fr/)
+
+#### **Sociétés d'assurance IARD** {-}
+
+- [Allstate](https://www.allstate.ca/)
+- [belairdirect](https://www.belairdirect.com/)
+- [Co-operators](https://www.cooperators.ca/)
+- [Desjardins Assurances générales](https://www.desjardins.com/)
+- [Echelon Assurance](https://www.echelonassurance.ca/)
+- [Intact Corporation financière](https://www.intactfc.com/)
+- [Optimum Général](https://www.optimumfinancier.com/secteurs/assurance-generale)
+- [TD Assurance / Meloche Monnex](https://www.tdassurance.com/)
+
+#### **Réassureurs** {-}
+
+- [Munich Re](https://www.munichre.com/)
+- [Optimum Réassurance](https://www.optimumre.ca/fr)
+- [RGA](https://www.rgare.com/global-presence/americas/canada)
+- [SCOR](https://www.scor.com/)
+
+#### **Firmes d'actuariat-conseil** {-}
+
+- [AGA assurances collectives](https://www.aga.ca/fr/)
+- [Aon](https://www.aon.com/)
+- [Eckler](https://www.eckler.ca/)
+- [Samson groupe conseil](https://www.samsongroupeconseil.com/) (Terrebonne)
+- [HUB International](https://www.hubinternational.com/fr-ca/)
+- [Mercer](https://www.mercer.com/)
+- [TELUS Santé](https://www.telus.com/fr/health)
+- [Normandin Beaudry](https://www.normandin-beaudry.ca/)
+- [Optimum Actuariat conseil](https://www.optimumactuariat.ca/)
+- [PBI Actuaires et conseils](https://pbiactuarial.ca/)
+- [SAI Services actuariels](https://saiinc.ca/)
+- [WTW](https://www.wtwco.com/)
+
+### Autres milieux de pratique
+
+Les actuaires ne travaillent pas exclusivement dans l'industrie de l'assurance. Leur formation en mathématiques, en statistique et en finance leur permet également d'occuper des fonctions spécialisées dans plusieurs autres secteurs. On retrouve notamment des actuaires dans :
+
+- les cabinets comptables, particulièrement pour l'évaluation des engagements financiers, l'audit et les avantages sociaux;
+- les organismes gouvernementaux et les sociétés d'État, pour administrer des régimes d'assurance sociale, évaluer des engagements financiers, surveiller des institutions ou contribuer à la gestion des risques;
+- les sociétés de placement et les banques, pour la gestion des actifs et des risques financiers;
+- les universités, pour l'enseignement et la recherche;
+- les grandes entreprises et les organisations qui administrent des régimes de retraite importants;
+- les syndicats et les centrales syndicales, notamment pour l'analyse et la négociation des régimes de retraite et d'assurances collectives.
+
+Voici quelques exemples d'organisations associées à ces différents milieux de pratique.
+
+#### **Cabinets comptables** {-}
+
+- [Deloitte](https://www.deloitte.com/ca/fr.html)
+- [EY (Ernst & Young)](https://www.ey.com/fr_ca)
+- [KPMG](https://kpmg.com/ca/fr/)
+- [PwC (PricewaterhouseCoopers)](https://www.pwc.com/ca/fr/)
+
+#### **Organismes publics et sociétés d'État** {-}
+
+- [Retraite Québec](https://www.retraitequebec.gouv.qc.ca/) (incluant désormais les responsabilités relatives au RQAP)
+- [Régie de l'assurance maladie du Québec (RAMQ)](https://www.ramq.gouv.qc.ca/)
+- [Commission des normes, de l'équité, de la santé et de la sécurité du travail (CNESST)](https://www.cnesst.gouv.qc.ca/)
+- [Société de l'assurance automobile du Québec (SAAQ)](https://saaq.gouv.qc.ca/)
+- [Autorité des marchés financiers (AMF)](https://lautorite.qc.ca/)
+- [Ministère de la Santé et des Services sociaux (MSSS)](https://www.quebec.ca/gouvernement/ministeres-organismes/sante-services-sociaux)
+- [Secrétariat du Conseil du trésor](https://www.quebec.ca/gouvernement/ministeres-organismes/secretariat-conseil-tresor)
+- [Commission de la construction du Québec (CCQ)](https://www.ccq.org/)
+- [Bureau du surintendant des institutions financières (BSIF)](https://www.osfi-bsif.gc.ca/), incluant le Bureau de l'actuaire en chef
+- [Société canadienne d'hypothèques et de logement (SCHL)](https://www.cmhc-schl.gc.ca/)
+- [La Caisse (Caisse de dépôt et placement du Québec)](https://www.lacaisse.com/fr)
+- [Banque de développement du Canada (BDC)](https://www.bdc.ca/fr)
+- [Exportation et développement Canada (EDC)](https://www.edc.ca/fr/)
+- [Loto-Québec](https://lotoquebec.com/)
+
+#### **Sociétés de placement** {-}
+
+- [Addenda Capital](https://addendacapital.com/fr)
+- [BMO Gestion d'actifs](https://www.bmogam.com/)
+- [Desjardins Gestion internationale d'actifs](https://www.desjardins.com/fr/entreprises/investissement-placements/desjardins-gestion-internationale-actifs.html)
+- [Fiera Capital](https://www.fieracapital.com/fr/)
+- [Gestion de Placements TD](https://www.td.com/ca/fr/gestion-de-placements-td/accueil)
+- [Gestion de placements Manuvie](https://www.manulifeim.com/retail/ca/fr/)
+- [RBC Gestion mondiale d'actifs](https://www.rbcgam.com/fr/ca/)
+- [iA Gestion mondiale d'actifs](https://iagma.ca/)
+- [Investissements PSP](https://www.investpsp.com/fr/)
+- [Placements Mackenzie](https://www.mackenzieinvestments.com/fr/investments)
+
+#### **Banques et services financiers** {-}
+
+- [Banque Nationale du Canada](https://www.bnc.ca/)
+- [Banque Royale du Canada (RBC)](https://www.rbc.com/francais/canada.html)
+- [Banque de Montréal (BMO)](https://www.bmo.com/fr-ca/principal/particuliers/)
+- [Banque Scotia](https://www.scotiabank.com/ca/fr/)
+- [Banque Toronto-Dominion (TD)](https://www.td.com/ca/fr)
+- [Banque CIBC](https://www.cibc.com/fr/personal-banking.html)
+- [Banque Laurentienne](https://www.banquelaurentienne.ca/)
+- [Financière Banque Nationale](https://www.fbngp.ca/)
+- [IG Gestion de patrimoine](https://www.ig.ca/fr)
+
+#### **Universités** {-}
+
+- [Université Concordia](https://www.concordia.ca/)
+- [Université de Montréal](https://www.umontreal.ca/)
+- [Université du Québec à Montréal](https://uqam.ca/)
+
+#### **Grandes entreprises et organisations disposant de régimes de retraite importants** {-}
+
+- [Air Canada](https://www.aircanada.com/)
+- [ArcelorMittal](https://corporate.arcelormittal.com/)
+- [Association de bienfaisance et de retraite des policiers et policières de la Ville de Montréal](https://www.caisse-abr.com/)
+- [Bell Canada / BCE](https://www.bce.ca/)
+- [Bombardier](https://bombardier.com/)
+- [CAE](https://www.cae.com/)
+- [CN (Canadien National)](https://www.cn.ca/)
+- [Commission de la construction du Québec](https://www.ccq.org/)
+- [Domtar](https://www.domtar.com/)
+- [Groupe Pages Jaunes](https://entreprise.pj.ca/fr/)
+- [Hydro-Québec](https://www.hydroquebec.com/)
+- [Kruger](https://www.kruger.com/)
+- [La Presse](https://www.lapresse.ca/)
+- [Ligue nationale de hockey](https://www.nhl.com/fr/)
+- [Metro](https://www.metro.ca/) et [Groupe Jean Coutu](https://www.jeancoutu.com/)
+- [Molson Coors](https://www.molsoncoors.com/)
+- [Power Corporation du Canada](https://www.powercorporation.com/)
+- [Régime complémentaire de retraite de l'industrie du camionnage](https://www.rcric.ca/)
+- [Rio Tinto](https://www.riotinto.com/)
+- [Société de transport de Montréal](https://www.stm.info/)
+- [Ville de Laval](https://www.laval.ca/)
+- [Ville de Longueuil](https://longueuil.quebec/)
+- [Ville de Montréal](https://montreal.ca/)
+
+#### **Syndicats et centrales syndicales** {-}
+
+- [Confédération des syndicats nationaux (CSN)](https://www.csn.qc.ca/)
+- [Fédération des travailleurs et travailleuses du Québec (FTQ)](https://ftq.qc.ca/)
+- [Syndicat canadien de la fonction publique (SCFP-Québec)](https://scfp.qc.ca/)
 
 
 ## Conclusion
 
 Ce premier chapitre a permis de définir la science actuarielle et de présenter les principaux domaines dans lesquels exercent les actuaires. Malgré la diversité de leurs activités, ces professionnels partagent une même expertise : l'utilisation des mathématiques, des probabilités et de la statistique pour analyser les risques et leurs conséquences financières.  Le survol du programme de baccalauréat en actuariat de l'UQAM a également permis de comprendre comment la formation prépare progressivement les étudiants aux différents domaines de pratique. Enfin, la présentation des employeurs et des possibilités de carrière a illustré la diversité des milieux professionnels accessibles aux diplômés en actuariat.
 
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### Définitions de l’actuariat et organismes professionnels {-}
+
+- [Wikipedia](https://fr.wikipedia.org/wiki/Actuaire)
+- [Institut canadien des actuaires (ICA)](https://www.cia-ica.ca/fr/les-actuaires/)
+- [Association canadienne des compagnies d’assurance de personnes (ACCAP)](https://www.clhia.ca/web/clhia_lp4w_lnd_webstation.nsf/page/A9AD923AC775A46485257817005F5B43!OpenDocument)
+- [Society of Actuaries (SOA)](https://www.soa.org/4a537f/globalassets/assets/files/edu/actuarial-glossary.pdf)
+- [Casualty Actuarial Society (CAS)](https://www.casact.org/about/)
+- [ChatGPT – Définition proposée dans le chapitre](https://chatgpt.com/)
+
+### Domaines traditionnels de la pratique actuarielle {-}
+
+- [Retraite Québec – Administration des régimes de retraite](https://www.retraitequebec.gouv.qc.ca/fr/publications/programmes/regimes-complementaires-retraite/bien-administrer-regime-retraite)
+- [ICA – Soins de santé et assurance collective](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/soins-de-sante/)
+- [ICA – Assurance IARD](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurances-iard/)
+- [ICA – Assurance-vie](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurance-vie/)
+
+### Programmes et cheminements à l’UQAM {-}
+
+- [UQAM – Baccalauréat en actuariat (automne 2026)](https://etudier.uqam.ca/programme?code=7363&version=20263)
+- [UQAM – Profil Honor](https://etudier.uqam.ca/programme?code=7359)
+- [UQAM – Maîtrise en mathématiques](https://etudier.uqam.ca/programme?code=1912)
+
+### Cours de formation de base et de communication {-}
+
+- [MAT1115 – Calcul I](https://etudier.uqam.ca/cours?sigle=MAT1115)
+- [MAT1191 – Compléments de mathématiques](https://etudier.uqam.ca/cours?sigle=MAT1191)
+- [MAT1700 – Probabilités I](https://etudier.uqam.ca/cours?sigle=MAT1700)
+- [STT1000 – Statistique I](https://etudier.uqam.ca/cours?sigle=STT1000)
+- [MAT2720 – Processus stochastiques](https://etudier.uqam.ca/cours?sigle=MAT2720)
+- [SCO1045 – Introduction à la comptabilité et à la prise de décisions](https://etudier.uqam.ca/cours?sigle=SCO1045)
+- [FIN3500 – Gestion financière](https://etudier.uqam.ca/cours?sigle=FIN3500)
+- [ECO1013 – Microéconomie I](https://etudier.uqam.ca/cours?sigle=ECO1013)
+- [ECO1023 – Macroéconomie I](https://etudier.uqam.ca/cours?sigle=ECO1023)
+- [ANG3067 – Skills for Business II](https://etudier.uqam.ca/cours?sigle=ANG3067)
+- [COM2668 – Communication orale et écrite](https://etudier.uqam.ca/cours?sigle=COM2668)
+- [COM5500 – Introduction à la communication scientifique](https://etudier.uqam.ca/cours?sigle=COM5500)
+
+### Tronc commun et cours avancés en actuariat {-}
+
+- [ACT1050 – Introduction à l’actuariat I](https://etudier.uqam.ca/cours?sigle=ACT1050)
+- [ACT2060 – Applications probabilistes des risques actuariels](https://etudier.uqam.ca/cours?sigle=ACT2060)
+- [ACT1200 – Mathématiques financières](https://etudier.uqam.ca/cours?sigle=ACT1200)
+- [ACT2035 – Actuariat et informatique](https://etudier.uqam.ca/cours?sigle=ACT2035)
+- [ACT3035 – Laboratoire d’actuariat](https://etudier.uqam.ca/cours?sigle=ACT3035)
+- [ACT2100 – Compléments de probabilités](https://etudier.uqam.ca/cours?sigle=ACT2100)
+- [ACT3410 – Distribution de sinistres](https://etudier.uqam.ca/cours?sigle=ACT3410)
+- [ACT4400 – Modèles de survie](https://etudier.uqam.ca/cours?sigle=ACT4400)
+- [ACT3300 – Mathématiques de l’assurance de personne I](https://etudier.uqam.ca/cours?sigle=ACT3300)
+- [ACT4300 – Mathématiques de l’assurance de personne II](https://etudier.uqam.ca/cours?sigle=ACT4300)
+- [ACT4310 – Mathématiques de la finance actuarielle I](https://etudier.uqam.ca/cours?sigle=ACT4310)
+- [ACT5310 – Mathématiques de la finance actuarielle II](https://etudier.uqam.ca/cours?sigle=ACT5310)
+- [ACT5400 – Crédibilité](https://etudier.uqam.ca/cours?sigle=ACT5400)
+- [STT5100 – Modèles linéaires appliqués](https://etudier.uqam.ca/cours?sigle=STT5100)
+
+### Cours optionnels de spécialisation {-}
+
+- [ACT6031 – Modèles actuariels en régimes de retraite](https://etudier.uqam.ca/cours?sigle=ACT6031)
+- [ACT6041 – Modèles actuariels en assurance collective](https://etudier.uqam.ca/cours?sigle=ACT6041)
+- [ACT6061 – Modèles actuariels en assurance non-vie](https://etudier.uqam.ca/cours?sigle=ACT6061)
+- [ACT6051 – Modèles actuariels en assurance de personne](https://etudier.uqam.ca/cours?sigle=ACT6051)
+- [ACT6011 – Modélisation des risques actuariels et financiers](https://etudier.uqam.ca/cours?sigle=ACT6011)
+- [ACT6021 – Mathématiques de la solvabilité](https://etudier.uqam.ca/cours?sigle=ACT6021)
+
+### Recherche et formation de cycles supérieurs {-}
+
+- [ACT6071 – Initiation à la recherche](https://etudier.uqam.ca/cours?sigle=ACT6071)
+- [MAT8594 – Statistique en actuariat](https://etudier.uqam.ca/cours?sigle=MAT8594)
+- [MAT8600 – Analyse mathématique du risque](https://etudier.uqam.ca/cours?sigle=MAT8600)
+
+### Autres domaines de pratique et organismes publics {-}
+
+- [BSIF – Ligne directrice sur la réassurance](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/saines-pratiques-procedures-reassurance-ligne-directrice-2025)
+- [Retraite Québec – Évaluation actuarielle du RRQ](https://www.retraitequebec.gouv.qc.ca/fr/publications/programmes/regime-rentes-quebec-rrq/evaluations-actuarielles/evaluation-actuarielle-regime-rentes-quebec-31-decembre-2024)
+- [AMF – Mission](https://lautorite.qc.ca/grand-public/a-propos-de-lamf/mission)
+- [BSIF – À propos du BSIF](https://www.osfi-bsif.gc.ca/fr/propos-du-bsif)
+- [ICA – Gestion des risques d’entreprise](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/gestion-du-risque-dentreprise/)
+
+### Employeurs et annuaires professionnels {-}
+
+- [ICA – Employeurs d’actuaires](https://www.cia-ica.ca/fr/les-actuaires/employeurs-dactuaires/)
+- [Répertoire des actuaires – Actuarial Directory](https://www.actuarialdirectory.org/)
+- [Institut canadien des actuaires – Site officiel](https://www.cia-ica.ca/)
+
+:::

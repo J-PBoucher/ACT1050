@@ -148,13 +148,11 @@ main.content > h1:first-child {
 }
 
 .act-plan .act-bareme table th:nth-child(1),
-.act-plan .act-bareme table td:nth-child(1) { width: 22%; }
+.act-plan .act-bareme table td:nth-child(1) { width: 35%; }
 
 .act-plan .act-bareme table th:nth-child(2),
-.act-plan .act-bareme table td:nth-child(2) { width: 20%; }
+.act-plan .act-bareme table td:nth-child(2) { width: 65%; }
 
-.act-plan .act-bareme table th:nth-child(3),
-.act-plan .act-bareme table td:nth-child(3) { width: 58%; }
 
 .act-plan .act-bareme table td:nth-child(2) {
   font-weight: 700;
@@ -306,7 +304,7 @@ main.content > h1:first-child {
 |:---|:---|
 | **Cours** | Cours obligatoire (3 crédits) |
 | **Groupe** | Groupe 20 — Hiver 2027 |
-| **Horaire** | Mardi, 13h00 à 16h00 |
+| **Horaire** | Mardi, de 13 h à 16 h |
 | **Professeur** | Jean-Philippe Boucher |
 | **Courriel** | [boucher.jean-philippe@uqam.ca](mailto:boucher.jean-philippe@uqam.ca) |
 | **Cours préalable** | Aucun |
@@ -317,11 +315,11 @@ main.content > h1:first-child {
 
 ## Description {-}
 
-Tel qu'indiqué sur le [site du cours](https://etudier.uqam.ca/cours?sigle=ACT1050) de l'UQAM, les objectifs du cours sont :
+Comme indiqué sur le [site du cours](https://etudier.uqam.ca/cours?sigle=ACT1050) de l'UQAM, les objectifs du cours sont :
 
 > Introduction à la tarification, l'évaluation et la gestion des risques actuariels ayant une incidence à long terme. Le cours couvrira à part égale les domaines de l'assurance vie et des régimes de retraite.
 
-Le même [site](https://etudier.uqam.ca/cours?sigle=ACT1050) indique aussi un sommaire du contenu :
+Le même [site](https://etudier.uqam.ca/cours?sigle=ACT1050) présente également le sommaire du contenu :
 
 > Introduction aux différents mécanismes individuels et collectifs d'assurance de personnes : sélection des risques, tarification et évaluation des produits d'assurance-vie individuelle et collective. Introduction à la réassurance. Introduction aux régimes de retraite : intégration des régimes privés et publics, régimes complémentaires de retraite, calcul des prestations de retraites, régimes publics québécois et canadiens en régimes de retraite. Encadrement juridique et fiscalité. Éthique, morale et déontologie de l'actuaire en assurance-vie et en régimes de retraite.
 
@@ -335,19 +333,17 @@ L'évaluation du cours repose sur la participation aux séances et sur des mini-
 
 | Évaluation | Matière évaluée | Date | Pondération |
 |:---|:---:|:---|---:|
-| **Présence et participation en classe** | — | Toute la session | **30 %** |
-| **Mini-quiz #1**<br>Partie 1 : Découvrir l'actuariat | Chapitres 1 à 5 | 26 janvier (fin de séance) | 10 % |
-| **Mini-quiz #2**<br>Partie 2 : Environnement actuariel | Chapitres 6 à 8 | 16 février (fin de séance) | 15 % |
-| **Mini-quiz #3**<br>Partie 3 : Assurance de personnes | Chapitres 9 à 12 | 23 mars (fin de séance) | 15 % |
-| **Mini-quiz #4**<br>Partie 4 (I) : Régime de retraite | Chapitres 13 à 16 | 6 avril (fin de séance) | 15 % |
-| **Mini-quiz #5**<br>Partie 4 (II) : Régime de retraite | Chapitres 17 à 19 | 27 avril (fin de séance) | 15 % |
+| **Présence et participation en classe** | — | Toute la session | **25 %** |
+| **Mini-quiz I**<br>Partie I : Découvrir l'actuariat | Chapitres 1 à 8 | 16 février (fin de séance) | 25 % |
+| **Mini-quiz II**<br>Partie II : Assurance de personnes | Chapitres 9 à 13 | 23 mars (fin de séance) | 25 % |
+| **Mini-quiz III**<br>Partie III : Régime de retraite | Chapitres 14 à 19 | 27 avril (fin de séance) | 25 % |
 | **Total** | | | **100 %** |
 
 :::
 
 #### **Mini-quiz** {-}
 
-Cinq mini-quiz sont prévus au cours de la session, répartis entre les quatre parties du cours. La dernière partie, consacrée aux régimes de retraite, fait l'objet de deux mini-quiz. Chaque mini-quiz sera donné dans la deuxième partie de chaque séance, sera d'une durée d'une heure et portera exclusivement sur la matière de la partie concernée, notamment **les lectures des chapitres et les présentations des conférenciers invités**. 
+Trois mini-quiz sont prévus au cours de la session, répartis entre les trois parties du cours. Chaque mini-quiz aura lieu dans la deuxième partie de la séance concernée. D'une durée d'une heure, il portera exclusivement sur la matière de la partie correspondante, notamment **les lectures des chapitres et les présentations des conférenciers invités**. 
 
 Les mini-quiz ne sont pas cumulatifs : les notions évaluées dans les parties précédentes ne sont pas reprises dans les évaluations suivantes.
 
@@ -355,9 +351,9 @@ Toutes les notes de cours sont permises pendant les mini-quiz. Les étudiants pe
 
 #### **Présence et participation** {-}
 
-La présence est vérifiée à chaque séance et compte, avec la participation, pour 30 points sur 100. Chaque étudiant bénéficie d'un mulligan permettant une absence sans pénalité. À partir de la deuxième absence, 5 points sont retranchés de cette composante de 30 points pour chaque absence supplémentaire, jusqu'à concurrence de 30 points. Le mulligan vise notamment à couvrir les absences justifiées. Ainsi, un étudiant qui s'absente volontairement et qui doit ensuite manquer un cours pour cause de maladie perdra 5 points : son mulligan sera appliqué à l'absence justifiée, et non à l'absence volontaire. Le mulligan ne dispense pas de participer aux mini-quiz prévus au calendrier.
+La présence est vérifiée à chaque séance et compte, avec la participation, pour 25 points sur 100. Chaque étudiant bénéficie d'un mulligan permettant une absence sans pénalité. À partir de la deuxième absence, 5 points sont retranchés de cette composante de 25 points pour chaque absence supplémentaire, jusqu'à concurrence de 25 points. Le mulligan vise notamment à couvrir les absences justifiées. Ainsi, un étudiant qui s'absente volontairement et qui doit ensuite manquer un cours pour cause de maladie perdra 5 points : son mulligan sera appliqué à l'absence justifiée, et non à l'absence volontaire. Le mulligan ne dispense pas de participer aux mini-quiz prévus au calendrier.
 
-La participation en classe fera également l'objet d'une évaluation, notamment à travers les échanges avec les conférenciers invités, les questions posées et les interventions lors des discussions. L'objectif est de stimuler les débats et les échanges d'idées, tout en témoignant auprès des intervenants de la curiosité, de l'intérêt et du dynamisme des étudiants de l'UQAM.
+La participation en classe fera également l'objet d'une évaluation, notamment lors des échanges avec les conférenciers invités, les questions posées et les interventions lors des discussions. L'objectif est de stimuler les débats et les échanges d'idées, tout en témoignant auprès des intervenants de la curiosité, de l'intérêt et du dynamisme des étudiants de l'UQAM.
 
 ::: {.act-bonus}
 
@@ -380,7 +376,7 @@ style="width:100%; height:auto; display:block;">
 
 </div>
 
-Les étudiants sont invités à contribuer à l'amélioration des notes de cours en signalant des erreurs, des coquilles, des hyperliens défectueux ou en proposant des améliorations aux explications et aux exemples.Les contributions pertinentes pourront donner droit à un **maximum de 5 points de bonus**, ajoutés à la note finale du cours. Ces points sont supplémentaires et ne modifient pas la pondération des évaluations présentées dans le tableau. Les modalités de contribution, notamment l'utilisation de GitHub pour signaler un problème ou proposer une correction, sont présentées dans la section [Contribuer aux notes de cours avec GitHub](Aproposdesnotes.qmd).
+Les étudiants sont invités à contribuer à l'amélioration des notes de cours en signalant des erreurs, des coquilles, des hyperliens défectueux ou en proposant des améliorations aux explications et aux exemples. Les contributions pertinentes pourront donner droit à un **maximum de 5 points de bonus**, ajoutés à la note finale du cours. Ces points sont supplémentaires et ne modifient pas la pondération des évaluations présentées dans le tableau. Les modalités de contribution, notamment l'utilisation de GitHub pour signaler un problème ou proposer une correction, sont présentées dans la section [Contribuer aux notes de cours avec GitHub](Aproposdesnotes.qmd).
 
 <div style="clear: both;"></div>
 
@@ -391,7 +387,7 @@ Les étudiants sont invités à contribuer à l'amélioration des notes de cours
 
 ### Barème {-}
 
-La note finale, exprimée en pourcentage, est convertie en une cote littérale selon le barème suivant. Les intervalles sont fermés à gauche et ouverts à droite, sauf pour la cote A+, dont l'intervalle inclut 100 %.
+La note finale, exprimée en pourcentage, est convertie en une cote littérale selon le barème suivant. Les intervalles sont fermés à gauche et ouverts à droite, sauf pour la cote A+, dont l’intervalle inclut 100 %.
 
 ::: {.act-bareme}
 
@@ -430,4 +426,4 @@ Aucun travail supplémentaire, examen de reprise ou autre mesure de bonification
 
    **Lors des séances comportant un mini-quiz**, cette période de révision sera remplacée par une évaluation d'une durée d'une heure. Aucune synthèse des chapitres ne sera alors présentée en classe. Les étudiants devront donc avoir effectué leurs lectures et préparé leur évaluation de manière autonome.
 
-La liste des conférenciers invités, les lectures à effectuer chaque semaine ainsi que les dates des mini-quiz figurent dans la page [Horaire de la session](Horaire.qmd).  Il est à noter que cette formule s'inspire de la pédagogie inversée : les étudiants prennent d'abord connaissance de la matière de façon autonome, tandis que le temps en classe est principalement consacré aux échanges avec les professionnels, aux discussions et à la consolidation des apprentissages.
+La liste des conférenciers invités, les lectures à effectuer chaque semaine ainsi que les dates des mini-quiz figurent dans la page [Horaire de la session](Horaire.qmd).  Cette formule s'inspire de la pédagogie inversée : les étudiants prennent d'abord connaissance de la matière de façon autonome, tandis que le temps en classe est principalement consacré aux échanges avec les professionnels, aux discussions et à la consolidation des apprentissages.

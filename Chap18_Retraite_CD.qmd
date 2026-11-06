@@ -1,0 +1,509 @@
+---
+toc: false
+date: 03/15/2026
+date-modified: last-modified
+---
+
+# Régimes à cotisations déterminées
+
+::: {.act-objectifs}
+
+<div class="act-objectifs-titre">Objectifs du chapitre</div>
+
+- Comprendre les facteurs historiques ayant favorisé le développement des régimes à cotisations déterminées.
+- Expliquer le fonctionnement des régimes CD, notamment l'accumulation du capital, les modalités de cotisation et la gestion des placements.
+- Distinguer les principales façons de transformer le capital accumulé en revenu de retraite.
+- Reconnaître les principales caractéristiques réglementaires des régimes CD.
+- Comparer les régimes PD et CD en identifiant les risques assumés par les employeurs et les participants, ainsi que leurs avantages et leurs limites.
+- Expliquer le fonctionnement des régimes mixtes et des régimes à prestations cibles, et comprendre leurs mécanismes de partage des risques.
+
+:::
+
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
+
+:::
+
+
+
+## Introduction
+
+Au chapitre précédent, nous avons étudié les régimes à prestations déterminées (PD), dans lesquels le montant de la rente de retraite est établi selon une formule connue à l'avance. Les régimes à cotisations déterminées (CD) reposent sur une logique différente : ce sont les cotisations versées au régime qui sont déterminées à l'avance, et non les prestations qui seront reçues à la retraite. Cette distinction fondamentale modifie la répartition des risques entre l'employeur et le participant. Dans ce chapitre, nous examinerons d'abord les circonstances historiques ayant favorisé le développement des régimes CD, puis leur fonctionnement, leurs modalités de cotisation et leurs principales caractéristiques. Nous comparerons ensuite les régimes PD et CD, notamment du point de vue des risques assumés par les employeurs et les participants. Enfin, nous présenterons d'autres modèles de régimes de retraite, dont les régimes mixtes et les régimes à prestations cibles, qui proposent différentes façons de répartir ces risques.
+
+
+## Bref historique et évolution des régimes
+
+{{< meme "memes/Problems.jpg" "https://knowyourmeme.com/sensitive/memes/modern-problems-require-modern-solutions" "350px" >}}
+
+- **Jusqu'aux années 1980 — La domination des régimes PD**
+
+  Au Canada, les régimes de retraite d'employeur se développent particulièrement après la Seconde Guerre mondiale. Alors qu'environ un travailleur sur cinq bénéficiait d'un régime de pension agréé à la fin des années 1940, cette proportion augmente considérablement au cours des décennies suivantes. [↗](https://www150.statcan.gc.ca/n1/pub/11-630-x/11-630-x2015003-fra.htm "Statistique Canada — Pensions : la progression et le recul de l'accès à un régime de pension au Canada"){.source-link}  Le modèle dominant est celui des régimes à prestations déterminées (PD), qui prévoient une rente calculée selon une formule connue à l'avance. Ce modèle est particulièrement répandu dans les grandes entreprises et le secteur public. En 1960, les régimes PD regroupaient déjà 84,4 % des participants à un régime de pension agréé au Canada. [↗](https://www150.statcan.gc.ca/n1/daily-quotidien/170721/dq170721d-eng.htm "Statistique Canada — Pension plans in Canada, données de 1960 (en anglais)"){.source-link}
+
+- **Années 1980 à 2008 — Des contraintes financières croissantes**
+
+  Progressivement, plusieurs facteurs rendent les régimes PD plus coûteux et leur financement plus incertain :
+
+  - L'augmentation de l'espérance de vie prolonge la durée de versement des rentes.
+  - La baisse des taux d'intérêt accroît la valeur actuelle des engagements futurs, particulièrement lors des évaluations de solvabilité.
+  - Les fluctuations des marchés financiers rendent le rendement des actifs plus incertain.
+
+  Ces mécanismes sont notamment examinés dans une étude de la Banque du Canada consacrée aux risques financiers des régimes PD. [↗](https://www.banqueducanada.ca/2021/08/note-analytique-personnel-2021-20/ "Banque du Canada — Rendement ou résilience? Un éclairage sur le changement de stratégie des gestionnaires de portefeuille des régimes de retraite au Canada"){.source-link} Durant les années 1990, plusieurs régimes présentent des surplus actuariels, parfois accompagnés de congés de cotisation pour les employeurs. Toutefois, les crises boursières du début des années 2000 et de 2008 révèlent la vulnérabilité de leur financement. La combinaison d'une diminution de la valeur des actifs et d'une augmentation des engagements entraîne des déficits importants dans de nombreux régimes. Les employeurs doivent alors reprendre leurs cotisations et, dans certains cas, effectuer des versements supplémentaires pour combler les déficits. [↗](https://www150.statcan.gc.ca/n1/pub/11-010-x/2009011/part-partie3-fra.htm "Statistique Canada — Que nous révèle le Compte satellite des pensions sur le système de retraite du Canada?"){.source-link} [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/retraites/comprendre-votre-regime-retraite/guide-participants-regimes-retraite "BSIF — Guide des participants des régimes de retraite"){.source-link}
+
+- **Depuis les années 1990 — Une évolution vers les régimes CD**
+
+  Face aux risques financiers et aux obligations de financement associés aux régimes PD, plusieurs employeurs du secteur privé commencent progressivement à privilégier les régimes à cotisations déterminées (CD), notamment pour les nouveaux employés. Ces régimes leur permettent de mieux prévoir leurs dépenses, puisque leur engagement se limite généralement au versement des cotisations prévues, sans obligation de combler des déficits liés aux prestations futures.   Cette évolution était déjà bien amorcée avant la crise financière de 2008. Selon Statistique Canada, la proportion de participants du secteur privé couverts par un régime CD est passée de 14 % en 1991 à 27 % en 2006. [↗](https://www150.statcan.gc.ca/n1/daily-quotidien/090526/dq090526c-fra.htm "Statistique Canada — Les pensions en transition, 1991 à 2006"){.source-link} La transformation demeure toutefois inégale : les régimes PD sont particulièrement présents dans le secteur public, tandis que les régimes CD occupent une place importante dans le secteur privé.  Selon les données publiées en juillet 2026 par Statistique Canada [↗](https://www150.statcan.gc.ca/n1/daily-quotidien/260728/dq260728a-fra.htm "Statistique Canada — Régimes de pension au Canada, au 1er janvier 2025"){.source-link}, parmi les participants actifs à un régime de pension agréé au Canada en 2024 :
+
+  - 68,1 % participaient à un régime PD;
+  - 18,3 % participaient à un régime CD;
+  - 13,5 % participaient à un autre type de régime, notamment hybride, mixte ou à prestations cibles.
+
+  Ainsi, malgré leur développement, les régimes CD n'ont pas remplacé les régimes PD. Les deux modèles continuent de coexister, mais ils répartissent différemment les risques financiers entre les employeurs et les participants.
+
+
+<div style="clear: both;"></div>
+
+
+### Quand les régimes PD deviennent un problème
+
+Les difficultés financières rencontrées par certaines grandes entreprises canadiennes permettent de comprendre pourquoi plusieurs employeurs ont progressivement privilégié les régimes CD. Les cas de Nortel et d'Air Canada illustrent deux conséquences différentes des risques associés aux régimes PD.
+
+::: {#exm-pd-nortel .custom}
+**Nortel**
+
+<div style="
+float:right;
+width:28vw;
+max-width:210px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/Nortel.png" style="width:100%;">
+</div>
+
+*Nortel Networks* était l'une des plus importantes entreprises canadiennes de télécommunications. À son apogée, vers l'an 2000, elle employait plus de 90 000 personnes dans le monde. Après l'éclatement de la bulle technologique, l'entreprise a connu d'importantes difficultés financières, aggravées par la crise de 2008. En janvier 2009, elle s'est placée sous la protection des tribunaux, avant de procéder à la vente de ses actifs. [↗](https://www.sec.gov/Archives/edgar/data/1119664/000119312509042559/d10k.htm "Nortel — Rapport annuel 2008"){.source-link} Nortel offrait plusieurs régimes à prestations déterminées couvrant des milliers d'employés et de retraités. Les sommes accumulées dans les caisses de retraite étaient juridiquement séparées du patrimoine de l'entreprise et ne pouvaient donc pas simplement servir à rembourser ses créanciers. Toutefois, les régimes présentaient d'importants déficits de solvabilité : les actifs accumulés ne suffisaient pas à financer intégralement les prestations promises. L'insolvabilité de Nortel empêchait alors l'employeur de combler ces déficits.
+
+La liquidation des régimes a ainsi entraîné des réductions de rentes pour plusieurs retraités. L'ampleur des pertes variait selon les régimes et les provinces. Des sommes ont ensuite été récupérées dans le cadre des procédures d'insolvabilité, permettant d'améliorer le financement des régimes et les prestations de plusieurs participants. [↗](https://assets.kmlaw.ca/wp-content/uploads/2017/09/Nortel-August-31-Presentation-ENGL.pdf "Koskie Minsky — Distribution des actifs de Nortel et situation des régimes de retraite, 2017"){.source-link} Ce cas montre que la séparation juridique des actifs d'une caisse de retraite ne garantit pas le versement intégral des prestations promises. Lorsque l'employeur devient insolvable et que les actifs du régime sont insuffisants, les participants peuvent subir des pertes malgré l'existence d'une promesse de rente.
+
+<div style="clear: both;"></div>
+
+:::
+
+::: {#exm-pd-air-canada .custom}
+**Air Canada**
+
+<div style="
+float:right;
+width:28vw;
+max-width:280px;
+min-width:240px;
+margin:0 0 1em 1em;
+text-align:center;
+">
+<img src="images/AirCanada.png" style="width:100%;">
+</div>
+
+Air Canada a historiquement offert plusieurs régimes de retraite à prestations déterminées. Au début des années 2000, l'entreprise a connu d'importantes difficultés financières, qui ont mené à une restructuration sous la protection des tribunaux en 2003. Ses régimes de retraite présentaient alors des déficits actuariels considérables. En 2004, le gouvernement fédéral a adopté des mesures exceptionnelles permettant à Air Canada d'amortir ses déficits de solvabilité sur dix ans plutôt que cinq. La crise financière de 2008 a toutefois aggravé la situation : au 1er janvier 2009, les régimes PD canadiens affichaient un déficit de solvabilité global de 2,835 milliards de dollars. De nouvelles mesures ont alors permis à l'entreprise de suspendre temporairement certains paiements spéciaux et de les reprendre progressivement. [↗](https://laws-lois.justice.gc.ca/fra/reglements/DORS-2013-244/TexteComplet.html "Gouvernement du Canada — Règlement sur la capitalisation des régimes de pension d'Air Canada (2014)"){.source-link} [↗](https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/annual-report/2009_ar.pdf "Air Canada — Rapport annuel 2009"){.source-link}
+
+La situation s'est toutefois améliorée considérablement. En janvier 2014, Air Canada annonçait que ses régimes canadiens étaient revenus à un léger surplus de solvabilité estimé, alors qu'ils affichaient un déficit de 3,7 milliards de dollars un an auparavant. Cette amélioration s'expliquait notamment par un rendement des placements de 13,8 % en 2013, une hausse des taux d'actualisation, des cotisations supplémentaires et des modifications aux prestations. [↗](https://www.newswire.ca/news-releases/air-canada-provides-pension-plan-solvency-update---domestic-plans-estimated-to-be-in-a-small-surplus-position-as-at-january-1-2014-513592141.html "Air Canada — Communiqué du 22 janvier 2014"){.source-link} Parallèlement, Air Canada a progressivement modifié les régimes offerts aux nouveaux employés. Dès 2005, certains nouveaux employés non syndiqués participaient à des régimes CD. En 2012, une nouvelle convention collective prévoyait notamment un régime CD pour les pilotes nouvellement embauchés, tout en maintenant les régimes PD des pilotes déjà en poste. D'autres catégories d'employés ont été dirigées vers des régimes hybrides. [↗](https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/annual-report/2013_AIF.pdf "Air Canada — Notice annuelle 2012, dispositions relatives aux régimes de retraite"){.source-link} Ce cas illustre comment les obligations de financement des régimes PD peuvent représenter une contrainte financière majeure pour un employeur. Le recours aux régimes CD permet notamment de limiter l'incertitude entourant le coût des prestations futures, en transférant une partie importante des risques financiers aux participants.
+
+<div style="clear: both;"></div>
+
+:::
+
+
+
+### Transparence et accès à l'information financière des régimes de retraite
+
+Comment peut-on connaître aussi précisément la situation financière des régimes de retraite de Nortel et d'Air Canada? Ces informations sont-elles accessibles au public? Les régimes à prestations déterminées font l'objet d'une surveillance réglementaire et doivent produire périodiquement des évaluations actuarielles présentant notamment leurs actifs, leurs engagements et leurs éventuels déficits. Ces rapports sont transmis aux autorités responsables, mais ne sont pas nécessairement accessibles au grand public. [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/retraites/administrer-regime-retraite/consignes-sujet/production-du-rapport-actuariel-dun-regime-retraite-prestations-determinees "BSIF — Production du rapport actuariel d'un régime PD"){.source-link} L'accès à cette information dépend notamment du statut de la personne :
+
+- Les participants et retraités disposent de droits particuliers leur permettant de consulter certains documents, y compris les rapports actuariels et les états financiers du régime. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-determinees/information-participants "Retraite Québec — Information aux participants"){.source-link} [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/retraites/comprendre-votre-regime-retraite/guide-participants-regimes-retraite "BSIF — Guide des participants"){.source-link}
+- Les sociétés cotées en Bourse, comme Air Canada, doivent divulguer des informations sur leurs obligations de retraite dans leurs états financiers, conformément aux normes comptables applicables. [↗](https://www.ifrs.org/issued-standards/list-of-standards/ias-19-employee-benefits/ "IFRS — IAS 19, Employee Benefits"){.source-link}
+- Les procédures judiciaires, comme celles entourant l'insolvabilité de Nortel, peuvent également rendre publiques des informations détaillées sur la situation financière des régimes.
+
+Il faut toutefois distinguer les évaluations comptables présentées dans les états financiers des entreprises et les évaluations actuarielles utilisées pour déterminer la solvabilité des régimes. Les objectifs, les méthodes et les hypothèses de ces évaluations peuvent différer, de sorte que les déficits publiés ne sont pas nécessairement identiques.
+
+
+
+## Fonctionnement des régimes à cotisations déterminées
+
+Dans un régime à cotisations déterminées (CD), l'employeur et, dans certains cas, l'employé versent des cotisations dont le montant ou la méthode de calcul est fixé à l'avance. Ces cotisations sont créditées au compte individuel du participant, auquel s'ajoutent les rendements des placements, après déduction des frais applicables. Le capital disponible à la retraite dépend donc des cotisations accumulées et des rendements obtenus. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-retraite-cotisation-determinee "Retraite Québec — Régime de retraite à cotisation déterminée"){.source-link}  Contrairement aux régimes PD, les droits de chaque participant sont établis en fonction de son propre compte. Deux employés ayant le même salaire peuvent ainsi accumuler des capitaux différents si leurs cotisations, leurs périodes de participation ou leurs rendements diffèrent. Les placements peuvent toutefois être gérés collectivement : l'existence de comptes individuels ne signifie pas nécessairement que chaque participant possède un portefeuille de placements distinct.
+
+### Du capital accumulé au revenu de retraite
+
+Pendant la carrière, le régime CD permet d'accumuler un capital, mais celui-ci ne constitue pas automatiquement une rente garantie. Au moment de la retraite, plusieurs possibilités existent, selon les règles du régime et la législation applicable :
+
+- L'achat d'une rente viagère auprès d'un assureur, qui garantit le versement d'un revenu pendant toute la vie du retraité, selon les modalités du contrat.
+- Le transfert du capital dans un véhicule de décaissement, qui permet d'effectuer des retraits progressifs.
+- Le maintien du capital dans le régime, lorsque celui-ci offre un mécanisme de décaissement.
+
+Ces différentes options sont présentées par Retraite Québec. [↗](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/retraite-et-planification/demandez-rente-retraite/revenu-regime-complementaire-retraite/regime-cotisation-determinee/vous-prenez-retraite/transfert "Retraite Québec — Transfert des sommes accumulées dans un régime CD"){.source-link} Au Québec, deux instruments sont particulièrement importants :
+
+- Le compte de retraite immobilisé (CRI) permet de conserver et de faire fructifier des sommes provenant d'un régime de retraite, sans permettre normalement leur retrait direct. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-cri "Retraite Québec — Caractéristiques d'un CRI"){.source-link}
+- Le fonds de revenu viager (FRV) permet de retirer progressivement des revenus à partir des sommes immobilisées. Contrairement à une rente viagère achetée auprès d'un assureur, il ne garantit pas à lui seul que le capital sera suffisant pour maintenir un revenu donné jusqu'au décès. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-frv "Retraite Québec — Caractéristiques d'un FRV"){.source-link}
+
+Depuis le 1er janvier 2025, les règles québécoises applicables aux FRV ont été assouplies. Pour les personnes de 55 ans ou plus, il n'existe désormais plus de plafond de retrait. Les retraits minimaux prévus par les règles fiscales demeurent toutefois applicables, et les transferts directs d'un FRV vers un REER ou un FERR ne sont plus permis. Ces modifications concernent les FRV régis par la législation québécoise visée et ne s'appliquent pas automatiquement aux régimes de compétence fédérale. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/modifications-frv-compter-2025 "Retraite Québec — Modifications relatives aux FRV à compter de 2025"){.source-link}
+
+
+
+
+### Modalités de cotisation des régimes CD
+
+Les régimes CD reposent tous sur le même principe d'accumulation, mais leurs modalités de financement peuvent varier. Les principales différences concernent :
+
+- le niveau des cotisations;
+- leur répartition entre l'employeur et l'employé;
+- les mécanismes d'incitation à l'épargne;
+- l'évolution des cotisations au cours de la carrière.
+
+Ces modalités influencent directement le capital qui pourra être accumulé à la retraite. Les exemples suivants illustrent différentes formules de cotisation, dont certaines sont hypothétiques et d'autres effectivement utilisées par des régimes existants.
+
+::: {#exm-cd-patronal .custom}
+**Régime simple (cotisation patronale seulement)**
+
+L'employeur verse une cotisation correspondant à 4 % du salaire, sans exiger de cotisation de l'employé. Cette formule est simple pour le participant, puisque toute l'épargne provient de l'employeur. Le capital accumulé dépend toutefois entièrement des cotisations patronales et des rendements obtenus.
+:::
+
+::: {#exm-cd-contributif .custom}
+**Régime contributif fixe**
+
+L'employeur et l'employé cotisent chacun 9 % du salaire, pour une cotisation totale de 18 %. Le Régime de retraite des chargés de cours de l'Université du Québec (RRCCUQ) [↗](https://rrcc.uquebec.ca/faq.php "RRCCUQ — Foire aux questions"){.source-link} constitue un exemple réel de cotisations partagées. À l'adhésion, le participant peut choisir un taux de cotisation de 2,75 %, 5,5 % ou 9 %, et l'employeur verse une cotisation équivalente. Une suspension temporaire des cotisations est également possible selon les règles du régime. Cette formule permet de partager l'effort d'épargne entre l'employeur et l'employé, tout en laissant au participant une certaine flexibilité quant au niveau de ses cotisations.
+:::
+
+::: {#exm-cd-appariement .custom}
+**Régime avec appariement**
+
+L'employé choisit de cotiser entre 0 % et 4 % de son salaire. L'employeur verse une cotisation de base de 5 %, à laquelle il ajoute 0,25 point de pourcentage pour chaque point de pourcentage cotisé par l'employé. Ainsi :
+
+- Si l'employé ne cotise pas, l'employeur verse 5 % du salaire.
+- Si l'employé cotise 2 %, l'employeur verse 5,5 % du salaire.
+- Si l'employé cotise 4 %, l'employeur verse 6 % du salaire.
+
+Cette formule encourage le participant à augmenter son épargne, puisqu'une cotisation salariale supplémentaire entraîne également une augmentation de la contribution patronale.
+:::
+
+::: {#exm-cd-croissant .custom}
+**Régime à cotisation croissante selon les années de service**
+
+L'employeur augmente progressivement sa cotisation en fonction des années de service du participant :
+
+- Moins de 5 ans : 4 %
+- 5 ans : 5 %
+- 6 ans : 6 %
+- 7 à 8 ans : 8 %
+- 9 à 10 ans : 10 %
+- 11 à 12 ans : 12 %
+- 13 ans ou plus : 14 %
+
+L'employé cotise pour sa part 4 % de son salaire. Cette formule récompense l'ancienneté en augmentant progressivement la contribution de l'employeur. Elle peut également favoriser la fidélisation des employés.  Les cotisations demeurent toutefois déterminées selon les règles du régime : même si les taux augmentent avec les années de service, aucune prestation de retraite particulière n'est garantie. Au Québec, une formule de cotisation patronale variable selon les années de service doit notamment respecter les conditions prévues par Retraite Québec. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/regimes-retraite-simplifies/cotisation-patronale-variable "Retraite Québec — Cotisation patronale variable selon les années de service"){.source-link}
+:::
+
+
+
+## Autres caractéristiques des régimes à cotisations déterminées
+
+
+### Gestion des placements
+
+La gestion des placements constitue une différence importante entre les régimes CD. Deux grandes approches sont possibles :
+
+- **Gestion individuelle** : le participant choisit la répartition de son épargne parmi les options offertes par le régime, par exemple des fonds d'actions, d'obligations ou des fonds équilibrés.
+- **Gestion collective** : les placements sont gérés par des professionnels selon une politique commune, sans que chaque participant choisisse nécessairement la composition de son portefeuille.
+
+Dans les deux cas, l'administrateur du régime demeure responsable de la surveillance des placements. Lorsqu'un régime offre des choix individuels, il doit également fournir aux participants l'information nécessaire pour les exercer. Certains régimes prévoient une option de placement par défaut lorsque le participant ne fait aucun choix. [↗](https://www.retraitequebec.gouv.qc.ca/fr/publications/programmes/regimes-complementaires-retraite/bien-administrer-regime-retraite "Retraite Québec — Bien administrer un régime de retraite"){.source-link}
+
+::: {#exm-cd-placements .custom}
+**Gestion des placements dans un régime CD**
+
+Considérons deux régimes CD offrant des approches différentes :
+
+- Dans le régime A, chaque participant choisit ses placements. Une employée peut, par exemple, investir 70 % de son compte en actions et 30 % en obligations. Si elle ne fait aucun choix, ses cotisations sont automatiquement investies dans un **fonds à date cible**, dont la répartition évolue progressivement à l'approche de sa retraite. [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/retraites/administrer-regime-retraite/consignes-sujet/option-defaut-regimes-retraite-cotisations-determinees-accompagnes-choix "BSIF — Options de placement par défaut des régimes CD"){.source-link}
+
+- Dans le régime B, les cotisations de tous les participants sont investies dans un fonds commun, selon une politique de placement établie par l'administrateur. Les participants ne choisissent pas individuellement leurs placements, mais chacun possède toujours un compte qui reflète ses cotisations et les rendements qui lui sont attribués.
+
+Dans les deux cas, le rendement influence le capital accumulé par chaque participant. La gestion collective des placements ne signifie donc pas que le risque financier est automatiquement partagé entre les participants.
+:::
+
+### Caractéristiques et encadrement
+
+Comme nous l'avons vu au chapitre précédent, les régimes complémentaires de retraite sont encadrés par des lois, notamment la Loi sur les régimes complémentaires de retraite (LRCR) au Québec [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/r-15.1 "Légis Québec — LRCR"){.source-link} et la Loi de 1985 sur les normes de prestation de pension (LNPP) pour les régimes de compétence fédérale. [↗](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/ "Gouvernement du Canada — LNPP"){.source-link} Ces lois ne concernent pas uniquement les régimes PD. Les régimes CD sont également soumis à des obligations visant notamment la protection des droits des participants, le versement des cotisations et la gestion des placements. Ils présentent toutefois certaines particularités.
+
+- **Portabilité des droits**
+
+  Lorsqu'un participant quitte son emploi, il peut généralement conserver les sommes accumulées dans le régime ou les transférer vers un autre régime de retraite ou un véhicule immobilisé, comme un compte de retraite immobilisé (CRI). Les montants transférables correspondent aux sommes inscrites dans son compte, sous réserve des règles applicables. Les possibilités et les délais de transfert sont encadrés par la législation. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-cotisation-determinee/modalites-transfert "Retraite Québec — Modalités de transfert d'un régime CD"){.source-link}
+
+- **Acquisition des droits (*vesting*)**
+
+  L'acquisition des droits désigne le moment à partir duquel les droits accumulés appartiennent définitivement au participant. Au Québec, les droits provenant des cotisations salariales et patronales sont acquis immédiatement dans les régimes assujettis à la Loi sur les régimes complémentaires de retraite. Il faut toutefois distinguer l'acquisition des droits de leur immobilisation : les sommes peuvent appartenir au participant sans qu'il puisse les retirer librement avant la retraite. [↗](https://www.retraitequebec.gouv.qc.ca/fr/loi-et-reglements-rcr-extraits-commentes/chapitre-6-remboursement-et-prestations/loi-regimes-complementaires-retraite/prestations-68-90/rente-differee-68-69/article-69-droit-rente-differee/commentaires "Retraite Québec — Article 69, acquisition immédiate des droits"){.source-link}
+
+- **Absence d'évaluation actuarielle de financement**
+
+  Un régime CD pur ne garantit pas de rente déterminée à l'avance. Il n'est donc pas nécessaire de procéder à des évaluations actuarielles périodiques pour mesurer et financer des prestations promises. Il n'existe pas non plus de déficit ou de surplus actuariel associé à une telle promesse. L'employeur demeure néanmoins tenu de verser les cotisations prévues, et l'administrateur doit respecter ses obligations réglementaires. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/regimes-retraite-cotisation-determinee-ou-prestations-determinees/demarrage "Retraite Québec — Exigences relatives au financement des régimes"){.source-link}
+
+- **Information aux participants**
+
+  Les participants reçoivent périodiquement des renseignements sur leurs droits, notamment les cotisations versées et la valeur accumulée dans leur compte. Au Québec, l'administrateur doit leur transmettre un relevé annuel permettant de suivre l'évolution de leur épargne. Il doit également fournir un relevé lors de la cessation de leur participation active au régime. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-cotisation-determinee/informations-participants "Retraite Québec — Information aux participants à un régime CD"){.source-link}
+
+
+### Rôle des actuaires
+
+Dans les régimes PD, l'actuaire intervient notamment pour évaluer les engagements financiers et déterminer les cotisations nécessaires au financement des prestations promises. Dans les régimes CD, son rôle est différent : plutôt que d'évaluer un passif collectif de prestations garanties, il contribue principalement à l'analyse des risques auxquels sont exposés les participants et à la conception de solutions de retraite. Les actuaires peuvent notamment intervenir dans :
+
+- la conception des régimes et des structures de cotisation;
+- l'analyse des stratégies de placement et de leurs conséquences sur le capital accumulé;
+- la modélisation du revenu de retraite selon différentes hypothèses de rendement, d'inflation et de longévité;
+- la conception et l'évaluation de solutions de décaissement, notamment les rentes viagères.
+
+L'Institut canadien des actuaires présente plusieurs de ces activités. [↗](https://www.cia-ica.ca/actuaries/practice-areas/pensions/ "ICA — Domaine de pratique des régimes de retraite"){.source-link} Il souligne également l'importance croissante des solutions de décaissement dans les régimes CD. [↗](https://www.cia-ica.ca/news/dc-plans-in-the-decumulation-phase-an-opportunity-to-be-seized/ "ICA — DC plans in the decumulation phase: an opportunity to be seized"){.source-link} Ainsi, les régimes CD ne font pas disparaître les risques actuariels. Ils modifient principalement leur répartition et les problèmes que les actuaires sont appelés à résoudre.
+
+## Comparaison entre les régimes à prestations déterminées et à cotisations déterminées
+
+Les régimes à prestations déterminées (PD), que nous avons couvert au [chapitre 17 — Régimes à prestations déterminées ](Chap17_Retraite_PD.qmd), et à cotisations déterminées (CD) poursuivent le même objectif : permettre aux travailleurs d'accumuler des droits ou une épargne en vue de la retraite. Ils se distinguent toutefois fondamentalement par la nature de l'engagement de l'employeur et par la répartition des risques financiers. Dans un régime PD, la prestation est déterminée à l'avance, tandis que dans un régime CD, c'est la cotisation qui l'est. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/employeur-regimes-retraite-secteurs-prive-municipal-et-universitaire/vous-voulez-mettre-place-regime-retraite/regime-cotisation-ou-prestations-determinees "Retraite Québec — Régime à cotisation ou à prestations déterminées"){.source-link} Cette distinction entraîne des avantages et des limites différents, tant pour les participants que pour les employeurs.
+
+
+
+### Répartition des risques
+
+La principale différence entre les deux modèles concerne la personne qui supporte les conséquences des événements financiers et démographiques défavorables. Cette répartition varie selon la nature du risque.
+
+- **Risque de rendement des placements**
+
+  Dans un régime PD classique, une baisse des rendements ne modifie pas directement la rente promise au participant. Elle peut toutefois créer un déficit actuariel et obliger l'employeur à verser des cotisations supplémentaires. Dans un régime CD, les mauvais rendements réduisent directement le capital accumulé et, par conséquent, le revenu de retraite qui pourra en être tiré. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-determinees/caracteristiques-regime "Retraite Québec — Caractéristiques d'un régime PD"){.source-link}
+
+  ::: {.verdict-risque}
+  <span class="verdict-titre">Verdict : </span>
+  <span class="verdict-tag verdict-employeur">PD · Employeur</span>
+  <span class="verdict-tag verdict-participant">CD · Participant</span>
+
+  L'employeur absorbe les rendements insuffisants en PD; le participant en subit directement les conséquences en CD.
+  :::
+
+- **Risque de longévité**
+
+  Dans un régime PD, les prestations sont généralement versées pendant toute la vie du retraité. Le risque qu'une personne vive plus longtemps que prévu est mutualisé entre les participants et pris en compte dans le financement du régime. Dans un régime CD, le participant qui effectue des retraits progressifs peut épuiser son capital avant son décès. Il peut toutefois transférer ce risque à un assureur en achetant une rente viagère.
+
+  ::: {.verdict-risque}
+  <span class="verdict-titre">Verdict : </span>
+  <span class="verdict-tag verdict-employeur">PD · Employeur</span>
+  <span class="verdict-tag verdict-participant">CD · Participant</span>
+  <span class="verdict-tag verdict-assureur">CD · Assureur si rente viagère</span>
+
+  En PD, l'employeur finance le risque de longévité mutualisé. En CD, le participant assume ce risque, sauf s'il le transfère à un assureur par l'achat d'une rente viagère.
+  :::
+
+- **Risque de taux d'intérêt**
+
+  Dans un régime PD, une diminution des taux d'intérêt peut augmenter la valeur actuarielle des engagements et les cotisations nécessaires au financement du régime, sans modifier directement la rente promise. Dans un régime CD, les taux d'intérêt influencent notamment le revenu que le participant peut obtenir lorsqu'il utilise son capital pour acheter une rente viagère. À capital égal, des taux plus faibles entraînent généralement une rente initiale moins élevée.
+
+  ::: {.verdict-risque}
+  <span class="verdict-titre">Verdict : </span>
+  <span class="verdict-tag verdict-employeur">PD · Employeur</span>
+  <span class="verdict-tag verdict-participant">CD · Participant</span>
+
+  En PD, les variations des taux affectent surtout le financement du régime; en CD, elles influencent notamment le revenu obtenu lors de l'achat d'une rente.
+  :::
+
+- **Risque d'inflation**
+
+  Les deux modèles peuvent exposer le retraité à une diminution de son pouvoir d'achat. Dans un régime PD, ce risque dépend notamment de l'existence d'une clause d'indexation des rentes. Dans un régime CD, la protection contre l'inflation dépend des rendements des placements et du mode de décaissement choisi.
+
+  ::: {.verdict-risque}
+  <span class="verdict-titre">Verdict : </span>
+  <span class="verdict-tag verdict-partage">PD · Selon l'indexation</span>
+  <span class="verdict-tag verdict-participant">CD · Participant</span>
+
+  En PD, le participant assume le risque sans indexation, tandis qu'une indexation garantie en transfère le coût à l'employeur. En CD, le participant demeure généralement exposé, sauf si son revenu bénéficie d'une protection contractuelle contre l'inflation.
+  :::
+
+- **Risque lié aux décisions du participant**
+
+  Dans un régime PD, les principales décisions de placement et de financement sont généralement prises collectivement. Le participant doit surtout déterminer le moment de sa retraite et choisir parmi les options de rente offertes. Dans un régime CD, il peut également devoir choisir ses placements, ajuster sa stratégie d'épargne et déterminer comment utiliser son capital à la retraite. Des décisions inadéquates peuvent réduire considérablement son revenu futur.
+
+  ::: {.verdict-risque}
+  <span class="verdict-titre">Verdict : </span>
+  <span class="verdict-tag verdict-participant">PD · Participant</span>
+  <span class="verdict-tag verdict-participant">CD · Participant</span>
+
+  Le participant prend des décisions dans les deux modèles, mais leur portée et leurs conséquences financières sont généralement plus importantes en CD.
+  :::
+
+- **Risque lié à l'évolution des salaires**
+
+  Dans un régime PD fondé sur le salaire de fin de carrière, des augmentations salariales plus élevées que prévu peuvent accroître le coût des prestations promises. Dans un régime CD, les variations salariales modifient les cotisations lorsque celles-ci sont établies en pourcentage du salaire, sans modifier rétroactivement les droits déjà accumulés.
+
+  ::: {.verdict-risque}
+  <span class="verdict-titre">Verdict : </span>
+  <span class="verdict-tag verdict-employeur">PD · Employeur</span>
+  <span class="verdict-tag verdict-partage">CD · Employeur et participant</span>
+
+  En PD, les hausses salariales peuvent augmenter le coût des rentes promises. En CD, elles modifient les cotisations patronales et le capital accumulé par le participant.
+  :::
+
+Ces répartitions correspondent aux régimes traditionnels. Certains régimes prévoient toutefois un partage différent des risques, notamment les régimes de retraite par financement salarial. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-financement-salarial "Retraite Québec — Régime de retraite par financement salarial"){.source-link}
+
+
+
+### Avantages et limites pour le participant
+
+Du point de vue du participant, les régimes PD offrent principalement une plus grande prévisibilité du revenu de retraite. Les régimes CD procurent plutôt une épargne individualisée dont l'évolution peut être suivie directement et, selon les dispositions du régime, une plus grande latitude quant aux placements et au décaissement. Les principales différences concernent :
+
+- La prévisibilité du revenu : le régime PD permet de connaître le montant de la rente selon une formule établie, tandis que le revenu provenant d'un régime CD demeure incertain jusqu'à la retraite et dépend du mode de décaissement retenu.
+
+- La mobilité professionnelle : les droits accumulés dans un régime CD sont exprimés sous forme de capital, ce qui facilite leur évaluation et leur transfert. Les droits d'un régime PD peuvent également être transférés, mais leur valeur doit généralement être déterminée au moyen d'un calcul actuariel. De plus, les formules fondées sur le salaire de fin de carrière peuvent avantager les employés qui demeurent longtemps auprès du même employeur. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-determinees/modalites-transfert "Retraite Québec — Transfert des droits d'un régime PD"){.source-link} [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-cotisation-determinee/modalites-transfert "Retraite Québec — Transfert des droits d'un régime CD"){.source-link}
+
+- L'autonomie du participant : le régime CD peut offrir davantage de contrôle sur les décisions de placement et de décaissement. Cette liberté s'accompagne toutefois de responsabilités supplémentaires. Le régime PD limite généralement ces décisions, mais procure en contrepartie une meilleure stabilité du revenu.
+
+- La sécurité des prestations : le régime PD protège davantage le participant contre les fluctuations financières et le risque de longévité. Cette protection n'est toutefois pas absolue. En cas d'insolvabilité de l'employeur, un régime déficitaire peut entraîner une réduction des droits des participants. Le régime CD ne dépend pas d'une promesse de rente de l'employeur, mais expose directement le participant à l'insuffisance éventuelle de son capital. [↗](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/travail/vous-etes-employe-secteur-prive-municipal-universitaire/situation-emploi-change/changements-entreprise/faillite-prestations-determinees "Retraite Québec — Faillite de l'employeur et régime PD"){.source-link}
+
+Enfin, la participation à un régime de pension agréé, qu'il soit PD ou CD, entraîne généralement un facteur d'équivalence qui réduit les nouveaux droits de cotisation au REER. Il ne s'agit donc pas d'un désavantage propre aux régimes PD. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/fesp/facteur-equivalence.html "Agence du revenu du Canada — Facteur d'équivalence"){.source-link}
+
+### Avantages et limites pour l'employeur
+
+Du point de vue de l'employeur, la principale distinction concerne la prévisibilité du coût du régime. Dans un régime PD, l'employeur s'engage généralement à financer les prestations promises. Il est donc exposé aux fluctuations des rendements, des taux d'intérêt, des salaires et de la longévité des participants. Ces facteurs peuvent entraîner des déficits actuariels et nécessiter des cotisations supplémentaires. L'administration est également plus complexe, puisqu'elle exige notamment des évaluations actuarielles périodiques. Cette structure peut néanmoins présenter des avantages en matière de gestion des ressources humaines :
+
+- Elle peut favoriser la fidélisation des employés, particulièrement lorsque les prestations sont liées aux salaires de fin de carrière et aux années de service.
+- Elle facilite la planification des départs à la retraite, notamment grâce à des dispositions de retraite anticipée.
+- Elle permet d'offrir un avantage social fondé sur une promesse de revenu plutôt que sur une simple contribution financière.
+
+Dans un régime CD, l'engagement de l'employeur se limite généralement au versement des cotisations prévues. Le coût du régime devient donc plus prévisible, même s'il varie selon la masse salariale, le nombre de participants et les modalités de cotisation. L'employeur n'a normalement pas à financer les déficits actuariels associés à une promesse de rente future. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/regimes-retraite-simplifies/cotisation-patronale-variable "Retraite Québec — Obligations de l'employeur selon le type de régime"){.source-link} Cette simplicité financière et actuarielle présente toutefois certaines limites :
+
+- Le régime ne garantit aucun revenu de retraite particulier, ce qui peut le rendre moins attrayant pour certains employés.
+- L'individualisation des droits peut réduire certains effets de fidélisation associés aux régimes PD, particulièrement ceux fondés sur les salaires de fin de carrière.
+- L'employeur et l'administrateur demeurent soumis à des obligations concernant le versement des cotisations, la gestion des placements et la protection des droits des participants.
+
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+#### **Synthèse** {-}
+
+La comparaison ne permet pas de conclure qu'un type de régime est systématiquement supérieur à l'autre. Un régime PD procure généralement une meilleure prévisibilité du revenu de retraite, mais impose à l'employeur des engagements financiers plus importants et plus incertains. À l'inverse, un régime CD facilite la prévision des coûts pour l'employeur, mais transfère une part importante des risques financiers et des décisions de retraite au participant. Il faut également tenir compte de la générosité des dispositions offertes. Un régime CD prévoyant des cotisations importantes peut procurer un revenu de retraite supérieur à celui d'un régime PD moins généreux, selon les rendements et les conditions de décaissement. Le type de régime ne suffit donc pas, à lui seul, pour déterminer la valeur des avantages de retraite offerts à un employé.
+
+:::
+
+### Régimes mixtes et régimes à prestations cibles
+
+Les régimes à prestations déterminées (PD) et à cotisations déterminées (CD) représentent deux approches différentes du financement de la retraite. Il existe toutefois d'autres modèles qui cherchent à combiner certaines de leurs caractéristiques ou à répartir autrement les risques financiers. On distingue notamment deux approches :
+
+- **Régimes mixtes à double volet**
+
+  Un régime à double volet combine une composante à prestations déterminées et une composante à cotisations déterminées. Le participant accumule donc simultanément des droits à une rente calculée selon une formule connue et un capital dans un compte individuel. [↗](https://www.retraitequebec.gouv.qc.ca/fr/loi-et-reglements-rcr-extraits-commentes/lexique/regime-double-volet "Retraite Québec — Définition d'un régime à double volet"){.source-link} Les deux composantes conservent leurs caractéristiques respectives :
+
+  - Le volet PD procure une rente relativement prévisible et expose généralement l'employeur aux risques de financement associés aux prestations promises.
+  - Le volet CD permet d'accumuler un capital supplémentaire, dont la valeur dépend des cotisations et des rendements obtenus.
+
+  Cette structure permet de combiner une certaine stabilité du revenu avec une accumulation individuelle. Elle est toutefois plus complexe à administrer qu'un régime CD pur, notamment parce que la composante PD nécessite des évaluations actuarielles de financement.
+
+- **Régimes à prestations cibles**
+
+  Les régimes à prestations cibles (RPC) reposent sur une logique différente. Ils prévoient une rente cible, calculée selon une formule connue à l'avance, mais cette rente n'est pas garantie au même titre que celle d'un régime PD traditionnel. Au Québec, les cotisations patronales et la cible des prestations sont établies dans les dispositions du régime. Les actifs sont gérés collectivement et servent à financer les prestations prévues. Toutefois, les participants et les bénéficiaires assument les engagements du régime et les déficits éventuels. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-cibles/caracteristiques-regime "Retraite Québec — Caractéristiques des régimes à prestations cibles"){.source-link}  Lorsque les cotisations prévues sont insuffisantes pour financer les engagements, des mesures de redressement doivent être appliquées selon les règles du régime. Elles peuvent notamment comprendre :
+
+  - une augmentation des cotisations salariales;
+  - une réduction de la cible des prestations futures;
+  - une réduction des prestations déjà accumulées, y compris des rentes en paiement.
+
+  À l'inverse, une amélioration suffisante de la situation financière peut permettre le rétablissement de prestations précédemment réduites. Les conditions de redressement et de rétablissement doivent être prévues dans le régime. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-cibles/mise-place-regime "Retraite Québec — Mesures de redressement et rétablissement des prestations"){.source-link}  L'actuaire joue ici un rôle central : il évalue périodiquement les engagements, vérifie la suffisance des cotisations et détermine si la situation financière entraîne l'application des mesures prévues. Contrairement à un régime CD pur, le financement repose donc sur une évaluation actuarielle collective des prestations visées. Le régime à prestations cibles constitue ainsi une forme de partage collectif des risques. Le risque de longévité est mutualisé entre les participants, mais les prestations peuvent être ajustées lorsque la situation financière du régime l'exige.
+  
+
+
+::: {#exm-cd-mixte .custom}
+
+**Exemple de régime mixte à double volet**
+
+Considérons un régime combinant les deux dispositions suivantes :
+
+- Une rente PD correspondant à 0,8 % du salaire de référence pour chaque année de service.
+- Une cotisation patronale CD correspondant à 2 % du salaire annuel, versée dans un compte individuel.
+
+Pour un participant ayant accumulé 25 années de service et dont le salaire de référence est de 60 000 $, le volet PD procure une rente annuelle de :
+
+$$
+R_{\text{PD}} = 0,008 \times 60\,000 \times 25
+= 12\,000\ \$
+$$
+
+Parallèlement, le volet CD accumule chaque année des cotisations correspondant à 2 % du salaire, auxquelles s'ajoutent les rendements des placements. Le capital ainsi constitué pourra ensuite être converti en revenu à la retraite. Le revenu total du participant comprendra donc une rente de 12 000 $ provenant du volet PD, à laquelle s'ajoutera le revenu financé par le capital du volet CD. Cet exemple illustre comment un régime mixte peut combiner une prestation relativement prévisible avec un revenu supplémentaire dépendant des rendements financiers.
+:::
+
+
+
+## Conclusion
+
+Les régimes à cotisations déterminées représentent une approche différente du financement de la retraite. Plutôt que de promettre un revenu futur, ils reposent sur l'accumulation d'un capital dont la valeur dépend des cotisations et des rendements obtenus. Cette structure permet à l'employeur de mieux prévoir ses coûts, mais transfère une part importante des risques financiers au participant, qui doit également composer avec les décisions entourant les placements et le décaissement de son épargne. La comparaison entre les régimes PD et CD montre qu'aucun modèle n'est systématiquement supérieur à l'autre. La générosité des cotisations ou des prestations, les garanties offertes et la répartition des risques sont autant d'éléments qui déterminent leur valeur respective. Les régimes mixtes et les régimes à prestations cibles illustrent d'ailleurs qu'il existe d'autres façons de combiner ces caractéristiques. La distinction fondamentale entre les régimes de retraite ne concerne donc pas uniquement la manière dont les prestations sont calculées, mais également la façon dont les risques sont répartis entre les employeurs et les participants.
+
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### Évolution historique et statistiques {-}
+
+- [Statistique Canada — Évolution de la couverture des régimes de pension au Canada](https://www150.statcan.gc.ca/n1/pub/11-630-x/11-630-x2015003-fra.htm)
+- [Statistique Canada — Régimes de pension au Canada : répartition en 1960 (anglais)](https://www150.statcan.gc.ca/n1/daily-quotidien/170721/dq170721d-eng.htm)
+- [Statistique Canada — Les pensions en transition, 1991 à 2006](https://www150.statcan.gc.ca/n1/daily-quotidien/090526/dq090526c-fra.htm)
+- [Statistique Canada — Régimes de pension au Canada, données de 2024](https://www150.statcan.gc.ca/n1/daily-quotidien/260728/dq260728a-fra.htm)
+- [Banque du Canada — Taux d’intérêt, rendements et solvabilité des régimes](https://www.banqueducanada.ca/2021/08/note-analytique-personnel-2021-20/)
+- [Statistique Canada — Compte satellite des pensions et crises financières](https://www150.statcan.gc.ca/n1/pub/11-010-x/2009011/part-partie3-fra.htm)
+
+### Cas de Nortel et d’Air Canada {-}
+
+- [Nortel — Rapport annuel 2008 déposé à la SEC](https://www.sec.gov/Archives/edgar/data/1119664/000119312509042559/d10k.htm)
+- [Koskie Minsky — Nortel, distribution des actifs et réclamations (PDF)](https://assets.kmlaw.ca/wp-content/uploads/2017/09/Nortel-August-31-Presentation-ENGL.pdf)
+- [Air Canada — Rapport annuel 2009, déficits des régimes (PDF)](https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/annual-report/2009_ar.pdf)
+- [Gouvernement du Canada — Règlement sur la capitalisation des régimes d’Air Canada (2014)](https://laws-lois.justice.gc.ca/fra/reglements/DORS-2013-244/TexteComplet.html)
+- [Air Canada — Communiqué sur la solvabilité, janvier 2014](https://www.newswire.ca/news-releases/air-canada-provides-pension-plan-solvency-update---domestic-plans-estimated-to-be-in-a-small-surplus-position-as-at-january-1-2014-513592141.html)
+- [Air Canada — Notice annuelle 2012, nouvelles dispositions de retraite (PDF)](https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/annual-report/2013_AIF.pdf)
+
+### Fonctionnement des régimes CD et cotisations {-}
+
+- [Retraite Québec — Présentation du régime à cotisation déterminée](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-retraite-cotisation-determinee)
+- [Retraite Québec — Caractéristiques et répartition du risque](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-cotisation-determinee/caracteristiques-regime)
+- [Retraite Québec — Cotisations patronales variables selon le service](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/regimes-retraite-simplifies/cotisation-patronale-variable)
+- [RRCCUQ — Foire aux questions et taux de cotisation](https://rrcc.uquebec.ca/faq.php)
+
+### Placements et administration {-}
+
+- [Retraite Québec — Bien administrer un régime de retraite](https://www.retraitequebec.gouv.qc.ca/fr/publications/programmes/regimes-complementaires-retraite/bien-administrer-regime-retraite)
+- [Retraite Québec — Administration d’un régime CD](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-cotisation-determinee/administration-regime)
+- [BSIF — Option de placement par défaut dans les régimes CD](https://www.osfi-bsif.gc.ca/fr/surveillance/retraites/administrer-regime-retraite/consignes-sujet/option-defaut-regimes-retraite-cotisations-determinees-accompagnes-choix)
+- [Retraite Québec — Information aux participants d’un régime CD](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-cotisation-determinee/informations-participants)
+
+### Transfert, décaissement et revenu de retraite {-}
+
+- [Retraite Québec — Modalités de transfert d’un régime CD](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-cotisation-determinee/modalites-transfert)
+- [Retraite Québec — Transfert au moment de la retraite](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/retraite-et-planification/demandez-rente-retraite/revenu-regime-complementaire-retraite/regime-cotisation-determinee/vous-prenez-retraite/transfert)
+- [Retraite Québec — Caractéristiques du CRI](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-cri)
+- [Retraite Québec — Caractéristiques du FRV](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-frv)
+- [Retraite Québec — Changements relatifs aux FRV depuis 2025](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/modifications-frv-compter-2025)
+
+### Cadre légal, droits et information financière {-}
+
+- [Québec — Loi sur les régimes complémentaires de retraite (LRCR)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/r-15.1)
+- [Canada — Loi de 1985 sur les normes de prestation de pension (LNPP)](https://laws-lois.justice.gc.ca/fra/lois/p-7.01/)
+- [Retraite Québec — Acquisition des droits : article 69](https://www.retraitequebec.gouv.qc.ca/fr/loi-et-reglements-rcr-extraits-commentes/chapitre-6-remboursement-et-prestations/loi-regimes-complementaires-retraite/prestations-68-90/rente-differee-68-69/article-69-droit-rente-differee/commentaires)
+- [BSIF — Guide des participants des régimes de retraite fédéraux](https://www.osfi-bsif.gc.ca/fr/surveillance/retraites/comprendre-votre-regime-retraite/guide-participants-regimes-retraite)
+- [BSIF — Rapport actuariel d’un régime PD](https://www.osfi-bsif.gc.ca/fr/surveillance/retraites/administrer-regime-retraite/consignes-sujet/production-du-rapport-actuariel-dun-regime-retraite-prestations-determinees)
+- [IFRS — IAS 19, comptabilisation des avantages du personnel](https://www.ifrs.org/issued-standards/list-of-standards/ias-19-employee-benefits/)
+- [Agence du revenu du Canada — Facteur d’équivalence](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/fesp/facteur-equivalence.html)
+
+### Comparaison PD–CD et autres types de régimes {-}
+
+- [Retraite Québec — Caractéristiques d’un régime PD](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-determinees/caracteristiques-regime)
+- [Retraite Québec — Régime de retraite par financement salarial](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-financement-salarial)
+- [Retraite Québec — Définition d’un régime à double volet](https://www.retraitequebec.gouv.qc.ca/fr/loi-et-reglements-rcr-extraits-commentes/lexique/regime-double-volet)
+- [Retraite Québec — Régimes à prestations cibles : caractéristiques](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-cibles/caracteristiques-regime)
+- [Retraite Québec — Régimes à prestations cibles : mise en place et redressement](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-cibles/mise-place-regime)
+
+### Rôle des actuaires {-}
+
+- [Institut canadien des actuaires — Domaine des régimes de retraite](https://www.cia-ica.ca/actuaries/practice-areas/pensions/)
+- [Institut canadien des actuaires — Décaissement dans les régimes CD (anglais)](https://www.cia-ica.ca/news/dc-plans-in-the-decumulation-phase-an-opportunity-to-be-seized/)
+
+:::

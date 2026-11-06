@@ -19,6 +19,16 @@ date-modified: last-modified
 
 :::
 
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+:::
+
+
+
 ## Retour sur le dernier chapitre
 
 <div style="
@@ -44,7 +54,7 @@ Un étudiant en actuariat tentant d'expliquer le système d'examens professionne
 
 Contrairement à plusieurs autres professions, où la formation universitaire constitue depuis longtemps le cœur du parcours de qualification, l'actuariat nord-américain s'est historiquement appuyé sur un système d'examens professionnels externes pour évaluer une grande partie des connaissances techniques. Il en résultait une situation particulière : même après avoir terminé un baccalauréat spécialisé en actuariat, un diplômé devait souvent démontrer à nouveau sa maîtrise de notions déjà évaluées à l'université. Les médecins, les ingénieurs et d'autres professionnels passent également des examens de qualification; la différence tient surtout à la place respective de la formation universitaire et des examens externes.
 
-Ce modèle s'explique en partie par l'histoire d'une profession qui s'est développée en marge des universités. Il a néanmoins contribué à retarder la pleine reconnaissance de la formation universitaire en actuariat. On pourrait dire, avec un brin d'ironie, que la profession a longtemps fait preuve d'une grande rigueur dans ses examens, mais d'une certaine lenteur à reconnaître que les universités pouvaient aussi offrir une formation professionnelle rigoureuse. Ce choix historique a eu des conséquences concrètes sur le parcours des étudiants et demeure pertinent pour comprendre les réformes récentes.
+Ce modèle s'explique en partie par l'histoire d'une profession qui s'est développée en marge des universités. [↗](https://www.soa.org/about/historical-background/ "Historique de la profession et des examens (SOA)"){.source-link} Il a néanmoins contribué à retarder la pleine reconnaissance de la formation universitaire en actuariat. On pourrait dire, avec un brin d'ironie, que la profession a longtemps fait preuve d'une grande rigueur dans ses examens, mais d'une certaine lenteur à reconnaître que les universités pouvaient aussi offrir une formation professionnelle rigoureuse. Ce choix historique a eu des conséquences concrètes sur le parcours des étudiants et demeure pertinent pour comprendre les réformes récentes.
 
 <div style="clear: both;"></div>
 
@@ -55,7 +65,7 @@ L’histoire récente de la formation actuarielle en Amérique du Nord est marqu
 
 Il est néanmoins possible de dresser un aperçu synthétique, par décennies, de cette évolution afin de mieux comprendre la structure actuelle de la formation et de la qualification professionnelles en actuariat. Avant d’aller plus loin, il est important de distinguer deux catégories d’examens professionnels en actuariat.
 
-1) Les **examens préliminaires** portent principalement sur les fondements mathématiques et probabilistes de la discipline. Ils correspondent aux cours de formation de base, au tronc commun actuariel et aux cours avancés de premier cycle présentés dans le premier chapitre. Ces examens ont donc toujours été étroitement liés à la formation universitaire de premier cycle, tant par leur contenu que par les compétences évaluées.  La réussite des seuls examens préliminaires ne suffit toutefois pas nécessairement à obtenir le titre d'associé : les parcours comportent aussi des modules, des évaluations complémentaires ou des exigences de professionnalisme, selon l'organisme concerné.
+1) Les **examens préliminaires** portent principalement sur les fondements mathématiques et probabilistes de la discipline. Ils correspondent aux cours de formation de base, au tronc commun actuariel et aux cours avancés de premier cycle présentés dans le premier chapitre. Ces examens ont donc toujours été étroitement liés à la formation universitaire de premier cycle, tant par leur contenu que par les compétences évaluées.  La réussite des seuls examens préliminaires ne suffit toutefois pas nécessairement à obtenir le titre d'associé : les parcours comportent aussi des modules, des évaluations complémentaires ou des exigences de professionnalisme, selon l'organisme concerné. [↗](https://www.soa.org/education/exam-req/edu-asa-req/ "Exigences du titre ASA (SOA)"){.source-link}
 
 2) Les **examens avancés** en actuariat portent sur des domaines spécialisés de la pratique professionnelle (assurances collectives, régimes de retraite, gestion du risque, normes de pratique, professionnalisme). Les cours optionnels du baccalauréat vus au chapitre 1 peuvent servir de porte d’entrée à ces domaines, mais ils ne constituent ni une équivalence ni une validation formelle des examens avancés.  Comme nous le verrons, la reconnaissance universitaire s'est surtout développée pour les matières de base, tandis que les évaluations avancées demeurent principalement sous la responsabilité des organismes professionnels.
 
@@ -89,7 +99,7 @@ Syllabus de la CAS en 1990
 
 Dans les années 1990, la trajectoire typique d’un actuaire nord-américain — et plus particulièrement au Québec — reposait sur une double exigence. Les étudiants complétaient un diplôme universitaire de premier cycle en actuariat, ou en mathématiques avec concentration en actuariat, tout en préparant simultanément les examens préliminaires de la *Society of Actuaries* (SOA) ou de la *Casualty Actuarial Society* (CAS). Cette organisation entraînait une redondance importante entre la formation universitaire et les examens professionnels : plusieurs notions étaient enseignées à l’université, puis réévaluées, parfois presque à l’identique, dans le cadre des examens. L’université jouait alors principalement un rôle de soutien pédagogique, tandis que la reconnaissance professionnelle demeurait entièrement contrôlée par les sociétés d’actuaires.
 
-Les taux de réussite historiques aux examens préliminaires étaient de l’ordre de 30\% à 40\% des candidats. Cette situation pouvait être source de frustration pour certains étudiants, notamment lorsqu’ils avaient réussi le cours universitaire correspondant à un examen, mais échouaient néanmoins à l’examen professionnel associé. Ainsi, à la suite de l’obtention d’un diplôme universitaire, un diplômé en actuariat entrait fréquemment sur le marché du travail dans le domaine, tout en devant encore compléter certains examens préliminaires, et ce avant même de pouvoir entreprendre les examens avancés de la SOA ou de la CAS.
+Les taux de réussite historiques aux examens préliminaires se situaient souvent autour de 35\% à 45\% des candidats, avec des variations selon les examens et les périodes. [↗](https://www.soa.org/library/newsletters/the-actuary-magazine/2008/february/act-2008-vol5-iss1-kirkwood/ "Taux de réussite historiques (SOA, 2008)"){.source-link} Cette situation pouvait être source de frustration pour certains étudiants, notamment lorsqu’ils avaient réussi le cours universitaire correspondant à un examen, mais échouaient néanmoins à l’examen professionnel associé. Ainsi, à la suite de l’obtention d’un diplôme universitaire, un diplômé en actuariat entrait fréquemment sur le marché du travail dans le domaine, tout en devant encore compléter certains examens préliminaires, et ce avant même de pouvoir entreprendre les examens avancés de la SOA ou de la CAS.
 
 À droite, on peut voir un extrait d'un [syllabus d'examen de la CAS de 1990](https://www.casact.org/sites/default/files/2021-02/1990syllabus.pdf).  L'encadré en rouge correspondait aux examens préliminaires.  On peut aussi constater que la réussite de tous les examens préliminaires n'était pas suffisante pour obtenir le titre d'associé de la CAS.
 
@@ -117,7 +127,7 @@ Le labyrinthe de la CAS
 </div>
 </div>
 
-Au début des années 2000, la Society of Actuaries (SOA) introduit officiellement les [Validation by Educational Experience (VEE)](https://www.soa.org/education/exam-req/edu-vee/). Ces validations permettent aux universités reconnues de faire approuver certains cours comme équivalents à des exigences professionnelles, notamment en statistiques, en économie et en finance. Bien que les universités commencent ainsi à être impliquées dans la formation des actuaires, le système reste quand même très difficile à comprendre, tel qu'on peut le voir avec le chemin proposé par la CAS.
+En 2005, la Society of Actuaries (SOA) introduit officiellement les [Validation by Educational Experience (VEE)](https://www.soa.org/education/exam-req/edu-vee/). [↗](https://www.soa.org/education/exam-req/resources/edu-vee-applying-faq/ "Historique des VEE et validation universitaire (SOA)"){.source-link} Ces validations permettent aux universités reconnues de faire approuver certains cours comme équivalents à des exigences professionnelles, notamment en statistiques, en économie et en finance. Bien que les universités commencent ainsi à être impliquées dans la formation des actuaires, le système reste quand même très difficile à comprendre, tel qu'on peut le voir avec le chemin proposé par la CAS.
 
 À la suite du succès relatif des VEE, l’Institut canadien des actuaires (ICA) amorce à son tour une réflexion sur la formation des actuaires au Canada. Cette réflexion porte moins sur le contenu disciplinaire — déjà bien établi — que sur la question institutionnelle de la responsabilité de la formation et de la qualification professionnelles. En effet, cette situation met en évidence un fait structurel important : la formation professionnelle des actuaires canadiens repose alors largement sur des sociétés d’actuaires américaines, soit la SOA et la CAS, plutôt que sur des organismes canadiens. Les décisions relatives aux parcours d’examens, aux contenus évalués et aux exigences de qualification sont donc prises à l’extérieur du Canada, malgré le développement croissant de programmes universitaires canadiens en actuariat.
 
@@ -131,11 +141,11 @@ Dans les années 2010, la collaboration entre les universités et les sociétés
   - des parcours optimisés pour la préparation aux examens préliminaires ;  
   - une professionnalisation accrue dès le premier cycle universitaire.  
 
-À compter de 2012, l'Institut canadien des actuaires a instauré, dans le cadre de son *programme d'agrément universitaire* (PAU), un mécanisme d'exemptions fondées sur la réussite de cours universitaires reconnus avec une note minimale déterminée. Ce programme permettait d'obtenir certains crédits correspondant à des examens préliminaires, notamment reconnus par la CAS, sans que cette reconnaissance soit équivalente à une dispense d'examens accordée par la SOA. Les dates de reconnaissance des diplômes utilisées ensuite pour les règles de transition, notamment celle du 30 juin 2015, ne doivent pas être confondues avec la mise en place initiale des exemptions par cours.
+À compter de 2012, l'Institut canadien des actuaires a instauré, dans le cadre de son *programme d'agrément universitaire* (PAU), un mécanisme d'exemptions fondées sur la réussite de cours universitaires reconnus avec une note minimale déterminée. [↗](https://actuariat.uqam.ca/etudiants-actuels/programme-dagrement-universitaire-pau-ica/ "Anciennes exemptions du PAU (UQAM)"){.source-link} Ce programme permettait d'obtenir certains crédits correspondant à des examens préliminaires, notamment reconnus par la CAS, sans que cette reconnaissance soit équivalente à une dispense d'examens accordée par la SOA. Les dates de reconnaissance des diplômes utilisées ensuite pour les règles de transition, notamment celle du 30 juin 2015, ne doivent pas être confondues avec la mise en place initiale des exemptions par cours.
 
-Le tableau suivant présente, à titre historique, les correspondances et les notes minimales utilisées dans ce dispositif. Aucun nouveau crédit d'exemption du PAU n'est accordé depuis le 31 octobre 2023, mais les crédits confirmés auparavant continuent d'être reconnus conformément aux règles transitoires de l'ICA.
+Le tableau suivant présente, à titre historique, les correspondances et les notes minimales utilisées dans ce dispositif. Aucun nouveau crédit d'exemption du PAU n'est accordé depuis le 31 octobre 2023, mais les crédits confirmés auparavant continuent d'être reconnus conformément aux règles transitoires de l'ICA. [↗](https://www.cia-ica.ca/fr/devenir-membre/foire-aux-questions-sur-leducation/ "FAQ de l’ICA sur les crédits du PAU"){.source-link}
 
-Malgré cette reconnaissance accrue, la compréhension du système d’examens demeurait souvent difficile pour les étudiants. L’administration de ces cours par les universités et les professeurs était également lourde, d’autant plus que le dispositif reposait sur la philosophie d’*imiter* la forme et la sélectivité des examens préliminaires. Ainsi, afin de reproduire des taux de réussite comparables aux taux historiques des examens — de l’ordre de 30 % à 40 % des candidats, comme nous l'avons vu — il ne suffisait pas de réussir un cours universitaire : l’obtention d’une note minimale précise, telle qu’indiquée dans le tableau, était requise.
+Malgré cette reconnaissance accrue, la compréhension du système d’examens demeurait souvent difficile pour les étudiants. L’administration de ces cours par les universités et les professeurs était également lourde, d’autant plus que le dispositif reposait sur la philosophie d’*imiter* la forme et la sélectivité des examens préliminaires. Le dispositif visait à conserver une évaluation exigeante : il ne suffisait pas de réussir un cours universitaire pour obtenir une exemption, puisqu'une note minimale précise, telle qu'indiquée dans le tableau, était requise. Il ne faut toutefois pas confondre les taux historiques de réussite aux examens avec un quota de réussite officiellement imposé par les sociétés d'actuaires. [↗](https://www.soa.org/education/general-info/grading/edu-exam-pass-marks.aspx "Méthode de détermination des seuils de réussite (SOA)"){.source-link}
 
 Dans la même optique, les évaluations écrites devaient représenter plus de 80 % de la note finale, limitant les travaux pratiques à environ 20 %. Une telle répartition apparaît problématique, dans la mesure où l’actuariat est une discipline fondamentalement appliquée et où l’un des principaux avantages de la formation universitaire réside précisément dans la diversité des modes d’évaluation possibles, incluant des projets, des analyses de données et des travaux de synthèse.
 
@@ -220,20 +230,20 @@ kable(
 ::: {.callout-important icon=false}
 ## Complexité supplémentaire pour les étudiants
 
-La *Casualty Actuarial Society* (CAS) reconnaissait certains crédits accordés dans le cadre du PAU de l'Institut canadien des actuaires (ICA). Un candidat pouvait donc s'en servir dans son cheminement vers l'ACAS, puis éventuellement vers le FCAS, en satisfaisant aux autres exigences de la CAS. Ces crédits pouvaient également être utilisés dans certains parcours de qualification de l'ICA.
+La *Casualty Actuarial Society* (CAS) reconnaissait certains crédits accordés dans le cadre du PAU de l'Institut canadien des actuaires (ICA). [↗](https://actuariat.uqam.ca/etudiants-actuels/programme-dagrement-universitaire-pau-ica/ "Anciennes exemptions du PAU (UQAM)"){.source-link} Un candidat pouvait donc s'en servir dans son cheminement vers l'ACAS, puis éventuellement vers le FCAS, en satisfaisant aux autres exigences de la CAS. Ces crédits pouvaient également être utilisés dans certains parcours de qualification de l'ICA.
 
 Pour sa part, la *Society of Actuaries* (SOA) ne reconnaissait pas les exemptions du PAU. La non-reconnaissance de ces crédits par la SOA pouvait ainsi limiter la possibilité de progresser simultanément dans les parcours des deux organismes. Cette situation constituait une difficulté concrète pour les étudiants qui souhaitaient conserver plusieurs options professionnelles en Amérique du Nord. La qualification pour exercer certaines fonctions aux États-Unis dépendait par ailleurs des exigences applicables à chacune de ces fonctions, et non d'une reconnaissance automatique des crédits du PAU.
 :::
 
 ## Le nouveau système de qualification de l’ICA (2023–2026)
 
-Annoncée en 2021 et progressivement déployée à partir de 2023, la réforme de la qualification de l'ICA modifie profondément le parcours menant au titre d'associé. Pour les étudiants des programmes universitaires agréés, elle remplace largement l'ancien système d'examens préliminaires externes par un parcours combinant reconnaissance du diplôme, formation complémentaire et évaluations professionnelles. La première édition de l'examen synthèse de niveau AICA a été administrée en janvier 2024.
+Annoncée en 2021 et progressivement déployée à partir de 2023, la réforme de la qualification de l'ICA modifie profondément le parcours menant au titre d'associé. Pour les étudiants des programmes universitaires agréés, elle remplace largement l'ancien système d'examens préliminaires externes par un parcours combinant reconnaissance du diplôme, formation complémentaire et évaluations professionnelles. La première édition de l'examen synthèse de niveau AICA a été administrée en janvier 2024. [↗](https://www.cia-ica.ca/fr/publications/225038f/ "Examen de janvier 2024 et exemples de solutions (ICA)"){.source-link}
 
 ### Devenir associé de l’ICA (AICA) par le parcours universitaire
 
 Le parcours 1 de l'ICA s'adresse notamment aux diplômés d'universités canadiennes agréées. Il comporte les exigences suivantes :
 
-1. **Être membre étudiant de l'ICA**, ce qui suppose notamment de suivre le module d'orientation de l'Institut. Cette catégorie de membres, accessible aux étudiants admissibles, ne comporte actuellement aucuns frais annuels. Les activités éducatives de l'ICA sont réservées aux membres étudiants ou candidats en règle.
+1. **Être membre étudiant de l'ICA**, ce qui suppose notamment de suivre le module d'orientation de l'Institut. Cette catégorie de membres, accessible aux étudiants admissibles, ne comporte actuellement aucuns frais annuels. [↗](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-etudiant-ou-candidat-de-lica/ "Catégories de membres étudiants et candidats (ICA)"){.source-link} Les activités éducatives de l'ICA sont réservées aux membres étudiants ou candidats en règle.
 2. **Avoir obtenu un diplôme reconnu d'une université agréée par l'ICA**, comprenant les cours exigés pour la reconnaissance du diplôme. Dans ce parcours, l'ICA n'impose pas de note minimale supérieure à la note de passage pour chacun de ces cours.
 3. **Réussir les modules 1 et 2 de niveau AICA**, qui complètent la formation universitaire en abordant la profession actuarielle, les travaux actuariels et leurs applications. Ces modules sont suivis principalement en ligne à travers des lectures, des vidéos et des travaux à remettre.
 4. **Réussir l'examen synthèse de niveau AICA**, une évaluation à livre ouvert répartie sur deux journées, qui porte notamment sur l'intégration des connaissances et la capacité de communication.
@@ -290,7 +300,7 @@ kable(
 
 #### **Les modules et l'examen synthèse** {-}
 
-L'ICA recommande généralement d'entreprendre le premier module AICA après avoir acquis une partie de la formation universitaire; les modules peuvent aussi être suivis plus tard. Contrairement aux examens traditionnels, ils reposent sur des activités d'apprentissage et des travaux plutôt que sur un examen final distinct. L'examen synthèse reste toutefois une étape exigeante.
+L'ICA recommande généralement d'entreprendre le premier module AICA après la première ou la deuxième année d'études, bien qu'il puisse aussi être suivi après la diplomation. [↗](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-associe/modules-et-examen-synthese-de-niveau-aica/ "Modules AICA et examen synthèse (ICA)"){.source-link} Contrairement aux examens traditionnels, ils reposent sur des activités d'apprentissage et des travaux plutôt que sur un examen final distinct. L'examen synthèse reste toutefois une étape exigeante.
 
 Les [résultats officiels publiés par l'ICA](https://www.cia-ica.ca/fr/devenir-membre/cours-et-examens/resultats-aux-examens-aica-et-fica/) permettent désormais de remplacer les premières estimations informelles par des observations : 52 % à l'hiver 2024, 53 % à l'automne 2024, 49 % au printemps 2025 et 36 % à l'automne 2025. Ces taux décrivent les cohortes présentes aux examens; ils ne permettent pas à eux seuls de mesurer la qualité de la formation universitaire ni de prédire le résultat d'un candidat particulier.
 
@@ -306,11 +316,11 @@ L’Institut canadien des actuaires (ICA) a mis en place un Programme d’agrém
 
 - **Qualité académique et encadrement pédagogique**  
 
-  L’agrément repose également sur des normes académiques élevées. L’université doit démontrer qu’elle applique des mécanismes rigoureux d’évaluation des étudiants, qu’elle assure l’intégrité académique et qu’elle dispose de politiques claires en matière d’éthique, de tricherie et de gestion des évaluations.  Dans ce cadre, l’ICA peut demander l’accès à divers documents pédagogiques, tels que des plans de cours, des examens, des travaux et des grilles de correction, afin de vérifier que les standards académiques sont maintenus de façon uniforme et durable.
+  L’agrément repose également sur des normes académiques élevées. L’université doit démontrer qu’elle applique des mécanismes rigoureux d’évaluation des étudiants, qu’elle assure l’intégrité académique et qu’elle dispose de politiques claires en matière d’éthique, de tricherie et de gestion des évaluations.  Dans ce cadre, l’ICA peut demander l’accès à divers documents pédagogiques, tels que des plans de cours, des examens, des travaux et des grilles de correction, afin de vérifier que les standards académiques sont maintenus de façon uniforme et durable. [↗](https://www.cia-ica.ca/fr/publications/224047f/224047f/ "Politique de l’ICA sur l’agrément universitaire"){.source-link}
 
 - **Corps professoral et exigences minimales de l’ICA**  
 
-  L’agrément universitaire de l’ICA impose des exigences précises quant à la composition du corps professoral impliqué dans un programme d’actuariat. À tout le moins, l’université doit démontrer qu’elle dispose d’une masse critique de professeurs possédant une formation actuarielle reconnue et une implication durable dans le programme. Plus précisément, l’ICA exige que l’université emploie :
+  L’agrément universitaire de l’ICA impose des exigences précises quant à la composition du corps professoral impliqué dans un programme d’actuariat. [↗](https://www.cia-ica.ca/fr/publications/224047f/224047f/ "Politique de l’ICA sur l’agrément universitaire"){.source-link} À tout le moins, l’université doit démontrer qu’elle dispose d’une masse critique de professeurs possédant une formation actuarielle reconnue et une implication durable dans le programme. Plus précisément, l’ICA exige que l’université emploie :
 
 <div style="
 float:right;
@@ -342,7 +352,7 @@ Mathieu Boudreault, professeur Fellow de l’UQAM
 
 - **Maintien et suivi de l’agrément**  
 
-  L’agrément universitaire n’est pas accordé de façon permanente. Il fait l’objet de révisions périodiques, au cours desquelles l’ICA évalue si le programme respecte toujours les critères établis. L’université a l’obligation d’informer l’ICA de tout changement significatif touchant le programme, la structure des cours ou le corps professoral. Les changements importants dans les exigences ou la structure du programme doivent être documentés et examinés dans le cadre de ce suivi.
+  L’agrément universitaire n’est pas accordé de façon permanente. Il fait l’objet de révisions périodiques, au cours desquelles l’ICA évalue si le programme respecte toujours les critères établis. [↗](https://www.cia-ica.ca/fr/publications/224047f/224047f/ "Politique de l’ICA sur l’agrément universitaire"){.source-link} L’université a l’obligation d’informer l’ICA de tout changement significatif touchant le programme, la structure des cours ou le corps professoral. Les changements importants dans les exigences ou la structure du programme doivent être documentés et examinés dans le cadre de ce suivi.
 
 <div style="clear: both;"></div>
 
@@ -488,7 +498,7 @@ Cette dernière condition a une conséquence pratique importante : des stages et
 
 Dans ce chapitre, seule la voie de qualification par le système canadien et l’ICA est présentée. D’autres parcours de qualification demeurent toutefois possibles. Historiquement, une grande partie des actuaires au Canada ont accédé à la profession en réussissant les examens préliminaires de la CAS ou de la SOA, puis en complétant une série d’examens avancés administrés par ces mêmes organisations. En 2026, un Fellow de la SOA (FSA) ou de la CAS (FCAS) peut également présenter une demande de qualification à titre de FICA selon les parcours de reconnaissance prévus par l'ICA, sous réserve de satisfaire aux conditions canadiennes qui s'appliquent à sa situation.
 
-Par choix pédagogique, ces parcours alternatifs ne sont pas abordés dans ce cours. Les étudiants intéressés peuvent toutefois consulter le site de l’ICA pour obtenir de l’information détaillée sur ces voies parallèles.
+Par choix pédagogique, ces parcours alternatifs ne sont pas abordés dans ce cours. Les étudiants intéressés peuvent toutefois consulter les [parcours de qualification de l’ICA](https://www.cia-ica.ca/fr/devenir-membre/parcours-de-qualification/) pour obtenir de l’information détaillée sur ces voies parallèles.
 :::
 
 ## Étudier tout en ayant un emploi
@@ -581,3 +591,51 @@ Il demeure néanmoins pertinent de souligner qu’en l’absence de réflexion e
 
 Ce chapitre a montré que l’adhésion à l’ICA s’inscrit dans un parcours de qualification qui dépasse largement le diplôme universitaire. Il a mis en évidence la distinction entre les examens préliminaires, désormais étroitement liés à la formation universitaire, et les examens avancés, qui demeurent centrés sur la pratique, le professionnalisme et l’expérience. L’ensemble permet de comprendre que la formation actuarielle au Canada résulte d’un équilibre entre reconnaissance académique, exigences professionnelles et évolution historique du modèle de qualification.
 
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### Histoire et structure des examens {-}
+
+- [CAS – Syllabus d’examen de 1990 (PDF)](https://www.casact.org/sites/default/files/2021-02/1990syllabus.pdf)
+- [Historique de la SOA et du système d’examens](https://www.soa.org/about/historical-background/)
+- [SOA – Conditions pour obtenir le titre ASA](https://www.soa.org/education/exam-req/edu-asa-req/)
+- [SOA – Détermination des seuils de réussite](https://www.soa.org/education/general-info/grading/edu-exam-pass-marks.aspx)
+- [SOA – Taux de réussite historiques (2008)](https://www.soa.org/library/newsletters/the-actuary-magazine/2008/february/act-2008-vol5-iss1-kirkwood/)
+
+### VEE et ancien Programme d’agrément universitaire {-}
+
+- [ICA – FAQ sur la qualification et les crédits historiques](https://www.cia-ica.ca/fr/devenir-membre/foire-aux-questions-sur-leducation/)
+- [SOA – Historique et FAQ des VEE](https://www.soa.org/education/exam-req/resources/edu-vee-applying-faq/)
+- [SOA – Validation by Educational Experience (VEE)](https://www.soa.org/education/exam-req/edu-vee/)
+- [UQAM – ACT2120](https://etudier.uqam.ca/cours?sigle=ACT2120)
+- [UQAM – ACT3122](https://etudier.uqam.ca/cours?sigle=ACT3122)
+- [UQAM – Ancien PAU : notes et équivalences](https://actuariat.uqam.ca/etudiants-actuels/programme-dagrement-universitaire-pau-ica/)
+
+### Parcours AICA et agrément universitaire {-}
+
+- [ICA – Adhésion comme membre étudiant ou candidat](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-etudiant-ou-candidat-de-lica/)
+- [ICA – Atelier sur le professionnalisme](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-associe/atelier-sur-le-professionnalisme/)
+- [ICA – Examen synthèse de janvier 2024 et solutions](https://www.cia-ica.ca/fr/publications/225038f/)
+- [ICA – Exigences détaillées d’agrément (document)](https://www.cia-ica.ca/app/themes/wicket/custom/dl_file.php?p=337338&fid=337339)
+- [ICA – Modules AICA et examen synthèse](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-associe/modules-et-examen-synthese-de-niveau-aica/)
+- [ICA – Parcours 1 : titres AICA et FICA](https://www.cia-ica.ca/fr/devenir-membre/parcours-de-qualification/parcours-1/)
+- [ICA – Politique d’agrément universitaire](https://www.cia-ica.ca/fr/publications/224047f/224047f/)
+- [ICA – Taux de réussite aux examens AICA et FICA](https://www.cia-ica.ca/fr/devenir-membre/cours-et-examens/resultats-aux-examens-aica-et-fica/)
+- [ICA – Tous les parcours de qualification](https://www.cia-ica.ca/fr/devenir-membre/parcours-de-qualification/)
+- [ICA – Universités agréées et cours obligatoires](https://www.cia-ica.ca/fr/commencer-votre-parcours/education-actuarielle-au-canada/)
+- [UQAM – Équivalences VEE et changement SCO1250/SCO1045](https://actuariat.uqam.ca/etudiants-actuels/validation-by-educational-experience-vee-soa/)
+
+### Fellow et examens avancés {-}
+
+- [Balado de l’ICA – Entrevue de Bruno Gagnon](https://www.voiraudeladurisque.ca/2022/10/leducation-actuarielle-au-xxie-siecle/)
+- [ICA – Cours avancé sur le professionnalisme et le leadership](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-fellow/cours-avance-sur-le-professionnalisme-et-le-leadership-de-lica/)
+- [ICA – Volets et examens FICA](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-fellow/programmes-detudes-de-niveau-fica/)
+
+### Durée des parcours et autres ressources {-}
+
+- [Actuarial Lookup – Durée des parcours](https://www.actuarial-lookup.com/travel-times)
+- [Coaching Actuaries – Blogue](https://www.coachingactuaries.com/blog)
+- [UQAM – ACT4400 : Modèles de survie](https://etudier.uqam.ca/cours?sigle=ACT4400)
+
+:::

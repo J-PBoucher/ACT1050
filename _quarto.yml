@@ -39,36 +39,35 @@ book:
         - Politiques.qmd
         - Aproposdesnotes.qmd
 
-    - part: "Partie 1 - Découvrir l'actuariat"
+    - part: "Partie I - Découvrir l'actuariat"
       chapters:
         - Chap1_IntroActu.qmd
         - Chap2_UQAMActuariat.qmd
         - Chap3_Stages.qmd
         - Chap4_Profession.qmd
         - Chap5_Adhesion.qmd
-
-    - part: "Partie 2 - Environnement actuariel"
-      chapters:
         - Chap6_Ecosysteme.qmd
         - Chap7_MilieuPratique.qmd
         - Chap8_Juridique.qmd
 
-    - part: "Partie 3 - Assurance de personnes"
+    - part: "Partie II - Assurance de personnes"
       chapters:
-        - Chap9_Base_assurancevie.qmd
-        - Chap10_Actuariat_assurancevie.qmd
+        - Chap9_Base_assurancepersonnes.qmd
+        - Chap10_Actuariat_assurancepersonnes.qmd
         - Chap11_Assurancevie_temporaire.qmd
-        - Chap12_Assurancevie_permanente.qmd
-
-    - part: "Partie 4 - Régime de retraite"
+        - Chap12_Assurancevie_entiere.qmd
+        - Chap13_Assurancevie_universelle.qmd
+        
+    - part: "Partie III - Régime de retraite"
       chapters:
-        - Chap13_Base_retraite.qmd
-        - Chap14_Actuariat_retraite.qmd
-        - Chap15_Retraite_PD.qmd
-        - Chap16_Retraite_CD.qmd
-        - Chap17_Retraite_public.qmd
-        - Chap18_Retraite_fiscal.qmd
-        - Chap19_Provisionnement.qmd
+        - Chap14_Fondements_retraite.qmd
+        - Chap15_Actuariat_retraite.qmd
+        - Chap16_Retraite_public.qmd
+        - Chap17_Retraite_PD.qmd
+        - Chap18_Retraite_CD.qmd
+        - Chap19_Retraite_fiscal.qmd
+        #- Chap20_Risques_retraite.qmd
+        #- Chap21_Provisionnement.qmd
 
     - Conclusion.qmd
 
@@ -83,7 +82,11 @@ book:
 format:
   html:
     embed-resources: false
-    css: custom.css
+    css: 
+      - custom.css
+      - summary.css
+    include-after-body: plan_chapitre.html
+    link-external-newwindow: true
     page-navigation: false
     theme: sandstone
     fontsize: 1.0em
@@ -91,27 +94,10 @@ format:
     toc-location: right
     toc-title: "Contenu du chapitre"
     grid:
-      sidebar-width: 300px
+      sidebar-width: 350px
       body-width: 1400px
       margin-width: 0px
       gutter-width: 1.5rem
- # pdf: 
-#    documentclass: report
-#    #include-before-body: titlepage.tex
-#    header-includes:
-#      - \usepackage{graphicx}
-#      - \usepackage{eso-pic}
-#    mainfont: Times New Roman
-#    #titlepage: false
-#    classoption: [portrait]
-#    #lof: true
-#    #lot: true
-#    geometry:
-#      - top=30mm
-#      - left=20mm
-#      - right=20mm
-#      - heightrounded
-#    colorlinks: true
 
 editor: source
 

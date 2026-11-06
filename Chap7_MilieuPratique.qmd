@@ -20,6 +20,15 @@ date-modified: last-modified
 
 :::
 
+::: {.callout-note collapse="true"}
+
+## Plan du chapitre
+
+<div id="plan-chapitre-auto"></div>
+
+:::
+
+
 ## Introduction
 
 Après avoir présenté l’écosystème de l’assurance au Québec et les principaux types d’assureurs, il est utile de descendre à l’échelle des organisations où se pratique l’actuariat. Ce chapitre adopte une perspective volontairement générale : il ne vise pas un produit, une ligne d’affaires ou un type d’employeur en particulier.  L’objectif n’est pas de dresser des organigrammes exhaustifs, mais de comprendre comment l’actuariat s’insère dans des organisations qui gèrent des engagements incertains, prennent des décisions sous diverses contraintes (réglementation, capital, concurrence, données, technologie) et doivent maintenir une cohérence entre promesses faites, risques assumés et ressources disponibles.
@@ -28,13 +37,13 @@ Les exemples et fonctions décrits ci-dessous se retrouvent, avec des variantes,
 
 ### Panorama des milieux où l’on retrouve des actuaires
 
-Les actuaires exercent dans une diversité de milieux, publics ou privés, où il s’agit de mesurer, gérer et financer des risques. Sans être exhaustifs, les principaux milieux de pratique peuvent être regroupés comme suit :
+Les actuaires exercent dans une diversité de milieux, publics ou privés, où il s’agit de mesurer, gérer et financer des risques. [↗](https://www.cia-ica.ca/fr/les-actuaires/ "Institut canadien des actuaires — domaines de pratique"){.source-link} Sans être exhaustifs, les principaux milieux de pratique peuvent être regroupés comme suit :
 
 - **Assureurs (assurances de personnes et de dommages)**  
-  Les assureurs conçoivent et administrent des contrats d’assurance, encaissent des primes, paient des prestations ou des sinistres et doivent demeurer solvables malgré l’incertitude. Les actuaires y contribuent à plusieurs fonctions : tarification, provisionnement, capital, analyse d’expérience, réassurance, modélisation et parfois soutien stratégique.
+  Les assureurs conçoivent et administrent des contrats d’assurance, encaissent des primes, paient des prestations ou des sinistres et doivent demeurer solvables malgré l’incertitude. Les actuaires y contribuent à plusieurs fonctions : tarification, provisionnement, capital, analyse d’expérience, réassurance, modélisation et parfois soutien stratégique. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurance-individuelle/ "ICA — assurance individuelle"){.source-link}
 
 - **Réassureurs**  
-  Les réassureurs assurent les assureurs en prenant en charge une partie des risques qu’ils assument. Ils structurent des traités et évaluent l’exposition globale de portefeuilles souvent internationaux. L’actuariat y est fortement orienté vers la modélisation, l’agrégation des risques et la gestion de portefeuille.
+  Les réassureurs assurent les assureurs en prenant en charge une partie des risques qu’ils assument. [↗](https://www.osfi-bsif.gc.ca/fr/donnees-formulaires/rapports-releves/produire-releve-financier/guides-production-releves-financiers/releves-dassurance-multirisque-section-iii-definitions "BSIF — définition de la réassurance"){.source-link} Ils structurent des traités et évaluent l’exposition globale de portefeuilles souvent internationaux. L’actuariat y est fortement orienté vers la modélisation, l’agrégation des risques et la gestion de portefeuille.
 
 - **Consultation (actuariat-conseil)**  
   Les cabinets de consultation accompagnent des organisations variées : assureurs, employeurs, régimes de retraite, institutions financières ou organismes publics. Les livrables prennent souvent la forme de rapports, d’opinions, de diagnostics, de modèles ou de recommandations, avec une exigence élevée de rigueur méthodologique, de communication claire et de gestion de mandat.
@@ -46,11 +55,11 @@ Les actuaires exercent dans une diversité de milieux, publics ou privés, où i
   Dans de grandes entreprises, les actuaires interviennent principalement en matière d’avantages sociaux (assurance collective, invalidité, santé), de régimes de retraite, de gestion des risques et, dans certains cas, d’analytique appliquée (prévision, estimation de coûts, analyses de scénarios).
 
 - **Gouvernements et secteur public**  
-  Les actuaires œuvrent également au sein d’organismes publics et parapublics, notamment dans les ministères, les agences de réglementation, les régimes publics de retraite et les programmes sociaux. Ils y contribuent à l’évaluation de la viabilité financière de programmes à long terme, à l’analyse des risques collectifs et à l’éclairage des décisions de politiques publiques.
+  Les actuaires œuvrent également au sein d’organismes publics et parapublics, notamment dans les ministères, les agences de réglementation, les régimes publics de retraite et les programmes sociaux. Ils y contribuent à l’évaluation de la viabilité financière de programmes à long terme, à l’analyse des risques collectifs et à l’éclairage des décisions de politiques publiques. [↗](https://www.cia-ica.ca/fr/etre-membre/normes-de-pratique/ "ICA — normes de pratique des programmes publics"){.source-link}
 
 ## Gouvernance 
 
-La gouvernance correspond à l’ensemble des mécanismes par lesquels une organisation est dirigée, surveillée et contrôlée. Elle concerne les décisions prises au plus haut niveau et vise à s’assurer que l’organisation poursuit ses objectifs tout en respectant ses obligations légales, financières et éthiques.
+La gouvernance correspond à l’ensemble des mécanismes par lesquels une organisation est dirigée, surveillée et contrôlée. [↗](https://lautorite.qc.ca/professionnels/institutions-de-depots-et-societes-de-fiducie/lignes-directrices/assises-de-lencadrement-prudentiel/ligne-directrice-sur-la-gouvernance "AMF — ligne directrice sur la gouvernance"){.source-link} Elle concerne les décisions prises au plus haut niveau et vise à s’assurer que l’organisation poursuit ses objectifs tout en respectant ses obligations légales, financières et éthiques.
 
 Dans les organisations où se pratique l’actuariat — qu’il s’agisse d’assureurs, de cabinets de consultation, d’institutions financières ou de grandes entreprises — la gouvernance est particulièrement importante. Ces organisations prennent souvent des engagements financiers importants, parfois sur de très longues périodes, dans un contexte d’incertitude. Les conséquences de mauvaises décisions peuvent donc se manifester plusieurs années, voire plusieurs décennies plus tard.
 
@@ -60,7 +69,7 @@ De façon générale, la gouvernance s’appuie sur plusieurs instances et nivea
 
 ### Le conseil d’administration
 
-Le conseil d’administration constitue la principale instance de gouvernance et de surveillance de l’organisation. Il comprend généralement des administrateurs qui ne participent pas à la gestion quotidienne. Une attention particulière est portée à leur indépendance afin qu’ils puissent exercer une surveillance objective de la haute direction et limiter les conflits d’intérêts. L’absence de lien d’emploi ne suffit pas, à elle seule, à garantir cette indépendance.
+Le conseil d’administration constitue la principale instance de gouvernance et de surveillance de l’organisation. Il comprend généralement des administrateurs qui ne participent pas à la gestion quotidienne. Une attention particulière est portée à leur indépendance afin qu’ils puissent exercer une surveillance objective de la haute direction et limiter les conflits d’intérêts. L’absence de lien d’emploi ne suffit pas, à elle seule, à garantir cette indépendance. [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/gouvernance-dentreprise-ligne-directrice-2018 "BSIF — indépendance du conseil d’administration"){.source-link}
 
 Selon la structure de l’organisation, certains dirigeants, comme le chef de la direction, peuvent également être administrateurs. Le secrétaire corporatif contribue au fonctionnement du conseil, notamment en préparant et en assurant le suivi des réunions, sans nécessairement en être membre ou disposer d’un droit de vote. Le conseil ne gère toutefois pas les opérations quotidiennes. Son rôle est plutôt de :
 
@@ -68,11 +77,11 @@ Selon la structure de l’organisation, certains dirigeants, comme le chef de la
 - nommer et superviser la haute direction ;
 - s’assurer de la solidité financière et de la pérennité de l’organisation ;
 - veiller au respect des lois, règlements et bonnes pratiques de gouvernance ;
-- protéger les intérêts des différentes parties prenantes (clients, assurés, actionnaires, employés, etc.).
+- tenir compte des intérêts des différentes parties prenantes (clients, assurés, actionnaires, employés, etc.), dans le respect des obligations propres au conseil.
 
 ### La haute direction et les grands responsables
 
-La haute direction est responsable de la gestion quotidienne de l’organisation et de la mise en œuvre des orientations approuvées par le conseil d’administration. Elle coordonne les grandes fonctions internes et arbitre entre des objectifs parfois contradictoires, comme la croissance, la rentabilité, la prudence financière et la conformité réglementaire. Au sommet de cette structure de gestion, on retrouve généralement plusieurs postes de très haute responsabilité. Les intitulés peuvent varier d’une organisation à l’autre, mais les fonctions associées sont relativement standardisées.
+La haute direction est responsable de la gestion quotidienne de l’organisation et de la mise en œuvre des orientations approuvées par le conseil d’administration. Elle coordonne les grandes fonctions internes et arbitre entre des objectifs parfois contradictoires, comme la croissance, la rentabilité, la prudence financière et la conformité réglementaire. Au sommet de cette structure de gestion, on retrouve généralement plusieurs postes de très haute responsabilité. [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/gouvernance-dentreprise-ligne-directrice-2018 "BSIF — conseil, haute direction et fonctions de supervision"){.source-link} Les intitulés peuvent varier d’une organisation à l’autre, mais les fonctions associées sont relativement standardisées.
 
 On retrouve habituellement les postes suivants :
 
@@ -111,7 +120,7 @@ text-align:center;
 </div>
 
 
-Beneva est une société canadienne d’assurance mutuelle et de services financiers. Elle est née du regroupement de deux assureurs mutualistes québécois bien établis : La Capitale, fondée en 1941, et SSQ Assurance, fondée en 1944. Le regroupement a été annoncé en janvier 2020 et la marque Beneva a été dévoilée en décembre de la même année. L’intégration des activités s’est ensuite poursuivie au fil des années suivantes.
+Beneva est une société canadienne d’assurance mutuelle et de services financiers. Elle est née du regroupement de deux assureurs mutualistes québécois bien établis : La Capitale, fondée en 1941, et SSQ Assurance, fondée en 1944. [↗](https://www.beneva.ca/fr/a-propos "Beneva — historique des deux mutuelles"){.source-link} Le regroupement a été annoncé en janvier 2020 et la marque Beneva a été dévoilée en décembre de la même année. [↗](https://www.beneva.ca/fr/regroupement "Beneva — chronologie du regroupement"){.source-link} L’intégration des activités s’est ensuite poursuivie au fil des années suivantes.
 
 <div style="clear: both;"></div>
 
@@ -174,7 +183,7 @@ position = "center"
 )
 ```
 
-L’audit interne occupe une position particulière : contrairement aux directions opérationnelles, cette fonction doit pouvoir évaluer les activités et les mécanismes de contrôle avec suffisamment d’indépendance. Elle dispose généralement d’un accès fonctionnel direct au comité d’audit du conseil d’administration.
+L’audit interne occupe une position particulière : contrairement aux directions opérationnelles, cette fonction doit pouvoir évaluer les activités et les mécanismes de contrôle avec suffisamment d’indépendance. [↗](https://lautorite.qc.ca/professionnels/institutions-de-depots-et-societes-de-fiducie/lignes-directrices/assises-de-lencadrement-prudentiel/ligne-directrice-sur-la-gouvernance "AMF — audit interne indépendant"){.source-link} Elle dispose généralement d’un accès fonctionnel direct au comité d’audit du conseil d’administration.
 
 #### **Industrielle Alliance** {-}
 
@@ -191,7 +200,7 @@ text-align:center;
 </div>
 </div>
 
-iA Groupe financier, aussi connu sous le nom d’Industrielle Alliance, est un important groupe canadien d’assurance et de gestion de patrimoine fondé en 1892. Son siège social est situé à Québec. L’entreprise exerce ses activités au Canada et aux États-Unis et offre une vaste gamme de produits et services financiers, notamment en assurance de personnes, en assurance collective, en gestion de patrimoine et en assurance de dommages.
+iA Groupe financier, aussi connu sous le nom d’Industrielle Alliance, est un important groupe canadien d’assurance et de gestion de patrimoine fondé en 1892. [↗](https://ia.ca/a-propos "iA — présentation du groupe et histoire"){.source-link} Son siège social est situé à Québec. L’entreprise exerce ses activités au Canada et aux États-Unis et offre une vaste gamme de produits et services financiers, notamment en assurance de personnes, en assurance collective, en gestion de patrimoine et en assurance de dommages.
 
 <div style="clear: both;"></div>
 
@@ -257,7 +266,7 @@ kbl(
 
 ### Les comités spécialisés
 
-Le conseil d’administration et la haute direction peuvent s’appuyer sur différents comités spécialisés. Certains sont des **comités du conseil**, principalement responsables de la surveillance; d’autres sont des **comités de direction**, davantage associés à la gestion courante et à la préparation des décisions. Leur rattachement exact varie selon l’organisation.
+Le conseil d’administration et la haute direction peuvent s’appuyer sur différents comités spécialisés. Certains sont des **comités du conseil**, principalement responsables de la surveillance; d’autres sont des **comités de direction**, davantage associés à la gestion courante et à la préparation des décisions. Leur rattachement exact varie selon l’organisation. [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/gouvernance-dentreprise-ligne-directrice-2018 "BSIF — gouvernance, comité d’audit et comité des risques"){.source-link}
 
 - **Le comité d’audit**  
   Généralement rattaché au conseil d’administration, il surveille la qualité de l’information financière, les mécanismes de contrôle interne et les travaux des auditeurs internes et externes.
@@ -277,11 +286,11 @@ La gouvernance s’appuie également sur des politiques et des cadres formels qu
 - les pouvoirs de décision et les délégations d’autorité ;
 - les mécanismes de contrôle et de reddition de comptes.
 
-Ces politiques servent de référence commune à l’ensemble de l’organisation et assurent une cohérence entre les orientations stratégiques et les décisions opérationnelles.
+Ces politiques servent de référence commune à l’ensemble de l’organisation et assurent une cohérence entre les orientations stratégiques et les décisions opérationnelles. [↗](https://lautorite.qc.ca/professionnels/institutions-de-depots-et-societes-de-fiducie/lignes-directrices/assises-de-lencadrement-prudentiel/ligne-directrice-sur-la-gouvernance "AMF — cadre de gouvernance et gestion des risques"){.source-link}
 
 ### Rôle de l’actuariat dans la gouvernance
 
-L’actuariat joue un rôle important dans le soutien à la gouvernance et à la haute direction. Les actuaires fournissent des analyses quantitatives qui permettent d’éclairer les décisions prises aux différents niveaux de l’organisation.
+L’actuariat joue un rôle important dans le soutien à la gouvernance et à la haute direction. Les actuaires fournissent des analyses quantitatives qui permettent d’éclairer les décisions prises aux différents niveaux de l’organisation. [↗](https://www.cia-ica.ca/fr/les-actuaires/ "ICA — contribution des actuaires aux organisations"){.source-link}
 
 Leurs travaux peuvent inclure :
 
@@ -327,7 +336,7 @@ Il convient toutefois de noter que certaines fonctions, comme la gestion des ris
     Ce département est chargé de la mise en marché des produits d’assurance et de la gestion des réseaux de distribution, incluant les représentants, courtiers et autres partenaires commerciaux.
   
   - **Département d’actuariat**  
-    L’actuariat opérationnel soutient les activités d’assurance par la tarification, l’évaluation des provisions, l’analyse de l’expérience et l’évaluation des besoins en capital, en traduisant l’incertitude en mesures quantitatives.
+    L’actuariat opérationnel soutient les activités d’assurance par la tarification, l’évaluation des provisions, l’analyse de l’expérience et l’évaluation des besoins en capital, en traduisant l’incertitude en mesures quantitatives. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurances-iard/ "ICA — fonctions actuarielles en assurances IARD"){.source-link}
   
   - **Département des affaires juridiques**  
     Le département des affaires juridiques assure l’interprétation et l’application du cadre légal, l’approbation des contrats, la gestion des litiges et le soutien juridique aux activités d’assurance, qui reposent largement sur des engagements contractuels.
@@ -345,7 +354,7 @@ Les actuaires travaillent rarement de façon isolée. Leurs analyses dépendent 
 | **Analyse d’expérience** | Indemnisation, administration, analytique et données |
 | **Modélisation** | Technologies de l’information, finance et gestion des risques |
 
-Par exemple, une analyse de tarification peut nécessiter des données sur les sinistres, des informations sur les contrats et une discussion avec les équipes de souscription ou de distribution. La qualité d’un travail actuariel dépend donc autant de la compréhension du fonctionnement de l’assureur et de la qualité des données que des méthodes quantitatives utilisées.
+Par exemple, une analyse de tarification peut nécessiter des données sur les sinistres, des informations sur les contrats et une discussion avec les équipes de souscription ou de distribution. La qualité d’un travail actuariel dépend donc autant de la compréhension du fonctionnement de l’assureur et de la qualité des données que des méthodes quantitatives utilisées. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurance-individuelle/ "ICA — collaboration interdisciplinaire en assurance"){.source-link}
 
 #### **Manuvie** {-}
 
@@ -363,7 +372,7 @@ text-align:center;
 </div>
 
 
-[Manuvie](https://www.manuvie.ca) (*Manulife Financial Corporation* en anglais) est une société canadienne de services financiers fondée en 1887, historiquement connue sous le nom de *The Manufacturers Life Insurance Company*. Son [siège social mondial est situé à Toronto, tandis que le siège de ses activités canadiennes se trouve à Waterloo](https://www.manulife.com/ca/en/business/contact-us), en Ontario. L’entreprise possède également une présence importante à Montréal. Elle exerce ses activités au Canada et à l’international, notamment aux États-Unis par l’intermédiaire de sa marque [John Hancock](https://www.johnhancock.com), ainsi que dans plusieurs pays d’Asie. Cette présence internationale est présentée sur le [site institutionnel de Manuvie](https://www.manulife.com/ca/fr/about-us/who-we-are/our-story).
+[Manuvie](https://www.manuvie.ca) (*Manulife Financial Corporation* en anglais) est une société canadienne de services financiers fondée en 1887 sous le nom de *The Manufacturers Life Insurance Company*. [↗](https://www.manulife.com/ca/fr/about-us/who-we-are/our-story "Manuvie — historique officiel"){.source-link} Son [siège social mondial est situé à Toronto, tandis que le siège de ses activités canadiennes se trouve à Waterloo](https://www.manulife.com/ca/en/business/contact-us), en Ontario. L’entreprise possède également une présence importante à Montréal. Elle exerce ses activités au Canada et à l’international, notamment aux États-Unis par l’intermédiaire de sa marque [John Hancock](https://www.johnhancock.com), ainsi que dans plusieurs pays d’Asie. Cette présence internationale est présentée sur le [site institutionnel de Manuvie](https://www.manulife.com/ca/fr/about-us/who-we-are/our-story).
 
 <div style="clear: both;"></div>
 
@@ -390,7 +399,7 @@ text-align:center;
 
 
 
-[Sun Life Financial](https://www.sunlife.com) est une société canadienne de services financiers fondée à Montréal en 1865 sous le nom *The Sun Insurance Company of Montreal* par Mathew Hamilton Gault, et ses activités ont commencé en 1871. La compagnie a évolué pour devenir l’une des plus anciennes et importantes sociétés d’assurance et de gestion de patrimoine au Canada et dans le monde. Sun Life offre une gamme diversifiée de produits et services dans les domaines de l’assurance et de la gestion de patrimoine au Canada ainsi qu’à l’étranger, notamment aux États-Unis, au Royaume-Uni, en Inde et en Chine.
+[Sun Life Financial](https://www.sunlife.com) est une société canadienne de services financiers fondée à Montréal en 1865 sous le nom *The Sun Insurance Company of Montreal*, notamment par Mathew Hamilton Gault, et ses activités ont commencé en 1871. [↗](https://www.patrimoine-culturel.gouv.qc.ca/detail.do?id=13307&methode=consulter&type=pge "Répertoire du patrimoine culturel du Québec — histoire de Sun Life"){.source-link} La compagnie a évolué pour devenir l’une des plus anciennes et importantes sociétés d’assurance et de gestion de patrimoine au Canada et dans le monde. Sun Life offre une gamme diversifiée de produits et services dans les domaines de l’assurance et de la gestion de patrimoine au Canada ainsi qu’à l’étranger, notamment aux États-Unis, au Royaume-Uni, en Inde et en Chine.
 
 <div style="clear: both;"></div>
 
@@ -409,7 +418,7 @@ Après avoir décrit en détail la structure d’une société d’assurance, il
 
 ### Réassureurs
 
-Les réassureurs présentent une structure proche de celle des assureurs, avec des fonctions de finance, d’actuariat, de gestion des risques et de placements. Leur clientèle est principalement constituée d’assureurs auxquels ils proposent de transférer une partie des risques. L’actuariat y met particulièrement l’accent sur la modélisation, l’agrégation de portefeuilles, les risques extrêmes et les expositions internationales.
+Les réassureurs présentent une structure proche de celle des assureurs, avec des fonctions de finance, d’actuariat, de gestion des risques et de placements. Leur clientèle est principalement constituée d’assureurs auxquels ils proposent de transférer une partie des risques. [↗](https://www.osfi-bsif.gc.ca/fr/donnees-formulaires/rapports-releves/produire-releve-financier/guides-production-releves-financiers/releves-dassurance-multirisque-section-iii-definitions "BSIF — transfert des risques par réassurance"){.source-link} L’actuariat y met particulièrement l’accent sur la modélisation, l’agrégation de portefeuilles, les risques extrêmes et les expositions internationales.
 
 ### Cabinets de consultation en actuariat
 
@@ -449,7 +458,7 @@ text-align:center;
 </div>
 
 
-La firme de consultation [Normandin Beaudry](https://www.normandin-beaudry.ca) est une société de conseil d’origine québécoise, fondée en 1992 par André Normandin et René Beaudry, spécialisée dans les services-conseils en rémunération globale et en actuariat. Elle rassemble plus de 350 experts qui accompagnent des organisations de toutes tailles (grandes entreprises, PME, organismes publics, municipalités et organismes à but non lucratif) dans la conception, l’optimisation et la gestion de leurs programmes de retraite, d’assurance collective, d’épargne, de rémunération, de santé et de performance. L’entreprise est indépendante et détenue par ses spécialistes, ce qui lui permet de maintenir une stabilité de personnel clé et une expertise pointue. Elle possède des bureaux à Montréal, Toronto et Québec, et sert une clientèle à l’échelle canadienne.
+La firme de consultation [Normandin Beaudry](https://www.normandin-beaudry.ca) est une société de conseil d’origine québécoise, fondée en 1992 par André Normandin et René Beaudry, spécialisée dans les services-conseils en rémunération globale et en actuariat. [↗](https://memorial100.com/recits/normandin-beaudry/ "Historique des fondateurs de Normandin Beaudry"){.source-link} Elle rassemble plus de 350 experts qui accompagnent des organisations de toutes tailles (grandes entreprises, PME, organismes publics, municipalités et organismes à but non lucratif) dans la conception, l’optimisation et la gestion de leurs programmes de retraite, d’assurance collective, d’épargne, de rémunération, de santé et de performance. [↗](https://www.normandin-beaudry.ca/ "Normandin Beaudry — domaines de pratique et effectifs"){.source-link} L’entreprise est indépendante et détenue par ses spécialistes, ce qui lui permet de maintenir une stabilité de personnel clé et une expertise pointue. Elle possède des bureaux à Montréal, Toronto et Québec, et sert une clientèle à l’échelle canadienne.
 
 <div style="clear: both;"></div>
 
@@ -479,7 +488,7 @@ text-align:center;
 </div>
 
 
-[Aon](https://www.aon.com) est une grande firme mondiale de services professionnels spécialisée dans la gestion des risques, le courtage d’assurance et de réassurance, ainsi que le conseil en retraite, santé et ressources humaines. Elle a été fondée en 1982 à la suite de la fusion de plusieurs sociétés d’assurance et prend son nom d’un mot gaélique signifiant « unité ». Son [siège statutaire se trouve à Dublin, en Irlande, tandis que son siège opérationnel mondial est situé à Londres](https://www.aon.com/en/about/leadership-and-governance/corporate-information). L’entreprise est également présente à Chicago et dans de nombreux autres marchés internationaux. 
+[Aon](https://www.aon.com) est une grande firme mondiale de services professionnels spécialisée dans la gestion des risques, le courtage d’assurance et de réassurance, ainsi que le conseil en retraite, santé et ressources humaines. Ses origines sous sa forme actuelle remontent à 1982, lorsque Ryan Insurance Group a fusionné avec Combined International Corporation. [↗](https://www.aon.com/taiwan/about-aon/company-overview/history-facts.jsp "Aon — historique du groupe"){.source-link} Son [siège statutaire se trouve à Dublin, en Irlande, tandis que son siège opérationnel mondial est situé à Londres](https://www.aon.com/en/about/leadership-and-governance/corporate-information). L’entreprise est également présente à Chicago et dans de nombreux autres marchés internationaux. 
 
 <div style="clear: both;"></div>
 
@@ -508,10 +517,55 @@ Dans les gouvernements et les organismes publics, la structure organisationnelle
 
 L’actuariat peut y être organisé sous différentes formes. Dans certains organismes publics, on retrouve des directions, des services ou des unités explicitement actuarielles, notamment lorsque la gestion de régimes financiers complexes constitue une mission centrale de l’organisation. C’est souvent le cas dans les organismes responsables de régimes publics ou de programmes d’assurance. Dans d’autres contextes, les actuaires sont intégrés à des directions plus larges d’analyse financière, économique ou de planification.
 
-Quelle que soit la forme retenue, l’actuariat s’insère dans une structure ministérielle ou parapublique caractérisée par une hiérarchie administrative formelle, des mandats définis par la loi et des mécanismes institutionnels de reddition de comptes. Contrairement aux assureurs privés, où l’actuariat constitue un pilier direct du modèle d’affaires, l’actuariat public agit comme une fonction d’expertise au service d’un mandat collectif.
+Quelle que soit la forme retenue, l’actuariat s’insère dans une structure ministérielle ou parapublique caractérisée par une hiérarchie administrative formelle, des mandats définis par la loi et des mécanismes institutionnels de reddition de comptes. Dans le secteur public, l’actuariat est une fonction d’expertise au service d’un mandat collectif; il peut aussi être au cœur des activités d’un régime public d’assurance ou de retraite. [↗](https://www.cia-ica.ca/fr/etre-membre/normes-de-pratique/ "ICA — normes applicables aux programmes publics d’assurance et de sécurité sociale"){.source-link}
 
 Les équipes auxquelles sont rattachés les actuaires regroupent souvent des profils variés, tels que des économistes, des statisticiens, des analystes financiers et des juristes. Cette organisation reflète le caractère multidisciplinaire de l’action publique et la nécessité d’intégrer l’analyse actuarielle dans un cadre décisionnel plus large.
 
 ## Conclusion
 
 Ce chapitre a montré que l’actuariat n’est pas un bloc isolé, mais une fonction qui s’insère dans des organisations très différentes, unies par un même besoin : transformer l’incertitude en décisions cohérentes et finançables. En observant la gouvernance, les départements et les rôles typiques, on comprend mieux où se situent les actuaires, avec qui ils interagissent, et pourquoi leurs analyses prennent des formes variées selon le milieu. Cette vue d’ensemble fournit un cadre pour interpréter des offres d’emploi, comprendre les parcours de carrière possibles et situer les apprentissages universitaires dans la réalité des organisations.
+
+::: {.callout-note collapse="true" icon=false}
+
+## Références et liens utiles {-}
+
+### Milieux de pratique et normes actuarielles {-}
+
+- [ICA — Assurance individuelle](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurance-individuelle/)
+- [ICA — Assurances IARD](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurances-iard/)
+- [ICA — Les actuaires et leurs domaines de pratique](https://www.cia-ica.ca/fr/les-actuaires/)
+- [ICA — Normes de pratique](https://www.cia-ica.ca/fr/etre-membre/normes-de-pratique/)
+
+### Gouvernance, réglementation et réassurance {-}
+
+- [AMF — Ligne directrice sur la gouvernance](https://lautorite.qc.ca/professionnels/institutions-de-depots-et-societes-de-fiducie/lignes-directrices/assises-de-lencadrement-prudentiel/ligne-directrice-sur-la-gouvernance)
+- [BSIF — Définition réglementaire de la réassurance](https://www.osfi-bsif.gc.ca/fr/donnees-formulaires/rapports-releves/produire-releve-financier/guides-production-releves-financiers/releves-dassurance-multirisque-section-iii-definitions)
+- [BSIF — Ligne directrice sur la gouvernance d’entreprise](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/gouvernance-dentreprise-ligne-directrice-2018)
+
+### Assureurs et exemples organisationnels {-}
+
+- [Beneva — Chronologie du regroupement](https://www.beneva.ca/fr/regroupement)
+- [Beneva — Informations financières et rapports annuels](https://www.beneva.ca/fr/informations-financieres)
+- [Beneva — Notre histoire](https://www.beneva.ca/fr/a-propos)
+- [iA Groupe financier — Rapport annuel 2024](https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2025/fr/fo-rapportannuel2024.pdf)
+- [iA Groupe financier — À propos](https://ia.ca/a-propos)
+- [John Hancock — Site officiel](https://www.johnhancock.com)
+- [Manuvie — Carrières](https://careers.manulife.com/ca/fr/home)
+- [Manuvie — Coordonnées et sièges](https://www.manulife.com/ca/en/business/contact-us)
+- [Manuvie — Notre histoire](https://www.manulife.com/ca/fr/about-us/who-we-are/our-story)
+- [Manuvie — Site canadien](https://www.manuvie.ca)
+- [Répertoire du patrimoine culturel du Québec — Sun Life](https://www.patrimoine-culturel.gouv.qc.ca/detail.do?id=13307&methode=consulter&type=pge)
+- [Sun Life — Carrières](https://www.sunlife.ca/fr/careers/become-an-employee/)
+- [Sun Life — Site institutionnel](https://www.sunlife.com)
+
+### Cabinets de consultation {-}
+
+- [Aon — Coordonnées et sièges sociaux](https://www.aon.com/en/about/leadership-and-governance/corporate-information)
+- [Aon — Histoire du groupe](https://www.aon.com/taiwan/about-aon/company-overview/history-facts.jsp)
+- [Aon — Offres d’emploi](https://jobs.aon.com/jobs)
+- [Aon — Site institutionnel](https://www.aon.com)
+- [Memorial 100 — Fondation de Normandin Beaudry](https://memorial100.com/recits/normandin-beaudry/)
+- [Normandin Beaudry — Offres d’emploi](https://www.normandin-beaudry.ca/offres-demploi/)
+- [Normandin Beaudry — Présentation et expertises](https://www.normandin-beaudry.ca)
+
+:::

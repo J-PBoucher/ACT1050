@@ -1,0 +1,7 @@
+
+title: Meme
+version: 1.0.0
+
+contributes:
+  shortcodes:
+    - meme.lua
