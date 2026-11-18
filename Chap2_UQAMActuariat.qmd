@@ -36,11 +36,14 @@ Dans les années 1960, le Québec connaît une transformation profonde de ses in
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/UQAM2.jpg" style="width:70%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -53,112 +56,159 @@ La nouvelle université résulte du regroupement de plusieurs établissements d'
 
 <div style="clear: both;"></div>
 
-::: {.callout-important}
-## UQAM ou UQÀM?
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+<strong>UQAM ou UQÀM?</strong>
+
+<p style="margin-top: 0.6em; margin-bottom: 0;">
 
 Profitons de l’occasion pour aborder une confusion qui persiste depuis plusieurs années à propos de l’acronyme à utiliser. Tel qu’indiqué par le [Service des communications de l’UQAM](https://servicecom.uqam.ca/normes-et-directives/logo-uqam-et-normes-graphiques.html), « l’acronyme UQAM coiffé de l’accent grave est la signature promotionnelle de l’Université du Québec à Montréal. Il s’agit donc d’un logo et non d’une règle d’écriture. Ainsi, lorsque l’acronyme UQAM est utilisé dans des textes courants, il doit être écrit sans accent ».
+
+</p>
+
 :::
 
 
-### Facultés et Départements
 
-L’Université du Québec à Montréal (UQAM) est structurée en plusieurs facultés et en l’École des sciences de la gestion (ESG), qui regroupent l’ensemble des départements, écoles et unités disciplinaires assurant l’enseignement, la recherche et la création :
+### Facultés et départements
 
-<div class="faculty-grid">
-<div class="faculty">
-<p class="faculty-title"><a href="https://www.arts.uqam.ca/">Faculté des arts</a></p>
-<ul>
-<li><a href="https://uqam.ca/facultes/departement/danse/">Danse</a></li>
-<li><a href="https://uqam.ca/facultes/departement/etudes-litteraires/">Études littéraires</a></li>
-<li><a href="https://uqam.ca/facultes/departement/histoire-de-l-art/">Histoire de l’art</a></li>
-<li><a href="https://uqam.ca/facultes/departement/musique/">Musique</a></li>
-<li><a href="https://design.uqam.ca/">Design (école)</a></li>
-<li><a href="https://eavm.uqam.ca/">Arts visuels et médiatiques (école)</a></li>
-<li><a href="https://theatre.uqam.ca/">Théâtre (école)</a></li>
-</ul>
-</div>
-<div class="faculty">
-<p class="faculty-title"><a href="https://communication.uqam.ca/">Faculté de communication</a></p>
-<ul>
-<li><a href="https://dcsp.uqam.ca/">Communication sociale et publique</a></li>
-<li><a href="https://edm.uqam.ca/">École des médias</a></li>
-<li><a href="https://langues.uqam.ca/">Langues (école)</a></li>
-</ul>
-</div>
-<div class="faculty">
-<p class="faculty-title"><a href="https://education.uqam.ca/">Faculté des sciences de l’éducation</a></p>
-<ul>
-<li><a href="https://ddl.uqam.ca/">Didactique des langues</a></li>
-<li><a href="https://didactique.uqam.ca/">Didactique</a></li>
-<li><a href="https://defs.uqam.ca/">Éducation et formation spécialisées</a></li>
-<li><a href="https://dep.uqam.ca/">Éducation et pédagogie</a></li>
-</ul>
-</div>
-<div class="faculty">
-<p class="faculty-title"><a href="https://sciences.uqam.ca/">Faculté des sciences</a></p>
-<ul>
-<li><a href="https://chimie.uqam.ca/">Chimie</a></li>
-<li><a href="https://info.uqam.ca/">Informatique</a></li>
-<li><a href="https://math.uqam.ca/">Mathématiques</a></li>
-<li><a href="https://bio.uqam.ca/">Sciences biologiques</a></li>
-<li><a href="https://www.sap.uqam.ca/">Sciences de l’activité physique</a></li>
-<li><a href="https://scta.uqam.ca/">Sciences de la Terre et de l’atmosphère</a></li>
-<li><span class="tag">Institut :</span><a href="https://ise.uqam.ca/">Sciences de l’environnement (ISE)</a></li>
-</ul>
-</div>
-<div class="faculty">
-<p class="faculty-title"><a href="https://fsh.uqam.ca/">Faculté des sciences humaines</a></p>
-<ul>
-<li><a href="https://geo.uqam.ca/">Géographie</a></li>
-<li><a href="https://histoire.uqam.ca/">Histoire</a></li>
-<li><a href="https://linguistique.uqam.ca/">Linguistique</a></li>
-<li><a href="https://philo.uqam.ca/">Philosophie</a></li>
-<li><a href="https://psychologie.uqam.ca/">Psychologie</a></li>
-<li><a href="https://religions.uqam.ca/">Sciences des religions</a></li>
-<li><a href="https://sexologie.uqam.ca/">Sexologie</a></li>
-<li><a href="https://sociologie.uqam.ca/">Sociologie</a></li>
-<li><a href="https://travailsocial.uqam.ca/">École de travail social</a></li>
-<li><span class="tag">Institut :</span><a href="https://iref.uqam.ca/">Recherches et études féministes (IREF)</a></li>
-<li><span class="tag">Institut :</span><a href="https://isc.uqam.ca/">Sciences cognitives (ISC)</a></li>
-</ul>
-</div>
-<div class="faculty">
-<p class="faculty-title"><a href="https://esg.uqam.ca/">École des sciences de la gestion (ESG UQAM)</a></p>
-<ul>
-<li><a href="https://aoti.esg.uqam.ca/">Analytique, opérations et technologies de l’information</a></li>
-<li><a href="https://management.esg.uqam.ca/">Management</a></li>
-<li><a href="https://marketing.esg.uqam.ca/">Marketing</a></li>
-<li><a href="https://finance.esg.uqam.ca/">Finance</a></li>
-<li><a href="https://economie.esg.uqam.ca/">Sciences économiques</a></li>
-<li><a href="https://dsc.esg.uqam.ca/">Sciences comptables</a></li>
-<li><a href="https://orh.esg.uqam.ca/">Organisation et ressources humaines</a></li>
-<li><a href="https://stresoe.esg.uqam.ca/">Stratégie, responsabilité sociale et environnementale</a></li>
-<li><a href="https://deut.esg.uqam.ca/">Études urbaines et touristiques</a></li>
-<li><a href="https://mode.esg.uqam.ca/">École supérieure de mode</a></li>
-</ul>
-</div>
-<div class="faculty">
-<p class="faculty-title"><a href="https://fspd.uqam.ca/">Faculté de science politique et de droit</a></p>
-<ul>
-<li><a href="https://politique.uqam.ca/">Science politique</a></li>
-<li><a href="https://juris.uqam.ca/">Sciences juridiques</a></li>
-</ul>
-</div>
-<div class="faculty">
-<p class="faculty-title">Faculté des sciences de la santé</p>
-<p class="faculty-note">Faculté créée en 2024, dont les programmes et les structures départementales sont en développement</p>
-</div>
-</div>
+L’Université du Québec à Montréal (UQAM) est structurée en sept facultés et en l’École des sciences de la gestion (ESG). Ces grandes unités regroupent les départements, les écoles et les instituts qui assurent l’enseignement, la recherche et la création dans les différentes disciplines.
+
+::::: {.faculty-grid}
+
+:::: {.faculty}
+
+::: {.faculty-title}
+Faculté des arts [↗](https://www.arts.uqam.ca/ "Site de la faculté"){.faculty-link}
+:::
+
+- [Danse](https://uqam.ca/facultes/departement/danse/)
+- [Études littéraires](https://uqam.ca/facultes/departement/etudes-litteraires/)
+- [Histoire de l’art](https://uqam.ca/facultes/departement/histoire-de-l-art/)
+- [Musique](https://uqam.ca/facultes/departement/musique/)
+- [Design (école)](https://design.uqam.ca/)
+- [Arts visuels et médiatiques (école)](https://eavm.uqam.ca/)
+- [Théâtre (école)](https://theatre.uqam.ca/)
+
+::::
+
+:::: {.faculty}
+
+::: {.faculty-title}
+Faculté de communication [↗](https://communication.uqam.ca/ "Site de la faculté"){.faculty-link}
+:::
+
+- [Communication sociale et publique](https://dcsp.uqam.ca/)
+- [École des médias](https://edm.uqam.ca/)
+- [Langues (école)](https://langues.uqam.ca/)
+
+::::
+
+:::: {.faculty}
+
+::: {.faculty-title}
+Faculté des sciences de l’éducation [↗](https://education.uqam.ca/ "Site de la faculté"){.faculty-link}
+:::
+
+- [Didactique des langues](https://ddl.uqam.ca/)
+- [Didactique](https://didactique.uqam.ca/)
+- [Éducation et formation spécialisées](https://defs.uqam.ca/)
+- [Éducation et pédagogie](https://dep.uqam.ca/)
+
+::::
+
+:::: {.faculty}
+
+::: {.faculty-title}
+Faculté des sciences [↗](https://sciences.uqam.ca/ "Site de la faculté"){.faculty-link}
+:::
+
+- [Chimie](https://chimie.uqam.ca/)
+- [Informatique](https://info.uqam.ca/)
+- [Mathématiques](https://math.uqam.ca/)
+- [Sciences biologiques](https://bio.uqam.ca/)
+- [Sciences de l’activité physique](https://www.sap.uqam.ca/)
+- [Sciences de la Terre et de l’atmosphère](https://scta.uqam.ca/)
+- [Institut :]{.tag} [Sciences de l’environnement (ISE)](https://ise.uqam.ca/)
+
+::::
+
+:::: {.faculty}
+
+::: {.faculty-title}
+Faculté des sciences humaines [↗](https://fsh.uqam.ca/ "Site de la faculté"){.faculty-link}
+:::
+
+- [Géographie](https://geo.uqam.ca/)
+- [Histoire](https://histoire.uqam.ca/)
+- [Linguistique](https://linguistique.uqam.ca/)
+- [Philosophie](https://philo.uqam.ca/)
+- [Psychologie](https://psychologie.uqam.ca/)
+- [Sciences des religions](https://religions.uqam.ca/)
+- [Sexologie](https://sexologie.uqam.ca/)
+- [Sociologie](https://sociologie.uqam.ca/)
+- [École de travail social](https://travailsocial.uqam.ca/)
+- [Institut :]{.tag} [Recherches et études féministes (IREF)](https://iref.uqam.ca/)
+- [Institut :]{.tag} [Sciences cognitives (ISC)](https://isc.uqam.ca/)
+
+::::
+
+:::: {.faculty}
+
+::: {.faculty-title}
+École des sciences de la gestion (ESG UQAM) [↗](https://esg.uqam.ca/ "Site de l’école"){.faculty-link}
+:::
+
+- [Analytique, opérations et technologies de l’information](https://aoti.esg.uqam.ca/)
+- [Management](https://management.esg.uqam.ca/)
+- [Marketing](https://marketing.esg.uqam.ca/)
+- [Finance](https://finance.esg.uqam.ca/)
+- [Sciences économiques](https://economie.esg.uqam.ca/)
+- [Sciences comptables](https://dsc.esg.uqam.ca/)
+- [Organisation et ressources humaines](https://orh.esg.uqam.ca/)
+- [Stratégie, responsabilité sociale et environnementale](https://stresoe.esg.uqam.ca/)
+- [Études urbaines et touristiques](https://deut.esg.uqam.ca/)
+- [École supérieure de mode](https://mode.esg.uqam.ca/)
+
+::::
+
+:::: {.faculty}
+
+::: {.faculty-title}
+Faculté de science politique et de droit [↗](https://fspd.uqam.ca/ "Site de la faculté"){.faculty-link}
+:::
+
+- [Science politique](https://politique.uqam.ca/)
+- [Sciences juridiques](https://juris.uqam.ca/)
+
+::::
+
+:::: {.faculty}
+
+::: {.faculty-title}
+Faculté des sciences de la santé
+:::
+
+::: {.faculty-note}
+Faculté créée en 2024, dont les programmes et les structures départementales sont en développement.
+:::
+
+::::
+
+:::::
 
 ### Structure institutionnelle de l’UQAM
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/StructureUQAM.png" style="width:66%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -185,11 +235,14 @@ Les débuts de l’actuariat à l’UQAM peuvent être situés à la création d
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/VieuxSite.png" style="width:70%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -219,11 +272,18 @@ Au fil de son développement, le département a structuré ses activités autour
 
 Le corps enseignant en actuariat à l’UQAM est constitué de [professeurs rattachés à la section d’actuariat](https://actuariat.uqam.ca/corps-professoral/professeurs-reguliers/) du Département de mathématiques, ainsi que de [chargées et chargés de cours](https://actuariat.uqam.ca/corps-professoral/charges-de-cours/) qui participent à l’enseignement du programme. Les professeures et professeurs de la section d’actuariat contribuent à la responsabilité académique du programme, notamment par l'enseignement, la participation aux instances du programme et le développement des contenus de formation. On peut consulter un peu plus en détail la composition de la *section actuariat* en visitant le [site web de l'actuariat](https://actuariat.uqam.ca/), créé par l'ancien directeur de programme, Mathieu Boudreault.
 
-::: {.callout-important icon=false}
-## Professeurs des cours MAT ou STT
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+<strong>Professeurs des cours MAT ou STT</strong>
+
+<p style="margin-top: 0.6em; margin-bottom: 0;">
 
 Dans le cadre du programme de baccalauréat en actuariat, les cours qui ne sont pas siglés ACT sont souvent qualifiés de *cours de service*. Toutefois, les [cours siglés MAT ou STT](https://math.uqam.ca/ressources-pour-le-personnel-enseignant/) relèvent eux aussi du Département de mathématiques de l’UQAM. Cette organisation fait en sorte que ces cours sont enseignés par des professeurs du même département que ceux rattachés à la section d’actuariat. Il est ainsi possible que des professeurs de la section d’actuariat enseignent des cours siglés MAT ou STT au sein du programme, et inversement, et plus naturellement, que des professeurs d’autres sections du Département de mathématiques assurent l’enseignement de cours MAT ou STT destinés aux étudiants en actuariat.
+
+</p>
+
 :::
+
 
 ### Professeurs en actuariat
 
@@ -236,97 +296,146 @@ Il importe toutefois de préciser que les professeurs peuvent enseigner d’autr
 
 #### Liste des professeurs (novembre 2026) {-}
 
-<div class="committee-grid">
+```{=html}
+<div class="act-staff-grid act-professors">
+<article class="act-staff-card">
+<div class="act-staff-name">Jean-Philippe Boucher <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/boucher.jean-philippe/" aria-label="Profil de Jean-Philippe Boucher">↗</a></div>
+<div class="act-staff-body">
+<img src="images/JPBoucher.jpg" alt="Jean-Philippe Boucher" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1050"><strong>ACT1050</strong><span>Introduction à l&#x27;actuariat I</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT5400"><strong>ACT5400</strong><span>Crédibilité</span></a></li>
+</ul>
+</div>
+</div>
+</article>
 
-<div class="member">
-<img src="images/JPBoucher.jpg" alt="Jean-Philippe Boucher" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Jean-Philippe Boucher](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/boucher.jean-philippe/)</p>
-<p class="member-affiliation">[ACT1050 – Introduction à l'actuariat I](https://etudier.uqam.ca/cours?sigle=ACT1050) </p>
-<p class="member-affiliation">[ACT5400 – Crédibilité](https://etudier.uqam.ca/cours?sigle=ACT5400) </p>
+<article class="act-staff-card">
+<div class="act-staff-name">Mathieu Boudreault <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/boudreault.mathieu/" aria-label="Profil de Mathieu Boudreault">↗</a></div>
+<div class="act-staff-body">
+<img src="images/MathieuBoudreault.jpg" alt="Mathieu Boudreault" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=MAT8600"><strong>MAT8600</strong><span>Analyse mathématique du risque</span></a></li>
+</ul>
 </div>
-</div> 
+</div>
+</article>
 
-<div class="member">
-<img src="images/MathieuBoudreault.jpg" alt="Mathieu Boudreault" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Mathieu Boudreault](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/boudreault.mathieu/)</p>
-<p class="member-affiliation">[MAT8600 – Analyse mathématique du risque](https://etudier.uqam.ca/cours?sigle=MAT8600) </p>
+<article class="act-staff-card">
+<div class="act-staff-name">Arthur Charpentier <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/charpentier.arthur/" aria-label="Profil de Arthur Charpentier">↗</a></div>
+<div class="act-staff-body">
+<img src="images/ArthurCharpentier.jpg" alt="Arthur Charpentier" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6100"><strong>ACT6100</strong><span>Analyse de données en actuariat</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=STT5100"><strong>STT5100</strong><span>Modèles linéaires appliqués</span></a></li>
+</ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<img src="images/ArthurCharpentier.jpg" alt="Arthur Charpentier" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Arthur Charpentier](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/charpentier.arthur/)</p>
-<p class="member-affiliation">[ACT6100 - Analyse de données en actuariat](https://etudier.uqam.ca/cours?sigle=ACT6100) </p>
-<p class="member-affiliation">[STT5100 - Modèles linéaires appliqués](https://etudier.uqam.ca/cours?sigle=STT5100) </p>
+<article class="act-staff-card">
+<div class="act-staff-name">Alain Desgagné <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/desgagne.alain/" aria-label="Profil de Alain Desgagné">↗</a></div>
+<div class="act-staff-body">
+<img src="images/homme-anonyme.png" alt="Alain Desgagné" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT4400"><strong>ACT4400</strong><span>Modèles de survie</span></a></li>
+</ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<img src="images/homme-anonyme.png" alt="Alain Desgagné" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Alain Desgagné](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/desgagne.alain/)</p>
-<p class="member-affiliation">[ACT4400 - Modèles de survie](https://etudier.uqam.ca/cours?sigle=ACT4400) </p>
+<article class="act-staff-card">
+<div class="act-staff-name">Matthieu Dufour <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/dufour.matthieu/" aria-label="Profil de Matthieu Dufour">↗</a></div>
+<div class="act-staff-body">
+<img src="images/MatthieuDufour.jpg" alt="Matthieu Dufour" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3300"><strong>ACT3300</strong><span>Mathématiques de l&#x27;assurance de personne I</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT4300"><strong>ACT4300</strong><span>Mathématiques de l&#x27;assurance de personne II</span></a></li>
+</ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<img src="images/MatthieuDufour.jpg" alt="Matthieu Dufour" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Matthieu Dufour](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/dufour.matthieu/)</p>
-<p class="member-affiliation">[ACT3300 - Mathématiques de l'assurance de personne I](https://etudier.uqam.ca/cours?sigle=ACT3300) </p>
-<p class="member-affiliation">[ACT4300 - Mathématiques de l'assurance de personne II](https://etudier.uqam.ca/cours?sigle=ACT4300) </p>
+<article class="act-staff-card">
+<div class="act-staff-name">Hélène Guérin <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/guerin.helene/" aria-label="Profil de Hélène Guérin">↗</a></div>
+<div class="act-staff-body">
+<img src="images/HeleneGuerin.jpg" alt="Helene Guerin" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=MAT1700"><strong>MAT1700</strong><span>Probabilités I</span></a></li>
+</ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<img src="images/HeleneGuerin.jpg" alt="Helene Guerin" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Hélène Guérin](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/guerin.helene/)</p>
-<p class="member-affiliation">[MAT1700 - Probabilités I](https://etudier.uqam.ca/cours?sigle=MAT1700) </p>
+<article class="act-staff-card">
+<div class="act-staff-name">Mathieu Pigeon <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/pigeon.mathieu.2/" aria-label="Profil de Mathieu Pigeon">↗</a></div>
+<div class="act-staff-body">
+<img src="images/homme-anonyme4.png" alt="Mathieu Pigeon" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-role">Directeur des programmes de premier cycle en actuariat</div>
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6100"><strong>ACT6100</strong><span>Analyse de données en actuariat</span></a></li>
+</ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<img src="images/homme-anonyme4.png" alt="Mathieu Pigeon" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Mathieu Pigeon](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/pigeon.mathieu.2/)</p>
-<p class="member-role">Directeur des programmes de premier cycle en actuariat</p>
-<p class="member-affiliation">[ACT6100 - Analyse de données en actuariat](https://etudier.uqam.ca/cours?sigle=ACT6100) </p>
+<article class="act-staff-card">
+<div class="act-staff-name">Jean-François Renaud <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/renaud.jf/" aria-label="Profil de Jean-François Renaud">↗</a></div>
+<div class="act-staff-body">
+<img src="images/JeanFrancoisRenaud.jpg" alt="Jean-Francois Renaud" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT2100"><strong>ACT2100</strong><span>Compléments de probabilités</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=MAT2720"><strong>MAT2720</strong><span>Processus stochastiques</span></a></li>
+</ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<img src="images/JeanFrancoisRenaud.jpg" alt="Jean-Francois Renaud" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Jean-François Renaud](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/renaud.jf/)</p>
-<p class="member-affiliation">[ACT2100 - Compléments de probabilités](https://etudier.uqam.ca/cours?sigle=ACT2100) </p>
-<p class="member-affiliation">[MAT2720 - Processus stochastiques](https://etudier.uqam.ca/cours?sigle=MAT2720) </p>
+<article class="act-staff-card">
+<div class="act-staff-name">Clarence Simard <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/simard.clarence/" aria-label="Profil de Clarence Simard">↗</a></div>
+<div class="act-staff-body">
+<img src="images/ClarenceSimard.jpg" alt="Clarence Simard" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=MAT1191"><strong>MAT1191</strong><span>Compléments de mathématiques</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT5310"><strong>ACT5310</strong><span>Mathématiques de la finance actuarielle II</span></a></li>
+</ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<img src="images/ClarenceSimard.jpg" alt="Clarence Simard" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Clarence Simard](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/simard.clarence/)</p>
-<p class="member-affiliation">[MAT1191 - Compléments de mathématiques](https://etudier.uqam.ca/cours?sigle=MAT1191) </p>
-<p class="member-affiliation">[ACT5310 - Mathématiques de la finance actuarielle II](https://etudier.uqam.ca/cours?sigle=ACT5310) </p>
+<article class="act-staff-card">
+<div class="act-staff-name">Roxane Turcotte <a class="act-staff-link" href="https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/turcotte.roxane/" aria-label="Profil de Roxane Turcotte">↗</a></div>
+<div class="act-staff-body">
+<img src="images/RoxaneTurcotte.jpg" alt="Roxane Turcotte" class="act-staff-photo">
+<div class="act-staff-info">
+<div class="act-staff-label">Enseignement</div>
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3410"><strong>ACT3410</strong><span>Distribution de sinistres</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6061"><strong>ACT6061</strong><span>Modèles actuariels en assurance non-vie</span></a></li>
+</ul>
 </div>
 </div>
-
-<div class="member">
-<img src="images/RoxaneTurcotte.jpg" alt="Roxane Turcotte" class="member-photo">
-<div class="member-info">
-<p class="member-name">[Roxane Turcotte](https://math.uqam.ca/corps-professoral/professeurs/professeurs-reguliers/professeur/turcotte.roxane/)</p>
-<p class="member-affiliation">[ACT3410 - Distribution de sinistres](https://etudier.uqam.ca/cours?sigle=ACT3410) </p>
-<p class="member-affiliation">[ACT6061 - Modèles actuariels en assurance non-vie](https://etudier.uqam.ca/cours?sigle=ACT6061) </p>
+</article>
 </div>
-</div>
-
-</div>
-
+```
 
 ### Chargés de cours
 
@@ -340,143 +449,165 @@ Enfin, il est également à noter que l’on retrouve, parmi les chargés de cou
 
 #### **Liste de quelques-uns des chargés de cours en actuariat** {-}
 
-<div class="committee-grid no-photo">
-
-<div class="member">
-<div class="member-info">
-<p class="member-name">Raïssa Coulibaly</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6061">ACT6061 - Modèles actuariels en assurance non-vie</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=STT5100">STT5100 – Modèles linéaires appliqués</a></li>
+```{=html}
+<div class="act-staff-grid act-lecturers">
+<article class="act-staff-card">
+<div class="act-staff-name">Raïssa Coulibaly</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6061"><strong>ACT6061</strong><span>Modèles actuariels en assurance non-vie</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=STT5100"><strong>STT5100</strong><span>Modèles linéaires appliqués</span></a></li>
 </ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<div class="member-info">
-<p class="member-name">Jean-François Forest-Desaulniers</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3300">ACT3300 – Mathématiques de l’assurance de personne I</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT5400">ACT5400 – Crédibilité</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6051">ACT6051 – Modèles actuariels en assurance de personne</a></li>
+<article class="act-staff-card">
+<div class="act-staff-name">Jean-François Forest-Desaulniers</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3300"><strong>ACT3300</strong><span>Mathématiques de l’assurance de personne I</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT5400"><strong>ACT5400</strong><span>Crédibilité</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6051"><strong>ACT6051</strong><span>Modèles actuariels en assurance de personne</span></a></li>
 </ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<div class="member-info">
-<p class="member-name">Bruno Gagnon</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1050">ACT1050 – Introduction à l'actuariat I</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6041">ACT6041 – Modèles actuariels en assurance collective</a></li></ul>
-</div>
-</div>
-
-<div class="member">
-<div class="member-info">
-<p class="member-name">Christel Jackson Book Botog</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT4310">ACT4310 – Mathématiques de la finance actuarielle I</a></li>
+<article class="act-staff-card">
+<div class="act-staff-name">Bruno Gagnon</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1050"><strong>ACT1050</strong><span>Introduction à l&#x27;actuariat I</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6041"><strong>ACT6041</strong><span>Modèles actuariels en assurance collective</span></a></li>
 </ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<div class="member-info">
-<p class="member-name">Sébastien Jessup</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT2060">ACT2060 – Applications probabilistes des risques actuariels</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT5400">ACT5400 – Crédibilité</a></li>
+<article class="act-staff-card">
+<div class="act-staff-name">Christel Jackson Book Botog</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT4310"><strong>ACT4310</strong><span>Mathématiques de la finance actuarielle I</span></a></li>
 </ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<div class="member-info">
-<p class="member-name">Mathieu Laurendeau</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6031">ACT6031 – Modèles actuariels en régimes de retraite</a></li>
+<article class="act-staff-card">
+<div class="act-staff-name">Sébastien Jessup</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT2060"><strong>ACT2060</strong><span>Applications probabilistes des risques actuariels</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT5400"><strong>ACT5400</strong><span>Crédibilité</span></a></li>
 </ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<div class="member-info">
-<p class="member-name">Dante Mata López</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1200">ACT1200 – Mathématiques financières I</a></li>
+<article class="act-staff-card">
+<div class="act-staff-name">Mathieu Laurendeau</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6031"><strong>ACT6031</strong><span>Modèles actuariels en régimes de retraite</span></a></li>
 </ul>
 </div>
 </div>
-<div class="member">
-<div class="member-info">
-<p class="member-name">Noureddine Meraihi</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1050">ACT1050 – Introduction à l’actuariat I</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1200">ACT1200 – Mathématiques financières I</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3035">ACT3035 – Laboratoire d’actuariat</a></li>
+</article>
+
+<article class="act-staff-card">
+<div class="act-staff-name">Dante Mata López</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1200"><strong>ACT1200</strong><span>Mathématiques financières I</span></a></li>
 </ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<div class="member-info">
-<p class="member-name">Marie Michaelides</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3410">ACT3410 - Distribution de sinistres</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6061">ACT6061 - Modèles actuariels en assurance non-vie</a></li>
+<article class="act-staff-card">
+<div class="act-staff-name">Noureddine Meraihi</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1050"><strong>ACT1050</strong><span>Introduction à l’actuariat I</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1200"><strong>ACT1200</strong><span>Mathématiques financières I</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3035"><strong>ACT3035</strong><span>Laboratoire d’actuariat</span></a></li>
 </ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<div class="member-info">
-<p class="member-name">Nicolas Moughabghab</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6041">ACT6041 – Modèles actuariels en assurance collective</a></li>
+<article class="act-staff-card">
+<div class="act-staff-name">Marie Michaelides</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3410"><strong>ACT3410</strong><span>Distribution de sinistres</span></a></li>
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6061"><strong>ACT6061</strong><span>Modèles actuariels en assurance non-vie</span></a></li>
 </ul>
 </div>
 </div>
-<div class="member">
-<div class="member-info">
-<p class="member-name">Samy Senoune</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3035">ACT3035 – Laboratoire d’actuariat</a></li>
+</article>
+
+<article class="act-staff-card">
+<div class="act-staff-name">Nicolas Moughabghab</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6041"><strong>ACT6041</strong><span>Modèles actuariels en assurance collective</span></a></li>
 </ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<div class="member-info">
-<p class="member-name">Tommy Thomassin</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT2035">ACT2035 – Actuariat et informatique</a></li>
+<article class="act-staff-card">
+<div class="act-staff-name">Samy Senoune</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3035"><strong>ACT3035</strong><span>Laboratoire d’actuariat</span></a></li>
 </ul>
 </div>
 </div>
+</article>
 
-<div class="member">
-<div class="member-info">
-<p class="member-name">Juan Sebastian Yanez</p>
-<ul class="member-courses">
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT1200">ACT1200 – Mathématiques financières I</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT3410">ACT3410 - Distribution de sinistres</a></li>
-<li><a href="https://etudier.uqam.ca/cours?sigle=ACT6061">ACT6061 - Modèles actuariels en assurance non-vie</a></li></ul>
+<article class="act-staff-card">
+<div class="act-staff-name">Tommy Thomassin</div>
+<div class="act-staff-body">
+<div class="act-staff-info">
+<ul class="act-staff-courses">
+<li><a href="https://etudier.uqam.ca/cours?sigle=ACT2035"><strong>ACT2035</strong><span>Actuariat et informatique</span></a></li>
+</ul>
 </div>
 </div>
+</article>
 
 </div>
+```
+
 
 
 ### Auxiliaires d’enseignement (démonstrateurs)
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/Demonstration.png" style="width:100%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -492,14 +623,13 @@ En mathématiques, dans la majorité des cas, les démonstrateurs sont des étud
 
 <div style="clear: both;"></div>
 
-::: {.callout-note icon=false}
-## Affichage
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+<strong> Affichage </strong>
 
 Les emplois d'auxiliaires d'enseignement, de monitorat et de surveillance d'examens font l'objet d'affichages au cours de l'année, généralement avant le début des trimestres concernés. Les dates peuvent varier selon les postes et les besoins des départements. Les offres sont publiées sur le [portail des auxiliaires d'enseignement de l'UQAM](https://rh.uqam.ca/setue/), accessible avec un code MS étudiant. D'autres possibilités d'emploi étudiant sont également offertes dans la [banque d'emplois de l'UQAM](https://portailetudiant.uqam.ca/emploi-orientation/banque-demploi/).
 
 :::
-
-
 
 <div style="clear: both;"></div>
 
@@ -512,11 +642,14 @@ La vie étudiante en actuariat ne se résume pas uniquement à la réussite acad
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/AGEMA.png" style="width:70%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -545,11 +678,14 @@ En plus de cette journée carrière, l'UQAM propose d'autres activités prépara
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/Reglementno5.png" style="width:50%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -597,16 +733,13 @@ Le [Règlement numéro 5](https://instances.uqam.ca/wp-content/uploads/sites/47/
 
 <div style="clear: both;"></div>
 
-::: {.callout-note icon=false}
 
-## Implication étudiante : norme ou exception?
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-La présence de représentants étudiants au sein des comités de programme n’est pas propre à l’UQAM. Toutefois, le Règlement no 5 prévoit explicitement leur participation et leur accorde une représentation numérique égale à celle des professeurs et de la personne chargée de cours réunis. La participation étudiante ne relève donc pas d'une simple consultation informelle : elle constitue une composante prévue de la gouvernance académique des programmes.
+<strong> Implication étudiante : norme ou exception? </strong>
 
-Cette représentation donne aux étudiants la possibilité d'intervenir directement dans les discussions concernant l'organisation, l'évolution et la qualité de leur formation.
-
+La présence de représentants étudiants au sein des comités de programme n’est pas propre à l’UQAM. Toutefois, le Règlement no 5 prévoit explicitement leur participation et leur accorde une représentation numérique égale à celle des professeurs et de la personne chargée de cours réunis. La participation étudiante ne relève donc pas d'une simple consultation informelle : elle constitue une composante prévue de la gouvernance académique des programmes. Cette représentation donne aux étudiants la possibilité d'intervenir directement dans les discussions concernant l'organisation, l'évolution et la qualité de leur formation.
 :::
-
 
 
 
@@ -634,7 +767,9 @@ La recherche fait progresser la discipline en développant de nouveaux modèles 
 
 <div style="clear: both;"></div>
 
-### Chaire Co-operators en analyse des risques actuariels (CARA)
+::: {.encadre}
+
+#### Chaire Co-operators en analyse des risques actuariels (CARA) {-}
 
 <div style="
 float:right;
@@ -653,43 +788,21 @@ La [Chaire Co-operators en analyse des risques actuariels](https://chairecara.uq
 
 <div style="clear: both;"></div>
 
-#### **Premier mandat 2018-2024** {-}
+:::
 
-Lors d’un premier mandat couvrant la période 2018–2024 [↗](https://chairecara.uqam.ca/quisommesnous.html "Source : Chaire CARA"){.source-link}, la Chaire a permis de mettre en place une structure de recherche solide en actuariat et de réaliser plusieurs avancées marquantes. Les activités de recherche ont mené à la publication de nombreux articles scientifiques [↗](https://chairecara.uqam.ca/publications.html "Source : Chaire CARA"){.source-link} dans des revues reconnues en actuariat et en science du risque, notamment *ASTIN Bulletin*, *North American Actuarial Journal*, *Variance*, *Insurance: Mathematics and Economics* et *Risks*. Les travaux de la Chaire ont également fait l’objet de communications régulières dans des conférences scientifiques [↗](https://chairecara.uqam.ca/presentations.html "Source : Chaire CARA"){.source-link}, telles que l’*Actuarial Research Conference*, la Société statistique du Canada, les *Joint Statistical Meetings* et le congrès CAGNY.
+::: {.encadre}
 
-La formation de la relève a constitué un volet central de ce premier mandat. Plusieurs étudiantes et étudiants [↗](https://chairecara.uqam.ca/anciens.html "Source : Chaire CARA"){.source-link} ont complété avec succès des maîtrises et des doctorats dans le cadre des activités de la Chaire, contribuant directement à la production scientifique et à la diffusion des connaissances. Cet encadrement s’est accompagné de l’attribution de bourses de maîtrise, de doctorat et de retour aux études [↗](https://chairecara.uqam.ca/bourses.html "Source : Chaire CARA"){.source-link}, soutenant tant les parcours académiques que la reconversion professionnelle d’actuaires.
-
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Diplomes.png" style="width:100%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-Diplômés de la Chaire depuis 2018
-</div>
-</div>
-
-Sur le plan du financement, la Chaire a notamment obtenu des subventions de recherche du Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG) et de l’Autorité des marchés financiers (AMF) [↗](https://chairecara.uqam.ca/quisommesnous.html "Source : Chaire CARA"){.source-link}, afin de développer des modèles actuariels avancés et d’analyser des problématiques liées aux primes non acquises. Ces financements ont permis de soutenir des projets de recherche à long terme et de consolider les activités de formation aux cycles supérieurs.
-
-Les travaux réalisés dans le cadre de la Chaire ont également été reconnus par plusieurs [prix et distinctions](https://chairecara.uqam.ca/nouvelles.html), tant pour la qualité des publications que pour les présentations scientifiques réalisées par les étudiantes et étudiants. Ces reconnaissances, décernées dans des revues et des conférences de premier plan en actuariat et en statistique, témoignent de la visibilité et de la portée des travaux associés à la Chaire, ainsi que de la rigueur scientifique et de la qualité de la formation offerte aux cycles supérieurs. Elles illustrent aussi la capacité des étudiantes et étudiants encadrés à produire des contributions originales reconnues par la communauté scientifique.
-
-#### **Second mandat 2024-2029** {-}
-
-En 2024, la Chaire a été officiellement renouvelée pour un second mandat couvrant la période 2024–2029 [↗](https://actualites.uqam.ca/2025/actuariat-assurance-crsng/ "Source : Actualités UQAM"){.source-link}, confirmant son rôle stratégique en recherche actuarielle et en formation aux cycles supérieurs. Ce renouvellement s’accompagne de nouvelles subventions de recherche du CRSNG [↗](https://actualites.uqam.ca/2025/actuariat-assurance-crsng/ "Source : Actualités UQAM"){.source-link} et de la poursuite des activités de soutien à la relève, incluant des bourses de maîtrise, de doctorat et de retour aux études pour les actuaires en reconversion. Durant ce second mandat, les activités de la Chaire continuent de s’inscrire à l’interface entre recherche académique, enjeux réglementaires et pratiques professionnelles, comme en témoignent la participation du titulaire à des comités consultatifs et la reconnaissance obtenue par les étudiantes et étudiants lors de conférences scientifiques internationales.
-
-<div style="clear: both;"></div>
-
-### Chaire de recherche en sciences actuarielles et climatiques (ClimACT)
+#### Chaire de recherche en sciences actuarielles et climatiques (ClimACT) {-}
 
 Lancée en 2025 [↗](https://actualites.uqam.ca/2025/lancement-de-la-chaire-de-recherche-en-sciences-actuarielles-et-climatiques/ "Source : Actualités UQAM"){.source-link}, la Chaire ClimACT vise à mieux comprendre et modéliser les impacts financiers des changements climatiques, un enjeu désormais central pour l’assurance, les régimes de retraite et les politiques publiques. La chaire est dirigée par Mathieu Boudreault, professeur au Département de mathématiques de l’UQAM, et adopte une approche multidisciplinaire combinant l’actuariat, la climatologie, la finance, l’économie et l’intelligence artificielle. La Chaire bénéficie du soutien financier de trois grandes compagnies d’assurance, Co-operators, Definity et Intact, pour un financement total de 1,5 million de dollars sur cinq ans [↗](https://actualites.uqam.ca/2025/chaire-recherche-sciences-actuarielles-climatiques/ "Source : Actualités UQAM"){.source-link}.
 
 Ses objectifs de recherche incluent le développement d’outils concrets pour quantifier les risques liés aux aléas climatiques et leur distribution future, l’analyse des effets des politiques climatiques et énergétiques, ainsi que le renforcement de la résilience financière des institutions et de la société. Dans un contexte d’accélération des phénomènes climatiques, l’intégration de ces risques dans les modèles actuariels est essentielle pour assurer la viabilité des produits financiers et des régimes d’assurance.
 
-### Quantact – Laboratoire de mathématiques actuarielles et financières
+:::
+
+::: {.encadre}
+
+#### Quantact – Laboratoire de mathématiques actuarielles et financières {-}
 
 <div style="
 float:right;
@@ -706,12 +819,11 @@ text-align:center;
 
 La recherche en actuariat s’est structurée de manière formelle à l’UQAM au début des années 2010 avec la création, en 2011, du groupe de recherche Quantact. Celui-ci a été fondé par les professeurs du Département de mathématiques de l'UQAM, Jean-Philippe Boucher, Mathieu Boudreault et Jean-François Renaud, et a rapidement obtenu une reconnaissance facultaire officielle de la Faculté des sciences de l’UQAM. Cette reconnaissance marquait une première étape importante dans la structuration collective de la recherche actuarielle à l’université.
 
-En 2014, Quantact a connu une évolution majeure en devenant un laboratoire officiel du Centre de recherches mathématiques (CRM) [↗](https://www.crmath.ca/rapports/fr/CRMannuel2014-15.pdf#page=30 "Source : Centre de recherches mathématiques (CRM)"){.source-link}, par le regroupement de l'équipe initiale de l'UQAM avec des chercheuses et chercheurs d'autres établissements québécois. Par cette intégration au CRM, Quantact s’est inscrit dans un réseau de recherche mathématique de portée nationale et internationale, tout en conservant un ancrage historique important à l’UQAM. Quantact constitue aujourd'hui un regroupement interuniversitaire de recherche en mathématiques actuarielles et financières [↗](https://www.crmath.ca/laboratoire-mathematiques-actuarielles-financiere/ "Source : Centre de recherches mathématiques (CRM)"){.source-link}. Affilié au CRM, le laboratoire rassemble des chercheurs et des chercheuses de plusieurs universités québécoises. Leurs travaux couvrent un large éventail de thématiques, notamment la modélisation stochastique du risque, les probabilités appliquées, les mathématiques financières, la tarification, la gestion des risques et les méthodes quantitatives en assurance.
-
-Les [activités de Quantact](https://www.crmath.ca/laboratoire-mathematiques-actuarielles-financiere/activite-quantact/) comprennent l’organisation de séminaires scientifiques, le développement de collaborations interuniversitaires et internationales, ainsi que la production et la diffusion de connaissances sous forme d’articles, de conférences et d’événements académiques. Le laboratoire joue également un rôle structurant dans la formation aux cycles supérieurs, tant à la maîtrise qu’au doctorat, en offrant un cadre de recherche collectif et reconnu pour les étudiantes et étudiants en actuariat et en finance.
+En 2014, Quantact a connu une évolution majeure en devenant un laboratoire officiel du Centre de recherches mathématiques (CRM) [↗](https://www.crmath.ca/rapports/fr/CRMannuel2014-15.pdf#page=30 "Source : Centre de recherches mathématiques (CRM)"){.source-link}, par le regroupement de l'équipe initiale de l'UQAM avec des chercheuses et chercheurs d'autres établissements québécois. Par cette intégration au CRM, Quantact s’est inscrit dans un réseau de recherche mathématique de portée nationale et internationale, tout en conservant un ancrage historique important à l’UQAM. Quantact constitue aujourd'hui un regroupement interuniversitaire de recherche en mathématiques actuarielles et financières [↗](https://www.crmath.ca/laboratoire-mathematiques-actuarielles-financiere/ "Source : Centre de recherches mathématiques (CRM)"){.source-link}. Affilié au CRM, le laboratoire rassemble des chercheurs et des chercheuses de plusieurs universités québécoises. Leurs travaux couvrent un large éventail de thématiques, notamment la modélisation stochastique du risque, les probabilités appliquées, les mathématiques financières, la tarification, la gestion des risques et les méthodes quantitatives en assurance. Les [activités de Quantact](https://www.crmath.ca/laboratoire-mathematiques-actuarielles-financiere/activite-quantact/) comprennent l’organisation de séminaires scientifiques, le développement de collaborations interuniversitaires et internationales, ainsi que la production et la diffusion de connaissances sous forme d’articles, de conférences et d’événements académiques. Le laboratoire joue également un rôle structurant dans la formation aux cycles supérieurs, tant à la maîtrise qu’au doctorat, en offrant un cadre de recherche collectif et reconnu pour les étudiantes et étudiants en actuariat et en finance.
 
 <div style="clear: both;"></div>
 
+:::
 
 ## Études de cycles supérieurs en actuariat à l'UQAM
 
@@ -739,19 +851,16 @@ Les structures de recherche présentées précédemment — chaires et laboratoi
 
 ### Maîtrise en actuariat
 
-Il n’existe pas, à proprement parler, de diplôme portant officiellement le nom de maîtrise en actuariat à l’UQAM. En pratique, les étudiantes et étudiants souhaitant poursuivre des études de deuxième cycle en actuariat s’inscrivent à la concentration mathématiques actuarielles et financières de la maîtrise en mathématiques [↗](https://etudier.uqam.ca/programme?code=1912 "Source : UQAM – Descriptif de programme"){.source-link}. Les diplômés du baccalauréat en actuariat de l'UQAM ayant obtenu une moyenne cumulative d'au moins **3,2 sur 4,3** satisfont normalement au critère de moyenne exigé pour l'admission à cette concentration. Leur admission demeure toutefois soumise à l'évaluation de leur dossier. Le descriptif officiel prévoit également la possibilité d'étudier certaines candidatures présentant une moyenne inférieure.
+Il n’existe pas, à proprement parler, de diplôme portant officiellement le nom de maîtrise en actuariat à l’UQAM. En pratique, les étudiantes et étudiants souhaitant poursuivre des études de deuxième cycle en actuariat s’inscrivent à la concentration mathématiques actuarielles et financières de la maîtrise en mathématiques [↗](https://etudier.uqam.ca/programme?code=1912 "Source : UQAM – Descriptif de programme"){.source-link}. Les diplômés du baccalauréat en actuariat de l'UQAM ayant obtenu une moyenne cumulative d'au moins 3,2 sur 4,3 satisfont normalement au critère de moyenne exigé pour l'admission à cette concentration. Leur admission demeure toutefois soumise à l'évaluation de leur dossier. Le descriptif officiel prévoit également la possibilité d'étudier certaines candidatures présentant une moyenne inférieure.
 
-La description officielle du programme est disponible pour le [profil avec mémoire (1912)](https://etudier.uqam.ca/programme?code=1912) et le [profil avec rapport de recherche (1913)](https://etudier.uqam.ca/programme?code=1913). Toutefois, pour les personnes provenant du baccalauréat en actuariat, certaines précisions sont nécessaires afin de bien comprendre les exigences académiques et le fonctionnement habituel du programme. Bien qu’un profil avec rapport de recherche existe, les étudiantes et étudiants qui intègrent les équipes de recherche en actuariat privilégient généralement le **profil avec mémoire de recherche**.
+La description officielle du programme est disponible pour le [profil avec mémoire (1912)](https://etudier.uqam.ca/programme?code=1912) et le [profil avec rapport de recherche (1913)](https://etudier.uqam.ca/programme?code=1913). Toutefois, pour les personnes provenant du baccalauréat en actuariat, certaines précisions sont nécessaires afin de bien comprendre les exigences académiques et le fonctionnement habituel du programme. Bien qu’un profil avec rapport de recherche existe, les étudiantes et étudiants qui intègrent les équipes de recherche en actuariat privilégient généralement le profil avec mémoire de recherche.
 
-#### **Cours (scolarité)** {-}
+::: {.encadre}
+#### Cours (scolarité) {-}
 
-Le profil avec mémoire comporte officiellement **six cours de trois crédits**, soit 18 crédits de scolarité. Le [descriptif du programme](https://etudier.uqam.ca/programme?code=1912) prévoit notamment la réussite de cours appartenant à des listes déterminées, dont au moins un cours siglé FIN. Certaines adaptations peuvent être autorisées par la direction du programme.
+Le profil avec mémoire comporte officiellement six cours de trois crédits, soit 18 crédits de scolarité. Le [descriptif du programme](https://etudier.uqam.ca/programme?code=1912) prévoit notamment la réussite de cours appartenant à des listes déterminées, dont au moins un cours siglé FIN. Certaines adaptations peuvent être autorisées par la direction du programme. De manière générale, il est recommandé aux étudiantes et étudiants de :
 
-De manière générale, il est recommandé aux étudiantes et étudiants de :
-
-1) Réussir **un cours siglé FIN**
-
-   Il est possible de demander une dispense ou une substitution à cette exigence. Dans ce cas, il est recommandé d’en discuter avec son directeur ou sa directrice de recherche, qui pourra effectuer les démarches nécessaires auprès de la direction du programme. Toute adaptation demeure toutefois soumise à une autorisation officielle.
+1) Réussir un cours siglé FIN: Il est possible de demander une dispense ou une substitution à cette exigence. Dans ce cas, il est recommandé d’en discuter avec son directeur ou sa directrice de recherche, qui pourra effectuer les démarches nécessaires auprès de la direction du programme. Toute adaptation demeure toutefois soumise à une autorisation officielle.
 
 2) Compléter la scolarité à partir des cours suivants :
 
@@ -766,44 +875,31 @@ De manière générale, il est recommandé aux étudiantes et étudiants de :
 
 Cette liste présente des cours particulièrement pertinents pour la formation actuarielle. Le choix définitif doit respecter les exigences officielles du programme ou faire l'objet des autorisations nécessaires. L'offre de cours peut également varier d'une année à l'autre.
 
-#### **Honor** {-}
+> Il est à noter que le [profil Honor du baccalauréat en actuariat](https://etudier.uqam.ca/programme?code=7359) de l’UQAM permet notamment de suivre des cours de deuxième cycle durant les dernières sessions du baccalauréat, sous réserve des autorisations nécessaires. L'[article 5.10 du Règlement numéro 8](https://instances.uqam.ca/wp-content/uploads/sites/47/2017/12/20260618_r08.pdf#page=27) prévoit expressément que des crédits de deuxième cycle intégrés au baccalauréat peuvent ensuite faire l'objet d'une reconnaissance dans un programme de maîtrise. Cette reconnaissance doit être demandée après l'admission à la maîtrise et demeure soumise aux règles applicables. Ainsi, une étudiante ou un étudiant ayant réussi deux cours de maîtrise reconnus dans son cheminement de deuxième cycle pourrait n'avoir que quatre cours supplémentaires à réussir, plutôt que six, pour compléter la scolarité de maîtrise. Pour accéder au profil Honor, il faut normalement avoir complété au moins 60 crédits du baccalauréat avec une moyenne cumulative d'au moins 3,5 sur 4,3, et obtenir les autorisations des directions de programmes concernées. Il est donc recommandé de planifier ce cheminement suffisamment tôt.
 
-Le [profil Honor du baccalauréat en actuariat](https://etudier.uqam.ca/programme?code=7359) de l’UQAM permet notamment de suivre des cours de deuxième cycle durant les dernières sessions du baccalauréat, sous réserve des autorisations nécessaires.
+:::
 
-L'[article 5.10 du Règlement numéro 8](https://instances.uqam.ca/wp-content/uploads/sites/47/2017/12/20260618_r08.pdf#page=27) prévoit expressément que des crédits de deuxième cycle intégrés au baccalauréat peuvent ensuite faire l'objet d'une reconnaissance dans un programme de maîtrise. Cette reconnaissance doit être demandée après l'admission à la maîtrise et demeure soumise aux règles applicables.
+::: {.encadre}
+#### Mémoire {-}
 
-Ainsi, une étudiante ou un étudiant ayant réussi **deux cours de maîtrise reconnus dans son cheminement de deuxième cycle** pourrait n'avoir que **quatre cours supplémentaires** à réussir, plutôt que six, pour compléter la scolarité de maîtrise.
+En plus des cours, les étudiantes et étudiants doivent rédiger un mémoire de recherche de 27 crédits [↗](https://etudier.uqam.ca/programme?code=1912 "Source : UQAM – Descriptif de programme"){.source-link} portant sur un sujet lié aux thématiques de recherche de leur choix. Il est fortement recommandé de discuter tôt avec son directeur ou sa directrice de recherche afin d’identifier un sujet de mémoire. Lorsque le projet de recherche s’inscrit dans des problématiques concrètes, des échanges avec des partenaires externes peuvent également avoir lieu. On peut consulter les mémoires réalisés à l'UQAM dans le dépôt institutionnel [Archipel](https://archipel.uqam.ca/).
+:::
 
-Pour accéder au profil Honor, il faut normalement avoir complété au moins **60 crédits du baccalauréat avec une moyenne cumulative d'au moins 3,5 sur 4,3**, et obtenir les autorisations des directions de programmes concernées. Il est donc recommandé de planifier ce cheminement suffisamment tôt.
-
-#### **Mémoire** {-}
-
-En plus des cours, les étudiantes et étudiants doivent rédiger un mémoire de recherche de 27 crédits [↗](https://etudier.uqam.ca/programme?code=1912 "Source : UQAM – Descriptif de programme"){.source-link} portant sur un sujet lié aux thématiques de recherche de leur choix. Il est fortement recommandé de discuter tôt avec son directeur ou sa directrice de recherche afin d’identifier un sujet de mémoire. Lorsque le projet de recherche s’inscrit dans des problématiques concrètes, des échanges avec des partenaires externes peuvent également avoir lieu.
-
-On peut consulter les mémoires réalisés à l'UQAM dans le dépôt institutionnel [Archipel](https://archipel.uqam.ca/).
-
-#### **Cheminement** {-}
+::: {.encadre}
+#### Cheminement {-}
 
 Le [programme de maîtrise](https://etudier.uqam.ca/programme?code=1912) prévoit normalement des admissions aux sessions suivantes :
 
 - Session d’automne (début septembre)
 - Session d’hiver (début janvier)
 
-Exceptionnellement, une intégration à une équipe de recherche pendant l'été peut être envisagée, selon les possibilités de financement et les modalités administratives applicables. Cette possibilité ne constitue toutefois pas une session régulière d'admission au programme.
+Exceptionnellement, une intégration à une équipe de recherche pendant l'été peut être envisagée, selon les possibilités de financement et les modalités administratives applicables. Cette possibilité ne constitue toutefois pas une session régulière d'admission au programme. Il est généralement recommandé de suivre deux à trois cours par session, ce qui permet de compléter la scolarité en deux ou trois sessions. Le sujet de mémoire est souvent défini durant la première année, et le projet de recherche débute habituellement à la fin de la scolarité. Dans les équipes de recherche en actuariat, le travail consacré au mémoire peut généralement s'étendre sur 10 à 15 mois, selon le sujet, les données disponibles et la progression de l'étudiant. En règle générale, peu de cours pertinents de cycles supérieurs sont offerts durant l’été. Cette période est donc principalement consacrée au travail de recherche, même si la scolarité n’est pas encore entièrement complétée.
+:::
 
-Il est généralement recommandé de suivre **deux à trois cours par session**, ce qui permet de compléter la scolarité en deux ou trois sessions.
+::: {.encadre}
+#### Financement {-}
 
-Le sujet de mémoire est souvent défini durant la première année, et le projet de recherche débute habituellement à la fin de la scolarité. Dans les équipes de recherche en actuariat, le travail consacré au mémoire peut généralement s'étendre sur **10 à 15 mois**, selon le sujet, les données disponibles et la progression de l'étudiant.
-
-En règle générale, peu de cours pertinents de cycles supérieurs sont offerts durant l’été. Cette période est donc principalement consacrée au travail de recherche, même si la scolarité n’est pas encore entièrement complétée.
-
-#### **Financement** {-}
-
-Les chaires et les équipes de recherche en actuariat de l'UQAM peuvent offrir des possibilités de financement aux étudiantes et étudiants de maîtrise qui participent à leurs projets. Lorsqu'une candidature est retenue, les modalités de financement, notamment le montant, la durée et les conditions d'attribution, sont précisées par l'équipe concernée.
-
-L'UQAM offre également des [bourses institutionnelles à la maîtrise](https://bourses.uqam.ca/bourses-institutionnelles-a-la-maitrise/), attribuées selon les conditions propres aux concours.
-
-Il est fortement recommandé de vérifier l'admissibilité à d'autres sources de financement, notamment :
+Les chaires et les équipes de recherche en actuariat de l'UQAM peuvent offrir des possibilités de financement aux étudiantes et étudiants de maîtrise qui participent à leurs projets. Lorsqu'une candidature est retenue, les modalités de financement, notamment le montant, la durée et les conditions d'attribution, sont précisées par l'équipe concernée. L'UQAM offre également des [bourses institutionnelles à la maîtrise](https://bourses.uqam.ca/bourses-institutionnelles-a-la-maitrise/), attribuées selon les conditions propres aux concours. Il est fortement recommandé de vérifier l'admissibilité à d'autres sources de financement, notamment :
 
 - Bourses de maîtrise en recherche du Fonds de recherche du Québec (FRQ), secteur Nature et technologies [↗](https://frq.gouv.qc.ca/programme/bourses-de-maitrise-en-recherche-2027-2028-b1-volet-regulier-et-volet-reintegration-a-la-recherche/ "Source : Fonds de recherche du Québec (FRQ)"){.source-link}
 - Bourses d'études supérieures en recherche du Canada au niveau de la maîtrise (CRSNG, CRSH et IRSC) [↗](https://bourses.uqam.ca/besrc-m/ "Source : UQAM – Bourses d’études"){.source-link}
@@ -812,69 +908,70 @@ Il est fortement recommandé de vérifier l'admissibilité à d'autres sources d
 - Bourses et programmes de soutien de l'Institut canadien des actuaires [↗](https://www.cia-ica.ca/fr/lica/partenaires-et-reseaux/bourses-detudes-pour-la-diversite-lequite-et-linclusion/ "Source : Institut canadien des actuaires"){.source-link}
 - Bourses et programmes d'aide financière de la Society of Actuaries (SOA) [↗](https://www.soa.org/future-actuaries/scholarships-and-reimbursements/ "Source : Society of Actuaries"){.source-link}
 
-Les critères d'admissibilité varient selon les concours, et toutes ces possibilités ne s'adressent pas nécessairement aux étudiants de maîtrise. La [Faculté des sciences de l'UQAM](https://sciences.uqam.ca/bourses/) présente également plusieurs programmes de financement pertinents pour les étudiantes et étudiants en recherche.
+Les critères d'admissibilité varient selon les concours, et toutes ces possibilités ne s'adressent pas nécessairement aux étudiants de maîtrise. La [Faculté des sciences de l'UQAM](https://sciences.uqam.ca/bourses/) présente également plusieurs programmes de financement pertinents pour les étudiantes et étudiants en recherche. Plusieurs cours du baccalauréat en actuariat comprennent des séances de démonstration de deux heures, en complément du cours magistral. Ces séances, généralement animées par des étudiantes et étudiants de cycles supérieurs ou par d’anciens étudiants du cours, servent à résoudre des exercices et à répondre aux questions. Il s’agit d’un emploi rémunéré par l’UQAM. Avant d’accepter un contrat de démonstration, il est recommandé d’en discuter avec son directeur ou sa directrice de recherche afin de s’assurer que cette charge de travail demeure compatible avec la progression des études.
 
-Plusieurs cours du baccalauréat en actuariat comprennent des séances de démonstration de deux heures, en complément du cours magistral. Ces séances, généralement animées par des étudiantes et étudiants de cycles supérieurs ou par d’anciens étudiants du cours, servent à résoudre des exercices et à répondre aux questions.
+:::
 
-Il s’agit d’un emploi rémunéré par l’UQAM. Avant d’accepter un contrat de démonstration, il est recommandé d’en discuter avec son directeur ou sa directrice de recherche afin de s’assurer que cette charge de travail demeure compatible avec la progression des études.
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Information** {-}
+<strong>Information</strong>
 
-Chaque année, les professeures et professeurs d’actuariat, souvent associés aux chaires de recherche, organisent une séance d’information sur les études de cycles supérieurs à l’intention des étudiantes et étudiants du baccalauréat en actuariat. L’annonce de cette séance est diffusée par la direction de programme et relayée auprès de l’association étudiante.
-
-Cette rencontre vise à présenter les parcours possibles, les attentes académiques et les conditions favorables à l’admission, notamment l’importance d’obtenir de bons résultats scolaires, de réaliser un stage de recherche au cours du baccalauréat et, idéalement, de bénéficier d'une bourse de recherche de premier cycle du CRSNG [↗](https://sciences.uqam.ca/bourses/ "Source : UQAM"){.source-link} afin de s’initier concrètement au travail de recherche.
+Chaque année, les professeures et professeurs d’actuariat, souvent associés aux chaires de recherche, organisent une séance d’information sur les études de cycles supérieurs à l’intention des étudiantes et étudiants du baccalauréat en actuariat. L’annonce de cette séance est diffusée par la direction de programme et relayée auprès de l’association étudiante. Cette rencontre vise à présenter les parcours possibles, les attentes académiques et les conditions favorables à l’admission, notamment l’importance d’obtenir de bons résultats scolaires, de réaliser un stage de recherche au cours du baccalauréat et, idéalement, de bénéficier d'une bourse de recherche de premier cycle du CRSNG [↗](https://sciences.uqam.ca/bourses/ "Source : UQAM"){.source-link} afin de s’initier concrètement au travail de recherche.
 
 Au plaisir de vous y voir dans quelques années!
-
+:::
 
 ### Doctorat en actuariat
 
-Comme pour la maîtrise, il n’existe pas de diplôme portant officiellement le nom de doctorat en actuariat à l’UQAM. En pratique, les étudiantes et étudiants souhaitant poursuivre des études de troisième cycle en actuariat s’inscrivent à la **concentration statistique du doctorat en mathématiques**. La [description officielle du programme (3673)](https://etudier.uqam.ca/programme?code=3673) confirme d'ailleurs que l'actuariat fait partie des champs de recherche du doctorat. Toutefois, pour les personnes provenant de l’actuariat, certaines précisions sont utiles afin de bien comprendre la structure réelle du doctorat et ses principales exigences.
+Comme pour la maîtrise, il n’existe pas de diplôme portant officiellement le nom de doctorat en actuariat à l’UQAM. En pratique, les étudiantes et étudiants souhaitant poursuivre des études de troisième cycle en actuariat s’inscrivent à la concentration statistique du doctorat en mathématiques. La [description officielle du programme (3673)](https://etudier.uqam.ca/programme?code=3673) confirme d'ailleurs que l'actuariat fait partie des champs de recherche du doctorat. Toutefois, pour les personnes provenant de l’actuariat, certaines précisions sont utiles afin de bien comprendre la structure réelle du doctorat et ses principales exigences.
 
-#### **Cours (scolarité)** {-}
+::: {.encadre}
+#### Cours (scolarité) {-}
 
-La scolarité du [doctorat en mathématiques à l’UQAM](https://etudier.uqam.ca/programme?code=3673) comprend normalement **six cours de trois crédits**, soit 18 crédits. Pour la concentration en statistique, le programme prévoit qu'au moins deux de ces cours soient choisis dans la liste spécialisée en statistique et qu'au moins **deux séminaires MAT998X** soient réussis. Bien qu’une liste de cours admissibles soit présentée dans la description officielle du programme, plusieurs de ces cours sont offerts de manière irrégulière. Il est donc essentiel de planifier la scolarité en concertation avec son directeur ou sa directrice de recherche. Le descriptif prévoit également la possibilité de remplacer certains cours par d'autres, avec les autorisations nécessaires.
+La scolarité du [doctorat en mathématiques à l’UQAM](https://etudier.uqam.ca/programme?code=3673) comprend normalement six cours de trois crédits, soit 18 crédits. Pour la concentration en statistique, le programme prévoit qu'au moins deux de ces cours soient choisis dans la liste spécialisée en statistique et qu'au moins deux séminaires MAT998X soient réussis. Bien qu’une liste de cours admissibles soit présentée dans la description officielle du programme, plusieurs de ces cours sont offerts de manière irrégulière. Il est donc essentiel de planifier la scolarité en concertation avec son directeur ou sa directrice de recherche. Le descriptif prévoit également la possibilité de remplacer certains cours par d'autres, avec les autorisations nécessaires.
 
 Afin de compléter la scolarité, il est fréquent que certaines étudiantes et certains étudiants suivent des cours offerts dans d’autres universités montréalaises, par l’intermédiaire de l’[Institut des sciences mathématiques (ISM)](https://ism.uqam.ca/). Les listes de cours en [mathématiques actuarielles et financières](https://ism.uqam.ca/accueil/formation/mathematiques-actuarielles-et-financieres/) et en [statistique](https://ism.uqam.ca/accueil/formation/statistics/) présentent plusieurs possibilités pertinentes pour les études doctorales. L'inscription à ces cours exige toutefois l'approbation des responsables concernés et s'effectue selon les procédures interuniversitaires prévues par l'ISM.
 
-Il est également possible de demander la reconnaissance de cours déjà suivis aux cycles supérieurs. Dans certaines situations, jusqu'à **deux cours de maîtrise** peuvent être reconnus dans la scolarité du doctorat, ce qui permettrait de réduire de six à **quatre cours** la scolarité restant à compléter. Cette reconnaissance n'est toutefois pas automatique : elle doit respecter les dispositions de l'[article 5.12 du Règlement numéro 8 de l'UQAM](https://instances.uqam.ca/wp-content/uploads/sites/47/2017/12/20260618_r08.pdf#page=27) et être approuvée par les instances compétentes. Il est recommandé de discuter de cette possibilité avec son directeur ou sa directrice de recherche dès le début du doctorat.
+Il est également possible de demander la reconnaissance de cours déjà suivis aux cycles supérieurs. Dans certaines situations, jusqu'à deux cours de maîtrise peuvent être reconnus dans la scolarité du doctorat, ce qui permettrait de réduire de six à quatre cours la scolarité restant à compléter. Cette reconnaissance n'est toutefois pas automatique : elle doit respecter les dispositions de l'[article 5.12 du Règlement numéro 8 de l'UQAM](https://instances.uqam.ca/wp-content/uploads/sites/47/2017/12/20260618_r08.pdf#page=27) et être approuvée par les instances compétentes. Il est recommandé de discuter de cette possibilité avec son directeur ou sa directrice de recherche dès le début du doctorat.
 
-#### **Thèse** {-}
+:::
+
+::: {.encadre}
+#### Thèse {-}
 
 En plus de la scolarité, les étudiantes et étudiants doivent rédiger une thèse de doctorat de 66 crédits [↗](https://etudier.uqam.ca/programme?code=3673 "Source : UQAM – Descriptif de programme"){.source-link} apportant une contribution originale à la recherche dans leur domaine de spécialisation. Le choix du sujet se fait généralement en concertation avec le directeur ou la directrice de recherche, et peut évoluer au cours des premières années du doctorat à mesure que le projet de recherche se précise. Les résultats peuvent notamment donner lieu à la publication d'articles dans des revues scientifiques spécialisées.
 
-#### **Examens de synthèse** {-}
+:::
 
-Le doctorat en mathématiques à l’UQAM comporte la réussite de **deux examens de synthèse**, communément appelés *examens prédoctoraux*. Ces examens visent à vérifier que les étudiantes et étudiants possèdent les connaissances générales et spécialisées nécessaires à la poursuite de leurs travaux de recherche.
+::: {.encadre}
+#### Examens de synthèse {-}
 
-- [MAT9012 – Examen de synthèse (écrit)](https://etudier.uqam.ca/cours?sigle=MAT9012)
+Le doctorat en mathématiques à l’UQAM comporte la réussite de deux examens de synthèse, communément appelés *examens prédoctoraux*. Ces examens visent à vérifier que les étudiantes et étudiants possèdent les connaissances générales et spécialisées nécessaires à la poursuite de leurs travaux de recherche.
 
-  L'examen écrit porte sur deux thèmes choisis parmi ceux proposés par le programme. Il vise à évaluer les connaissances mathématiques générales de l'étudiant, principalement à partir de notions abordées au premier cycle.
+- [MAT9012 – Examen de synthèse (écrit)](https://etudier.uqam.ca/cours?sigle=MAT9012): L'examen écrit porte sur deux thèmes choisis parmi ceux proposés par le programme. Il vise à évaluer les connaissances mathématiques générales de l'étudiant, principalement à partir de notions abordées au premier cycle.
 
-- [MAT9013 – Examen de synthèse (oral)](https://etudier.uqam.ca/cours?sigle=MAT9013)
-
-  L’examen oral consiste en une présentation devant un comité de trois professeures et professeurs, comprenant la direction ou la codirection de recherche ainsi que deux évaluateurs indépendants. La présentation porte sur une thématique de recherche liée aux travaux de l'étudiant. Elle est suivie d’une période de questions générales et spécifiques permettant d'évaluer la maîtrise du domaine de spécialisation.
+- [MAT9013 – Examen de synthèse (oral)](https://etudier.uqam.ca/cours?sigle=MAT9013): L’examen oral consiste en une présentation devant un comité de trois professeures et professeurs, comprenant la direction ou la codirection de recherche ainsi que deux évaluateurs indépendants. La présentation porte sur une thématique de recherche liée aux travaux de l'étudiant. Elle est suivie d’une période de questions générales et spécifiques permettant d'évaluer la maîtrise du domaine de spécialisation.
 
 Les modalités de ces examens sont décrites dans le [descriptif officiel du doctorat](https://etudier.uqam.ca/programme?code=3673).
 
-#### **Cheminement** {-}
+:::
+
+::: {.encadre}
+#### Cheminement {-}
 
 L'admission au [doctorat en mathématiques](https://etudier.uqam.ca/programme?code=3673) est normalement possible aux sessions suivantes :
 
 - Session d’automne (début septembre)
 - Session d’hiver (début janvier)
 
-*Exceptionnellement*, une intégration à une équipe de recherche pendant l'été peut être envisagée, selon les possibilités de financement et les modalités administratives applicables. Cette possibilité ne constitue toutefois pas une session régulière d'admission au programme.
+*Exceptionnellement*, une intégration à une équipe de recherche pendant l'été peut être envisagée, selon les possibilités de financement et les modalités administratives applicables. Cette possibilité ne constitue toutefois pas une session régulière d'admission au programme. La première année est généralement consacrée à la scolarité et à la préparation de l’examen de synthèse écrit (MAT9012). Les travaux de recherche débutent souvent dès cette période, puis se poursuivent de façon plus intensive après la scolarité. L’examen oral (MAT9013) est habituellement réussi au cours de l’année suivante. La recherche se poursuit par la suite jusqu’au dépôt de la thèse. Celle-ci est évaluée par un jury comprenant notamment au moins une personne externe à l'UQAM. Lorsque le jury autorise la poursuite du processus, une soutenance normalement publique est organisée. Des corrections peuvent être exigées avant ou après cette soutenance, selon la décision du jury. Ces étapes sont encadrées par l'[article 8.3 du Règlement numéro 8](https://instances.uqam.ca/wp-content/uploads/sites/47/2017/12/20260618_r08.pdf#page=38).
 
-La première année est généralement consacrée à la scolarité et à la préparation de l’examen de synthèse écrit (MAT9012). Les travaux de recherche débutent souvent dès cette période, puis se poursuivent de façon plus intensive après la scolarité. L’examen oral (MAT9013) est habituellement réussi au cours de l’année suivante.
+:::
 
-La recherche se poursuit par la suite jusqu’au dépôt de la thèse. Celle-ci est évaluée par un jury comprenant notamment au moins une personne externe à l'UQAM. Lorsque le jury autorise la poursuite du processus, une **soutenance normalement publique** est organisée. Des corrections peuvent être exigées avant ou après cette soutenance, selon la décision du jury. Ces étapes sont encadrées par l'[article 8.3 du Règlement numéro 8](https://instances.uqam.ca/wp-content/uploads/sites/47/2017/12/20260618_r08.pdf#page=38).
+::: {.encadre}
+#### Financement {-}
 
-#### **Financement** {-}
-
-Plusieurs sources de financement sont disponibles pour les études doctorales. Il est fortement recommandé de se renseigner dès l’admission sur les différentes possibilités, notamment auprès des équipes de recherche, des organismes subventionnaires et du [Bureau de l'aide financière et des bourses de l'UQAM](https://bourses.uqam.ca/).
-
-Parmi les principales sources de financement :
+Plusieurs sources de financement sont disponibles pour les études doctorales. Il est fortement recommandé de se renseigner dès l’admission sur les différentes possibilités, notamment auprès des équipes de recherche, des organismes subventionnaires et du [Bureau de l'aide financière et des bourses de l'UQAM](https://bourses.uqam.ca/). Parmi les principales sources de financement :
 
 - Bourses de doctorat en recherche du Fonds de recherche du Québec (FRQ), secteur Nature et technologies [↗](https://frq.gouv.qc.ca/programme/bourses-de-doctorat-en-recherche-2027-2028-b2-volet-regulier-et-volet-reintegration-a-la-recherche/ "Source : Fonds de recherche du Québec (FRQ)"){.source-link}
 - Bourses d'études supérieures en recherche du Canada au niveau du doctorat [↗](https://nserc.canada.ca/fr/possibilite-de-financement/bourses-detudes-superieures-en-recherche-du-canada-au-niveau-du-doctorat "Source : Conseil de recherches en sciences naturelles et en génie (CRSNG)"){.source-link}, administrées notamment par le CRSNG
@@ -884,9 +981,9 @@ Parmi les principales sources de financement :
 - Bourses et programmes de soutien de l'Institut canadien des actuaires [↗](https://www.cia-ica.ca/fr/ "Source : Institut canadien des actuaires"){.source-link}
 - Bourses et programmes d'aide financière de la Society of Actuaries (SOA) [↗](https://www.soa.org/future-actuaries/scholarships-and-reimbursements/ "Source : Society of Actuaries"){.source-link}
 
-Les conditions d'admissibilité varient selon les concours et certains programmes ne s'adressent pas nécessairement aux étudiantes et étudiants de doctorat. Il importe donc de vérifier les critères et les échéances propres à chaque possibilité de financement.
+Les conditions d'admissibilité varient selon les concours et certains programmes ne s'adressent pas nécessairement aux étudiantes et étudiants de doctorat. Il importe donc de vérifier les critères et les échéances propres à chaque possibilité de financement. En parallèle, certaines étudiantes et certains étudiants occupent des postes de démonstration dans les cours de baccalauréat ou, plus rarement, des charges de cours. Ces activités sont rémunérées et les possibilités d'emploi comme auxiliaire d'enseignement sont notamment affichées sur le [portail des ressources humaines de l'UQAM](https://rh.uqam.ca/setue/). Il est recommandé d'en discuter avec son directeur ou sa directrice de recherche afin de s’assurer que ces engagements demeurent compatibles avec l’avancement des études doctorales.
 
-En parallèle, certaines étudiantes et certains étudiants occupent des postes de **démonstration** dans les cours de baccalauréat ou, plus rarement, des **charges de cours**. Ces activités sont rémunérées et les possibilités d'emploi comme auxiliaire d'enseignement sont notamment affichées sur le [portail des ressources humaines de l'UQAM](https://rh.uqam.ca/setue/). Il est recommandé d'en discuter avec son directeur ou sa directrice de recherche afin de s’assurer que ces engagements demeurent compatibles avec l’avancement des études doctorales.
+:::
 
 ## Conclusion
 

@@ -25,29 +25,17 @@ date-modified: last-modified
 
 <div id="plan-chapitre-auto"></div>
 
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
 :::
 
 
 ## Introduction
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:330px;
-">
-
-<img src="images/LadyMaths.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-</div>
-
-</div>
-
+{{< meme "memes/LadyMaths.png" "https://knowyourmeme.com/memes/confused-math-lady" "350px" >}}
 
 L'assurance-vie et les rentes viagères occupent une place centrale en assurance de personnes. L'assurance-vie repose sur l'idée qu'un grand nombre d'individus peuvent mettre en commun les conséquences financières associées au décès afin de protéger leurs proches contre une perte de revenu ou un besoin financier important. Les rentes viagères répondent à un besoin différent : assurer un revenu à une personne aussi longtemps qu'elle demeure en vie. Dans les deux cas, les actuaires doivent analyser et quantifier les risques associés à la mortalité et à la survie afin de déterminer des primes adéquates et d'évaluer les engagements financiers des assureurs. Pour y parvenir, ils doivent notamment comprendre les phénomènes de sélection et d'anti-sélection, analyser les probabilités de décès et de survie à l'aide de tables de mortalité et tenir compte de la valeur temporelle de l'argent. Ce chapitre présente les principaux concepts actuariels qui sous-tendent ces calculs. Nous y abordons d'abord les notions de sélection des risques et d'anti-sélection, puis le rôle des tables de mortalité, avant d'introduire les principes de calcul des assurances-vie et des rentes viagères.
 
@@ -61,7 +49,15 @@ Ce chapitre marque également une transition importante dans le cours, puisqu’
 
 Un principe fondamental des mathématiques financières est qu'un dollar reçu aujourd'hui n'a pas la même valeur qu'un dollar reçu dans un an. En effet, une somme d'argent disponible aujourd'hui peut être investie et produire des intérêts. Pour comparer des montants versés à différentes dates, il faut donc tenir compte de la valeur temporelle de l'argent. Sans faire un résumé du cours [ACT1200 – Mathématiques financières I](https://etudier.uqam.ca/cours?sigle=ACT1200), il convient néanmoins de faire un survol de quelques notions élémentaires.
 
-Considérons un exemple simple. Supposons qu'une personne doit recevoir 1000\$ dans un an et que le taux d'intérêt annuel est de 5\%. Quel montant faudrait-il investir aujourd'hui pour disposer de 1000\$ dans un an? La réponse est :
+::: {#exm-5 .custom}
+Considérons un exemple simple. Supposons qu'une personne doit recevoir 1000\$ dans un an et que le taux d'intérêt annuel est de 5\%. Quel montant faudrait-il investir aujourd'hui pour disposer de 1000\$ dans un an? 
+:::
+
+::: {.custom-solution}
+
+**Solution.**
+
+La valeur actuelle est :
 
 $$
 \text{Valeur actuelle} = \frac{1\,000}{1.05} \approx 952.38\ \$.
@@ -87,7 +83,13 @@ $$
 v = \frac{1}{1+i}.
 $$
 
-Ce facteur permet de déterminer combien vaut aujourd'hui un dollar payable dans un an. Pour un paiement prévu dans deux ans, on utilise $v^2$; pour un paiement prévu dans trois ans, on utilise $v^3$, et ainsi de suite. Plus généralement, la valeur actuelle d'un montant $M$ payable dans $t$ années est donc donnée par
+Ce facteur permet de déterminer combien vaut aujourd'hui un dollar payable dans un an. Pour un paiement prévu dans deux ans, on utilise $v^2$; pour un paiement prévu dans trois ans, on utilise $v^3$, et ainsi de suite. 
+:::
+
+
+#### Interprétation {-}
+
+Ainsi, on dira que plus généralement, la valeur actuelle d'un montant $M$ payable dans $t$ années est donc donnée par
 
 $$
 \text{Valeur actuelle} = Mv^t = \frac{M}{(1+i)^t}.
@@ -96,6 +98,33 @@ $$
 Cette formule suppose un taux d'intérêt annuel constant et une capitalisation composée des intérêts. On remarque donc que, pour un même montant futur, plus le taux d'intérêt est élevé ou plus le paiement est éloigné dans le temps, plus sa valeur actuelle est faible. Ces quelques notions constituent la base des mathématiques financières, qui seront étudiées plus en détail dans le cours [ACT1200 – Mathématiques financières I](https://etudier.uqam.ca/cours?sigle=ACT1200). En actuariat, nous utiliserons ce principe pour déterminer la valeur actuelle des prestations futures promises par les assureurs. Toutefois, contrairement à nos exemples où le paiement de 1000\$ était certain, les prestations d'assurance dépendent généralement d'événements incertains, comme le décès ou la survie d'un individu. Il faudra donc combiner l'actualisation et les probabilités pour déterminer leur coût actuariel.
 
 ### Introduction aux mathématiques actuarielles
+
+Dans la section précédente, nous avons vu comment déterminer la valeur actuelle d'un paiement futur. Toutefois, notre exemple supposait que le paiement serait effectué avec certitude. En assurance-vie, une difficulté supplémentaire apparaît : la prestation n'est versée que si l'assuré décède pendant la période de couverture. Il faut donc tenir compte non seulement du moment où le paiement pourrait être effectué, mais également de la probabilité qu'il soit effectivement versé.
+
+::: {#exm-5 .custom}
+Considérons un autre exemple simple. Supposons qu'un assureur offre une protection d'assurance-vie d'une durée d'un an, avec un capital assuré de 100 000 $. Si la probabilité que l'assuré décède pendant cette année est de 0,001, soit 0,1 %, quel est le coût moyen de cette protection pour l'assureur?  
+:::
+
+::: {.custom-solution}
+
+**Solution.**
+
+Deux situations sont possibles : si l'assuré décède pendant l'année, l'assureur doit verser 100 000 $; s'il survit, aucun montant n'est versé. Le paiement moyen attendu, que l'on appelle l'espérance mathématique de la prestation, est donc
+
+$$
+100\,000 \times 0.001 + 0 \times 0.999 = 100\ \$.
+$$
+
+Autrement dit, pour un grand nombre de contrats présentant les mêmes caractéristiques, l'assureur peut s'attendre à verser en moyenne 100\$ par contrat au titre des prestations de décès. Cependant, ce montant ne tient pas encore compte de la valeur temporelle de l'argent. Supposons que les prestations de décès soient versées à la fin de l'année et que le taux d'intérêt annuel soit de 5 %. En utilisant le facteur d'actualisation $v$ introduit précédemment, nous obtenons
+
+$$
+C = 100 \times \frac{1}{1.05} = 95.24\ \$.
+$$
+
+:::
+
+#### Interprétation {-}
+
 
 <div style="
 float:right;
@@ -118,21 +147,8 @@ style="width:100%; height:auto; display:block;">
 
 </div>
 
-Dans la section précédente, nous avons vu comment déterminer la valeur actuelle d'un paiement futur. Toutefois, notre exemple supposait que le paiement serait effectué avec certitude. En assurance-vie, une difficulté supplémentaire apparaît : la prestation n'est versée que si l'assuré décède pendant la période de couverture. Il faut donc tenir compte non seulement du moment où le paiement pourrait être effectué, mais également de la probabilité qu'il soit effectivement versé.
 
-Considérons un exemple simple. Supposons qu'un assureur offre une protection d'assurance-vie d'une durée d'un an, avec un capital assuré de 100 000 $. Si la probabilité que l'assuré décède pendant cette année est de 0,001, soit 0,1 %, quel est le coût moyen de cette protection pour l'assureur?  Deux situations sont possibles : si l'assuré décède pendant l'année, l'assureur doit verser 100 000 $; s'il survit, aucun montant n'est versé. Le paiement moyen attendu, que l'on appelle l'espérance mathématique de la prestation, est donc
-
-$$
-100\,000 \times 0.001 + 0 \times 0.999 = 100\ \$.
-$$
-
-Autrement dit, pour un grand nombre de contrats présentant les mêmes caractéristiques, l'assureur peut s'attendre à verser en moyenne 100\$ par contrat au titre des prestations de décès. Cependant, ce montant ne tient pas encore compte de la valeur temporelle de l'argent. Supposons que les prestations de décès soient versées à la fin de l'année et que le taux d'intérêt annuel soit de 5 %. En utilisant le facteur d'actualisation $v$ introduit précédemment, nous obtenons
-
-$$
-C = 100 \times \frac{1}{1.05} = 95.24\ \$.
-$$
-
-Ce montant représente le coût actuariel de l'assurance, c'est-à-dire la valeur actuelle espérée de la prestation que l'assureur devra verser. Il correspond à la prime pure, sans tenir compte des frais administratifs, des commissions ou des autres chargements. Nous pouvons maintenant généraliser ce raisonnement. Si l'on note $S$ le capital assuré et $q_x$ la probabilité qu'un individu âgé de $x$ ans décède au cours de la prochaine année, la valeur actuelle espérée d'une prestation payable à la fin de cette année est
+Le montant que nous avons calculé représente le coût actuariel de l'assurance, c'est-à-dire la valeur actuelle espérée de la prestation que l'assureur devra verser. Il correspond à la prime pure, sans tenir compte des frais administratifs, des commissions ou des autres chargements. Nous pouvons maintenant généraliser ce raisonnement. Si l'on note $S$ le capital assuré et $q_x$ la probabilité qu'un individu âgé de $x$ ans décède au cours de la prochaine année, la valeur actuelle espérée d'une prestation payable à la fin de cette année est
 
 $$
 C = S\,q_x\,v.

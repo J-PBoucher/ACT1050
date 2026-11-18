@@ -25,6 +25,11 @@ date-modified: last-modified
 
 <div id="plan-chapitre-auto"></div>
 
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
 :::
 
 
@@ -50,16 +55,7 @@ Dans ce chapitre, nous nous concentrerons sur l'assurance vie temporaire. Ce typ
 
 ## Description du produit
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/YoungFamily.jpg" style="width:100%;">
-</div>
+{{< meme "memes/Mando.jpg" "https://knowyourmeme.com/memes/subcultures/the-mandalorian" "350px" >}}
 
 Comme indiqué précédemment, l’assurance-vie temporaire prévoit le versement d’un capital si le décès de la personne assurée survient pendant une période de protection déterminée. Au chapitre précédent, nous avons évalué le coût actuariel d’une telle protection pour des périodes de un et deux ans, à l’aide de la table de mortalité ICA2014. Nous avions alors constaté que ce coût peut être relativement faible, particulièrement aux âges où la probabilité de décès au cours d’une courte période demeure faible. Avant de poursuivre avec des analyses numériques permettant de comparer différents contrats d’assurance-vie temporaire, examinons les principaux besoins auxquels ils répondent, leurs caractéristiques et les options qui peuvent les accompagner.
 
@@ -67,17 +63,12 @@ Comme indiqué précédemment, l’assurance-vie temporaire prévoit le versemen
 
 L’assurance-vie temporaire est particulièrement adaptée aux situations où le besoin de protection financière est important, mais limité dans le temps. Elle peut notamment servir à :
 
-- Protéger financièrement une famille, par exemple en remplaçant le revenu d’un parent qui décéderait alors que ses enfants sont encore à charge.
-
-- Couvrir des engagements financiers temporaires, comme un emprunt personnel ou hypothécaire, afin d’éviter que la dette ne constitue un fardeau pour les proches.
-
-- Répondre aux besoins d’un entrepreneur, notamment pour protéger son entreprise ou couvrir certains engagements financiers durant les premières années d’activité.
-
-- Protéger une entreprise contre le décès d’une personne clé, lorsque la disparition de cette personne pourrait entraîner des conséquences financières importantes.
+  - Protéger financièrement une famille, par exemple en remplaçant le revenu d’un parent qui décéderait alors que ses enfants sont encore à charge.  
+  - Couvrir des engagements financiers temporaires, comme un emprunt personnel ou hypothécaire, afin d’éviter que la dette ne constitue un fardeau pour les proches.  
+  - Répondre aux besoins d’un entrepreneur, notamment pour protéger son entreprise ou couvrir certains engagements financiers durant les premières années d’activité.  
+  - Protéger une entreprise contre le décès d’une personne clé, lorsque la disparition de cette personne pourrait entraîner des conséquences financières importantes.  
 
 Ces applications expliquent pourquoi l’assurance-vie temporaire est souvent privilégiée par les jeunes familles et les personnes ayant des besoins de protection élevés, mais des ressources financières limitées. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie "AMF — Les besoins couverts par l’assurance vie"){.source-link} Elle peut également jouer un rôle important dans la gestion des risques d’une entreprise. [↗](https://www.canadalife.com/fr/assurance/assurance-vie/entreprise-assurance-vie.html "Canada Vie — Assurance vie détenue par une entreprise"){.source-link}
-
-<div style="clear: both;"></div>
 
 ### Principales particularités
 
@@ -89,18 +80,12 @@ Les assurances-vie temporaires se distinguent principalement par la durée de le
 
 - **Absence d'épargne.** L'assurance-vie temporaire sert essentiellement à protéger contre le risque de décès pendant une période déterminée. Contrairement à certains produits d'assurance permanente, elle ne permet généralement pas d'accumuler une somme d'argent que le titulaire pourrait récupérer en mettant fin à son contrat. Les primes payées servent donc principalement à financer la protection d'assurance. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-temporaire "AMF — Assurance vie temporaire"){.source-link} Nous verrons au <a href="Chap12_Assurancevie_permanente.html">chapitre 12</a> que certaines assurances permanentes possèdent une telle somme, appelée *valeur de rachat*.
 
+<div style="clear: both;"></div>
+
+
 ### Stratégie d'investissement avec l’assurance-vie temporaire
 
-<div style="
-float:right;
-width:28vw;
-max-width:250px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/invest.png" style="width:100%;">
-</div>
+{{< meme "memes/invest.png" "https://knowyourmeme.com/memes/invest-button" "300px" >}}
 
 Une stratégie parfois associée à l’assurance-vie temporaire consiste à acheter une protection moins coûteuse et à investir la différence entre la prime d’une assurance temporaire et celle d’une assurance permanente. Cette approche est souvent appelée *buy term and invest the difference*. [↗](https://content.naic.org/consumer/life-insurance.htm "NAIC — Buy term and invest the difference"){.source-link} L’idée est simple : puisque l’assurance temporaire coûte généralement moins cher au départ, le titulaire peut investir les économies réalisées dans un portefeuille distinct, par exemple dans un CELI ou un REER. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Comparaison des stratégies d'assurance et de placement"){.source-link} 
 
@@ -121,16 +106,7 @@ Une fois le contrat souscrit, plusieurs situations peuvent survenir au cours de 
 
 ### Renouvellement 
 
-<div style="
-float:right;
-width:28vw;
-max-width:320px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/renewal.png" style="width:100%;">
-</div>
+{{< meme "memes/renewal.png" "https://knowyourmeme.com/memes/daily-struggle-two-buttons" "320px" >}}
 
 Plusieurs contrats d’assurance-vie temporaire comportent un droit de renouvellement. Cette option permet de prolonger la protection à l'échéance de la période initiale, sans avoir à fournir de nouvelles preuves d'assurabilité. Elle est particulièrement intéressante lorsque l'état de santé de l'assuré s'est détérioré depuis la souscription du contrat. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-temporaire "AMF — Renouvellement de l’assurance temporaire"){.source-link}
 
@@ -161,16 +137,7 @@ Supposons maintenant que cette personne a développé une maladie grave à 50 an
 
 ### Transformation
 
-<div style="
-float:right;
-width:28vw;
-max-width:210px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/transformation.png" style="width:100%;">
-</div>
+{{< meme "memes/Obiwan2.jpg" "https://knowyourmeme.com/memes/these-are-not-the-droids-you-are-looking-for" "320px" >}}
 
 Certains contrats d'assurance-vie temporaire comportent un privilège de transformation. Cette option permet de remplacer une protection temporaire par une assurance permanente, sans avoir à fournir de nouvelles preuves d'assurabilité. [↗](https://www.canadalife.com/fr/assurance/assurance-vie/assurance-vie-temporaire/matemporaire.html "Canada Vie — Options de transformation"){.source-link} Il faut bien distinguer cette option du renouvellement : alors que le renouvellement permet de prolonger une assurance temporaire, la transformation permet d'obtenir une assurance permanente, généralement pour toute la vie de l'assuré.
 
@@ -201,29 +168,13 @@ Cet exemple illustre le principal avantage du privilège de transformation : la 
 
 ### Augmentation
 
-<div style="
-float:right;
-width:28vw;
-max-width:340px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/augmentation.png" style="width:100%;">
-</div>
-
-
-Les besoins d'assurance peuvent augmenter au cours de la vie. Par exemple, la naissance d'un enfant, l'achat d'une maison ou une augmentation des responsabilités financières peuvent amener une personne à souhaiter une protection plus importante. Certains contrats d'assurance-vie comportent une garantie d'assurabilité, aussi appelée option d'achat ultérieur. Cette option permet de souscrire une assurance supplémentaire sans devoir fournir de nouvelles preuves d'assurabilité. Elle n'est toutefois pas propre à l'assurance temporaire et n'est pas offerte par tous les contrats. [↗](https://centralesunlife.sunlife.ca/content/dam/sunlife/regional/canada/documents/insurance-solutions/820-5227-evolve-client-guide.pdf "Sun Life — Assurance temporaire Évolution, garantie d'assurabilité, page 13"){.source-link}
-
-Cette garantie comporte généralement certaines conditions :
+Les besoins d'assurance peuvent augmenter au cours de la vie. Par exemple, la naissance d'un enfant, l'achat d'une maison ou une augmentation des responsabilités financières peuvent amener une personne à souhaiter une protection plus importante. Certains contrats d'assurance-vie comportent une garantie d'assurabilité, aussi appelée option d'achat ultérieur. Cette option permet de souscrire une assurance supplémentaire sans devoir fournir de nouvelles preuves d'assurabilité. Elle n'est toutefois pas propre à l'assurance temporaire et n'est pas offerte par tous les contrats. [↗](https://centralesunlife.sunlife.ca/content/dam/sunlife/regional/canada/documents/insurance-solutions/820-5227-evolve-client-guide.pdf "Sun Life — Assurance temporaire Évolution, garantie d'assurabilité, page 13"){.source-link} Cette garantie comporte généralement certaines conditions :
 
 - Événements admissibles. L'option peut être exercée à certains âges ou à l'occasion d'événements précis, comme un mariage ou la naissance d'un enfant.
 - Montant maximal. L'augmentation de la protection est limitée aux montants prévus au contrat.
 - Coût supplémentaire. La garantie peut entraîner un coût additionnel et la nouvelle protection nécessite le paiement de primes supplémentaires, généralement calculées selon l'âge atteint.
 
 L'intérêt principal de cette garantie est de permettre à une personne d'augmenter sa protection même si son état de santé s'est détérioré depuis la souscription initiale.
-
-<div style="clear: both;"></div>
 
 ::: {#exm-augmentation .custom}
 
@@ -573,7 +524,9 @@ Le graphique permet de dégager les constats suivants :
 ### Provision actuarielle
 
 <div style="float:right; width:28vw; max-width:320px; min-width:240px; margin:0 0 1em 1em; text-align:center; border:1px solid #bbb; padding:10px; background:white; box-shadow: 0 3px 10px rgba(0,0,0,0.15);">
-<img src="images/Ecureuil2.jpg" style="width:66%; display:block; margin:auto;">
+<a href="memes/squirrel.gif" target="_blank" rel="noopener noreferrer">
+<img src="images/Ecureuil2.jpg" style="width:66%; display:block; margin:auto; cursor:pointer;">
+</a>
 <div style="font-size:0.85em; margin-top:0.6em; color:#555;">
 L'écureuil gris, très présent à Montréal, fait lui aussi des réserves.
 </div>
@@ -1480,7 +1433,7 @@ Le T-1000 dans [Terminator 2 : Le jugement dernier (1991)](https://www.imdb.com/
 
 </div>
 
-Malgré son appellation, l'assurance temporaire 100 ans (T-100) offre généralement une protection pendant toute la vie de l'assuré, même si celui-ci dépasse 100 ans. Selon les conditions du contrat, les primes peuvent cesser à cet âge alors que la couverture demeure en vigueur jusqu'au décès. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-temporaire "AMF — Assurance temporaire 100 ans"){.source-link}
+Malgré son appellation, l'assurance temporaire 100 ans (T-100) offre généralement une protection pendant toute la vie de l'assuré, même si celui-ci dépasse 100 ans. Selon les conditions du contrat, les primes peuvent cesser à cet âge alors que la couverture demeure en vigueur jusqu'au décès. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-temporaire "AMF — Assurance temporaire 100 ans"){.source-link} 
 
 La T-100 occupe donc une place particulière parmi les produits d'assurance-vie. Même si son nom évoque une assurance temporaire, elle est généralement considérée comme une forme d'assurance permanente, puisqu'elle peut offrir une protection viagère. Elle ne comporte toutefois habituellement aucune valeur de rachat. [↗](https://assuris.ca/fr/comment-suis-je-protege/protection-dassuris/assurance-vie/individuelle/assurance-vie-temporaire-100-ans/ "Assuris — Assurance temporaire 100 ans"){.source-link}
 
@@ -1497,29 +1450,12 @@ Nous commencerons par examiner le fonctionnement de ce produit, puis nous analys
 
 ### L'importance des déchéances pour la T-100
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-
-<img src="images/decheance.png" style="width:80%;">
-
-</div>
-
 Un élément particulièrement important dans la tarification de la T-100 est la déchéance, c'est-à-dire la situation où un contrat cesse d'être en vigueur avant le décès de l'assuré, notamment à la suite d'une résiliation ou d'un non-paiement des primes. Pour comprendre son importance, considérons deux possibilités :
 
 - Si l'assuré conserve son contrat toute sa vie, l'assureur devra éventuellement verser la prestation de décès prévue.
 - Si l'assuré abandonne son contrat avant son décès, l'assureur n'aura généralement plus à verser cette prestation, mais il ne recevra plus non plus les primes futures.
 
-Dans la pratique, tous les assurés ne conservent pas leur contrat jusqu'au décès. Certains peuvent décider de résilier leur assurance parce que leurs besoins ont changé, parce que les primes sont devenues difficiles à payer ou simplement parce qu'ils ne souhaitent plus maintenir leur protection.
-
-Les actuaires doivent donc estimer la proportion des contrats qui seront abandonnés au fil du temps. Cette hypothèse peut avoir une influence importante sur la prime exigée à la souscription. [↗](https://www.cia-ica.ca/news/5-lessons-of-in-force-management-for-life-insurance/ "ICA — Gestion des contrats d'assurance-vie en vigueur"){.source-link} Pour certains produits, la tarification repose en partie sur l'hypothèse qu'une proportion des assurés abandonnera sa police avant le décès. Si les déchéances sont finalement beaucoup moins nombreuses que prévu, l'assureur pourrait devoir verser davantage de prestations que ce qu'il avait anticipé. Il faut toutefois éviter de conclure qu'une déchéance représente automatiquement un profit pour l'assureur. Les primes futures sont également perdues, et l'assureur a déjà assumé un risque de décès pendant les années où le contrat était en vigueur.
-
-<div style="clear: both;"></div>
+Dans la pratique, tous les assurés ne conservent pas leur contrat jusqu'au décès. Certains peuvent décider de résilier leur assurance parce que leurs besoins ont changé, parce que les primes sont devenues difficiles à payer ou simplement parce qu'ils ne souhaitent plus maintenir leur protection. Les actuaires doivent donc estimer la proportion des contrats qui seront abandonnés au fil du temps. Cette hypothèse peut avoir une influence importante sur la prime exigée à la souscription. [↗](https://www.cia-ica.ca/news/5-lessons-of-in-force-management-for-life-insurance/ "ICA — Gestion des contrats d'assurance-vie en vigueur"){.source-link} Pour certains produits, la tarification repose en partie sur l'hypothèse qu'une proportion des assurés abandonnera sa police avant le décès. Si les déchéances sont finalement beaucoup moins nombreuses que prévu, l'assureur pourrait devoir verser davantage de prestations que ce qu'il avait anticipé. Il faut toutefois éviter de conclure qu'une déchéance représente automatiquement un profit pour l'assureur. Les primes futures sont également perdues, et l'assureur a déjà assumé un risque de décès pendant les années où le contrat était en vigueur.
 
 ::: {#exm-decheance-t100 .custom}
 
@@ -1682,15 +1618,12 @@ ggplot(
   theme_bw()
 ```
 
-La prime pure annuelle nivelée obtenue dans cet exemple est de `r sprintf("%.2f", 1000 * prime_20_T100)` $ par tranche de 1 000 $ d'assurance. Le graphique permet de faire plusieurs observations :
+La prime pure annuelle nivelée obtenue dans cet exemple est de `r sprintf("%.2f", 1000 * prime_20_T100)` $ par tranche de 1 000 $ d'assurance. Le graphique permet de faire plusieurs observations :  
 
-- La prime T-100 demeure constante pendant toute la période où elle est exigible, soit de 20 à 99 ans dans notre exemple.
-
-- Le coût annuel du risque de décès augmente fortement avec l'âge, particulièrement aux âges avancés.
-
-- Pendant une longue période, la prime nivelée est supérieure au coût annuel de la protection. Cette différence contribue à financer les engagements futurs de l'assureur.
-
-- À un âge plus avancé, le coût annuel de la protection dépasse la prime nivelée. La provision actuarielle constituée au fil des années devient alors particulièrement importante.
+  - La prime T-100 demeure constante pendant toute la période où elle est exigible, soit de 20 à 99 ans dans notre exemple.  
+  - Le coût annuel du risque de décès augmente fortement avec l'âge, particulièrement aux âges avancés.  
+  - Pendant une longue période, la prime nivelée est supérieure au coût annuel de la protection. Cette différence contribue à financer les engagements futurs de l'assureur.  
+  - À un âge plus avancé, le coût annuel de la protection dépasse la prime nivelée. La provision actuarielle constituée au fil des années devient alors particulièrement importante.
 
 La T-100 représente donc un exemple particulièrement intéressant : l'assureur doit financer une protection qui peut durer toute la vie, même lorsque les primes cessent à 100 ans.
 
@@ -1863,20 +1796,17 @@ ggplot(
   theme_bw()
 ```
 
-L'évolution de ces provisions est très différente de celle des assurances temporaires précédentes. On peut notamment observer que :
+L'évolution de ces provisions est très différente de celle des assurances temporaires précédentes. On peut notamment observer que :  
 
-- La provision augmente progressivement avec l'âge, puisque l'assureur doit prévoir le paiement éventuel du capital assuré.
-
-- Les deux hypothèses de déchéance produisent des provisions différentes pendant la vie du contrat. Le nombre anticipé de contrats qui resteront en vigueur influence donc non seulement les primes, mais également les provisions actuarielles.
-
-- Contrairement aux T-10 et T-20, la provision ne diminue pas jusqu'à zéro à une échéance déterminée. La protection demeure en vigueur, et l'assureur conserve son engagement de verser une prestation au décès.
-
-- Dans notre modèle sans intérêt, les deux provisions atteignent 1 000 $ par tranche de 1 000 $ d'assurance à l'âge de 100 ans.
+  - La provision augmente progressivement avec l'âge, puisque l'assureur doit prévoir le paiement éventuel du capital assuré.  
+  - Les deux hypothèses de déchéance produisent des provisions différentes pendant la vie du contrat. Le nombre anticipé de contrats qui resteront en vigueur influence donc non seulement les primes, mais également les provisions actuarielles.
+  - Contrairement aux T-10 et T-20, la provision ne diminue pas jusqu'à zéro à une échéance déterminée. La protection demeure en vigueur, et l'assureur conserve son engagement de verser une prestation au décès.  
+  - Dans notre modèle sans intérêt, les deux provisions atteignent 1 000 $ par tranche de 1 000 $ d'assurance à l'âge de 100 ans.
 
 Ce dernier résultat mérite une explication. À 100 ans, l'assuré n'a plus de primes à payer, mais il bénéficie toujours de sa protection. Puisque nous supposons qu'il n'y aura plus de déchéances et que le décès surviendra éventuellement, l'assureur devra verser le capital assuré. Cela ne signifie pas que l'assuré reçoit automatiquement 1 000 $ à son centième anniversaire. La prestation demeure payable au décès, et celui-ci peut survenir plusieurs années plus tard. Cette particularité illustre bien la différence entre une protection temporaire de durée limitée et une assurance qui couvre l'ensemble de la vie.
 
 
-::: {.encadre}
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
 <strong>Pourquoi les provisions évoluent-elles différemment selon la durée de l'assurance?</strong>
 
@@ -1895,16 +1825,7 @@ Cette comparaison illustre un principe fondamental : ce n'est pas seulement l'â
 
 ## Impact du taux d'intérêt
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Invest.jpg" style="width:80%;">
-</div>
+{{< meme "memes/interet.jpg" "https://knowyourmeme.com/memes/this-little-maneuvers-gonna-cost-us-51-years" "350px" >}}
 
 Dans les exemples précédents, nous avons généralement supposé que le taux d'intérêt était nul afin d'isoler les mécanismes liés à la mortalité. Cette simplification est utile pour comprendre les produits d'assurance, mais elle ne correspond pas à la réalité. En pratique, les assureurs investissent une partie des sommes reçues afin de financer les prestations qu'ils devront verser dans le futur. La mortalité est naturellement au cœur de l'assurance-vie, mais les taux d'intérêt jouent eux aussi un rôle important, particulièrement pour les contrats de longue durée. Les revenus de placement contribuent au financement des prestations futures. Ainsi, toutes choses étant égales par ailleurs :
 

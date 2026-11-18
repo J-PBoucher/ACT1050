@@ -59,19 +59,13 @@ Les actuaires exercent dans une diversité de milieux, publics ou privés, où i
 
 ## Gouvernance 
 
-La gouvernance correspond à l’ensemble des mécanismes par lesquels une organisation est dirigée, surveillée et contrôlée. [↗](https://lautorite.qc.ca/professionnels/institutions-de-depots-et-societes-de-fiducie/lignes-directrices/assises-de-lencadrement-prudentiel/ligne-directrice-sur-la-gouvernance "AMF — ligne directrice sur la gouvernance"){.source-link} Elle concerne les décisions prises au plus haut niveau et vise à s’assurer que l’organisation poursuit ses objectifs tout en respectant ses obligations légales, financières et éthiques.
+La gouvernance correspond à l’ensemble des mécanismes par lesquels une organisation est dirigée, surveillée et contrôlée. [↗](https://lautorite.qc.ca/professionnels/institutions-de-depots-et-societes-de-fiducie/lignes-directrices/assises-de-lencadrement-prudentiel/ligne-directrice-sur-la-gouvernance "AMF — ligne directrice sur la gouvernance"){.source-link} Elle concerne les décisions prises au plus haut niveau et vise à s’assurer que l’organisation poursuit ses objectifs tout en respectant ses obligations légales, financières et éthiques. Dans les organisations où se pratique l’actuariat — qu’il s’agisse d’assureurs, de cabinets de consultation, d’institutions financières ou de grandes entreprises — la gouvernance est particulièrement importante. Ces organisations prennent souvent des engagements financiers importants, parfois sur de très longues périodes, dans un contexte d’incertitude. Les conséquences de mauvaises décisions peuvent donc se manifester plusieurs années, voire plusieurs décennies plus tard.
 
-Dans les organisations où se pratique l’actuariat — qu’il s’agisse d’assureurs, de cabinets de consultation, d’institutions financières ou de grandes entreprises — la gouvernance est particulièrement importante. Ces organisations prennent souvent des engagements financiers importants, parfois sur de très longues périodes, dans un contexte d’incertitude. Les conséquences de mauvaises décisions peuvent donc se manifester plusieurs années, voire plusieurs décennies plus tard.
-
-La gouvernance définit les responsabilités, les pouvoirs de décision et les mécanismes de surveillance qui encadrent les activités de l’organisation. Le conseil d’administration intervient principalement dans la définition et la surveillance des grandes orientations, tandis que la haute direction assure la gestion quotidienne dans le respect du cadre établi. Cette distinction est notamment exposée dans la [ligne directrice sur la gouvernance d’entreprise du BSIF](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/gouvernance-dentreprise-ligne-directrice-2018), destinée aux institutions financières de compétence fédérale.
-
-De façon générale, la gouvernance s’appuie sur plusieurs instances et niveaux de responsabilité.
+La gouvernance définit les responsabilités, les pouvoirs de décision et les mécanismes de surveillance qui encadrent les activités de l’organisation. Le conseil d’administration intervient principalement dans la définition et la surveillance des grandes orientations, tandis que la haute direction assure la gestion quotidienne dans le respect du cadre établi. Cette distinction est notamment exposée dans la [ligne directrice sur la gouvernance d’entreprise du BSIF](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/gouvernance-dentreprise-ligne-directrice-2018), destinée aux institutions financières de compétence fédérale. De façon générale, la gouvernance s’appuie sur plusieurs instances et niveaux de responsabilité.
 
 ### Le conseil d’administration
 
-Le conseil d’administration constitue la principale instance de gouvernance et de surveillance de l’organisation. Il comprend généralement des administrateurs qui ne participent pas à la gestion quotidienne. Une attention particulière est portée à leur indépendance afin qu’ils puissent exercer une surveillance objective de la haute direction et limiter les conflits d’intérêts. L’absence de lien d’emploi ne suffit pas, à elle seule, à garantir cette indépendance. [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/gouvernance-dentreprise-ligne-directrice-2018 "BSIF — indépendance du conseil d’administration"){.source-link}
-
-Selon la structure de l’organisation, certains dirigeants, comme le chef de la direction, peuvent également être administrateurs. Le secrétaire corporatif contribue au fonctionnement du conseil, notamment en préparant et en assurant le suivi des réunions, sans nécessairement en être membre ou disposer d’un droit de vote. Le conseil ne gère toutefois pas les opérations quotidiennes. Son rôle est plutôt de :
+Le conseil d’administration constitue la principale instance de gouvernance et de surveillance de l’organisation. Il comprend généralement des administrateurs qui ne participent pas à la gestion quotidienne. Une attention particulière est portée à leur indépendance afin qu’ils puissent exercer une surveillance objective de la haute direction et limiter les conflits d’intérêts. L’absence de lien d’emploi ne suffit pas, à elle seule, à garantir cette indépendance. [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/gouvernance-dentreprise-ligne-directrice-2018 "BSIF — indépendance du conseil d’administration"){.source-link} Selon la structure de l’organisation, certains dirigeants, comme le chef de la direction, peuvent également être administrateurs. Le secrétaire corporatif contribue au fonctionnement du conseil, notamment en préparant et en assurant le suivi des réunions, sans nécessairement en être membre ou disposer d’un droit de vote. Le conseil ne gère toutefois pas les opérations quotidiennes. Son rôle est plutôt de :
 
 - approuver les grandes orientations stratégiques ;
 - nommer et superviser la haute direction ;
@@ -104,31 +98,80 @@ Selon l’organisation, on retrouve également :
 
 Ces fonctions peuvent être exercées par des personnes distinctes, combinées ou réparties entre plusieurs équipes. En finance, l’acronyme CIO désigne parfois le *Chief Investment Officer* (chef des placements), plutôt que le *Chief Information Officer* : le contexte est donc important pour interpréter les titres.
 
-#### **Beneva** {-}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Benevalogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+
+### Exemples
+
+Afin de mieux comprendre comment les responsabilités de la haute direction sont réparties au sein d’une compagnie d’assurance, examinons la structure organisationnelle de deux importants assureurs québécois : Beneva et Industrielle Alliance. Ces deux organisations exercent des activités similaires, mais possèdent des structures de propriété, de gouvernance et de gestion qui leur sont propres.
+
+::::: {.fiche-organisation}
+
+<div class="fiche-organisation-entete">
+<div>
+<div class="fiche-organisation-nom">Beneva</div>
+<div class="fiche-organisation-type">Société d’assurance et de services financiers</div>
+</div>
+<div class="fiche-organisation-logo">
+<img src="images/Benevalogo.png" alt="Beneva">
 </div>
 </div>
 
+<div class="fiche-organisation-caracteristiques">
 
-Beneva est une société canadienne d’assurance mutuelle et de services financiers. Elle est née du regroupement de deux assureurs mutualistes québécois bien établis : La Capitale, fondée en 1941, et SSQ Assurance, fondée en 1944. [↗](https://www.beneva.ca/fr/a-propos "Beneva — historique des deux mutuelles"){.source-link} Le regroupement a été annoncé en janvier 2020 et la marque Beneva a été dévoilée en décembre de la même année. [↗](https://www.beneva.ca/fr/regroupement "Beneva — chronologie du regroupement"){.source-link} L’intégration des activités s’est ensuite poursuivie au fil des années suivantes.
+<div>
+<div class="fiche-organisation-libelle">Siège social</div>
+<div class="fiche-organisation-valeur">Québec</div>
+</div>
 
-<div style="clear: both;"></div>
+<div>
+<div class="fiche-organisation-libelle">Création</div>
+<div class="fiche-organisation-valeur">2020 — Regroupement</div>
+</div>
 
-La présentation de l’équipe de direction ci-dessous, tirée des [documents financiers de Beneva pour 2024](https://www.beneva.ca/fr/informations-financieres), illustre la répartition des responsabilités à cette époque. Il s’agit d’un exemple historique : les dirigeants et les intitulés des postes peuvent avoir changé depuis. Les titres ne correspondent pas nécessairement aux acronymes anglophones usuels (CEO, COO, CFO, CRO, etc.), mais les responsabilités correspondantes demeurent présentes dans l’organisation.
+<div>
+<div class="fiche-organisation-libelle">Structure de propriété</div>
+<div class="fiche-organisation-valeur">Mutualiste</div>
+</div>
 
-![](images/BenevaDirection.png){width=80% fig-align="center"}
+<div>
+<div class="fiche-organisation-libelle">Principaux marchés</div>
+<div class="fiche-organisation-valeur">Canada</div>
+</div>
 
-Dans les organisations québécoises et canadiennes-françaises, les titres sont généralement **francisés** et certaines fonctions peuvent être **regroupées ou réparties** entre plusieurs vice-présidences exécutives. Les fonctions fondamentales de gouvernance et de pilotage demeurent néanmoins les mêmes.
+<div>
+<div class="fiche-organisation-libelle">Secteurs d’activité</div>
+<div class="fiche-organisation-valeur">Assurance, épargne et placements</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Site Web</div>
+<div class="fiche-organisation-valeur"><a href="https://www.beneva.ca">www.beneva.ca</a></div>
+</div>
+
+</div>
+
+:::: {.fiche-organisation-description}
+
+Beneva est née du regroupement de deux assureurs mutualistes québécois bien établis : La Capitale, fondée en 1941, et SSQ Assurance, fondée en 1944. Le regroupement a été annoncé en janvier 2020 et la marque Beneva a été dévoilée en décembre de la même année. [↗](https://www.beneva.ca/fr/regroupement "Beneva — Historique du regroupement"){.source-link} Beneva exerce ses activités dans plusieurs secteurs, notamment l’assurance individuelle, l’assurance collective, l’assurance de dommages, l’épargne et les placements. Sa structure mutualiste la distingue des sociétés d’assurance par actions, puisque son modèle de gouvernance repose sur ses membres plutôt que sur des actionnaires externes. [↗](https://www.beneva.ca/fr/a-propos "Beneva — Présentation de l’organisation"){.source-link}
+
+::::
+
+
+<div class="fiche-organisation-libelle" style="border-top:1px solid #D1DCDD; padding-top:18px; margin-top:24px; margin-bottom:12px;">
+Équipe de direction
+</div>
+
+La présentation de l’équipe de direction ci-dessous, tirée des [documents financiers de Beneva pour 2024](https://www.beneva.ca/fr/informations-financieres), permet d’observer concrètement la répartition des responsabilités au sein de l’organisation. Les titres utilisés ne correspondent pas nécessairement aux acronymes anglophones présentés précédemment (CEO, COO, CFO, CRO, etc.).
+
+::: {.encadre}
+
+![Équipe de direction de Beneva en 2024.](images/BenevaDirection.png){width=90% fig-align="center"}
+
+:::
+
+Le tableau suivant établit une correspondance entre les principales fonctions de direction et de contrôle et les postes présentés dans les documents financiers de Beneva.
+
+::: {.encadre}
 
 ```{r}
 #| echo: false
@@ -139,75 +182,123 @@ library(knitr)
 library(kableExtra)
 
 tab_beneva <- data.frame(
-`Fonction (terme usuel)` = c(
-"Chef de la direction (CEO)",
-"Chef des opérations (COO)",
-"Chef des finances (CFO)",
-"Chef de la gestion des risques (CRO)",
-"Chef des technologies de l’information (CIO)",
-"Fonction juridique (Chief Legal Officer / General Counsel)",
-"Audit interne (fonction de contrôle indépendante)"
-),
-`Titre utilisé chez Beneva` = c(
-"Président et chef de la direction",
-"Aucun poste unique de COO identifié dans la présentation; responsabilités opérationnelles réparties",
-"Vice-présidente exécutive et leader – Affaires financières",
-"Vice-président – Gestion des risques",
-"Vice-présidente exécutive et leader – Performance d’affaires et technologies de l’information",
-"Vice-président exécutif et leader – Services juridiques et corporatifs",
-"Vice-présidente – Audit interne"
-),
-`Dirigeant(s)` = c(
-"Jean-François Chalifoux",
-"—",
-"Mélissa Gilbert",
-"Michel Fournier",
-"Catherine Desgagnés-Bezil",
-"Pierre-Marc Bellavance",
-"Josée Grondines"
-),
-check.names = FALSE
+  `Fonction` = c(
+    "Chef de la direction (CEO)",
+    "Chef des opérations (COO)",
+    "Chef des finances (CFO)",
+    "Chef de la gestion des risques (CRO)",
+    "Chef des technologies de l’information (CIO)",
+    "Fonction juridique",
+    "Audit interne"
+  ),
+  `Titre utilisé chez Beneva` = c(
+    "Président et chef de la direction",
+    "Aucun poste unique identifié; responsabilités opérationnelles réparties",
+    "Vice-présidente exécutive et leader – Affaires financières",
+    "Vice-président – Gestion des risques",
+    "Vice-présidente exécutive et leader – Performance d’affaires et technologies de l’information",
+    "Vice-président exécutif et leader – Services juridiques et corporatifs",
+    "Vice-présidente – Audit interne"
+  ),
+  `Dirigeant` = c(
+    "Jean-François Chalifoux",
+    "—",
+    "Mélissa Gilbert",
+    "Michel Fournier",
+    "Catherine Desgagnés-Bezil",
+    "Pierre-Marc Bellavance",
+    "Josée Grondines"
+  ),
+  check.names = FALSE
 )
 
 kbl(
-tab_beneva,
-format = "html",
-escape = FALSE,
-align = c("l", "l", "l"),
-caption = "Fonctions de direction et titres chez Beneva, selon les documents de 2024"
-) %>%
-kable_classic(full_width = TRUE, html_font = "sans-serif") %>%
-kable_styling(
-bootstrap_options = c("striped", "hover", "condensed"),
-position = "center"
-)
+  tab_beneva,
+  format = "html",
+  align = c("l", "l", "l")
+) |>
+  kable_styling(
+    bootstrap_options = c("striped", "hover"),
+    full_width = TRUE,
+    position = "center"
+  ) |>
+  column_spec(1, bold = TRUE)
 ```
 
-L’audit interne occupe une position particulière : contrairement aux directions opérationnelles, cette fonction doit pouvoir évaluer les activités et les mécanismes de contrôle avec suffisamment d’indépendance. [↗](https://lautorite.qc.ca/professionnels/institutions-de-depots-et-societes-de-fiducie/lignes-directrices/assises-de-lencadrement-prudentiel/ligne-directrice-sur-la-gouvernance "AMF — audit interne indépendant"){.source-link} Elle dispose généralement d’un accès fonctionnel direct au comité d’audit du conseil d’administration.
+:::
 
-#### **Industrielle Alliance** {-}
+:::::
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/IAlogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+
+
+::::: {.fiche-organisation}
+
+<div class="fiche-organisation-entete">
+<div>
+<div class="fiche-organisation-nom">iA Groupe financier</div>
+<div class="fiche-organisation-type">Groupe d’assurance et de gestion de patrimoine</div>
+</div>
+<div class="fiche-organisation-logo">
+<img src="images/IAlogo.png" alt="iA Groupe financier">
 </div>
 </div>
 
-iA Groupe financier, aussi connu sous le nom d’Industrielle Alliance, est un important groupe canadien d’assurance et de gestion de patrimoine fondé en 1892. [↗](https://ia.ca/a-propos "iA — présentation du groupe et histoire"){.source-link} Son siège social est situé à Québec. L’entreprise exerce ses activités au Canada et aux États-Unis et offre une vaste gamme de produits et services financiers, notamment en assurance de personnes, en assurance collective, en gestion de patrimoine et en assurance de dommages.
+<div class="fiche-organisation-caracteristiques">
 
-<div style="clear: both;"></div>
+<div>
+<div class="fiche-organisation-libelle">Siège social</div>
+<div class="fiche-organisation-valeur">Québec</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Création</div>
+<div class="fiche-organisation-valeur">1892</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Structure de propriété</div>
+<div class="fiche-organisation-valeur">Société par actions</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Principaux marchés</div>
+<div class="fiche-organisation-valeur">Canada et États-Unis</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Secteurs d’activité</div>
+<div class="fiche-organisation-valeur">Assurance, épargne et gestion de patrimoine</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Site Web</div>
+<div class="fiche-organisation-valeur"><a href="https://www.ia.ca">www.ia.ca</a></div>
+</div>
+
+</div>
+
+:::: {.fiche-organisation-description}
+
+iA Groupe financier, aussi connu sous le nom d’Industrielle Alliance, est un important groupe canadien d’assurance et de gestion de patrimoine dont les origines remontent à 1892. Le groupe exerce ses activités dans plusieurs secteurs, notamment l’assurance individuelle, l’assurance collective, l’assurance de dommages, l’épargne, les placements et la gestion de patrimoine. Contrairement à Beneva, iA Groupe financier possède une structure de société par actions. Sa société de portefeuille, iA Société financière inc., est inscrite à la Bourse de Toronto sous le symbole IAG. Son modèle de gouvernance doit ainsi tenir compte des intérêts de ses actionnaires et des obligations de divulgation propres aux sociétés cotées en bourse. [↗](https://ia.ca/a-propos "iA — Présentation du groupe et histoire"){.source-link}
+
+::::
 
 
-La présentation du comité exécutif ci-dessous provient du [rapport annuel 2024 d’iA Groupe financier](https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2025/fr/fo-rapportannuel2024.pdf). Elle décrit les responsabilités et les titulaires à cette date, et non nécessairement ceux de 2026. Comme pour Beneva, les titres ne correspondent pas toujours aux acronymes usuels (CEO, COO, CFO, CRO, etc.). L’exemple illustre qu’il faut interpréter une structure en fonction des responsabilités exercées plutôt qu’uniquement à partir des intitulés de postes.
+<div class="fiche-organisation-libelle" style="border-top:1px solid #D1DCDD; padding-top:18px; margin-top:24px; margin-bottom:12px;">
+Équipe de direction
+</div>
 
-![](images/IADirection.png){width=60% fig-align="center"}
+La présentation du comité exécutif ci-dessous, tirée du [rapport annuel 2024 d’iA Groupe financier](https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2025/fr/fo-rapportannuel2024.pdf), permet d’observer concrètement la répartition des responsabilités au sein de l’organisation. Comme chez Beneva, certaines fonctions sont regroupées au sein d’un même poste, tandis que d’autres sont réparties entre plusieurs membres de la haute direction.
+
+::: {.encadre}
+
+![Comité exécutif d’iA Groupe financier en 2024.](images/IADirection.png){width=70% fig-align="center"}
+
+:::
+
+Le tableau suivant établit une correspondance entre les principales fonctions de direction et les postes présentés dans le rapport annuel d’iA Groupe financier.
+
+::: {.encadre}
 
 ```{r}
 #| echo: false
@@ -218,25 +309,25 @@ library(knitr)
 library(kableExtra)
 
 tab_ia <- data.frame(
-  `Fonction (terme usuel)` = c(
+  `Fonction` = c(
     "Chef de la direction (CEO)",
     "Chef des opérations (COO)",
     "Chef des finances (CFO)",
     "Chef de la gestion des risques (CRO)",
-    "Chef des placements (Chief Investment Officer)",
+    "Chef des placements (CIO)",
     "Stratégie et développement corporatif",
     "Ressources humaines et culture"
   ),
   `Titre utilisé chez iA` = c(
     "Président et chef de la direction",
-    "Aucun poste unique de COO identifié dans la présentation; responsabilités opérationnelles réparties",
+    "Aucun poste unique identifié; responsabilités opérationnelles réparties",
     "Vice-président exécutif, chef des finances et actuaire en chef",
     "Vice-président exécutif et chef de la gestion des risques",
     "Vice-président exécutif et chef des placements",
     "Vice-président exécutif – Stratégie, performance, fusions et acquisitions",
     "Vice-présidente exécutive et chef – Talents et culture"
   ),
-  `Dirigeant(s)` = c(
+  `Dirigeant` = c(
     "Denis Ricard",
     "—",
     "Éric Jobin",
@@ -251,17 +342,32 @@ tab_ia <- data.frame(
 kbl(
   tab_ia,
   format = "html",
-  escape = FALSE,
-  align = c("l", "l", "l"),
-  caption = "Fonctions de direction et titres chez iA Groupe financier, selon le rapport annuel 2024") %>%
-  kable_classic(full_width = TRUE, html_font = "sans-serif") %>%
+  align = c("l", "l", "l")
+) |>
   kable_styling(
-    bootstrap_options = c("striped", "hover", "condensed"),
+    bootstrap_options = c("striped", "hover"),
+    full_width = TRUE,
     position = "center"
-  ) 
-
+  ) |>
+  column_spec(1, bold = TRUE)
 ```
 
+:::
+
+:::::
+
+
+#### Analyse des structures organisationnelles {-}
+
+Les exemples de Beneva et d’Industrielle Alliance illustrent qu’il n’existe pas de structure organisationnelle unique pour les compagnies d’assurance. Bien que ces organisations exercent des activités similaires et doivent remplir plusieurs fonctions communes, elles peuvent organiser leur haute direction de différentes manières. Plusieurs observations peuvent être tirées de ces deux exemples :
+
+- **La répartition des responsabilités opérationnelles.** Dans les deux organisations, aucun poste unique de chef des opérations (COO) n’est présenté. Les responsabilités opérationnelles semblent plutôt réparties entre plusieurs membres de la haute direction, notamment en fonction des différents secteurs d’activité.
+- **La distinction entre la gestion financière et la gestion des risques.** Les deux organisations confient ces responsabilités à des personnes différentes. Cette séparation permet notamment de distinguer les objectifs de performance financière des préoccupations relatives à la maîtrise des risques.
+- **Le regroupement de certaines fonctions.** Chez Beneva, les technologies de l’information sont regroupées avec la performance d’affaires, tandis que chez Industrielle Alliance, les fonctions de chef des finances et d’actuaire en chef sont exercées par une même personne.
+- **La diversité des titres.** Dans les organisations québécoises et canadiennes-françaises, les titres sont généralement francisés et ne correspondent pas toujours directement aux acronymes anglophones usuels. Il importe donc de comprendre les responsabilités exercées plutôt que de s’appuyer uniquement sur les intitulés des postes.
+- **L’indépendance des fonctions de contrôle.** La structure de Beneva illustre particulièrement bien ce principe. On remarque que le vice-président responsable de la gestion des risques possède un lien fonctionnel avec le comité de gestion des risques, éthique et TI, tandis que la vice-présidente responsable de l’audit interne possède un lien fonctionnel avec le comité d’audit. Ces mécanismes contribuent à préserver l’indépendance des fonctions de contrôle à l’égard des activités opérationnelles. [↗](https://lautorite.qc.ca/professionnels/institutions-de-depots-et-societes-de-fiducie/lignes-directrices/assises-de-lencadrement-prudentiel/ligne-directrice-sur-la-gouvernance "AMF — Ligne directrice sur la gouvernance"){.source-link}
+
+Il convient également de distinguer la structure de propriété d’une organisation de sa structure de gestion. Bien que Beneva soit un assureur mutualiste et qu’Industrielle Alliance soit un groupe coté en bourse, les deux organisations doivent assurer leur solidité financière, gérer leurs risques et respecter les exigences réglementaires applicables. La différence entre leurs modèles de propriété n’élimine donc pas la nécessité de remplir plusieurs fonctions de gestion et de contrôle communes. Les deux structures présentées correspondent à l’année 2024. Elles permettent toutefois d’illustrer des principes d’organisation et de gouvernance qui demeurent pertinents même lorsque les structures ou les titulaires des postes évoluent.
 
 
 ### Les comités spécialisés
@@ -356,60 +462,166 @@ Les actuaires travaillent rarement de façon isolée. Leurs analyses dépendent 
 
 Par exemple, une analyse de tarification peut nécessiter des données sur les sinistres, des informations sur les contrats et une discussion avec les équipes de souscription ou de distribution. La qualité d’un travail actuariel dépend donc autant de la compréhension du fonctionnement de l’assureur et de la qualité des données que des méthodes quantitatives utilisées. [↗](https://www.cia-ica.ca/fr/les-actuaires/domaines-de-pratique/assurance-individuelle/ "ICA — collaboration interdisciplinaire en assurance"){.source-link}
 
-#### **Manuvie** {-}
+### Exemples
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/ManuvieLogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+Les sites de recrutement des compagnies d’assurance constituent une autre façon de découvrir les principales fonctions exercées au sein de ces organisations. Les exemples de Manuvie et de Sun Life permettent d’illustrer la diversité des postes, des compétences et des domaines d’expertise que l’on retrouve chez les grands assureurs.
+
+
+::::: {.fiche-organisation}
+
+<div class="fiche-organisation-entete">
+<div>
+<div class="fiche-organisation-nom">Manuvie</div>
+<div class="fiche-organisation-type">Groupe international d’assurance et de services financiers</div>
+</div>
+<div class="fiche-organisation-logo">
+<img src="images/ManuvieLogo.png" alt="Manuvie">
 </div>
 </div>
 
+<div class="fiche-organisation-caracteristiques">
 
-[Manuvie](https://www.manuvie.ca) (*Manulife Financial Corporation* en anglais) est une société canadienne de services financiers fondée en 1887 sous le nom de *The Manufacturers Life Insurance Company*. [↗](https://www.manulife.com/ca/fr/about-us/who-we-are/our-story "Manuvie — historique officiel"){.source-link} Son [siège social mondial est situé à Toronto, tandis que le siège de ses activités canadiennes se trouve à Waterloo](https://www.manulife.com/ca/en/business/contact-us), en Ontario. L’entreprise possède également une présence importante à Montréal. Elle exerce ses activités au Canada et à l’international, notamment aux États-Unis par l’intermédiaire de sa marque [John Hancock](https://www.johnhancock.com), ainsi que dans plusieurs pays d’Asie. Cette présence internationale est présentée sur le [site institutionnel de Manuvie](https://www.manulife.com/ca/fr/about-us/who-we-are/our-story).
-
-<div style="clear: both;"></div>
-
-![](images/postesManuvie.png){width=100% fig-align="center"}
-
-La capture d’écran des [offres d’emploi de Manuvie](https://careers.manulife.com/ca/fr/home), relevées en janvier 2026, illustre la diversité des fonctions présentes au sein d’une grande société d’assurance. Les offres visibles sur le site peuvent avoir changé depuis. On y observe que, bien que certains postes soient directement liés à l’actuariat, comme les stages coopératifs en actuariat ou les rôles en tarification et en finances des retraites, une part importante des emplois concerne d’autres départements essentiels au fonctionnement de l’organisation.
-
-Les offres affichées couvrent notamment des fonctions en ventes et distribution, en services bancaires et crédit, en gestion de projets, en stratégie organisationnelle et en gestion opérationnelle. Cet exemple met notamment en évidence le poids des fonctions opérationnelles et commerciales dans une grande société d’assurance.
-
-#### **Sun Life** {-}
-
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/SunlifeLogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+<div>
+<div class="fiche-organisation-libelle">Siège social</div>
+<div class="fiche-organisation-valeur">Toronto</div>
 </div>
-</div> 
+
+<div>
+<div class="fiche-organisation-libelle">Création</div>
+<div class="fiche-organisation-valeur">1887</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Structure de propriété</div>
+<div class="fiche-organisation-valeur">Société par actions (TSX : MFC)</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Principaux marchés</div>
+<div class="fiche-organisation-valeur">Canada, États-Unis et Asie</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Secteurs d’activité</div>
+<div class="fiche-organisation-valeur">Assurance, épargne et gestion de patrimoine</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Site Web</div>
+<div class="fiche-organisation-valeur"><a href="https://www.manuvie.ca">www.manuvie.ca</a></div>
+</div>
+
+</div>
+
+:::: {.fiche-organisation-description}
+
+Manuvie (*Manulife Financial Corporation* en anglais) est une société canadienne de services financiers fondée en 1887 sous le nom de *The Manufacturers Life Insurance Company*. Son siège social mondial est situé à Toronto, tandis que le siège de ses activités canadiennes se trouve à Waterloo, en Ontario. L’entreprise possède également une présence importante à Montréal. Manuvie exerce ses activités à l’échelle internationale, notamment aux États-Unis par l’intermédiaire de sa marque John Hancock, ainsi que dans plusieurs pays d’Asie. Le groupe offre une vaste gamme de produits d’assurance, de solutions d’épargne et de services de gestion de patrimoine et d’actifs. [↗](https://www.manulife.com/ca/fr/about-us/who-we-are/our-story "Manuvie — Histoire et présentation du groupe"){.source-link} [↗](https://www.manulife.com/ca/en/business/contact-us "Manuvie — Coordonnées des bureaux"){.source-link}
+
+::::
+
+
+<div class="fiche-organisation-libelle" style="border-top:1px solid #D1DCDD; padding-top:18px; margin-top:24px; margin-bottom:12px;">
+Domaines d’activité et perspectives d’emploi
+</div>
+
+La capture d’écran ci-dessous, tirée du [site de recrutement de Manuvie](https://careers.manulife.com/ca/fr/home) en janvier 2026, présente quelques exemples de postes offerts au sein de l’organisation. On y retrouve aussi bien des postes directement liés à l’actuariat que des postes en vente, en crédit, en gestion de projets et en stratégie organisationnelle.
+
+::: {.encadre}
+
+![Exemples d’offres d’emploi chez Manuvie — janvier 2026.](images/postesManuvie.png){width=100% fig-align="center"}
+
+:::
+
+:::::
 
 
 
-[Sun Life Financial](https://www.sunlife.com) est une société canadienne de services financiers fondée à Montréal en 1865 sous le nom *The Sun Insurance Company of Montreal*, notamment par Mathew Hamilton Gault, et ses activités ont commencé en 1871. [↗](https://www.patrimoine-culturel.gouv.qc.ca/detail.do?id=13307&methode=consulter&type=pge "Répertoire du patrimoine culturel du Québec — histoire de Sun Life"){.source-link} La compagnie a évolué pour devenir l’une des plus anciennes et importantes sociétés d’assurance et de gestion de patrimoine au Canada et dans le monde. Sun Life offre une gamme diversifiée de produits et services dans les domaines de l’assurance et de la gestion de patrimoine au Canada ainsi qu’à l’étranger, notamment aux États-Unis, au Royaume-Uni, en Inde et en Chine.
+::::: {.fiche-organisation}
 
-<div style="clear: both;"></div>
+<div class="fiche-organisation-entete">
+<div>
+<div class="fiche-organisation-nom">Sun Life</div>
+<div class="fiche-organisation-type">Groupe international d’assurance et de gestion de patrimoine</div>
+</div>
+<div class="fiche-organisation-logo">
+<img src="images/SunlifeLogo.png" alt="Sun Life">
+</div>
+</div>
+
+<div class="fiche-organisation-caracteristiques">
+
+<div>
+<div class="fiche-organisation-libelle">Siège social</div>
+<div class="fiche-organisation-valeur">Toronto</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Création</div>
+<div class="fiche-organisation-valeur">1865 — Montréal</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Structure de propriété</div>
+<div class="fiche-organisation-valeur">Société par actions (TSX : SLF)</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Principaux marchés</div>
+<div class="fiche-organisation-valeur">Canada, États-Unis, Europe et Asie</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Secteurs d’activité</div>
+<div class="fiche-organisation-valeur">Assurance, épargne et gestion d’actifs</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Site Web</div>
+<div class="fiche-organisation-valeur"><a href="https://www.sunlife.ca">www.sunlife.ca</a></div>
+</div>
+
+</div>
+
+:::: {.fiche-organisation-description}
+
+Sun Life (*Sun Life Financial Inc.*) est une société canadienne de services financiers fondée à Montréal en 1865 sous le nom de *The Sun Insurance Company of Montreal*, notamment par Mathew Hamilton Gault. Elle commence ses activités en 1871 et devient progressivement l’un des plus importants groupes canadiens d’assurance et de services financiers. Aujourd’hui, son siège social est situé à Toronto et le groupe exerce ses activités dans plusieurs régions du monde. Sun Life offre notamment des produits d’assurance individuelle et collective, des solutions d’épargne-retraite ainsi que des services de gestion de patrimoine, de placements et de gestion d’actifs. [↗](https://www.patrimoine-culturel.gouv.qc.ca/detail.do?id=13307&methode=consulter&type=pge "Répertoire du patrimoine culturel du Québec — Histoire de Sun Life"){.source-link} [↗](https://www.sunlife.com "Sun Life — Site institutionnel"){.source-link}
+
+::::
 
 
-![](images/postesSunlife.png){width=80% fig-align="center"}
+<div class="fiche-organisation-libelle" style="border-top:1px solid #D1DCDD; padding-top:18px; margin-top:24px; margin-bottom:12px;">
+Domaines d’activité et perspectives d’emploi
+</div>
+
+La capture d’écran ci-dessous, tirée du [site de recrutement de Sun Life](https://www.sunlife.ca/fr/careers/become-an-employee/) en janvier 2026, présente plusieurs domaines d’expertise au sein de l’organisation ainsi que des exemples de postes associés à chacun d’eux.
+
+::: {.encadre}
+
+![Exemples de domaines d’expertise et de postes chez Sun Life — janvier 2026.](images/postesSunlife.png){width=90% fig-align="center"}
+
+:::
+
+:::::
 
 
-La capture des [domaines d’expertise présentés par Sun Life](https://www.sunlife.ca/fr/careers/become-an-employee/), réalisée en janvier 2026, met en évidence plusieurs pôles fonctionnels distincts. La présentation en ligne peut évoluer. Bien que l’actuariat y occupe une place centrale, notamment dans la conception des produits, la tarification et l’évaluation des risques, l’affichage montre clairement que l’entreprise repose sur une diversité de compétences spécialisées. On y retrouve des fonctions en analytique avancée et en science des données, qui soutiennent la prise de décision stratégique, l’optimisation des opérations et la compréhension des comportements des clients. Les activités de gestion d’actifs, de gestion de patrimoine et de placements illustrent également le rôle financier élargi des assureurs, qui agissent à la fois comme gestionnaires de risques et comme gestionnaires de capitaux à grande échelle.
 
-La présentation fait aussi ressortir des domaines opérationnels et transversaux, tels que l’analyse des opérations, la gestion des demandes de règlement, ainsi que la conformité et les affaires juridiques. Ces fonctions sont essentielles au fonctionnement quotidien de l’assureur, à l’application des contrats, au respect du cadre réglementaire et à la protection des intérêts de l’entreprise et des assurés.
+#### Analyse des domaines d’activité {-}
+
+Les exemples de Manuvie et de Sun Life illustrent la diversité des compétences nécessaires au fonctionnement d’une grande société d’assurance. Plusieurs observations peuvent être tirées de ces deux illustrations :
+
+- **L’actuariat.** Les postes en actuariat touchent notamment la conception des produits d’assurance, leur tarification, l’évaluation des risques et la modélisation financière.
+
+- **La science des données et l’analytique avancée.** Les assureurs emploient également des spécialistes des données afin de mieux comprendre les comportements des clients, d’améliorer leurs modèles et d’optimiser leurs processus opérationnels.
+
+- **La finance et les investissements.** Les activités de gestion de portefeuille, de financement et de placement rappellent que les compagnies d’assurance sont également d’importants gestionnaires de capitaux.
+
+- **Les ventes et la distribution.** La commercialisation des produits d’assurance et les relations avec la clientèle nécessitent des compétences distinctes de celles mobilisées pour la conception et la tarification des produits.
+
+- **La gestion des opérations et des prestations.** L’administration des activités quotidiennes, l’amélioration des processus et le règlement des demandes de prestations mobilisent de nombreux professionnels.
+
+- **Les fonctions transversales.** La gestion de projets, la stratégie organisationnelle, la conformité et les affaires juridiques soutiennent et encadrent les activités des différents départements.
+
+Ces exemples permettent également de mieux situer la profession actuarielle au sein d’une société d’assurance. Si l’actuariat constitue une expertise fondamentale propre au secteur de l’assurance, il s’inscrit dans un environnement multidisciplinaire. Les actuaires sont ainsi appelés à collaborer régulièrement avec des professionnels dont les formations, les compétences et les responsabilités diffèrent des leurs. Enfin, les possibilités de carrière d’une personne ayant une formation actuarielle ne se limitent pas nécessairement aux postes portant explicitement le titre d’actuaire. Les compétences quantitatives, financières et analytiques acquises au cours de sa formation peuvent également être mises à profit dans plusieurs autres départements de l’organisation.
 
 
 ## Structure des autres organisations qui emploient des actuaires
@@ -442,65 +654,172 @@ Cette structure reflète le fait qu’un cabinet de consultation vend principale
 
 Enfin, la consultation est un milieu particulièrement important pour les étudiants en actuariat, car elle constitue souvent un important employeur en début de carrière. Les stages et les premiers emplois permettent fréquemment d’y développer des compétences transversales comme la rigueur méthodologique, la gestion de mandat, la rédaction de livrables, la communication avec des clients et le travail en équipe multidisciplinaire.
 
-#### **Normandin-Beaudry** {-}
+#### Exemples de cabinets de consultation {-}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/NBACLogo.jpg" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+Les offres d’emploi publiées par les cabinets de consultation permettent d’observer concrètement la manière dont ces organisations structurent leurs activités autour de leurs domaines d’expertise. Examinons deux firmes de consultation dont la taille, les activités et la présence géographique diffèrent considérablement : Normandin Beaudry et Aon.
+
+
+::::: {.fiche-organisation}
+
+<div class="fiche-organisation-entete">
+<div>
+<div class="fiche-organisation-nom">Normandin Beaudry</div>
+<div class="fiche-organisation-type">Firme de consultation en actuariat et en rémunération globale</div>
+</div>
+<div class="fiche-organisation-logo">
+<img src="images/NBACLogo.jpg" alt="Normandin Beaudry">
 </div>
 </div>
 
+<div class="fiche-organisation-caracteristiques">
 
-La firme de consultation [Normandin Beaudry](https://www.normandin-beaudry.ca) est une société de conseil d’origine québécoise, fondée en 1992 par André Normandin et René Beaudry, spécialisée dans les services-conseils en rémunération globale et en actuariat. [↗](https://memorial100.com/recits/normandin-beaudry/ "Historique des fondateurs de Normandin Beaudry"){.source-link} Elle rassemble plus de 350 experts qui accompagnent des organisations de toutes tailles (grandes entreprises, PME, organismes publics, municipalités et organismes à but non lucratif) dans la conception, l’optimisation et la gestion de leurs programmes de retraite, d’assurance collective, d’épargne, de rémunération, de santé et de performance. [↗](https://www.normandin-beaudry.ca/ "Normandin Beaudry — domaines de pratique et effectifs"){.source-link} L’entreprise est indépendante et détenue par ses spécialistes, ce qui lui permet de maintenir une stabilité de personnel clé et une expertise pointue. Elle possède des bureaux à Montréal, Toronto et Québec, et sert une clientèle à l’échelle canadienne.
+<div>
+<div class="fiche-organisation-libelle">Siège social</div>
+<div class="fiche-organisation-valeur">Montréal</div>
+</div>
 
-<div style="clear: both;"></div>
+<div>
+<div class="fiche-organisation-libelle">Création</div>
+<div class="fiche-organisation-valeur">1992</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Structure de propriété</div>
+<div class="fiche-organisation-valeur">Firme indépendante détenue par ses spécialistes</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Principaux marchés</div>
+<div class="fiche-organisation-valeur">Canada</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Secteurs d’activité</div>
+<div class="fiche-organisation-valeur">Actuariat-conseil et rémunération globale</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Site Web</div>
+<div class="fiche-organisation-valeur"><a href="https://www.normandin-beaudry.ca">www.normandin-beaudry.ca</a></div>
+</div>
+
+</div>
+
+:::: {.fiche-organisation-description}
+
+Normandin Beaudry est une firme de consultation d’origine québécoise, fondée en 1992 par André Normandin et René Beaudry, spécialisée dans les services-conseils en actuariat et en rémunération globale. [↗](https://memorial100.com/recits/normandin-beaudry/ "Historique des fondateurs de Normandin Beaudry"){.source-link} La firme accompagne des organisations de toutes tailles, notamment des grandes entreprises, des PME, des organismes publics, des municipalités et des organismes à but non lucratif.
+
+Ses domaines d’expertise comprennent notamment les régimes de retraite, l’assurance collective, l’épargne, la rémunération, la santé et la performance organisationnelle. L’entreprise est indépendante et détenue par ses spécialistes. Elle possède des bureaux à Montréal, à Toronto et à Québec et sert une clientèle à l’échelle canadienne. [↗](https://www.normandin-beaudry.ca/ "Normandin Beaudry — Présentation de la firme et domaines de pratique"){.source-link}
+
+::::
 
 
-La capture ci-dessous présente des [offres d’emploi chez Normandin Beaudry](https://www.normandin-beaudry.ca/offres-demploi/) relevées en janvier 2026; les postes actuellement affichés peuvent différer. Elle illustre la manière dont un cabinet de consultation organise ses activités autour de ses expertises et des mandats de ses clients.
+<div class="fiche-organisation-libelle" style="border-top:1px solid #D1DCDD; padding-top:18px; margin-top:24px; margin-bottom:12px;">
+Domaines d’activité et perspectives d’emploi
+</div>
 
-![](images/postesNBAC.png){width=60% fig-align="center"}
+La capture d’écran ci-dessous, tirée du [site de recrutement de Normandin Beaudry](https://www.normandin-beaudry.ca/offres-demploi/) en janvier 2026, présente quelques exemples de postes offerts au sein de la firme. On y retrouve des postes directement associés aux domaines de pratique actuarielle, mais également des postes en technologies, en intelligence d’affaires et en administration.
 
-Les postes liés directement aux domaines de pratique, tels que le conseil en assurance collective ou en retraite, correspondent aux équipes structurées par spécialité et par type de mandats. À côté de ces rôles, la présence de postes en intelligence d’affaires, en ingénierie de données, en développement logiciel et en gestion des applications d’entreprise reflète l’importance croissante des outils analytiques, des systèmes internes et de l’automatisation dans la prestation des services-conseils.
+::: {.encadre}
 
-L’affichage met également en évidence des fonctions de soutien essentielles au fonctionnement quotidien du cabinet, comme l’administration, la gestion documentaire et l’administration des régimes. Ces rôles, bien que moins visibles du point de vue actuariel, sont nécessaires pour assurer la qualité des livrables, le respect des échéanciers et la conformité aux exigences contractuelles et réglementaires.
+![Exemples d’offres d’emploi chez Normandin Beaudry — janvier 2026.](images/postesNBAC.png){width=80% fig-align="center"}
+
+:::
+
+:::::
 
 
-#### **Aon** {-}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/AonLogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+::::: {.fiche-organisation}
+
+<div class="fiche-organisation-entete">
+<div>
+<div class="fiche-organisation-nom">Aon</div>
+<div class="fiche-organisation-type">Groupe international de services professionnels</div>
+</div>
+<div class="fiche-organisation-logo">
+<img src="images/AonLogo.png" alt="Aon">
 </div>
 </div>
 
+<div class="fiche-organisation-caracteristiques">
 
-[Aon](https://www.aon.com) est une grande firme mondiale de services professionnels spécialisée dans la gestion des risques, le courtage d’assurance et de réassurance, ainsi que le conseil en retraite, santé et ressources humaines. Ses origines sous sa forme actuelle remontent à 1982, lorsque Ryan Insurance Group a fusionné avec Combined International Corporation. [↗](https://www.aon.com/taiwan/about-aon/company-overview/history-facts.jsp "Aon — historique du groupe"){.source-link} Son [siège statutaire se trouve à Dublin, en Irlande, tandis que son siège opérationnel mondial est situé à Londres](https://www.aon.com/en/about/leadership-and-governance/corporate-information). L’entreprise est également présente à Chicago et dans de nombreux autres marchés internationaux. 
+<div>
+<div class="fiche-organisation-libelle">Siège social statutaire</div>
+<div class="fiche-organisation-valeur">Dublin, Irlande</div>
+</div>
 
-<div style="clear: both;"></div>
+<div>
+<div class="fiche-organisation-libelle">Création</div>
+<div class="fiche-organisation-valeur">1982 — Fusion</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Structure de propriété</div>
+<div class="fiche-organisation-valeur">Société par actions (NYSE : AON)</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Principaux marchés</div>
+<div class="fiche-organisation-valeur">International</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Secteurs d’activité</div>
+<div class="fiche-organisation-valeur">Courtage, gestion des risques et consultation</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Site Web</div>
+<div class="fiche-organisation-valeur"><a href="https://www.aon.com">www.aon.com</a></div>
+</div>
+
+</div>
+
+:::: {.fiche-organisation-description}
+
+Aon est une grande firme mondiale de services professionnels spécialisée dans la gestion des risques, le courtage d’assurance et de réassurance, ainsi que les services-conseils en retraite, en santé et en ressources humaines. Les origines du groupe sous sa forme actuelle remontent à 1982, à la suite de la fusion de Ryan Insurance Group et de Combined International Corporation. [↗](https://www.aon.com/taiwan/about-aon/company-overview/history-facts.jsp "Aon — Historique du groupe"){.source-link}
+
+Son siège statutaire se trouve à Dublin, en Irlande, tandis que son siège opérationnel mondial est situé à Londres. Le groupe possède également une présence importante à Chicago et exerce ses activités dans de nombreux pays, dont le Canada. Contrairement à un cabinet spécialisé exclusivement en actuariat-conseil, Aon offre une gamme beaucoup plus étendue de services professionnels, au sein desquels s’intègrent les activités actuarielles. [↗](https://www.aon.com/en/about/leadership-and-governance/corporate-information "Aon — Informations institutionnelles"){.source-link}
+
+::::
 
 
-La capture des [offres d’emploi d’Aon au Canada](https://jobs.aon.com/jobs), relevées en janvier 2026, illustre une consultation actuarielle marquée par l’envergure internationale et la diversification des activités. Les offres en ligne peuvent avoir changé depuis.
+<div class="fiche-organisation-libelle" style="border-top:1px solid #D1DCDD; padding-top:18px; margin-top:24px; margin-bottom:12px;">
+Domaines d’activité et perspectives d’emploi
+</div>
 
-![](images/postesAon.png){width=60% fig-align="center"}
+La capture d’écran ci-dessous, tirée du [site de recrutement d’Aon](https://jobs.aon.com/jobs) en janvier 2026, présente quelques exemples de postes offerts au Canada. Ces offres illustrent la diversité des activités professionnelles au sein d’une grande firme internationale de consultation et de courtage.
+
+::: {.encadre}
+
+![Exemples d’offres d’emploi chez Aon — janvier 2026.](images/postesAon.png){width=80% fig-align="center"}
+
+:::
+
+:::::
 
 
-On y observe une organisation structurée à la fois par lignes d’affaires (retraite, réassurance, solutions de patrimoine, courtage, développement des affaires) et par fonctions transversales, reflétant la complexité opérationnelle d’une firme de services professionnels mondiale.  Les postes en consultation actuarielle et en gestion des régimes de retraite coexistent avec des rôles en réassurance, en développement des affaires, en opérations, en technologies et en gestion de programmes. Les équipes de consultation actuarielle collaborent ainsi avec des spécialistes du courtage, de la gestion des risques, de la technologie et des opérations, souvent dans un contexte international.
 
-La présence de stages, de postes en début de carrière et de fonctions de gestion souligne également le rôle d’Aon comme organisation de formation et de développement professionnel. Pour les étudiants en actuariat, cet exemple met en évidence que la consultation ne se limite pas à la production d’analyses techniques, mais implique aussi la coordination de projets, la relation client, la compréhension des marchés et l’adaptation à des contextes réglementaires et culturels variés.
+#### Analyse des structures organisationnelles {-}
+
+Les exemples de Normandin Beaudry et d’Aon permettent de mieux comprendre les particularités de l’organisation interne des cabinets de consultation. Plusieurs observations peuvent être tirées de ces deux exemples :
+
+- **L’organisation par domaines d’expertise.** Les cabinets de consultation structurent une partie importante de leurs activités autour de leurs spécialités et des besoins de leurs clients. Les équipes en retraite et en assurance collective, par exemple, réalisent des mandats qui nécessitent des connaissances techniques et réglementaires différentes.
+
+- **La diversité des modèles d’affaires.** Normandin Beaudry concentre ses activités sur les services-conseils en actuariat et en rémunération globale, tandis qu’Aon intègre la consultation actuarielle à une offre beaucoup plus large de services professionnels, comprenant notamment le courtage d’assurance et de réassurance.
+
+- **L’importance des technologies et de la science des données.** Les offres d’emploi en intelligence d’affaires, en ingénierie de données, en développement logiciel et en gestion des applications illustrent l’importance des outils technologiques dans la réalisation des mandats de consultation.
+
+- **La présence de fonctions de soutien.** Comme les sociétés d’assurance, les cabinets de consultation doivent assurer leur propre fonctionnement. Des équipes administratives, financières, technologiques et commerciales soutiennent donc les professionnels qui réalisent les mandats auprès des clients.
+
+- **La diversité des possibilités de carrière.** Les deux organisations offrent des possibilités de carrière qui ne se limitent pas à la réalisation de calculs actuariels. La gestion de projets, le développement des affaires, les relations avec les clients et la coordination d’équipes multidisciplinaires font également partie des responsabilités que peuvent être appelés à exercer les actuaires.
+
+La différence fondamentale entre une société d’assurance et un cabinet de consultation réside dans la nature de leurs activités. Alors qu’un assureur prend en charge des risques en contrepartie de primes, un cabinet de consultation fournit principalement des analyses, des recommandations et des services spécialisés en contrepartie d’honoraires.
+
+Cette différence explique en grande partie pourquoi leurs structures organisationnelles sont différentes, même si elles font appel à plusieurs expertises communes.
+
+
 
 ### Institutions financières et secteurs connexes
 

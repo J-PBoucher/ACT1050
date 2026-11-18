@@ -43,8 +43,15 @@ box-shadow:0 3px 10px rgba(0,0,0,0.15);
 max-width:330px;
 ">
 
-<img src="images/ExamsActu.jpg"
-style="width:100%; height:auto; display:block;">
+<a href="https://knowyourmeme.com/memes/pepe-silvia"
+target="_blank"
+rel="noopener noreferrer"
+title="Découvrir l’origine de ce mème">
+
+<img src="memes/ExamsActu.jpg"
+style="width:100%; height:auto; display:block; cursor:pointer;">
+
+</a>
 
 <div style="font-size:0.85em; margin-top:0.4em; color:#555;">
 Un étudiant en actuariat tentant d'expliquer le système d'examens professionnels à sa famille
@@ -57,6 +64,7 @@ Contrairement à plusieurs autres professions, où la formation universitaire co
 Ce modèle s'explique en partie par l'histoire d'une profession qui s'est développée en marge des universités. [↗](https://www.soa.org/about/historical-background/ "Historique de la profession et des examens (SOA)"){.source-link} Il a néanmoins contribué à retarder la pleine reconnaissance de la formation universitaire en actuariat. On pourrait dire, avec un brin d'ironie, que la profession a longtemps fait preuve d'une grande rigueur dans ses examens, mais d'une certaine lenteur à reconnaître que les universités pouvaient aussi offrir une formation professionnelle rigoureuse. Ce choix historique a eu des conséquences concrètes sur le parcours des étudiants et demeure pertinent pour comprendre les réformes récentes.
 
 <div style="clear: both;"></div>
+
 
 
 ### Universités et examens professionnels
@@ -85,11 +93,14 @@ Si on fait un lien avec le programme d'actuariat de l'UQAM, on parle principalem
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/Exams1990.png" style="width:70%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -103,8 +114,9 @@ Les taux de réussite historiques aux examens préliminaires se situaient souven
 
 À droite, on peut voir un extrait d'un [syllabus d'examen de la CAS de 1990](https://www.casact.org/sites/default/files/2021-02/1990syllabus.pdf).  L'encadré en rouge correspondait aux examens préliminaires.  On peut aussi constater que la réussite de tous les examens préliminaires n'était pas suffisante pour obtenir le titre d'associé de la CAS.
 
-::: {.callout-important icon=false}
-## Création du baccalauréat en actuariat de l’UQAM
+::: {style="background: #FAF0EF; border-left: 3px solid #B76E65; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+<strong> Création du baccalauréat en actuariat de l’UQAM </strong>
 
 C’est dans ce contexte que le professeur Claude Pichet a créé le baccalauréat en actuariat de l’UQAM en 1997, avec l’idée structurante de mettre en place une formation universitaire explicitement centrée sur la réussite des examens professionnels en actuariat. Le programme comportait ainsi des cours conçus pour préparer au format même des examens, c’est-à-dire la résolution d’une série de problèmes dans un temps limité. On retrouvait notamment un cours préparant à l’[examen P (probabilités)](https://etudier.uqam.ca/cours?sigle=ACT2120), un cours préparant à l’[examen FM (mathématiques financières)](https://etudier.uqam.ca/cours?sigle=ACT3122), ainsi que d’autres cours alignés sur les exigences des examens préliminaires.
 :::
@@ -115,11 +127,14 @@ C’est dans ce contexte que le professeur Claude Pichet a créé le baccalauré
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/CasPath.png" style="width:70%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -148,6 +163,8 @@ Le tableau suivant présente, à titre historique, les correspondances et les no
 Malgré cette reconnaissance accrue, la compréhension du système d’examens demeurait souvent difficile pour les étudiants. L’administration de ces cours par les universités et les professeurs était également lourde, d’autant plus que le dispositif reposait sur la philosophie d’*imiter* la forme et la sélectivité des examens préliminaires. Le dispositif visait à conserver une évaluation exigeante : il ne suffisait pas de réussir un cours universitaire pour obtenir une exemption, puisqu'une note minimale précise, telle qu'indiquée dans le tableau, était requise. Il ne faut toutefois pas confondre les taux historiques de réussite aux examens avec un quota de réussite officiellement imposé par les sociétés d'actuaires. [↗](https://www.soa.org/education/general-info/grading/edu-exam-pass-marks.aspx "Méthode de détermination des seuils de réussite (SOA)"){.source-link}
 
 Dans la même optique, les évaluations écrites devaient représenter plus de 80 % de la note finale, limitant les travaux pratiques à environ 20 %. Une telle répartition apparaît problématique, dans la mesure où l’actuariat est une discipline fondamentalement appliquée et où l’un des principaux avantages de la formation universitaire réside précisément dans la diversité des modes d’évaluation possibles, incluant des projets, des analyses de données et des travaux de synthèse.
+
+::: {.encadre}
 
 ```{r}
 #| echo: false
@@ -225,10 +242,11 @@ kable(
 )
 ```
 
+:::
 
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-::: {.callout-important icon=false}
-## Complexité supplémentaire pour les étudiants
+<strong> Complexité supplémentaire pour les étudiants </strong>
 
 La *Casualty Actuarial Society* (CAS) reconnaissait certains crédits accordés dans le cadre du PAU de l'Institut canadien des actuaires (ICA). [↗](https://actuariat.uqam.ca/etudiants-actuels/programme-dagrement-universitaire-pau-ica/ "Anciennes exemptions du PAU (UQAM)"){.source-link} Un candidat pouvait donc s'en servir dans son cheminement vers l'ACAS, puis éventuellement vers le FCAS, en satisfaisant aux autres exigences de la CAS. Ces crédits pouvaient également être utilisés dans certains parcours de qualification de l'ICA.
 
@@ -254,6 +272,8 @@ Le [site de l'ICA consacré au parcours 1](https://www.cia-ica.ca/fr/devenir-mem
 #### **Les cours reconnus à l'UQAM** {-}
 
 À l'UQAM, le cours ACT6100 est l'un des cours explicitement exigés par l'ICA pour la reconnaissance du diplôme, même s'il ne fait pas partie de tous les cheminements obligatoires du baccalauréat. Le tableau suivant reprend la liste des cours actuellement publiés par l'ICA pour l'UQAM, avec une adaptation signalée pour le cours de comptabilité offert aux nouvelles cohortes.
+
+::: {.encadre2}
 
 ```{r}
 #| echo: false
@@ -296,15 +316,14 @@ kable(
 )
 ```
 
+
 **Précision sur SCO1045.** La [liste publique de l'ICA](https://www.cia-ica.ca/fr/commencer-votre-parcours/education-actuarielle-au-canada/) mentionne encore **SCO1250**, alors que l'[UQAM indique que SCO1045 remplace SCO1250 à compter de l'automne 2026](https://actuariat.uqam.ca/etudiants-actuels/validation-by-educational-experience-vee-soa/). Les étudiants concernés devraient faire confirmer auprès du programme et de l'ICA la reconnaissance de cette substitution pour leur cohorte.
+
+:::
 
 #### **Les modules et l'examen synthèse** {-}
 
-L'ICA recommande généralement d'entreprendre le premier module AICA après la première ou la deuxième année d'études, bien qu'il puisse aussi être suivi après la diplomation. [↗](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-associe/modules-et-examen-synthese-de-niveau-aica/ "Modules AICA et examen synthèse (ICA)"){.source-link} Contrairement aux examens traditionnels, ils reposent sur des activités d'apprentissage et des travaux plutôt que sur un examen final distinct. L'examen synthèse reste toutefois une étape exigeante.
-
-Les [résultats officiels publiés par l'ICA](https://www.cia-ica.ca/fr/devenir-membre/cours-et-examens/resultats-aux-examens-aica-et-fica/) permettent désormais de remplacer les premières estimations informelles par des observations : 52 % à l'hiver 2024, 53 % à l'automne 2024, 49 % au printemps 2025 et 36 % à l'automne 2025. Ces taux décrivent les cohortes présentes aux examens; ils ne permettent pas à eux seuls de mesurer la qualité de la formation universitaire ni de prédire le résultat d'un candidat particulier.
-
-Les premiers témoignages recueillis auprès d'étudiants évoquent parfois une préparation de l'ordre de 200 à 300 heures pour l'examen synthèse. Cet ordre de grandeur est indicatif et ne constitue pas une exigence ou une estimation officielle de l'ICA.
+L'ICA recommande généralement d'entreprendre le premier module AICA après la première ou la deuxième année d'études, bien qu'il puisse aussi être suivi après la diplomation. [↗](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-associe/modules-et-examen-synthese-de-niveau-aica/ "Modules AICA et examen synthèse (ICA)"){.source-link} Contrairement aux examens traditionnels, ils reposent sur des activités d'apprentissage et des travaux plutôt que sur un examen final distinct. L'examen synthèse reste toutefois une étape exigeante. Les [résultats officiels publiés par l'ICA](https://www.cia-ica.ca/fr/devenir-membre/cours-et-examens/resultats-aux-examens-aica-et-fica/) permettent désormais de remplacer les premières estimations informelles par des observations : 52 % à l'hiver 2024, 53 % à l'automne 2024, 49 % au printemps 2025 et 36 % à l'automne 2025. Ces taux décrivent les cohortes présentes aux examens; ils ne permettent pas à eux seuls de mesurer la qualité de la formation universitaire ni de prédire le résultat d'un candidat particulier.  Les premiers témoignages recueillis auprès d'étudiants évoquent parfois une préparation de l'ordre de 200 à 300 heures pour l'examen synthèse. Cet ordre de grandeur est indicatif et ne constitue pas une exigence ou une estimation officielle de l'ICA.
 
 ### Reconnaissance de l’UQAM par l’ICA
 
@@ -318,23 +337,26 @@ L’Institut canadien des actuaires (ICA) a mis en place un Programme d’agrém
 
   L’agrément repose également sur des normes académiques élevées. L’université doit démontrer qu’elle applique des mécanismes rigoureux d’évaluation des étudiants, qu’elle assure l’intégrité académique et qu’elle dispose de politiques claires en matière d’éthique, de tricherie et de gestion des évaluations.  Dans ce cadre, l’ICA peut demander l’accès à divers documents pédagogiques, tels que des plans de cours, des examens, des travaux et des grilles de correction, afin de vérifier que les standards académiques sont maintenus de façon uniforme et durable. [↗](https://www.cia-ica.ca/fr/publications/224047f/224047f/ "Politique de l’ICA sur l’agrément universitaire"){.source-link}
 
-- **Corps professoral et exigences minimales de l’ICA**  
-
-  L’agrément universitaire de l’ICA impose des exigences précises quant à la composition du corps professoral impliqué dans un programme d’actuariat. [↗](https://www.cia-ica.ca/fr/publications/224047f/224047f/ "Politique de l’ICA sur l’agrément universitaire"){.source-link} À tout le moins, l’université doit démontrer qu’elle dispose d’une masse critique de professeurs possédant une formation actuarielle reconnue et une implication durable dans le programme. Plus précisément, l’ICA exige que l’université emploie :
-
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/MathieuBoudreault.jpg" alt="Mathieu Boudreault" style="width:50%;">
 <div style="width:50%; margin:0 auto; font-size:0.85em; margin-top:0.3em; text-align:center;">
 Mathieu Boudreault, professeur Fellow de l’UQAM
 </div>
 </div>
+
+- **Corps professoral et exigences minimales de l’ICA**  
+
+  L’agrément universitaire de l’ICA impose des exigences précises quant à la composition du corps professoral impliqué dans un programme d’actuariat. [↗](https://www.cia-ica.ca/fr/publications/224047f/224047f/ "Politique de l’ICA sur l’agrément universitaire"){.source-link} À tout le moins, l’université doit démontrer qu’elle dispose d’une masse critique de professeurs possédant une formation actuarielle reconnue et une implication durable dans le programme. Plus précisément, l’ICA exige que l’université emploie :
 
   - au moins deux membres à temps plein du corps professoral détenant le titre de Fellow de l’ICA ou celui de membre associé de l’ICA. Ces professeurs constituent le noyau actuariel permanent du programme et assurent la stabilité institutionnelle de l’enseignement;
 
@@ -369,12 +391,10 @@ Ces objectifs ne doivent pas être confondus avec des résultats déjà démontr
 
 ### Résistance au changement des actuaires
 
-Une difficulté possible dans la transformation d'un système de qualification concerne la résistance au changement. Les professionnels ayant suivi un parcours particulièrement exigeant peuvent être réticents à l'idée d'en modifier les conditions, notamment s'ils craignent une dévalorisation de leurs propres qualifications. D'autres peuvent aussi s'inquiéter, de façon légitime, du maintien de la qualité des évaluations, de la comparabilité des titres et de la protection du public. Il s'agit de motivations possibles et non de causes démontrées des décisions particulières prises par l'ICA.
+Une difficulté possible dans la transformation d'un système de qualification concerne la résistance au changement. Les professionnels ayant suivi un parcours particulièrement exigeant peuvent être réticents à l'idée d'en modifier les conditions, notamment s'ils craignent une dévalorisation de leurs propres qualifications. D'autres peuvent aussi s'inquiéter, de façon légitime, du maintien de la qualité des évaluations, de la comparabilité des titres et de la protection du public. Il s'agit de motivations possibles et non de causes démontrées des décisions particulières prises par l'ICA. Ces considérations montrent pourquoi les réformes professionnelles peuvent susciter des débats complexes. Le véritable enjeu n'est pas de préserver les difficultés d'un ancien parcours pour elles-mêmes, mais de déterminer quelles exigences contribuent effectivement à la compétence professionnelle.
 
-Ces considérations montrent pourquoi les réformes professionnelles peuvent susciter des débats complexes. Le véritable enjeu n'est pas de préserver les difficultés d'un ancien parcours pour elles-mêmes, mais de déterminer quelles exigences contribuent effectivement à la compétence professionnelle.
-
-::: {.callout-important icon=false}
-## Pour la nouvelle génération
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+<strong> Pour la nouvelle génération </strong>
 
 Les exigences professionnelles évoluent avec le temps. Certaines composantes aujourd'hui jugées indispensables — y compris les examens avancés — pourraient être repensées à leur tour. Une profession doit pouvoir distinguer la valeur des exigences de qualification de la simple reproduction des difficultés héritées du passé.
 :::
@@ -383,11 +403,14 @@ Les exigences professionnelles évoluent avec le temps. Certaines composantes au
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/BrunoGagnonICA.png" style="width:100%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -403,8 +426,8 @@ Son rôle a été particulièrement marquant dans le développement des cours or
 
 <div style="clear: both;"></div>
 
-::: {.callout-note icon=false}
-## Implication des professeurs de l'UQAM
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+<strong> Implication des professeurs de l'UQAM </strong>
 
 Il est pertinent de souligner que plusieurs professeurs de l’UQAM sont directement impliqués dans l’élaboration des questions de l’examen de synthèse de l’Institut canadien des actuaires (ICA). Cette participation se fait notamment à travers leur engagement au sein de comités de rédaction, de révision et de validation des examens. Cette implication contribue à assurer une certaine cohérence entre les contenus enseignés à l’université, les compétences évaluées lors du processus de qualification professionnelle et les attentes réelles de la pratique actuarielle. Elle favorise également une rétroaction continue entre le milieu académique et les instances professionnelles, permettant d’ajuster progressivement les approches pédagogiques et les méthodes d’évaluation en fonction de l’évolution de la profession.
 :::
@@ -413,10 +436,14 @@ Il est pertinent de souligner que plusieurs professeurs de l’UQAM sont directe
 
 Même si le parcours universitaire vers le titre d'AICA a été simplifié, la qualification de niveau Fellow repose toujours sur une formation avancée spécialisée, distincte du baccalauréat. Historiquement, les candidats suivaient principalement les examens de la *Society of Actuaries* (SOA) dans les domaines de l'assurance-vie, des prestations collectives et de la retraite, ou ceux de la *Casualty Actuarial Society* (CAS) en assurances IARD. On retrouve ainsi des Fellows de la SOA (FSA) et des Fellows de la CAS (FCAS). Ces parcours demeurent possibles, mais l'ICA propose également ses propres [volets d'examens avancés](https://www.cia-ica.ca/fr/devenir-membre/devenir-membre-fellow/programmes-detudes-de-niveau-fica/).
 
+::: {.encadre}
 
 ![Les examens des 5 grands domaines de l'actuariat](images/ICA_ExamensAvances.png){width=75% .center}
+:::
 
 Chaque volet est composé de deux modules FICA en ligne et de trois examens FICA à livre ouvert. Les modules et les examens permettent à des candidats et candidates issus d’un large éventail de formations et d’horizons professionnels d’acquérir et d’appliquer des connaissances générales et spécifiques aux différents volets grâce au système de gestion de l’apprentissage et à la plateforme d’examen virtuelle de pointe offerts par l’ICA. Ces programmes d’études, combinés à l’expérience requise, prépareront ultimement les candidats et candidates à être admis comme Fellows de l’ICA.  On peut consulter la liste des examens à réussir dans le tableau suivant.
+
+::: {.encadre2}
 
 ```{r}
 #| echo: false
@@ -483,6 +510,7 @@ kable(
 
 ```
 
+:::
 
 Dans le système actuel de l'ICA, le titre de Fellow (FICA) repose sur une spécialisation avancée, sur le professionnalisme et sur une expérience actuarielle significative. Pour le parcours 1, le candidat doit notamment :
 
@@ -493,23 +521,24 @@ Dans le système actuel de l'ICA, le titre de Fellow (FICA) repose sur une spéc
 
 Cette dernière condition a une conséquence pratique importante : des stages et des emplois occupés avant l'obtention du titre d'AICA peuvent contribuer à l'expérience actuarielle générale, mais ne remplacent pas les 12 mois spécifiquement exigés *à titre d'AICA*. Les [règles officielles du parcours 1](https://www.cia-ica.ca/fr/devenir-membre/parcours-de-qualification/parcours-1/) doivent être consultées avant de planifier sa demande de qualification.
 
-::: {.callout-important}
-## Autres parcours
+::: {style="background: #FAF0EF; border-left: 3px solid #B76E65; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-Dans ce chapitre, seule la voie de qualification par le système canadien et l’ICA est présentée. D’autres parcours de qualification demeurent toutefois possibles. Historiquement, une grande partie des actuaires au Canada ont accédé à la profession en réussissant les examens préliminaires de la CAS ou de la SOA, puis en complétant une série d’examens avancés administrés par ces mêmes organisations. En 2026, un Fellow de la SOA (FSA) ou de la CAS (FCAS) peut également présenter une demande de qualification à titre de FICA selon les parcours de reconnaissance prévus par l'ICA, sous réserve de satisfaire aux conditions canadiennes qui s'appliquent à sa situation.
+<strong> Autres parcours </strong>
 
-Par choix pédagogique, ces parcours alternatifs ne sont pas abordés dans ce cours. Les étudiants intéressés peuvent toutefois consulter les [parcours de qualification de l’ICA](https://www.cia-ica.ca/fr/devenir-membre/parcours-de-qualification/) pour obtenir de l’information détaillée sur ces voies parallèles.
+Dans ce chapitre, seule la voie de qualification par le système canadien et l’ICA est présentée. D’autres parcours de qualification demeurent toutefois possibles. Historiquement, une grande partie des actuaires au Canada ont accédé à la profession en réussissant les examens préliminaires de la CAS ou de la SOA, puis en complétant une série d’examens avancés administrés par ces mêmes organisations. En 2026, un Fellow de la SOA (FSA) ou de la CAS (FCAS) peut également présenter une demande de qualification à titre de FICA selon les parcours de reconnaissance prévus par l'ICA, sous réserve de satisfaire aux conditions canadiennes qui s'appliquent à sa situation. Par choix pédagogique, ces parcours alternatifs ne sont pas abordés dans ce cours. Les étudiants intéressés peuvent toutefois consulter les [parcours de qualification de l’ICA](https://www.cia-ica.ca/fr/devenir-membre/parcours-de-qualification/) pour obtenir de l’information détaillée sur ces voies parallèles.
 :::
 
 ## Étudier tout en ayant un emploi
+
+{{< meme "memes/FirstTime.jpg" "https://knowyourmeme.com/memes/james-franco-first-time" "350px" >}}
 
 Dans le parcours universitaire de l'ICA, le titre d'associé s'obtient après la satisfaction de l'ensemble des exigences prévues : diplôme reconnu, modules, examen synthèse et atelier sur le professionnalisme. Certaines activités peuvent être entreprises pendant le baccalauréat; d'autres sont souvent complétées après l'entrée sur le marché du travail. Une fois le titre d’Associé obtenu, le parcours se poursuit avec la réussite des examens avancés. La conciliation entre les exigences professionnelles, les études et la vie personnelle constitue alors une caractéristique structurante du cheminement actuariel. Cette réalité fait partie intégrante de la profession et pourra notamment être illustrée par des témoignages de conférenciers invités dans le cadre du cours.
 
 Les examens avancés de l’ICA étant relativement récents dans le paysage canadien, il demeure difficile d’en évaluer précisément le niveau de difficulté et la charge d’étude requise à partir de données historiques propres à l’ICA. Toutefois, dans leurs premières versions, ces examens ont été conçus en s’inspirant très étroitement des examens avancés de la SOA et de la CAS. Il est donc raisonnable de supposer que les exigences d’étude et le niveau de difficulté soient comparables.
 
-À titre indicatif, les candidats aux anciens examens avancés évoquaient souvent plusieurs centaines d'heures de préparation, parfois autour de 400 heures pour un examen. Cette estimation ne constitue toutefois pas une mesure officielle des nouveaux examens de l'ICA. Les [résultats publiés par l'Institut](https://www.cia-ica.ca/fr/devenir-membre/cours-et-examens/resultats-aux-examens-aica-et-fica/) indiquent un taux de réussite agrégé de 40 % à l'automne 2024, de 35 % au printemps 2025 et de 36 % à l'automne 2025; ces résultats varient selon le volet et l'examen.
+À titre indicatif, les candidats aux anciens examens avancés évoquaient souvent plusieurs centaines d'heures de préparation, parfois autour de 400 heures pour un examen. Cette estimation ne constitue toutefois pas une mesure officielle des nouveaux examens de l'ICA. Les [résultats publiés par l'Institut](https://www.cia-ica.ca/fr/devenir-membre/cours-et-examens/resultats-aux-examens-aica-et-fica/) indiquent un taux de réussite agrégé de 40 % à l'automne 2024, de 35 % au printemps 2025 et de 36 % à l'automne 2025; ces résultats varient selon le volet et l'examen. L'investissement requis est donc conséquent. Pour soutenir leurs employés, plusieurs assureurs et cabinets offrent des congés d'étude rémunérés et des mesures d'aide à la préparation des examens. Le nombre de journées accordées, les conditions applicables en cas de reprise et les augmentations salariales liées à la réussite varient toutefois d'un employeur à l'autre.
 
-L'investissement requis est donc conséquent. Pour soutenir leurs employés, plusieurs assureurs et cabinets offrent des congés d'étude rémunérés et des mesures d'aide à la préparation des examens. Le nombre de journées accordées, les conditions applicables en cas de reprise et les augmentations salariales liées à la réussite varient toutefois d'un employeur à l'autre.
+<div style="clear: both;"></div>
 
 ### Durée du parcours actuariel
 
@@ -552,11 +581,11 @@ La question de l’intégration éventuelle de la formation menant aux examens a
 
 ### Avantages
 
+{{< meme "memes/Obama.png" "https://knowyourmeme.com/photos/1510176-obama-awards-obama-a-medal" "350px" >}}
+
 Du point de vue des avantages potentiels, une telle intégration s’inscrirait dans une tendance observée dans plusieurs autres professions réglementées. En médecine, en droit, en comptabilité ou en ingénierie, la formation avancée repose largement sur des programmes universitaires structurés, combinant acquisition de connaissances théoriques, études de cas, travaux appliqués et évaluations diversifiées. Dans ces disciplines, les examens professionnels existent toujours, mais ils interviennent généralement en complément d’une formation universitaire avancée, et non comme principal vecteur de qualification.
 
 Dans cette perspective, l’intégration universitaire des examens avancés pourrait favoriser une formation plus cohérente, mieux articulée et plus progressive. Elle permettrait également de diversifier les modes d’évaluation, en réduisant la dépendance à des examens ponctuels à fort enjeu, au profit de projets, d’analyses de données, de travaux de synthèse et d’évaluations continues. Un tel modèle pourrait mieux refléter la réalité contemporaine de la pratique actuarielle, qui repose de plus en plus sur le jugement professionnel, la communication et l’analyse de situations complexes.
-
-![](images/tension.png){.float-left}
 
 Par ailleurs, une formation avancée intégrée à l’université pourrait contribuer à renforcer la reconnaissance académique de l’actuariat comme discipline à part entière, plutôt que comme simple application des mathématiques ou de la statistique. À long terme, cela pourrait favoriser le développement de programmes de cycles supérieurs plus directement ancrés en actuariat, renforcer les liens entre recherche et pratique, et accroître le prestige institutionnel de la profession.
 
@@ -566,20 +595,9 @@ Un autre avantage important d’une telle intégration réside dans la clarifica
 
 ### Défis
 
-Toutefois, cette avenue soulève également des défis importants. Dans l’état actuel des choses, une proportion significative des professeurs impliqués dans les programmes d’actuariat proviennent essentiellement des mathématiques ou des statistiques, et s’intéressent parfois davantage aux aspects formels qu’aux réalités concrètes de la pratique actuarielle. Une intégration complète de la formation avancée exigerait donc un effectif professoral plus diversifié, incluant un plus grand nombre d’actuaires expérimentés directement impliqués dans l’enseignement.
+{{< meme "memes/Failbike.jpg" "https://knowyourmeme.com/memes/baton-roue" "350px" >}}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/graduation.jpg" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
-</div>
+Toutefois, cette avenue soulève également des défis importants. Dans l’état actuel des choses, une proportion significative des professeurs impliqués dans les programmes d’actuariat proviennent essentiellement des mathématiques ou des statistiques, et s’intéressent parfois davantage aux aspects formels qu’aux réalités concrètes de la pratique actuarielle. Une intégration complète de la formation avancée exigerait donc un effectif professoral plus diversifié, incluant un plus grand nombre d’actuaires expérimentés directement impliqués dans l’enseignement.
 
 Or, contrairement à ce que l’on observe dans certains pays européens, une grande partie des actuaires les plus qualifiés en Amérique du Nord ne détiennent pas de diplômes de maîtrise ou de doctorat en actuariat. Cette réalité limite leur admissibilité aux fonctions professorales traditionnelles, qui incluent la recherche, la supervision d’étudiants aux cycles supérieurs et la production scientifique. Une transition vers un modèle universitaire plus avancé nécessiterait donc des ajustements institutionnels importants, tant du côté des universités que de la profession elle-même.
 

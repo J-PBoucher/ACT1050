@@ -29,32 +29,31 @@ date-modified: last-modified
 
 ## Rapport annuel de l'AMF
 
-Pour comprendre l'écosystème de l'assurance au Québec, nous nous appuierons principalement sur le [*Rapport annuel sur les institutions financières et les agents d'évaluation du crédit 2024*](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf) de l'Autorité des marchés financiers (AMF). Ce rapport présente un portrait détaillé des assureurs autorisés à exercer au Québec au 31 décembre 2024, notamment selon leur charte, leur statut juridique et leurs activités.
+Pour comprendre l'écosystème de l'assurance au Québec, nous nous appuierons principalement sur le [*Rapport annuel sur les institutions financières et les agents d'évaluation du crédit 2024*](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf) de l'Autorité des marchés financiers (AMF). Ce rapport présente un portrait détaillé des assureurs autorisés à exercer au Québec au 31 décembre 2024, notamment selon leur charte, leur statut juridique et leurs activités. L'AMF a depuis modifié la diffusion de ses statistiques : les données plus récentes sont accessibles en ligne, notamment sur Données Québec, et les rapports traditionnels ont été remplacés par des analyses sectorielles plus synthétiques. Le rapport 2024 demeure néanmoins un excellent document de référence pour étudier la structure de l'industrie et interpréter les tableaux et graphiques qui suivent. Pour les données plus récentes, on consultera la [page officielle des rapports et données de l'AMF](https://lautorite.qc.ca/grand-public/publications/publications-organisationnelles/rapports-annuels).
 
-L'AMF a depuis modifié la diffusion de ses statistiques : les données plus récentes sont accessibles en ligne, notamment sur Données Québec, et les rapports traditionnels ont été remplacés par des analyses sectorielles plus synthétiques. Le rapport 2024 demeure néanmoins un excellent document de référence pour étudier la structure de l'industrie et interpréter les tableaux et graphiques qui suivent. Pour les données plus récentes, on consultera la [page officielle des rapports et données de l'AMF](https://lautorite.qc.ca/grand-public/publications/publications-organisationnelles/rapports-annuels).
 
-::: {.callout-important icon=false}
-## Autorité des marchés financiers (AMF)
+::: {.encadre}
 
-L’[Autorité des marchés financiers (AMF)](https://lautorite.qc.ca/grand-public) est l’organisme public chargé de l’encadrement et de la surveillance du secteur financier au Québec.  
+:::: {.association}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/AMFlogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
+<div class="association-logo">
+<img src="images/AMFlogo.png" alt="IABA">
 </div>
 
-Elle exerce ses fonctions notamment dans les domaines des valeurs mobilières, des institutions de dépôt, des instruments dérivés, de la distribution de produits et services financiers, ainsi que de l’assurance.  
+### Autorité des marchés financiers (AMF) {-}
 
-Dans le secteur de l'assurance, l'AMF joue un rôle central puisqu'elle autorise les assureurs à exercer leurs activités au Québec et veille au respect des exigences légales applicables. Elle assure notamment la surveillance prudentielle des assureurs de compétence québécoise ainsi que l'encadrement des pratiques commerciales sur le territoire québécois. Les assureurs de compétence fédérale sont pour leur part soumis à la surveillance prudentielle du Bureau du surintendant des institutions financières (BSIF). Ces autorités exercent donc des responsabilités complémentaires. [↗](https://lautorite.qc.ca/professionnels/assureurs/droit-dexercice/autorisation-exercer-assureur-quebec "AMF : Autorisation d'exercer l'activité d'assureur"){.source-link} [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres/societes-dassurance-multirisque "BSIF : Assurance multirisque et partage des compétences"){.source-link}
+::: {.association-info}
+Organisme public
 :::
+
+L'AMF exerce ses fonctions notamment dans les domaines des valeurs mobilières, des institutions de dépôt, des instruments dérivés, de la distribution de produits et services financiers, ainsi que de l’assurance. Dans le secteur de l'assurance, l'AMF joue un rôle central puisqu'elle autorise les assureurs à exercer leurs activités au Québec et veille au respect des exigences légales applicables. Elle assure notamment la surveillance prudentielle des assureurs de compétence québécoise ainsi que l'encadrement des pratiques commerciales sur le territoire québécois. Les assureurs de compétence fédérale sont pour leur part soumis à la surveillance prudentielle du Bureau du surintendant des institutions financières (BSIF). Ces autorités exercent donc des responsabilités complémentaires. [↗](https://lautorite.qc.ca/professionnels/assureurs/droit-dexercice/autorisation-exercer-assureur-quebec "AMF : Autorisation d'exercer l'activité d'assureur"){.source-link} [↗](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres/societes-dassurance-multirisque "BSIF : Assurance multirisque et partage des compétences"){.source-link}
+
+::::
+
+:::
+
+
+### Table des matières
 
 La table des matières du [rapport annuel de l'AMF](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf) au 31 décembre 2024 montre que l’AMF s’intéresse à plusieurs secteurs du système financier québécois. On y retrouve notamment le secteur bancaire (*le secteur des institutions de dépôt*). Dans le cadre de ce cours, nous nous concentrerons toutefois sur le secteur de l’assurance. On constate rapidement que ce secteur est structuré autour de deux grandes catégories distinctes :
 
@@ -70,7 +69,7 @@ De façon intéressante, cette distinction correspond à la division historique 
 
 Le premier tableau du rapport annuel lié au secteur de l’assurance est le Tableau 19, reproduit ci-dessous. On y observe qu’en assurance de personnes, on dénombre 73 assureurs autorisés à offrir des produits d’assurance au Québec, soit 70 assureurs spécialisés en assurance de personnes auxquels s’ajoutent 3 assureurs exerçant à la fois en assurance de personnes et en assurance de dommages.  De façon analogue, le nombre d’assureurs autorisés dans le secteur de l’assurance de dommages s’élève à 155, soit 152 assureurs de dommages auxquels s’ajoutent les mêmes 3 assureurs exerçant dans les deux secteurs.
 
-Il faut distinguer ces nombres d'autorisations des effectifs utilisés dans les statistiques détaillées du rapport. Trois assureurs autorisés en assurance de personnes remplissent le formulaire de divulgation des assureurs de dommages : les analyses sectorielles portent donc sur **70 assureurs de personnes** et **158 assureurs de dommages**. Les populations statistiques ne coïncident pas exactement avec les catégories d'autorisation du tableau 19. [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link}
+Il faut distinguer ces nombres d'autorisations des effectifs utilisés dans les statistiques détaillées du rapport. Trois assureurs autorisés en assurance de personnes remplissent le formulaire de divulgation des assureurs de dommages : les analyses sectorielles portent donc sur 70 assureurs de personnes et 158 assureurs de dommages. Les populations statistiques ne coïncident pas exactement avec les catégories d'autorisation du tableau 19. [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link}
 
 
 ![](images/AMF_Tableau19.png){width=80% fig-align="center"}
@@ -129,128 +128,126 @@ On distingue quatre origines de charte parmi les assureurs autorisés à exercer
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:230px;
 ">
-<img src="images/Lloydslogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
+<img src="images/Lloydslogo.png" style="width:100%; height:auto;">
 </div>
 
-Lloyd’s of London occupe une place particulière dans l’histoire et le fonctionnement de l’assurance en raison de sa structure institutionnelle unique.  Contrairement à un assureur traditionnel, Lloyd’s n’est pas une compagnie d’assurance, mais un marché spécialisé d’assurance et de réassurance. [↗](https://www.lloyds.com/about-lloyds/our-market/lloyds-market "Lloyd’s : Fonctionnement du marché"){.source-link} À ce titre, il est pertinent de lui consacrer une attention spécifique dans ces notes de cours.
+Lloyd’s of London occupe une place particulière dans l’histoire et le fonctionnement de l’assurance en raison de sa structure institutionnelle unique. Contrairement à un assureur traditionnel, Lloyd’s n’est pas une compagnie d’assurance, mais un marché spécialisé d’assurance et de réassurance. [↗](https://www.lloyds.com/about-lloyds/our-market/lloyds-market "Lloyd’s : Fonctionnement du marché"){.source-link} À ce titre, il est pertinent de lui consacrer une attention spécifique dans ces notes de cours.
 
 #### **Origines historiques** {-}
 
 Les origines de Lloyd's remontent à la fin du XVIIe siècle, dans le monde du commerce maritime londonien. Ce contexte explique son développement initial autour de l'assurance des navires et des cargaisons. Au cours des XVIIIe et XIXe siècles, avec l’expansion du commerce international et de l’Empire britannique, les activités de Lloyd’s s’élargissent au-delà de l’assurance maritime. En 1871, le Parlement britannique adopte le *Lloyd’s Act*, qui confère à Lloyd’s un statut juridique officiel et permet une organisation plus structurée du marché. [↗](https://www.lloyds.com/about-lloyds/history/sweeping-change-new-standards "Lloyd’s : Loi de 1871 et évolution historique"){.source-link}
 
+<div style="clear: both;"></div>
+
 #### **Une structure institutionnelle singulière** {-}
 
 Lloyd's of London fonctionne comme un marché dans lequel plusieurs acteurs interagissent :
 
-- des syndicats, qui regroupent des capitaux et souscrivent les risques ;
-- des courtiers, qui présentent les risques au marché au nom des assurés ;
-- des coverholders, qui peuvent souscrire des risques au nom des syndicats dans certaines juridictions ;
-- des membres, historiquement appelés « Names », qui fournissent le capital nécessaire à la prise de risques.
+::: {.encadre2}
 
-Le risque est présenté au marché, généralement par un courtier, et peut être souscrit par un seul syndicat ou réparti entre plusieurs syndicats, chacun participant alors à une fraction déterminée de l'engagement et de la prime. [↗](https://www.lloyds.com/about-lloyds/our-market/lloyds-market "Lloyd’s : Fonctionnement du marché"){.source-link} La souscription partagée est fréquente pour les risques complexes, comme un satellite, un parc éolien en mer ou un événement international, sans être obligatoire.
+| Acteurs | Rôle au sein du marché |
+|:---|:---|
+| **Syndicats** (*Syndicates*) | Regroupent des capitaux et souscrivent les risques. |
+| **Courtiers** (*Brokers*) | Présentent les risques au marché au nom des assurés. |
+| **Coverholders** | Peuvent souscrire des risques au nom des syndicats dans certaines juridictions. |
+| **Membres** (*Members*) | Fournissent le capital nécessaire à la prise de risques. Historiquement, les membres individuels étaient appelés les *Names*. |
 
-Les membres qui fournissent le capital assument les engagements correspondant à leur participation au syndicat, séparément et non solidairement avec les autres membres. [↗](https://www.lloyds.com/market-resources/member-services/about/what-is-a-member "Lloyd’s : Membres et responsabilité distincte"){.source-link} Le marché permet ainsi de mobiliser des capacités spécialisées pour des risques parfois difficiles à couvrir auprès d'un assureur traditionnel. Le marché a longtemps été financé par des investisseurs individuels, les *Names*, avant que les réformes amorcées dans les années 1990 favorisent une participation accrue de capitaux corporatifs. Cette transition est présentée plus loin dans une anecdote historique.
+:::
 
-Quelques anecdotes à propos de Lloyd's méritent d'être racontées.
+Le risque est présenté au marché, généralement par un courtier, et peut être souscrit par un seul syndicat ou réparti entre plusieurs syndicats, chacun participant alors à une fraction déterminée de l'engagement et de la prime. [↗](https://www.lloyds.com/about-lloyds/our-market/lloyds-market "Lloyd’s : Fonctionnement du marché"){.source-link} La souscription partagée est fréquente pour les risques complexes, comme un satellite, un parc éolien en mer ou un événement international, sans être obligatoire. Les membres qui fournissent le capital assument les engagements correspondant à leur participation au syndicat, séparément et non solidairement avec les autres membres. [↗](https://www.lloyds.com/market-resources/member-services/about/what-is-a-member "Lloyd’s : Membres et responsabilité distincte"){.source-link} Le marché permet ainsi de mobiliser des capacités spécialisées pour des risques parfois difficiles à couvrir auprès d'un assureur traditionnel. Le marché a longtemps été financé par des investisseurs individuels, les *Names*, avant que les réformes amorcées dans les années 1990 favorisent une participation accrue de capitaux corporatifs. Cette transition est présentée plus loin dans une anecdote historique.
 
-#### Café {-}
+#### **Quatre histoires qui ont marqué Lloyd’s** {-}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/CoffeeLloyds.png" style="width:90%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
-</div>
+L’histoire de Lloyd’s est jalonnée d’événements qui permettent de mieux comprendre son fonctionnement, sa réputation internationale et les particularités de son modèle institutionnel. Les quatre anecdotes suivantes illustrent différentes facettes de cette histoire.
 
 
-À l’origine, Lloyd’s n’était ni une compagnie d’assurance ni même une institution formelle, mais le coffee house d’Edward Lloyd, ouvert vers 1688 à Londres. Ce café était fréquenté par des armateurs, capitaines de navires, marchands et investisseurs qui cherchaient à échanger de l’information sur les voyages maritimes, les cargaisons et les risques en mer. 
+:::: {.chronique-historique}
 
-Progressivement, certains clients ont commencé à inscrire leur nom sous des descriptions de risques maritimes, indiquant la part de risque qu’ils acceptaient de couvrir — d’où le terme *underwriter*. Ce lieu informel est ainsi devenu le noyau d’un marché d’assurance fondé sur la réputation personnelle, la confiance et l’information partagée, bien avant l’existence d’assureurs structurés au sens moderne. [↗](https://www.lloyds.com/about-lloyds/history/coffee-and-commerce "Lloyd’s : Origine du café d’Edward Lloyd"){.source-link}
+::: {.chronique-date}
+Vers 1688 — Les origines
+:::
 
-<div style="clear: both;"></div>
+::: {.chronique-titre}
+Du café au marché de l’assurance
+:::
 
-
-#### Protection atypique   {-}
-
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/BettyGrable.png" style="width:56%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
+<div class="chronique-image">
+<img src="images/CoffeeLloyds.png" alt="Le café d’Edward Lloyd">
 </div>
 
-Au fil des siècles, Lloyd’s est devenu célèbre pour avoir assuré des risques jugés trop atypiques ou trop spécifiques pour les assureurs traditionnels. Parmi les exemples souvent cités figurent la voix de chanteurs, les mains de pianistes ou encore les jambes de danseuses. L’un des cas les plus connus est celui de l’actrice américaine Betty Grable, grande vedette hollywoodienne des années 1940, dont les jambes — élément central de son image publique et de sa carrière dans les comédies musicales — auraient été assurées auprès de Lloyd’s. [↗](https://www.ebsco.com/research-starters/history/betty-grable "EBSCO : Betty Grable et assurance de ses jambes"){.source-link}
+À l’origine, Lloyd’s n’était ni une compagnie d’assurance ni même une institution formelle, mais le *coffee house* d’Edward Lloyd, ouvert vers 1688 à Londres. Ce café était fréquenté par des armateurs, capitaines de navires, marchands et investisseurs qui cherchaient à échanger de l’information sur les voyages maritimes, les cargaisons et les risques en mer. Progressivement, certains clients ont commencé à inscrire leur nom sous des descriptions de risques maritimes, indiquant la part de risque qu’ils acceptaient de couvrir — d’où le terme *underwriter*. Ce lieu informel est ainsi devenu le noyau d’un marché d’assurance fondé sur la réputation personnelle, la confiance et l’information partagée, bien avant l’existence d’assureurs structurés au sens moderne. [↗](https://www.lloyds.com/about-lloyds/history/coffee-and-commerce "Lloyd’s : Origine du café d’Edward Lloyd"){.source-link}
 
-Plus sérieusement, Lloyd’s a aussi assuré des risques extrêmes liés à l’exploration, à l’aviation expérimentale ou à des événements uniques. Ces contrats illustrent une caractéristique fondamentale de Lloyd’s : il ne s’agit pas d’un assureur unique, mais d’un marché dans lequel des syndicats spécialisés peuvent accepter des risques très ciblés, pourvu qu’ils puissent être décrits, évalués et mutualisés.
-
-<div style="clear: both;"></div>
+::::
 
 
-#### Les Names  {-}
+:::: {.chronique-historique}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Asbestos.jpg" style="width:56%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
-</div>
+::: {.chronique-date}
+1906 — La réputation
+:::
 
+::: {.chronique-titre}
+Une réputation forgée dans les flammes
+:::
 
-Pendant plus de deux siècles, une grande partie du capital de Lloyd’s provenait des Names, des individus fortunés qui engageaient leur patrimoine personnel pour garantir les risques souscrits par les syndicats auxquels ils participaient. Contrairement aux actionnaires d’une compagnie moderne, les Names n’avaient aucune responsabilité limitée : en cas de sinistres majeurs, ils étaient légalement tenus de payer, même si cela signifiait vendre leur maison ou liquider leurs actifs.
-
-Cette structure a fonctionné tant que les pertes restaient relativement prévisibles. Mais dans les années 1980 et au début des années 1990, une combinaison de sinistres catastrophiques, de réclamations liées à l’amiante et de polices à développement long a entraîné des appels de fonds massifs. De nombreux Names ont subi de lourdes pertes personnelles, et certains ont fait faillite, ce qui a provoqué une crise existentielle pour Lloyd’s et mené à une profonde réforme : introduction de membres corporatifs, création de véhicules à responsabilité limitée et refonte de la gouvernance. [↗](https://www.lloyds.com/about-lloyds/history/important-people-from-our-past/sir-david-rowland "Lloyd’s : Crise des Names et réformes"){.source-link}
-
-<div style="clear: both;"></div>
-
-
-#### San Francisco   {-}
-
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/SanFrancisco.png" style="width:56%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
+<div class="chronique-image">
+<img src="images/SanFrancisco.png" alt="Le séisme de San Francisco de 1906">
 </div>
 
 Après le séisme et l’incendie de San Francisco en 1906, de nombreux assureurs américains ont tenté de limiter leurs paiements en invoquant des clauses ambiguës distinguant les dommages causés par le tremblement de terre de ceux causés par l’incendie. Lloyd’s, au contraire, a choisi une approche radicalement différente. Sous l’impulsion de Cuthbert Heath, figure majeure de Lloyd’s à l’époque, les agents ont reçu l’instruction célèbre :
 
 > “Pay all of our policyholders in full, irrespective of the terms of their policies.”
 
-Cette décision a coûté extrêmement cher à court terme, mais elle a établi durablement la réputation internationale de Lloyd’s comme marché fiable, capable d’honorer ses engagements même dans des circonstances exceptionnelles. Cet épisode est souvent cité comme un moment fondateur de la crédibilité moderne de Lloyd’s et de son rôle dans l’assurance des risques catastrophiques. [Source : Lloyd's, séisme de San Francisco de 1906](https://www.lloyds.com/about-lloyds/history/catastrophes-and-claims/san-francisco-earthquake)
+Cette décision a coûté extrêmement cher à court terme, mais elle a établi durablement la réputation internationale de Lloyd’s comme marché fiable, capable d’honorer ses engagements même dans des circonstances exceptionnelles. Cet épisode est souvent cité comme un moment fondateur de la crédibilité moderne de Lloyd’s et de son rôle dans l’assurance des risques catastrophiques. [↗](https://www.lloyds.com/about-lloyds/history/catastrophes-and-claims/san-francisco-earthquake "Lloyd’s : Séisme de San Francisco de 1906"){.source-link}
 
-<div style="clear: both;"></div>
+::::
+
+
+:::: {.chronique-historique}
+
+::: {.chronique-date}
+Années 1940 — Les risques atypiques
+:::
+
+::: {.chronique-titre}
+Les jambes de Betty Grable
+:::
+
+<div class="chronique-image">
+<img src="images/BettyGrable.png" alt="Betty Grable">
+</div>
+
+Au fil des siècles, Lloyd’s est devenu célèbre pour avoir assuré des risques jugés trop atypiques ou trop spécifiques pour les assureurs traditionnels. Parmi les exemples souvent cités figurent la voix de chanteurs, les mains de pianistes ou encore les jambes de danseuses. L’un des cas les plus connus est celui de l’actrice américaine Betty Grable, grande vedette hollywoodienne des années 1940, dont les jambes — élément central de son image publique et de sa carrière dans les comédies musicales — auraient été assurées auprès de Lloyd’s. [↗](https://www.ebsco.com/research-starters/history/betty-grable "EBSCO : Betty Grable et assurance de ses jambes"){.source-link} Plus sérieusement, Lloyd’s a aussi assuré des risques extrêmes liés à l’exploration, à l’aviation expérimentale ou à des événements uniques. Ces contrats illustrent une caractéristique fondamentale de Lloyd’s : il ne s’agit pas d’un assureur unique, mais d’un marché dans lequel des syndicats spécialisés peuvent accepter des risques très ciblés, pourvu qu’ils puissent être décrits, évalués et mutualisés.
+
+::::
+
+
+:::: {.chronique-historique}
+
+::: {.chronique-date}
+Années 1980 et 1990 — La crise
+:::
+
+::: {.chronique-titre}
+Quand les assureurs perdent leur fortune
+:::
+
+<div class="chronique-image">
+<img src="images/Asbestos.jpg" alt="Risques liés à l’amiante">
+</div>
+
+Pendant plus de deux siècles, une grande partie du capital de Lloyd’s provenait des *Names*, des individus fortunés qui engageaient leur patrimoine personnel pour garantir les risques souscrits par les syndicats auxquels ils participaient. Contrairement aux actionnaires d’une compagnie moderne, les *Names* n’avaient aucune responsabilité limitée : en cas de sinistres majeurs, ils étaient légalement tenus de payer, même si cela signifiait vendre leur maison ou liquider leurs actifs. Cette structure a fonctionné tant que les pertes restaient relativement prévisibles. Mais dans les années 1980 et au début des années 1990, une combinaison de sinistres catastrophiques, de réclamations liées à l’amiante et de polices à développement long a entraîné des appels de fonds massifs. De nombreux *Names* ont subi de lourdes pertes personnelles, et certains ont fait faillite, ce qui a provoqué une crise existentielle pour Lloyd’s et mené à une profonde réforme : introduction de membres corporatifs, création de véhicules à responsabilité limitée et refonte de la gouvernance. [↗](https://www.lloyds.com/about-lloyds/history/important-people-from-our-past/sir-david-rowland "Lloyd’s : Crise des Names et réformes"){.source-link}
+
+::::
 
 
 #### **Lloyd’s of London aujourd’hui** {-}
@@ -264,15 +261,11 @@ Les réformes entreprises à la suite de la crise des années 1980-1990 ont renf
 
 Lloyd’s continue également d’innover sur le plan de l’analyse des risques, de la gestion du capital et des pratiques de souscription, tout en maintenant un cadre réglementaire et prudentiel rigoureux. Sa capacité à rassembler des capitaux internationaux et à mutualiser des risques complexes explique sa pertinence continue dans le système assurantiel mondial. Pour les étudiants en assurance, Lloyd’s of London constitue ainsi un exemple emblématique d’une organisation assurantielle atypique, dont l’histoire, le fonctionnement et l’évolution illustrent à la fois la diversité des formes institutionnelles en assurance et l’adaptation du secteur à des risques en constante évolution.
 
-Sources :  
-
-  - [Revue Assurances et gestion des risques](https://www.revueassurances.ca/wp-content/uploads/2016/03/2013_81_no1_2_london.pdf)  
-  - [Lloyd’s — fonctionnement du marché](https://www.lloyds.com/about-lloyds/our-market/lloyds-market)
-
+---
 
 ## Statut juridique des assureurs
 
-En plus de leur charte de constitution, les assureurs autorisés au Québec sont classés par l'AMF selon leur **statut juridique ou institutionnel**. Cette classification regroupe des formes d'organisation et certains régimes particuliers. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/a-32.1 "Légis Québec : Loi sur les assureurs"){.source-link} Selon la catégorie, elle renseigne notamment sur la propriété, la gouvernance, la capitalisation et les obligations applicables. Dans la [liste des assureurs autorisés au Québec](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF), la première colonne présente cette classification. Il faut toutefois éviter de considérer chacune de ces catégories comme une forme juridique parfaitement comparable aux autres.
+En plus de leur charte de constitution, les assureurs autorisés au Québec sont classés par l'AMF selon leur statut juridique ou institutionnel. Cette classification regroupe des formes d'organisation et certains régimes particuliers. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/a-32.1 "Légis Québec : Loi sur les assureurs"){.source-link} Selon la catégorie, elle renseigne notamment sur la propriété, la gouvernance, la capitalisation et les obligations applicables. Dans la [liste des assureurs autorisés au Québec](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF), la première colonne présente cette classification. Il faut toutefois éviter de considérer chacune de ces catégories comme une forme juridique parfaitement comparable aux autres.
 
 - **Compagnie d’assurance funéraire**
 
@@ -302,8 +295,9 @@ En plus de leur charte de constitution, les assureurs autorisés au Québec sont
 
   Une union réciproque est une forme particulière d’organisation assurantielle dans laquelle les membres s’assurent mutuellement les uns les autres, sans qu’il existe une compagnie d’assurance traditionnelle dotée d’un capital-actions. Chaque membre participe collectivement à l’absorption des risques assumés par le groupe.   La gestion des activités d’assurance est généralement confiée à un gestionnaire mandaté, qui administre les contrats, les sinistres et les opérations courantes au nom des membres. Les risques demeurent toutefois portés collectivement par l’ensemble des participants. [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/a-32.1 "Légis Québec : Loi sur les assureurs"){.source-link} Ce statut est relativement rare et est principalement utilisé pour des groupes fermés ou des risques spécialisés, en raison de sa complexité juridique et de sa moindre compatibilité avec les cadres prudentiels modernes. Le registre de l’AMF recense trois unions réciproques autorisées au Québec (consultation d’octobre 2026). [↗](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF "AMF : Liste actualisée des institutions autorisées"){.source-link}
 
-::: {.callout-important icon=false}
-## Absence du statut de coopérative
+::: {style="background: #FAF0EF; border-left: 3px solid #B76E65; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+<strong> Absence du statut de coopérative </strong>
 
 La classification utilisée par l'AMF ne comprend pas de catégorie générale intitulée « coopérative d'assurance ». [↗](https://registres-public.lautorite.qc.ca/1A/Regs.RegistreWeb.Web/fr/InstitutionsFinancieres/Home/ListeCompletePDF "AMF : Liste actualisée des institutions autorisées"){.source-link} Les structures mutualistes y sont principalement représentées par les sociétés mutuelles et les sociétés mutuelles membres d'une fédération. Cela ne signifie toutefois pas que toute organisation exerçant des activités d'assurance et présentant un caractère coopératif relève nécessairement de ces catégories. Il faut distinguer le mode de fonctionnement coopératif ou mutualiste, la forme juridique de l'organisation et le statut sous lequel elle est reconnue par l'AMF.
 :::
@@ -311,9 +305,7 @@ La classification utilisée par l'AMF ne comprend pas de catégorie générale i
 
 ### Assurance responsabilité professionnelle
 
-La catégorie des organismes d'autoréglementation permet d'introduire une autre dimension de l'écosystème de l'assurance : les mécanismes de protection liés à la responsabilité professionnelle. L’assurance responsabilité professionnelle (souvent appelée assurance erreurs et omissions, ou E&O) vise à couvrir les conséquences financières d’une faute, erreur, omission, négligence ou manquement commis dans l’exercice d’activités professionnelles, lorsqu’un client (ou un tiers) subit un préjudice et réclame une indemnisation.
-
-En pratique, cette protection couvre typiquement (selon le contrat ou le régime) :
+La catégorie des organismes d'autoréglementation permet d'introduire une autre dimension de l'écosystème de l'assurance : les mécanismes de protection liés à la responsabilité professionnelle. L’assurance responsabilité professionnelle (souvent appelée assurance erreurs et omissions, ou E&O) vise à couvrir les conséquences financières d’une faute, erreur, omission, négligence ou manquement commis dans l’exercice d’activités professionnelles, lorsqu’un client (ou un tiers) subit un préjudice et réclame une indemnisation. En pratique, cette protection couvre typiquement (selon le contrat ou le régime) :
 
   - les dommages que le professionnel pourrait devoir payer (indemnités, règlements) ;
   - les frais de défense (honoraires d’avocats, expertise, etc.), souvent déterminants en responsabilité professionnelle.
@@ -338,77 +330,104 @@ Cette assurance est généralement considérée comme complexe par rapport à pl
 
 Typiquement, les professionnels doivent assumer un coût annuel afin de bénéficier d’une protection contre les risques liés à l’exercice de leur profession. Toutefois, les protections de type E&O peuvent prendre plusieurs formes institutionnelles et contractuelles. Chacune de ces formes repose sur des mécanismes distincts de mutualisation, de tarification, de provisionnement et de suffisance des ressources, qui relèvent directement des notions de gestion du risque abordées en actuariat.
 
-- **Protection offerte directement par des compagnies d’assurance**
+::: {style="margin-left: 1.5em;"}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Urbanistes.png" style="width:70%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
+::::: {.forme-protection}
+
+<div class="protection-entete">
+<div class="protection-numero">01</div>
+<div class="protection-titre">Protection offerte directement par des compagnies d’assurance</div>
 </div>
 
-  Cette forme repose sur des contrats individuels ou sur des programmes affinitaires, comme on en retrouve dans plusieurs marchés de responsabilité professionnelle. La relation est strictement contractuelle : l’assureur s’engage, moyennant une prime, à couvrir certains sinistres définis dans la police, jusqu’à des limites prédéterminées.  
+Cette forme repose sur des contrats individuels ou sur des programmes affinitaires, comme on en retrouve dans plusieurs marchés de responsabilité professionnelle. La relation est strictement contractuelle : l’assureur s’engage, moyennant une prime, à couvrir certains sinistres définis dans la police, jusqu’à des limites prédéterminées.
 
-  Une profession pertinente à considérer dans ce contexte est celle des urbanistes. Un avis professionnel ou une recommandation d’aménagement peut contribuer à une décision ayant des conséquences financières importantes, par exemple une décision de zonage, une interprétation d’un règlement, une analyse de conformité ou une recommandation ayant un impact sur la valeur d’un terrain ou sur la possibilité de construire. Le dommage allégué peut n’apparaître que plusieurs années plus tard, lorsqu’un projet échoue, qu’un permis est refusé, qu’un voisin conteste ou qu’un promoteur réclame des pertes. La difficulté d’assurance est alors souvent liée à la causalité — soit la distinction entre ce qui relève réellement de l’avis de l’urbaniste et ce qui découle de décisions politiques, de contraintes techniques ou de choix effectués par le promoteur — ainsi qu’à l’évaluation du préjudice, notamment en matière de occasions d’affaires perdues, de retards ou de frais juridiques.
+:::: {.illustration-professionnelle}
 
-  Les urbanistes sont soumis à une [obligation de protection en responsabilité professionnelle](https://www.legisquebec.gouv.qc.ca/fr/document/rc/c-26,%20r.%20299), sous réserve des exemptions prévues. Lorsqu'un régime collectif conforme aux exigences réglementaires a été conclu par l'Ordre pour les membres concernés, ceux-ci doivent y adhérer.
-
-<div style="clear: both;"></div>
-
-
-- **Protection par un fonds d’assurance rattaché à un ordre professionnel**
-
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Notaires.png" style="width:70%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-</div>
+<div class="illustration-logo">
+<img src="images/Urbanistes.png" alt="Les urbanistes">
 </div>
 
-  Lorsque l’organisation et le volume de risques le justifient, la responsabilité professionnelle peut être couverte par un régime collectif administré par un fonds distinct de l’ordre professionnel lui-même, en cohérence avec la mission de protection du public. Ce type de structure fonctionne selon une logique assurantielle classique — perception de cotisations, constitution de provisions et paiement des sinistres — mais adaptée à un groupe professionnel homogène.  
+::: {.illustration-etiquette}
+Illustration professionnelle
+:::
 
-  La profession de **notaire** constitue un exemple représentatif de ce modèle. Une erreur dans un acte notarié, telle qu’une description imprécise d’un immeuble, un problème de servitude, une hypothèque mal radiée ou une formalité manquante, peut n’être découverte que plusieurs années plus tard, souvent lors d’une revente, d’un refinancement ou d’un conflit familial lié à une succession.
+::: {.illustration-titre}
+Les urbanistes
+:::
 
-  Les notaires sont couverts par le [Fonds d’assurance-responsabilité professionnelle](https://www.farpcnq.qc.ca) lié à la Chambre des notaires du Québec, dont la mission explicite est d’assurer la responsabilité professionnelle des membres et ex-membres. Les opérations de ce fonds sont distinctes de celles de la Chambre, et la souscription au régime est obligatoire.
+Un avis professionnel ou une recommandation d’aménagement peut contribuer à une décision ayant des conséquences financières importantes, par exemple une décision de zonage, une interprétation d’un règlement, une analyse de conformité ou une recommandation ayant un impact sur la valeur d’un terrain ou sur la possibilité de construire. Le dommage allégué peut n’apparaître que plusieurs années plus tard, lorsqu’un projet échoue, qu’un permis est refusé, qu’un voisin conteste ou qu’un promoteur réclame des pertes. La difficulté d’assurance est alors souvent liée à la causalité — soit la distinction entre ce qui relève réellement de l’avis de l’urbaniste et ce qui découle de décisions politiques, de contraintes techniques ou de choix effectués par le promoteur — ainsi qu’à l’évaluation du préjudice, notamment en matière d’occasions d’affaires perdues, de retards ou de frais juridiques.
 
-<div style="clear: both;"></div>
+Les urbanistes sont soumis à une [obligation de protection en responsabilité professionnelle](https://www.legisquebec.gouv.qc.ca/fr/document/rc/c-26,%20r.%20299), sous réserve des exemptions prévues. Lorsqu'un régime collectif conforme aux exigences réglementaires a été conclu par l'Ordre pour les membres concernés, ceux-ci doivent y adhérer.
+
+::::
+
+:::::
 
 
-- **Protection par un régime de protection mutuelle ou de défense professionnelle**
+::::: {.forme-protection}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Médecins.png" style="width:70%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+<div class="protection-entete">
+<div class="protection-numero">02</div>
+<div class="protection-titre">Protection par un fonds d’assurance rattaché à un ordre professionnel</div>
 </div>
+
+Lorsque l’organisation et le volume de risques le justifient, la responsabilité professionnelle peut être couverte par un régime collectif administré par un fonds distinct de l’ordre professionnel lui-même, en cohérence avec la mission de protection du public. Ce type de structure fonctionne selon une logique assurantielle classique — perception de cotisations, constitution de provisions et paiement des sinistres — mais adaptée à un groupe professionnel homogène.
+
+:::: {.illustration-professionnelle}
+
+<div class="illustration-logo">
+<img src="images/Notaires.png" alt="Les notaires">
 </div>
 
-  Dans ce cas, la protection ne constitue pas juridiquement un contrat d’assurance. Les professionnels versent des cotisations à une organisation collective dont la mission est de défendre les membres et, le cas échéant, d’indemniser les victimes. Les décisions relatives à la défense et aux règlements sont prises au cas par cas, et les coûts sont mutualisés entre les membres. Ce modèle est principalement utilisé lorsque les sinistres sont rares, potentiellement très coûteux et difficiles à encadrer contractuellement, ce qui rend l’assurance traditionnelle plus délicate à mettre en place.
+::: {.illustration-etiquette}
+Illustration professionnelle
+:::
 
-  La profession **médicale** illustre bien cette situation. Un diagnostic posé trop tard, un résultat critique non suivi ou une complication postopératoire peuvent donner lieu à des réclamations complexes, où l’explication et la documentation deviennent centrales. Dans ces dossiers, l’enjeu ne se limite pas à l’indemnité éventuelle : les coûts de défense — honoraires d’experts, analyses spécialisées et frais juridiques — peuvent être très élevés.
+::: {.illustration-titre}
+Les notaires
+:::
 
-  De plus, les réclamations peuvent survenir longtemps après l'acte médical, par exemple lorsque l'état du patient se détériore ou lorsqu'un lien causal est allégué a posteriori. L'[Association canadienne de protection médicale (CMPA/ACPM)](https://www.cmpa-acpm.ca/fr/home) illustre un modèle de défense médicale mutuelle qui n'est pas une police d'assurance traditionnelle. Les médecins membres partagent les coûts de cette protection, mais l'assistance de l'ACPM est accordée selon ses règles et conserve un caractère discrétionnaire : elle ne représente pas un droit contractuel identique aux garanties prévues par une police d'assurance. [↗](https://www.cmpa-acpm.ca/fr/membership/protection-for-members/principles-of-assistance/medico-legal-issues-to-consider-with-individual-contracts "ACPM : Protection mutuelle non assimilable à une assurance"){.source-link}
+Une erreur dans un acte notarié, telle qu’une description imprécise d’un immeuble, un problème de servitude, une hypothèque mal radiée ou une formalité manquante, peut n’être découverte que plusieurs années plus tard, souvent lors d’une revente, d’un refinancement ou d’un conflit familial lié à une succession.
 
-<div style="clear: both;"></div>
+Les notaires sont couverts par le [Fonds d’assurance-responsabilité professionnelle](https://www.farpcnq.qc.ca) lié à la Chambre des notaires du Québec, dont la mission explicite est d’assurer la responsabilité professionnelle des membres et ex-membres. Les opérations de ce fonds sont distinctes de celles de la Chambre, et la souscription au régime est obligatoire.
 
+::::
+
+:::::
+
+
+::::: {.forme-protection}
+
+<div class="protection-entete">
+<div class="protection-numero">03</div>
+<div class="protection-titre">Protection par un régime de protection mutuelle ou de défense professionnelle</div>
+</div>
+
+Dans ce cas, la protection ne constitue pas juridiquement un contrat d’assurance. Les professionnels versent des cotisations à une organisation collective dont la mission est de défendre les membres et, le cas échéant, d’indemniser les victimes. Les décisions relatives à la défense et aux règlements sont prises au cas par cas, et les coûts sont mutualisés entre les membres. Ce modèle est principalement utilisé lorsque les sinistres sont rares, potentiellement très coûteux et difficiles à encadrer contractuellement, ce qui rend l’assurance traditionnelle plus délicate à mettre en place.
+
+:::: {.illustration-professionnelle}
+
+<div class="illustration-logo">
+<img src="images/Médecins.png" alt="Les médecins">
+</div>
+
+::: {.illustration-etiquette}
+Illustration professionnelle
+:::
+
+::: {.illustration-titre}
+Les médecins
+:::
+
+Un diagnostic posé trop tard, un résultat critique non suivi ou une complication postopératoire peuvent donner lieu à des réclamations complexes, où l’explication et la documentation deviennent centrales. Dans ces dossiers, l’enjeu ne se limite pas à l’indemnité éventuelle : les coûts de défense — honoraires d’experts, analyses spécialisées et frais juridiques — peuvent être très élevés.
+
+De plus, les réclamations peuvent survenir longtemps après l'acte médical, par exemple lorsque l'état du patient se détériore ou lorsqu'un lien causal est allégué a posteriori. L'[Association canadienne de protection médicale (CMPA/ACPM)](https://www.cmpa-acpm.ca/fr/home) illustre un modèle de défense médicale mutuelle qui n'est pas une police d'assurance traditionnelle. Les médecins membres partagent les coûts de cette protection, mais l'assistance de l'ACPM est accordée selon ses règles et conserve un caractère discrétionnaire : elle ne représente pas un droit contractuel identique aux garanties prévues par une police d'assurance. [↗](https://www.cmpa-acpm.ca/fr/membership/protection-for-members/principles-of-assistance/medico-legal-issues-to-consider-with-individual-contracts "ACPM : Protection mutuelle non assimilable à une assurance"){.source-link}
+
+::::
+
+:::::
+
+:::
 
 
 ## L’encadrement de l’assurance
@@ -417,143 +436,332 @@ La réglementation de l'assurance au Canada repose sur un partage des compétenc
 
 ## Portrait de l’assurance au Québec
 
-En ayant maintenant une meilleure compréhension des différents types d’assureurs et de leur encadrement institutionnel, il devient pertinent d’examiner le portrait détaillé du secteur de l’assurance au Québec à partir de données de marché. Cette section vise à décrire la structure du marché, son évolution récente et la répartition des activités selon les principaux segments. L’analyse est présentée en deux parties distinctes : l’assurance de personnes et l’assurance de dommages. Cette distinction reflète à la fois des différences importantes dans la nature des risques assurés, la durée des engagements, les mécanismes de tarification et les cadres réglementaires applicables.
-
-Les **primes directes souscrites** constituent un indicateur de la taille et de l'évolution du marché, mais leur croissance ne mesure pas uniquement une augmentation du nombre de contrats ou des risques assurés. Elle peut également refléter des hausses tarifaires, l'inflation des coûts ou des modifications dans la composition des portefeuilles. En assurance de dommages, notamment, l'AMF attribue une part importante de la hausse des primes de 2024 aux augmentations de tarifs.
+En ayant maintenant une meilleure compréhension des différents types d’assureurs et de leur encadrement institutionnel, il devient pertinent d’examiner le portrait détaillé du secteur de l’assurance au Québec à partir de données de marché. Cette section vise à décrire la structure du marché, son évolution récente et la répartition des activités selon les principaux segments. L’analyse est présentée en deux parties distinctes : l’assurance de personnes et l’assurance de dommages. Cette distinction reflète à la fois des différences importantes dans la nature des risques assurés, la durée des engagements, les mécanismes de tarification et les cadres réglementaires applicables. Les primes directes souscrites constituent un indicateur de la taille et de l'évolution du marché, mais leur croissance ne mesure pas uniquement une augmentation du nombre de contrats ou des risques assurés. Elle peut également refléter des hausses tarifaires, l'inflation des coûts ou des modifications dans la composition des portefeuilles. En assurance de dommages, notamment, l'AMF attribue une part importante de la hausse des primes de 2024 aux augmentations de tarifs.
 
 ### Assurance de personnes
 
-On débute avec l’assurance de personnes, qui regroupe des produits visant à couvrir des risques liés à la personne elle-même plutôt qu’à ses biens. Ces produits se caractérisent généralement par des engagements de moyen ou de long terme et par une forte dépendance aux hypothèses démographiques et financières.
+On débute avec l’assurance de personnes, qui regroupe des produits visant à couvrir des risques liés à la personne elle-même plutôt qu’à ses biens. Ces produits se caractérisent généralement par des engagements de moyen ou de long terme et par une forte dépendance aux hypothèses démographiques et financières. L’assurance de personnes inclut notamment les catégories de produits suivantes :
 
-L’assurance de personnes inclut notamment les catégories de produits suivantes :
+<div class="portrait-categories">
 
-- l’assurance vie individuelle ;
-- l’assurance vie collective ;
-- l’assurance accidents et maladie individuelle ;
-- l’assurance accidents et maladie collective ;
-- les rentes individuelles ;
-- les rentes collectives.
+<div class="portrait-categorie">
+<div class="portrait-categorie-titre">Assurance vie</div>
+<div class="portrait-produit">Individuelle</div>
+<div class="portrait-produit">Collective</div>
+</div>
 
-Dans cette classification, la distinction entre les produits individuels et collectifs renvoie à la manière dont la couverture est souscrite et administrée, et non à la nature du risque assuré. Les produits individuels sont souscrits directement par une personne à titre individuel. Le contrat est établi entre l’assureur et le preneur, qui peut être distinct de la personne assurée, et les conditions (prime, garanties, exclusions) dépendent notamment des caractéristiques du risque assuré. Les produits collectifs sont souscrits par un preneur de groupe, le plus souvent un employeur, une association ou une organisation, au bénéfice d’un ensemble de personnes. Les garanties sont définies pour le groupe dans son ensemble, et la tarification repose principalement sur les caractéristiques et l’expérience du groupe plutôt que sur celles de chaque individu pris isolément.
+<div class="portrait-categorie">
+<div class="portrait-categorie-titre">Accidents et maladie</div>
+<div class="portrait-produit">Individuelle</div>
+<div class="portrait-produit">Collective</div>
+</div>
 
-#### **Part de marché**  {-}
+<div class="portrait-categorie">
+<div class="portrait-categorie-titre">Rentes</div>
+<div class="portrait-produit">Individuelles</div>
+<div class="portrait-produit">Collectives</div>
+</div>
+
+</div>
+
+Dans cette classification, la distinction entre les produits individuels et collectifs renvoie à la manière dont la couverture est souscrite et administrée, et non à la nature du risque assuré.  
+
+  - Les **produits individuels** sont souscrits directement par une personne à titre individuel. Le contrat est établi entre l’assureur et le preneur, qui peut être distinct de la personne assurée, et les conditions (prime, garanties, exclusions) dépendent notamment des caractéristiques du risque assuré.
+
+  - Les **produits collectifs** sont souscrits par un preneur de groupe, le plus souvent un employeur, une association ou une organisation, au bénéfice d’un ensemble de personnes. Les garanties sont définies pour le groupe dans son ensemble, et la tarification repose principalement sur les caractéristiques et l’expérience du groupe plutôt que sur celles de chaque individu pris isolément.
+
+<div class="portrait-etiquette">
+Le marché québécois en 2024
+</div>
+
+<div class="portrait-indicateurs">
+
+<div class="portrait-indicateur">
+<div class="portrait-valeur">25,02 G$</div>
+<div class="portrait-libelle">Primes directes souscrites</div>
+</div>
+
+<div class="portrait-indicateur">
+<div class="portrait-valeur">70</div>
+<div class="portrait-libelle">Assureurs</div>
+</div>
+
+<div class="portrait-indicateur">
+<div class="portrait-valeur">59,2 %</div>
+<div class="portrait-libelle">Part des assureurs québécois</div>
+</div>
+
+<div class="portrait-indicateur">
+<div class="portrait-valeur">85,9 %</div>
+<div class="portrait-libelle">Part des six premiers assureurs</div>
+</div>
+
+</div>
+
+::: {.portrait-source}
+Source : Autorité des marchés financiers, 2024. [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link}
+:::
+
+
+<div class="portrait-entete">
+<div class="portrait-numero">01</div>
+<div class="portrait-titre">Parts de marché</div>
+</div>
 
 Selon les données de l’Autorité des marchés financiers, les treize assureurs à charte québécoise, appelés « assureurs québécois », détiennent toujours une part majoritaire du marché québécois en matière de primes directes souscrites non consolidées. En 2024, leur part de marché s'élève à 59,2 %, soit une hausse de 1,2 point de pourcentage par rapport à 2023. Les primes directes souscrites augmentent nettement sur la période 2015–2024, avec une accélération à partir de 2021. Cette progression en valeur monétaire peut provenir tant d'une évolution des couvertures que des tarifs. Les assureurs étrangers conservent une part de marché marginale. [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link}
 
-Pris ensemble, ces graphiques mettent en évidence une structure de marché concentrée, dans laquelle un nombre limité d’assureurs à charte québécoise capte une part importante de la croissance du marché, malgré la présence d’un plus grand nombre d’assureurs à charte canadienne et étrangère.
+<div class="portrait-graphiques">
+
+<div class="portrait-images">
+
+<div class="portrait-image">
+<img src="images/PartdeMarche1.png" alt="Parts de marché selon la charte">
+</div>
+
+<div class="portrait-image">
+<img src="images/PartdeMarche2.png" alt="Évolution des primes selon la charte">
+</div>
+
+</div>
+
+<div class="portrait-legende">
+Répartition du marché et évolution des primes directes souscrites au Québec.
+</div>
+
+<div class="portrait-source">
+Source : AMF, 2024, graphiques 37 et 38.
+</div>
+
+</div>
+
+Pris ensemble, ces graphiques mettent en évidence une structure de marché dans laquelle un nombre limité d’assureurs à charte québécoise capte une part importante de la croissance du marché, malgré la présence d’un plus grand nombre d’assureurs à charte canadienne et étrangère.
 
 
-::: {.columns}
-::: {.column width="50%"}
-![](images/PartdeMarche1.png){fig-align="center"}
-:::
+<div class="portrait-entete">
+<div class="portrait-numero">02</div>
+<div class="portrait-titre">Secteurs d’activité</div>
+</div>
 
-::: {.column width="50%"}
-![](images/PartdeMarche2.png){fig-align="center"}
-:::
-:::
+Les graphiques 39 et 40 permettent d’examiner la structure du marché de l’assurance de personnes au Québec selon les secteurs d’activité, ainsi que l’évolution récente des primes directes souscrites non consolidées. La répartition par secteur et par charte montre que les assureurs à charte québécoise occupent une position dominante dans plusieurs segments, en particulier en rentes individuelles, en rentes collectives ainsi qu’en assurance accidents et maladie collective. Les assureurs à charte canadienne sont surtout présents en assurance vie individuelle et en assurance accidents et maladie collective, tandis que la contribution des assureurs étrangers demeure marginale dans l’ensemble des secteurs.
 
-#### **Secteurs d'activité**  {-}
+<div class="portrait-graphiques">
 
-Les graphiques 39 et 40 permettent d’examiner la structure du marché de l’assurance de personnes au Québec selon les secteurs d’activité, ainsi que l’évolution récente des primes directes souscrites non consolidées.  La répartition par secteur et par charte montre que les assureurs à charte québécoise occupent une position dominante dans plusieurs segments, en particulier en rentes individuelles, en rentes collectives ainsi qu’en assurance accidents et maladie collective. Les assureurs à charte canadienne sont surtout présents en assurance vie individuelle et en assurance accidents et maladie collective, tandis que la contribution des assureurs étrangers demeure marginale dans l’ensemble des secteurs.
+<div class="portrait-images">
 
-L'évolution des primes par secteur sur la période 2020–2024 met en évidence une augmentation des montants souscrits en assurance de personnes, principalement portée par l’assurance accidents et maladie collective et par l’assurance vie individuelle. Les autres secteurs, notamment les rentes collectives et l’assurance vie collective, affichent également une progression plus modérée mais continue. Pris conjointement, ces graphiques illustrent un marché où la croissance des primes est largement tirée par quelques secteurs clés, dans un contexte où les assureurs à charte québécoise conservent une présence structurante, particulièrement dans les segments collectifs.
+<div class="portrait-image">
+<img src="images/SecteursActivite1.png" alt="Répartition des primes par secteur d’activité">
+</div>
+
+<div class="portrait-image">
+<img src="images/SecteursActivite2.png" alt="Évolution des primes par secteur d’activité">
+</div>
+
+</div>
+
+<div class="portrait-legende">
+Répartition et évolution des primes directes souscrites par secteur d’activité.
+</div>
+
+<div class="portrait-source">
+Source : AMF, 2024, graphiques 39 et 40.
+</div>
+
+</div>
+
+L'évolution des primes par secteur sur la période 2020–2024 met en évidence une augmentation des montants souscrits en assurance de personnes, notamment portée par l’assurance accidents et maladie collective, l’assurance vie individuelle et les rentes individuelles. Les rentes collectives présentent une évolution plus irrégulière. Pris conjointement, ces graphiques illustrent un marché où la croissance des primes est largement tirée par quelques secteurs clés, dans un contexte où les assureurs à charte québécoise conservent une présence structurante, particulièrement dans les segments collectifs.
 
 
-::: {.columns}
-::: {.column width="50%"}
-![](images/SecteursActivite1.png){fig-align="center"}
-:::
+<div class="portrait-entete">
+<div class="portrait-numero">03</div>
+<div class="portrait-titre">Les principaux assureurs</div>
+</div>
 
-::: {.column width="50%"}
-![](images/SecteursActivite2.png){fig-align="center"}
-:::
-:::
+Le tableau 27 met en évidence une forte concentration du marché québécois de l'assurance de personnes, mesuré en primes directes souscrites non consolidées. En 2024, les six premiers assureurs y totalisent près de 86 % des primes. Par ailleurs, le tableau 20 du rapport, qui regroupe les assureurs au niveau des principaux assureurs ou groupes d'assureurs, indique une part de 92,3 % pour les dix premiers. Les deux présentations ne reposent pas exactement sur la même unité de comparaison.  L’Industrielle Alliance – Vie demeure le premier assureur du marché avec une part de marché de 26,9 % en 2024, en hausse marquée par rapport aux années précédentes. Cette progression traduit une croissance soutenue des primes sur la période récente et un renforcement de sa position dominante. Desjardins Financière et Beneva occupent respectivement les deuxième et troisième rangs, avec des parts de marché de 15,2 % et 14,8 %, formant avec Industrielle Alliance un noyau d’assureurs qui capte à lui seul plus de 56 % du marché.
 
-#### **Les grands**  {-}
+<div class="portrait-graphiques">
 
-Le tableau 27 met en évidence une forte concentration du marché québécois de l'assurance de personnes, mesuré en primes directes souscrites non consolidées. En 2024, les six premiers assureurs y totalisent près de 86 % des primes. Par ailleurs, le tableau 20 du rapport, qui regroupe les assureurs au niveau des principaux **assureurs ou groupes d'assureurs**, indique une part de **92,3 % pour les dix premiers**. Les deux présentations ne reposent pas exactement sur la même unité de comparaison.
+<div class="portrait-image portrait-image-unique">
+<img src="images/Grands1.png" alt="Classement des trente principaux assureurs">
+</div>
 
-L’Industrielle Alliance – Vie demeure le premier assureur du marché avec une part de marché de 26,9 % en 2024, en hausse marquée par rapport aux années précédentes. Cette progression traduit une croissance soutenue des primes sur la période récente et un renforcement de sa position dominante. Desjardins Financière et Beneva occupent respectivement les deuxième et troisième rangs, avec des parts de marché de 15,2 % et 14,8 %, formant avec Industrielle Alliance un noyau d’assureurs qui capte à lui seul plus de 56 % du marché.
-Les assureurs de rangs quatre à six — Sun Life du Canada, Manufacturers et Canada sur la vie — complètent ce groupe dominant. Bien que leurs parts individuelles soient plus modestes, leur poids cumulé contribue de façon significative à la concentration globale du marché.
+<div class="portrait-legende">
+Classement des trente principaux assureurs selon les primes directes souscrites au Québec.
+</div>
 
-À l’inverse, au-delà du sixième rang, les parts de marché individuelles chutent rapidement. Les assureurs classés du septième au trentième rang détiennent chacun moins de 3 % du marché, et la somme de leurs parts représente une fraction relativement limitée du total. Cette répartition met en évidence le poids des principaux acteurs, sans permettre à elle seule de mesurer l'intensité de la concurrence entre assureurs.
+<div class="portrait-source">
+Source : AMF, 2024, tableau 27.
+</div>
 
-![](images/Grands1.png){fig-align="center"}
+</div>
+
+Les assureurs de rangs quatre à six — Sun Life du Canada, Manufacturers et Canada sur la vie — complètent ce groupe dominant. Bien que leurs parts individuelles soient plus modestes, leur poids cumulé contribue de façon significative à la concentration globale du marché. À l’inverse, au-delà du sixième rang, les parts de marché individuelles chutent rapidement. Les assureurs classés du septième au trentième rang détiennent chacun moins de 3 % du marché, et la somme de leurs parts représente une fraction relativement limitée du total. Cette répartition met en évidence le poids des principaux acteurs, sans permettre à elle seule de mesurer l'intensité de la concurrence entre assureurs.
+
 
 ### Assurance de dommages
 
-On poursuit avec l’assurance de dommages, qui regroupe des produits visant à couvrir des pertes financières liées aux biens, aux responsabilités civiles ou à certains événements affectant le patrimoine des assurés. La plupart des contrats d'assurance de dommages couvrent une période relativement courte, souvent un an. Certains risques, notamment en responsabilité, peuvent toutefois donner lieu à des réclamations et à des engagements de très longue durée. La tarification et le provisionnement dépendent notamment de la fréquence et de la sévérité des sinistres.
+On poursuit avec l’assurance de dommages, qui regroupe des produits visant à couvrir des pertes financières liées aux biens, aux responsabilités civiles ou à certains événements affectant le patrimoine des assurés. La plupart des contrats d'assurance de dommages couvrent une période relativement courte, souvent un an. Certains risques, notamment en responsabilité, peuvent toutefois donner lieu à des réclamations et à des engagements de très longue durée. La tarification et le provisionnement dépendent notamment de la fréquence et de la sévérité des sinistres. Les produits d’assurance de dommages incluent notamment les catégories suivantes :
 
-Les produits d’assurance de dommages incluent notamment les catégories suivantes :
+<div class="portrait-categories">
 
-- l’assurance automobile des particuliers ;
-- l’assurance automobile des entreprises ;
-- l’assurance de biens des particuliers ;
-- l’assurance de biens des entreprises ;
-- l’assurance de responsabilité ;
-- les autres assurances de dommages.
+<div class="portrait-categorie">
+<div class="portrait-categorie-titre">Assurance automobile</div>
+<div class="portrait-produit">Particuliers</div>
+<div class="portrait-produit">Entreprises</div>
+</div>
 
-Dans cette classification, la distinction entre les produits destinés aux particuliers et ceux destinés aux entreprises renvoie principalement à la nature de l’assuré et au contexte d’utilisation du bien ou de l’activité assurée. Les produits pour particuliers visent des risques relativement standardisés et homogènes, ce qui permet une tarification plus uniforme. Les produits pour entreprises couvrent quant à eux des risques plus diversifiés et souvent plus complexes, nécessitant une analyse plus spécifique des expositions et des garanties.
+<div class="portrait-categorie">
+<div class="portrait-categorie-titre">Assurance de biens</div>
+<div class="portrait-produit">Particuliers</div>
+<div class="portrait-produit">Entreprises</div>
+</div>
 
-Les graphiques et tableaux qui suivent présentent la répartition des primes directes souscrites selon les catégories de produits et selon la charte des assureurs, ainsi que l’évolution récente du marché de l’assurance de dommages au Québec. Ils permettent de comparer la structure de ce marché à celle de l’assurance de personnes, tant en termes de concentration que de dynamique de croissance.
+<div class="portrait-categorie">
+<div class="portrait-categorie-titre">Autres protections</div>
+<div class="portrait-produit">Responsabilité</div>
+<div class="portrait-produit">Autres assurances</div>
+</div>
+
+</div>
+
+Dans cette classification, la distinction entre les produits destinés aux particuliers et ceux destinés aux entreprises renvoie principalement à la nature de l’assuré et au contexte d’utilisation du bien ou de l’activité assurée.  
+
+  - Les **produits pour particuliers** visent des risques généralement plus standardisés et homogènes, ce qui permet une tarification plus uniforme.
+
+  - Les **produits pour entreprises** couvrent quant à eux des risques plus diversifiés et souvent plus complexes, nécessitant une analyse plus spécifique des expositions et des garanties.
+
+Les graphiques et tableaux qui suivent permettent de comparer la structure du marché de l’assurance de dommages à celle de l’assurance de personnes, tant en termes de concentration que de dynamique de croissance.
 
 
-#### **Part de marché**  {-}
+<div class="portrait-etiquette">
+Le marché québécois en 2024
+</div>
 
-Les graphiques 49 et 50 présentent le portrait de l’assurance de dommages au Québec selon la charte des assureurs, tant en termes de structure du marché que d’évolution des primes directes souscrites non consolidées.  Contrairement à l’assurance de personnes, l’assurance de dommages se caractérise par une répartition plus équilibrée des parts de marché entre les assureurs à charte québécoise et les assureurs à charte canadienne. En 2024, les assureurs québécois représentent 43,8 % des parts de marché, tandis que les assureurs canadiens en détiennent 42,7 %. Les assureurs étrangers, bien que relativement nombreux, ne captent qu’une part plus limitée du marché, soit 13,5 %.
+<div class="portrait-indicateurs">
 
-L’évolution des primes sur la période 2015–2024 montre une croissance soutenue du marché de l’assurance de dommages, avec une accélération marquée à partir de 2019. Cette hausse de primes concerne principalement les assureurs québécois et canadiens, dont les volumes progressent de façon relativement parallèle, tandis que la contribution des assureurs étrangers demeure plus modeste.
+<div class="portrait-indicateur">
+<div class="portrait-valeur">19,24 G$</div>
+<div class="portrait-libelle">Primes directes souscrites</div>
+</div>
+
+<div class="portrait-indicateur">
+<div class="portrait-valeur">158</div>
+<div class="portrait-libelle">Assureurs</div>
+</div>
+
+<div class="portrait-indicateur">
+<div class="portrait-valeur">43,8 %</div>
+<div class="portrait-libelle">Part des assureurs québécois</div>
+</div>
+
+<div class="portrait-indicateur">
+<div class="portrait-valeur">52,4 %</div>
+<div class="portrait-libelle">Part des six premiers assureurs</div>
+</div>
+
+</div>
+
+::: {.portrait-source}
+Source : Autorité des marchés financiers, 2024. [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link}
+:::
+
+
+<div class="portrait-entete">
+<div class="portrait-numero">01</div>
+<div class="portrait-titre">Parts de marché</div>
+</div>
+
+Les graphiques 49 et 50 présentent le portrait de l’assurance de dommages au Québec selon la charte des assureurs, tant en termes de structure du marché que d’évolution des primes directes souscrites non consolidées. Contrairement à l’assurance de personnes, l’assurance de dommages se caractérise par une répartition plus équilibrée des parts de marché entre les assureurs à charte québécoise et les assureurs à charte canadienne. En 2024, les assureurs québécois représentent 43,8 % des parts de marché, tandis que les assureurs canadiens en détiennent 42,7 %. Les assureurs étrangers, bien que relativement nombreux, ne captent qu’une part plus limitée du marché, soit 13,5 %. L’évolution des primes sur la période 2015–2024 montre une croissance soutenue du marché de l’assurance de dommages, avec une accélération marquée à partir de 2019. Cette hausse de primes concerne principalement les assureurs québécois et canadiens, dont les volumes progressent de façon relativement parallèle, tandis que la contribution des assureurs étrangers demeure plus modeste.
+
+
+<div class="portrait-graphiques">
+
+<div class="portrait-images">
+
+<div class="portrait-image">
+<img src="images/PartdeMarche1b.png" alt="Parts de marché en assurance de dommages selon la charte">
+</div>
+
+<div class="portrait-image">
+<img src="images/PartdeMarche2b.png" alt="Évolution des primes en assurance de dommages selon la charte">
+</div>
+
+</div>
+
+<div class="portrait-legende">
+Répartition du marché et évolution des primes directes souscrites au Québec.
+</div>
+
+<div class="portrait-source">
+Source : AMF, 2024, graphiques 49 et 50.
+</div>
+
+</div>
 
 Comparativement à l'assurance de personnes, le marché de l'assurance de dommages présente une concentration moins élevée. Les parts de primes sont davantage réparties entre les principaux acteurs, mais la concentration ne suffit pas, à elle seule, à établir que la concurrence y est plus intense. Celle-ci dépend également, notamment, des barrières à l'entrée, des réseaux de distribution, de la différenciation des produits et du comportement tarifaire des assureurs.
 
 
-::: {.columns}
-::: {.column width="50%"}
-![](images/PartdeMarche1b.png){fig-align="center"}
-:::
+<div class="portrait-entete">
+<div class="portrait-numero">02</div>
+<div class="portrait-titre">Secteurs d’activité</div>
+</div>
 
-::: {.column width="50%"}
-![](images/PartdeMarche2b.png){fig-align="center"}
-:::
-:::
-
-#### **Secteurs d'activité**  {-}
-
-Les graphiques 51 et 53 permettent d’approfondir l’analyse de l’assurance de dommages en examinant la répartition et l’évolution des primes directes souscrites selon les principales catégories de produits. La répartition par catégorie montre que l’assurance automobile des particuliers constitue de loin le segment le plus important du marché, suivie de l’assurance de biens des particuliers. Dans ces deux catégories, les assureurs à charte québécoise occupent une position dominante, captant une part substantielle des primes. À l’inverse, les assureurs à charte canadienne et étrangère sont proportionnellement plus présents dans les segments liés aux entreprises, notamment en assurance de biens des entreprises et en responsabilité, où les risques sont souvent plus complexes et plus hétérogènes.
-
-L’évolution des primes par catégorie sur la période 2020–2024 met en évidence une croissance généralisée de l’ensemble des segments de l’assurance de dommages. L'augmentation des primes est particulièrement marquée en assurance automobile et en assurance de biens des particuliers. Elle doit être interprétée en tenant compte de l'évolution des tarifs et des coûts des sinistres. Les segments liés aux entreprises et à la responsabilité affichent également une progression soutenue, bien que sur des volumes plus modestes.
-
-Pris ensemble, ces graphiques illustrent une structure de marché où l’assurance de dommages repose largement sur les risques des particuliers, tant en niveau qu’en croissance, tandis que les segments destinés aux entreprises jouent un rôle important dans la diversification des risques et dans la répartition des parts de marché entre les différents types d’assureurs.
+Les graphiques 51 et 53 permettent d’approfondir l’analyse de l’assurance de dommages en examinant la répartition et l’évolution des primes directes souscrites selon les principales catégories de produits. La répartition par catégorie montre que l’assurance automobile des particuliers constitue le segment le plus important du marché, suivie de l’assurance de biens des particuliers. Dans ces deux catégories, les assureurs à charte québécoise occupent une position dominante, captant une part substantielle des primes. À l’inverse, les assureurs à charte canadienne et étrangère sont proportionnellement plus présents dans les segments liés aux entreprises, notamment en assurance de biens des entreprises et en responsabilité, où les risques sont souvent plus complexes et plus hétérogènes.
 
 
+<div class="portrait-graphiques">
 
-::: {.columns}
-::: {.column width="50%"}
-![](images/SecteursActivite1b.png){fig-align="center"}
-:::
+<div class="portrait-images">
 
-::: {.column width="50%"}
-![](images/SecteursActivite2b.png){fig-align="center"}
-:::
-:::
+<div class="portrait-image">
+<img src="images/SecteursActivite1b.png" alt="Répartition des primes en assurance de dommages par catégorie">
+</div>
 
-#### **Les grands**  {-}
+<div class="portrait-image">
+<img src="images/SecteursActivite2b.png" alt="Évolution des primes en assurance de dommages par catégorie">
+</div>
 
-Le tableau 41 présente la répartition des primes directes souscrites non consolidées en assurance de dommages au Québec pour les 30 principaux assureurs, ainsi que l’évolution de leurs parts de marché sur la période 2020–2024. Comme en assurance de personnes, ce tableau met en évidence une structure de marché relativement concentrée, bien que moins marquée que dans le secteur des personnes.
+</div>
 
-Intact demeure au premier rang du tableau des assureurs individuels de dommages au Québec, avec près de 20 % des parts de marché en 2024. Sa position est relativement stable depuis 2020, ce qui traduit une domination structurelle plutôt qu’une croissance ponctuelle. Desjardins Assurances générales et Beneva Assurance occupent respectivement les deuxième et troisième rangs, avec des parts de marché de 10,7 % et 8,9 %. À eux trois, ces assureurs représentent environ 40 % du marché de l’assurance de dommages.
+<div class="portrait-legende">
+Répartition et évolution des primes directes souscrites par catégorie de produits.
+</div>
 
-Les assureurs classés du quatrième au dixième rang — incluant notamment Lloyd’s, La Personnelle, Belair, Unique et Aviva — détiennent chacun des parts de marché comprises entre 2 % et 5 %. La décroissance des parts est plus graduelle que dans l'assurance de personnes, ce qui traduit une répartition moins concentrée des primes entre les assureurs individuels.
+<div class="portrait-source">
+Source : AMF, 2024, graphiques 51 et 53.
+</div>
 
-Selon le tableau 41, les dix premières **entités individuelles** représentent environ 64 % des primes en assurance de dommages en 2024. Cette proportion ne doit pas être comparée directement à une concentration calculée pour des **groupes financiers**. En regroupant les assureurs appartenant à un même groupe, le tableau 34 du rapport indique plutôt une concentration de **78,6 %** pour les dix principaux assureurs ou groupes d'assureurs. À unité de comparaison équivalente, le chiffre correspondant est de **92,3 % en assurance de personnes** (tableau 20). [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link} Le secteur des dommages est donc moins concentré, sans que cet écart permette à lui seul de conclure qu'il serait nécessairement plus concurrentiel.
+</div>
 
-En ce qui concerne les volumes globaux, le tableau indique que les primes directes souscrites non consolidées en assurance de dommages s’élèvent à environ 19,2 milliards de dollars en 2024. À titre de comparaison, les primes correspondantes en assurance de personnes atteignent environ 25,0 milliards de dollars pour la même année. L’assurance de personnes constitue donc le marché le plus important en termes de volume de primes au Québec, malgré un nombre d’assureurs plus restreint et une concentration plus élevée.
-
-La comparaison des deux segments illustre ainsi une concentration plus forte en assurance de personnes. Cette observation décrit la répartition des primes entre les acteurs, mais ne constitue pas une mesure directe de l'intensité de la concurrence.
+L’évolution des primes par catégorie sur la période 2020–2024 met en évidence une croissance généralisée de l’ensemble des segments de l’assurance de dommages. L'augmentation des primes est particulièrement marquée en assurance automobile des particuliers, en assurance de biens des particuliers et en assurance de biens des entreprises. Elle doit être interprétée en tenant compte de l'évolution des tarifs et des coûts des sinistres. Pris ensemble, ces graphiques illustrent une structure de marché où l’assurance de dommages repose largement sur les risques des particuliers, tandis que les segments destinés aux entreprises jouent un rôle important dans la diversification des risques et dans la répartition des parts de marché entre les différents types d’assureurs.
 
 
-![](images/Grands1b.png){fig-align="center"}
+<div class="portrait-entete">
+<div class="portrait-numero">03</div>
+<div class="portrait-titre">Les principaux assureurs</div>
+</div>
+
+Le tableau 41 présente la répartition des primes directes souscrites non consolidées en assurance de dommages au Québec pour les 30 principaux assureurs, ainsi que l’évolution de leurs parts de marché sur la période 2020–2024. Comme en assurance de personnes, ce tableau met en évidence une structure de marché relativement concentrée, bien que moins marquée. Intact demeure au premier rang du tableau des assureurs individuels de dommages au Québec, avec près de 20 % des parts de marché en 2024. Sa position est relativement stable depuis 2020. Desjardins Assurances générales et Beneva Assurance occupent respectivement les deuxième et troisième rangs, avec des parts de marché de 10,7 % et 8,9 %. À eux trois, ces assureurs représentent environ 40 % du marché de l’assurance de dommages.
+
+
+<div class="portrait-graphiques">
+
+<div class="portrait-image portrait-image-unique">
+<img src="images/Grands1b.png" alt="Classement des trente principaux assureurs de dommages">
+</div>
+
+<div class="portrait-legende">
+Classement des trente principaux assureurs selon les primes directes souscrites au Québec.
+</div>
+
+<div class="portrait-source">
+Source : AMF, 2024, tableau 41.
+</div>
+
+</div>
+
+Les assureurs classés du quatrième au dixième rang — incluant notamment Lloyd’s, La Personnelle, Belair, Unique et Aviva — détiennent chacun des parts de marché comprises entre 2 % et 5 %. La décroissance des parts est plus graduelle que dans l'assurance de personnes, ce qui traduit une répartition moins concentrée des primes entre les assureurs individuels. Selon le tableau 41, les dix premières entités individuelles représentent environ 64 % des primes en assurance de dommages en 2024. Cette proportion ne doit pas être comparée directement à une concentration calculée pour des groupes financiers. En regroupant les assureurs appartenant à un même groupe, le tableau 34 du rapport indique plutôt une concentration de 78,6 % pour les dix principaux assureurs ou groupes d'assureurs. À unité de comparaison équivalente, le chiffre correspondant est de 92,3 % en assurance de personnes (tableau 20). [↗](https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/organisation/rapports-annuels/autorite/amf-rapport-annuel-institutions-financieres-2024.pdf "AMF : Rapport sur les institutions financières 2024"){.source-link} En ce qui concerne les volumes globaux, les primes directes souscrites non consolidées en assurance de dommages s’élèvent à environ 19,2 milliards de dollars en 2024. À titre de comparaison, les primes correspondantes en assurance de personnes atteignent environ 25,0 milliards de dollars pour la même année. L’assurance de personnes constitue donc le marché le plus important en termes de volume de primes au Québec, malgré un nombre d’assureurs plus restreint et une concentration plus élevée. La comparaison des deux segments illustre ainsi une concentration plus forte en assurance de personnes. Cette observation décrit la répartition des primes entre les acteurs, mais ne constitue pas une mesure directe de l'intensité de la concurrence.
+
+
 
 ## Conclusion
 

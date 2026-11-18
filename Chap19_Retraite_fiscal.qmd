@@ -782,7 +782,7 @@ Cette comparaison illustre une limite de l'équivalence fiscale entre les mécan
 
 ### Le facteur 9 : une approximation actuarielle à des fins fiscales
 
-{{< meme "memes/Rambo.gif" "https://knowyourmeme.com/memes/brent-rambo" "350px" >}}
+{{< meme "memes/Palpatine2.jpg" "https://www.youtube.com/watch?v=k4pbfT5pupc" "350px" >}}
 
 Dans un régime PD, le facteur d'équivalence utilise un multiplicateur de 9 pour convertir le crédit de rente annuel en un montant comparable aux cotisations versées dans un régime CD. Mais pourquoi avoir retenu précisément ce facteur? En principe, il serait possible d'évaluer actuariellement les prestations acquises par chaque participant. Une telle évaluation devrait notamment tenir compte :
 
@@ -797,7 +797,7 @@ Cette approche serait toutefois complexe à appliquer annuellement à l'ensemble
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### L'origine du facteur 9 {-}
+**L'origine du facteur 9**
 
 Le multiplicateur 9 n'a pas été choisi arbitrairement. Dans un document publié en décembre 1989, le ministère fédéral des Finances explique qu'il résulte d'un modèle visant à établir une équivalence entre les cotisations versées pendant une carrière et les prestations de retraite qui en découlent. Le modèle reposait notamment sur les hypothèses suivantes : [↗](https://publications.gc.ca/collections/collection_2016/fin/F2-96-1989-fra.pdf "Ministère des Finances du Canada — La réforme des pensions : amélioration de l'aide fiscale à l'épargne-retraite, décembre 1989, p. 30-31"){.source-link}
 
@@ -966,7 +966,7 @@ Ces conclusions dépendent toutefois des hypothèses actuarielles retenues. Notr
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### Propositions récentes {-}
+**Propositions récentes**
 
 Le modèle ayant servi à établir le facteur 9 remonte à 1989. Depuis, les conditions démographiques et économiques ont évolué, notamment en matière de longévité et de rendement des placements.  
 
@@ -1460,7 +1460,7 @@ Ainsi, pour une personne de 55 ans ou plus, le fonctionnement d'un FRV québéco
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### Calcul du retrait minimal {-}
+**Calcul du retrait minimal**
 
 Le retrait minimal d'un FRV est calculé de la même manière que celui d'un FERR, à partir de la valeur du capital au début de l'année et du facteur réglementaire applicable. Aucun retrait minimal n'est exigé pendant l'année d'ouverture du FRV. [↗](https://www.retraitequebec.gouv.qc.ca/fr/professionnels-et-employeurs/professionnels-concernes-regimes-retraite/cri-et-frv/caracteristiques-frv "Retraite Québec — Retrait minimal d’un FRV"){.source-link} Ainsi, le tableau des facteurs et le graphique présentés précédemment pour le FERR s'appliquent également à un FRV dont le titulaire retire uniquement le minimum obligatoire.
 :::

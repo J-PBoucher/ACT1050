@@ -25,6 +25,12 @@ date-modified: last-modified
 
 <div id="plan-chapitre-auto"></div>
 
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
+
 :::
 
 
@@ -35,25 +41,7 @@ La retraite correspond généralement à une période durant laquelle les revenu
 
 ## La notion de retraite
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:350px;
-">
-
-<img src="images/Retraite.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-
-</div>
-
-</div>
-
+{{< meme "memes/Dragons.jpg" "https://knowyourmeme.com/memes/three-headed-dragon" "350px" >}}
 
 La retraite ne correspond pas nécessairement à un arrêt définitif de toute activité professionnelle. Elle peut être complète ou progressive : une personne peut réduire ses heures de travail, changer d'emploi ou continuer de travailler tout en percevant des revenus de retraite. [↗](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/retraite-et-planification/retraite/transition-retraite "Retraite Québec — Transition vers la retraite"){.source-link} Sur le plan économique, la retraite soulève une question fondamentale : comment financer ses dépenses lorsque les revenus d'emploi diminuent ou disparaissent?
 
@@ -74,7 +62,9 @@ Ces trois sources sont complémentaires. Par exemple, une personne retraitée po
 
 Le moment où une personne prend sa retraite dépend de plusieurs facteurs, dont ses ressources financières, son état de santé, ses préférences personnelles et les règles des régimes de retraite auxquels elle participe. Pour mieux comprendre les circonstances entourant cette décision, Statistique Canada a notamment étudié les principales raisons du départ à la retraite dans son *Enquête sur les travailleurs âgés de 2008*. Bien que ces données soient relativement anciennes, elles permettent d'illustrer la diversité des facteurs qui interviennent dans cette décision. [↗](https://www150.statcan.gc.ca/n1/fr/pub/89-646-x/89-646-x2010001-fra.pdf "Statistique Canada — Premiers résultats de l'Enquête sur les travailleurs âgés, 2008, graphique 4.3, p. 23"){.source-link}
 
+
 ![](images/RetraiteStatCan.png){width=50% fig-align="center"}
+
 
 Le graphique présente les principales raisons invoquées pour expliquer une première retraite. Plusieurs constats se dégagent :
 
@@ -88,7 +78,7 @@ On observe également certaines différences entre les hommes et les femmes. Les
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Départ à la retraite et versement des prestations** {-}
+**Départ à la retraite et versement des prestations**
 
 Du point de vue des régimes de retraite, il faut également distinguer le moment où une personne cesse de travailler de celui où elle commence à recevoir ses prestations. Certains régimes prévoient un âge normal de retraite, généralement fixé à 65 ans, ainsi que des possibilités de retraite anticipée. D'autres conditions, comme le nombre d'années de service, peuvent également influencer les prestations auxquelles une personne a droit. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regime-prestations-determinees/revenus-regime/types-rentes "Retraite Québec — Types de rentes et conditions de retraite"){.source-link}  Lorsqu'une personne prend sa retraite avant de commencer à recevoir certaines prestations publiques, elle doit financer cette période à partir d'autres sources de revenus. Il peut notamment s'agir :
 
@@ -781,25 +771,7 @@ Il s'agit évidemment d'un exemple simplifié : les montants et le partage des c
 
 #### **Point de vue de l'État** {-}
 
-
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:350px;
-">
-
-<img src="images/PourEtat.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-
-</div>
-
-</div>
+{{< meme "memes/PourEtat.png" "https://knowyourmeme.com/memes/whisper-in-ear-goosebumps" "350px" >}}
 
 Dans plusieurs pays, dont le Canada, l'État encourage la mise en place de régimes de retraite collectifs en leur accordant un traitement fiscal avantageux. Les cotisations versées aux régimes de pension agréés sont généralement déductibles du revenu imposable, et les revenus de placement s'accumulent sans être imposés immédiatement. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/particuliers/taux-imposition-tranches-revenu/annee-en-cours.html "Agence du revenu du Canada — Régime de pension agréé et fiscalité"){.source-link} L'impôt est plutôt perçu au moment du versement des prestations, généralement pendant la retraite.  Ce mécanisme permet notamment aux travailleurs :
 
@@ -815,24 +787,8 @@ Du point de vue de l'État, ces mesures fiscales encouragent l'accumulation d'un
 
 #### **Point de vue des employeurs** {-}
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:350px;
-">
+{{< meme "memes/PourEmployeur.png" "https://knowyourmeme.com/memes/drakeposting" "350px" >}}
 
-<img src="images/PourEmployeur.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-
-</div>
-
-</div>
 
 Pour un employeur, offrir un régime de retraite constitue une façon d'améliorer la rémunération globale de ses employés. En plus du salaire, l'employeur contribue à financer un revenu que le travailleur recevra plus tard. Le régime de retraite peut donc être considéré comme une forme de rémunération différée. [↗](https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-regimes-enregistres/regimes-pension-agrees/a-propos-regimes-pension-agrees.html "Agence du revenu du Canada — Régimes de pension agréés"){.source-link} Historiquement, les régimes de retraite servaient également à fidéliser les travailleurs. Certaines anciennes règles faisaient en sorte qu'un employé quittant son entreprise avant d'avoir atteint un certain âge ou une certaine ancienneté pouvait perdre une partie importante de ses avantages. Les réformes législatives ont progressivement renforcé la protection des droits accumulés par les participants, réduisant ainsi cet effet de rétention. [↗](https://statistique.quebec.ca/fr/fichier/vie-des-generation-et-personnes-agees-aujourdhui-et-demain-volume-1.pdf "Institut de la statistique du Québec — Évolution historique de l’acquisition des droits, p. 270"){.source-link}  Aujourd'hui, les régimes de retraite demeurent intéressants pour les employeurs parce qu'ils permettent notamment :
 
@@ -847,24 +803,7 @@ Pour un employeur, offrir un régime de retraite constitue une façon d'amélior
 
 #### **Point de vue des employés** {-}
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:350px;
-">
-
-<img src="images/PourEmploye.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-
-</div>
-
-</div>
+{{< meme "memes/PourEmploye.png" "https://knowyourmeme.com/memes/distracted-boyfriend" "350px" >}}
 
 Pour les employés, l'un des principaux défis de la préparation à la retraite consiste à épargner régulièrement pendant leur carrière. Une grande partie du salaire est consacrée aux dépenses courantes : logement, alimentation, transport, loisirs, remboursement des dettes, etc. L'épargne pour la retraite peut donc facilement être reportée à plus tard.  Un régime de retraite collectif permet de rendre cette épargne beaucoup plus systématique. Lorsque les cotisations des employés sont prélevées directement sur leur salaire, ils n'ont pas à prendre chaque mois la décision de mettre de l'argent de côté. Dans les régimes où la participation et les cotisations sont obligatoires, il s'agit même d'une forme d'épargne forcée. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regimes-retraite-secteurs-prive-municipal-et-universitaires/regimes-complementaires-retraite "Retraite Québec — Cotisations obligatoires aux régimes complémentaires"){.source-link}  Le régime présente ainsi plusieurs avantages pour les employés :
 
@@ -892,7 +831,7 @@ L'épargne personnelle offre une certaine flexibilité. Elle peut servir à comp
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Combinaison des sources** {-}
+**Combinaison des sources**
 
 Le revenu de retraite repose généralement sur une combinaison des trois sources présentées précédemment. Au-delà du taux de remplacement visé, qui se situe parfois entre 60 % et 80 % du salaire brut, il faut également tenir compte du moment où chacune de ces sources devient disponible :
 

@@ -299,31 +299,31 @@ Afin de donner une idée de la quantité de lecture associée au cours, le table
 
 | Chapitre | Nombre de pages |
 |:---|---:|
-| [1. Introduction à l’actuariat](Chap1_IntroActu.qmd) | 22 |
-| [2. L’actuariat à l’UQAM](Chap2_UQAMActuariat.qmd) | 19 |
-| [3. Stages pendant les études](Chap3_Stages.qmd) | 5 |
+| [1. Introduction à l’actuariat](Chap1_IntroActu.qmd) | 21 |
+| [2. L’actuariat à l’UQAM](Chap2_UQAMActuariat.qmd) | 22 |
+| [3. Stages pendant les études](Chap3_Stages.qmd) | 6 |
 | [4. La profession d’actuaire](Chap4_Profession.qmd) | 15 |
 | [5. L’adhésion à l’ICA](Chap5_Adhesion.qmd) | 18 |
 | [6. Écosystème de l’assurance](Chap6_Ecosysteme.qmd) | 22 |
 | [7. Les milieux de pratique de l’actuaire](Chap7_MilieuPratique.qmd) | 16 |
-| [8. Aspects juridiques et réglementaires](Chap8_Juridique.qmd) | 22 |
+| [8. Aspects juridiques et réglementaires](Chap8_Juridique.qmd) | 21 |
 | [9. Notions de base en assurance de personnes](Chap9_Base_assurancepersonnes.qmd) | 20 |
-| [10. L’actuariat de l’assurance de personnes](Chap10_Actuariat_assurancepersonnes.qmd) | 34 |
-| [11. L’assurance vie temporaire](Chap11_Assurancevie_temporaire.qmd) | 25 |
-| [12. L’assurance vie entière](Chap12_Assurancevie_entiere.qmd) | 21 |
-| [13. L’assurance vie universelle](Chap13_Assurancevie_universelle.qmd) | 21 |
-| [14. Fondements de la retraite](Chap14_Fondements_retraite.qmd) | 31 |
-| [15. L’actuariat des régimes de retraite](Chap15_Actuariat_retraite.qmd) | 19 |
-| [16. Régimes de retraite publics](Chap16_Retraite_public.qmd) | 27 |
-| [17. Régimes à prestations déterminées](Chap17_Retraite_PD.qmd) | 32 |
-| [18. Régimes à cotisations déterminées](Chap18_Retraite_CD.qmd) | 15 |
-| [19. Épargne-retraite et fiscalité](Chap19_Retraite_fiscal.qmd) | 19 |
-| **Total (19 chapitres)** | **403** |
+| [10. L’actuariat de l’assurance de personnes](Chap10_Actuariat_assurancepersonnes.qmd) | 37 |
+| [11. L’assurance vie temporaire](Chap11_Assurancevie_temporaire.qmd) | 33 |
+| [12. L’assurance vie entière](Chap12_Assurancevie_entiere.qmd) | 22 |
+| [13. L’assurance vie universelle](Chap13_Assurancevie_universelle.qmd) | 25 |
+| [14. Fondements de la retraite](Chap14_Fondements_retraite.qmd) | 18 |
+| [15. L’actuariat des régimes de retraite](Chap15_Actuariat_retraite.qmd) | 16 |
+| [16. Régimes de retraite publics](Chap16_Retraite_public.qmd) | 36 |
+| [17. Régimes à prestations déterminées](Chap17_Retraite_PD.qmd) | 25 |
+| [18. Régimes à cotisations déterminées](Chap18_Retraite_CD.qmd) | 14 |
+| [19. Épargne-retraite et fiscalité](Chap19_Retraite_fiscal.qmd) | 35 |
+| **Total (19 chapitres)** | **422** |
 
 :::
 
 
-Au total, les notes représentent environ **403 pages**, soit une moyenne d'un peu plus de **20 pages par chapitre**. Ce volume comprend toutefois de nombreux tableaux, figures, illustrations et exemples numériques : le nombre de pages ne constitue donc pas à lui seul une mesure du temps nécessaire à la lecture ou à l'assimilation de la matière.
+Au total, les notes représentent environ **422 pages**, soit une moyenne d'un peu plus de **22 pages par chapitre**. Ce volume comprend toutefois de nombreux tableaux, figures, illustrations et exemples numériques : le nombre de pages ne constitue donc pas à lui seul une mesure du temps nécessaire à la lecture ou à l'assimilation de la matière.
 
 
 ## Contribuer aux notes de cours avec GitHub {-}

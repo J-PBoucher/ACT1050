@@ -23,6 +23,12 @@ date-modified: last-modified
 
 <div id="plan-chapitre-auto"></div>
 
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
+
 :::
 
 
@@ -34,23 +40,7 @@ Dans ce chapitre, nous revenons d’abord sur les notions fondamentales associé
 
 ## Retour sur les rentes
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:360px;
-">
-
-<img src="images/Rente.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-</div>
-
-</div>
+{{< meme "memes/Rente.png" "https://knowyourmeme.com/memes/roll-safe" "350px" >}}
 
 Une rente est une série de versements, habituellement d’un même montant, effectués à partir d’une date déterminée, à une fréquence déterminée et pour une durée fixe ou conditionnelle à un événement, notamment la survie du rentier. Le versement est effectué par une personne (physique ou morale, comme une banque, une société d’assurance, un organisme de l’État ou un organisme mis sur pied par un employeur, par exemple) à une autre personne, typiquement une personne physique que l’on appelle le rentier. On peut mentionner quelques exemples de rentes :
 
@@ -68,29 +58,22 @@ Une rente peut être achetée au moyen d'un capital versé au départ ou financ�
 
 ### Rente immédiate et rente due
 
-Dans la terminologie actuarielle utilisée dans ce cours, et comme nous l'avions vu dans le <a href="Chap10_Actuariat_assurancevie.html">Chapitre 10 : L’actuariat de l’assurance-vie</a>, il est important de bien distinguer deux types de rentes selon le moment des versements :
+Dans la terminologie actuarielle utilisée dans ce cours, et comme nous l'avions vu dans le <a href="Chap10_Actuariat_assurancevie.html">Chapitre 10 : L’actuariat de l’assurance-vie</a>, il est important de bien distinguer deux types de rentes selon le moment des versements :  
 
-#### **Rente immédiate** {-}
-
-Une rente est dite « immédiate » si le versement débute à la fin de la première période qui suit le début de la rente.
+  - Une rente est dite « immédiate » si le versement débute à la fin de la première période qui suit le début de la rente.  
+  - Une rente est dite « due » si le versement débute dès l’achat de la rente.
 
 ::: {#exm-rente-immediate-date .custom}
-Par exemple, si une personne achète une rente mensuelle immédiate le 1er octobre 2017, le premier versement de cette rente sera effectué le 1er novembre 2017. De même, si c’est une rente annuelle immédiate que la personne achète le 1er octobre 2017, le premier versement ne sera effectué qu’après un an, soit le 1er octobre 2018.
-:::
+Si une personne achète une rente mensuelle immédiate le 1er octobre 2017, le premier versement de cette rente sera effectué le 1er novembre 2017. De même, si c’est une rente annuelle immédiate que la personne achète le 1er octobre 2017, le premier versement ne sera effectué qu’après un an, soit le 1er octobre 2018.
 
-#### **Rente due** {-}
-
-Une rente est dite « due » si le versement débute dès l’achat de la rente.
-
-::: {#exm-rente-due-date .custom}
-Par exemple, si une personne achète une rente mensuelle due le 1er octobre 2017, le premier versement de cette rente sera effectué le 1er octobre 2017. De même, si c’est une rente annuelle due que cette personne achète le 1er octobre 2017, le premier versement sera aussi effectué le 1er octobre 2017.
+A l'inverse, si une personne achète une rente mensuelle due le 1er octobre 2017, le premier versement de cette rente sera effectué le 1er octobre 2017. De même, si c’est une rente annuelle due que cette personne achète le 1er octobre 2017, le premier versement sera aussi effectué le 1er octobre 2017.
 :::
 
 ## Rente certaine
 
 Une rente est dite « certaine » si elle est payable pour une durée prédéterminée, sans égard au fait que le rentier soit vivant ou non, ou qu’il décède ou non pendant que la rente est versée. La rente certaine relève du domaine des mathématiques financières, comme vous pouvez le voir dans le cours [ACT1200 - Mathématiques financières I](https://etudier.uqam.ca/cours?sigle=ACT1200). Le calcul d’une rente certaine ne fait intervenir que la notion d’intérêt composé, par l’intermédiaire du facteur d’actualisation $v^t = \frac{1}{(1+i)^t}$. 
 
-*L’idée ici n’est pas de refaire ce que vous avez vu dans le cours [ACT1200 - Mathématiques financières I](https://etudier.uqam.ca/cours?sigle=ACT1200), mais plutôt d’utiliser cet exemple pour mieux comprendre par la suite les notions de rentes viagères.*
+> L’idée ici n’est pas de refaire ce que vous avez vu dans le cours [ACT1200 - Mathématiques financières I](https://etudier.uqam.ca/cours?sigle=ACT1200), mais plutôt d’utiliser cet exemple pour mieux comprendre par la suite les notions de rentes viagères.
 
 #### **Rente certaine due** {-}
 
@@ -256,7 +239,7 @@ tab_imm %>%
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Comparaison** {-}
+**Comparaison**
 
 Les deux tableaux présentent la valeur actuelle des versements de rentes certaines de 10 ans selon trois taux d’intérêt : 2\%, 4\% et 6\%. Chaque ligne indique la valeur actuelle d’un versement de 1\$ à la date prévue par le contrat.
 
@@ -488,7 +471,7 @@ Une rente est dite **viagère** lorsque les versements se poursuivent aussi long
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Types de rentes** {-}
+**Types de rentes**
 
 Comme pour les rentes certaines, on distingue deux types de rentes viagères :
 
@@ -586,22 +569,16 @@ tab_rente_viagere %>%
 ```
 :::
 
-Les résultats tableau met en évidence plusieurs éléments importants.
+Les résultats du tableau met en évidence plusieurs éléments importants:  
 
-- La valeur actuelle de chaque versement est égale au montant du versement (1,00 \$), multiplié par le facteur d’actualisation $v^{t+1}$ et par la probabilité de survie ${}_{t+1} p_x$. Un paiement futur n’est donc pris en compte que dans la mesure où le rentier est encore en vie au moment où ce paiement devrait être effectué.
-
-- Pour un même montant de versement, une rente viagère coûte, toutes choses étant égales par ailleurs, moins cher qu’une rente certaine. Certains versements ne seront jamais effectués si le rentier décède avant la date prévue. L’effet de la mortalité réduit donc la valeur actuelle de la rente.
-
-- Les probabilités de survie utilisées dans le tableau dépendent de l’hypothèse de mortalité retenue. Si l’on suppose une mortalité plus élevée, les probabilités de survie diminuent et la valeur initiale de la rente devient plus faible. À l’inverse, une population plus longévive entraîne une valeur plus élevée de la rente.
-
-- Dans l’exemple présenté, les facteurs d’actualisation sont calculés avec un taux d’intérêt de 4 \%. Ce taux détermine la valeur actuelle des paiements futurs, alors que les probabilités de survie déterminent la proportion de paiements qui seront versés en moyenne.
-
+  - La valeur actuelle de chaque versement est égale au montant du versement (1,00 \$), multiplié par le facteur d’actualisation $v^{t+1}$ et par la probabilité de survie ${}_{t+1} p_x$. Un paiement futur n’est donc pris en compte que dans la mesure où le rentier est encore en vie au moment où ce paiement devrait être effectué.  
+  - Pour un même montant de versement, une rente viagère coûte, toutes choses étant égales par ailleurs, moins cher qu’une rente certaine. Certains versements ne seront jamais effectués si le rentier décède avant la date prévue. L’effet de la mortalité réduit donc la valeur actuelle de la rente.  
+  - Les probabilités de survie utilisées dans le tableau dépendent de l’hypothèse de mortalité retenue. Si l’on suppose une mortalité plus élevée, les probabilités de survie diminuent et la valeur initiale de la rente devient plus faible. À l’inverse, une population plus longévive entraîne une valeur plus élevée de la rente.  
+  - Dans l’exemple présenté, les facteurs d’actualisation sont calculés avec un taux d’intérêt de 4 \%. Ce taux détermine la valeur actuelle des paiements futurs, alors que les probabilités de survie déterminent la proportion de paiements qui seront versés en moyenne.  
 
 ### Évolution du passif d’une rente viagère
 
-Lorsqu’une rente viagère est achetée, l’institution qui la vend reçoit un montant initial en échange d’un engagement de paiements futurs conditionnels à la survie du rentier. Du point de vue de cette institution, ces paiements constituent un passif, puisqu’ils représentent des sorties de fonds potentielles à venir. La valeur de ce passif dépend de la valeur actuelle des paiements futurs attendus, calculée en tenant compte du taux d’intérêt et des probabilités de survie. 
-
-Le graphique ci-dessous illustre l'évolution du passif espéré d'une rente viagère, pour un contrat initialement émis au temps $t=0$. Par convention, la valeur représentée à chaque année correspond au passif immédiatement après le paiement prévu à cette date.
+Lorsqu’une rente viagère est achetée, l’institution qui la vend reçoit un montant initial en échange d’un engagement de paiements futurs conditionnels à la survie du rentier. Du point de vue de cette institution, ces paiements constituent un passif, puisqu’ils représentent des sorties de fonds potentielles à venir. La valeur de ce passif dépend de la valeur actuelle des paiements futurs attendus, calculée en tenant compte du taux d’intérêt et des probabilités de survie. Le graphique ci-dessous illustre l'évolution du passif espéré d'une rente viagère, pour un contrat initialement émis au temps $t=0$. Par convention, la valeur représentée à chaque année correspond au passif immédiatement après le paiement prévu à cette date.
 
 ```{r}
 #| code-fold: true
@@ -677,7 +654,7 @@ L’évolution du passif présente une trajectoire décroissante au fil du temps
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Rente viagère versus rente certaine** {-}
+**Rente viagère versus rente certaine**
 
 Cet exemple numérique met en évidence une différence importante entre la rente certaine et la rente viagère. Dans le cas viager, le passif espéré est calculé à partir des paiements futurs possibles, pondérés par les probabilités de survie depuis l'origine du contrat. Il ne représente donc pas nécessairement la provision qui sera établie à une date future, lorsque l'on saura si le rentier est encore vivant. En effet, le nombre de rentiers encore vivants à cette date peut différer du nombre anticipé. Une institution qui verse des rentes viagères doit donc tenir compte de cette incertitude lorsqu'elle établit ses provisions actuarielles, c'est-à-dire les valeurs estimées de ses engagements futurs, compte tenu de l'information disponible et des hypothèses retenues.
 
@@ -685,24 +662,7 @@ Cet exemple numérique met en évidence une différence importante entre la rent
 
 ### Mortalité anticipée et mortalité observée
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:360px;
-">
-
-<img src="images/PredictSurvie.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-</div>
-
-</div>
-
+{{< meme "memes/Palpatine.jpg" "https://knowyourmeme.com/memes/the-tragedy-of-darth-plagueis-the-wise" "350px" >}}
 
 Contrairement à une rente certaine, dont le nombre et les dates des versements sont connus dès le départ, une rente viagère comporte une incertitude importante : on ne sait pas combien de temps le rentier vivra. Pour calculer son passif, l'assureur utilise donc des probabilités de survie. Celles-ci permettent d'estimer les paiements futurs, mais elles ne permettent pas de prédire exactement combien de rentiers seront encore vivants à une date donnée. Au fil des années, l'assureur observe le nombre réel de survivants et le compare à ses prévisions. Deux situations peuvent alors se présenter :
 
@@ -760,29 +720,11 @@ Cet exemple illustre une caractéristique fondamentale des rentes viagères : pl
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Interprétation de la provision actuarielle** {-}
+**Interprétation de la provision actuarielle** 
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:360px;
-">
+{{< meme "memes/Ralph.png" "https://knowyourmeme.com/memes/ralph-in-danger-im-in-danger" "350px" >}}
 
-<img src="images/Ralph.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-</div>
-
-</div>
-
-Lorsqu'une personne achète cette rente viagère immédiate de 1 $ par année, la prime unique pure est de 4,682037 $, selon nos hypothèses de mortalité et un taux d'intérêt de 4 %. Cette somme représente la valeur actuelle espérée des paiements futurs, sans frais ni chargements. Elle ne constitue donc pas un profit immédiat pour l'assureur : elle sert à financer les prestations promises. [↗](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-17-insurance-contracts/ "Fondation IFRS — IFRS 17, évaluation des engagements d'assurance"){.source-link}
-
-Au fil des années, l'assureur doit réévaluer son passif en fonction du nombre de rentiers encore vivants. Les écarts entre la mortalité anticipée et la mortalité observée peuvent alors avoir des conséquences financières importantes :
+Lorsqu'une personne achète cette rente viagère immédiate de 1 $ par année, la prime unique pure est de 4,682037 $, selon nos hypothèses de mortalité et un taux d'intérêt de 4 %. Cette somme représente la valeur actuelle espérée des paiements futurs, sans frais ni chargements. Elle ne constitue donc pas un profit immédiat pour l'assureur : elle sert à financer les prestations promises. [↗](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-17-insurance-contracts/ "Fondation IFRS — IFRS 17, évaluation des engagements d'assurance"){.source-link} Au fil des années, l'assureur doit réévaluer son passif en fonction du nombre de rentiers encore vivants. Les écarts entre la mortalité anticipée et la mortalité observée peuvent alors avoir des conséquences financières importantes :
 
 - **Moins de survivants que prévu :** l'assureur a moins de prestations futures à verser. Son passif diminue par rapport aux prévisions, ce qui peut libérer une partie des sommes jusque-là nécessaires pour couvrir ses engagements. Cette diminution représente un gain actuariel qui peut contribuer à ses profits. [↗](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-17-insurance-contracts/ "Fondation IFRS — IFRS 17, comptabilisation des résultats d'assurance"){.source-link}
 
@@ -1001,25 +943,9 @@ La courbe est exprimée partout selon la même convention : une valeur espérée
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Interprétation de la provision actuarielle** {-}
+**Interprétation de la provision actuarielle** 
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:260px;
-">
-
-<img src="images/Brian.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-</div>
-
-</div>
+{{< meme "memes/Brian.png" "https://knowyourmeme.com/memes/bad-luck-brian" "300px" >}}
 
 Une particularité importante des rentes viagères différées est que le passif existe dès la souscription du contrat, même si les premiers versements ne commencent que plusieurs années plus tard. Par exemple, une personne de 55 ans pourrait acheter une rente dont les versements commenceront à 65 ans. Même si l'assureur n'a rien à verser pendant les 10 premières années, il doit déjà tenir compte de cet engagement dans son passif. Pour évaluer ce passif, l'assureur doit notamment considérer :
 

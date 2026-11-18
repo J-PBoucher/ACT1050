@@ -25,6 +25,11 @@ date-modified: last-modified
 
 <div id="plan-chapitre-auto"></div>
 
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
 :::
 
 
@@ -37,11 +42,14 @@ Le passage de la vie active à la retraite entraîne généralement une diminuti
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/Retraite_4_piliers_vue_ensemble.png" style="width:100%;">
 </div>
@@ -83,11 +91,14 @@ Le code R utilisé pour les calculs importants peut être déplié par le lecteu
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/Retraite_4_piliers_PSV.png" style="width:100%;">
 </div>
@@ -116,7 +127,7 @@ Ces épisodes illustrent une tension persistante entre deux objectifs : offrir u
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Financement** {-}
+**Financement**
 
 Contrairement aux régimes contributifs comme le RRQ et le RPC, la PSV est financée à partir des recettes fiscales générales du gouvernement fédéral. Elle repose sur un système de *répartition* (*pay-as-you-go*) : les prestations sont financées par les recettes publiques courantes, sans qu'un fonds distinct soit accumulé pour couvrir les prestations futures. [↗](https://publications.gc.ca/Pilot/LoPBdP/MR/mr58-e.htm "Bibliothèque du Parlement — Historique et financement de la Sécurité de la vieillesse"){.source-link} Ce mode de financement rend le coût du programme sensible au vieillissement de la population. Lorsque le nombre de bénéficiaires augmente, les dépenses peuvent croître, même si le montant des prestations individuelles demeure inchangé. Leur poids dans les finances publiques dépend également de l'évolution de l'économie et des recettes fiscales. [↗](https://www.osfi-bsif.gc.ca/fr/bac/rapports-actuariels/18e-rapport-actuariel-sur-programme-securite-vieillesse-au-31-decembre-2021 "BSIF — 18e rapport actuariel sur le Programme de la sécurité de la vieillesse, projections financières"){.source-link}
 
@@ -140,24 +151,7 @@ Certaines exceptions existent. Par exemple, les personnes ayant travaillé à l'
 
 ### Calcul de la pension
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:350px;
-">
-
-<img src="images/Sortie12.png"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-
-</div>
-
-</div>
+{{< meme "memes/Sortie12.png" "https://knowyourmeme.com/memes/left-exit-12-off-ramp" "300px" >}}
 
 Le montant de la Pension de sécurité de la vieillesse (PSV) dépend notamment de l'âge du bénéficiaire et de sa durée de résidence au Canada. Pour le trimestre d'octobre à décembre 2026, la pension mensuelle maximale est de :
 
@@ -450,11 +444,14 @@ Le point important est que la nouvelle augmentation est calculée par rapport à
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/Retraite_4_piliers_SRG.png" style="width:100%;">
 </div>
@@ -873,11 +870,14 @@ Pour bien comprendre cette particularité du SRG, il reste toutefois à examiner
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/Retraite_4_piliers_Allocations.png" style="width:100%;">
 </div>
@@ -901,23 +901,7 @@ Le système se développe progressivement pour répondre à ces situations :
 
 #### **Évolution et débats sur la protection du revenu** {-}
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:280px;
-">
-
-<img src="images/Crow.jpeg"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-</div>
-
-</div>
+{{< meme "memes/Crow.jpeg" "https://knowyourmeme.com/sensitive/memes/crow-of-judgement" "300px" >}}
 
 L'évolution de ces programmes illustre une préoccupation importante des politiques publiques de retraite : comment soutenir les personnes qui n'ont pas encore atteint l'âge d'admissibilité aux pensions publiques, mais qui disposent de ressources financières insuffisantes? Les débats entourant l'élargissement des Allocations ont notamment porté sur la situation des femmes veuves, qui avaient souvent consacré une partie importante de leur vie à des activités familiales non rémunérées et disposaient de droits limités à des pensions personnelles. L'extension du soutien à l'ensemble des personnes de 60 à 64 ans à faible revenu a toutefois été jugée trop coûteuse. Le gouvernement a donc maintenu une protection ciblée selon la situation conjugale. [↗](https://www.canada.ca/fr/emploi-developpement-social/ministere/rapports/evaluations/programme-sv-phase-02.html "Emploi et Développement social Canada — Débats sur l'élargissement des Allocations"){.source-link} Les caractéristiques des bénéficiaires ont également évolué avec la participation croissante des femmes au marché du travail et l'amélioration des revenus de retraite. Dans une évaluation publiée par le gouvernement fédéral, les bénéficiaires des deux Allocations représentaient environ 3 % de l'ensemble des Canadiens âgés de 60 à 64 ans en 2016, mais 22 % des personnes veuves de cette tranche d'âge. Ces programmes demeurent donc relativement restreints dans l'ensemble de la population, tout en jouant un rôle important pour certaines catégories de personnes. [↗](https://www.canada.ca/fr/emploi-developpement-social/ministere/rapports/evaluations/programme-sv-phase-02.html "Emploi et Développement social Canada — Profil et proportion des bénéficiaires des Allocations"){.source-link}
 
@@ -1262,11 +1246,14 @@ ggplot(
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/Retraite_4_piliers_RRQ_RPC.png" style="width:100%;">
 </div>
@@ -1537,17 +1524,7 @@ ggplot() +
 
 ### Le calcul de la rente du RRQ
 
-<div style="
-float:right;
-width:28vw;
-max-width:280px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Holmes.png" style="width:100%;">
-</div>
-
+{{< meme "memes/Holmes.png" "https://knowyourmeme.com/memes/elizabeth-holmes-and-nathan-fielder-why-would-i-deceive-you" "300px" >}}
 
 Le calcul de la rente de retraite du RRQ repose sur les revenus de travail accumulés au cours de la carrière du participant. Toutefois, ces revenus ne sont pas nécessairement pris en compte dans leur totalité. Ils doivent d'abord être plafonnés selon les règles du régime, puis rajustés afin de rendre comparables les revenus gagnés à différentes époques. Depuis l'introduction du régime supplémentaire en 2019 [↗](https://www.retraitequebec.gouv.qc.ca/fr/publications/programmes/regime-rentes-quebec-rrq/retraite/methode-calcul-rente-retraite-regime-rentes-quebec "Retraite Québec — Méthode de calcul de la rente de retraite"){.source-link}, la rente de retraite comprend trois composantes :
 
@@ -2246,17 +2223,7 @@ resultat_rrq |>
 
 #### **Sommaire de l'exemple** {-}
 
-
-<div style="
-float:right;
-width:28vw;
-max-width:380px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/lotr.gif" style="width:100%;">
-</div>
+{{< meme "memes/lotr.gif" "https://www.youtube.com/watch?v=QUAItQmq-LU" "300px" >}}
 
 La rente totale obtenue est donc de **1 430,12 $ par mois**, soit 17 161,44 $ sur une période de douze mois au même taux. Ce résultat correspond à la rente calculée par Retraite Québec pour cet exemple, avant tout ajustement lié à l'âge du début des versements. [↗](https://www.retraitequebec.gouv.qc.ca/sites/default/files/SiteCollectionDocuments/RetraiteQuebec/fr/publications/nos-programmes/regime-de-rentes/retraite/1036-1f-Methode-calcul-rente-2025.pdf "Retraite Québec — Exemple officiel de calcul d'une rente de retraite en 2025"){.source-link}
 
@@ -2483,16 +2450,7 @@ ggplot(df, aes(x = Age, y = Facteur)) +
 
 ### Prestations en cas de décès d'un participant
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Coffin.gif" style="width:100%;">
-</div>
+{{< meme "memes/Coffin.gif" "https://www.youtube.com/watch?v=j9V78UbdzWI" "450px" >}}
 
 Le Régime de rentes du Québec (RRQ) prévoit également une protection financière pour les proches d'une personne décédée, à condition que celle-ci ait suffisamment cotisé au régime. Cette protection prend la forme de trois prestations de survivants [↗](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/deces/rentes-et-prestations-conjoints-enfants-et-heritiers "Retraite Québec — Rentes et prestations pour les conjoints, les enfants et les héritiers"){.source-link} :
 
@@ -2591,16 +2549,7 @@ Ces prestations sont soumises à des conditions d'admissibilité particulières 
 
 ### Cotisations au RRQ et au RPC
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Gru.jpg" style="width:100%;">
-</div>
+{{< meme "memes/Gru.jpg" "https://knowyourmeme.com/memes/grus-plan" "300px" >}}
 
 Le Régime de rentes du Québec (RRQ) et le Régime de pensions du Canada (RPC) reposent sur des mécanismes de financement similaires. Tous deux sont financés par les cotisations des travailleurs et des employeurs, ainsi que par les revenus générés par le placement de leurs réserves. Contrairement à un compte d'épargne individuel, les cotisations alimentent un mécanisme collectif destiné à financer les prestations actuelles et futures. Dans les deux régimes, les cotisations sont partagées à parts égales entre les salariés et leurs employeurs. Les travailleurs autonomes assument les deux parts. Les taux de cotisation diffèrent toutefois entre le RRQ et le RPC, comme nous le verrons dans la section suivante. [↗](https://www.retraitequebec.gouv.qc.ca/fr/programmes/regime-rentes-quebec "Retraite Québec — Fonctionnement et financement du RRQ"){.source-link} [↗](https://www.canada.ca/fr/emploi-developpement-social/programmes/regime-pensions.html "Gouvernement du Canada — Régime de pensions du Canada"){.source-link}
 
@@ -2733,17 +2682,7 @@ L'un des principaux indicateurs utilisés pour le régime de base du RRQ est le 
 
 #### **RRQ versus RPC** {-}
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Spiderman.jpg" style="width:100%;">
-</div>
-
+{{< meme "memes/Spiderman.jpg" "https://knowyourmeme.com/memes/spider-man-pointing-at-spider-man" "350px" >}}
 
 Bien que le RRQ et le RPC offrent des prestations largement comparables et reposent sur des mécanismes de financement similaires, leurs taux de cotisation diffèrent. En 2026, le taux combiné des cotisations salariales et patronales au régime de base est de 10,6 % au RRQ, contre 9,9 % au RPC. Les taux des deux volets supplémentaires sont toutefois identiques. [↗](https://www.retraitequebec.gouv.qc.ca/fr/montants-prestations-et-donnees-base "Retraite Québec — Taux de cotisation 2026"){.source-link} [↗](https://www.canada.ca/fr/agence-revenu/services/impot/entreprises/sujets/retenues-paie/retenues-paie-cotisations/regime-pensions-canada-rpc/taux-cotisations-rpc-maximums-exemptions.html "Agence du revenu du Canada — Taux de cotisation au RPC"){.source-link} Pourquoi deux régimes aussi similaires peuvent-ils avoir des besoins de financement différents? Plusieurs facteurs interviennent :
 

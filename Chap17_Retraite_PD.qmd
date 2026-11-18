@@ -27,6 +27,11 @@ date-modified: last-modified
 
 <div id="plan-chapitre-auto"></div>
 
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
 :::
 
 ## Introduction
@@ -45,20 +50,7 @@ La plupart des régimes observés en pratique correspondent à des formes hybrid
 
 ## Rente de retraite visée
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:350px;
-">
-
-<img src="images/Predator.jpg"
-style="width:100%; height:auto; display:block;">
-
-</div>
+{{< meme "memes/Predator.jpg" "https://knowyourmeme.com/memes/epic-handshake" "350px" >}}
 
 Un régime complémentaire de retraite peut être conçu pour compléter les revenus provenant des régimes publics. Dans le cas d'un régime à prestations déterminées (PD), l'un des objectifs possibles est de procurer au participant un revenu de retraite correspondant à une certaine proportion de son salaire antérieur.  En considérant uniquement la rente du Régime de rentes du Québec (RRQ) et celle du régime complémentaire, le revenu annuel total à la retraite s'exprime par :
 
@@ -208,7 +200,7 @@ On constate que le taux d'accumulation nécessaire dans le régime PD augmente l
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Bornes au taux d'accumulation** {-}
+**Bornes au taux d'accumulation** 
 
 Puisque le RRQ contribue au revenu de retraite, le taux annuel d'accumulation nécessaire dans le régime PD demeure inférieur à celui qui serait requis sans cette contribution :
 
@@ -247,24 +239,7 @@ Le choix de la méthode peut influencer considérablement le montant de la rente
 
 ## Illustration numérique
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:350px;
-">
-
-<img src="images/Bernie.jpg"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-
-</div>
-
-</div>
+{{< meme "memes/Bernie.jpg" "https://knowyourmeme.com/memes/i-am-once-again-asking-for-your-financial-support" "350px" >}}
 
 Pour illustrer l'influence de la définition du salaire de référence sur le montant de la rente, considérons cinq formules possibles de régimes à prestations déterminées. Nous retenons, pour les besoins de la comparaison, un taux annuel d'accumulation hypothétique de 1,6 % pour les cinq régimes. Ce taux est choisi pour isoler l'effet de la méthode de calcul : il ne découle pas des taux de coordination avec le RRQ déterminés précédemment et ne constitue pas une norme applicable à tous les régimes. Les cinq formules sont les suivantes :
 
@@ -593,7 +568,7 @@ Calculez la contribution de l'année 2000 à la rente annuelle payable en 2026 p
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Impact de la définition de $\tilde{S}$** {-}
+**Impact de la définition de $\tilde{S}$**
 
 Les contributions annuelles présentées dans le tableau précédent ont été calculées rétrospectivement, avec l'information disponible en 2026. Leur montant définitif n'était pas nécessairement connu au moment où les années de service ont été effectuées :
 
@@ -609,24 +584,7 @@ Il faut donc distinguer l'accumulation des droits à la rente et la déterminati
 
 ### Attention au changement d'employeur
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-padding:6px;
-background:white;
-max-width:400px;
-">
-
-<img src="images/KyloRen.jpg"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-
-</div>
-
-</div>
+{{< meme "memes/KyloRen.jpg" "https://knowyourmeme.com/memes/kylo-rens-more-more" "350px" >}}
 
 L'effet de la définition du salaire de référence devient particulièrement visible lorsqu'une personne change d'employeur pendant sa carrière. Faisons de nouveau un exemple numérique et prenons les régimes 4 et 5 de l'illustration précédente, mais supposons maintenant que les 35 années de participation sont réparties entre quatre employeurs :
 
@@ -790,18 +748,7 @@ Le tableau suivant résume les rentes annuelles attribuables à chaque emploi. L
 
 ### Mobilité des droits
 
-<div style="
-float:right;
-width:28vw;
-max-width:320px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-
-<img src="images/Seal.jpg" style="width:100%;">
-
-</div>
+{{< meme "memes/Seal.jpg" "https://knowyourmeme.com/memes/seal-of-approval" "350px" >}}
 
 Lorsqu'une personne quitte un employeur, sa participation active au régime de retraite peut prendre fin, mais les droits accumulés sont conservés. Selon sa situation et les dispositions du régime PD, elle peut avoir droit à une rente immédiate ou différée, ou encore demander le transfert de la valeur de ses droits. [↗](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/retraite-et-planification/demandez-rente-retraite/revenu-regime-complementaire-retraite/regime-prestations-determinees/autres-evenements/depart-avant-retraite "Retraite Québec — Départ avant la retraite"){.source-link} Deux possibilités principales se présentent :
 
@@ -815,7 +762,7 @@ La valeur transférée repose sur un calcul actuariel tenant notamment compte de
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Rachat et ententes de transfert** {-}
+**Rachat et ententes de transfert**
 
 Certains régimes permettent le rachat d'années de service non reconnues initialement, notamment certaines périodes de travail ou d'absence sans salaire. Moyennant un paiement, ces périodes peuvent être prises en compte pour déterminer l'admissibilité à la retraite ou le montant de la rente. [↗](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/travail/vous-etes-employe-fonction-publique-reseaux-education-sante-et-services-sociaux/rachat-service "Retraite Québec — Rachat de service dans le secteur public"){.source-link} Des ententes de transfert existent également entre certains régimes, notamment dans le secteur public. Elles permettent, sous certaines conditions, de faire reconnaître dans un nouveau régime tout ou partie des années de service accumulées auparavant. Les années reconnues et les prestations qui en découlent dépendent des modalités de chaque entente. [↗](https://www.retraitequebec.gouv.qc.ca/fr/citoyens/travail/vous-etes-employe-fonction-publique-reseaux-education-sante-et-services-sociaux/nouvel-emploi-ou-changement-emploi/transfert-regime-retraite-nouvel-employeur "Retraite Québec — Ententes de transfert"){.source-link} Ces mécanismes peuvent donc atténuer les effets de la mobilité professionnelle sur les prestations de retraite.
 
@@ -904,7 +851,7 @@ Les cotisations des employés sont souvent exprimées en pourcentage de leur sal
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Équilibre financier du régime** {-}
+**Équilibre financier du régime**
 
 Même lorsque les cotisations ont été déterminées adéquatement, la situation financière d'un régime peut évoluer différemment des prévisions. Plusieurs facteurs influencent cet équilibre :
 
@@ -924,19 +871,8 @@ Au Canada, les régimes complémentaires de retraite sont encadrés par des lois
 
 ### Admissibilité et acquisition des droits
 
-<div style="
-float:right;
-width:28vw;
-max-width:400px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
 
-<img src="images/LesDroits.gif" style="width:100%;">
-
-</div>
-
+{{< meme "memes/LesDroits.gif" "https://www.youtube.com/watch?v=lohxTs44--Y" "450px" >}}
 
 L'admissibilité à un régime complémentaire de retraite dépend d'abord de la catégorie d'employés couverte par le régime. Certains régimes s'adressent à l'ensemble des employés d'une entreprise, tandis que d'autres sont réservés à des catégories particulières. Au Québec, l'article 34 de la Loi sur les régimes complémentaires de retraite (LRCR) [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1 "LRCR — Article 34"){.source-link} prévoit qu'un employé appartenant à une catégorie visée doit pouvoir adhérer au régime s'il a satisfait, durant l'année civile précédente, à l'une des conditions suivantes :
 
@@ -1059,19 +995,7 @@ Le participant qui commence à recevoir sa rente plus tôt obtient généralemen
 
 ### Protection du conjoint et prestations de décès
 
-<div style="
-float:right;
-width:28vw;
-max-width:300px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-
-<img src="images/Widow.jpg" style="width:100%;">
-
-</div>
-
+{{< meme "memes/Obiwan3.jpg" "https://www.youtube.com/watch?v=iVBX7l2zgRw" "350px" >}}
 
 Les régimes à prestations déterminées prévoient également des protections pour les proches lorsqu'un participant décède. Au Québec, l'article 85 de la Loi sur les régimes complémentaires de retraite (LRCR) [↗](https://www.legisquebec.gouv.qc.ca/fr/document/lc/R-15.1 "LRCR — Article 85"){.source-link} reconnaît notamment comme conjoint :
 

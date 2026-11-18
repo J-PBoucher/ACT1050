@@ -24,6 +24,11 @@ date-modified: last-modified
 
 <div id="plan-chapitre-auto"></div>
 
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
 :::
 
 
@@ -56,16 +61,7 @@ Au Québec, la protection financière contre les dépenses de santé repose nota
 
 #### **Le régime public d'assurance maladie** {-}
 
-<div style="
-float:right;
-width:28vw;
-max-width:320px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Assurancemaladie.png" style="width:100%;">
-</div>
+{{< meme "memes/Assurancemaladie.png" "https://knowyourmeme.com/memes/hide-the-pain-harold" "350px" >}}
 
 L'instauration de l'assurance hospitalisation en 1961, puis de l'assurance maladie en 1970 constitue une transformation majeure du système de santé québécois [↗](https://www.ramq.gouv.qc.ca/fr/a-propos/historique "Source : RAMQ — Historique"){.source-link}. Auparavant, l'accès aux soins pouvait représenter un fardeau financier considérable pour les familles. Ces régimes ont progressivement établi un principe fondamental : l'accès aux services médicaux et hospitaliers assurés doit dépendre des besoins de santé plutôt que de la capacité financière des personnes.
 
@@ -107,16 +103,7 @@ Le [site de la RAMQ consacré à l'assurance médicaments](https://www.ramq.gouv
 
 ### Assurances privées de personnes
 
-<div style="
-float:right;
-width:28vw;
-max-width:360px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/LifeInsurance.png" style="width:100%;">
-</div>
+{{< meme "memes/LifeInsurance.png" "https://knowyourmeme.com/photos/841792-gif" "360px" >}}
 
 
 En complément des régimes publics, les assureurs privés offrent différentes protections visant à réduire les conséquences financières de la maladie, de l'invalidité ou du décès. Certaines couvrent des dépenses qui ne sont pas prises en charge par les régimes publics, tandis que d'autres prévoient le versement d'un capital ou d'un revenu de remplacement lorsqu'un événement assuré survient.
@@ -250,6 +237,8 @@ Certaines protections déjà présentées dans ce chapitre peuvent également co
 
 Du point de vue actuariel, ces garanties ne représentent pas simplement différentes façons de verser une prestation. Elles nécessitent aussi des hypothèses distinctes, puisque les événements assurés et la durée possible des prestations ne sont pas les mêmes. Le tableau suivant illustre les principaux risques à considérer pour chacune de ces protections.
 
+::: {.encadre}
+
 | Protection | Principaux risques à modéliser |
 |:---|:---|
 | Assurance-vie de base | Probabilité de décès et montant du capital assuré |
@@ -260,6 +249,8 @@ Du point de vue actuariel, ces garanties ne représentent pas simplement différ
 | Rente d'invalidité | Probabilité d'invalidité, durée et montant des prestations |
 | Assurance maladies graves | Incidence des maladies couvertes et conditions de versement |
 | Assurance soins de longue durée | Probabilité de perte d'autonomie, durée et niveau des prestations |
+
+:::
 
 Ce tableau fait ressortir un aspect important du travail actuariel en assurance de personnes : il ne suffit pas de connaître les probabilités de décès pour évaluer l'ensemble des garanties offertes. Il faut également étudier la morbidité, l'invalidité, la perte d'autonomie et certains comportements des assurés. Le cadre canadien de suffisance du capital des assureurs-vie distingue d'ailleurs explicitement plusieurs de ces catégories de risques. [↗](https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/life-insurance-capital-adequacy-test-2025-chapter-6-insurance-risk "BSIF — Risques d'assurance dans le TSAV"){.source-link} L'ajout de certaines garanties peut donc modifier sensiblement le risque assumé par l'assureur. C'est notamment pourquoi la souscription d'une protection supplémentaire peut nécessiter de nouveaux renseignements médicaux ou une évaluation de l'assurabilité, comme nous le verrons dans la prochaine section.
 
@@ -315,16 +306,7 @@ La situation aurait été différente si l'assureur avait accepté le contrat en
 
 ### Erreur sur l'âge de l'assuré
 
-<div style="
-float:right;
-width:28vw;
-max-width:360px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Age.png" style="width:100%;">
-</div>
+{{< meme "memes/Age.png" "https://knowyourmeme.com/memes/schrute-facts" "350px" >}}
 
 L'âge intervient directement dans la tarification et parfois dans la durée des prestations. Contrairement aux fausses déclarations examinées au [chapitre 8](Chap8_Juridique.qmd), une erreur d'âge fait l'objet de règles particulières :
 
@@ -524,14 +506,7 @@ Cet exemple illustre ainsi que la désignation d'un bénéficiaire n'influence p
 
 Les protections d'assurance de personnes répondent à des besoins différents, mais leur fonctionnement repose toujours sur des conditions contractuelles précises. La distinction entre preneur, assuré et bénéficiaire, les modalités de prise d'effet ou de maintien de la couverture et les dispositions propres aux assurances de personnes peuvent changer concrètement le résultat d'une réclamation.  La désignation du bénéficiaire est particulièrement importante : elle peut modifier la destination du capital, les droits du titulaire et la situation de ses créanciers. C'est pourquoi la compréhension des contrats doit accompagner leur analyse actuarielle.
 
-
-<div style="
-  background: #F5F7FA;
-  border-left: 3px solid #A0A8B0;
-  padding: 12px 18px;
-  margin: 1.5em 0;
-  border-radius: 3px;
-">
+::: {style="background: #FAF0EF; border-left: 3px solid #B76E65; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
 <strong>Limites des dispositions juridiques présentées</strong>
 
@@ -541,7 +516,8 @@ Les règles relatives à l'assurance de personnes présentées dans ce chapitre 
 
 </p>
 
-</div>
+:::
+
 
 
 ::: {.callout-note collapse="true" icon=false}

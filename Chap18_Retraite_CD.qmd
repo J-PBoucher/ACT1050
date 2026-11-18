@@ -383,7 +383,7 @@ Dans un régime CD, l'engagement de l'employeur se limite généralement au vers
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-#### **Synthèse** {-}
+**Synthèse** 
 
 La comparaison ne permet pas de conclure qu'un type de régime est systématiquement supérieur à l'autre. Un régime PD procure généralement une meilleure prévisibilité du revenu de retraite, mais impose à l'employeur des engagements financiers plus importants et plus incertains. À l'inverse, un régime CD facilite la prévision des coûts pour l'employeur, mais transfère une part importante des risques financiers et des décisions de retraite au participant. Il faut également tenir compte de la générosité des dispositions offertes. Un régime CD prévoyant des cotisations importantes peut procurer un revenu de retraite supérieur à celui d'un régime PD moins généreux, selon les rendements et les conditions de décaissement. Le type de régime ne suffit donc pas, à lui seul, pour déterminer la valeur des avantages de retraite offerts à un employé.
 

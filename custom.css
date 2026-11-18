@@ -964,3 +964,957 @@ a.meme img {
   width: 100%;
   height: auto;
 }
+
+
+/* Définitions provenant de différentes sources */
+
+.definition-source {
+  background: #F3F1EE;
+  border-left: 3px solid #A49A8E;
+  border-radius: 3px;
+  padding: 14px 18px;
+  margin: 1em 0;
+}
+
+.definition-source .source-titre {
+  font-size: 0.85em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #71665A;
+  margin-bottom: 0.6em;
+}
+
+.definition-source p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Comparaison de deux concepts */
+
+.comparaison-concepts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin: 1.5em 0;
+}
+
+.concept {
+  background: #F1F3EF;
+  border-top: 4px solid #83957B;
+  border-radius: 5px;
+  padding: 18px 20px;
+}
+
+.concept-titre {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #374632;
+  margin-bottom: 0.4em;
+}
+
+.concept-question {
+  font-style: italic;
+  color: #63745D;
+  border-bottom: 1px solid #CDD5C9;
+  padding-bottom: 0.8em;
+  margin-bottom: 1em;
+}
+
+.concept p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .comparaison-concepts {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+/* Présentation des associations actuarielles */
+
+.association {
+  display: flow-root;
+  padding: 1.4em 0;
+  margin: 0;
+  border-bottom: 1px solid #D8D4CD;
+}
+
+.association:last-child {
+  border-bottom: none;
+}
+
+.association h3 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #34495E;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  border-bottom: none;
+}
+
+.association-info {
+  font-size: 0.85em;
+  font-weight: 500;
+  color: #847B70;
+  letter-spacing: 0.03em;
+  margin-bottom: 1.2em;
+}
+
+.association-logo {
+  float: right;
+  width: 22%;
+  max-width: 150px;
+  margin: 0 0 1.2em 1.8em;
+}
+
+.association-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.association p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .association-logo {
+    width: 28%;
+    max-width: 110px;
+    margin: 0 0 0.8em 1em;
+  }
+}
+
+
+
+/* Chroniques historiques illustrées */
+
+.chronique-historique {
+  display: flow-root;
+  background: #FAF7EF;
+  border-left: 3px solid #B5A078;
+  border-radius: 3px;
+  padding: 20px 24px;
+  margin: 1.4em 0;
+}
+
+.chronique-date {
+  color: #927B50;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.4em;
+}
+
+.chronique-titre {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #524735;
+  margin-bottom: 0.8em;
+}
+
+.chronique-image {
+  float: left;
+  width: 25%;
+  max-width: 200px;
+  margin: 0 1.5em 0.8em 0;
+}
+
+.chronique-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.chronique-historique p:last-child {
+  margin-bottom: 0;
+}
+
+.chronique-historique blockquote {
+  border-left: 2px solid #B5A078;
+  color: #524735;
+  font-family: Georgia, serif;
+  font-style: italic;
+  padding-left: 1em;
+  margin: 1em 0;
+}
+
+@media (max-width: 600px) {
+  .chronique-image {
+    width: 35%;
+    max-width: 120px;
+    margin: 0 1em 0.8em 0;
+  }
+
+  .chronique-historique {
+    padding: 14px 16px;
+  }
+}
+
+
+
+
+/* Formes institutionnelles de protection */
+
+.forme-protection {
+  display: flow-root;
+  margin: 1.8em 0;
+  padding-bottom: 1.4em;
+  border-bottom: 1px solid #DDD7E2;
+}
+
+.forme-protection:last-child {
+  border-bottom: none;
+}
+
+.protection-entete {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 1em;
+}
+
+.protection-numero {
+  background: #EAE5EF;
+  color: #746580;
+  font-size: 1.4em;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 8px 13px;
+  flex-shrink: 0;
+}
+
+.protection-titre {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #51465C;
+}
+
+.illustration-professionnelle {
+  display: flow-root;
+  background: #F5F2F7;
+  border-radius: 5px;
+  padding: 18px 22px;
+  margin: 1.2em 0 0;
+}
+
+.illustration-etiquette {
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #746580;
+  margin-bottom: 0.4em;
+}
+
+.illustration-titre {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #51465C;
+  margin-bottom: 0.8em;
+}
+
+.illustration-logo {
+  float: right;
+  width: 25%;
+  max-width: 180px;
+  margin: 0 0 1em 1.5em;
+}
+
+.illustration-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.illustration-professionnelle p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .illustration-logo {
+    width: 30%;
+    max-width: 110px;
+    margin-left: 1em;
+  }
+
+  .illustration-professionnelle {
+    padding: 14px 16px;
+  }
+}
+
+
+
+
+
+/* Portrait statistique du marché de l'assurance */
+
+.portrait-indicateurs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 0.6em 0;
+}
+
+.portrait-indicateur {
+  background: #EFF3F4;
+  border-top: 3px solid #78949D;
+  border-radius: 4px;
+  padding: 20px 12px;
+  text-align: center;
+}
+
+.portrait-valeur {
+  font-size: 1.9em;
+  font-weight: 700;
+  color: #405F68;
+  line-height: 1.2;
+  margin-bottom: 0.4em;
+}
+
+.portrait-libelle {
+  font-size: 0.85em;
+  color: #52636A;
+  line-height: 1.4;
+}
+
+.portrait-etiquette {
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #536F77;
+  margin-top: 1.8em;
+}
+
+.portrait-source {
+  font-size: 0.78em;
+  color: #777;
+  text-align: right;
+  margin: 0.5em 0 1.5em;
+}
+
+/* Titres des sous-sections */
+
+.portrait-entete {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-top: 1px solid #CBD6D9;
+  padding-top: 1.2em;
+  margin: 2em 0 1em;
+}
+
+.portrait-numero {
+  font-size: 2em;
+  font-weight: 300;
+  color: #78949D;
+  flex-shrink: 0;
+}
+
+.portrait-titre {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #405F68;
+}
+
+/* Classification des produits */
+
+.portrait-categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 1.5em 0;
+}
+
+.portrait-categorie {
+  background: #EFF3F4;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.portrait-categorie-titre {
+  background: #536F77;
+  color: white;
+  font-weight: 700;
+  padding: 12px 8px;
+}
+
+.portrait-produit {
+  background: white;
+  color: #405F68;
+  border-radius: 3px;
+  padding: 12px 8px;
+  margin: 10px;
+}
+
+/* Présentation des graphiques originaux */
+
+.portrait-graphiques {
+  background: #F4F6F7;
+  border: 1px solid #DFE5E7;
+  border-radius: 5px;
+  padding: 18px;
+  margin: 1.5em 0;
+}
+
+.portrait-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  align-items: start;
+}
+
+.portrait-image {
+  background: white;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+}
+
+.portrait-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.portrait-image-unique {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.portrait-legende {
+  font-size: 0.85em;
+  color: #52636A;
+  text-align: center;
+  margin-top: 12px;
+}
+
+@media (max-width: 800px) {
+  .portrait-indicateurs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .portrait-categories,
+  .portrait-images {
+    grid-template-columns: 1fr;
+  }
+
+  .portrait-graphiques {
+    padding: 8px;
+  }
+
+  .portrait-valeur {
+    font-size: 1.6em;
+  }
+}
+
+
+
+
+
+/* ==================================================
+   FICHE DE PRÉSENTATION D'UNE ORGANISATION
+   ================================================== */
+
+.fiche-organisation {
+  background: #E7EDF3;
+  border: 1px solid #8C9FB5;
+  border-top: 4px solid #8C9FB5;
+  border-radius: 6px;
+  padding: 24px;
+  margin: 1.5em 0;
+}
+
+/* En-tête */
+
+.fiche-organisation-entete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 18px;
+}
+
+.fiche-organisation-nom {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #405F68;
+  line-height: 1.3;
+}
+
+.fiche-organisation-type {
+  font-size: 0.9em;
+  color: #63777D;
+  margin-top: 5px;
+}
+
+.fiche-organisation-logo {
+  flex: 0 0 140px;
+}
+
+.fiche-organisation-logo img {
+  display: block;
+  width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+  margin: 0 auto;
+  mix-blend-mode: multiply;
+}
+
+/* Caractéristiques de l'organisation */
+
+.fiche-organisation-caracteristiques {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 24px;
+  border-top: 1px solid #D1DCDD;
+  border-bottom: 1px solid #D1DCDD;
+  padding: 18px 0;
+  margin-bottom: 18px;
+}
+
+.fiche-organisation-libelle {
+  font-size: 0.78em;
+  color: #63777D;
+  margin-bottom: 4px;
+}
+
+.fiche-organisation-valeur {
+  font-size: 1em;
+  font-weight: 600;
+  color: #354E57;
+}
+
+/* Description et site Web */
+
+.fiche-organisation-description {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.fiche-organisation-description p:last-child {
+  margin-bottom: 0;
+}
+
+.fiche-organisation-web {
+  font-size: 0.85em;
+  margin-top: 14px;
+}
+
+@media (max-width: 600px) {
+  .fiche-organisation {
+    padding: 16px;
+  }
+
+  .fiche-organisation-logo {
+    flex-basis: 90px;
+  }
+
+  .fiche-organisation-nom {
+    font-size: 1.25em;
+  }
+
+  .fiche-organisation-caracteristiques {
+    gap: 14px;
+  }
+}
+
+
+
+/* Facultés et départements de l'UQAM */
+
+.faculty-grid {
+  display: block;
+  column-count: 4;
+  column-gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.faculty {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  break-inside: avoid;
+  margin: 0 0 1rem;
+  padding: 0;
+  background: #F5F7FA;
+  border: 1px solid #D5E0E9;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.faculty-title {
+  background: #2D4663;
+  color: #FFFFFF;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.8rem 1rem;
+  margin: 0;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.faculty-title p {
+  margin: 0;
+}
+
+.faculty .faculty-title a {
+  color: #FFFFFF !important;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.faculty .faculty-title a:hover {
+  text-decoration: underline;
+}
+
+.faculty ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.6rem 1rem;
+}
+
+.faculty li {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  padding: 0.35rem 0;
+  margin: 0;
+}
+
+.faculty li a {
+  color: #345C83;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.faculty li a:hover {
+  text-decoration: underline;
+}
+
+.faculty .tag {
+  font-size: 0.78rem;
+  color: #7A8590;
+  margin-right: 0.3rem;
+}
+
+.faculty-note {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #667788;
+  padding: 0.8rem 1rem;
+  margin: 0;
+  text-align: left;
+}
+
+.faculty-note p {
+  margin: 0;
+}
+
+/* Département de mathématiques */
+
+.faculty a[href="https://math.uqam.ca/"] {
+  color: #235B91;
+  font-weight: 700;
+}
+
+/* Adaptation à la largeur de l'écran */
+
+@media (max-width: 1200px) {
+  .faculty-grid {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 900px) {
+  .faculty-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .faculty-grid {
+    column-count: 1;
+  }
+}
+
+/* Ajustements — Facultés et départements */
+
+.faculty-grid {
+  column-count: 3;
+  column-gap: 1.2rem;
+}
+
+.faculty-grid .faculty .faculty-title,
+.faculty-grid .faculty .faculty-title p,
+.faculty-grid .faculty .faculty-title a,
+.faculty-grid .faculty .faculty-title a:visited {
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.faculty-grid .faculty li,
+.faculty-grid .faculty p {
+  text-align: left !important;
+}
+
+.faculty-grid .faculty li {
+  padding: 0.2rem 0;
+}
+
+@media (max-width: 1000px) {
+  .faculty-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .faculty-grid {
+    column-count: 1;
+  }
+}
+
+/* Bandeaux des facultés et liens externes */
+
+.faculty-grid .faculty-title,
+.faculty-grid .faculty-title p {
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+}
+
+.faculty-grid .faculty-title p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.faculty-grid .faculty-title a.faculty-link {
+  color: #FFFFFF !important;
+  font-size: 1.1rem;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border: none !important;
+  margin-left: auto;
+  flex-shrink: 0;
+  opacity: 0.8;
+  transition: opacity 0.15s ease;
+}
+
+.faculty-grid .faculty-title a.faculty-link:hover {
+  opacity: 1;
+}
+
+.faculty-grid .faculty-title a.faculty-link::after {
+  display: none !important;
+}
+
+
+/* ==========================================================
+   PROFESSEURS ET CHARGÉS DE COURS EN ACTUARIAT
+   ========================================================== */
+
+/* Grilles de présentation */
+
+.act-staff-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+  align-items: stretch;
+}
+
+.act-professors {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.act-lecturers {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* Cartes individuelles */
+
+.act-staff-card {
+  min-width: 0;
+  background: #F5F7FA;
+  border: 1px solid #D5E0E9;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Bandeaux et noms des professeurs */
+
+.act-staff-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  background: #304662;
+  color: #FFFFFF;
+  padding: 0.65rem 0.85rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  text-align: left;
+}
+
+/* Flèches vers les pages institutionnelles */
+
+.act-staff-grid .act-staff-name a.act-staff-link,
+.act-staff-grid .act-staff-name a.act-staff-link:visited {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  border: 0 !important;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.act-staff-link::after {
+  display: none !important;
+}
+
+/* Contenu des cartes */
+
+.act-staff-body {
+  display: flex;
+  gap: 0.9rem;
+  padding: 0.85rem;
+  align-items: flex-start;
+}
+
+/* Portraits des professeurs */
+
+.act-staff-grid img.act-staff-photo {
+  width: clamp(65px, 23%, 100px);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  flex-shrink: 0;
+  border-radius: 4px;
+  margin: 0;
+}
+
+/* Informations individuelles */
+
+.act-staff-info {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+/* Libellé « Enseignement » */
+
+.act-staff-label {
+  font-size: 0.69rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #667788;
+  margin-bottom: 0.45rem;
+}
+
+/* Fonctions et responsabilités administratives */
+
+.act-staff-role {
+  font-size: 0.78rem;
+  color: #304662;
+  font-weight: 600;
+  margin-bottom: 0.65rem;
+}
+
+/* Listes des cours */
+
+.act-staff-grid ul.act-staff-courses {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.act-staff-grid .act-staff-courses li {
+  padding: 0.35rem 0;
+  margin: 0;
+  line-height: 1.35;
+  text-align: left;
+}
+
+/* Séparation entre les cours */
+
+.act-staff-courses li + li {
+  border-top: 1px solid #DCE4EB;
+}
+
+/* Hyperliens vers les descriptions des cours */
+
+.act-staff-grid .act-staff-courses a {
+  display: block;
+  font-size: 0.83rem;
+  color: #345C83;
+  text-decoration: none;
+  border: 0;
+}
+
+/* Séparation du sigle et du titre du cours */
+
+.act-staff-courses a strong,
+.act-staff-courses a span {
+  display: block;
+}
+
+.act-staff-courses a strong {
+  color: #304662;
+  font-size: 0.78rem;
+  letter-spacing: 0.025em;
+}
+
+.act-staff-courses a:hover span {
+  text-decoration: underline;
+}
+
+/* Présentation particulière des chargés de cours */
+
+.act-lecturers .act-staff-name {
+  background: transparent;
+  color: #304662;
+  margin: 0 0.85rem;
+  padding: 0.75rem 0 0.55rem;
+  border-bottom: 1px solid #D5E0E9;
+}
+
+.act-lecturers .act-staff-body {
+  padding-top: 0.35rem;
+}
+
+/* ==========================================================
+   ADAPTATION AUX PETITS ÉCRANS
+   ========================================================== */
+
+@media (max-width: 1100px) {
+  .act-lecturers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .act-professors,
+  .act-lecturers {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+

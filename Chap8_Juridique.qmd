@@ -36,11 +36,14 @@ L’assurance est une activité économique fortement encadrée par le droit. Le
 
 <div style="
 float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
+display:inline-block;
 margin:0 0 1em 1em;
 text-align:center;
+border:0.5px solid #bbb;
+padding:6px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+max-width:330px;
 ">
 <img src="images/BarreauQc.jpg" style="width:100%;">
 <div style="font-size:0.85em; margin-top:0.3em;">
@@ -68,23 +71,11 @@ Il faut distinguer cette classification d'une autre particularité du Canada : l
 
 ### Historique
 
+{{< meme "memes/TonyStark.jpg" "https://knowyourmeme.com/memes/robert-downey-jr-eye-roll" "300px" >}}
+
 Cette dualité juridique trouve son origine dans [l'histoire du droit civil au Canada](https://www.justice.gc.ca/fra/pr-rp/sjc-csj/pji-ilp/hist/). Notons tout d'abord que jusqu'au milieu du XVIIIe siècle, le territoire correspondant à l'actuelle province du Québec faisait partie de la Nouvelle-France, une colonie de la France en Amérique du Nord. Durant cette période, les relations civiles y étaient régies par le droit civil français, principalement la [Coutume de Paris](https://www.justice.gc.ca/fra/pr-rp/autre-other/civil/civil.html), qui constituait un ensemble de règles applicables notamment aux contrats, aux biens et aux obligations entre personnes. Son application à la Nouvelle-France avait été officiellement établie en 1664.
 
 À la suite de la conquête britannique de la Nouvelle-France, achevée militairement en 1760 avec la capitulation de Montréal, le territoire correspondant à l'actuel Québec passe sous l'autorité du Royaume-Uni. Cette situation est officialisée par le [traité de Paris de 1763](https://canada.justice.gc.ca/fra/sjc-csj/harmonization/services_information/fondements-fundamentals.html). Le droit anglais, issu d'une tradition juridique qui s'est développée progressivement en Angleterre, notamment après la conquête normande de 1066, repose largement sur les précédents judiciaires et le développement des tribunaux royaux [↗](https://www.judiciary.uk/about-the-judiciary/history-of-the-judiciary-in-england-and-wales/history-of-the-judiciary/ "Source"){.source-link}. Cette tradition évoluera vers ce que l'on désigne aujourd'hui comme la *common law*.
-
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Histoire.jpg" style="width:60%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
-Pas d'inquiétude (bis): on ne forme pas des historiens et je ne suis pas professeur d'histoire
-</div>
-</div>
 
 Après une tentative infructueuse d'imposer le droit anglais au Québec, le Parlement britannique adopte [l'Acte de Québec de 1774](https://www.justice.gc.ca/fra/pr-rp/autre-other/civil/civil.html), qui rétablit officiellement l'application du droit civil français en matière de propriété et de droits civils, tout en maintenant le droit criminel anglais. Par la suite, l'évolution constitutionnelle du Canada a permis au Québec de conserver un droit civil codifié, tandis que les autres provinces et territoires ont continué d'appliquer la *common law*.
 
@@ -116,6 +107,8 @@ Dans les deux traditions, les lois et les décisions judiciaires doivent donc ê
 ## Le partage constitutionnel des compétences
 
 ### Fondements constitutionnels
+
+{{< meme "memes/CatMaths.jpg" "https://en.wikipedia.org/wiki/Woman_yelling_at_a_cat" "450px" >}}
 
 Le cadre juridique de l’assurance au Canada ne peut être compris indépendamment de la structure politique du pays. Le Canada est un État fédéral, c’est-à-dire un État composé de plusieurs entités territoriales — les provinces — qui disposent de leurs propres compétences juridiques, tout en partageant certaines responsabilités avec un gouvernement central, appelé le gouvernement fédéral. Cette structure fédérale s’est mise en place à la [création du Canada en 1867](https://www.canada.ca/fr/affaires-intergouvernementales/services/federation/federalisme-canada.html), avec l’union de trois colonies britanniques : la province du Canada, le Nouveau-Brunswick et la Nouvelle-Écosse. La province du Canada a alors été divisée en deux provinces, le Québec et l’Ontario. Ces nouvelles provinces ont conservé une partie de leurs institutions et traditions juridiques. Cette continuité explique notamment pourquoi le Québec a maintenu un système de droit civil, tandis que les autres provinces ont conservé un système fondé sur la *common law*.
 
@@ -172,67 +165,206 @@ La charte, déjà présentée au chapitre précédent, indique la juridiction en
 
 ## Organismes de régulation
 
-### Bureau du surintendant des institutions financières (BSIF)
+Au Canada, plusieurs organismes publics participent à l’encadrement des activités d’assurance. Leurs responsabilités découlent notamment du partage constitutionnel des compétences entre le gouvernement fédéral et les provinces. Examinons trois de ces organismes afin de mieux comprendre leurs mandats respectifs.
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/OSFIlogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+
+::::: {.fiche-organisation}
+
+<div class="fiche-organisation-entete">
+<div>
+<div class="fiche-organisation-nom">Bureau du surintendant des institutions financières (BSIF)</div>
+<div class="fiche-organisation-type">Organisme fédéral de surveillance prudentielle</div>
+</div>
+<div class="fiche-organisation-logo">
+<img src="images/OSFIlogo.png" alt="BSIF">
 </div>
 </div>
 
-Le [Bureau du surintendant des institutions financières](https://laws-lois.justice.gc.ca/fra/lois/O-2.7/), désigné par l’acronyme BSIF en français et OSFI en anglais, est un organisme indépendant créé par une loi du Parlement du Canada. Il est responsable de la surveillance prudentielle des [institutions financières de compétence fédérale](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres), notamment les banques, les sociétés d’assurance constituées sous charte fédérale et les succursales canadiennes d’assureurs étrangers. Cette surveillance porte sur le capital, la solvabilité, la gouvernance et la gestion des risques afin que les institutions puissent honorer leurs engagements, même dans des conditions défavorables. Elle ne porte pas directement sur les clauses des contrats d’assurance individuels.
+<div class="fiche-organisation-caracteristiques">
 
-Dans le cadre de ses fonctions, le BSIF élabore et applique des normes prudentielles [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/comment-consignes-sarriment-notre-mandat "Source"){.source-link} et participe à des mécanismes de coopération nationale et internationale en matière de réglementation financière. Son intervention vise l’assureur en tant qu’institution financière et s’exerce indépendamment des règles provinciales qui encadrent les activités d’assurance exercées sur un territoire donné.
+<div>
+<div class="fiche-organisation-libelle">Siège social</div>
+<div class="fiche-organisation-valeur">Ottawa</div>
+</div>
 
-<div style="clear: both;"></div>
+<div>
+<div class="fiche-organisation-libelle">Création</div>
+<div class="fiche-organisation-valeur">1987</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Statut juridique</div>
+<div class="fiche-organisation-valeur">Organisme public fédéral indépendant</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Territoire de compétence</div>
+<div class="fiche-organisation-valeur">Canada — compétence fédérale</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Mandat principal</div>
+<div class="fiche-organisation-valeur">Surveillance prudentielle des institutions financières fédérales</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Site Web</div>
+<div class="fiche-organisation-valeur"><a href="https://www.osfi-bsif.gc.ca/fr">www.osfi-bsif.gc.ca</a></div>
+</div>
+
+</div>
+
+:::: {.fiche-organisation-description}
+
+Le Bureau du surintendant des institutions financières, désigné par l’acronyme BSIF en français et OSFI en anglais (*Office of the Superintendent of Financial Institutions*), est un organisme indépendant créé par une [loi du Parlement du Canada](https://laws-lois.justice.gc.ca/fra/lois/O-2.7/). Il est responsable de la surveillance prudentielle des [institutions financières de compétence fédérale](https://www.osfi-bsif.gc.ca/fr/surveillance/institutions-financieres), notamment les banques, les sociétés d’assurance constituées sous charte fédérale et les succursales canadiennes d’assureurs étrangers. Cette surveillance porte sur le capital, la solvabilité, la gouvernance et la gestion des risques afin que les institutions puissent honorer leurs engagements, même dans des conditions défavorables. Elle ne porte pas directement sur les clauses des contrats d’assurance individuels. Dans le cadre de ses fonctions, le BSIF élabore et applique des normes prudentielles et participe à des mécanismes de coopération nationale et internationale en matière de réglementation financière. Son intervention vise l’assureur en tant qu’institution financière et complète l’encadrement provincial des activités d’assurance. [↗](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/comment-consignes-sarriment-notre-mandat "BSIF — Mandat et consignes prudentielles"){.source-link}
+
+::::
+
+:::::
 
 
-### Autorité des marchés financiers (AMF)
 
-<div style="float:right; width:28vw; max-width:420px; min-width:240px; margin:0 0 1em 1em; text-align:center;">
-<img src="images/AMFlogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+::::: {.fiche-organisation}
+
+<div class="fiche-organisation-entete">
+<div>
+<div class="fiche-organisation-nom">Autorité des marchés financiers (AMF)</div>
+<div class="fiche-organisation-type">Organisme québécois d’encadrement du secteur financier</div>
+</div>
+<div class="fiche-organisation-logo">
+<img src="images/AMFlogo.png" alt="AMF">
 </div>
 </div>
 
-L’[Autorité des marchés financiers](https://lautorite.qc.ca/professionnels/assureurs) est l’organisme public responsable de l’encadrement de l’assurance au Québec. Elle exerce un double rôle : la [surveillance prudentielle](https://lautorite.qc.ca/professionnels/assureurs/lignes-directrices) des assureurs constitués sous charte québécoise et l’encadrement des [pratiques commerciales](https://lautorite.qc.ca/professionnels/assureurs/lignes-directrices/pratiques-commerciales) des assureurs autorisés à exercer au Québec, quelle que soit leur charte. Ce second volet couvre notamment l’information fournie aux assurés, la distribution et l’administration des contrats, le règlement des sinistres et le [traitement des plaintes](https://lautorite.qc.ca/professionnels/assureurs/declaration-annuelle-sur-les-pratiques-commerciales). La protection des consommateurs en constitue un objectif central.
+<div class="fiche-organisation-caracteristiques">
 
-En règle générale, un assureur qui exerce l’activité d’assureur au Québec dans le cadre de l’exploitation d’une entreprise doit obtenir l’autorisation de l’AMF et respecter les règles applicables, notamment celles de la [*Loi sur les assureurs*](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-32.1), de la [*Loi sur la distribution de produits et services financiers*](https://www.legisquebec.gouv.qc.ca/fr/document/lc/D-9.2) et du [Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991). La *Loi sur les assureurs* prévoit toutefois des exceptions, notamment pour certaines activités de réassurance et situations particulières ([articles 27 et 28](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-32.1#se:27)).
+<div>
+<div class="fiche-organisation-libelle">Siège social</div>
+<div class="fiche-organisation-valeur">Québec</div>
+</div>
 
-<div style="clear: both;"></div>
+<div>
+<div class="fiche-organisation-libelle">Création</div>
+<div class="fiche-organisation-valeur">2004</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Statut juridique</div>
+<div class="fiche-organisation-valeur">Organisme public provincial</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Territoire de compétence</div>
+<div class="fiche-organisation-valeur">Québec</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Mandat principal</div>
+<div class="fiche-organisation-valeur">Encadrement du secteur financier et protection du public</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Site Web</div>
+<div class="fiche-organisation-valeur"><a href="https://lautorite.qc.ca">lautorite.qc.ca</a></div>
+</div>
+
+</div>
+
+:::: {.fiche-organisation-description}
+
+L’Autorité des marchés financiers (AMF) est l’organisme public responsable de l’encadrement du secteur financier au Québec. Son mandat couvre notamment les assurances, les valeurs mobilières, les instruments dérivés, les institutions de dépôt et la distribution de produits et services financiers.
+
+Dans le secteur de l’assurance, elle exerce un double rôle :
+
+- La **surveillance prudentielle** des assureurs relevant de sa compétence, notamment ceux constitués sous charte québécoise. [↗](https://lautorite.qc.ca/professionnels/assureurs/lignes-directrices "AMF — Lignes directrices"){.source-link}
+- L’**encadrement des pratiques commerciales** des assureurs autorisés à exercer au Québec, quelle que soit leur charte. [↗](https://lautorite.qc.ca/professionnels/assureurs/lignes-directrices/pratiques-commerciales "AMF — Pratiques commerciales"){.source-link}
+
+Ce second volet couvre notamment l’information fournie aux assurés, la distribution et l’administration des contrats, le règlement des sinistres et le [traitement des plaintes](https://lautorite.qc.ca/professionnels/assureurs/declaration-annuelle-sur-les-pratiques-commerciales). La protection des consommateurs en constitue un objectif central. En règle générale, un assureur qui exerce l’activité d’assureur au Québec dans le cadre de l’exploitation d’une entreprise doit obtenir l’autorisation de l’AMF et respecter les règles applicables, notamment celles de la [*Loi sur les assureurs*](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-32.1), de la [*Loi sur la distribution de produits et services financiers*](https://www.legisquebec.gouv.qc.ca/fr/document/lc/D-9.2) et du [Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991). La *Loi sur les assureurs* prévoit toutefois des exceptions, notamment pour certaines activités de réassurance et situations particulières ([articles 27 et 28](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-32.1#se:27)).
+
+::::
+
+:::::
 
 
-### Financial Services Regulatory Authority of Ontario (FSRA)
 
-<div style="float:right; width:28vw; max-width:420px; min-width:240px; margin:0 0 1em 1em; text-align:center;">
-<img src="images/FSRAlogo.png" style="width:80%;">
-<div style="font-size:0.85em; margin-top:0.3em;">
+::::: {.fiche-organisation}
+
+<div class="fiche-organisation-entete">
+<div>
+<div class="fiche-organisation-nom">Financial Services Regulatory Authority of Ontario (FSRA)</div>
+<div class="fiche-organisation-type">Organisme ontarien d’encadrement des services financiers</div>
+</div>
+<div class="fiche-organisation-logo">
+<img src="images/FSRAlogo.png" alt="FSRA">
 </div>
 </div>
 
-La [*Financial Services Regulatory Authority of Ontario* (FSRA)](https://www.fsrao.ca/fr/propos-de-larsf), appelée en français l’Autorité ontarienne de réglementation des services financiers (ARSF), est l’organisme public responsable de l’encadrement des assurances en Ontario. Elle assure la surveillance prudentielle des assureurs constitués en Ontario et des assureurs réciproques [↗](https://www.fsrao.ca/fr/reglementation/lignes-directrices/cadre-de-surveillance-axee-sur-le-risque-pour-les-compagnies-dassurance-constituees-en-ontario-et-les-assureurs-reciproques "Source"){.source-link} relevant de sa compétence. Elle encadre également la conduite de marché des assureurs autorisés à exercer en Ontario, notamment la distribution, l’information donnée aux assurés, le règlement des sinistres et le traitement des plaintes. La protection du public constitue un objectif central de son intervention.
+<div class="fiche-organisation-caracteristiques">
+
+<div>
+<div class="fiche-organisation-libelle">Siège social</div>
+<div class="fiche-organisation-valeur">Toronto</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Début des activités</div>
+<div class="fiche-organisation-valeur">2019</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Statut juridique</div>
+<div class="fiche-organisation-valeur">Organisme public provincial</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Territoire de compétence</div>
+<div class="fiche-organisation-valeur">Ontario</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Mandat principal</div>
+<div class="fiche-organisation-valeur">Encadrement des services financiers et protection du public</div>
+</div>
+
+<div>
+<div class="fiche-organisation-libelle">Site Web</div>
+<div class="fiche-organisation-valeur"><a href="https://www.fsrao.ca/fr">www.fsrao.ca</a></div>
+</div>
+
+</div>
+
+:::: {.fiche-organisation-description}
+
+La *Financial Services Regulatory Authority of Ontario* (FSRA), appelée en français l’Autorité ontarienne de réglementation des services financiers (ARSF), est un organisme public responsable de l’encadrement de plusieurs secteurs des services financiers en Ontario. Son mandat couvre notamment les assurances, les régimes de retraite, les caisses populaires et le courtage hypothécaire. [↗](https://www.fsrao.ca/fr/propos-de-larsf "ARSF — Présentation de l’organisme"){.source-link} Dans le secteur de l’assurance, ses responsabilités sont comparables à plusieurs de celles exercées par l’AMF au Québec :
+
+- La **surveillance prudentielle** des assureurs constitués en Ontario et des assureurs réciproques relevant de sa compétence. [↗](https://www.fsrao.ca/fr/reglementation/lignes-directrices/cadre-de-surveillance-axee-sur-le-risque-pour-les-compagnies-dassurance-constituees-en-ontario-et-les-assureurs-reciproques "ARSF — Cadre de surveillance prudentielle"){.source-link}
+- L’**encadrement des pratiques commerciales** des assureurs autorisés à exercer en Ontario, notamment la distribution, l’information donnée aux assurés, le règlement des sinistres et le traitement des plaintes.
 
 En règle générale, les assureurs qui exercent des activités d’assurance en Ontario doivent détenir les autorisations requises et respecter les règles de la [*Insurance Act* de l’Ontario](https://www.ontario.ca/laws/statute/90i08) et des règlements connexes, sous réserve des exceptions applicables.
 
-<div style="clear: both;"></div>
+::::
+
+:::::
 
 
-#### **Collaboration pratique entre le BSIF et l’AMF** {-}
 
-Même si la compétence prudentielle principale d’un assureur peut relever du fédéral, par l’entremise du Bureau du surintendant des institutions financières, ou de la province, par l’entremise de l’Autorité des marchés financiers par exemple, ces organismes ne fonctionnent pas de manière isolée dans la pratique. Le BSIF et l’AMF participent à des mécanismes de communication, de coordination et d’échange d’information, notamment sur les enjeux réglementaires et les risques touchant le secteur financier. Cette collaboration demeure toutefois encadrée par des règles de confidentialité et certaines limites institutionnelles. Les évaluations du Fonds monétaire international sur la réglementation financière canadienne [↗](https://www.elibrary.imf.org/view/journals/002/2025/220/article-A001-en.xml "Source"){.source-link} reconnaissent ces efforts de coopération tout en soulignant la nécessité de renforcer les mécanismes d’échange d’information entre les autorités fédérales et provinciales.
+### Collaboration entre les organismes de réglementation
+
+Les organismes de réglementation fédéraux et provinciaux ne fonctionnent pas de manière isolée. Bien que leurs compétences et leurs mandats soient distincts, leurs interventions sont souvent complémentaires. Par exemple, une société d’assurance constituée sous charte fédérale qui exerce ses activités au Québec et en Ontario peut être soumise simultanément à l’encadrement de trois organismes :
+
+- Le BSIF, pour la surveillance prudentielle de l’assureur.
+- L’AMF, pour l’encadrement de ses activités commerciales au Québec.
+- La FSRA, pour l’encadrement de ses activités commerciales en Ontario.
+
+Ces organismes participent à des mécanismes de communication, de coordination et d’échange d’information, notamment sur les enjeux réglementaires et les risques touchant le secteur financier. Cette collaboration demeure toutefois encadrée par des règles de confidentialité et certaines limites institutionnelles. Les évaluations du Fonds monétaire international sur la réglementation financière canadienne reconnaissent ces efforts de coopération tout en soulignant la nécessité de renforcer les mécanismes d’échange d’information entre les autorités fédérales et provinciales. [↗](https://www.elibrary.imf.org/view/journals/002/2025/220/article-A001-en.xml "FMI — Évaluation de la réglementation financière canadienne"){.source-link}
 
 
 
 ## Comparaison concrète pour un assureur exerçant au Québec
 
 Le tableau suivant résume les principales autorités compétentes pour un assureur qui exerce des activités au Québec. Il présente une situation générale : les exceptions prévues par les lois, les structures particulières et les règles applicables à certaines activités doivent être prises en compte dans une analyse réglementaire détaillée. L'[article 21 de la Loi sur les assureurs](https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-32.1#se:21) prévoit notamment l'obligation générale d'obtenir une autorisation de l'AMF pour exercer l'activité d'assureur au Québec, sous réserve des exceptions applicables.
+
+::: {.encadre2}
 
 | Type d’assureur | Surveillance prudentielle principale | Encadrement des activités au Québec |
 |:--|:--|:--|
@@ -241,11 +373,21 @@ Le tableau suivant résume les principales autorités compétentes pour un assur
 | Charte d’une autre province ou d’un territoire | Autorité prudentielle de la juridiction d’origine | AMF et lois québécoises applicables |
 | Charte étrangère avec succursale fédérale | [BSIF pour les activités canadiennes](https://www.osfi-bsif.gc.ca/fr/consignes/repertoire-consignes/entites-etrangeres-exploitant-succursale-au-canada-ligne-directrice-2021); autorité étrangère compétente pour l’assureur dans son ensemble | AMF et lois québécoises applicables |
 
+:::
+
 La distinction essentielle est la suivante : la surveillance prudentielle de l'institution et l'encadrement de ses activités commerciales et contractuelles au Québec sont deux dimensions différentes. Elles peuvent relever d'autorités distinctes et s'appliquer simultanément.
 
-#### **Choix de la charte pour un assureur** {-}
+
+::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
+
+<strong>Choix de la charte pour un assureur</strong>
+
+<p style="margin-top: 0.6em; margin-bottom: 0;">
 
 Le choix d'une charte ne repose pas sur un critère unique. Une charte fédérale peut faciliter la centralisation de la surveillance prudentielle d'un assureur présent dans plusieurs provinces; elle ne dispense cependant pas de respecter les [exigences provinciales applicables aux activités d'assurance](https://lautorite.qc.ca/professionnels/assureurs/droit-dexercice/autorisation-exercer-assureur-quebec). Inversement, une charte québécoise peut s'inscrire dans la continuité historique et organisationnelle d'un assureur dont les activités sont concentrées au Québec, sans interdire à celui-ci d'exercer ailleurs au Canada sous réserve des autorisations nécessaires. Le régime de constitution retenu dépend notamment de l'histoire de l'entreprise, de sa structure de propriété, de ses objectifs de croissance et des contraintes réglementaires. Il ne permet pas, à lui seul, de conclure qu'une forme est systématiquement plus efficace qu'une autre. De même, les proportions observées des différents types de chartes sur le marché ne suffisent pas à établir les causes des décisions de constitution des assureurs.
+</p>
+
+:::
 
 
 
@@ -264,16 +406,7 @@ Les parties doivent également [agir de bonne foi](https://www.legisquebec.gouv.
 
 ### Notion de nullité
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Annul.png" style="width:80%;">
-</div>
+{{< meme "memes/BreakingBad.jpg" "https://fr.wikipedia.org/wiki/Breaking_Bad" "300px" >}}
 
 En droit, la [**nullité**](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:1416) est une sanction qui intervient lorsqu'un contrat ne respecte pas certaines conditions nécessaires à sa validité. Un contrat annulé est, en principe, considéré comme n'ayant jamais existé juridiquement. Le Code civil du Québec distingue deux formes de nullité :
 
@@ -312,17 +445,7 @@ Contrairement à une situation de fausse déclaration, le problème ne concerne 
 
 ### Déclaration et aggravation du risque
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Aggravation.jpg" style="width:80%;">
-</div>
-
+{{< meme "memes/Dalton.jpg" "https://knowyourmeme.com/sensitive/memes/pointing-rick-dalton" "300px" >}}
 
 Lorsqu'un assureur accepte de couvrir un risque, il doit pouvoir en évaluer les caractéristiques afin de déterminer les conditions du contrat et la prime appropriée. Cette évaluation repose notamment sur les renseignements fournis par le preneur et, dans certaines circonstances, par la personne assurée. Selon l'[article 2408 du Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2408), ceux-ci doivent déclarer les circonstances connues qui sont susceptibles d'influencer de façon importante l'appréciation du risque, la détermination de la prime ou la décision de l'assureur d'accepter le contrat. Une fausse déclaration ou une omission importante peut entraîner des conséquences sur la validité du contrat ou sur l'indemnisation, selon les règles applicables ([articles 2410 et 2411](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2410)).
 
@@ -364,16 +487,7 @@ Cet exemple illustre une difficulté importante pour l'actuaire : un risque corr
 
 ### Intérêt assurable
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Mariage.jpg" style="width:80%;">
-</div>
+{{< meme "memes/Fry.jpg" "https://knowyourmeme.com/memes/futurama-fry-not-sure-if" "300px" >}}
 
 L’intérêt d’assurance établit le lien juridiquement pertinent entre une personne et le risque couvert. Il contribue à distinguer une assurance d’un simple pari. Toutefois, sa nature et le moment où il doit exister varient selon la branche d’assurance. En assurance individuelle de personnes, l'[article 2418 du Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2418) exige en principe un intérêt dans la vie ou la santé de l’assuré au moment de la conclusion du contrat, à moins que cette personne n’y consente par écrit. En assurance de biens, l'[article 2481](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2481) exige un intérêt d’assurance au moment du sinistre. Cette différence de calendrier est importante : la validité d’une assurance sur la vie d’autrui et le droit à une indemnité pour la perte d’un bien ne s’apprécient pas selon la même règle.
 
@@ -411,16 +525,7 @@ Cela ne signifie toutefois pas qu'il est impossible d'assurer un bien appartenan
 
 ### Principe indemnitaire et limites de l’indemnisation
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/PrincipeIndem.jpg" style="width:80%;">
-</div>
+{{< meme "memes/Obiwan.jpg" "https://knowyourmeme.com/memes/you-were-the-chosen-one" "350px" >}}
 
 En assurance de dommages, le contrat est structuré autour du [principe indemnitaire (article 2463 du Code civil du Québec)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2463). L’objectif n’est pas d’enrichir l’assuré, mais de le replacer, autant que possible, dans la situation financière qui aurait été la sienne en l’absence du sinistre. Ce principe s'articule avec les plafonds, les franchises, les limites de garantie et les mécanismes d’évaluation des pertes prévus au contrat. Pour l’actuaire, le principe indemnitaire est essentiel pour comprendre pourquoi la distribution des sinistres observés ne correspond pas nécessairement à la distribution des pertes économiques réelles. Le contrat d’assurance modifie la forme des pertes indemnisées, en imposant des limites et des ajustements qui doivent être intégrés aux modèles de tarification et de provisionnement. Ce principe permet également de comprendre pourquoi certaines structures contractuelles sont privilégiées dans la pratique. Les montants assurés, les clauses de [valeur à neuf ou de valeur dépréciée](https://lautorite.qc.ca/grand-public/glossaire-financier) et les limites de responsabilité reflètent à la fois des choix contractuels et des règles juridiques qui influencent directement les résultats financiers de l’assureur.
 
@@ -444,25 +549,14 @@ L'assurance-vie ne repose pas sur le principe indemnitaire : le [capital versé 
 
 > Un propriétaire subit un incendie qui endommage gravement la cuisine de sa résidence. Le coût pour reconstruire la cuisine à neuf est estimé à 40 000 $. Toutefois, la police d’assurance prévoit une franchise de 2 000 $ et une indemnisation en valeur dépréciée. En tenant compte de l’usure des matériaux et de l’âge des installations, la valeur indemnisable est évaluée à 28 000 $. L’assureur verse donc une indemnité de 26 000 $ après application de la franchise.
 
-Cet exemple illustre concrètement le principe indemnitaire. Même si la reconstruction à neuf coûterait 40 000 $, le montant effectivement versé par l’assureur est inférieur, puisqu'il tient compte de la dépréciation et de la franchise prévues au contrat. L'indemnisation vise ici à compenser la valeur des éléments endommagés, plutôt qu'à financer leur remplacement intégral par des installations neuves.
-
-Certaines garanties de [*valeur à neuf*](https://lautorite.qc.ca/grand-public/glossaire-financier) modifient toutefois la façon de calculer la prestation prévue au contrat. Leur effet sur la fréquence et le coût des réclamations constitue une question empirique, qui ne peut être tranchée sans données appropriées.
+Cet exemple illustre concrètement le principe indemnitaire. Même si la reconstruction à neuf coûterait 40 000 $, le montant effectivement versé par l’assureur est inférieur, puisqu'il tient compte de la dépréciation et de la franchise prévues au contrat. L'indemnisation vise ici à compenser la valeur des éléments endommagés, plutôt qu'à financer leur remplacement intégral par des installations neuves. Certaines garanties de [*valeur à neuf*](https://lautorite.qc.ca/grand-public/glossaire-financier) modifient toutefois la façon de calculer la prestation prévue au contrat. Leur effet sur la fréquence et le coût des réclamations constitue une question empirique, qui ne peut être tranchée sans données appropriées.
 
 :::
 
 
 ### Subrogation
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Legal2.jfif" style="width:80%;">
-</div>
+{{< meme "memes/Taken.jpg" "https://knowyourmeme.com/memes/i-will-find-you-and-i-will-kill-you" "300px" >}}
 
 En assurance de dommages, la [subrogation](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2474) permet à l’assureur, dans les limites de l’indemnité versée, d’exercer les droits de l’assuré contre un tiers responsable du préjudice (article 2474 du Code civil du Québec). L’assureur ne peut toutefois pas se subroger contre les personnes qui font partie de la maison de l’assuré. Ce mécanisme vise notamment à éviter qu'une même perte soit indemnisée deux fois dans le cadre de l'assurance de dommages et à faire supporter, ultimement, le coût du sinistre à la personne qui en est responsable lorsque cela est possible. Du point de vue actuariel, la subrogation explique pourquoi le coût final d’un sinistre peut différer du montant initialement payé. Les montants récupérés ultérieurement influencent les coûts ultimes, les résultats techniques et les flux de trésorerie. Ils doivent donc être intégrés à l’analyse des données de sinistres, notamment dans l’estimation des charges ultimes et des provisions. La subrogation illustre ainsi que le règlement initial d’un sinistre ne marque pas toujours la fin de son impact financier pour l’assureur.
 
@@ -494,16 +588,7 @@ En vertu de l'[article 2474 du Code civil du Québec](https://www.legisquebec.go
 
 ### Droit de sauvetage
 
-<div style="
-float:right;
-width:28vw;
-max-width:320px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Lifeguard.jpg" style="width:80%;">
-</div>
+{{< meme "memes/Django.jpg" "https://knowyourmeme.com/memes/leonardo-dicaprio-laughing" "300px" >}}
 
 En assurance de dommages, le droit de sauvetage concerne la récupération d’un bien endommagé ou de sa valeur résiduelle, dans les conditions prévues par la loi ou le contrat. L’[article 2494 du Code civil du Québec](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2494) prévoit que l’assureur qui s’est réservé la faculté de réparer, de reconstruire ou de remplacer le bien bénéficie du droit de sauvetage et peut récupérer celui-ci, sous réserve des droits des créanciers prioritaires et hypothécaires. De son côté, le [formulaire de police d’assurance automobile du Québec (F.P.Q. n° 1, p. 24)](https://lautorite.qc.ca/fileadmin/lautorite/formulaires/professionnels/assureurs/automobile/fpq_1.pdf) prévoit expressément le droit de l’assureur de récupérer le bien ou sa partie endommagée après indemnisation. L’assureur peut ainsi récupérer un véhicule déclaré perte totale et en tirer une valeur résiduelle, par exemple en le revendant pour ses pièces ou pour sa réparation. Du point de vue actuariel, cette récupération réduit le coût net du sinistre et doit être prise en compte dans l’estimation des charges ultimes et des provisions. Comme dans le cas de la subrogation, le montant initialement versé à l’assuré ne représente donc pas nécessairement le coût définitif du sinistre pour l’assureur.
 
@@ -535,21 +620,7 @@ Ces deux mécanismes peuvent intervenir dans un même sinistre. Ils constituent 
 
 :::
 
-
-
-
 ### Prescription et délais
-
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Clock.jpg" style="width:80%;">
-</div>
 
 Les délais de déclaration du sinistre et les délais de prescription sont deux mécanismes distincts :
 
@@ -558,9 +629,6 @@ Les délais de déclaration du sinistre et les délais de prescription sont deux
 - La prescription extinctive détermine le délai pendant lequel un recours peut être exercé. Au Québec, l'[article 2925](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2925) prévoit en principe un délai de trois ans pour une action visant à faire valoir un droit personnel, sauf délai particulier. Le point de départ, la suspension ou l’interruption de la prescription dépendent des règles applicables et des circonstances.
 
 Il faut donc éviter de confondre une déclaration tardive faite à l’assureur avec une action judiciaire entreprise après l’expiration du délai de prescription.
-
-<div style="clear: both;"></div>
-
 
 ::: {.act-cas .act-cas-vie}
 
@@ -587,16 +655,7 @@ Deux difficultés distinctes peuvent se présenter. D’une part, le retard de d
 
 ### Preuve, enquête et charge de la preuve
 
-<div style="
-float:right;
-width:28vw;
-max-width:420px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Detective.jpg" style="width:80%;">
-</div>
+{{< meme "images/Detective.jpg" "https://www.imdb.com/fr-ca/title/tt5884052/" "300px" >}}
 
 Le contrat d’assurance ne se limite pas à définir des garanties et des exclusions. Il encadre également la manière dont un sinistre doit être établi, vérifié et, le cas échéant, indemnisé. La survenance d’un événement assuré ne suffit pas, à elle seule, à entraîner automatiquement le versement d’une prestation. Encore faut-il que les conditions prévues au contrat soient démontrées. Cette exigence se traduit par une répartition de la [charge de la preuve (article 2803 du Code civil du Québec)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991#se:2803) entre les parties. La personne qui réclame une prestation doit généralement établir les faits donnant ouverture à la garantie et, lorsque cela est applicable, l'étendue de la perte. De son côté, l'assureur qui invoque une exclusion, une limitation ou une cause de nullité doit démontrer les faits justifiant son application.
 
@@ -649,13 +708,7 @@ Ce chapitre n’avait pas pour objectif de transformer le cours en droit des ass
 
 
 
-<div style="
-  background: #F5F7FA;
-  border-left: 3px solid #A0A8B0;
-  padding: 12px 18px;
-  margin: 1.5em 0;
-  border-radius: 3px;
-">
+::: {style="background: #FAF0EF; border-left: 3px solid #B76E65; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
 <strong>Portée du survol juridique</strong>
 
@@ -665,8 +718,7 @@ Ce chapitre présente une sélection de notions juridiques pertinentes pour comp
 
 </p>
 
-</div>
-
+:::
 
 
 

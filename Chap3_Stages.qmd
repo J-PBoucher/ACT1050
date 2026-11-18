@@ -50,11 +50,11 @@ Ce chapitre présente les conditions de reconnaissance des stages, les différen
 
 <div style="clear: both;"></div>
 
-## Le cours ACT6901 – Stage en actuariat I
+::: {style="background: #F5F7FC; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-Le cours ACT6901 – Stage en actuariat I correspond à un premier stage crédité en milieu industriel ou universitaire, dans un domaine de l’actuariat ou dans un domaine connexe. Son contenu doit être planifié et approuvé par la direction de programme avant sa réalisation [↗](https://etudier.uqam.ca/cours?sigle=ACT6901 "Source : UQAM, description du cours ACT6901"){.source-link}.
+<strong> Le cours ACT6901 – Stage en actuariat I </strong>
 
-Ce stage vise à :
+Le cours ACT6901 – Stage en actuariat I correspond à un premier stage crédité en milieu industriel ou universitaire, dans un domaine de l’actuariat ou dans un domaine connexe. Son contenu doit être planifié et approuvé par la direction de programme avant sa réalisation [↗](https://etudier.uqam.ca/cours?sigle=ACT6901 "Source : UQAM, description du cours ACT6901"){.source-link}. Ce stage vise à :
 
 - mettre en pratique des savoirs théoriques et pratiques en actuariat dans un contexte professionnel;
 - développer une communication claire, à l’oral et à l’écrit, avec différents types de collègues;
@@ -70,11 +70,13 @@ Pour s’inscrire à ACT6901, l’étudiant doit respecter les conditions suivan
   - [ACT2035 – Actuariat et informatique](https://etudier.uqam.ca/cours?sigle=ACT2035);
   - [ACT2060 – Applications probabilistes des risques actuariels](https://etudier.uqam.ca/cours?sigle=ACT2060).
 
-## Le cours ACT6902 – Stage en actuariat II
+:::
 
-Le cours ACT6902 – Stage en actuariat II correspond à une seconde expérience professionnelle, réalisée à un stade plus avancé du cheminement. Le stage peut se dérouler dans un autre domaine de l’actuariat ou approfondir un domaine déjà abordé par des tâches plus complexes [↗](https://etudier.uqam.ca/cours?sigle=ACT6902 "Source : UQAM, description du cours ACT6902"){.source-link}.
+::: {style="background: #F5F7FC; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
-Les objectifs du Stage II prolongent ceux du Stage I. Il s’agit notamment de :
+<strong> Le cours ACT6902 – Stage en actuariat II </strong>
+
+Le cours ACT6902 – Stage en actuariat II correspond à une seconde expérience professionnelle, réalisée à un stade plus avancé du cheminement. Le stage peut se dérouler dans un autre domaine de l’actuariat ou approfondir un domaine déjà abordé par des tâches plus complexes [↗](https://etudier.uqam.ca/cours?sigle=ACT6902 "Source : UQAM, description du cours ACT6902"){.source-link}. Les objectifs du Stage II prolongent ceux du Stage I. Il s’agit notamment de :
 
 - mobiliser les connaissances acquises dans un nouveau domaine de l’actuariat ou dans des activités plus complexes;
 - renforcer les aptitudes de communication orale et écrite;
@@ -93,6 +95,8 @@ Pour s’inscrire à ACT6902, l’étudiant doit respecter les conditions suivan
 
 Malgré son appellation, ACT6901 n’est pas un préalable académique officiel d’ACT6902. Les conditions d’accès sont celles indiquées dans la description du cours.
 
+:::
+
 ## Encadrement et évaluation des stages crédités
 
 Les cours ACT6901 et ACT6902 sont soumis aux mêmes exigences générales d’encadrement et d’évaluation :
@@ -106,6 +110,7 @@ Ces conditions s’appliquent aussi lorsqu’un étudiant trouve lui-même un st
 
 ## Comparaison entre ACT6901 et ACT6902
 
+::: {.encadre2}
 | Élément | ACT6901 | ACT6902 |
 |:---|:---|:---|
 | Place dans le parcours | Premier stage crédité | Second stage crédité |
@@ -116,6 +121,7 @@ Ces conditions s’appliquent aussi lorsqu’un étudiant trouve lui-même un st
 | Préalables académiques | ACT2035 et ACT2060 | ACT2060, ACT3035, ACT3300, et (ACT3400 ou ACT3410) |
 | Niveau de complexité attendu | Initiation au milieu professionnel | Activités plus complexes ou spécialisées |
 | Évaluation | Rapport et évaluation du superviseur; Succès / Échec | Rapport et évaluation du superviseur; Succès / Échec |
+:::
 
 ## Babillard Moodle et StagePro
 
@@ -132,9 +138,7 @@ text-align:center;
 </div>
 </div>
 
-Les offres de stage et d’emploi destinées aux étudiants en actuariat sont notamment diffusées par le [babillard Moodle](https://ena01.uqam.ca/course/view.php?id=11223) du programme. Le [Service des stages de la Faculté des sciences](https://stagesciences.uqam.ca/) offre également des ressources pour la recherche et la reconnaissance des stages. Il met notamment à la disposition des étudiants la [plateforme StagePro](https://stagesciences.uqam.ca/comment-utiliser-stagepro/), qui permet de consulter les offres de stage et de postuler. Il est utile de consulter régulièrement ces canaux, puisque les offres et les modalités de candidature peuvent varier.
-
-Afin de mettre en place des conditions favorables à l’obtention d’un stage ou d’un emploi, plusieurs éléments peuvent être pris en compte :
+Les offres de stage et d’emploi destinées aux étudiants en actuariat sont notamment diffusées par le [babillard Moodle](https://ena01.uqam.ca/course/view.php?id=11223) du programme. Le [Service des stages de la Faculté des sciences](https://stagesciences.uqam.ca/) offre également des ressources pour la recherche et la reconnaissance des stages. Il met notamment à la disposition des étudiants la [plateforme StagePro](https://stagesciences.uqam.ca/comment-utiliser-stagepro/), qui permet de consulter les offres de stage et de postuler. Il est utile de consulter régulièrement ces canaux, puisque les offres et les modalités de candidature peuvent varier. Afin de mettre en place des conditions favorables à l’obtention d’un stage ou d’un emploi, plusieurs éléments peuvent être pris en compte :
 
 - La préparation du curriculum vitae, de la lettre de présentation et de l’entrevue joue un rôle important [↗](https://portailetudiant.uqam.ca/emploi-orientation/ateliers-formations/ "Source : UQAM, ateliers de préparation à l’emploi"){.source-link}. Il est recommandé d’assister aux séances d’information offertes et, au besoin, de prendre rendez-vous avec l’agente de stage, Florence Onar, du [Service des stages](https://stagesciences.uqam.ca/coordonnees/).
 - La présence d’un profil LinkedIn complet et régulièrement mis à jour permet de présenter de manière structurée le parcours académique et les expériences pertinentes.

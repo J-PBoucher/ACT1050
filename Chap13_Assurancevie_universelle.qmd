@@ -26,6 +26,11 @@ date-modified: last-modified
 
 <div id="plan-chapitre-auto"></div>
 
+<!--
+{{< meme "memes/CatCELI.png" "https://knowyourmeme.com/memes/i-should-buy-a-boat-cat" "450px" >}}
+<div style="clear: both;"></div>
+-->
+
 :::
 
 ## Introduction
@@ -39,25 +44,7 @@ Cette séparation permet au titulaire de moduler ses versements et de choisir pa
 
 ## Historique du développement du produit
 
-<div style="
-float:right;
-display:inline-block;
-margin:0 0 1em 1em;
-text-align:center;
-border:0.5px solid #bbb;
-padding:6px;
-background:white;
-max-width:430px;
-">
-
-<img src="images/UQAM1980.jpg"
-style="width:100%; height:auto; display:block;">
-
-<div style="font-size:0.85em; margin-top:0.4em; color:#555;">
-Une salle de classe à l'UQAM, vers 1980
-</div>
-
-</div>
+{{< meme "memes/Lando.jpg" "https://www.youtube.com/watch?v=KxWckALd794" "350px" >}}
 
 L'assurance vie universelle a connu son véritable essor commercial au début des années 1980, dans un contexte de hausse spectaculaire des taux d'intérêt et de concurrence croissante entre les compagnies d'assurance et les autres institutions financières. À cette époque, les contrats d'assurance vie entière représentaient une source importante d'épargne à long terme. Les assureurs investissaient les sommes reçues dans différents actifs, notamment des obligations. Or, une grande partie de leurs portefeuilles était constituée de placements effectués plusieurs années auparavant, lorsque les taux d'intérêt étaient nettement plus faibles.
 
@@ -230,16 +217,7 @@ Le tableau montre que plus le taux d'intérêt utilisé dans le calcul est élev
 
 ### Conséquences pour les assureurs
 
-<div style="
-float:right;
-width:28vw;
-max-width: 370px;
-min-width:240px;
-margin:0 0 1em 1em;
-text-align:center;
-">
-<img src="images/Thisisfine.jpg" style="width:100%; height:auto; display:block; margin:auto;">
-</div>
+{{< meme "memes/Thisisfine.jpg" "https://knowyourmeme.com/memes/this-is-fine" "350px" >}}
 
 Ces changements de comportement ont eu plusieurs conséquences importantes sur la situation financière des compagnies d'assurance vie.
 
@@ -474,6 +452,8 @@ Cette distinction a une conséquence importante sur le coût de l'assurance. Dan
 
 ### Transparence et choix des placements
 
+{{< meme "memes/Walter.jpg" "https://knowyourmeme.com/memes/i-am-the-one-who-knocks" "350px" >}}
+
 L'une des principales innovations de l'assurance vie universelle concerne la transparence et le contrôle des placements. Dans une assurance vie entière traditionnelle, les sommes sont généralement investies et gérées par l'assureur, qui détermine sa stratégie de placement. Dans le cas d'une assurance avec participation, les rendements obtenus contribuent aux résultats du fonds de participation, mais ne sont pas directement crédités aux contrats. L'assureur détermine notamment la portion des surplus qui sera redistribuée aux titulaires sous forme de participations. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Fonctionnement de l'assurance vie entière avec participation"){.source-link}
 
 L'assurance vie universelle propose une approche différente. Le titulaire peut choisir comment répartir les sommes de son compte de capitalisation parmi les options de placement offertes par l'assureur. Il connaît ainsi les options retenues, les modalités selon lesquelles leurs rendements sont calculés et les rendements effectivement crédités à son compte. Cette structure permet d'établir un lien plus direct entre les choix de placement du titulaire et l'évolution de son épargne. Selon le produit, les options proposées peuvent notamment comprendre :
@@ -486,6 +466,8 @@ L'assurance vie universelle propose une approche différente. Le titulaire peut 
 Le titulaire peut généralement répartir les sommes entre plusieurs options et modifier cette répartition selon les modalités du contrat. Il ne devient toutefois pas nécessairement propriétaire des actifs sous-jacents. Par exemple, choisir un compte indiciel lié au S&P 500 ne signifie pas que le titulaire détient directement les actions des entreprises composant cet indice. Son compte reçoit plutôt un rendement calculé selon les modalités prévues au contrat. [↗](https://www.canadalife.com/fr/assurance/assurance-vie/assurance-vie-permanente/assurance-vie-universelle.html "Canada Vie — Assurance vie universelle et choix des placements"){.source-link}
 
 La distinction fondamentale est donc celle du rôle joué par le titulaire dans la gestion de l'épargne. Avec l'assurance vie entière traditionnelle, il confie essentiellement cette responsabilité à l'assureur. Avec l'assurance vie universelle, il peut orienter ses placements en fonction de ses préférences et observer plus directement les résultats de ses choix. Cette liberté s'accompagne d'une plus grande exposition aux rendements des options sélectionnées. Des rendements élevés favorisent l'accumulation de sommes dans le compte, tandis que des rendements faibles ou négatifs peuvent réduire les fonds disponibles pour financer les coûts futurs de l'assurance. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-universelle "AMF — Assurance vie universelle"){.source-link}
+
+<div style="clear: both;"></div>
 
 
 ### Les différentes structures du coût d'assurance
@@ -690,11 +672,14 @@ Au cours de la dernière année, un rendement de placement de 2 000 $ a été cr
 
 **Comparaison des trois situations**
 
+::: {.encadre}
 | Situation | Montant considéré | Conséquence fiscale |
 |:--|--:|:--|
 | Accumulation des rendements | 2 000 $ de revenu de placement | Aucun impôt annuel pour le titulaire |
 | Rachat total | 50 000 $ récupérés | 20 000 $ imposables, soit 8 000 $ d'impôt |
 | Décès | 250 000 $ versés au bénéficiaire | Généralement non imposable |
+
+:::
 
 La distinction est importante : l'assurance vie universelle permet de reporter l'imposition des revenus de placement accumulés dans une police exonérée, mais les sommes récupérées du vivant du titulaire peuvent donner lieu à un gain imposable. En revanche, le capital versé au décès bénéficie généralement d'un traitement fiscal différent.
 
@@ -724,6 +709,8 @@ L'assurance vie entière et l'assurance vie universelle poursuivent un objectif 
 
 Le tableau suivant résume les principales distinctions. Pour l'assurance vie entière, nous considérons les contrats traditionnels, avec ou sans participation.
 
+::: {.encadre2}
+
 | Élément | Assurance vie entière traditionnelle | Assurance vie universelle |
 |:--|:--|:--|
 | Primes ou dépôts | Généralement fixes et déterminés à la souscription | Montant et fréquence généralement modulables |
@@ -743,6 +730,9 @@ Le tableau suivant résume les principales distinctions. Pour l'assurance vie en
 | Projections financières | Valeurs garanties et, s'il y a lieu, projections des participations futures | Projections du compte selon les hypothèses de rendement, les dépôts et les coûts |
 
 Les distinctions présentées sont générales : les caractéristiques exactes dépendent du produit et des garanties retenues. [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-entiere-et-avec-participation "AMF — Assurance vie entière et avec participation"){.source-link} [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/principaux-types-dassurance-vie/lassurance-vie-universelle "AMF — Assurance vie universelle"){.source-link} [↗](https://lautorite.qc.ca/grand-public/assurance/assurance-vie/comment-utiliser-une-valeur-de-rachat-sans-mettre-fin-a-son-assurance "AMF — Valeurs de rachat et compte de capitalisation"){.source-link}
+
+:::
+
 
 ::: {style="background: #F5F7FA; border-left: 3px solid #A0A8B0; padding: 12px 18px; margin: 1.5em 0; border-radius: 3px;"}
 
